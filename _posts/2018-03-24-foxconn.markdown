@@ -2,8 +2,8 @@
 layout: venezuela
 color-schema: red-dark
 title: "Por 866 millones de dólares Foxconn compra Belkin con la mira puesta en el hogar conectado"
-image: "https://i1.wp.com/altadensidad.com/wp-content/uploads/2013/05/2012_8_22_9U1ynriGYEYqiEFRyMrSK5.jpg"
-categories: [Venezuela,Colombia,Peru,Chile]
+image: "https://dummyimage.com/540x320/000/fff.png"
+categories: [Venezuela,Ecuador,Peru,Colombia,Chile,Argentina]
 ---
 
 Foxconn, el gigante taiwanés mayormente conocido por fabricar iPhone, acaba de entrar en el mercado del hogar inteligente por todo lo alto con la compra de Belkin. El acuerdo firmado por ambas compañías aún está pendiente de aprobar por el Comité de Inversiones Extranjeras en los Estados Unidos, pero la cifra ya está cerrada: Foxconn pagará 866 millones de dólares para adquirir Belkin.

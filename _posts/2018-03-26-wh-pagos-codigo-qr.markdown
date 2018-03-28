@@ -2,8 +2,8 @@
 layout: venezuela
 color-schema: red-dark
 title: "WhatsApp prueba pagos con códigos QR en India"
-image: "https://i1.wp.com/altadensidad.com/wp-content/uploads/2018/03/código-QR.jpg"
-categories: [Venezuela,Ecuador,Chile,Argentina]
+image: "https://dummyimage.com/540x320/000/fff.png"
+categories: [Venezuela,Ecuador,Peru,Colombia,Chile,Argentina]
 ---
 
 Quizás los códigos QR recuperen popularidad en Occidente gracias a WhatsApp. Su funcionalidad de pagos, WhatsApp Pay, por el momento solo permite realizar transferencias entre usuarios particulares en la India pero que tarde o temprano llegará a más países, acaba de incorporar los QR para facilitar los pagos. Escanear el código, introducir cantidad y punto, es la nueva opción.

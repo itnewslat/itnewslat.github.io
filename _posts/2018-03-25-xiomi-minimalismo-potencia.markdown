@@ -2,8 +2,8 @@
 layout: venezuela
 color-schema: red-dark
 title: "Minimalismo y potencia para conquistar al mundo gaming es la apuesta de Xiaomi"
-image: "https://i1.wp.com/altadensidad.com/wp-content/uploads/2018/03/Xiaomi-Mi-Gaming-Laptop.jpg"
-categories: [Colombia,Argentina,Peru,Chile,Ecuador]
+image: "https://dummyimage.com/540x320/000/fff.png"
+categories: [Venezuela,Ecuador,Peru,Colombia,Chile,Argentina]
 ---
 
 Xiaomi presentó en Shanghai el nuevo Mi Gaming Laptop, un equipo portátil de 15,6 pulgadas que reúne potencia y diseño en un único lugar. En el interior del equipo se encuentra la séptima generación de procesadores Intel Core i7, acompañados de 16 GB de memoria RAM DDR4 dual channel, un SSD de 256 GB y un disco duro de 1 terabyte.
