@@ -70,7 +70,7 @@
                         {% for item in site.categories[option.element] limit: 4 %}
 
                           <div class="col-lg-3 py-2" data-url="{{ item.url }}">
-                            <img data-toggle="blazy" data-src="https://dummyimage.com/540x320/000000/fff.png" class="img-fluid" />
+                            <img data-toggle="blazy" data-src="{{ item.image }}" class="img-fluid" />
                             <h5 class="mt-2 mb-0">
                               {{ item.title | truncatewords:8 }}
                             </h5>
