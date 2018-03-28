@@ -15,11 +15,15 @@
  * scss files
  *******************************************************/
 
+/* line 652, assets/scss/core/_mixins.scss */
+
 .product-offer-countdown .countdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
+/* line 19, assets/scss/theme-shop.scss */
 
 .header .header-slogan,
 .header .header-brand-text,
@@ -28,18 +32,22 @@
   text-transform: uppercase;
 }
 
+/* line 25, assets/scss/theme-shop.scss */
+
 .header .header-brand-text h1 {
   font-weight: 700;
   font-size: 32px !important;
 }
 
 @media (max-width: 767.98px) {
+  /* line 25, assets/scss/theme-shop.scss */
   .header .header-brand-text h1 {
     font-size: 26px !important;
   }
 }
 
 @media (max-width: 767.98px) {
+  /* line 33, assets/scss/theme-shop.scss */
   .header .header-btn,
   .header .cart-link {
     width: auto;
@@ -47,28 +55,40 @@
   }
 }
 
+/* line 41, assets/scss/theme-shop.scss */
+
 .header-compact .header .header-brand-text h1,
 .header-compact-sticky .header.is-sticky .header-brand-text h1,
 .header-compact-sticky .is-sticky .header .header-brand-text h1 {
   font-size: 28px !important;
 }
 
+/* line 49, assets/scss/theme-shop.scss */
+
 .product-price-badge {
   font-size: 95%;
   padding: .5em;
 }
 
+/* line 54, assets/scss/theme-shop.scss */
+
 .product-card .persist {
   z-index: 10;
 }
+
+/* line 58, assets/scss/theme-shop.scss */
 
 .product-card .card-footer {
   background: white;
 }
 
+/* line 65, assets/scss/theme-shop.scss */
+
 .cart-img {
   max-width: 100px;
 }
+
+/* line 74, assets/scss/theme-shop.scss */
 
 .cart-link .cart-link-icon,
 .cart-link-lg .cart-link-icon {
@@ -76,6 +96,8 @@
   display: inline-block;
   text-align: center;
 }
+
+/* line 80, assets/scss/theme-shop.scss */
 
 .cart-link .cart-link-count,
 .cart-link-lg .cart-link-count {
@@ -95,15 +117,21 @@
   display: inline-block;
 }
 
+/* line 97, assets/scss/theme-shop.scss */
+
 .cart-link .cart-link-subtotal,
 .cart-link-lg .cart-link-subtotal {
   display: inline-block;
 }
 
+/* line 102, assets/scss/theme-shop.scss */
+
 .cart-remove {
   float: none;
   font-size: 15px;
 }
+
+/* line 106, assets/scss/theme-shop.scss */
 
 .cart-img {
   border: 1px solid #E6E6E6;
@@ -111,6 +139,8 @@
   padding: 1px;
   background: white;
 }
+
+/* line 113, assets/scss/theme-shop.scss */
 
 .cart-dropdown-menu {
   min-width: 16rem !important;
@@ -121,17 +151,22 @@
 }
 
 @media (min-width: 576px) {
+  /* line 113, assets/scss/theme-shop.scss */
   .cart-dropdown-menu {
     min-width: 300px !important;
     max-width: 400px;
   }
 }
 
+/* line 125, assets/scss/theme-shop.scss */
+
 .cart-dropdown-menu .cart-items {
   max-height: 400px;
   overflow-y: auto;
   padding: 0 5px;
 }
+
+/* line 130, assets/scss/theme-shop.scss */
 
 .cart-dropdown-menu .cart-items .cart-items-item {
   position: relative;
@@ -142,11 +177,15 @@
   margin-right: 0;
 }
 
+/* line 2, assets/scss/assets/bootstrap_src/mixins/_clearfix.scss */
+
 .cart-dropdown-menu .cart-items .cart-items-item::after {
   display: block;
   clear: both;
   content: "";
 }
+
+/* line 139, assets/scss/theme-shop.scss */
 
 .cart-dropdown-menu .cart-items .cart-items-item:last-child,
 .cart-dropdown-menu .cart-items .cart-items-item.last-child {
@@ -154,9 +193,13 @@
   border-bottom: none;
 }
 
+/* line 146, assets/scss/theme-shop.scss */
+
 .cart-dropdown-menu .cart-items .cart-img {
   max-width: 60px !important;
 }
+
+/* line 149, assets/scss/theme-shop.scss */
 
 .cart-dropdown-menu .cart-items .cart-remove {
   font-size: 13px;
@@ -165,34 +208,50 @@
   right: 3px;
 }
 
+/* line 157, assets/scss/theme-shop.scss */
+
 .cart-content-footer {
   padding: 15px 0;
 }
 
+/* line 160, assets/scss/theme-shop.scss */
+
 .cart-content-totals {
   margin-bottom: 15px;
 }
+
+/* line 164, assets/scss/theme-shop.scss */
 
 .cart-table td,
 .cart-table th {
   vertical-align: middle;
 }
 
+/* line 169, assets/scss/theme-shop.scss */
+
 .cart-table .input-group-quantity {
   max-width: 150px;
 }
+
+/* line 173, assets/scss/theme-shop.scss */
 
 .cart-table-summary {
   font-size: 95%;
 }
 
+/* line 176, assets/scss/theme-shop.scss */
+
 .cart-table-summary .cart-img {
   max-width: 100px;
 }
 
+/* line 181, assets/scss/theme-shop.scss */
+
 .cart-table-summary.cart-table-summary-sm .cart-img {
   max-width: 60px;
 }
+
+/* line 193, assets/scss/theme-shop.scss */
 
 .product-offer-countdown .countdown .count {
   background: #E6E6E6;
@@ -205,13 +264,19 @@
   min-width: 46px;
 }
 
+/* line 203, assets/scss/theme-shop.scss */
+
 .product-offer-countdown .countdown .count:first-child {
   border-radius: 0.25em 0 0 0.25em;
 }
 
+/* line 206, assets/scss/theme-shop.scss */
+
 .product-offer-countdown .countdown .count:last-child {
   border-radius: 0 0.25em 0.25em 0;
 }
+
+/* line 210, assets/scss/theme-shop.scss */
 
 .product-offer-countdown .countdown .digit {
   font-size: 160%;

@@ -1,83 +1,17 @@
-/*/////////////////////////////////////////////////////////////////////
- // 
- // Custom theme code styles
- // Written by Themelize.me (http://themelize.me)
- // 
- // This is an empty starter template for overriding styles
- // set by Bootstrap & the theme
- // 
- // ----------------------------------------------------
- // 
- // Remove unused code for better performances
- // 
- // ----------------------------------------------------
- // 
- // $see - Usefuls tools online for editing
- // 1. http://charliepark.org/bootstrap_buttons/ - Button style generator
- // 2. http://www.colorzilla.com/gradient-editor/ - CSS3 gradient maker
- // 
- // $note
- // To ensure custom styles are picked up
- // wrap definitions in body tag
- // ie.
- // body .navbar-inner {
- //   background: #ff0000;
- // }
- // 
- /////////////////////////////////////////////////////////////////////*/
-
-/*******************************************************
- * Custom theme code styles
- * Written by Themelize.me (http://themelize.me)
- *
- * Includes the base variables & mixins needed for all
- * scss files
- *******************************************************/
-
-/*
- * --------------------------------------------------
- * 1. General Elements
- *--------------------------------------------------
- */
-
-#header {
-  /* 1. Header wrapper */
+.header-logo{
+  height: 38px;
 }
 
-#highlighted {
-  /* 2. Highlighted (below header) wrapper */
+@media (min-width: 319px) {
+  .logoHeight{
+    height: 37px;
+  }
 }
-
-#content {
-  /* 3. Content wrapper */
-}
-
-#content-below {
-  /* 4. Content Below wrapper */
-}
-
-#footer {
-  /* 5. Footer wrapper */
-}
-
-/*
- * --------------------------------------------------
- * 2. Colours
- *-------------------------------------------------- 
- */
-
-/*
- * --------------------------------------------------
- * 3. Responsiveness/media queries
- *--------------------------------------------------
- */
-
-/* Extra small devices (phones, less than 768px) */
-
-/* No media query since this is the default in Bootstrap */
 
 @media (min-width: 576px) {
-  /* Small devices (576px and up). Mixin: media-breakpoint-up(sm) */
+  .logoHeight{
+    height: 45px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -86,6 +20,9 @@
 
 @media (min-width: 992px) {
   /* Large devices (992px and up). Mixin: media-breakpoint-up(lg) */
+  .logoHeight{
+    height: 59px;
+  }
 }
 
 @media (min-width: 1200px) {

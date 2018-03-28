@@ -1,0 +1,9 @@
+header-publicity: 'https://dummyimage.com/480x60/000/fff.png'
+
+header_options:
+  - element: Venezuela
+  - element: Colombia
+  - element: Argentina
+  - element: Chile
+  - element: Peru
+  - element: Ecuador

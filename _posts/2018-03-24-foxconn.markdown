@@ -1,0 +1,13 @@
+---
+layout: venezuela
+color-schema: red-dark
+title: "Por 866 millones de dólares Foxconn compra Belkin con la mira puesta en el hogar conectado"
+image: "https://i1.wp.com/altadensidad.com/wp-content/uploads/2013/05/2012_8_22_9U1ynriGYEYqiEFRyMrSK5.jpg"
+categories: [Venezuela,Colombia,Peru,Chile]
+---
+
+Foxconn, el gigante taiwanés mayormente conocido por fabricar iPhone, acaba de entrar en el mercado del hogar inteligente por todo lo alto con la compra de Belkin. El acuerdo firmado por ambas compañías aún está pendiente de aprobar por el Comité de Inversiones Extranjeras en los Estados Unidos, pero la cifra ya está cerrada: Foxconn pagará 866 millones de dólares para adquirir Belkin.
+
+Con dicha inversión Foxconn pretende convertirse en un “líder global de electrónica de consumo“ y sin ninguna duda se convertirá en un fuerte competidor en el mercado del hogar inteligente. Belkin se ha dedicado tradicionalmente a la producción de accesorios para computadoras y teléfono móvil; en 2013 adquirió Linksys, conocida por sus routers para el hogar; en el mismo año Belkin creó su sistema de hogar inteligente WeMo. Se trata de un gran salto de Foxconn no solo al mercado del hogar inteligente, sino al mercado del consumo en sí. Hasta ahora la compañía se ha dedicado a la producción y, en caso de aprobarse el acuerdo, se colocaría en primera línea en el mercado de consumo.
+
+Encuentra más detalles en https://altadensidad.com/por-866-millones-de-dolares-foxconn-compra-belkin-con-la-mira-puesta-en-el-hogar-conectado/

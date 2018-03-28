@@ -1,0 +1,14 @@
+---
+layout: venezuela
+color-schema: red-dark
+title: "En España: detienen al jefe de la ciberbanda que robó millones de euros a 100 bancos en 40 países"
+image: "https://i1.wp.com/altadensidad.com/wp-content/uploads/2017/02/shutterstock_188131838.jpg"
+categories: [Venezuela,Ecuador,Peru]
+---
+
+En España: detienen al jefe de la ciberbanda que robó millones de euros a 100 bancos en 40 países marzo 26, 2018 WhatsAppTwitterFacebookLinkedInEmailSMS La policía española ha logrado detener en Alicante al líder del grupo criminal autor de las campañas de malware “Carbanak” y “Cobalt”, las cuales afectaron a más de 100 instituciones financieras en unos 40 países. La detención (que ha sido posible gracias a la cooperación de los cuerpos nacionales con la Europol, el FBI, las autoridades bielorrusas y taiwanesas) pone fin de este modo a uno de los casos más dramáticos de cibercriminalidad que recuerda el sector bancario mundial.
+
+En todos estos ataques, se usó un modus operandi similar. Los delincuentes enviaban a los empleados del banco correos electrónicos, firmados por supuestas compañías legítimas, con un archivo adjunto malicioso. Una vez descargado, el software permitía a los delincuentes controlar remotamente las máquinas infectadas de las víctimas, dándoles acceso a la red bancaria interna e infectando los servidores que controlan los cajeros automáticos. Esto les proporcionaba la información que necesitaban para retirar libremente el dinero que desearan. Desde 2013, este grupo ha atacado entidades y sistemas de pago electrónico, provocando pérdidas acumuladas de un billón de euros a la industria. No en vano, tan solo el malware Cobalt lograba robar hasta 10 millones de euros en cada operación que tenía éxito.
+
+Encuentra más detalles en
+https://altadensidad.com/detienen-al-jefe-de-la-ciberbanda-que-robo-millones-de-euros-a-100-bancos-en-40-paises/
