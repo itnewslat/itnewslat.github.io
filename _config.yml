@@ -9,6 +9,7 @@ url: "" # the base hostname & protocol for your site
 image_url: "/assets/imagenes/"
 logo_red: "logo_large_red.png"
 logo_blue: "logo_large_blue.png"
+logo_green: "logo_large_green.png"
 
 # Build settings
 markdown: kramdown
