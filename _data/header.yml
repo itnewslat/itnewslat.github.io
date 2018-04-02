@@ -2,8 +2,14 @@ header-publicity: 'https://dummyimage.com/480x60/000/fff.png'
 
 header_options:
   - element: Venezuela
+    href: /Venezuela/
   - element: Colombia
+    href: /Colombia/
   - element: Argentina
+    href: /Argentina/
   - element: Chile
+    href: /Chile/
   - element: Peru
+    href: /Peru/
   - element: Ecuador
+    href: /Ecuador/
