@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 image_url: "/assets/imagenes/"
 logo_red: "logo_large_red.png"
+logo_blue: "logo_large_blue.png"
 
 # Build settings
 markdown: kramdown

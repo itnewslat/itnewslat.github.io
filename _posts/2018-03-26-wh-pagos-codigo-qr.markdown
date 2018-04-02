@@ -1,5 +1,5 @@
 ---
-layout: venezuela
+layout: index
 color-schema: red-dark
 title: "WhatsApp prueba pagos con códigos QR en India"
 image: "https://dummyimage.com/540x320/000/fff.png"

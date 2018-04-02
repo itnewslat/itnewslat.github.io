@@ -1,5 +1,5 @@
 ---
-layout: venezuela
+layout: index
 color-schema: red-dark
 title: "Minimalismo y potencia para conquistar al mundo gaming es la apuesta de Xiaomi"
 image: "https://dummyimage.com/540x320/000/fff.png"

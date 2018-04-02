@@ -1,5 +1,5 @@
 ---
-layout: venezuela
+layout: index
 color-schema: red-dark
 title: "En España: detienen al jefe de la ciberbanda que robó millones de euros a 100 bancos en 40 países"
 image: "https://dummyimage.com/540x320/000/fff.png"
