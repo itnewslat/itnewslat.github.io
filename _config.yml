@@ -14,3 +14,71 @@ logo_green: "logo_large_green.png"
 # Build settings
 markdown: kramdown
 permalink: /:title.html
+
+prose:
+  ignore: [
+    '_layouts',
+    '_site',
+    '_includes',
+    'assets',
+    '_config.yml',
+    '.gitignore',
+    'search.json',
+    'README.MD'
+  ]
+  siteurl: ""
+  media: 'images'
+  metadata:
+    _posts:
+      - name: layout
+        field:
+          element: hidden
+          value: post
+      - name: style-header
+        field:
+          element: hidden
+          value: header-v6.css
+      - name: color-schema
+        field:
+          value: red-dark
+      - name: title
+        field:
+          element: text
+          label: Ingrese el título de su publicación
+          type: text
+      - name: date
+        field:
+          element: text
+          label: Fecha de la Publicación
+          value: CURRENT_DATETIME
+      - name: image
+        field:
+          element: text
+          label: Ingrese una imagen para su publicacion
+      - name: image-detail
+        field:
+          element: text
+          label: Ingrese una imagen para el detalle de su publicación
+      - name: categories
+        field:
+          element: multiselect
+          label: Escoja el país donde estara disponible su publicación
+          help: Puede escojer una o mas etiquetas
+          options:
+            - name: 'Venezuela'
+              value: 'Venezuela'
+            - name: 'Colombia'
+              value: 'Colombia'
+            - name: 'Argentina'
+              value: 'Argentina'
+            - name: 'Perú'
+              value: 'Perú'
+            - name: 'Ecuador'
+              value: 'Ecuador'
+            - name: 'Chile'
+              value: 'Chile'
+      - name: tags
+        field:
+          element: multiselect
+          label: Escoja o ingrese la categoría de su publicación
+          help: Puede escojer una o mas etiquetas
