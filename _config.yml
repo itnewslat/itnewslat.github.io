@@ -10,6 +10,7 @@ image_url: "/assets/imagenes/"
 logo_red: "logo_large_red.png"
 logo_blue: "logo_large_blue.png"
 logo_green: "logo_large_green.png"
+logo_white: "logo_large_white.png"
 
 # Build settings
 markdown: kramdown
