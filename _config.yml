@@ -13,3 +13,4 @@ logo_green: "logo_large_green.png"
 
 # Build settings
 markdown: kramdown
+permalink: /:title.html

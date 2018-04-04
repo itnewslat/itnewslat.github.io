@@ -3,6 +3,7 @@ layout: index
 color-schema: red-dark
 title: "News 9"
 image: "https://dummyimage.com/540x320/000/fff.png"
+detail-image: "https://dummyimage.com/1024x680/000/fff"
 categories: [Venezuela,Ecuador,Peru,Colombia,Chile,Argentina]
 tags: [hardware,software]
 ---

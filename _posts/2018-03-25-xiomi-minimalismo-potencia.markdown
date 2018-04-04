@@ -3,6 +3,7 @@ layout: index
 color-schema: red-dark
 title: "Minimalismo y potencia para conquistar al mundo gaming es la apuesta de Xiaomi"
 image: "https://dummyimage.com/540x320/000/fff.png"
+detail-image: "https://dummyimage.com/1024x680/000/fff"
 categories: [Venezuela,Ecuador,Peru,Colombia,Chile,Argentina]
 tags: [hardware,software]
 ---

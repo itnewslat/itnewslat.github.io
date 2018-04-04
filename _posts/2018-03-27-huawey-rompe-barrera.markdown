@@ -1,8 +1,9 @@
 ---
-layout: index
+layout: posts
 color-schema: red-dark
 title: "Huawei rompe la barrera de los 2000 dólares con su teléfono Porsche Design Mate RS"
 image: "https://dummyimage.com/540x320/000/fff.png"
+detail-image: "https://dummyimage.com/1024x680/000/fff"
 categories: [Venezuela,Ecuador,Peru,Colombia,Chile,Argentina]
 tags: [hardware,software]
 ---

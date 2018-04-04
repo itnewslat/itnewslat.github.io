@@ -1,0 +1,22 @@
+<div class="row blog-post">
+  <div class="col-md-1 date-md">
+    <!-- Date desktop -->
+    <div class="date-wrapper"> <span class="date-m bg-primary">{{ page.date | date: "%b" }}</span> <span class="date-d">{{ page.date | date: "%-d" }}</span>
+    </div>
+  </div>
+  <div class="col-md-11">
+    <div class="media-body">
+      <h3 class="title media-heading">
+        {{ page.title }}
+      </h3>
+
+      <!--Main content of post-->
+      <div class="blog-content">
+        <div class="blog-media">
+          <img src="{{page.detail-image}}" alt="{{ page.title }}" class="img-fluid" />
+        </div>
+        <p>{{ page.content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
