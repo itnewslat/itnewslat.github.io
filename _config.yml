@@ -86,11 +86,7 @@ prose:
           alterable: true
       - name: published
         field:
-          element: select
+          element: checkbox
           label: Publicar
           help: Puede elegir entre publicar o guardar su trabajo para continuar luego.
-          options:
-            - name: 'Si'
-              value: true
-            - name: 'No'
-              value: false
+          value: false
