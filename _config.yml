@@ -84,3 +84,13 @@ prose:
           label: Escoja o ingrese la categoría de su publicación
           help: Puede escojer una o mas etiquetas
           alterable: true
+      - name: published
+        field:
+          element: select
+          label: Publicar
+          help: Puede elegir entre publicar o guardar su trabajo para continuar luego.
+          options:
+            - name: 'Si'
+              value: true
+            - name: 'No'
+              value: false
