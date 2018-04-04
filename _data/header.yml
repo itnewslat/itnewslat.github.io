@@ -1,15 +1,121 @@
 header-publicity: 'https://dummyimage.com/480x60/000/fff.png'
 
-header_options:
+header_venezuela_options:
   - element: Venezuela
     href: /Venezuela/
+    flag: flag-icon-ve
   - element: Colombia
     href: /Colombia/
+    flag: flag-icon-co
   - element: Argentina
     href: /Argentina/
+    flag: flag-icon-ar
   - element: Chile
     href: /Chile/
+    flag: flag-icon-cl
   - element: Peru
     href: /Peru/
+    flag: flag-icon-pe
   - element: Ecuador
     href: /Ecuador/
+    flag: flag-icon-ec
+
+header_colombia_options:
+  - element: Colombia
+    href: /Colombia/
+    flag: flag-icon-co
+  - element: Venezuela
+    href: /Venezuela/
+    flag: flag-icon-ve
+  - element: Argentina
+    href: /Argentina/
+    flag: flag-icon-ar
+  - element: Chile
+    href: /Chile/
+    flag: flag-icon-cl
+  - element: Peru
+    href: /Peru/
+    flag: flag-icon-pe
+  - element: Ecuador
+    href: /Ecuador/
+    flag: flag-icon-ec
+
+header_argentina_options:
+  - element: Argentina
+    href: /Argentina/
+    flag: flag-icon-ar
+  - element: Colombia
+    href: /Colombia/
+    flag: flag-icon-co
+  - element: Venezuela
+    href: /Venezuela/
+    flag: flag-icon-ve
+  - element: Chile
+    href: /Chile/
+    flag: flag-icon-cl
+  - element: Peru
+    href: /Peru/
+    flag: flag-icon-pe
+  - element: Ecuador
+    href: /Ecuador/
+    flag: flag-icon-ec
+
+header_chile_options:
+  - element: Chile
+    href: /Chile/
+    flag: flag-icon-cl
+  - element: Argentina
+    href: /Argentina/
+    flag: flag-icon-ar
+  - element: Colombia
+    href: /Colombia/
+    flag: flag-icon-co
+  - element: Venezuela
+    href: /Venezuela/
+    flag: flag-icon-ve
+  - element: Peru
+    href: /Peru/
+    flag: flag-icon-pe
+  - element: Ecuador
+    href: /Ecuador/
+    flag: flag-icon-ec
+
+header_peru_options:
+  - element: Peru
+    href: /Peru/
+    flag: flag-icon-pe
+  - element: Chile
+    href: /Chile/
+    flag: flag-icon-cl
+  - element: Argentina
+    href: /Argentina/
+    flag: flag-icon-ar
+  - element: Colombia
+    href: /Colombia/
+    flag: flag-icon-co
+  - element: Venezuela
+    href: /Venezuela/
+    flag: flag-icon-ve
+  - element: Ecuador
+    href: /Ecuador/
+    flag: flag-icon-ec
+
+header_ecuador_options:
+  - element: Ecuador
+    href: /Ecuador/
+    flag: flag-icon-ec
+  - element: Peru
+    href: /Peru/
+    flag: flag-icon-pe
+  - element: Chile
+    href: /Chile/
+    flag: flag-icon-cl
+  - element: Argentina
+    href: /Argentina/
+    flag: flag-icon-ar
+  - element: Colombia
+    href: /Colombia/
+    flag: flag-icon-co
+  - element: Venezuela
+    href: /Venezuela/
+    flag: flag-icon-ve

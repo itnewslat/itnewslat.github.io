@@ -60,9 +60,12 @@
           <div class="navbar-main collapse">
             <!--main navigation-->
             <ul class="nav navbar-nav container dropdown-effect-fade pos-static">
-              {% for option in site.data.header.header_options %}
-                <li class="nav-item dropdown dropdown-mega-menu ">
-                  <a href="{{ option.element }}/" class="nav-link dropdown-toggle" id="news-drop" data-toggle="dropdown" data-hover="dropdown">{{ option.element }}</a>
+              {% for option in site.data.header.header_colombia_options %}
+              <li class="nav-item dropdown dropdown-mega-menu ">
+                <a href="/{{ option.element }}/" class="nav-link dropdown-toggle">
+                  <i class="flag-icon {{ option.flag }}"></i>
+                  {{ option.element }}</a>
+                <!--id="news-drop" data-toggle="dropdown" data-hover="dropdown"-->
                   <!-- Dropdown Menu - Mega Menu -->
                   <div class="dropdown-menu">
                     <div class="container">

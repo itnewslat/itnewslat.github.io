@@ -37,7 +37,7 @@
         <!-- Mobile mini header -->
         <div class="container d-flex d-lg-none align-items-center py-2">
           <a href="/index.html" class="h4 text-white my-0 py-2">
-            <img class="logoHeight"  src="{{site.logo_red | prepend: site.image_url}}" alt="">
+            <img class="logoHeight"  src="{{site.logo_white | prepend: site.image_url}}" alt="">
           </a>
           <!-- Mobile menu items -->
           <div class="ml-auto d-flex align-items-center">
@@ -53,16 +53,19 @@
           <!-- Fade in brand on sticky -->
           <div class="sticky-effect-fade-in sticky-effect-expand-w d-flex align-items-center">
             <a href="#" class="h4 my-0 ml-3 mr-5 py-2">
-              <img class="header-logo" src="{{site.logo_red | prepend: site.image_url}}" alt="">
+              <img class="header-logo" src="{{site.logo_white | prepend: site.image_url}}" alt="">
             </a>
           </div>
           <!--everything within this div is collapsed on mobile-->
           <div class="navbar-main collapse">
             <!--main navigation-->
             <ul class="nav navbar-nav container dropdown-effect-fade pos-static">
-              {% for option in site.data.header.header_options %}
-                <li class="nav-item dropdown dropdown-mega-menu ">
-                  <a href="{{ option.element }}/" class="nav-link dropdown-toggle" id="news-drop" data-toggle="dropdown" data-hover="dropdown">{{ option.element }}</a>
+              {% for option in site.data.header.header_venezuela_options %}
+              <li class="nav-item dropdown dropdown-mega-menu ">
+                <a href="/{{ option.element }}/" class="nav-link dropdown-toggle">
+                  <i class="flag-icon {{ option.flag }}"></i>
+                  {{ option.element }}</a>
+                <!--id="news-drop" data-toggle="dropdown" data-hover="dropdown"-->
                   <!-- Dropdown Menu - Mega Menu -->
                   <div class="dropdown-menu">
                     <div class="container">
