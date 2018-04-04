@@ -83,6 +83,19 @@ prose:
           element: multiselect
           label: Escoja o ingrese la categoría de su publicación
           help: Puede escojer una o mas etiquetas
+          options:
+            - name: 'Transformación Digital'
+              value: 'Transformación Digital'
+            - name: 'Economía Digital'
+              value: 'Economía Digital'
+            - name: 'Seguridad'
+              value: 'Seguridad'
+            - name: 'Movilidad'
+              value: 'Movilidad'
+            - name: 'Canales'
+              value: 'Canales'
+            - name: 'Actualidad'
+              value: 'Actualidad'                      
           alterable: true
       - name: published
         field:
