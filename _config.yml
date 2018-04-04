@@ -37,13 +37,11 @@ prose:
         field:
           element: hidden
           value: post
-      - name: style-header
-        field:
-          element: hidden
-          value: header-v6.css
       - name: color-schema
         field:
+          element: text
           value: red-dark
+          type: text
       - name: title
         field:
           element: text
@@ -58,7 +56,7 @@ prose:
         field:
           element: text
           label: Ingrese una imagen para su publicacion
-      - name: image-detail
+      - name: detail-image
         field:
           element: text
           label: Ingrese una imagen para el detalle de su publicación
@@ -85,3 +83,4 @@ prose:
           element: multiselect
           label: Escoja o ingrese la categoría de su publicación
           help: Puede escojer una o mas etiquetas
+          alterable: true
