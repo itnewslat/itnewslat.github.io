@@ -26,7 +26,7 @@ De acuerdo con Juanita Rodríguez Kattah, viceministra de Economía Digital, par
 Por eso es importante encontrar talento que entienda las nuevas tecnologías y pueda ayudar a las empresas de cualquier sector en su proceso de transformación digital”, indicó Rodríguez. La funcionaria informó que la industria está requiriendo desarrolladores y expertos en seguridad digital, carreras que “cuentan con el ciento por ciento de empleabilidad en Colombia”.
 
 Cargos más demandados
-![]({{site.baseurl}}/http://www.eltiempo.com/files/article_content/files/crop/uploads/2018/04/04/5ac53c58a4157.r_1522897495478.0-0-805-604.png)
+![]({{site.baseurl}}/http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/gr.jpg)
 
 Cargos más demandados por las empresas de todos los sectores económicos. Fuente: Ministerio de Educación y Sistema de Información Nacional
 
