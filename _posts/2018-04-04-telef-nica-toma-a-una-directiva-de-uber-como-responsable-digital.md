@@ -2,8 +2,21 @@
 layout: post
 color-schema: red-dark
 date: '2018-04-04 21:58 -0400'
-published: false
+published: true
 title: Telefónica toma a una directiva de Uber como responsable digital
+image: >-
+  http://tynmedia.com/tynmag/wp-content/uploads/sites/3/2018/04/Jo_Bertram_Dartmouth_2_Landscape-681x454.jpg
+detail-image: >-
+  http://tynmedia.com/tynmag/wp-content/uploads/sites/3/2018/04/Jo_Bertram_Dartmouth_2_Landscape-681x454.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+tags:
+  - Economía Digital
 ---
 Telefónica ha designado a Jo Bertram, ex directora de Operaciones de Uber en Europa Septentrional, como responsable digital y de estrategia de su filial británica O2 UK.
 
