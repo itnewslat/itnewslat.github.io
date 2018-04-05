@@ -1,12 +1,25 @@
 ---
 layout: post
 color-schema: red-dark
-date: '2018-04-05 06:51 -0400'
+date: '2018-04-05 07:02 -0400'
 published: true
 title: >-
   Los datos de redes sociales filtrados hoy, serán el dolor de cabeza de las
   empresas mañana
-image: 'http://www.canalinformatico.net/images/EasySolutions_Facebook_Abr---copia.PNG'
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+tags:
+  - Seguridad
+  - Actualidad
+image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Candado.gif'
+detail-image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Candado.gif'
+---
+copia.PNG'
 detail-image: 'http://www.canalinformatico.net/images/EasySolutions_Facebook_Abr---copia.PNG'
 tags:
   - Seguridad
@@ -31,7 +44,7 @@ Pero ¿cómo es ubicado el blanco específico? Para comenzar, el criminal sabe d
 
 “Todo esto puede hacerse a muy bajo costo. De manera que, con una inversión de unos cuantos cientos de dólares en esta campaña, incluso si el criminal consigue solo una víctima, él o ella tendrá un computador infectado que le brinde acceso a toda la organización de la Compañía X. El hacker obtiene un gran retorno de inversión y la Compañía X un sinfín de amenazas digitales. Esta clase de segmentación específica y detallada es posible gracias a todos los datos que intencionalmente publicamos en redes sociales. Igualmente, permitir que las plataformas los controlen por sí mismas parece no estar funcionando.” Explica Villadiego.
 
-Datos en Manos Equivocadas
+### Datos en Manos Equivocadas
 Aparte de todo esto, ¿qué sucede cuando los criminales no solo publican en la plataforma, sino que también acceden a toda la información de un subconjunto de personas? El último capítulo en esta historia de Facebook sugiere que los mismos datos a los que Cambridge Analytica accedió son comprados y vendidos en la Deep Web, haciendo más probable que los criminales se dirijan a esos usuarios no solo por medio de redes sociales sino a través de otros canales también. Imagine cuán detallada puede ser una campaña de phishing cuando los criminales conozcan el nombre de la compañía para la que usted trabaja, los nombres y cargos de 20 de sus colegas más cercanos, la conferencia a la que asistirá esta semana y hasta su marca de cerveza favorita. De un momento a otro, un email de phishing se parecerá mucho a un email confiable de un amigo o colega.
 
 Es mucho más probable que un usuario perdone pequeños errores de ortografía o sintaxis y confíe en un remitente aparentemente conocido al momento en que le pida lo que parece ser una solicitud razonable: transferir este dinero, registrarse a este webinar, dar clic aquí para ver su informe de gastos y así sucesivamente. Estas solicitudes pueden resultar en una pérdida de dinero (como es el caso de las estafas BEC en las que se solicitan transferencias) o en una potencial filtración masiva de datos. El mismo perfil de datos que fue usado para dirigir con éxito anuncios a empleados de la Compañía X puede convertirse en algo mucho más riesgoso para las compañías en las que trabajan.
