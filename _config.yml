@@ -36,7 +36,7 @@ prose:
       - name: layout
         field:
           element: hidden
-          value: post
+          value: posts
       - name: color-schema
         field:
           element: text
@@ -95,7 +95,7 @@ prose:
             - name: 'Canales'
               value: 'Canales'
             - name: 'Actualidad'
-              value: 'Actualidad'                      
+              value: 'Actualidad'
           alterable: true
       - name: published
         field:
