@@ -4,8 +4,10 @@ color-schema: red-dark
 date: '2018-04-05 06:46 -0400'
 published: true
 title: Seis desafíos empresariales para lograr una migración exitosa en la nube
-image: 'http://www.empresariotic.com/images/Accenture_Nube_Abr.PNG'
-detail-image: 'http://www.empresariotic.com/images/Accenture_Nube_Abr.PNG'
+image: >-
+  http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Nube-Redes-Sociales.jpg
+detail-image: >-
+  http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Nube-Redes-Sociales.jpg
 categories:
   - Venezuela
   - Colombia
