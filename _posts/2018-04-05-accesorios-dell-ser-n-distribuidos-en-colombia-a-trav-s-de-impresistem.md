@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-04-05 06:36 -0400'
 published: true
 title: Accesorios Dell serán distribuidos en Colombia a través de Impresistem
-image: 'http://www.canalinformatico.net/images/sampledata/Dell_Impresistem2_Abr'
+image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Equipo-Dell.jpg'
 detail-image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Equipo-Dell.jpg'
 categories:
   - Colombia
