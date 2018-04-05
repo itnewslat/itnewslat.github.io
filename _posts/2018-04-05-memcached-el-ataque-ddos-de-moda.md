@@ -14,6 +14,7 @@ categories:
   - Perú
   - Ecuador
   - Chile
+image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Datos.jpg'
 ---
 Los ataques de denegación de servicio (DDoS por sus siglas en inglés) han crecido en popularidad y efectividad y con ellos, los ciberdelincuentes han logrado poner en jaque la seguridad de Internet. Marzo comenzó con el ataque DDoS más potente de la historia: 1,35 terabits por segundo de tráfico dirigido a GitHub, una plataforma web de proyectos de desarrollo colaborativos. 
  
