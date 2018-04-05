@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 color-schema: red-dark
 date: '2018-04-05 07:02 -0400'
 published: true

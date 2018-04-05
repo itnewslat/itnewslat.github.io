@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 color-schema: red-dark
 date: '2018-04-05 07:58 -0400'
 published: true
@@ -43,7 +43,7 @@ El análisis, que se recopiló con base en información entregada por 164 firmas
 
 “Para crear un videojuego no solo se necesita de código. Si a usted no le gusta ese lenguaje, por qué no enfocarse en la parte creativa. Las carreras TIC no se basan solo en matemáticas, hay más campos. Para que las personas no se asusten, es importante incentivar estos lenguajes desde los colegios”, advirtió la viceministra.
 
-Sector en crecimiento 
+Sector en crecimiento
 Durante el 2017, las ventas en el sector TI superaron los 13,5 billones de pesos, cifra que para Paola Restrepo, presidenta de Fedesoft, refleja el fortalecimiento y la competitividad del sector. De ahí la importancia, precisamente, de encontrar más talento para lograr que la industria crezca.
 
 “Entre 2016 y 2017 ha habido un crecimiento del 11 por ciento en empresas TIC. Las compañías están vendiendo cada vez más porque los clientes están siendo conscientes de la importancia del uso de tecnología para el desempeño del sector”, expresó la ejecutiva.
