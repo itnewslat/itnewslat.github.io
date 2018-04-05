@@ -1,11 +1,24 @@
 ---
 layout: posts
 color-schema: red-dark
-title: "Huawei rompe la barrera de los 2000 dólares con su teléfono Porsche Design Mate RS"
-image: "https://dummyimage.com/540x320/000/fff.png"
-detail-image: "https://dummyimage.com/1024x680/000/fff"
-categories: [Venezuela,Ecuador,Peru,Colombia,Chile,Argentina]
-tags: [hardware,software]
+title: >-
+  Huawei rompe la barrera de los 2000 dólares con su teléfono Porsche Design
+  Mate RS
+image: >-
+  https://i1.wp.com/altadensidad.com/wp-content/uploads/2018/03/Porsche-Design-Huawei-Mate-RS.jpg?w=602&ssl=1
+detail-image: >-
+  https://i1.wp.com/altadensidad.com/wp-content/uploads/2018/03/Porsche-Design-Huawei-Mate-RS.jpg?w=602&ssl=1
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Ecuador
+  - Chile
+  - Peru
+published: true
+date: '2018-04-04 22:06 -0400'
+tags:
+  - Transformación Digital
 ---
 
 Ya es oficial el Porsche Design Huawei Mate RS, una versión de lujo del Huawei P20 Pero más parecido al Mate 10 Pro. Cuenta con la triple cámara del último buque insignia, con un diseño sin notch y más potencia. Dispone de una pantalla OLED de 6 pulgadas y resolución 2K. Formato 18:9 con un cuerpo de vidrio curvo 3D en los ochos bordes y lector de huellas integrado en la pantalla.
