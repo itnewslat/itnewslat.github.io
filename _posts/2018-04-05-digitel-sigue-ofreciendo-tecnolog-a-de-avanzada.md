@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2018-04-05 11:42 -0400'
-published: false
+published: true
 title: Digitel sigue ofreciendo tecnología de avanzada
 image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/DIGITEL.jpg'
 detail-image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/DIGITEL.jpg'
