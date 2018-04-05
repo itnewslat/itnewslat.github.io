@@ -22,4 +22,3 @@ Por su parte, los usuarios del estado Miranda, también se ven favorecidos con l
 Digitel apuesta al trabajo continuo, para cumplir con los estándares de una red confiable tanto en telefonía móvil, fija e Internet de alta velocidad. Para más información visita www.digitel.com.ve o sigue @Digitel412 en Instagram y Facebook.
 
 FUENTE [CIBERESPACIO.COM.VE](http://www.ciberespacio.com.ve/2018/04/telecom/digitel-sigue-ofreciendo-tecnologia-de-avanzada/)
-
