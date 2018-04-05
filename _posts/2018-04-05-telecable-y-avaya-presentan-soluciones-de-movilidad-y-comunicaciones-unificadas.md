@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2018-04-05 07:40 -0400'
-published: false
+published: true
 title: >-
   Telecable y Avaya presentan soluciones de movilidad y comunicaciones
   unificadas
