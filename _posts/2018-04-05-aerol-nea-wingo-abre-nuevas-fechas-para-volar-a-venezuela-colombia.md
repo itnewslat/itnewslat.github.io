@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2018-04-05 11:48 -0400'
-published: false
+published: true
 title: Aerolínea Wingo abre nuevas fechas  para volar a Venezuela-Colombia
 image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/wingo.jpg'
 detail-image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/wingo.jpg'
@@ -33,5 +33,4 @@ Decídete pronto a volar con nosotros a Bogotá, pues se trata de una tarifa suj
 Wingo, así se vuela. 
 
  
-*Tarifas disponibles para compra únicamente en la oficina de ventas de Wingo, ubicada en el Centro Comercial Lido, Caracas, Venezuela; o call center 0212-7102115. Son sillas limitadas y tarifas sujetas a disponibilidad. 
-
+*Tarifas disponibles para compra únicamente en la oficina de ventas de Wingo, ubicada en el Centro Comercial Lido, Caracas, Venezuela; o call center 0212-7102115. Son sillas limitadas y tarifas sujetas a disponibilidad.
