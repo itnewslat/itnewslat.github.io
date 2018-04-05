@@ -2,8 +2,16 @@
 layout: post
 color-schema: red-dark
 date: '2018-04-04 21:39 -0400'
-published: false
+published: true
 title: CEO de Ericsson apuesta por la estrategia a pesar de las pérdidas
+image: >-
+  http://tynmedia.com/tynmag/wp-content/uploads/sites/3/2018/04/Borje-Ekholm-CEO-de-Ericsson-681x445.jpg
+detail-image: >-
+  http://tynmedia.com/tynmag/wp-content/uploads/sites/3/2018/04/Borje-Ekholm-CEO-de-Ericsson-681x445.jpg
+categories:
+  - Argentina
+tags:
+  - Economía Digital
 ---
 Las medidas de reducción de costos de Ericsson y su enfoque en I + D estabilizaron a la compañía y proporcionaron una plataforma para el crecimiento futuro, dijo el CEO Borje Ekholm (en la foto) a los inversores en la Asamblea General Anual de la compañía.
 
