@@ -78,6 +78,8 @@ prose:
               value: 'Ecuador'
             - name: 'Chile'
               value: 'Chile'
+            - name: 'Panama'
+              value: 'Panama'              
       - name: tags
         field:
           element: multiselect

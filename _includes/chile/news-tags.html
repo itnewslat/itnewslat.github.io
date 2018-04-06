@@ -26,37 +26,55 @@
   <div class="row">
     <div class="col-lg-7">
       <!-- Main item -->
-        {% for item in posts limit:1 %}
+      {% assign counter = '0' %}
+        {% for item in posts %}
           {% if item.tags contains cat %}
-            <div class="card card-silent mb-lg-4 border-0 flex-ew" data-url="{{item.url}}">
-              <img class="card-img img-fluid" data-src="{{ item.image }}" alt="Abigo Camur Dolore Et Imputo Jus Lobortis Secundum" data-toggle="blazy">
-              <div class="card-body px-0">
-                <h4 class="card-title mb-1">
-                  {{ item.title }}
-                </h4>
-                <p class="card-text text-uppercase text-xs"> <i class="fa fa-clock-o"></i> {{ item.date | date_to_string }}</p>
-              </div>
-            </div>
+          {% assign posts-sorted = "" | split: ','  %}
+          {% assign posts-sorted = posts-sorted | push: item %}
+            {% for item in posts-sorted  %}
+              {% if counter <= '0' %}
+               {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+               <div class="card card-silent mb-lg-4 border-0 flex-ew" data-url="{{item.url}}">
+                 <img class="card-img img-fluid" data-src="{{ item.image }}" alt="Abigo Camur Dolore Et Imputo Jus Lobortis Secundum" data-toggle="blazy">
+                  <div class="card-body px-0">
+                    <h4 class="card-title mb-1">
+                      {{ item.title }}
+                    </h4>
+                    <p class="card-text text-uppercase text-xs"> <i class="fa fa-clock-o"></i> {{ item.date | date_to_string }}</p>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
           {% endif %}
         {% endfor %}
     </div>
     <div class="col-lg-5">
       <!-- subitems -->
       <!-- News subitem 1 -->
-      {% for item in posts limit:3 offset:1 %}
-        <div class="row row-hover py-1 py-lg-3 align-items-center" data-url="{{ item.url }}">
-          <div class="col-3">
-            <img class="img-fluid" data-toggle="blazy" data-src="{{ item.image }}" alt="Autem Cogo Esca Humo Loquor Nimis Occuro Refoveo Sed">
-          </div>
-          <div class="col-9 pl-0">
-            <h6 class="mb-1">
-              {{ item.title }}
-            </h6>
-            <p class="text-uppercase text-xs mb-0"></span> <i class="fa fa-clock-o"></i>{{ item.date | date_to_string }}</p>
-          </div>
-        </div>
-        <hr class="my-1" />
-      {% endfor %}
+       {% assign counter = '0' %}
+          {% for item in posts %}
+            {% if item.tags contains cat %}
+              {% assign posts-sorted = "" | split: ','  %}
+              {% assign posts-sorted = posts-sorted | push: item %}
+                {% for item in posts-sorted  %}
+                  {% if counter <= '2' %}
+                   {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+                  <div class="row row-hover py-1 py-lg-3 align-items-center" data-url="{{ item.url }}">
+                    <div class="col-3">
+                      <img class="img-fluid" data-toggle="blazy" data-src="{{ item.image }}" alt="Autem Cogo Esca Humo Loquor Nimis Occuro Refoveo Sed">
+                    </div>
+                    <div class="col-9 pl-0">
+                      <h6 class="mb-1">
+                        {{ item.title }}
+                      </h6>
+                      <p class="text-uppercase text-xs mb-0"></span> <i class="fa fa-clock-o"></i>{{ item.date | date_to_string }}</p>
+                    </div>
+                  </div>
+                  <hr class="my-1" />
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
     </div>
   </div>
 {% endfor %}
