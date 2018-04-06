@@ -62,7 +62,7 @@
             <ul class="nav navbar-nav container dropdown-effect-fade pos-static">
               {% for option in site.data.header.header_argentina_options %}
               <li class="nav-item dropdown dropdown-mega-menu ">
-                <a href="/{{ option.element }}/" class="nav-link dropdown-toggle">
+                <a href="{{ option.href }}" class="nav-link dropdown-toggle">
                   <i class="flag-icon {{ option.flag }}"></i>
                   {{ option.element }}</a>
                 <!--id="news-drop" data-toggle="dropdown" data-hover="dropdown"-->

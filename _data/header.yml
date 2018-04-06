@@ -11,7 +11,7 @@ header_venezuela_options:
   - element: Chile
     href: /Chile/
     flag: flag-icon-cl
-  - element: Peru
+  - element: Perú
     href: /Peru/
     flag: flag-icon-pe
   - element: Ecuador
@@ -34,7 +34,7 @@ header_colombia_options:
   - element: Chile
     href: /Chile/
     flag: flag-icon-cl
-  - element: Peru
+  - element: Perú
     href: /Peru/
     flag: flag-icon-pe
   - element: Ecuador
@@ -57,7 +57,7 @@ header_argentina_options:
   - element: Chile
     href: /Chile/
     flag: flag-icon-cl
-  - element: Peru
+  - element: Perú
     href: /Peru/
     flag: flag-icon-pe
   - element: Ecuador
@@ -80,7 +80,7 @@ header_chile_options:
   - element: Venezuela
     href: /Venezuela/
     flag: flag-icon-ve
-  - element: Peru
+  - element: Perú
     href: /Peru/
     flag: flag-icon-pe
   - element: Ecuador
@@ -91,7 +91,7 @@ header_chile_options:
     flag: flag-icon-pa
 
 header_peru_options:
-  - element: Peru
+  - element: Perú
     href: /Peru/
     flag: flag-icon-pe
   - element: Chile
@@ -117,7 +117,7 @@ header_ecuador_options:
   - element: Ecuador
     href: /Ecuador/
     flag: flag-icon-ec
-  - element: Peru
+  - element: Perú
     href: /Peru/
     flag: flag-icon-pe
   - element: Chile
@@ -139,11 +139,11 @@ header_ecuador_options:
 header_panama_options:
   - element: Panama
     href: /Panama/
-    flag: flag-icon-pa  
+    flag: flag-icon-pa
   - element: Ecuador
     href: /Ecuador/
     flag: flag-icon-ec
-  - element: Peru
+  - element: Perú
     href: /Peru/
     flag: flag-icon-pe
   - element: Chile
