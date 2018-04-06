@@ -1,3 +1,5 @@
+header-publicity: 'https://dummyimage.com/728x90/000/fff'
+
 publicity-1:
   - image: https://dummyimage.com/300x300/000/fff.png
     url: http://www.ciberespacio.com.ve/
@@ -8,4 +10,4 @@ sideBar-publicity:
   - image: https://dummyimage.com/300x300/000/fff.png
     url: http://www.ciberespacio.com.ve/
   - image: https://dummyimage.com/300x300/000/fff.png
-    url: http://www.ciberespacio.com.ve/  
+    url: http://www.ciberespacio.com.ve/
