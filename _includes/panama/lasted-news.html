@@ -1,0 +1,105 @@
+<!-- News -->
+<div class="container py-4 py-lg-5">
+  <h3 class="text-uppercase text-letter-spacing-sm my-0 text-primary font-weight-bold">
+    Últimas noticias
+  </h3>
+  <hr class="mt-2 mb-3" />
+  <div class="row">
+    <div class="col-12 col-lg-4 mb-4 mb-lg-1">
+      <!-- data-url can be set to the page URL of the news item -->
+      <!-- News item 1 -->
+      {% for item in site.categories[page.filterCategory] limit: 1 %}
+      <div class="card mb-4 border-0 flex-ew" data-url="{{ item.url }}">
+        <img class="card-img img-fluid" data-src="{{ item.image }}" data-toggle="blazy" alt="Gemino Ille Lenis Luptatum Magna Neque Veniam">
+        <div class="card-img-overlay bg-dark bg-op-5 text-white flex-valign-b">
+          <div>
+            <h5 class="card-title mb-1">
+              {{ item.title | truncate: 70 }}
+            </h5>
+            <p class="card-text text-uppercase text-white text-xs"><span class="text-primary">{{ item.tags }}</span> <span class="px-1">/</span> <i class="fa fa-clock-o"></i> {{ item.date | date_to_string }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <!-- News subitem 1 -->
+      {% for element in site.categories[page.filterCategory] limit:3 offset:1 %}
+        <div class="row row-hover py-1 py-lg-3 align-items-center" data-url="{{ element.url }}">
+          <div class="col-3">
+            <img class="img-fluid" data-src="{{ element.image }}" data-toggle="blazy" alt="Ad Blandit Dignissim Interdico Laoreet Neque Nunc Ratis Roto">
+          </div>
+          <div class="col-9 pl-0">
+            <h6 class="mb-1">
+              {{ element.title | truncate: 30 }}
+            </h6>
+            <p class="text-uppercase text-xs mb-0"><span class="text-primary">{{element.tags}}</span> <span class="px-1">/</span> <i class="fa fa-clock-o"></i> {{ element.date | date_to_string }}</p>
+          </div>
+        </div>
+        <hr class="my-1" />
+      {% endfor %}
+    </div>
+    <div class="col-12 col-lg-4 mb-4 mb-lg-1">
+      <!-- data-url can be set to the page URL of the news item -->
+      <!-- News item 2 -->
+      {% for item in site.categories[page.filterCategory] limit:1 offset:4 %}
+        <div class="card mb-4 border-0 flex-ew" data-url="{{ item.url }}">
+          <img class="card-img img-fluid" data-src="{{ item.image }}" data-toggle="blazy" alt="Erat Et Ex Nunc Pneum Usitas Validus Vereor">
+          <div class="card-img-overlay bg-dark bg-op-5 text-white flex-valign-b">
+            <div>
+              <h5 class="card-title mb-1">
+                {{ item.title | truncate: 70 }}
+              </h5>
+              <p class="card-text text-uppercase text-white text-xs"><span class="text-primary">{{ item.tags }}</span> <span class="px-1">/</span> <i class="fa fa-clock-o"></i> {{ item.date | date_to_string }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      <!-- News subitem 1 -->
+      {% for element in site.categories[page.filterCategory] limit:3 offset:5 %}
+      <div class="row row-hover py-1 py-lg-3 align-items-center" data-url="{{ element.url }}">
+        <div class="col-3">
+          <img class="img-fluid" data-src="{{ element.image }}" data-toggle="blazy" alt="Cogo Facilisis Hendrerit Melior Proprius Ratis Saluto Sit">
+        </div>
+        <div class="col-9 pl-0">
+          <h6 class="mb-1">
+            {{ element.title | truncate: 30 }}
+          </h6>
+          <p class="text-uppercase text-xs mb-0"><span class="text-primary">{{ element.tags }}</span> <span class="px-1">/</span> <i class="fa fa-clock-o"></i> {{ element.date | date_to_string }}</p>
+        </div>
+      </div>
+      <hr class="my-1" />
+      {% endfor %}
+    </div>
+    <div class="col-12 col-lg-4 mb-4 mb-lg-1">
+      <!-- data-url can be set to the page URL of the news item -->
+      <!-- News item 3 -->
+      {% for item in site.categories[page.filterCategory] limit:1 offset:8 %}
+        <div class="card mb-4 border-0 flex-ew" data-url="{{ item.url }}">
+          <img class="card-img img-fluid" data-src="{{ item.image }}" data-toggle="blazy" alt="Abdo Huic Immitto Melior Pala Quibus Quidne Secundum Tation">
+          <div class="card-img-overlay bg-dark bg-op-5 text-white flex-valign-b">
+            <div>
+              <h5 class="card-title mb-1">
+                {{ item.title | truncate: 70 }}
+              </h5>
+              <p class="card-text text-uppercase text-white text-xs"><span class="text-primary">{{ item.tags }}</span> <span class="px-1">/</span> <i class="fa fa-clock-o"></i> {{ item.date | date_to_string }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      <!-- News subitem 1 -->
+      {% for item in site.categories[page.filterCategory] limit:3 offset:9 %}
+      <div class="row row-hover py-1 py-lg-3 align-items-center" data-url="{{ item.url }}">
+        <div class="col-3">
+          <img class="img-fluid" data-src="{{ item.image }}" data-toggle="blazy" alt="Diam Eligo Eum Huic Nutus Refero Sed">
+        </div>
+        <div class="col-9 pl-0">
+          <h6 class="mb-1">
+            {{  item.title | truncate: 30 }}
+          </h6>
+          <p class="text-uppercase text-xs mb-0"><span class="text-primary">{{ item.tags }}</span> <span class="px-1">/</span> <i class="fa fa-clock-o"></i> {{ item.date | date_to_string }}</p>
+        </div>
+      </div>
+      <hr class="my-1" />
+      {% endfor %}
+    </div>
+  </div>
+</div>
