@@ -1,13 +1,13 @@
 header-publicity: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Publicidad-Chi.jpg'
 
 publicity-1:
-  - image: https://dummyimage.com/300x300/000/fff.png
+  - image: http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Publicidad-Verde.jpg
     url: http://www.ciberespacio.com.ve/
 
 sideBar-publicity:
-  - image: https://dummyimage.com/300x300/000/fff.png
+  - image: http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Publicidad-rojo.jpg
     url: http://www.ciberespacio.com.ve/
-  - image: https://dummyimage.com/300x300/000/fff.png
+  - image: http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Publicidad-Naranja.jpg
     url: http://www.ciberespacio.com.ve/
-  - image: https://dummyimage.com/300x300/000/fff.png
+  - image: http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Publicidad-azul.jpg
     url: http://www.ciberespacio.com.ve/
