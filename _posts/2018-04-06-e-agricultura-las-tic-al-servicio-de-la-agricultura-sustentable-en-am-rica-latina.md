@@ -13,6 +13,7 @@ categories:
   - Perú
   - Ecuador
   - Chile
+  - Panama
 image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Agricultura.jpg'
 detail-image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Agricultura.jpg'
 tags:
@@ -25,7 +26,3 @@ La implementación de la E-Agricultura puede además mejorar las condiciones de 
 El documento resalta que el uso de las TIC en la producción agrícola facilita el acceso a los mercados y a información de precios en tiempo real, permite acceder a información climática actualizada, y contribuye a enriquecer las prácticas de cultivos. El acceso a estas herramientas puede impactar en distintos aspectos de esta actividad, ya sea en lo que respecta al control financiero de la actividad, la atención de variables como las condiciones climáticas, la utilización de herramientas e instrumentos digitales para monitoreo de cultivos, el uso racional de recursos e insumos, y la sustentabilidad, mediante el uso eficiente de riego y drenaje, entre otros.
 
 El reporte E-Agricultura en América Latina puede ser [**descargado aquí**](http://www.5gamericas.org/files/7914/9997/1781/20161005_e_agricultura-revJR-ES.pdf).
-  
-
-
-
