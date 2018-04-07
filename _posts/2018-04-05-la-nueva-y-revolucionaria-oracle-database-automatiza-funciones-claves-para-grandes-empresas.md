@@ -15,6 +15,7 @@ categories:
   - Perú
   - Ecuador
   - Chile
+  - Panama
 tags:
   - Transformación Digital
   - Actualidad
@@ -53,6 +54,3 @@ Múltiples informes de analistas independientes de la industria reconocieron rec
 - •	Gartner colocó nuevamente a Oracle en el nivel más alto de "capacidad de ejecución" en su Cuadrante Mágico  para Solución de Gestión de Datos para Analytics* en febrero de 2018 por Adam M. Ronthal, Roxane Edjlali, Rick Greenwald.
 - •	En el reporte IDC Perspective , Base de Datos Autónoma de Oracle: Automatización Basada en IA para Gestión y Operación de Bases de Datos, de febrero de 2018, los autores Carl W. Olofson y David Schubmehl escribieron que "Oracle está a la vanguardia de un movimiento para que el software sea más fácil de implementar, utilizar y administrar, mediante la inteligencia artificial y el aprendizaje automático para proporcionar recursos que requieren poca o ninguna intervención humana para administración."
 - •	El informe Visión Ejecutiva: Oracle Autonomous Database de KuppingerCole, de enero de 2018, afirmó que "Oracle va mucho más allá de la automatización con su última solución. Este enfoque tiene beneficios potenciales inmensos, no sólo en reducir la mano de obra y costos para los clientes, pero dramáticamente mejorar la resiliencia de las bases de datos contra errores humanos y actividades maliciosas, internas o externas. Cada base de datos también está diseñada para tener todas las características de seguridad y todos los parámetros relevantes habilitados automáticamente y configurados de acuerdo a las actuales mejores prácticas de seguridad y cumplimiento de requisitos reglamentares.
-
-
-
