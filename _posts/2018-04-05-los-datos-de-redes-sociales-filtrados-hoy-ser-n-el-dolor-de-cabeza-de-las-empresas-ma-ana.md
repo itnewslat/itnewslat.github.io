@@ -13,6 +13,7 @@ categories:
   - Perú
   - Ecuador
   - Chile
+  - Panama
 tags:
   - Seguridad
   - Actualidad
