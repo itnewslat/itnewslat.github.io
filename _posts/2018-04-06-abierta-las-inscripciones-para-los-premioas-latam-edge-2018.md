@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-06 17:05 -0400'
 published: true
-title: Abierta las inscripciones para los premioas LATAM EDGE 2018
+title: Abierta las inscripciones para los premios LATAM EDGE 2018
 image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Latam-Edge.jpg'
 detail-image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Latam-Edge.jpg'
 categories:
@@ -35,4 +35,3 @@ El premio, que asciende a más de 117 mil libras esterlinas, incluye una oficina
 El premio de este año está respaldado por Deloitte, la compañía brasileña EbanX, North American ReachLocal, una de las mayores compañías de marketing digital el mundo; y SendPulse, una de las plataformas más eficientes del mundo para SMS, Web Push y correos electrónicos a través de SMTPEntre los patrocinadores se encuentran F6s, una de las plataformas más inteligentes en lo que respecta al monitoreo y gestión de datos  sobre emprendedores, la Cámara de Comercio de México, la Cámara de Comercio de Colombia, la Cámara de Comercio de Argentina, Tech London Advocates Latam, Start-Up Chile, Sapovalova Coaching, Aconcagua Partners, Eydos Digital, Brand Imagen, Joelson ABStartup , 100open Startup, America Economía y también agencias latinoamericanas de relaciones públicas de la red LatamPR: GrupoCASA de Brasil, BMR de Chile, Communication Consulting Group de Guatemala, Innovarte de Colombia, Smartcom Corp en Panamá y Venezuela, así como Percepción e Imagen en México.
 
 “Ser el ganador de los premios Latam Edge nos permitió mejorar enormemente el nivel de experiencia de nuestra empresa. Pasamos por las etapas de coaching y desarrollo empresarial, que son fundamentales para entender que los mercados en los que nos estamos expandiendo son muy diferentes unos de otros, y que por eso debemos adaptar nuestra forma de trabajar”, dice Pedro Donati, CEO de RoundPegs, ganadores de la edición 2017.
-
