@@ -8,6 +8,7 @@ image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/copa-airlines.
 detail-image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/copa-airlines.jpg'
 categories:
   - Venezuela
+  - Panama
 tags:
   - Actualidad
 ---
