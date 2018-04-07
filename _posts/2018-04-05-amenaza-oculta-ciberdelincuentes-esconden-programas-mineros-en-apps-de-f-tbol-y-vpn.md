@@ -15,6 +15,7 @@ categories:
   - Perú
   - Ecuador
   - Chile
+  - Panama
 tags:
   - Seguridad
 ---
@@ -39,6 +40,3 @@ Los investigadores de Kaspersky Lab aconsejan a los usuarios que cumplan con las
 - Solo elija aplicaciones de proveedores confiables, especialmente aquellas que están orientadas a proteger su privacidad cuando están en línea (por ejemplo, VPN) 
 - Instalar una solución de seguridad probada para proteger el dispositivo contra ataques cibernéticos
 - Para obtener más información sobre el desarrollo de mineros móviles, lea nuestra publicación en Securelist: https://securelist.lat/pocket-cryptofarms/86819/
-
-
-
