@@ -15,7 +15,7 @@ tags:
 
 FUENTE : _[TECNÓSFERA](http://www.eltiempo.com/tecnosfera/novedades-tecnologia/la-cobertura-de-la-television-digital-terrestre-en-colombia-202138)
 
-"Con la llegada de la TDT, mi hermana puede aprender con muñequitos que hablan en inglés. Además, evitamos que salga tanto a la calle. Por mi cuenta, me gusta llegar después del trabajo a ver televisión, porque me mantengo informada de las noticias regionales". 
+Con la llegada de la TDT, mi hermana puede aprender con muñequitos que hablan en inglés. Además, evitamos que salga tanto a la calle. Por mi cuenta, me gusta llegar después del trabajo a ver televisión, porque me mantengo informada de las noticias regionales. 
 
 Así relata Zuliani Oquendo, una joven habitante del municipio La Tebaida, ubicado en el departamento del Quindío, su experiencia con la Televisión Digital Terrestre (TDT). Oquendo, quien vive en el barrio Nueva Tebaida y es estudiante del Sena, aseguró que la televisión le permite "entretenerse, aprender y, sobre todo, a estar más tiempo en familia". 
 
