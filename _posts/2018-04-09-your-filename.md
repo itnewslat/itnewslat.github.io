@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-09 08:43 -0400'
 published: true
-title: ''
+title: 'Panamchain: Conferencia de Fintech y Blockchain'
 categories:
   - Panama
 tags:
@@ -26,4 +26,4 @@ Antonopoulos hace que temas complejos sean entendibles y de fácil comprensión.
 
 Como emprendedor, Andreas ha fundado numerosos negocios y lanzado varios proyectos comunitarios de código abierto. Es autor de varias publicaciones y artículos en bitcoin, popular conductor del Podcast “Hablemos de Bitcoin” y frecuente orador en conferencias de tecnología y seguridad alrededor del mundo.
 
-El evento contará además con la participación de reconocidos conferencistas nacionales e internacionales, exposición comercial con startups y emprendimientos con nuevas tecnologías, Hackaton auspiciado por Microsoft, entre otras actividades que harán de este evento toda una experiencia que no se pueden perder. 
+El evento contará además con la participación de reconocidos conferencistas nacionales e internacionales, exposición comercial con startups y emprendimientos con nuevas tecnologías, Hackaton auspiciado por Microsoft, entre otras actividades que harán de este evento toda una experiencia que no se pueden perder.
