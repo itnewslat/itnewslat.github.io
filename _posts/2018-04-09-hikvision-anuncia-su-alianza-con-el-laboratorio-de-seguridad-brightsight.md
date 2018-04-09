@@ -10,6 +10,7 @@ image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Hikvisionp.jpg
 categories:
   - Colombia
+  - Perú
   - Ecuador
 tags:
   - Economía Digital
