@@ -1,13 +1,13 @@
-header-publicity: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/Publicidad-Per.jpg'
+header-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Publicidad.jpg'
 
 publicity-1:
-  - image: https://dummyimage.com/300x300/000/fff.png
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
     url: http://www.ciberespacio.com.ve/
 
 sideBar-publicity:
-  - image: https://dummyimage.com/300x300/000/fff.png
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
     url: http://www.ciberespacio.com.ve/
-  - image: https://dummyimage.com/300x300/000/fff.png
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
     url: http://www.ciberespacio.com.ve/
-  - image: https://dummyimage.com/300x300/000/fff.png
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
     url: http://www.ciberespacio.com.ve/
