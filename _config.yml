@@ -18,6 +18,9 @@ logo_orange: "logo_large_orange.png"
 markdown: kramdown
 permalink: /:title.html
 
+whitelist: []
+plugins:   []
+
 prose:
   ignore: [
     '_layouts',
@@ -79,7 +82,7 @@ prose:
             - name: 'Chile'
               value: 'Chile'
             - name: 'Panama'
-              value: 'Panama'              
+              value: 'Panama'
       - name: tags
         field:
           element: multiselect

@@ -4,45 +4,22 @@ color-schema: blue-dark
 filterCategory: Ecuador
 ---
 
-  {% include ecuador/header.html %}
-  {% include ecuador/banner.html %}
-    <!-- ======== @Region: #content ======== -->
-    <div id="content" class="p-0 bg-white">
-      {% include ecuador/lasted-news.html %}
-      {% include ecuador/super-article.html %}
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9">
-          {% include ecuador/news-tags.html %}
-          {% include ecuador/news-galery.html %}
-          </div>
-          <div class="col-lg-3 mb-4 mb-lg-2">
-            {% include ecuador/side-bar.html %}
-          </div>
+{% include ecuador/header.html %}
+{% include ecuador/banner.html %}
+  <!-- ======== @Region: #content ======== -->
+  <div id="content" class="p-0 bg-white">
+    {% include ecuador/lasted-news.html %}
+    {% include ecuador/super-article.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+        {% include ecuador/news-tags.html %}
+        {% include ecuador/news-galery.html %}
+        </div>
+        <div class="col-lg-3 mb-4 mb-lg-2">
+          {% include ecuador/side-bar.html %}
         </div>
       </div>
-      {% include ecuador/footer.html %}
-
-
     </div>
-    <!-- #Content -->
-    <!--Hidden elements - excluded from jPanel Menu on mobile-->
-    <div class="hidden-elements jpanel-menu-exclude"></div>
-
-
-    <!--jQuery 3.2.1 via CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Popper 1.12.9 via CDN, needed for Bootstrap Tooltips & Popovers -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
-    <!-- Bootstrap v4.0.0 JS via CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-
-    <!-- JS plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 To disable this and load plugin assets manually simple add data-plugins-manual=true to the body tag -->
-
-    <!--Custom scripts & AppStrap API integration -->
-    <script src="/assets/js/custom-script.js"></script>
-    <!--AppStrap scripts mainly used to trigger libraries/plugins -->
-    <script src="/assets/js/script.min.js"></script>
-  </body>
+    {% include ecuador/footer.html %}
+  </div>
