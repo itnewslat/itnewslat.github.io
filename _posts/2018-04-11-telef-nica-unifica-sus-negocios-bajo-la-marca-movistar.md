@@ -34,3 +34,5 @@ Desde la app Mi Movistar Negocios, los clientes podrán gestionar sus líneas, c
 En este sentido, es importante destacar que el cambio no modifica los planes contratados ni implica la realización de trámite alguno por parte del cliente para disfrutar de estas prestaciones.
 
 En tanto, la marca Telefónica, con presencia en el país desde 1990, pasa a ocupar un rol exclusivamente institucional, de cara al vínculo con distintos stakeholders, como empleados, accionistas y proveedores. Asimismo, las soluciones dirigidas al segmento Corporate, que comprende Grandes Empresas y Gobierno, continuarán comercializándose bajo la marca Telefónica Business Solutions, a la vez que Movistar Negocios seguirá concentrando el portfolio de soluciones para Pymes, negocios y emprendedores.
+
+FUENTE: [TyNMagazine](http://www.tynmagazine.com/telefonica-unifica-sus-negocios-bajo-la-marca-movistar/)
