@@ -4,12 +4,14 @@ color-schema: red-dark
 date: '2018-04-11 10:39 -0400'
 published: true
 title: 'Colombia, a la vanguardia en banca digital'
-detail-image: 'https://github.com/itnewslat/assets/blob/master/img/1024x680/Bancag.jpg'
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Bancag.jpg
 categories:
   - Colombia
 tags:
   - Economía Digital
-image: 'https://github.com/itnewslat/assets/blob/master/img/540x320/Bancap.jpg'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Bancap.jpg
 ---
 Los bancos de Colombia se destacan entre los de otros países de Latinoamérica por el uso de canales digitales al servicio del cliente. Los bancos colombianos superan incluso a los de Brasil, cuya población está más bancarizada, en el uso de aplicativos para teléfonos inteligentes, aplicativos para tabletas, páginas web, y notificaciones vía texto o SMS. La compañía de canales digitales para banca TODO1 es el artífice de estos canales para algunos de los mayores bancos colombianos, desde su laboratorio de innovación en Medellín y centros de datos en Estados Unidos.
 
