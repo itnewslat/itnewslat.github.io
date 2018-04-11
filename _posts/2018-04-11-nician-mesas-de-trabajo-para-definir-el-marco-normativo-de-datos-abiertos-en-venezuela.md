@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-04-11 11:07 -0400'
 published: true
 title: >-
-  nician mesas de trabajo para definir el marco normativo de datos abiertos en
+  Inician mesas de trabajo para definir el marco normativo de datos abiertos en
   Venezuela 
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/CNTIp.jpg
