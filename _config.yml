@@ -19,7 +19,7 @@ markdown: kramdown
 permalink: /:title.html
 
 whitelist: []
-plugins:   []
+plugins_dir:   []
 
 prose:
   ignore: [
