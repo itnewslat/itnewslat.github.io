@@ -17,6 +17,8 @@ categories:
   - Panama
 tags:
   - Actualidad
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Motorola-radio-L.jpg
 ---
 -La adquisición incorpora la plataforma de análisis de video y video vigilancia avanzada al portafolio de Motorola Solution.
  
@@ -31,4 +33,3 @@ Con sede en Vancouver, Columbia Británica, Avigilon operará como una unidad in
 Motorola Solutions ha adquirido la totalidad de las acciones ordinarias emitidas y en circulación por un valor de CAD27,00 (dólares canadienses) por acción. El valor de la transacción de la empresa es de aproximadamente US$1.000 millones.
 
 Para más información sobre los fundamentos estratégicos de la transacción consulte la presentación para inversionistas.
-
