@@ -2,6 +2,11 @@
   height: 38px;
 }
 
+.overlay-hover-content.overlay-gradient:after, .overlay.overlay-gradient:after {
+  background-image: none !important;
+}
+
+
 @media (min-width: 319px) {
   .logoHeight{
     height: 37px;
