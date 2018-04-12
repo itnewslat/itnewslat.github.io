@@ -10,12 +10,13 @@ categories:
   - Venezuela
 tags:
   - Actualidad
+superNews: true
 ---
 En el primer trimestre del año 2018, Digitel ha ejecutado proyectos para reforzar la cobertura y la conexión de sus usuarios.
 
 Digitel activó nuevos componentes tecnológicos para optimizar sus redes, aumentando, con esta inversión, la calidad de transmisión de voz y datos, y ofreciendo un rendimiento superior en diferentes regiones del país.
 
-El trabajo que se realizó para expandir la capacidad de la red,  beneficia a los habitantes de El Socorro, Tucupido, El Sombrero y Las Mercedes del Llano, brindando mayor continuidad en la comunicación, gracias a la implementación de Nodos B, que favorecen a más poblados del estado Guárico. 
+El trabajo que se realizó para expandir la capacidad de la red,  beneficia a los habitantes de El Socorro, Tucupido, El Sombrero y Las Mercedes del Llano, brindando mayor continuidad en la comunicación, gracias a la implementación de Nodos B, que favorecen a más poblados del estado Guárico.
 
 Por su parte, los usuarios del estado Miranda, también se ven favorecidos con la puesta en servicio de esta misma tecnología en la zona El Rodeo, ubicado en Guatire, mejorando así el envío y la recepción de la señal 3G.
 

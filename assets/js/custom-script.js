@@ -4,9 +4,9 @@
  * Written by Themelize.me (http://themelize.me)
  *
  *******************************************************/
-(function($) {  
+(function($) {
   $.extend($.fn, {
-    
+
     // ===============================================================
     // AppStrap Javascript API
     // ===============================================================
@@ -20,7 +20,6 @@
     // refresh = true if ajax content, false if default page load
     // ===============================================================
     themePreload: function(context, refresh) {
-      //alert('themePreload');
     },
     themePrePlugins: function(context, refresh) {
       //alert('themePrePlugins');
@@ -31,11 +30,11 @@
         // Use any standard jQuery code to alter page:
         //$('.header-brand-text').html('test 1-2-3');
       }
-    },   
-    
+    },
+
     // ===============================================================
     // @group: Override default plugins OR add new plugins
-    // ===============================================================  
+    // ===============================================================
     themePluginsExtras: {
       // Plugin functions
       // name pattern themePluginPLUGINNAME
@@ -51,7 +50,7 @@
       //themePluginFakeLoader: function(context) {
         // override default themePluginFakeLoader function
       //},
-      
+
       //themePluginMyPlugin: function(context) {
         // My custom plugin load
         //var $triggerElements = context.find('[data-toggle=SOMETHING]');
@@ -65,5 +64,3 @@
     }, // end of themePluginsExtras object
   });
 })(jQuery);
-
-

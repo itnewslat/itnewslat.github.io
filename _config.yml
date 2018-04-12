@@ -108,3 +108,9 @@ prose:
           label: Publicar
           help: Puede elegir entre publicar o guardar su trabajo para continuar luego.
           value: false
+      - name: superNews
+        field:
+          element: checkbox
+          label: Banner Principal
+          help: Puede elegir si la publicación debe aparecer en el banner prinicipal.
+          value: false          
