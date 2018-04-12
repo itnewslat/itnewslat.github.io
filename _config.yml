@@ -113,4 +113,9 @@ prose:
           element: checkbox
           label: Banner Principal
           help: Puede elegir si la publicación debe aparecer en el banner prinicipal.
-          value: false          
+          value: false
+      - name: image-banner
+        field:
+          element: text
+          label: Ingrese una imagen para el Banner prinicipal.
+          value: ""

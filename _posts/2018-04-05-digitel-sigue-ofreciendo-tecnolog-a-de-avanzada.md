@@ -6,6 +6,7 @@ published: true
 title: Digitel sigue ofreciendo tecnología de avanzada
 image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/DIGITEL.jpg'
 detail-image: 'http://www.ciberespacio.com.ve/wp-content/uploads/2018/04/DIGITEL.jpg'
+image-banner: /assets/imagenes/venezuela/banner.jpeg
 categories:
   - Venezuela
 tags:
