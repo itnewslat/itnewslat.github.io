@@ -6,16 +6,7 @@ published: true
 superNews: false
 title: >-
   La gama económica de Huawei estrena pantalla 18:9 con desbloqueo facial por
-  menos de 200 dólares   Encuentra más detalles en
-  https://altadensidad.com/la-gama-economica-de-huawei-estrena-pantalla-189-con-desbloqueo-facial-por-menos-de-200-dolares/Huawei
-  acaba de añadir un nuevo miembro a su serie Y con el lanzamiento del Huawei Y6
-  (2018). Se trata de un smartphone que se suma a la lista de terminales
-  económicos que presumen de pantalla 18:9, un formato de visualización que
-  hasta hace poco era exclusivo de la gama alta y que ahora aparece en numerosos
-  dispositivos de este tipo. Pero no es la única característica destacada del
-  Huawei Y6 de 2018 que acaba de anunciar la firma china.  Encuentra más
-  detalles en
-  https://altadensidad.com/la-gama-economica-de-huawei-estrena-pantalla-189-con-desbloqueo-facial-por-menos-de-200-dolares/
+  menos de 200 dólares 
 image: >-
   https://i0.wp.com/altadensidad.com/wp-content/uploads/2018/04/huawei-y6-2018.jpg?w=620&ssl=1
 detail-image: >-
@@ -79,5 +70,4 @@ Según la información que aparece en la página web de Huawei así como en las 
 - Dimensiones: 158.3 x 76.7 x 7.8 mm
 - Peso: alrededor de 155 gramos
 
-Su precio oscilara entre 150 US$ y 200US$ 
-
+Su precio oscilara entre 150 US$ y 200US$
