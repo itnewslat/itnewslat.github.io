@@ -11,7 +11,7 @@ categories:
   - Venezuela
 tags:
   - Actualidad
-superNews: true
+superNews: false
 ---
 En el primer trimestre del año 2018, Digitel ha ejecutado proyectos para reforzar la cobertura y la conexión de sus usuarios.
 
