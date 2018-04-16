@@ -1,55 +1,29 @@
 <!-- @Element: Search form -->
 <div class="mb-4">
-  <form role="form">
-    <div class="input-group">
-      <label class="sr-only" for="search-field">Search</label>
-      <input type="search" class="form-control" id="search-field" placeholder="Search">
-      <span class="input-group-append">
-        <button class="btn btn-secondary" type="button">Go!</button>
-      </span>
-    </div>
-  </form>
-</div>
-
-<!-- @Element: badge cloud -->
-<div class="mb-4">
-  <h4 class="title-divider">
-    <span>Tags</span>
-  </h4>
-  <div class="tag-cloud">
-    <span class="badge"><a href="#">culture</a> (55)</span>
-    <span class="badge"><a href="#">general</a> (23)</span>
-    <span class="badge"><a href="#">coding</a> (14)</span>
-    <span class="badge"><a href="#">design</a> (91)</span>
-    <span class="badge"><a href="#">weather</a> (0)</span>
-    <span class="badge"><a href="#">jobs</a> (7)</span>
-    <span class="badge"><a href="#">health</a> (32)</span>
+  {% if categories > 1%}{% assign publicity-1 = site.data.header.publicity-1 %}{% elsif categoriesCase contains 'Panama' %}{% assign publicity-1 = site.data.panama.publicity.publicity-1 %}{% elsif categoriesCase contains 'Colombia' %}{% assign publicity-1 = site.data.colombia.publicity.publicity-1 %}{% elsif categoriesCase contains 'Venezuela' %}{% assign publicity-1 = site.data.venezuela.publicity.publicity-1 %}{% elsif categoriesCase contains 'Ecuador' %}{% assign publicity-1 = site.data.ecuador.publicity.publicity-1 %}{% elsif categoriesCase contains 'Perú' %}{% assign publicity-1 = site.data.peru.publicity.publicity-1 %}{% elsif categoriesCase contains 'Chile' %}{% assign publicity-1 = site.data.chile.publicity.publicity-1 %}{% elsif categoriesCase contains 'Argentina' %}{% assign publicity-1 = site.data.argentina.publicity.publicity-1 %}{% endif %}
+  {% for publicity in publicity-1 %}
+  <img class="img-fluid" src="{{publicity.image}}" data-url="{{ publicity.url }}" alt="">
+  {% endfor %}
   </div>
-</div>
-
-<!-- @Element: Subscrive button -->
-<div class="mb-4">
-  <a href="#" class="btn btn-warning text-white"><i class="fa fa-rss"></i> Subscribe via RSS feed</a>
-</div>
-
-<!-- Follow Widget -->
-<div class="mb-4">
-  <h4 class="title-divider">
-    <span>Follow Us On</span>
-  </h4>
-  <!--@todo: replace with real social media links -->
-  <ul class="list-unstyled">
-    <li>
-      <a href="#" class="text-hover-brand-twitter d-flex align-items-center py-1 text-hover-no-underline"><i class="fab fa-twitter-square fa-fw icon-2x"></i> Twitter</a>
-    </li>
-    <li>
-      <a href="#" class="text-hover-brand-facebook d-flex align-items-center py-1 text-hover-no-underline"><i class="fab fa-facebook-square fa-fw icon-2x"></i> Facebook</a>
-    </li>
-    <li>
-      <a href="#" class="text-hover-brand-linkedin d-flex align-items-center py-1 text-hover-no-underline"><i class="fab fa-linkedin fa-fw icon-2x"></i> LinkedIn</a>
-    </li>
-    <li>
-      <a href="#" class="text-hover-brand-google-plus d-flex align-items-center py-1 text-hover-no-underline"><i class="fab fa-google-plus-square fa-fw icon-2x"></i> Google+</a>
-    </li>
-  </ul>
-</div>
+  <!-- Follow us-->
+  <h5 class="text-uppercase mt-4 mb-0 font-weight-bold">
+    Follow Us
+  </h5>
+  <hr class="mt-2 mb-3" />
+  <!--@todo: replace with company social media details-->
+  <div class="nav">
+    <a href="#" class="nav-link bg-brand-twitter text-white text-center py-4 flex-ew"> <i class="fab fa-twitter icon-1x"></i> <span class="sr-only">Twitter</span> <span class="d-block text-xs">426</span> </a>
+    <a href="#" class="nav-link bg-brand-facebook text-white text-center py-4 flex-ew"> <i class="fab fa-facebook-f icon-1x"></i> <span class="sr-only">Facebook</span> <span class="d-block text-xs">1489</span> </a>
+    <a href="#" class="nav-link bg-brand-linkedin text-white text-center py-4 flex-ew"> <i class="fab fa-linkedin-in icon-1x"></i> <span class="sr-only">Linkedin</span> <span class="d-block text-xs">1207</span> </a>
+    <a href="#" class="nav-link bg-brand-google-plus text-white text-center py-4 flex-ew"> <i class="fab fa-google-plus-g icon-1x"></i> <span class="sr-only">Google plus</span> <span class="d-block text-xs">1567</span> </a>
+  </div>
+  <!-- Popular news widget -->
+  <hr class="mt-2 mb-3" />
+  <!-- publicity -->
+  <div class="bg-light text-sm text-center mt-4" data-css='{"width":"100%","height":240}'>
+  {% for publicity in site.data.panama.publicity.sideBar-publicity %}
+  <img class="img-fluid" src="{{publicity.image}}" data-url="{{ publicity.url }}" alt="">
+  <hr class="mt-2 mb-3" />
+  {% endfor %}
+  </div>
+  <hr class="my-1" />

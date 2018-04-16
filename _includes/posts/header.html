@@ -15,12 +15,11 @@
 
         <a href="#top" class="btn btn-icon btn-white order-12 d-lg-none" data-toggle="jpanel-menu" data-target=".navbar-main" data-direction="right"> <i class="fa fa-bars"></i> </a>
         <div class="bg-light text-sm d-none d-lg-block text-center" data-css='{"width":480,"height":60}'>
-        <img class="img-fluid" src="{{site.data.header.header-publicity}}" alt="">
+        <img class="img-fluid" src="{%if categories > 1%}{{site.data.header.global-publicity}}{% elsif categoriesCase contains 'Panama' %}{{site.data.panama.publicity.header-publicity}}{% elsif categoriesCase contains 'Colombia' %}{{site.data.colombia.publicity.header-publicity}}{% elsif categoriesCase contains 'Venezuela' %}{{site.data.venezuela.publicity.header-publicity}}{% elsif categoriesCase contains 'Ecuador' %}{{site.data.ecuador.publicity.header-publicity}}{% elsif categoriesCase contains 'Perú' %}{{site.data.peru.publicity.header-publicity}}{% elsif categoriesCase contains 'Chile' %}{{site.data.chile.publicity.header-publicity}}{% elsif categoriesCase contains 'Argentina' %}{{site.data.argentina.publicity.header-publicity}}{% endif %}" alt="">
         </div>
       </div>
     </div>
   </div>
-
   <div data-toggle="sticky">
     <div class="navbar navbar-expand-md">
       <div class="w-100 bg-primary navbar-dark">

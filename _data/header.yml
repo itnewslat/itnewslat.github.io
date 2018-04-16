@@ -16,7 +16,13 @@ headers:
     flag: flag-icon-pe
   - element: Chile
     href: /Chile/
-    flag: flag-icon-cl    
+    flag: flag-icon-cl
   - element: Argentina
     href: /Argentina/
     flag: flag-icon-ar
+
+global-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Publicidad.jpg'
+
+publicity-1:
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
+    url: http://www.ciberespacio.com.ve/
