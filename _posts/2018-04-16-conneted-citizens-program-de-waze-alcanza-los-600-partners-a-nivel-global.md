@@ -10,7 +10,11 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/wazeg.jpg
 categories:
+  - Colombia
   - Argentina
+  - Perú
+  - Ecuador
+  - Chile
 tags:
   - Transformación Digital
 ---
@@ -27,4 +31,3 @@ Las alianzas de gobiernos locales con Waze resaltan en el continente. En Latinoa
 "El asociarnos con Waze, dentro del Programa Connected Citizens, nos acerca mucho más a nuestros usuarios. Ellos reportan las condiciones de tráfico de las rutas en la ciudad lo que nos permite tener una base de información actualizada. Esto nos refuerza como una entidad de servicio público en materia de tránsito que aprovecha la tecnología. El Municipio de Guayaquil acoge a las empresas exitosas y ello nos permite servir en un alto nivel a la comunidad", afirmó Andrés Roche, Gerente General de la Autoridad de Tránsito Municipal de Guayaquil, Ecuador.
 
 Para ser parte de Connected Citizens Program, las ciudades deben inscribirse aquí y serán contactados por el equipo Waze para saber más sobre el programa
-
