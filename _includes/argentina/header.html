@@ -65,25 +65,7 @@
                 <a href="{{ option.href }}" class="nav-link dropdown-toggle">
                   <i class="flag-icon {{ option.flag }}"></i>
                   {{ option.element }}</a>
-                <!--id="news-drop" data-toggle="dropdown" data-hover="dropdown"-->
-                  <!-- Dropdown Menu - Mega Menu -->
-                  <div class="dropdown-menu">
-                    <div class="container">
-                      <div class="row">
-                        {% for item in site.categories[option.element] limit: 4 %}
-
-                          <div class="col-lg-3 py-2" data-url="{{ item.url }}">
-                            <img data-toggle="blazy" data-src="{{ item.image }}" class="img-fluid" />
-                            <h5 class="mt-2 mb-0">
-                              {{ item.title | truncatewords:8 }}
-                            </h5>
-                            {{ item.content | truncatewords:8  }}
-                          </div>
-                        {% endfor %}
-                      </div>
-                    </div>
-                  </div>
-                </li>
+              </li>
               {% endfor %}
             </ul>
           </div>

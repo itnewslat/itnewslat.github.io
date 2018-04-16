@@ -17,7 +17,11 @@
   <link href="/assets/css/theme-style.min.css" rel="stylesheet">
 
   <!-- Orange colour scheme -->
-  <link href="/assets/css/colour-{{ page.color-schema }}.min.css" rel="stylesheet">
+  {% assign categories = page.categories | size %}
+  {% assign categoriesCase = page.categories %}
+
+  <link href="/assets/css/colour-{% if categories > 1 %}red-dark.min.css{% elsif categoriesCase contains 'Panama' %}green-bright.min.css{% elsif categoriesCase contains 'Colombia' %}yellow.min.css{% elsif categoriesCase contains 'Venezuela' %}red-dark.min.css{% elsif categoriesCase contains 'Ecuador' %}blue-dark.min.css{% elsif categoriesCase contains 'Perú' %}orange.min.css{% elsif categoriesCase contains 'Chile' %}red.min.css{% elsif categoriesCase contains 'Argentina' %}blue.min.css
+  {%endif%}"rel="stylesheet">
 
 
   <!-- Your custom override -->
