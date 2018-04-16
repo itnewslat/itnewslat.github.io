@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-15 08:06 -0400'
 published: true
-superNews: true
+superNews: false
 title: Intel presentó en Bogotá su nueva familia de procesadores
 categories:
   - Colombia
