@@ -1,22 +1,22 @@
 headers:
-  - element: Venezuela
-    href: /Venezuela/
-    flag: flag-icon-ve
+  - element: Panamá
+    href: /Panama/
+    flag: flag-icon-pa
   - element: Colombia
     href: /Colombia/
     flag: flag-icon-co
-  - element: Argentina
-    href: /Argentina/
-    flag: flag-icon-ar
-  - element: Chile
-    href: /Chile/
-    flag: flag-icon-cl
-  - element: Perú
-    href: /Peru/
-    flag: flag-icon-pe
+  - element: Venezuela
+    href: /Venezuela/
+    flag: flag-icon-ve
   - element: Ecuador
     href: /Ecuador/
     flag: flag-icon-ec
-  - element: Panama
-    href: /Panama/
-    flag: flag-icon-pa
+  - element: Perú
+    href: /Peru/
+    flag: flag-icon-pe
+  - element: Chile
+    href: /Chile/
+    flag: flag-icon-cl    
+  - element: Argentina
+    href: /Argentina/
+    flag: flag-icon-ar

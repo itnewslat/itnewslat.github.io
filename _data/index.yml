@@ -1,4 +1,19 @@
 content:
   - background: assets/img/backgrounds/itfondo.png
     img-map: assets/img/map.svg
-    description: Enfocados en las tendencias tecnológicas de los próximos años y las nuevas audiencias que están  cambiando el mercado
+    rrss:
+      - name: instagram
+        href: http://instagram.com/ITNEWSLAT
+        icon: fa-instagram
+      - name: twitter
+        href: http://twitter.com/ITNewsLat
+        icon: fa-twitter
+      - name: facebook
+        href: https://facebook.com/itnewslat
+        icon: fa-facebook-f
+#      - name: linkedin
+#        href: ""
+#        icon: fa-linkedin-in
+#      - name: googleplus
+#        href: ""
+#        icon: fa-google-plus-g

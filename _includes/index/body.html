@@ -3,24 +3,26 @@
   <!-- @plugin: page loading indicator, delete to remove loader -->
   <div class="page-loader" data-toggle="page-loader"></div>
   {%  for element in site.data.index.content %}
-    <div class="bg-white overlay overlay-inverse overlay-op-7 text-center px-3 py-5 py-lg-10 flex-valign" data-bg-img="{{ element.background }}" data-css='{"background-position": "right bottom"}' data-toggle="full-height">
+    <div class="text-center px-3 " data-bg-img="{{ element.background }}" data-css='{}' data-toggle="full-height">
 
       <div class="text-white">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6 overlay overlay-gradient overlay-op-6 bg-img blazy-bg animated animated-done b-loaded" data-animate="fadeIn" data-animate-delay="0.2" style="animation-delay: 0.2s; background-image: url({{ element.img-map }});"></div>
           <div class="col-lg-4 py-7 animated animated-done" data-animate="fadeIn" data-animate-delay="0.4" style="animation-delay: 0.4s;">
-            <h2 class="display-4 text-slab text-white text-uppercase mt-0 mb-3 op-6">
+            <h2 class="display-4 text-slab text-white text-uppercase mt-0 mb-3">
               <img class="img-fluid"  src="{{ site.logo_red | prepend:site.image_url }}" alt="">
             </h2>
-            {% if element.description %}
-            <p>{{ element.description  }}</p>
-            {% endif %}
+            <div class="float-md-right ml-md-auto">
+              {% for item in element.rrss %}
+                <a href="{{ item.href }}" target="_blank" class="btn btn-sm btn-icon btn-dark btn-rounded"><i class="fab {{ item.icon }}"></i></a>
+              {% endfor %}
+            </div>
             <hr class="my-4 hr-white op-1">
             <div class="row">
               {% for option in site.data.header.headers %}
               <div class="col-md-12">
-                <a href="{{ option.href }}"><h4>{{option.element}}</h4>
+                <a href="{{ option.href }}" style="color: #31383d;"><h2>{{option.element}}</h2>
                 </a>
               </div>
               {% endfor %}
