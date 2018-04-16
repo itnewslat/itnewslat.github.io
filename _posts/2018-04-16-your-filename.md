@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-04-16 18:19 -0400'
 published: true
 superNews: false
-title: ''
+title: 'Movizzon: startup que revoluciona el servicio al cliente del sector financiero'
 categories:
   - Colombia
   - Perú
@@ -17,8 +17,6 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Movizzonl.jpg
 ---
-Movizzon: startup que revoluciona el servicio al cliente del sector financiero
-
 •	Un estudio de la reconocida firma Gartner posiciona a Movizzon como uno de los cuatro emprendimientos fintech de América Latina, que está transformando industrias gracias al uso de la tecnología y recomienda a los CIO del mundo tenerla en cuenta para avanzar en los planes de transformación digital.
 •	Esta plataforma reporta automáticamente los errores que surgen cuando los usuarios navegan en los canales electrónicos de los bancos e incluso puede predecirlos.
 
@@ -37,5 +35,3 @@ Un estudio de la firma Forrester Research, realizado en 2017 a más de 50 entida
 Otra razón de la importancia de resolver en el menor tiempo posible las fallas en plataformas de banca digital es que “cuando un usuario experimenta problemas, este va a preferir usar otras opciones para encontrar una solución, por ejemplo ir a una oficina física que incrementa los costos hasta 15 veces más que en plataformas digitales, sumando la mala experiencia de servicio que se lleva el cliente y la predisposición a que le ocurra lo mismo en futuras ocasiones o puntos de atención”, asegura Ibañez.
 
 Movizzon ya se encuentra en operación en varios países como Colombia, Chile, Costa Rica, El Salvador, Hondura, Panamá, Perú y España. En los próximos 2 años espera fortalecer sus operaciones en Europa y Estados Unidos.
-
-
