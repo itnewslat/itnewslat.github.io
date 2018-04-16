@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-04-16 19:16 -0400'
 published: true
 superNews: false
-title: Mastercard anuncias nuevos ejecutivos globales
+title: Mastercard anuncia nuevos ejecutivos globales
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Gilberto-Caldart-p.jpg
 detail-image: >-
@@ -54,4 +54,3 @@ En particular, dirigió la división de banca minorista de Citi Brasil por más 
 El 1 de junio, Carlo Enrico asumirá el título de presidente de la región de América Latina y el Caribe, reemplazando a Caldart, con sede en Miami. Actualmente se desempeña como presidente de división para Europa Occidental, y es responsable de dirigir el negocio en Bélgica, Luxemburgo, los Países Bajos, Francia, Portugal, Italia y España.
 
 Se unió a Mastercard en 2012, sirviendo en varios cargos principales, incluyendo el de presidente de la división de Europa Central y del Este. Anteriormente, Enrico había sido CEO de BancoPosta, la división de servicios financieros de Poste Italiane en Italia, además de altos cargos en Banco di Sicilia, Capitalia Group y Goldman Sachs.
-
