@@ -12,7 +12,13 @@ detail-image: >-
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Mediatek-p.jpg
 categories:
+  - Venezuela
   - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
 tags:
   - Transformación Digital
 ---
@@ -33,4 +39,3 @@ Más de nueve mil millones de dispositivos alimentados por microcontroladores es
 Con Azure Sphere, Microsoft está construyendo un nuevo ecosistema, que consiste en vendedores de silicio, fabricantes de dispositivos originales y fabricantes de equipos originales de una amplia gama de industrias. Como grupo, entienden las oportunidades y los riesgos asociados con el creciente número de dispositivos y aplicaciones de IoT y se han unido para garantizar que se desarrollen y mantengan los estándares de seguridad.
 
 MediaTek ahora está probando chips con clientes líderes y tendrá una amplia disponibilidad de productos para el Q3 de 2018. Para más detalles, visite aquí la solución de MediaTek y la colaboración con Microsoft.
-
