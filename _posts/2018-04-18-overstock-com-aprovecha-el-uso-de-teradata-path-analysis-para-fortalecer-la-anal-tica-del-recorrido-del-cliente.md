@@ -16,7 +16,7 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Data-center-p.jpg
 ---
-**Overstock.com, impulsando el análisis de comportamiento de sus clientes vía analítica avanzada.**
+** Overstock.com, impulsando el análisis de comportamiento de sus clientes vía analítica avanzada. **
 
 Teradata (NYSE: TDC), empresa líder en analítica y datos basados en la nube, dió a conocer que la compañía  Overstock.com Inc. (NASDAQ:OSTK) está aprovechando el uso de la interface “Teradata Path Analysis” para ser parte del análisis de sus clientes. Overstock, empresa líder de ventas online, necesitaba una solución para analizar los datos de sus clientes correspondientes a campañas de marketing multicanal y los hitos clave del recorrido - rutas o comportamiento durante un ciclo específico. 
 
