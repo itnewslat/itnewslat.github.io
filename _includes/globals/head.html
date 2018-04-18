@@ -1,5 +1,5 @@
 <head>
-  <title>{{ site.title }}</title>
+  <title>{{ page.title }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,6 +7,8 @@
   <!-- @todo: fill with your company info or remove -->
   <meta name="{{ site.description }}" content="">
   <meta name="author" content="{{ site.author }}">
+  <meta name="image" content="{{ site.logo | prepend: site.image_url }}">
+
 
   <!-- Bootstrap v4.0.0 CSS via CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">

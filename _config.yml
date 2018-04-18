@@ -10,7 +10,7 @@ logo_blue: "logo_large_blue.png"
 logo_green: "logo_large_green.png"
 logo_white: "logo_large_white.png"
 logo_orange: "logo_large_orange.png"
-
+logo: logo.png
 
 # Build settings
 markdown: kramdown
