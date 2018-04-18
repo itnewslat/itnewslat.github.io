@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-12 07:27 -0400'
 published: true
-superNews: true
+superNews: false
 title: La plataforma Vision Intelligence potencia al Internet de las Cosas
 image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/iotp.jpg'
 image-banner: >-
