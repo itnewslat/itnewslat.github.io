@@ -14,7 +14,7 @@ logo_orange: "logo_large_orange.png"
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+permalink: /:title.html
 
 whitelist: []
 plugins_dir:   []
