@@ -38,4 +38,6 @@ Los ejecutivos de Apple han dicho que planean alcanzar un objetivo de USD 50 mil
 
 Apple destacó anteriormente las revistas como una parte clave de su estrategia de iPad en 2010.
 
-FUENTE:[TyNMagazine](http://www.tynmagazine.com/amazon-y-apple-estan-preparando-una-plataforma-tecnologica-de-noticias-a-medida/)
+FUENTE: [TyNMagazine](http://www.tynmagazine.com/amazon-y-apple-estan-preparando-una-plataforma-tecnologica-de-noticias-a-medida/)
+
+![]({{site.baseurl}}/https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/300x300.png)
