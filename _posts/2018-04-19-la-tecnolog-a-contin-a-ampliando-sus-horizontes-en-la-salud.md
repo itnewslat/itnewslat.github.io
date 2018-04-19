@@ -8,7 +8,7 @@ title: La tecnología continúa ampliando sus horizontes en la salud
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/radiorafia-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/radiorafia-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/radiografia-g.jpg
 categories:
   - Venezuela
   - Colombia
