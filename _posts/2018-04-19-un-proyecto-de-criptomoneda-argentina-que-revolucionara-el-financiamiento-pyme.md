@@ -12,7 +12,7 @@ categories:
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Gerardo-Ratto-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Gerardo-Ratto-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Gerardo-Ratto-g.jpg
 ---
 De la mano de un grupo de 25 emprendedores y desarrolladores argentinos, Jasper, un proyecto de puesta en marcha de una criptomoneda diseñada para hacer el minado más sencillo, se presenta hoy en el mercado con el objetivo de dar a conocer el recorrido comercial del proyecto en un evento orientado a inversores, empresarios y miembros de la comunidad cripto.
 
