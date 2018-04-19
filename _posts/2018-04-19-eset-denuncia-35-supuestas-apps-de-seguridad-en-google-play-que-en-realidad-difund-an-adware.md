@@ -22,7 +22,7 @@ categories:
 tags:
   - Seguridad
 ---
-Investigadores de la firma de ciberseguridad descubrieron que las apps aportaban publicidad no deseada y una pseudo-seguridad inefectiva.
+**Investigadores de la firma de ciberseguridad descubrieron que las apps aportaban publicidad no deseada y una pseudo-seguridad inefectiva.**
 
 De acuerdo con AV-Comparatives, organización independiente encargada de realizar pruebas sobre detección y fiabilidad de antivirus, existen diferencias significativas en el nivel de protección que ofrecen las distintas soluciones de seguridad para móviles. Sin embargo, ninguna de ellas alcanza cuotas tan bajas como las denunciadas por los investigadores de ESET: 35 han sido las aplicaciones recientemente descubiertas por los investigadores de la compañía de ciberseguridad en la tienda oficial de aplicaciones para Android. Éstas pretendían engañar a los usuarios bajo una apariencia de app de seguridad cuando, en realidad, difundían publicidad no deseada. 
 
