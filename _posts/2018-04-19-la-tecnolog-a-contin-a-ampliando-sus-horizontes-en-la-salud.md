@@ -34,4 +34,4 @@ El Clinical Review Monitor y el Surgical Monitor de LG están equipados con cont
 
 Estos monitores, además, poseen una tecnología que estabiliza la luz de fondo que garantiza una constante iluminación. LG, a la hora de diseñar estos monitores, tuvo en consideración también la salud de los médicos que los utilizan, al incorporar funciones de lectura (Reader Mode) y tecnología Flicker Safe, que ayuda a reducir la tensión ocular tras largas jornadas de trabajo.
 
-
+FUENTE: [TyNMagazine](http://www.tynmagazine.com/la-tecnologia-continua-ampliando-sus-horizontes/)
