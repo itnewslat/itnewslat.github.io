@@ -4,9 +4,7 @@ color-schema: red-dark
 date: '2018-04-19 13:03 -0400'
 published: true
 superNews: false
-title: >-
-  UntitledLa sostenibilidad es un buen negocio para la industria móvil y la
-  sociedad
+title: La sostenibilidad es un buen negocio para la industria móvil y la sociedad
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/sebastian-cabello-g.jpg
 image: >-
