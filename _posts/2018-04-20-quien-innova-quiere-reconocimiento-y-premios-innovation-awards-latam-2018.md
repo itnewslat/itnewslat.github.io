@@ -32,3 +32,6 @@ El año pasado fue la primera edición del premio, el Fintech Awards Latam, al q
 El Innovation Awards Latam tiene apoyo de socios internacionales, aceleradores, fondos de  Venture Capital  y asociaciones de startups. Entre los apoyadores están Plug and Play ,que aceleró empresas como PayPal, Logitech, DropBox, Lending Club, SoundHound entre otros. La Latam Startups, entidad responsable de promover la relación entre startups en América Latina y Venture Capitals de Canadá. La Startupbootcamp Fintech, aceleradora centrada en startups Fintech, que ya tiene más de 400 alumnis. El premio también cuenta con el apoyo de CrunchBase, Startup Buenos Aires y de la Incubadora Sinergia.
 
 El propósito del premio es fortalecer el ecosistema de startups en America Latina conectando grandes empresas y fondos de inversión con el reconocimiento de las soluciones más innovadoras y promover el intercambio de conocimientos entre los players y los profesionales del mercado.
+
+
+FUENTE: [TyNMagazine](http://www.tynmagazine.com/quien-innova-quiere-reconocimiento-y-premios-innovations-award-latam-2018/)
