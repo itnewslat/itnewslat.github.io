@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-12 08:10 -0400'
 published: true
-superNews: true
+superNews: false
 title: 'Piura: Lanzan octava edición del Premio Conectarse para crecer'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Piura-P.jpg
