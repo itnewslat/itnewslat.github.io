@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: Kia entrega reporte de ventas del primer trimestre de 2018
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kia-1-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/kia-1-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Kia-1-g.jpg
 categories:
