@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-16 17:53 -0400'
 published: true
-superNews: true
+superNews: false
 title: El Grupo ZFB participó en el Share Services Center Forum Colombia
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Servicep.jpg
@@ -38,4 +38,3 @@ Por otro lado y de acuerdo al informe Tercer Encuesta Latinoamericana de Servici
 Este encuentro desarrollado por la Asociación Nacional de Empresarios de Colombia (ANDI) contó además con la participación de grandes personalidades como Santiago Pinzón Galán, Director Ejecutivo de la Cámara de Industria Digital y servicios de la ANDI; Rubén Gallego, LATAM Lead Shared Services Outsourcing and Automation Advisory de KPMG, quien explicó un estudio de benchmarking y caracterización de los CSC en Colombia y su análisis respecto a nivel de evolución con la región y el mundo; Weston Jones, Advisory Services Global Robotics and Cognitive Automation Leader EY experto en temas de procesos de automatización en robótica para los Centros de Servicios Compartidos; Ricardo Wolf, Senior Director CSC Latinoamérica de Pepsico, encargado de exponer las nuevas estrategias de crecimiento de los CSC con tecnologías emergentes.
 
 Dentro del marco del evento se entregaron los premios a los Centros de Servicios por su desempeño corporativo, procesos y servicios y desarrollo laboral y se dieron a conocer los más recientes casos de éxito para los Centros de Servicios Compartidos como lo son los de Ecopetrol S.A, Scotiabank CS, Global Services Johnson & Johnson, EPM CSC, entre otros.
-
