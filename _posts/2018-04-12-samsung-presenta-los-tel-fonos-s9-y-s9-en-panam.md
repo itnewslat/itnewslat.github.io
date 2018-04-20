@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-12 08:52 -0400'
 published: true
-superNews: true
+superNews: false
 title: Samsung presenta los teléfonos S9 y S9+ en Panamá
 detail-image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/S9g.jpg'
 image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/S9p.jpg'
