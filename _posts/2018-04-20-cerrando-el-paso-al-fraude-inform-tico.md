@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: Cerrando el paso al fraude informático
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jesus-Cortina-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jesus-Cortina-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Jesus-Cortina-g.jpg
 categories:
