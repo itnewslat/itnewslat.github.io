@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-18 08:34 -0400'
 published: true
-superNews: true
+superNews: false
 title: Franceses sorprendidos por la posible compra de Carrefour a manos de Amazon
 categories:
   - Argentina
