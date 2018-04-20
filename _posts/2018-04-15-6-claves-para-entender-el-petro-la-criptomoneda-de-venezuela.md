@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-15 08:38 -0400'
 published: true
-superNews: true
+superNews: false
 title: '6 claves para entender el petro, la criptomoneda de Venezuela'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Petro-p.jpg
