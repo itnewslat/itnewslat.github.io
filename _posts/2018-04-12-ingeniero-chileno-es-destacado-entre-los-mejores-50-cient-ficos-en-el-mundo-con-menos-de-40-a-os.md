@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2018-04-12 07:41 -0400'
 published: true
-superNews: true
+superNews: false
 title: >-
   Ingeniero chileno es destacado entre los mejores 50 científicos en el mundo
   con menos de 40 años  
