@@ -29,9 +29,10 @@
         <div class="header-search fade dur-fast pos-absolute pos-a w-100 pos-zindex-fixed overlay" id="search-overlay">
           <form class="search-form d-flex align-items-center container">
             <i class="fa fa-search fa-flip-horizontal icon-1x text-white"></i>
-            <input type="text" name="search" class="form-control search h-100 pl-2" value="" placeholder="Search">
+            <input type="text" name="search" class="form-control search h-100 pl-2" value="" placeholder="Search" id="search-input">
             <a href="#" class="text-white" data-toggle="class" data-target='{"#search-overlay":{"actions":{"remove":"show"}}}'> <span class="sr-only">Close </span><i class="fa fa-times icon-1x"></i> </a>
           </form>
+          <ul id="results-container"></ul>
         </div>
         <!-- Mobile mini header -->
         <div class="container d-flex d-lg-none align-items-center py-2">

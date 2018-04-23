@@ -6,6 +6,13 @@
   background-image: none !important;
 }
 
+#results-container{
+  position: fixed;
+  background-color: #202020;
+  width: 100%;
+  font-size: large;
+  color: #fff
+}
 
 @media (min-width: 319px) {
   .logoHeight{
