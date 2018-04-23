@@ -10,14 +10,23 @@
 <!-- JS plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 To disable this and load plugin assets manually simple add data-plugins-manual=true to the body tag -->
 <script>
 function goBack() {
-    console.log(window.history)
-
+   window.history.back();
 }
 </script>
 <!--Custom scripts & AppStrap API integration -->
 <script src="assets/js/custom-script.js"></script>
 <!--AppStrap scripts mainly used to trigger libraries/plugins -->
 <script src="assets/js/script.min.js"></script>
+
+<script type="text/javascript">
+  SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  searchResultTemplate: '<li><a class="pdfIndex" href="{url}">{title}</a></li>',
+  fuzzy: false,
+  json: '/search.json'
+  })
+</script>
 {% include globals/google/script-analytics.html %}
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5889ea02f03c8098"></script>
