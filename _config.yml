@@ -31,7 +31,6 @@ prose:
     'README.MD'
   ]
   siteurl: ""
-  media: 'images'
   metadata:
     _posts:
       - name: layout
