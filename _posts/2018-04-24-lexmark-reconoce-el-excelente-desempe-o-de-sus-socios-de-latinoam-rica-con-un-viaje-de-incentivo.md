@@ -8,7 +8,7 @@ title: >-
   Lexmark reconoce el excelente desempeño de sus socios de Latinoamérica con un
   viaje de incentivo
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Viajes-Lexmark-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Viaje-Lexmark-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Viajes-Lexmark-g.jpg
 categories:
@@ -23,4 +23,3 @@ Lexmark International, Inc., líder global en soluciones de imagen, organizó su
 El programa de incentivos de este año reconoció a 26 socios de canal de once países diferentes de Latinoamérica que calificaron para el premio. El viaje incluyó un lujoso crucero de ocho días por Europa. En la travesía por el Mar Mediterráneo, tuvieron la oportunidad de conocer enclaves históricos en cuatro países (España, Francia, Italia y Malta).
 
 Este viaje de incentivo, que se realiza por quinto año consecutivo, se ha convertido en una tradición entre los socios. Los ganadores anteriores del programa han viajado a destinos en el norte de Europa, el mar Mediterráneo y el sudeste de Asia, entre otros.
-
