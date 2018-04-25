@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: Lo mejor de dos mundos
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Enrique-Nuñez-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Enrique-Nuñez-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Enrique-Nuñez-g.jpg
 categories:
