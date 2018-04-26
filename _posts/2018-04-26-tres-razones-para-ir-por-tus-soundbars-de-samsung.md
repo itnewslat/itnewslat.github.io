@@ -41,14 +41,8 @@ Con un diseño elegante y minimalista, estos novedosos equipos armonizan con cua
 La línea de Soundbars Samsung está compuesta por los modelos **K450, K360 y M4501**. Para más información, visite www.samsung.com/latinoamerica 
  
 
-¹ El subwoofer debe estar en el área de alcance de transmisión de la señal de la barra de sonido. Consulte el manual para las condiciones de uso.
- 
-² La exposición a sonidos por encima de 85 decibeles puede dañar el sistema auditivo.
- 
-³ Disponible sólo en algunos televisores Samsung. Para más información, visite: www.samsung.com/latinoamerica 
- 
-4 Control Remoto Único está disponible para la nueva categoría QLED TV, The Frame y UHD 4K 2017 del modelo MU6400. Los modelos a partir del KU6400, de la línea de 2016, también cuentan con el accesorio.
- 
-5 Los Soundbars deben colocarse en una superficie plana, lejos del agua y protegidos del calor. Consulte el manual de instrucciones para conocer las condiciones óptimas de funcionamiento del producto.
-
-
+- El subwoofer debe estar en el área de alcance de transmisión de la señal de la barra de sonido. Consulte el manual para las condiciones de uso.
+- La exposición a sonidos por encima de 85 decibeles puede dañar el sistema auditivo.
+- Disponible sólo en algunos televisores Samsung. Para más información, visite: www.samsung.com/latinoamerica 
+- Control Remoto Único está disponible para la nueva categoría QLED TV, The Frame y UHD 4K 2017 del modelo MU6400. Los modelos a partir del KU6400, de la línea de 2016, también cuentan con el accesorio.
+- Los Soundbars deben colocarse en una superficie plana, lejos del agua y protegidos del calor. Consulte el manual de instrucciones para conocer las condiciones óptimas de funcionamiento del producto
