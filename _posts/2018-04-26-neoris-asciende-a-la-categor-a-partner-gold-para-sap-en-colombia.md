@@ -27,4 +27,3 @@ Asimismo, NEORIS Colombia está integrada a la red de colaboración mundial de l
  “Para el equipo de Colombia, es un orgullo llegar a esta categoría de Partnership, puesto que es el resultado del trabajo que se ha venido realizando durante el último año, es un reconocimiento al esfuerzo que nos permite expandir el negocio en diferentes industrias foco y lograr nuevos acuerdos en conjunto” comentó Fernando Silvestre, Country Manager de NEORIS Colombia.
 
 NEORIS y SAP® colaboran a nivel mundial para comercializar y ofrecer aplicaciones tecnológicas, basándose en el modelo exclusivo y altamente fiable de prestación de servicios a nivel mundial de NEORIS, combinado con su amplio portafolio de soluciones TI. Las ofertas complementarias de las dos compañías permiten potenciar su competitividad mediante la optimización de sus operaciones generales y el logro de una perspectiva de “punta a punta”, centrada en procesos, para un mayor éxito financiero y operativo.
-
