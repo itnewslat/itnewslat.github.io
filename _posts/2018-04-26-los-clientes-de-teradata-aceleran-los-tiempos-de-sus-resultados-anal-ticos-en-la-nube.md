@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2018-04-26 13:35 -0400'
-published: false
+published: true
 superNews: false
 title: >-
   Los clientes de Teradata aceleran los tiempos de sus resultados Analíticos en
