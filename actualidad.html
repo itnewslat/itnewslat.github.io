@@ -1,0 +1,28 @@
+---
+layout: index
+color-schema: red-dark
+filter: 'Actualidad'
+---
+
+  {% include venezuela/header.html %}
+<!-- ======== @Region: #content ======== -->
+<div id="content">
+  <div class="container">
+    <h2 class="title-divider">
+      <span>{{ page.filter }}</span>
+    </h2>
+
+    <div class="row">
+      <!--Blog Grid -->
+      {% include globals/categories-body.html %}
+
+      <!--Sidebar-->
+      <div class="col-md-3 sidebar-right">
+        {% include globals/categories-sidebar.html %}
+      </div>
+    </div>
+  </div>
+  <!--.container-->
+</div>
+</div>
+{% include posts/footer.html %}

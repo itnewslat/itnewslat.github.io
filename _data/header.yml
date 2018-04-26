@@ -26,3 +26,11 @@ global-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/master/img
 publicity-1:
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
     url: http://www.ciberespacio.com.ve/
+
+sideBar-publicity:
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
+    url: http://www.ciberespacio.com.ve/
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
+    url: http://www.ciberespacio.com.ve/
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
+    url: http://www.ciberespacio.com.ve/
