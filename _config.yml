@@ -28,7 +28,18 @@ prose:
     '_config.yml',
     '.gitignore',
     'search.json',
-    'README.MD'
+    'README.MD',
+    'CNAME',
+    'Gemfile',
+    'actualidad.html',
+    'canales.html',
+    'economia_digital.html',
+    'feed.xml',
+    'index.html',
+    'movilidad.html',
+    'seguridad.html',
+    'transformacion_digital.html'
+
   ]
   siteurl: ""
   metadata:
