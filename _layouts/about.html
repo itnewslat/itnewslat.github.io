@@ -1,0 +1,23 @@
+---
+layout: index
+color-schema: red-dark
+---
+
+  {% include venezuela/header.html %}
+  <div id="about" class="">
+          <div class="container py-6 animated animated-done" data-animate="fadeIn">
+            <h2 class="display-4 font-weight-bold mb-3 text-letter-spacing-xs">
+              About
+            </h2>
+            <div class="row">
+              <div class="col-lg-4 order-lg-2">
+                <img src="{{ page.perfil-image }}" alt="Me" class="img-fluid rounded-circle op-7 border-white border-w-5 w-30 w-lg-80 mt-lg-4-neg d-none d-lg-block">
+              </div>
+              <div class="col-lg-8">
+                {{ content }}
+              </div>
+            </div>
+            <hr class="op-3 mt-6 mb-0">
+          </div>
+  </div>
+  {% include venezuela/footer.html %}
