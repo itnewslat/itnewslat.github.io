@@ -40,7 +40,7 @@ La compañía tiene pensado, como el siguiente paso más inmediato, llevar el vi
 
 Freaky Creations también ha ido invitado por la multinacional Sony a importantes eventos de la industria en Brasil y México. (I)
 
-- Compra: Quienes estén interesados en adquirir el videojuego, pueden ingresar a: https://bit.ly/2uHbwsT
+- Compra: Quienes estén interesados en adquirir el videojuego, pueden ingresar a: [https://bit.ly/2uHbwsT](https://bit.ly/2uHbwsT)
 
 > Precio El videojuego To Leave cuesta 20 dólares y cuenta con cincuenta niveles.
 
