@@ -32,3 +32,5 @@ En cuanto a especificaciones técnicas, el Galaxy S9 está equipado con el proce
 Además, cuenta con 4G de memoria RAM, sistema operativo Android 8.0 Oreo y una batería de 3000 mAh. En cuanto al almacenamiento interno, el smartphone viene en tres configuraciones 64, 128 o 256 GB con capacidad de ampliarlo hasta 400 GB con una tarjeta microSD.
 
 El Galaxy S9+ posee el mismo procesador, sistema operativo y configuraciones para capacidad de memoria interna. La diferencia es que tiene 6 GB de memoria RAM y 3500 mAh de batería.
+
+FUENTE [TyNMagazine](http://www.tynmagazine.com/argentina-inicio-la-preventa-oficial-de-los-samsung-galaxy-s9-y-s9/)
