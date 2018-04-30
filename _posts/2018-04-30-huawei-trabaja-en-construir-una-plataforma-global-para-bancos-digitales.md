@@ -52,3 +52,4 @@ Basándose en situaciones concretas, Huawei demostró en la cumbre 16 soluciones
 
 La Cumbre Mundial FSI de Huawei, presentada por Huawei, es un evento global de TIC centrado en la industria financiera. La primera cumbre se celebró en 2013 y todos los participantes en esta cumbre son miembros de élite de la industria financiera.
 
+FUENTE: [TyNMagazine](http://www.tynmagazine.com/huawei-trabaja-en-construir-una-plataforma-global-para-bancos-digitales/)
