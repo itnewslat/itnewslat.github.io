@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: Huawei trabaja en construir una plataforma global para bancos digitales
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Digitalizacion-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Digitalizacion-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Digitalizacion-g.jpg
 categories:
