@@ -43,7 +43,11 @@ Si desea colaborar con la organización de la Semana de la Blockchain en Colombi
 
 **Como entidad aliada:**[https://goo.gl/forms/KOxIZcnpxT0ROxPN2](https://goo.gl/forms/KOxIZcnpxT0ROxPN2)
 
-**Contacto:** Philippe Boland [https://www.linkedin.com/in/boland/philippe@enredo.org](https://www.linkedin.com/in/boland/philippe@enredo.org)
+**Contacto:** Philippe Boland [https://www.linkedin.com/in/boland/
+
+philippe@enredo.org
+
+(https://www.linkedin.com/in/boland/philippe@enredo.org)
 
 Twitter y Telegram @enredoWhatsapp +57 3144792458
 
