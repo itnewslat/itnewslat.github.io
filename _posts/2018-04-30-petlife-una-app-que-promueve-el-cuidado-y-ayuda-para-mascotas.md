@@ -25,3 +25,5 @@ La app gratuita, no ocupa espacio en el almacenamiento del teléfono. La informa
 Entre los servicios al usuario, puede crear un perfil de animales rescatados para darlos en adopción. La persona recibirá solicitudes donde evaluará cuál es la que más le conviene al animal para ser reinsertado en un hogar. Si tiene una mascota, puede crear una cuenta para llevar un control médico sobre sus exámenes, consultas, recetas y vacunas. Además, la app genera alertas y recordatorios para visitas al veterinario, medicinas, entre otros cuidados.
 
 PetLife se descarga en el Play Store para Android o en App Store para iOS. La aplicación registra, desde hace tres semanas, más de 700 descargas en ambas plataformas.
+
+FUENTE: [ELUNIVERSO](https://www.eluniverso.com/vida/2018/04/27/nota/6733410/petlife-app-que-promueve-cuidado-ayuda-mascotas)
