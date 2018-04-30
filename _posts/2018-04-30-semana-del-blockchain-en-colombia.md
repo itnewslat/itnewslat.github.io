@@ -34,14 +34,14 @@ Abrir las puertas de los centros de conocimiento, de desarrollo tecnológico y d
 **Colaborar:**
 Si desea colaborar con la organización de la Semana de la Blockchain en Colombia, lo invitamos a diligenciar alguno de estos formularios:
 
-**Como voluntario:**https://goo.gl/forms/oAExP8YolPO1xmQc2
+**Como voluntario:**  [https://goo.gl/forms/oAExP8YolPO1xmQc2](https://goo.gl/forms/oAExP8YolPO1xmQc2)
 
-**Como Investigador del colaboratorio de investigación UxTIC BlockChain:** https://goo.gl/forms/D9dhEs7JEpgzP5JE3
+**Como Investigador del colaboratorio de investigación UxTIC BlockChain:** [https://goo.gl/forms/D9dhEs7JEpgzP5JE3](https://goo.gl/forms/D9dhEs7JEpgzP5JE3)
 
 **Como un medios de comunicación:**
-https://goo.gl/forms/8LBKUp66mRfIkt6u2
+[https://goo.gl/forms/8LBKUp66mRfIkt6u2](https://goo.gl/forms/8LBKUp66mRfIkt6u2)
 
-Como entidad aliada:https://goo.gl/forms/KOxIZcnpxT0ROxPN2
+Como entidad aliada:[https://goo.gl/forms/KOxIZcnpxT0ROxPN2](https://goo.gl/forms/KOxIZcnpxT0ROxPN2)
 
 Contacto:Philippe Bolandhttps://www.linkedin.com/in/boland/philippe@enredo.orgTwitter y Telegram @enredoWhatsapp +57 3144792458
 
