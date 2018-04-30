@@ -45,11 +45,14 @@ Si desea colaborar con la organización de la Semana de la Blockchain en Colombi
 
 **Contacto:** Philippe Boland [https://www.linkedin.com/in/boland/
 
-philippe@enredo.org
+- philippe@enredo.org
 
-(https://www.linkedin.com/in/boland/philippe@enredo.org)
+- (https://www.linkedin.com/in/boland/philippe@enredo.org)
 
-Twitter y Telegram @enredoWhatsapp +57 3144792458
+- Twitter y Telegram @enredo
+
+- Whatsapp +57 3144792458
+
 
 Organiza:
 La realización de la primera Semana de la Blockchain en Colombia es una iniciativa de enREDo, que busca colocar las tecnologías disruptivas al servicio de los colombianos, promover la comprensión ciudadana del conocimiento científico y tecnológico, de su desarrollo, sus procesos y sus resultados, facilitar el acceso de la población colombiana, no solo a la sociedad de la información, sino permitirle entrar realmente a la sociedad del conocimiento.
