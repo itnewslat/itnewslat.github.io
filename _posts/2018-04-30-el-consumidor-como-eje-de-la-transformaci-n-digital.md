@@ -21,7 +21,7 @@ detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Carlos-Jimenez-g.jpg
 ---
 
-¿Por qué el consumidor es clave en la transformación digital?
+_¿Por qué el consumidor es clave en la transformación digital?_
 
 Empecemos por decir que la transformación digital no se refiere a la adquisición de tecnologías (cloud, aplicaciones, etc.) y ni siquiera a la creación de una tienda online (e-commerce, m-commerce). “Ser digital, más que una cosa, es una forma de hacer las cosas” (Karel Dörner y David Edelman: What Digital Really Means. 2015). Las empresas digitales ven la tecnología como una herramienta y no como un fin en sí mismo. 
 
