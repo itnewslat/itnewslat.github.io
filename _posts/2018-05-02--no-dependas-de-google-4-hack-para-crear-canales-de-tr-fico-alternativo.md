@@ -31,7 +31,7 @@ Existen formas efectivas de obtener tráfico que te permitirán ampliar el alcan
 **Hack #1 HAZ RETARGETING A LAS PERSONAS QUE PASAN MAYOR TIEMPO EN SU SITIO**
 Esta es una forma inteligente de maximizar las visitas al sitio web, y generar tráfico a partir de ellas. Para optimizar una campaña de retargeting es importante conocer el volumen de interacciones y el tiempo que pasa un usuario en tu web. Cada negocio el comportamiento es diferente, por eso hay que monitorearlo y orientar los anuncios solo en los usuarios que estuvieron más tiempo en la página, para asegurar un mayor índice de conversión.
 
-H**ack #2 CREA ANUNCIOS INTERESANTES Y COLÓCALOS EN LA RED DISPLAY**
+**Hack #2 CREA ANUNCIOS INTERESANTES Y COLÓCALOS EN LA RED DISPLAY**
 En estas plataformas podrás colocar publicidad de forma automatizada, ya que funciona bajo una metodología de pujas por el inventario disponible en diferentes plataformas de intercambio impresión/impresión, son similares a Google AdWords y a Facebook, pero a un precio mucho más accesible para el anunciante. 
 
 **Hack #3 HACKEA TU CRM Y RASTREA A LOS USUARIOS QUE YA COMPRARON EN EL PASADO**
