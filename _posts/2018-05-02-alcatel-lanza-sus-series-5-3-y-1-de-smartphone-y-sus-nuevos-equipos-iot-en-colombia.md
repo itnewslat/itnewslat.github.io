@@ -35,7 +35,8 @@ Este nuevo enfoque incluye un diseño orgánico y simple, que busca crear produc
 
 **Alcatel Serie 5**
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alcatel-serie-5.jpg)El Alcatel 5, incorpora una pantalla FullView 18:9 sin marco, un diseño premium de una pieza metálica pulida y un procesador octa-core. Posee cámara principal de 16MPX y una cámara dual frontal de 13MP f/2.0 con lente súper gran angular secundario de 5MP, 120 grados y flash LED, posibilitando autorretratos que capturan selfies tres veces más atractivas que las selfies normales y otras tomas grupales. La cámara inteligente cambia intuitivamente de modo retrato, a modo súper gran angular cuando detecta más de dos rostros en una misma toma.
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alcatel-serie-5.jpg)
+El Alcatel 5, incorpora una pantalla FullView 18:9 sin marco, un diseño premium de una pieza metálica pulida y un procesador octa-core. Posee cámara principal de 16MPX y una cámara dual frontal de 13MP f/2.0 con lente súper gran angular secundario de 5MP, 120 grados y flash LED, posibilitando autorretratos que capturan selfies tres veces más atractivas que las selfies normales y otras tomas grupales. La cámara inteligente cambia intuitivamente de modo retrato, a modo súper gran angular cuando detecta más de dos rostros en una misma toma.
 
 El Alcatel 5 incluye un paquete de herramientas intuitivas de edición de imágenes llamado ¨Social Mode¨, que permite tomar fotografías de manera más divertida y eficiente. Además, cuenta con Social Square, una función con la cual se pueden revisar las imágenes capturadas recientemente en la mitad de la pantalla, mientras el visor de la cámara permanece activo en la otra mitad.
 
@@ -45,7 +46,8 @@ El sensor de huella dactilar está ubicado en la parte trasera, y tendrá otras 
 
 **Alcatel Serie 3**
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alcatel-serie-3.jpg)Los equipos de la Serie 3 de Alcatel tienen muchas de las funciones de la Serie 5, incluyendo la pantalla FullView 18:9, sensor de huella dactilar y Face Key. Están diseñados con líneas curvas, y un elegante vidrio moldeado 2.5D.
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alcatel-serie-3.jpg)
+Los equipos de la Serie 3 de Alcatel tienen muchas de las funciones de la Serie 5, incluyendo la pantalla FullView 18:9, sensor de huella dactilar y Face Key. Están diseñados con líneas curvas, y un elegante vidrio moldeado 2.5D.
 
 Dentro de la serie 3 hay tres dispositivos nuevos: el modelo Alcatel 3V, incluye una pantalla 2K (2160x1080) de 6 pulgadas para una experiencia visual envolvente; el modelo Alcatel 3X que ofrece una pantalla IPS (1440x720) de 5,7 pulgadas; y el Alcatel 3 que tiene una pantalla IPS (1440x720) de 5,5 pulgadas. 
 
@@ -59,7 +61,8 @@ En cuanto a precios, el Alcatel 3V estará disponible desde un valor aproximado 
 
 La Serie 1 de smartphones es la línea de productos más asequible de Alcatel. Esta serie incluirá los modelos 1X y 1C.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alcatel-serie-1.jpg)Alcatel 1X es uno de los primeros terminales distribuidos con Nuevo sistema operativo Android™ Oreo™ (Go Edition) para dispositivos asequibles, un programa que sigue expandiendo su influencia más allá de los mercados emergentes con dispositivos de gama económica. Éste cuenta con pantalla 18:9,  y sensor de huella dactilar. 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alcatel-serie-1.jpg)
+Alcatel 1X es uno de los primeros terminales distribuidos con Nuevo sistema operativo Android™ Oreo™ (Go Edition) para dispositivos asequibles, un programa que sigue expandiendo su influencia más allá de los mercados emergentes con dispositivos de gama económica. Éste cuenta con pantalla 18:9,  y sensor de huella dactilar. 
 
 Por su parte, Alcatel 1C cuenta con pantalla FWVGA de 5.3 pulgadas, con el formato 18:9, un procesador de cuatro núcleos de 1,3 GHz y cámaras de 13 y 8 megapíxeles.
 
@@ -76,7 +79,8 @@ Es un kit inteligente que incluye tres dispositivos para monitorear la seguridad
 Es un router de rápida conexión con el cual se puede obtener WiFi sin cables. Soportar la velocidad 4G LTE CAT4, y tiene una poderosa cobertura que conecta hasta 32 equipos. Se puede Manejar a través de una aplicación compatible con Android y IOS.
 
 •	**MT30 (Movetime)**
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alcatel-relog.jpg)Siendo líderes del mercado con la versión anterior del reloj de niños MoveTime (2G) presentamos su evolución,  el MoveTime 3G Pantalla Táctil y bluetooth, un smartwatch dedicado a los niños con el que pueden realizar y recibir llamadas para estar siempre conectados. Tiene un botón SOS que indica que el niño está en una situación de peligro y con el que además puede activar una señal de ayuda, adicional posee un sistema de geolocalización, que muestra la ubicación del infante. Envía notas de voz y posee batería de larga duración.
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alcatel-relog.jpg)
+Siendo líderes del mercado con la versión anterior del reloj de niños MoveTime (2G) presentamos su evolución,  el MoveTime 3G Pantalla Táctil y bluetooth, un smartwatch dedicado a los niños con el que pueden realizar y recibir llamadas para estar siempre conectados. Tiene un botón SOS que indica que el niño está en una situación de peligro y con el que además puede activar una señal de ayuda, adicional posee un sistema de geolocalización, que muestra la ubicación del infante. Envía notas de voz y posee batería de larga duración.
 
 El reloj es IP67 que lo hace resistente al polvo y agua, colores divertidos para los niños  y además posee juegos que les permite cambiar de voz e intercambiarlo con los amigos.
 
