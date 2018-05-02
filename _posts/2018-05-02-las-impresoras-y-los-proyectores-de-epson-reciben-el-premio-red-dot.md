@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2018-05-02 12:17 -0400'
-published: false
+published: true
 superNews: false
 title: Las impresoras y los proyectores de Epson reciben el premio Red Dot
 image: >-
