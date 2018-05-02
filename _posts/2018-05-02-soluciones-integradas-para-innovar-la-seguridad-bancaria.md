@@ -25,7 +25,7 @@ En un desayuno para socios de AMBA (Asociación de Marketing Bancario Argentino)
 Algunas de las tecnologías avanzadas de Dahua Technology para banca e instituciones financieras que integran, sin fisuras, la seguridad con el proceso comercial son:
 
 - **Alta definición:** cámaras 4K UHD con reconocimiento facial para identificar caras y acciones sospechosas con una imagen súper clara para prevenir posibles riesgos y eventos críticos.  Dentro de los 20 metros se pueden capturar rasgos faciales y números de placa de automóvil. También cuenta con grabadores y pantallas de hasta 4K.
-- Análisis de comportamiento: permite identificar riesgos y activar la alarma a tiempo para, junto con la superposición de la información de transacciones sobre el video, garantizar la seguridad de la propiedad.
+- **Análisis de comportamiento:** permite identificar riesgos y activar la alarma a tiempo para, junto con la superposición de la información de transacciones sobre el video, garantizar la seguridad de la propiedad.
 - **Reconocimiento de rostro**: identifica a los clientes VIP mediante la comparación aritmética de rasgos únicos para mejorar significativamente la experiencia del usuario.
 - **Conteo de personas:** esta tecnología posibilita realizar autorizaciones remotas, acceder a estadísticas de flujo programables de las distintas sucursales y administrar filas de espera para mejorar la satisfacción del cliente y brindar mayor eficiencia a la operación.
 - **Starlight:** para conseguir una imagen clara en entornos complicados como el exterior donde las condiciones de luz solar son muy cambiantes.
