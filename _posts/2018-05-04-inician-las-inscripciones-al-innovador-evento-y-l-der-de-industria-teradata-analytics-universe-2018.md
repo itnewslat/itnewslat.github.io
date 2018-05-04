@@ -5,7 +5,7 @@ date: '2018-05-04 15:30 -0400'
 published: true
 superNews: false
 title: >-
-  Inician las inscripciones al   innovador evento y líder de industria ‘Teradata
+  Inician las inscripciones al innovador evento y líder de industria ‘Teradata
   Analytics Universe 2018’
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/teradata-p.jpg
