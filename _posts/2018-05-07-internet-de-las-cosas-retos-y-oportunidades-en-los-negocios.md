@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: 'Internet de las Cosas: retos y oportunidades en los negocios'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/IOT-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/IOT-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/IOT-g.jpg
 categories:
@@ -51,4 +51,3 @@ Bajo el ejemplo señalado, el análisis de los datos puede predecir que una unid
 Todos estos datos de estado configuran un importante aspecto temporal: los períodos durante los cuales todos los datos anteriores son válidos. La tecnología subyacente se conoce como una base de datos temporal y es un componente básico de la plataforma analítica productiva. 
 
 En conclusión, las series cronológicas de datos son la base para las analíticas avanzadas de lo que genera Internet de las Cosas. Los datos de estado bitemporales describen los aspectos fundamentales del negocio, desde la logística, procesos de producción y entrega de servicio, hasta su entorno financiero, para así brindar el contexto en el que se pueden tomar decisiones empresariales y ejecutar acciones basadas en series cronológicas.
-
