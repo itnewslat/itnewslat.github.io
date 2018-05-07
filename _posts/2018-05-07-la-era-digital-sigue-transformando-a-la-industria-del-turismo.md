@@ -20,9 +20,9 @@ categories:
 tags:
   - Economía Digital
 ---
-Uno de los sectores que más ha impactado positivamente la era digital ha sido el sector turismo.  Hasta hace unos años reservar o comprar tiquetes era una labor que tomaba más tiempo o implicaba desplazarse; no obstante, las nuevas tecnologías, las redes sociales, las agencias en línea y los buscadores de información han puesto un nuevo escenario para la industria.
+- Uno de los sectores que más ha impactado positivamente la era digital ha sido el sector turismo.  Hasta hace unos años reservar o comprar tiquetes era una labor que tomaba más tiempo o implicaba desplazarse; no obstante, las nuevas tecnologías, las redes sociales, las agencias en línea y los buscadores de información han puesto un nuevo escenario para la industria.
 
-Bogotá, mayo de 2018.- Según The Boston Consulting Group, más del 95% de los viajeros hoy, utilizan los recursos digitales en la planificación de sus viajes, ya sea antes, durante o después de su realización. En la actualidad, los hábitos de consumo se están transformando de manera acelerada y el gusto por viajar se acentúa, convirtiéndose en una prioridad para la sociedad.
+Según The Boston Consulting Group, más del 95% de los viajeros hoy, utilizan los recursos digitales en la planificación de sus viajes, ya sea antes, durante o después de su realización. En la actualidad, los hábitos de consumo se están transformando de manera acelerada y el gusto por viajar se acentúa, convirtiéndose en una prioridad para la sociedad.
 
 Por su parte, los expertos de Ariadna Communications Group, agencia líder en iniciativas digitales, explican que las exigencias del sector han aumentado, el turista es aún más inquieto, no centra su elección en las opciones que puede ofrecer una agencia de viajes sino que está atento a las opiniones y experiencias que posiblemente visualice en las redes sociales de un amigo, o que por su cuenta haya encontrado en internet sobre el lugar de destino; una vez interioriza esa información, realiza su reserva a través de su dispositivo móvil.  
 
@@ -42,4 +42,4 @@ El uso de herramientas como AdServers permiten entregar con frecuencias de horar
 
 Toda empresa del sector turismo, y que es cliente de Ariadna Communications Group, obtiene dentro de su metodología un mensaje con oferta y comunicación dedicada desde sus audiencias, entendiendo que éste debe ser segmentado a sus públicos, se debe entender su oferta y no se puede caer en la temática de que el precio siempre gane, porque las marcas estarían fallando. “Las marcas ganan cuando tienen una relevancia entre la comunicación, la estrategia, el precio, pero también cuando la audiencia obtiene la oferta adecuada en el momento adecuado”, concluyó Gómez.
 
-En Ariadna Communications Group se desarrollan programas y estrategias con cada uno de sus clientes, las cuales permiten responder adecuadamente a las diferentes tendencias del mercado del turismo y de esa forma impactar efectiva y positivamente al consumidor, y a través de ellos, alcanzar los objetivos de marketing y comunicaciones en un mundo crecientemente digital. 
+En Ariadna Communications Group se desarrollan programas y estrategias con cada uno de sus clientes, las cuales permiten responder adecuadamente a las diferentes tendencias del mercado del turismo y de esa forma impactar efectiva y positivamente al consumidor, y a través de ellos, alcanzar los objetivos de marketing y comunicaciones en un mundo crecientemente digital.
