@@ -31,7 +31,7 @@ Como referencia, 5G Americas estima que en abril de 2018 se tenían adjudicados 
 
 Esta capacidad está incluida en el Release 15 del cuerpo de estandarización 3GPP (3rd Generation Partnership Project), que definirá el primer conjunto de estándares 5G. Entre ellos figuran especificaciones para la Nueva Radio 5G (5G NR), que incluye bandas de espectro distribuidas en dos rangos amplios: bandas por debajo de los 6 GHz y sobre los 24,25 GHz.
 
-![](https://gallery.mailchimp.com/9da76cc577fd2f2315e16d8db/images/5a00843a-d79e-4626-8cf6-18eacaaaf42a.png)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/5g1.jpg)
 
 _Tabla 1. Rangos de frecuencias para 5G. Fuente: 3GPP. Elaborado a partir de la especificación 38.101-1 Tabla 5.2-1._
 
@@ -39,13 +39,13 @@ En el rango FR1 mostrado se distingue que hay bandas que están en uso por redes
 
 En este rango existen por lo menos 2.650 MHz que pueden ser aprovechados a futuro para dar capacidad a las redes 5G.
 
-![](https://gallery.mailchimp.com/9da76cc577fd2f2315e16d8db/images/c7363836-1823-42ad-9827-8cd14e4d5da5.png)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/5G2.jpg)
 
 _Tabla 2. Bandas en FR1. Fuente: 3GPP.  Especificación 38.101-1 tabla 5.2-1._
 
 El rango FR2 agrupa las bandas “altas” de ondas milimétricas (mmWave). A diferencia del rango FR1, estas franjas no se habían destinado anteriormente a servicios móviles, pero en ellas existen en operación sistemas de comunicación como los satelitales, lo que requiere que se lleven a cabo mecanismos de compartición o reorganización, dependiendo de la banda. En el rango FR2 el Release 15 identifica aproximadamente 11.250 MHz para su uso.
 
-![](https://gallery.mailchimp.com/9da76cc577fd2f2315e16d8db/images/cfc063d6-02d2-4c47-89a7-18ead5b8abd0.png)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/5G3.jpg)
 
 Tabla 3. Bandas en FR2. Fuente: 3GPP.  Especificación 38.101-1 tabla 5.2-1.
 
