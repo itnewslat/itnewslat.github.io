@@ -2,13 +2,17 @@
 layout: posts
 color-schema: red-dark
 date: '2018-05-09 11:46 -0400'
-published: false
+published: true
 superNews: false
 title: Tecnología y multimedia en el Museo Nacional en Quito
 categories:
   - Ecuador
 tags:
   - Transformación Digital
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/museo-ecuador-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/museo-ecuador-g.jpg
 ---
 **_Una de las novedades tecnológicas con las que contará el Museo Nacional, del Ecuador, que abrirá sus puertas el 18 de mayo, en el Día Internacional de los Museos._**
 
@@ -22,4 +26,4 @@ Además, se colocarán nueve pantallas táctiles diseñadas especialmente para a
 
 Otra sorpresa multimedia que los visitantes disfrutarán serán los cuadros interactivos que reaccionan ante la presencia de un observador e inicia una narración. Adicionalmente, las personas tendrán experiencias lúdicas, cuando algunas cámaras del museo capturen sus movimientos, identifiquen sus gestos y los traduzcan en maravillosos efectos como el aleteo de una mariposa, indicó el portal. (I)
 
-FUENTE: ELUNIVERSO.COM
+FUENTE: [ELUNIVERSO.COM](https://www.eluniverso.com/noticias/2018/05/07/nota/6747851/tecnologia-multimedia-museo-nacional)
