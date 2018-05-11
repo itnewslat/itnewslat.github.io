@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: WannaCry un año después
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/wannacry-otra-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/wannacry-otra-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/wannacry-otra-g.jpg
 categories:
@@ -68,6 +68,4 @@ Desafortunadamente, hay una desventaja crítica para las actualizaciones, que es
  
 Protegerse contra los ataques a la cadena de suministro es una tarea compleja para las empresas, e incluso más para los desarrolladores de software independiente. Para proteger los archivos de instalación y actualización del producto, los desarrolladores de software deben usar, antes que nada, soluciones de seguridad adecuadas. Igualmente importante es la seguridad estricta y las reglas de red en la infraestructura de compilación y parche, como por ejemplo contar con una red aislada con acceso limitado a la misma, y en la que se ejecute una solución de seguridad en todas las computadoras. El monitoreo de las anomalías de la red también es crucial y puede ayudar a las compañías a atrapar a visitantes no deseados dentro de su red.
  
-En última instancia, está claro que la industria de la tecnología no puede esperar que los usuarios comprendan por completo y lleven a cabo las mejores prácticas de seguridad por sí mismos. Los usuarios necesitan ayuda y educación sobre seguridad y orientación a través de los pasos necesarios para que sus experiencias sean lo más fáciles, simples y cómodas posible. Al mismo tiempo, los distribuidores de software deben asegurarse de que las actualizaciones que envían a sus clientes estén limpias. Si esto se puede hacer, la colaboración y la contribución de los usuarios con la industria de la tecnología y con los investigadores y las empresas de seguridad es verdaderamente poderosa en la lucha contra el malware. Si bien aún no sabemos qué impacto podría tener el próximo WannaCry, con base a estas ideas críticas del año pasado, está claro que la industria de la tecnología, en colaboración con los usuarios, debe hacer más para evitar que un ataque tan importante vuelva a ocurrir. 
- 
-
+En última instancia, está claro que la industria de la tecnología no puede esperar que los usuarios comprendan por completo y lleven a cabo las mejores prácticas de seguridad por sí mismos. Los usuarios necesitan ayuda y educación sobre seguridad y orientación a través de los pasos necesarios para que sus experiencias sean lo más fáciles, simples y cómodas posible. Al mismo tiempo, los distribuidores de software deben asegurarse de que las actualizaciones que envían a sus clientes estén limpias. Si esto se puede hacer, la colaboración y la contribución de los usuarios con la industria de la tecnología y con los investigadores y las empresas de seguridad es verdaderamente poderosa en la lucha contra el malware. Si bien aún no sabemos qué impacto podría tener el próximo WannaCry, con base a estas ideas críticas del año pasado, está claro que la industria de la tecnología, en colaboración con los usuarios, debe hacer más para evitar que un ataque tan importante vuelva a ocurrir.
