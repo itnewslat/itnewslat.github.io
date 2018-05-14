@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-05-14 09:25 -0400'
 published: true
 superNews: false
-title: Trump dice que Estados Unidos ayudará a la compañía china penalizada
+title: Trump dice que Estados Unidos ayudará a la compañía china ZTE penalizada
 tags:
   - Actualidad
 categories:
