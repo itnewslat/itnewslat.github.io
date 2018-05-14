@@ -18,7 +18,7 @@ categories:
   - Chile
   - Panama
 tags:
-  - Economía Digital
+  - Canales
 ---
 **20 al 22 de  Mayo - Fort Lauderdale – Florida**
 
