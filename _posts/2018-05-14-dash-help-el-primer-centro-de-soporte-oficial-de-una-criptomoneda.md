@@ -28,4 +28,6 @@ Por su parte, Carlos Heinze, Director Dash Help reitera que “hasta ahora  no e
 
 Para estos emprendedores, Dash Help es el punto de partida de un proyecto más amplio y ambicioso. A corto plazo (Junio 2018) esperan abrir el servicio de llamadas a países de Latinoamérica como Argentina, Colombia y  México. Para continuar a mediano plazo en España y el resto de la América Latina. Asimismo, en el largo plazo tienen planes de ofrecer el soporte también en inglés. De forma inmediata esperan expandir el horario de servicio a todos los días e ir ampliando paulatinamente el horario hasta llegar a ser un servicio 24/7.
 
-Con esta iniciativa Venezuela se convierte en el primer país en implementar el primer centro de soporte oficial de una criptomoneda en el mundo. Un centro exclusivo donde se responde cualquier tipo de preguntas relacionadas a la criptomoneda Dash y resuelve problemas técnicos relacionados a las wallets (billeteras electrónicas). 
+Con esta iniciativa Venezuela se convierte en el primer país en implementar el primer centro de soporte oficial de una criptomoneda en el mundo. Un centro exclusivo donde se responde cualquier tipo de preguntas relacionadas a la criptomoneda Dash y resuelve problemas técnicos relacionados a las wallets (billeteras electrónicas).
+
+FUENTE: [CIBERESPACIO.COM.VE](http://www.ciberespacio.com.ve/2018/05/industria/dash-help-el-primer-centro-de-soporte-oficial-de-una-criptomoneda/)
