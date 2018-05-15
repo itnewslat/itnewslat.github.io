@@ -8,6 +8,7 @@ title: >-
   Mercado Libre, primer cliente IntelliCloud de Teradata, expuso su caso de
   éxito en Teradata Universe
 categories:
+  - Colombia
   - Chile
 tags:
   - Transformación Digital
@@ -28,5 +29,4 @@ El principal objetivo de Mercado Libre es administrar la capacidad de procesamie
 
 La plataforma analítica que Mercado Libre posee en Teradata Intellicloud alberga más de 100 TB de información, lo cual permite -en momentos con picos de demanda-, escalar tanto en procesamiento como en capacidad de almacenamiento con sólo un par de clicks, por el lapso de tiempo que deseen. Gracias a esto, la carga de su información se realiza en tiempo real para permitirle al negocio tomar decisiones con la velocidad que exige un Marketplace líder en la región.
 
-Finalmente, el Director de BI considera que “la elasticidad, escalabilidad y crecimiento del negocio en un entorno seguro y confiable” son las características que más valora del servicio en la nube de Teradata. 
-
+Finalmente, el Director de BI considera que “la elasticidad, escalabilidad y crecimiento del negocio en un entorno seguro y confiable” son las características que más valora del servicio en la nube de Teradata.
