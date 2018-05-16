@@ -20,7 +20,7 @@ categories:
 tags:
   - Transformación Digital
 ---
-
+por: **Ignacio G.R. Gavilán**
 
 **_La transformación digital afecta a todas las empresas, a todos los sectores. También, por supuesto a las telecomunicaciones y a Telefónica. Os invitamos a conocer qué dicen los expertos acerca de la transformación digital de este sector y qué está haciendo Telefónica._**
 
