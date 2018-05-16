@@ -25,7 +25,7 @@ tags:
 **Datapro** & **Synergy-GB** firman alianzas estrategica para generar una nueva oferta integral al mercado
 
 Entre **Datapro**, líder global en el desarrollo de software, dedicada a la optimización de los procesos de negocios para el sector bancario y **Synergy-GB**, empresa con más de 11 años de experiencia en el mercado latinoamericano
-comprometida con el desarrollo de productos innovadores a través de soluciones móviles y web que habiliten la transformación de los canales digitales bancarios, se firmó una alianza estrategica que permitira consolidar una alianza estratégica entre ambas empresas, la cual beneficiará al mercado al poner al alcance de las instituciones financieras un portafolio de soluciones que les permitirá habilitar la renovación de la Banca Digital en Latinoamérica.
+comprometida con el desarrollo de productos innovadores a través de soluciones móviles y web que habiliten la transformación de los canales digitales bancarios, se firmó una alianza estrategica la cual beneficiará al mercado al poner al alcance de las instituciones financieras un portafolio de soluciones que les permitirá habilitar la renovación de la Banca Digital en Latinoamérica.
 
 La firma del acuerdo se realizó el pasado 27 de Abril en las instalaciones de Datapro, en la ciudad de Miami, donde ambas juntas directivas se reunieron. La incorporación de Datapro como accionista de Synergy-GB, la convertirá en la piedra angular de la transformación digital de la Banca Digital en Latinoamérica con productos con visión Omnicanal y con una propuesta muy innovadora a nivel de experiencia de usuario. 
 
