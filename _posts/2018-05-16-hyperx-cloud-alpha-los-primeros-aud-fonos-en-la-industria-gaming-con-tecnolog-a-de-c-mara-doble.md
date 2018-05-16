@@ -9,7 +9,8 @@ title: >-
   tecnología de cámara doble
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/hyper-audio-p.jpg
-detail-image: 'https://github.com/itnewslat/assets/blob/master/img/1024x680/hyper-audio-g.jpg'
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/hyper-audio-g.jpg
 categories:
   - Venezuela
   - Colombia
