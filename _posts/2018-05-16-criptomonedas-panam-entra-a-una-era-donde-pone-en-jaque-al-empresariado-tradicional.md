@@ -16,7 +16,7 @@ categories:
 tags:
   - Economía Digital
 ---
-i bien ya hace mas de un año Panamá esta criptonegociando, nadie percibía lo que acontecía por las características del negocio y la forma en que desarrolla un mercado en pleno crecimiento e invisible a los ojos de los empresarios tradicionales, donde los terminos como token, ICO, activo digital, criptografia, blockchain, criptoactivos, eran vocablos tomados de una película dirigida por algún loco futurista que cree en la democracia del dinero.
+Si bien ya hace mas de un año Panamá esta criptonegociando, nadie percibía lo que acontecía por las características del negocio y la forma en que desarrolla un mercado en pleno crecimiento e invisible a los ojos de los empresarios tradicionales, donde los terminos como token, ICO, activo digital, criptografia, blockchain, criptoactivos, eran vocablos tomados de una película dirigida por algún loco futurista que cree en la democracia del dinero.
 
 Pero todo tiene su lado positivo, los criptosicologos van a estar con mucho trabajo, al igual que los criptoasesores, e incluso es imaginable ver corriendo por la calle 50 a los banqueros corriendo para que les expliquen que son estos términos satánicos, que paso que nadie los puede regular, y comenzara el lobby por regular todo de lo que no se entiende. Ya algunos han preguntado si esta regulado respirar, y si podemos derogar la ley de gravedad. Nada que no allá ocurrido en el resto de los países donde la economía impulsada por la tecnología no este cambiando las reglas de juego.
 
