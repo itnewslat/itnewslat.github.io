@@ -8,7 +8,7 @@ title: >-
   La creciente demanda de su tienda on line llevó a Triathlon Sport en Perú a
   buscar el apoyo de In Motion
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Triathlon-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Triathlon-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Triathlon-g.jpg
 categories:
