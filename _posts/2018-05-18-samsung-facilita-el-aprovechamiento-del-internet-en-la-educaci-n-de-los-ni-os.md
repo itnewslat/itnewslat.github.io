@@ -8,7 +8,7 @@ title: Samsung facilita el aprovechamiento del Internet en la Educación de los 
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/samsung-niños-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/samsung-niñoss-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/samsung-niños-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -75,4 +75,3 @@ Otra aplicación diseñada para niños con necesidades especiales es Dytective f
 Al desarrollar dispositivos inteligentes, Samsung continuará sus esfuerzos para crear un entorno educativo, seguro y divertido para que los niños, jóvenes y adultos puedan manejar de forma adecuada las plataformas digitales y el internet.
 
 Para más información, visite el sitio: [www.samsung.com/latin](http://www.samsung.com/latin) o nuestras redes sociales
-
