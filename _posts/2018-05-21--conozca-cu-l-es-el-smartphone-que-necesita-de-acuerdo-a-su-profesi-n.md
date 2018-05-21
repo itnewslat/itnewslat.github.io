@@ -2,13 +2,25 @@
 layout: posts
 color-schema: red-dark
 date: '2018-05-21 19:04 -0400'
-published: false
+published: true
 superNews: false
 title: ¿Conozca cuál es el Smartphone que necesita de acuerdo a su profesión?
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celular-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Celular-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Movilidad
 ---
-
-
-Centroamérica mayo 2018 - El Smartphone se ha convertido en una extensión del ser humano; cada momento del día hace parte de él y ahora más que nunca ha pasado de ser un dispositivo de entretenimiento a un elemento indispensable para desarrollar las labores profesionales. 
+El Smartphone se ha convertido en una extensión del ser humano; cada momento del día hace parte de él y ahora más que nunca ha pasado de ser un dispositivo de entretenimiento a un elemento indispensable para desarrollar las labores profesionales. 
 
 Es por eso que cada vez los fabricantes de smartphones integran más soluciones que se adaptan a cada estilo de vida y a cada profesión; según su sistema operativo, seguridad, procesamiento, eficiencia, conectividad, calidad de imagen, etc. Múltiples funcionalidades que le aportan un valor específico en el desempeño de cada profesional.
 
@@ -34,4 +46,4 @@ El ahorro en la batería y una buena calidad de imagen es crucial para un buen d
 
 Otras opciones que pueden explorar los profesionales es todo lo relacionado con AI (inteligencia artificial) entregando experiencias como reconocimiento facial, reconocimiento de escena u objetos, comportamientos de usuario, entre otros atributos más. “Incluso, muchos profesionales aclaman mucho a los equipos dotados de características como: anti polvos, resistentes al agua, a caídas y a terrenos extremos, efectivos para los terrenos complicados, zonas de riesgo de caída y lugares con bastante polvo” agrega Yalovetzky
 
-En la siguiente tabla podrá explorar qué tecnología y características debe tener su Smartphone para que pueda optimizar las labores según la profesión. 
+En la siguiente tabla podrá explorar qué tecnología y características debe tener su Smartphone para que pueda optimizar las labores según la profesión.
