@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: 'Digi-Pet by Unisys: la nueva solución para monitorear a las mascotas'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Mascotas-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Mascotas-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Mascotas-g.jpg
 categories:
