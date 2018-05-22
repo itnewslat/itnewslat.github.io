@@ -18,11 +18,12 @@
   <!-- Popular news widget -->
   <hr class="mt-2 mb-3" />
   <!-- publicity -->
-  <div class="bg-light text-sm text-center mt-4" data-css='{"width":"100%","height":240}'>
-    {% if categories > 1%}{% assign publicity-1 = site.data.header.sideBar-publicity %}{% elsif categoriesCase contains 'Panama' %}{% assign publicity-1 = site.data.panama.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Colombia' %}{% assign publicity-1 = site.data.colombia.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Venezuela' %}{% assign publicity-1 = site.data.venezuela.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Ecuador' %}{% assign publicity-1 = site.data.ecuador.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Perú' %}{% assign publicity-1 = site.data.peru.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Chile' %}{% assign publicity-1 = site.data.chile.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Argentina' %}{% assign publicity-1 = site.data.argentina.publicity.sideBar-publicity %}{% endif %}
-    {% for publicity in publicity-1 %}
-  <img class="img-fluid" src="{{publicity.image}}" data-url="{{ publicity.url }}" alt="">
-  <hr class="mt-2 mb-3" />
-  {% endfor %}
+  <div class="mb-4">
+    <ul class="list-unstyled list-lg tags">
+      {% if categories > 1%}{% assign publicity-1 = site.data.header.sideBar-publicity %}{% elsif categoriesCase contains 'Panama' %}{% assign publicity-1 = site.data.panama.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Colombia' %}{% assign publicity-1 = site.data.colombia.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Venezuela' %}{% assign publicity-1 = site.data.venezuela.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Ecuador' %}{% assign publicity-1 = site.data.ecuador.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Perú' %}{% assign publicity-1 = site.data.peru.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Chile' %}{% assign publicity-1 = site.data.chile.publicity.sideBar-publicity %}{% elsif categoriesCase contains 'Argentina' %}{% assign publicity-1 = site.data.argentina.publicity.sideBar-publicity %}{% endif %}
+      {% for publicity in publicity-1 %}
+    <img class="img-fluid" src="{{publicity.image}}" data-url="{{ publicity.url }}" alt="">
+    <hr class="mt-2 mb-3" />
+    {% endfor %}
+    </ul>
   </div>
-  <hr class="my-1" />
