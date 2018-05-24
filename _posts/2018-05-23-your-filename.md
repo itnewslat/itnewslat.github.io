@@ -4,11 +4,9 @@ color-schema: red-dark
 date: '2018-05-23 18:17 -0700'
 published: false
 superNews: false
-title: ''
+title: Kingston lanza nueva familia de unidades SSD UV500
 ---
-Kingston lanza nueva familia de unidades SSD UV500
-
-Fountain Valley, CA - 23 de mayo de 2018 – Kingston Technology Company, Inc., el fabricante independiente de productos de memoria líder en el mundo, anunció el lanzamiento de la línea UV500 de productos SSD. Disponible en múltiples factores de forma, la UV500 será la primera unidad SSD de Kingston habilitada con 3D NAND e integrada con encriptación de disco completo. La UV500 está impulsada por el controlador Marvell 88SS1074 y, al combinarse con 3D NAND Flash, ofrece increíbles velocidades de lectura/escritura de hasta 520MB/s y 500MB/s, lo que la hace 10 veces más rápida que un disco duro de 7200RPM.
+Kingston Technology Company, Inc., el fabricante independiente de productos de memoria líder en el mundo, anunció el lanzamiento de la línea UV500 de productos SSD. Disponible en múltiples factores de forma, la UV500 será la primera unidad SSD de Kingston habilitada con 3D NAND e integrada con encriptación de disco completo. La UV500 está impulsada por el controlador Marvell 88SS1074 y, al combinarse con 3D NAND Flash, ofrece increíbles velocidades de lectura/escritura de hasta 520MB/s y 500MB/s, lo que la hace 10 veces más rápida que un disco duro de 7200RPM.
 
 La unidad UV500 mejora considerablemente el tiempo de respuesta de un sistema con impresionantes velocidades de arranque, carga y transferencia y, debido a que cuenta con menos partes móviles, es menos propensa a fallar comparado con los discos duros mecánicos. La unidad UV500 protege los datos confidenciales con encriptación AES de 256 bits basada en hardware y soporta TCG Opal 2.0. Está disponible en tres factores de forma diferentes (2.5″, M.2 2280, mSATA) para adaptarse a cualquier sistema cliente. La UV500 es ideal como unidad de arranque o almacenamiento principal, ya que está disponible en capacidades de 120GB, 240GB, 480GB, 960GB y 1920GB*.
             
@@ -71,4 +69,3 @@ Esta unidad SSD está diseñada para utilizar en computadoras de escritorio y po
 3 Garantía limitada de 5 años o “vida restante de la unidad SSD”, tal como se especifica en Kingston SSD Manager (Kingston.com/SSDManager). Un producto nuevo sin uso mostrará un valor indicador de desgaste de cien (100), mientras que un producto que ha alcanzado su límite de resistencia para ciclos de programación mostrará un valor indicador de desgaste de uno (1). Visite Kingston.com/wa para más información.
 4 Total de bytes escritos (TBW) se deriva de JEDEC Client Workload (JESD219A).
 * Próximamente
-
