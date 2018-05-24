@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-05-23 18:17 -0700'
 published: true
 superNews: false
-title: Untitled
+title: Kingston lanza nueva familia de unidades SSD UV500
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/SUV500-p.jpg
 detail-image: >-
@@ -20,14 +20,14 @@ categories:
 tags:
   - Movilidad
 ---
-Kingston lanza nueva familia de unidades SSD UV500
-
 Kingston Technology Company, Inc., el fabricante independiente de productos de memoria líder en el mundo, anunció el lanzamiento de la línea UV500 de productos SSD. Disponible en múltiples factores de forma, la UV500 será la primera unidad SSD de Kingston habilitada con 3D NAND e integrada con encriptación de disco completo. La UV500 está impulsada por el controlador Marvell 88SS1074 y, al combinarse con 3D NAND Flash, ofrece increíbles velocidades de lectura/escritura de hasta 520MB/s y 500MB/s, lo que la hace 10 veces más rápida que un disco duro de 7200RPM.
 
 La unidad UV500 mejora considerablemente el tiempo de respuesta de un sistema con impresionantes velocidades de arranque, carga y transferencia y, debido a que cuenta con menos partes móviles, es menos propensa a fallar comparado con los discos duros mecánicos. La unidad UV500 protege los datos confidenciales con encriptación AES de 256 bits basada en hardware y soporta TCG Opal 2.0. Está disponible en tres factores de forma diferentes (2.5″, M.2 2280, mSATA) para adaptarse a cualquier sistema cliente. La UV500 es ideal como unidad de arranque o almacenamiento principal, ya que está disponible en capacidades de 120GB, 240GB, 480GB, 960GB y 1920GB*.
             
 “Nos sentimos orgullosos de lanzar al mercado la familia UV500 de unidades SSD con auto cifrado” dijo Ariel Perez, gerente de la unidad de SSD en Kingston. “La combinación entre un potente controlador, 3D NAND y encriptación de datos en múltiples factores de forma hace que la unidad UV500 sea ideal tanto para los consumidores como para los usuarios empresariales que buscan impulsar el desempeño de sus sistemas existentes”. 
+
 La UV500 cuenta con cinco años de garantía limitada y el legendario soporte de Kingston. 
+
 Para más información, visite [www.kingston.com](http://www.kingston.com/).
 
 Características y especificaciones de la UV500:
