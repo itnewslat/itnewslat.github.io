@@ -2,11 +2,25 @@
 layout: posts
 color-schema: red-dark
 date: '2018-05-24 06:00 -0700'
-published: false
+published: true
 superNews: false
 title: >-
   Medio millón de routers comprometidos en Ucrania como posible objetivo de un
   nuevo ciberataque
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Router-Hackers-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Router-Hackers-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
 ---
 Un elemento tan crucial para usuarios y empresas de todos los tamaños como son los routers vienen siendo desde hace algún tiempo uno de los dispositivos preferidos de los ciberdelincuentes. Su exposición directa a Internet, unas medidas de seguridad generalmente muy pobres (cuando no inexistentes) y un número cada vez más elevado de vulnerabilidades son puntos clave para que el número de incidentes haya crecido notablemente.
 
@@ -36,8 +50,8 @@ En el día de ayer (23 de mayo), el Departamento de Justicia de los Estados Unid
 
 Además, en ese mismo anuncio se menciona al grupo APT28 (también conocido como Fancy Bear, Sednit o Sofacy, entre otros nombres) como responsable de desarrollar esta amenaza y llevar a cabo los ataques. Como hemos dicho en el punto anterior se ha de ir con cuidado a la hora de hacer atribuciones y, aunque es muy probable que el FBI tenga indicios de sobra como para acusar a este grupo, no sería la primera vez que algo que parece evidente resulta ser una pista falsa.
 
-Conclusión
+**Conclusión**
 
 Amenazas tan elaboradas como VPNFilter demuestran la importancia de dispositivos tan vitales y, a la vez, tan ignorados en temas de seguridad como son los routers. ESET incide en que puede que estemos ante una campaña de ataques dirigidos a una nación en concreto o ante algo más grande, pero todavía debemos esperar a obtener más información para poder saber exactamente a qué nos enfrentamos.
-Más info y actualizaciones en https://blogs.protegerse.com/. 
 
+Más info y actualizaciones en [https://blogs.protegerse.com/](https://blogs.protegerse.com/).
