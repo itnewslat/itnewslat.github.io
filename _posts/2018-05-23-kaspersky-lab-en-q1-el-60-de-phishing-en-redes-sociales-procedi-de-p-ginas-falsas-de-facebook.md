@@ -2,11 +2,25 @@
 layout: posts
 color-schema: red-dark
 date: '2018-05-23 18:49 -0700'
-published: false
+published: true
 superNews: false
 title: >-
   Kaspersky Lab: en Q1, el 60% de phishing en redes sociales procedió de páginas
   falsas de Facebook
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Phishing-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Phishing-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
 ---
 Brasil fue el país con la mayor proporción de usuarios atacados por remitentes de phishing (19%), seguido por Argentina (13%), Venezuela (13%) y Bolivia (12%) en el primer trimestre de 2018
 
@@ -30,17 +44,19 @@ Los expertos de Kaspersky Lab aconsejan a los usuarios que tomen las siguientes 
 - Verifique la conexión HTTPS y el nombre de dominio cuando abra una página web. Esto es especialmente importante cuando utilice sitios web que contienen datos confidenciales, como portales para transacciones bancarias en línea, tiendas en línea, correo electrónico, redes sociales, entre otros.
 - Nunca comparta sus datos confidenciales, como nombres de inicio de sesión y contraseñas, datos de tarjetas bancarias, entre otros, con un tercero. Las compañías nunca le pedirán datos como éste por correo electrónico.
 - Utilice una solución de seguridad fiable con tecnologías anti-phishing basadas en el comportamiento, como Kaspersky Total Security, para detectar y bloquear spam y ataques de phishing.
-- Otros hallazgos importantes en el informe incluyen:
-- Phishing:
+Otros hallazgos importantes en el informe incluyen:
+
+**Phishing:**
 - Los principales objetivos de los ataques de phishing se han mantenido iguales desde finales del año pasado. Principalmente se trata de portales mundiales de Internet y el sector financiero, incluidos bancos, servicios de pago y tiendas en línea.
 - Cerca de US$35,000 fueron robados a través de un sitio de phishing que parecía ofrecer la oportunidad de invertir en Telegram ICO. Aproximadamente, US$84,000 fueron robados luego de un solo mensaje de correo electrónico de phishing relacionado con la presentación de 'The Bee Token' ICO.
 - El phishing financiero continúa representando casi la mitad de todos los ataques de phishing (43.9%), lo que es 4.4% más en comparación con el final del año pasado. Los ataques contra los bancos, las tiendas electrónicas y los sistemas de pago siguen siendo los tres principales, lo que demuestra el deseo de los ciberdelincuentes de acceder al dinero de los usuarios.
 - Brasil fue el país con la mayor proporción de usuarios atacados por remitentes de phishing en el primer trimestre de 2018 (19%). Le siguieron Argentina (13%), Venezuela (13%), Albania (13%) y Bolivia (12%).
-- Correo no deseado (spam):
+
+**Correo no deseado (spam):**
+
 - En el primer trimestre de 2018, la cantidad de spam alcanzó su punto máximo en enero (55%). La proporción promedio de spam en el tráfico de correo electrónico en el mundo fue de 52%, que es 4.6% inferior a la cifra promedio del último trimestre de 2017.
 - Vietnam se convirtió en la fuente de spam más popular, superando a Estados Unidos y China. Entre los 10 principales están incluidos India, Alemania, Francia, Brasil, Rusia, España y la República Islámica de Irán.
 - El país más atacado por correos maliciosos fue Alemania. Rusia quedó en segundo lugar, seguida por el Reino Unido, Italia y los Emiratos Árabes Unidos
 .
 
 Para obtener más información sobre el correo no deseado y el phishing en el primer trimestre de 2018, lea nuestro blog en Securelist.com.
-
