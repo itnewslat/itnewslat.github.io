@@ -8,7 +8,7 @@ title: >-
   Schneider Electric es nombrada Líder en Software de Optimización de
   Instalaciones por una agencia de analistas independientes
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/Green-Quadrant-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Green-Quadrant-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Green-Quadrant-g.jpg
 categories:
