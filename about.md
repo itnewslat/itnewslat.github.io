@@ -6,7 +6,7 @@ published: true
 ---
 Es un placer para mí, hacerle la presentación oficial del primer portal de noticias regional de américa latina enfocados en las tendencias tecnológicas de los próximos años y las nuevas audiencias que están cambiando el mercado.
 
-Luego de 20 años en la fuente de tecnología e innovación en Venezuela, he decido aceptar una propuesta de un grupo internacional para liderar un nuevo proyecto de noticias de ámbito regional. Este nuevo reto será complementario con lo que hacemos en [Ciberespacio](http://www.ciberespacio.com.ve/) (**WEB** y **radio**). He estado en contacto las informaciones de tecnología, realizando la cobertura de eventos internacionales, como también, compartiendo con los líderes de los cambios tecnológicos del mundo, lo que me ha permitido entender el mercado desde sus orígenes y porque no, desde sus ideas. En este sentido, lo invito a conocer ITNEWS.LAT.
+Luego de 20 años en la fuente de tecnología e innovación en Venezuela, he decido aceptar una propuesta de un grupo internacional para liderar un nuevo proyecto de noticias de ámbito regional. Este nuevo reto será complementario con lo que hacemos en [Ciberespacio](http://www.ciberespacio.com.ve/) (**WEB** y **radio**). He estado en contacto las informaciones de tecnología, realizando la cobertura de eventos internacionales, como también, compartiendo con los líderes de los cambios tecnológicos del mundo, lo que me ha permitido entender el mercado desde sus orígenes y porque no, desde sus ideas. En este sentido, lo invito a conocer **[ITNEWS](http://itnews.lat/)**.
 
 “…**El mercado cambió, y la forma de comunicarnos también …**”
 
