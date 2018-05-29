@@ -1,0 +1,27 @@
+<div id="content-below">
+      <!-- Awesome features call to action -->
+      <div class="bg-primary text-white py-4">
+        <div class="container">
+          {% for item in site.data.index.moreNews %}
+          <div class="row text-center text-lg-left">
+            <div class="col-12 col-lg-7 py-2">
+              <h2 class="text-uppercase font-weight-bold mt-0 mb-2">
+                <span class="text-shadow">{{ item.title1 }}</span> <span class="text-primary-darkend">{{ item.title2 }}</span>
+              </h2>
+              <h5 class="text-faded">
+                {% for element in item.other-links %}
+                <a class="text-white" href="{{ element.href }}">
+                  {{ element.title }}
+                </a>
+                <span class="text-primary-darkend font-weight-bold px-lg-1">/</span>
+                {% endfor %}
+              </h5>
+            </div>
+            <div class="col-12 col-lg-5 py-2 text-lg-right">
+              <a href="{{ item.moreNews}}" target="_blank" class="btn btn-lg btn-primary btn-invert btn-rounded py-3 px-4">{{ item.moreNews-title }} <i class="fa fa-arrow-right ml-2"></i></a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>

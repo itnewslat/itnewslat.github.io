@@ -18,3 +18,17 @@ content:
 #      - name: googleplus
 #        href: ""
 #        icon: fa-google-plus-g
+
+
+moreNews:
+  - title1: Enlaces de
+    title2: interes
+    other-links:
+      - title: Nosotros
+        href: /about.html
+      - title: Synergy Vision
+        href: "https://synergy.vision/"
+      - title: Synergy-GB
+        href: "http://www.synergy-gb.com/newsgb/index.php"
+    moreNews: /prwire.-html
+    moreNews-title: Más noticias sobre tecnología
