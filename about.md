@@ -16,3 +16,7 @@ ITNEWS es un portal de noticias, que atenderá inicialmente a 7 países de la re
 Los invito a visitar **[ITNEWS](http://itnews.lat/)** y en su estructura notaran el cambio de la forma de reflejar las informaciones. Contamos con apoyo local de profesionales en el área de la comunicación social y las nuevas tecnologías, que, basado en sus experiencias y en el conocimiento del mercado garantizan, seriedad y objetividad de las informaciones.
  
 Ponemos a su disposición nuestra cuenta de correo para recibir las informaciones de su empresa, la cual será el canal de comunicación con nosotros **[noticias@itnews.lat](mailto://noticias@itnews.lat)**
+
+Un gran saludo
+
+**[Edgar Rincón Molina](mailto:edgar@itnews.lat)**
