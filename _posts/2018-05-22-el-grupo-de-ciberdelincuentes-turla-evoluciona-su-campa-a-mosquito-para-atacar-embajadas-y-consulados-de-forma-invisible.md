@@ -24,7 +24,7 @@ tags:
 ---
 Mosquito intercepta la descarga legítima de Flash y reemplaza el programa por una versión troyanizada
 
-SET, el mayor fabricante de software de seguridad de la Unión Europea, continua con sus investigaciones sobre el grupo de ciberdelincuentes Turla y sus ataques a través de la campaña Mosquito, que afectan sobre todo a embajadas y consulados del este de Europa. En esta ocasión, el laboratorio de ESET ha observado un cambio significativo en los patrones de comportamiento del grupo: ahora aprovechan las herramientas incluidas en el framework Metasploit antes de lanzar el backdoor personalizado Mosquito. No es la primera vez que Turla utiliza herramientas genéricas, ya que en el pasado ya utilizaron otras como Mimikatz; sin embargo, es la primera vez, al menos que se sepa, que utilizan Metasploit para conseguir instalar backdoors en la primera fase del ataque, en lugar de confiar en sus propias herramientas, como Skipper. 
+ESET, el mayor fabricante de software de seguridad de la Unión Europea, continua con sus investigaciones sobre el grupo de ciberdelincuentes Turla y sus ataques a través de la campaña Mosquito, que afectan sobre todo a embajadas y consulados del este de Europa. En esta ocasión, el laboratorio de ESET ha observado un cambio significativo en los patrones de comportamiento del grupo: ahora aprovechan las herramientas incluidas en el framework Metasploit antes de lanzar el backdoor personalizado Mosquito. No es la primera vez que Turla utiliza herramientas genéricas, ya que en el pasado ya utilizaron otras como Mimikatz; sin embargo, es la primera vez, al menos que se sepa, que utilizan Metasploit para conseguir instalar backdoors en la primera fase del ataque, en lugar de confiar en sus propias herramientas, como Skipper. 
 
 **Quién es Turla**
 Turla es un equipo de espionaje muy conocido y que ha sido muy activo en los últimos diez años. Se dio a conocer en 2008 cuando consiguió romper las barreras de los sistemas del Departamento de Defensa de EEUU y, desde entonces, no ha dejado de atacar objetivos relacionados con instituciones gubernamentales o la defensa de los mismos. 
@@ -40,4 +40,4 @@ Hasta ahora, la campaña Mosquito de Turla utilizaba el instalador de Flash para
  
 El hecho de que se esté utilizando Metasploit hace pensar a los investigadores de ESET que podría existir un operador que esté controlando los exploits de manera manual. 
 
-Investigación completa en: [https://www.welivesecurity.com/la-es/](https://www.welivesecurity.com/la-es/). 
+Investigación completa en: [https://www.welivesecurity.com/la-es/](https://www.welivesecurity.com/la-es/).
