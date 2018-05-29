@@ -11,7 +11,7 @@ Luego de 20 años en la fuente de tecnología e innovación en Venezuela, he dec
 
 “…**El mercado cambió, y la forma de comunicarnos también …**”
 
-ITNEWS es un portal de noticias, que atenderá inicialmente a 7 países de la región _(**Panamá**, **Colombia**, **Venezuela**, **Ecuador**, **Perú**, **Chile** y **Argentina**)_ y con especial énfasis en las áreas de Big Data, Analitics, IOT, Transformación y Economía Digital, así como también Movilidad, Seguridad y el área de Canales que son la pieza fundamentales de las empresas. De la misma manera, la actualidad como anuncios, eventos y opiniones de los ejecutivos.
+ITNEWS es un portal de noticias, que atenderá inicialmente a 7 países de la región _(**[Panamá](http://itnews.lat/Panama/)**, **[Colombia](http://itnews.lat/Colombia/)**, **[Venezuela](http://itnews.lat/Venezuela/)**, **[Ecuador](http://itnews.lat/Ecuador/)**, **[Perú](http://itnews.lat/Peru/)**, **[Chile](http://itnews.lat/Chile/)** y **[Argentina](http://itnews.lat/Argentina/)**)_ y con especial énfasis en las áreas de Big Data, Analitics, IOT, Transformación y Economía Digital, así como también Movilidad, Seguridad y el área de Canales que son la pieza fundamentales de las empresas. De la misma manera, la particularidad de su actualidad como anuncios, eventos y opiniones de los ejecutivos.
 
 Los invito a visitar **[ITNEWS](http://itnews.lat/)** y en su estructura notaran el cambio de la forma de reflejar las informaciones. Contamos con apoyo local de profesionales en el área de la comunicación social y las nuevas tecnologías, que, basado en sus experiencias y en el conocimiento del mercado garantizan, seriedad y objetividad de las informaciones.
  
