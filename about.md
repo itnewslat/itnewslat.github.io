@@ -1,7 +1,7 @@
 ---
 layout: about
 color-schema: red-dark
-perfil-image: assets/master/img/300x300/Edgar-Rincon-ITNEWSLAT.jpg
+perfil-image: /assets/master/img/300x300/Edgar-Rincon-ITNEWSLAT.jpg
 published: true
 ---
 Es un placer para mí, hacerle la presentación oficial del primer portal de noticias regional de américa latina enfocados en las tendencias tecnológicas de los próximos años y las nuevas audiencias que están cambiando el mercado.
