@@ -30,7 +30,7 @@ La campaña se ha ejecutado a través de un programa malicioso diseñado para at
 
 El mismo FBI ha lanzado una alerta dada la importancia de la amenaza que, en una acción coordinada a gran escala, podría incluso inutilizar la conexión a internet en barrios o ciudades enteras. Las autoridades recomiendan reiniciar el router (apagar y volver a encender); sin embargo, esta acción “no elimina el malware del todo si ya ha obtenido persistencia”, subraya Albors. “Lo mejor es ser proactivos e invertir unos minutos en la configuración del router y de los dispositivos conectados en tu red”, continúa.
 
-C**onsejos para proteger los routers**
+**Consejos para proteger los routers**
 
 Conscientes del papel clave que juegan los routers en la seguridad de todos los dispositivos conectados de nuestro hogar, ya que no solo controlan el perímetro de la red, sino que todo el tráfico e información pasan por él, y de que son objetivo destacado para los ciberdelincuentes, ESET, el mayor fabricante de software de seguridad de la Unión Europea, ha elaborado una lista de consejos para administrar su seguridad de la misma forma que hacemos con otros dispositivos conectados a Internet. “Sea cual sea el modelo de router que tengas en tu casa, tómate unos minutos para analizar su funcionamiento y asegúrate de verificar estos siete puntos claves en su configuración”, recomienda Albors.
 
