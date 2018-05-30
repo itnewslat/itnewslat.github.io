@@ -8,7 +8,7 @@ title: >-
   Cómo evitar ataques similares a VPNFilter que tienen a los routers domésticos
   como objetivo 
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-Router-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-Router-P.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-Router-g.jpg
 tags:
@@ -75,5 +75,3 @@ Muchos routers facilitan la identificación de los equipos conectados ya que, en
 Los routers son dispositivos que también cuentan con su sistema operativo propio (firmware) y, al igual que cualquier otro, debe ser actualizado para corregir posibles bugs y vulnerabilidades. Sin embargo, la mayoría de usuarios se olvida de actualizar estos dispositivos o son los propios fabricantes quienes abandonan modelos que consideran obsoletos, dejando a los usuarios que aún los utilizan vulnerables a ataques.
 
 Conviene revisar periódicamente la web del fabricante del router para buscar posibles actualizaciones de su firmware y, en caso de tener instalado un firmware vulnerable, siempre podemos optar por alguno de los firmwares de código abierto disponibles. Estas versiones suelen ser más seguras que las proporcionadas por los fabricantes e incluso algunas pueden proporcionar funciones adicionales a nuestro router.
-
-
