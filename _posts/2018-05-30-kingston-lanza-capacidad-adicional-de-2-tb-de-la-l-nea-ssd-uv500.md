@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: Kingston lanza capacidad adicional de 2 TB de la línea SSD UV500
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/SUV500-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/SUV500-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/SUV500-g.jpg
 categories:
@@ -29,5 +29,3 @@ La unidad UV500 cuenta con cinco años de garantía limitada y el legendario sop
 1. Parte de la capacidad listada en un dispositivo de almacenamiento Flash se usa para formateo y otras funciones, y por lo tanto no está disponible para el almacenamiento de datos. Como tal, la capacidad disponible real para almacenamiento de datos es menor que la listada en los productos. Para obtener más información, visite la Guía Flash de Kingston en kingston.com/flashguide.
 2. Basado en "desempeño inmediato" con el uso de una tarjeta madre SATA Rev 3.0 / PCIe 3.0. La velocidad puede variar según el hardware "anfitrión", el software y el uso. La lectura/escritura 4k aleatoria IOMETER se basa en una partición de 8GB.
 3. Garantía limitada de 5 años o “vida restante de la unidad SSD”, que se puede consultar en Kingston SSD Manager (Kingston.com/SSDManager). Un producto nuevo sin uso mostrará un valor indicador de desgaste de cien (100), mientras que un producto que ha alcanzado su límite de resistencia para ciclos de programación mostrará un valor indicador de desgaste de uno (1). Visite Kingston.com/wa para más información.
-
-
