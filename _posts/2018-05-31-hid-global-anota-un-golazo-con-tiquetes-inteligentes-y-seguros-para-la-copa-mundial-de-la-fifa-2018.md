@@ -32,7 +32,7 @@ detail-image: >-
 
 <p style="text-align: justify;">La venta de entradas falsas a los eventos de la Copa Mundial de la FIFA™, para los cuales siempre hay una gran demanda de entradas, es una gran preocupación. En un comunicado de prensa emitido hace poco, la FIFA recordó a los posibles asistentes que "considera la venta y distribución ilícitas de boletas como un problema serio y en colaboración con las autoridades locales, entre otras, las agencias de protección al consumidor de numerosos países, se esfuerza por identificar y frenar las ventas de entradas no autorizadas". </p>
 
-<p style="text-align: justify;">La FIFA advierte a los aficionados al fútbol que las boletas obtenidas mediante cualquier otra fuente distinta al sitio web oficial **[FIFA](http://www.fifa.com/worldcup/organisation/ticketing/purchase.html)** serán automáticamente canceladas una vez identificadas, con lo cual el titular no podrá ingresar al estadio ni reclamar ningún reembolso u otro tipo de compensación.</p> 
+<p style="text-align: justify;">La FIFA advierte a los aficionados al fútbol que las boletas obtenidas mediante cualquier otra fuente distinta al sitio web oficial [**FIFA**](http://www.fifa.com/worldcup/organisation/ticketing/purchase.html) serán automáticamente canceladas una vez identificadas, con lo cual el titular no podrá ingresar al estadio ni reclamar ningún reembolso u otro tipo de compensación.</p> 
 
 **La tecnología RFID es la solución óptima para la Copa Mundial de la FIFA™**
 
