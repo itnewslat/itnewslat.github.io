@@ -14,7 +14,7 @@ tags:
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/millicom-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img1024x680/millicom-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/millicom-g.jpg
 ---
 Millicom, proveedor líder de servicios de cable y telefonía móvil, ha reiterado su apoyo a la labor de UNICEF en materia de Derechos de los Niños en América Latina, a través de la renovación de un acuerdo de colaboración por tres años destinado a prevenir la violencia y a proteger a niños y adolescentes de la región. Este compromiso se basa en la alianza existente entre Millicom y UNICEF, que busca proteger los derechos de los niños en línea y fuera de línea.
 
@@ -25,4 +25,3 @@ Millicom también continuará compartiendo su experiencia con UNICEF en su traba
 Al comentar sobre la actual asociación, Rachel Samrén, Vicepresidenta Ejecutiva de Asuntos Externos de Millicom dijo: "El 40 por ciento de la población en los mercados latinoamericanos donde operamos tienen entre 0 y 19 años. Nos comprometemos a trabajar con UNICEF para proteger los derechos de estos niños y adolescentes a largo plazo. Es por eso que el acuerdo renovado va más allá de la protección de los niños en línea e incluye un enfoque en la prevención de la violencia”.
 
 "Este acuerdo es un ejemplo de cómo el sector privado puede articular estrategias de sostenibilidad centradas en la infancia y la juventud", dijo Stefan Stefansson, responsable de Sector Privado de UNICEF para América Latina y el Caribe. "En una región que se está volviendo más digital, la prevención y protección en línea y fuera de línea de los más vulnerables, que generalmente son niños y adolescentes, debe ser una prioridad para nosotros”.
-
