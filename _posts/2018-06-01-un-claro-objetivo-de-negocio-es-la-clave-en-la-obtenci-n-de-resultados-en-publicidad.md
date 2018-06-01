@@ -22,7 +22,8 @@ categories:
 tags:
   - Economía Digital
 ---
-<a href="http://thedeepsite.com/wp-content/uploads/2018/04/chino-500x500.jpg"><img class="size-full wp-image-66748" src="http://thedeepsite.com/wp-content/uploads/2018/04/chino-500x500.jpg" alt="Rafael Rojas Alas, experto en desarrollo de negocios en esta área ofrece sus experiencias en este campo" width="240" height="240" /></a> Rafael Rojas Alas, experto en desarrollo de negocios en esta área ofrece sus experiencias en este campo
+<a href="http://thedeepsite.com/wp-content/uploads/2018/04/chino-500x500.jpg"><img class="size-full wp-image-66748" src="http://thedeepsite.com/wp-content/uploads/2018/04/chino-500x500.jpg" alt="Rafael Rojas Alas, experto en desarrollo de negocios en esta área ofrece sus experiencias en este campo" width="240" height="240" /></a> 
+_**Rafael Rojas Alas, experto en desarrollo de negocios en esta área ofrece sus experiencias en este campo**_
 
 <p style="text-align: justify;">Con 17 años de incursión en las actividades relacionadas con el desarrollo de campañas publicitarias, Rafael Rojas Alas, aborda uno de los aspectos que más ocupa la atención de quienes se involucran en este tipo de labor empresarial. La preocupación se centra principalmente en una interrogante: ¿Cómo cuantificar el impacto de un plan publicitario en marcha?</p>
 
