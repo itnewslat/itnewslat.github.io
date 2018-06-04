@@ -24,7 +24,7 @@ tags:
 ---
 
 ![Por: Grant Geyer, vicepresidente de Producto de RSA](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Grant-Geyer.jpg)
-<p style="text-align: center;">Por: Grant Geyer, vicepresidente de Producto de RSA</p>
+<p style="text-align: left;">Por: Grant Geyer, vicepresidente de Producto de RSA</p>
 
 <p style="text-align: justify;">Pregúntele a cualquier CISO (Jefe de Seguridad Informática) sobre los trabajos que deben realizar a diario y hablarán ampliamente sobre dos labores puntuales: mantener a raya a los malos, que se traduce en la responsabilidad del Centro de Operaciones de Seguridad (SOC); y dejar que los buenos se encarguen de la Identidad y Acceso del Equipo de gestión (IAM). Durante años he creído que estos dos trabajos no son procesos diferentes, sino que en realidad son dos caras de la misma moneda ligadas por la identidad. Como ve, casi todas las infracciones consisten en la adquisición de credenciales de usuario para que los piratas informáticos puedan acceder fácilmente a recursos críticos.</p>
 
