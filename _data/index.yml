@@ -12,9 +12,9 @@ content:
       - name: facebook
         href: https://facebook.com/itnewslat
         icon: fa-facebook-f
-#      - name: linkedin
-#        href: ""
-#        icon: fa-linkedin-in
+      - name: linkedin
+        href: http://www.linkedin.com/in/itnewslat
+        icon: fa-linkedin-in
 #      - name: googleplus
 #        href: ""
 #        icon: fa-google-plus-g
@@ -25,6 +25,8 @@ moreNews:
     title2: interes
     other-links:
       - title: Nosotros
+        href: /about.html
+      - title: Socios
         href: /about.html
       - title: Synergy Vision
         href: "https://synergy.vision/"
