@@ -12,9 +12,9 @@ categories:
 tags:
   - Economía Digital
 image: >-
-  https://github.com/itnewslat/assets/blob/master/img/540x320/publicidad-movil-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/publicidad-movil-p.jpg
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/publicidad-movil-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/publicidad-movil-g.jpg
 ---
 - Los anunciantes podrán crear campañas publicitarias e impactar a sus audiencias en dispositivos móviles alineando sus mensajes con eventos reales y en vivo durante el mundial de fútbol 2018.
 
