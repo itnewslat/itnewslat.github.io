@@ -198,7 +198,7 @@ tags:
 **Así se ubican los 32 equipos según su número de seguidores:**
 
 
-<table width="275">
+<table width="550">
 <tbody>
 <tr>
 <td width="28"></td>
