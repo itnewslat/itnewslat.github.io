@@ -19,7 +19,7 @@ categories:
   - Chile
   - Panama
 tags:
-  - Transformación Digital
+  - Seguridad
 ---
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Bill-Hogan.jpg)
 
