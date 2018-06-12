@@ -45,7 +45,7 @@ tags:
 
 **Aquí figuran las 23 individualidades mejor posicionadas en redes según su número de seguidores:**
 
-<table width="350">
+<table width="550">
 <tbody>
 <tr>
 <td width="28"></td>
