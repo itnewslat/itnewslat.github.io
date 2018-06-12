@@ -36,9 +36,8 @@ detail-image: >-
  
 <p style="text-align: justify;">Esta colaboración supone para ambas compañías un nuevo horizonte en su empeño por apoyar el crecimiento de pequeñas, medianas y grandes empresas mediante la digitalización e innovación tecnológica ya que la combinación en la nube de dos soluciones ampliamente validadas en el mercado permitirá a las dos compañías llegar hasta clientes que hasta ahora no llegaban. Un esfuerzo que se une al acuerdo global que Sage mantiene con el grupo Telefónica en materia de Transformación Digital y que abarca desde la digitalización de su propio negocio, hasta la comercialización de servicios para Pymes a través de Digital 1st, la propuesta integral de Movistar para la transformación de las pequeñas y medianas empresas.</p>
 
-[youtube]https://youtu.be/9tuoFykvEBA[/youtube]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9tuoFykvEBA?vq=hires&rel=0" frameborder="0" allowfullscreen></iframe>
  
 **Vídeo: Luis Pardo (CEO de Sage): “Hemos confiado en acens y Grupo Telefónica”**
-
  
 <p style="text-align: justify;">Puedes encontrar más información sobre Cloud Hosting, Internet y Tecnología en el blog de acens. También puedes suscribirte al boletín de noticias acensNews, ver vídeos en acens.tv, apuntarte a cursos gratuitos en Formacionacens.com y seguirnos en Facebook (acenstec), Twitter (@acens) e Instagram (@acens_com).</p>
