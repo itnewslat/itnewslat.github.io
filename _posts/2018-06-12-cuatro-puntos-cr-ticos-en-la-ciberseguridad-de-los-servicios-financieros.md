@@ -6,8 +6,7 @@ published: true
 superNews: false
 title: Cuatro puntos críticos en la ciberseguridad de los servicios financieros
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cyberseguridad
-  p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cyberseguridad-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cyberseguridad
   g.jpg
@@ -23,6 +22,7 @@ tags:
   - Transformación Digital
 ---
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Bill-Hogan.jpg)
+
 **_Por Bill Hogan, vicepresidente de Fortinet_**
  
 <p style="text-align: justify;">La nube, el Internet de las Cosas (IoT, por sus siglas en inglés), la movilidad y el big data son las cuatro tendencias primarias que conducen al cambio en la economía digital y las empresas de servicios financieros tienen la tarea de mantenerse al día. Si bien los negocios digitales están simplificando la vida de los usuarios de servicios financieros, este tipo de empresas se ha visto forzadas a lidiar con el impacto de estas tendencias en sus soluciones de seguridad.</p>
