@@ -45,7 +45,7 @@ tags:
 
 **Aquí figuran las 23 individualidades mejor posicionadas en redes según su número de seguidores:**
 
-<table width="349">
+<table width="350">
 <tbody>
 <tr>
 <td width="28"></td>
@@ -194,9 +194,10 @@ tags:
 </tbody>
 </table>
 
+
 **Así se ubican los 32 equipos según su número de seguidores:**
 
-&nbsp;
+
 <table width="275">
 <tbody>
 <tr>
