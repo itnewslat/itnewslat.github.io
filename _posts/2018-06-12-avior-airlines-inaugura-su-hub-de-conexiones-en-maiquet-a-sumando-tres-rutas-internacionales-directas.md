@@ -36,7 +36,7 @@ Más de 1 millón de pasajeros viajaron con la aerolínea el año pasado
 
 <p style="text-align: justify;">“Nuestros planes de crecimiento y expansión regional siguen vigentes, porque después de más de 23 años de servicios ininterrumpidos a disposición de los venezolanos, no podemos hacer menos que retribuirle al país lo tanto que nos ha dado.  Hoy somos la primera aerolínea nacional, y por ende, una importante fuente de empleo, comprometida con más de 2.000 trabajadores, lo que representa el sustento de miles de familias en toda la geografía nacional”, destacó Juan Bracamonte, presidente ejecutivo de Avior Airlines.</p>
 
-**“La vitrina  de lo mejor de Venezuela”**
+**La vitrina  de lo mejor de Venezuela**
 
 <p style="text-align: justify;">Precisamente su mapa de rutas es lo que la convierte en “La vitrina de lo mejor de Venezuela”, en palabras de quienes lideran su equipo comercial, que han llevado la marca a los más importantes eventos del turismo internacional desde que inició el año, destacando su presencia en la Feria Internacional del Turismo, FITUR, en Madrid; y porteriormente, en la XXXVII edición de ANATO (Asociación Colombiana de Agencias de Viaje y Turismo), el más importante evento del turismo colombiano con un innovador stand promocional simulando su imponente aeronave de cuerpo ancho.</p>  
 
