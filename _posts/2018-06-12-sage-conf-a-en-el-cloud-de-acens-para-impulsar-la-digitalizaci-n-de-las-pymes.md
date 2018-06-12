@@ -40,4 +40,4 @@ detail-image: >-
  
 **Vídeo: Luis Pardo (CEO de Sage): “Hemos confiado en acens y Grupo Telefónica”**
  
-<p style="text-align: justify;">Puedes encontrar más información sobre Cloud Hosting, Internet y Tecnología en el blog de acens. También puedes suscribirte al boletín de noticias acensNews, ver vídeos en acens.tv, apuntarte a cursos gratuitos en Formacionacens.com y seguirnos en Facebook (acenstec), Twitter (@acens) e Instagram (@acens_com).</p>
+Puedes encontrar más información sobre Cloud Hosting, Internet y Tecnología en el [blog](http://www.acens.com/blog/) de acens. También puedes suscribirte al boletín de noticias [acensNews](http://www.acens.com/actualidad/boletin-mensual/), ver vídeos en [acens.tv](http://www.acens.tv/), apuntarte a cursos gratuitos en [Formacionacens.com](http://formacionacens.com/) y seguirnos en Facebook ([acenstec](https://www.facebook.com/acenstec/)), Twitter ([@acens](https://twitter.com/acens)) e Instagram ([@acens_com](https://www.instagram.com/acens_com/)).
