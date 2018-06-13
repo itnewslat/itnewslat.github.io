@@ -30,7 +30,7 @@ tags:
 
 <p style="text-align: justify;">Pedro Heilbron, presidente ejecutivo de Copa Airlines, comentó que “constantemente estamos buscando la oportunidad de ofrecer mayores opciones de vuelos a nuestros pasajeros, y por eso evaluamos cada ruta viendo la posibilidad de aumentar su frecuencia. Hemos visto el potencial en estos seis mercados ya que la demanda ha aumentado en este último año”.</p> 
 
-<p style="text-align: justify;">Con estos nuevos vuelos en América y el Caribe “ofreceremos más alternativas de vuelos a los pasajeros que deseen disfrutar de estos importantes destinos turísticos y de negocios. Este aumento de frecuencias fortalecerá las relaciones comerciales y de negocios entre estos países y el resto del continente, gracias a la conectividad que ofrecemos desde el Hub de las Américas en ciudad de Panamá”, añadió Heilbron. 
+<p style="text-align: justify;">Con estos nuevos vuelos en América y el Caribe “ofreceremos más alternativas de vuelos a los pasajeros que deseen disfrutar de estos importantes destinos turísticos y de negocios. Este aumento de frecuencias fortalecerá las relaciones comerciales y de negocios entre estos países y el resto del continente, gracias a la conectividad que ofrecemos desde el Hub de las Américas en ciudad de Panamá”, añadió Heilbron.</p> 
 
 **Aumento de frecuencias a Tampa**
 
