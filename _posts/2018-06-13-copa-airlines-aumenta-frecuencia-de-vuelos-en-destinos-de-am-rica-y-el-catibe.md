@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-06-13 14:29 -0400'
 published: true
 superNews: false
-title: Copa Airlines aumenta frecuencia de vuelos en destinos de América y el Catibe
+title: Copa Airlines aumenta frecuencia de vuelos en destinos de América y el Caribe
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/CopaAirlines-g.jpg
 detail-image: >-
@@ -69,4 +69,3 @@ tags:
 <p style="text-align: justify;">“Felicidades a Copa Airlines por su éxito continuo en el Aeropuerto Internacional Fort Lauderdale-Hollywood del Condado de Broward, ayudando a hacer de este uno de los aeropuertos de más rápido crecimiento en los Estados Unidos”, comentó Mark Gale, CEO/Director de Aviación del Aeropuerto Internacional de Fort Lauderdale-Hollywood. “Con el aumento de frecuencias de vuelo desde Ciudad de Panamá, Copa Airlines brindará a sus pasajeros la oportunidad de experimentar todas las opciones de entretenimiento únicas que el Condado de Broward tiene para ofrecer, desde opciones únicas de gastronomía, increíbles actividades de deportes acuáticos hasta bellas artes”, agregó Gale.</p>
  
 <p style="text-align: justify;">Copa Airlines actualmente opera un promedio de 350 vuelos diarios a través del Hub de las Américas, fundado en 1992 y ubicado en el Aeropuerto Internacional de Tocumen. Gracias a la extensa red de rutas de Copa, Tocumen es considerado el aeropuerto con más destinos internacionales de todo Latinoamérica.  Además, Copa fue reconocida en los últimos cinco años por FlightStats como “La aerolínea más puntual de Latinoamérica”, y por el Official Airline Guide of London como “La cuarta aerolínea más puntual del mundo” y la “más puntual de Latinoamérica”.</p>
-
