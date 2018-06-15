@@ -20,7 +20,7 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ramsonware-g.jpg
 ---
-![]({{site.baseurl}}/https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Derek-Manky.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Derek-Manky.jpg)
 
 _**Por Derek Manky, estratega global de Seguridad en Fortinet**_
 
