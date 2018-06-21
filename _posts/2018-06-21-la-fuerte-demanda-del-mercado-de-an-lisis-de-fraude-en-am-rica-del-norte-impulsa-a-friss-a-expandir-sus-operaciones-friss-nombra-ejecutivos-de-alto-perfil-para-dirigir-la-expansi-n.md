@@ -6,8 +6,7 @@ published: true
 superNews: false
 title: >-
   La fuerte demanda del mercado de análisis de fraude en América del Norte
-  impulsa a FRISS a expandir sus operaciones FRISS nombra ejecutivos de alto
-  perfil para dirigir la expansión
+  impulsa a FRISS a expandir sus operaciones
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Analisis-de-riesgo-p.jpg
 detail-image: >-
@@ -23,6 +22,8 @@ categories:
 tags:
   - Seguridad
 ---
+**FRISS nombra ejecutivos de alto perfil para dirigir la expansión**
+
 <p style="text-align: justify;">FRISS, el proveedor global de soluciones de análisis de riesgos y fraude para la industria de seguros generales, anunció la apertura de su sede en la ciudad de Chicago, Estados Unidos e incorpora dos ejecutivos de ventas experimentados al creciente equipo global.</p>
 
 <p style="text-align: justify;">Luego de mejorar aún más la solución de Inteligencia Artificial de vanguardia, y el posterior financiamiento de Serie A de $ 18 millones en diciembre de 2017, FRISS ahora está expandiendo sus operaciones a los EE. UU. y Canadá. La empresa se está ocupando de la demanda del mercado, ya que ha recibido cada vez más consultas sobre la detección de fraude, la evaluación de riesgos e investigaciones especiales por parte de aseguradoras norteamericanas.</p>
