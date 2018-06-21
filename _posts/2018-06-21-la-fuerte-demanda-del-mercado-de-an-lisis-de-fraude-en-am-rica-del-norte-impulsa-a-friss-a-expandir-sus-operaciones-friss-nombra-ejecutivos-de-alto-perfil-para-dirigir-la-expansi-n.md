@@ -20,7 +20,7 @@ categories:
   - Chile
   - Panama
 tags:
-  - Seguridad
+  - Actualidad
 ---
 **FRISS nombra ejecutivos de alto perfil para dirigir la expansión**
 
