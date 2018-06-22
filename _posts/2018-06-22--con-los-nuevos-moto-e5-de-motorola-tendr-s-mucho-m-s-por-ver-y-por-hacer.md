@@ -2,13 +2,21 @@
 layout: posts
 color-schema: red-dark
 date: '2018-06-22 10:33 -0500'
-published: false
+published: true
 superNews: false
 title: '¡Con los nuevos moto e5 de Motorola, tendrás mucho más por ver y por hacer!'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Motorola-E5--p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Motorola-E5--g.jpg
+categories:
+  - Colombia
+tags:
+  - Movilidad
 ---
 #helloentretenimiento
 
-¡Llega al país la quinta generación de la familia moto e con características únicas a precio excepcionales!
+_¡Llega al país la quinta generación de la familia moto e con características únicas a precio excepcionales!_
 
 Motorola anuncia en Colombia la llegada de la quinta generación de la familia moto e diseñada exclusivamente para ti que buscas obtener un equipo con más de todo y que cuente con una excelente relación costo/beneficio. 
 Los nuevos moto e5 llegan aún más inteligentes, con una evolución en la pantalla que mejora la experiencia de usuario, un gran diseño y más potencia para disfrutar de lo que más te gusta. 
@@ -36,5 +44,4 @@ Con su pantalla Max Vision grande, el moto e5 cabe perfectamente bien en tu mano
 ●	Diversión asegurada: Con un revés curvo y frente de cristal redondeado, el moto e5 te ofrece un diseño compacto, práctico para usar con una sola mano. También es atractivo a la vista. Los cables de antena están ocultos para una apariencia más larga y elegante.
 
 Precio y Disponibilidad 
-La familia moto e5    estará disponible en Colombia a partir de hoy 20 de junio en los diferentes operadores y grandes superficies. El moto e5 Plus se podrá conseguir por un precio sugerido de $599.000 y el moto e5, a partir de $499.000. 
-
+La familia moto e5    estará disponible en Colombia a partir de hoy 20 de junio en los diferentes operadores y grandes superficies. El moto e5 Plus se podrá conseguir por un precio sugerido de $599.000 y el moto e5, a partir de $499.000.
