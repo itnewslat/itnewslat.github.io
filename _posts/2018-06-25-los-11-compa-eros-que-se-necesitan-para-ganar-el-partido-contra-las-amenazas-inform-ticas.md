@@ -24,11 +24,11 @@ tags:
 ---
 **ESET acerca algunas recomendaciones para estar protegido mientras se navega por Internet.**
 
-Buenos Aires, Argentina – ESET, compañía líder en detección proactiva de amenazas, acerca los 11 mejores compañeros de equipo para hacer frente a los peligros en Internet.
+<p style="text-align: justify;">ESET, compañía líder en detección proactiva de amenazas, acerca los 11 mejores compañeros de equipo para hacer frente a los peligros en Internet.</p>
 
-“Si bien es probable que la Copa de Rusia 2018 haya atrapado la atención de millones de usuario alrededor del mundo, no está de más dedicar unos minutos y tomar nota de algunas recomendaciones para estar protegido mientras se navega por Internet. Desde ESET acercamos esta información porque apostamos a la educación y concientización como medidas claves de protección. Después de todo, qué tan seguros estamos depende en gran medida de cómo utilizamos la tecnología.”, Camilo Gutierrez, Jefe del Laboratorio de Investigación de ESET Latinoamérica.
+<p style="text-align: justify;">“Si bien es probable que la Copa de Rusia 2018 haya atrapado la atención de millones de usuario alrededor del mundo, no está de más dedicar unos minutos y tomar nota de algunas recomendaciones para estar protegido mientras se navega por Internet. Desde ESET acercamos esta información porque apostamos a la educación y concientización como medidas claves de protección. Después de todo, qué tan seguros estamos depende en gran medida de cómo utilizamos la tecnología.”, Camilo Gutierrez, Jefe del Laboratorio de Investigación de ESET Latinoamérica.</p>
 
-Desde el Laboratorio de Investigación de ESET Latinoamérica presentan los 11 ideales para ganar el partido contra las amenazas informáticas:
+<p style="text-align: justify;">Desde el Laboratorio de Investigación de ESET Latinoamérica presentan los 11 ideales para ganar el partido contra las amenazas informáticas:</p>
 
 #1 – **El esfuerzo realizado a tiempo puede prevenir más trabajo en el futuro**
 
