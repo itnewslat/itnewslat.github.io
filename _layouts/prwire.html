@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include posts/head.html %}
+  <body class="page page-blog-post navbar-layout-default">
+    <div class="page-loader" data-toggle="page-loader"></div>
+    <a href="#content" id="top" class="sr-only">Skip to content</a>
+      {% include posts/header.html %}
+    <!-- ======== @Region: #content ======== -->
+    <div id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            {{ content }}
+          </div>
+          <!--Sidebar-->
+          <div class="col-md-3 sidebar-right">
+            {% include posts/sidebar.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include posts/footer.html %}
+    {% include posts/js.html %}
+  </body>
+</html>
