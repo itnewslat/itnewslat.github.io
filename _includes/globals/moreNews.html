@@ -18,7 +18,7 @@
               </h5>
             </div>
             <div class="col-12 col-lg-5 py-2 text-lg-right">
-              <a href="{{ item.moreNews}}" target="_blank" class="btn btn-lg btn-primary btn-invert btn-rounded py-3 px-4">{{ item.moreNews-title }} <i class="fa fa-arrow-right ml-2"></i></a>
+              <a href="{%if page.filterCategory contains 'Venezuela'%}/prwire-ven.html{% endif %}" class="btn btn-lg btn-primary btn-invert btn-rounded py-3 px-4">{{ item.moreNews-title }} <i class="fa fa-arrow-right ml-2"></i></a>
             </div>
           </div>
           {% endfor %}
