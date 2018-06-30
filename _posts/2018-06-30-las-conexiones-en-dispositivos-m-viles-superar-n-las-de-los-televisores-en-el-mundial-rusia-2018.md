@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2018-06-30 11:02 -0400'
-published: false
+published: true
 superNews: false
 title: >-
   Las conexiones en dispositivos móviles superarán las de los televisores en el
@@ -11,6 +11,16 @@ image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/uso-de-Moviles-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/uso-de-Moviles-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Movilidad
 ---
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Iru-Scolari.jpg)
