@@ -2,15 +2,27 @@
 layout: posts
 color-schema: red-dark
 date: '2018-07-02 10:55 -0400'
-published: false
+published: true
 superNews: false
 title: >-
   Datos de Visa revelan que una quinta parte de las compras en la Copa Mundial
   de la FIFA 2018TM usan tecnología de pagos sin contacto
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Visa-Pago-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Visa-Pago-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
 ---
-
-
-Durante los primeros cinco días del torneo, los aficionados procedentes de Estados Unidos fueron los extranjeros que más gastaron, seguidos por los de China y México, respectivamente
+- Durante los primeros cinco días del torneo, los aficionados procedentes de Estados Unidos fueron los extranjeros que más gastaron, seguidos por los de China y México, respectivamente
 
 Visa (NYSE: V), Socio y Servicio de Pago Oficial de la FIFA, dio a conocer hoy un análisis de los gastos realizados por los viajeros internacionales durante los primeros días de la Copa Mundial de la FIFA 2018™. Los resultados revelaron que, en las once ciudades anfitrionas del torneo en Rusia, la tecnología de pago sin contacto se utilizó en aproximadamente una de cada cinco compras con Visa (un 17 por ciento), incluyendo pagos efectuados con teléfonos inteligentes, brazaletes y anillos.  La participación de los pagos sin contacto efectuados dentro de los estadios fue de un 54 por ciento, lo que incluye las compras realizadas por aficionados de Rusia y del extranjero.
 
@@ -33,7 +45,6 @@ El promedio más alto por compra individual se observó en las siguientes catego
 - **Artículos de lujo**: 23,000 rublos (USD$364.55)
 - **Hospedaje**: 15,000 rublos (USD$237.75)
 - **Ropa y accesorios de moda**: 8,000 rublos (USD$126.86)
-
 
 En general, la mayoría de las compras realizadas en las ciudades anfitrionas ocurrieron en las categorías de hospedaje, ropa y accesorios de moda, y restaurantes.
 
