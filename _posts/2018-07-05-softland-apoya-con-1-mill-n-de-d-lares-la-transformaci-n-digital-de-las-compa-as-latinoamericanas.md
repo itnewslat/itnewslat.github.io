@@ -8,7 +8,7 @@ title: >-
   Softland apoya con $1 millón de dólares la transformación digital de las
   compañías latinoamericanas
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Apoyo-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/apoyo-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Apoyo-g.jpg
 categories:
@@ -37,4 +37,4 @@ La primera vez que este programa se lanzó fue en octubre de 2017 y despertó el
 “Para optar por esta ayuda, las compañías deben inscribirse en el Programa, posteriormente recibirán un diagnóstico gratuito que incluye costes, recursos y una hoja de ruta para acometer la transformación digital y si cuenta con los requisitos establecidos por Softland se le acreditará una bonificación proporcional a su adquisición de las licencias de Softland”, agregó Sáez.
 
 Hoy, la movilidad y el “Internet de las Cosas”, el cloud híbrido, el pago de software por suscripción y las redes sociales son tecnologías que se conjugan en el entramado empresarial y que deben ser asumidas por las organizaciones.  
-Las empresas dispuestas en optimizar sus operaciones, disminuir la gestión de procesos manuales, fidelizar el talento humano y rentabilizar sus inversiones pueden inscribirse al Programa Innova en el siguiente enlace: http://www.gruposoftland.com/innova/ 
+Las empresas dispuestas en optimizar sus operaciones, disminuir la gestión de procesos manuales, fidelizar el talento humano y rentabilizar sus inversiones pueden inscribirse al Programa Innova en el siguiente enlace: http://www.gruposoftland.com/innova/
