@@ -2,13 +2,27 @@
 layout: posts
 color-schema: red-dark
 date: '2018-07-05 12:36 -0400'
-published: false
+published: true
 superNews: false
 title: >-
   Omnicanalidad: Cinco errores comunes de las empresas en las campañas de
   fidelización
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Clientes-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Clientes-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Canales
 ---
-
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Marko.jpg)
 **Por: Marko Erkic, Gerente de Infobip Colombia**
 
 Lograr que los consumidores se enamoren de su marca es sin duda uno de los mayores objetivos de una empresa. Pero en el actual contexto económico donde encontramos fuerte competencia y un consumidor cada vez más exigente, resulta un reto cada vez mayor diferenciarse y generar campañas que generen recordación, lealtad y acción.
@@ -37,7 +51,7 @@ Con el auge de nuevas tecnologías que sistematizan las labores operativas de lo
 
 Por eso es recomendable tener chats de dos vías donde el agente de atención al cliente pueda gestionar eficazmente múltiples solicitudes de consumidores. De esta forma su negocio conserva la capacidad de corregir el curso de una conversación que se pueda ir desviando.
 
-**No es lo mismo multicanalidad que omnicanalidad**
+- **5.- No es lo mismo multicanalidad que omnicanalidad**
 
 En la transición que se ha venido dando en la forma en la que la compañía interactúa con el cliente, las marcas se han confundido generando campañas de multicanalidad pensando en omnicanalidad. Por eso es clave entender la diferencia entre ambas y así estar seguros que las acciones que se están realizando son las correctas. 
 La multicanalidad traduce también multiproveedor, la marca entiende como contar con todos los canales (VOZ, CHAT, SMS, TEXTO, REDES) pero de manera separada y en algunas ocasiones dependiendo de un agente para cada canal.
