@@ -14,11 +14,12 @@ title: >-
 Lograr que los consumidores se enamoren de su marca es sin duda uno de los mayores objetivos de una empresa. Pero en el actual contexto económico donde encontramos fuerte competencia y un consumidor cada vez más exigente, resulta un reto cada vez mayor diferenciarse y generar campañas que generen recordación, lealtad y acción.
 Aquí les presentamos los cinco errores más comunes y algunas recomendaciones para enmendarlos y sacar el mejor provecho de la omnicanalidad. 
 
-1.Mensajes de voz genéricos ya no funcionan 
+Mensajes de voz genéricos ya no funcionan
+
 
 A pesar de que existen campañas donde un mensaje genérico es necesario, por lo general un receptor prefiere que lo llamen por su nombre porque eso demuestra interés por parte de la compañía hacia ellos. De hecho según un informe de Braze[1], los mensajes personalizados incrementan el engagement en más del 27%. 
 
-La personalización va más allá del nombre
+2. La personalización va más allá del nombre
 
 
 Aunque reconocer a cada consumidor por su nombre es vital, este es solo el primer paso para una campaña realmente personalizada. Pensar en sus deseos e ir un paso más allá brindándole experiencias que realmente le faciliten su interacción con la marca es clave. 
@@ -43,4 +44,3 @@ En la transición que se ha venido dando en la forma en la que la compañía int
 La multicanalidad traduce también multiproveedor, la marca entiende como contar con todos los canales (VOZ, CHAT, SMS, TEXTO, REDES) pero de manera separada y en algunas ocasiones dependiendo de un agente para cada canal.
 
 En cambio, la omnicanalidad es hablar de integración de canales que permitan programar campañas y realizar acciones según el comportamiento o preferencias del usuario final. Existen tecnologías que logran simplificar tiempos, segmentar según acciones o preferencias y de esta manera lograr una mejor experiencia en cada contacto con el cliente para así lograr enamorarlo desde todos los puntos de contacto.
-
