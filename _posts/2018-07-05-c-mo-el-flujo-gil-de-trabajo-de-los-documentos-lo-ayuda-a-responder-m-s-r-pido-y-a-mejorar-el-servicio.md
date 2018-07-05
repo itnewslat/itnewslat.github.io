@@ -2,13 +2,13 @@
 layout: posts
 color-schema: red-dark
 date: '2018-07-05 14:02 -0400'
-published: false
+published: true
 superNews: false
 title: >-
   Cómo el flujo ágil de trabajo de los documentos lo ayuda a responder más
   rápido y a mejorar el servicio
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Xerox-canales-pg.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Xerox-canales-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Xerox-canales-g.jpg
 categories:
@@ -19,11 +19,13 @@ categories:
   - Ecuador
   - Chile
   - Panama
+tags:
+  - Transformación Digital
 ---
 LLevando la Impresión Móvil al Siguiente Nivel
 
-
-Por: Kevin Corne, Director & Gerente General para Liderar los Negocios de las Grandes Empresas del RU (Reino Unido) en Xerox
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Kevin-Corne.jpg)
+**Por: Kevin Corne, Director & Gerente General para Liderar los Negocios de las Grandes Empresas del RU (Reino Unido) en Xerox**
 
 Hasta ahora, muchas empresas han permitido o han considerado permitir a los empleados que trabajen de forma remota, ya sea de 9 a 5 o mientras viajan. El móvil es cada vez más la forma estándar en que trabajamos y está sucediendo rápidamente. De hecho, para 2020, los trabajadores móviles constituirán la mayor fuerza laboral en Estados Unidos (72.3%).
 
@@ -66,4 +68,3 @@ No hay duda de que la revolución móvil ya está en pleno apogeo, con más de 8
 
 Una estrategia móvil integral para su empresa deberá incorporar procesos de documentos y flujos de trabajo móviles, y establecer ambos es más fácil de lo que cree, con el soporte adecuado.
 Las tecnologías móviles y en la nube han revolucionado la manera en que almacenamos y compartimos información, abriendo todo un mundo de posibilidades. Al emplear la combinación correcta de dispositivos, conectividad y procesos, usted puede aprovechar el poder de la movilidad para impulsar su negocio, comenzando ahora mismo.
-
