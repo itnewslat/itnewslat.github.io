@@ -4,13 +4,14 @@ color-schema: red-dark
 date: '2018-07-08 10:01 -0400'
 published: true
 superNews: false
-title: Zendesk revolucionará el servicio de atención al cliente en Argentina
+title: Zendesk revolucionará el servicio de atención al cliente en Argentina  y Chile
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Clientes-Satisfechos-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Clientes-Satisfechos-g.jpg
 categories:
   - Argentina
+  - Chile
 tags:
   - Canales
 ---
