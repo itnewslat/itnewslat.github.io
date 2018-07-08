@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-07-08 10:01 -0400'
 published: true
 superNews: false
-title: Zendesk revolucionará el servicio de atención al cliente en Argentina  y Chile
+title: Zendesk revolucionará el servicio de atención al cliente en Argentina y Chile
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Clientes-Satisfechos-p.jpg
 detail-image: >-
@@ -17,7 +17,7 @@ tags:
 ---
 - La plataforma líder en Customer Relations Management (CRM) y compromiso con el cliente se fortalece también en Colombia y Chile para asistir a pequeñas y grandes empresas a forjar una relación más valiosa, personal y provechosa con sus clientes
 
-Zendesk, Inc. (NYSE: ZEN), empresa especializada en Customer Experience (CX) y líder en el Cuadrante Mágico de Gartner para el Centro de Compromiso con el Cliente CRM, desembarca en Argentina.
+Zendesk, Inc. (NYSE: ZEN), empresa especializada en Customer Experience (CX) y líder en el Cuadrante Mágico de Gartner para el Centro de Compromiso con el Cliente CRM, desembarca en Argentina y Chile.
 
 Con un equipo enfocado de Latinoamérica desde 2009 y destacada por ayudar a compañías disruptivas como Netflix, Airbnb, Uber y Rappi, Zendesk ahora se fortalece en la región, especialmente en Argentina, Colombia y Chile. La compañía se enfoca en la región  para apoyar a las organizaciones  que quieren mejorar la experiencia del usuario y responder rápida y fácilmente a las necesidades de sus clientes.
 
