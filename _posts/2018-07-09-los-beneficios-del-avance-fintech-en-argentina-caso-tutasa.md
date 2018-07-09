@@ -20,9 +20,9 @@ categories:
 tags:
   - Economía Digital
 ---
-La tecnología avanza a pasos agigantados, y en el sector financiero las conocidas ‘Fintech’ como TuTasa están tomando la oportunidad de crear nuevas formas de satisfacer las necesidades de los consumidores.
+La tecnología avanza a pasos agigantados, y en el sector financiero las conocidas ‘Fintech’ como **[TuTasa](http://www.tutasa.com.ar/)** están tomando la oportunidad de crear nuevas formas de satisfacer las necesidades de los consumidores.
 
-Nunca había sido tan fácil conseguir un crédito o comenzar a invertir desde la comodidad de su casa y a un clic. Para prestar en TuTasa por ejemplo, solo se necesita definir monto, plazo y tasa de retorno, es simple y apto para todo público. Esto permite que solicitantes de préstamo en tutasa.com.ar puedan acceder a las mejores tasas del mercado que se rige por oferta y demanda.
+Nunca había sido tan fácil conseguir un crédito o comenzar a invertir desde la comodidad de su casa y a un clic. Para prestar en **[TuTasa](http://www.tutasa.com.ar/)** por ejemplo, solo se necesita definir monto, plazo y tasa de retorno, es simple y apto para todo público. Esto permite que solicitantes de préstamo en tutasa.com.ar puedan acceder a las mejores tasas del mercado que se rige por oferta y demanda.
 
 **Argentina y las fintech**
 
@@ -30,7 +30,7 @@ El surgimiento de estas empresas sigue en aumento, especialmente en Argentina qu
 
 El interés esta presente, Argentina cuenta con grandes comunidades en línea sobre herramientas de inversión y finanzas en general, lo cual solo se ve presente en los países que anteceden su posición en mayor número de fintech registradas, México, Colombia y Brasil.
 
-En el caso de TuTasa el crecimiento ha sido tan acelerado que desde el inicio del año ya se han registrado en tan solo 6 meses 1800 inversores y hasta 90,000 solicitudes de crédito. Por supuesto esto se traduce en que la demanda de prestamos ha ido a la par de la de oferta y a pesar de las crisis que se ha visto en los últimos meses, el crecimiento sigue.
+En el caso de **[TuTasa](http://www.tutasa.com.ar/)** el crecimiento ha sido tan acelerado que desde el inicio del año ya se han registrado en tan solo 6 meses 1800 inversores y hasta 90,000 solicitudes de crédito. Por supuesto esto se traduce en que la demanda de prestamos ha ido a la par de la de oferta y a pesar de las crisis que se ha visto en los últimos meses, el crecimiento sigue.
 
 **¿Por que nacen las fintech?**
 
@@ -60,3 +60,5 @@ Realmente la misma tecnología se ha encargado de minimizarlos. En cuanto a segu
 En el caso de TuTasa, la Fintech crea un fondo de contingencia, aportado por los deudores, el cual paga a los inversores en caso de incumplimientos. De esta forma los riesgos se diversifican, creando una plataforma más segura. Es una idea simple pero novedosa, y fácil de entender para inversores.
 
 El crecimiento de las finetchs es importante para lograr un mayor beneficio del usuario final, al obligar a los bancos a innovar y bajar precios, o ser desplazados por fintechs con mejores opciones para nichos determinados. En cualquier escenario, gana el usuario final.
+
+Visite **[TuTasa](http://www.tutasa.com.ar/)**
