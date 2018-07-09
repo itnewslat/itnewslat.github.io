@@ -2,9 +2,17 @@
 layout: posts
 color-schema: red-dark
 date: '2018-07-09 15:19 -0400'
-published: false
+published: true
 superNews: false
 title: VMware Evolve estará llevando la innovación a Cali
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Club-Campestre-Cali-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Club-Campestre-Cali-g.jpg
+categories:
+  - Colombia
+tags:
+  - Transformación Digital
 ---
 **Los asistentes podrán explorar las posibilidades que brinda la transformación digital en sus negocios.**
 
@@ -20,7 +28,8 @@ Este evento se ha realizado en países de Centro América, Caribe, Ecuador y Col
 - **Fecha**: Martes 17 de julio de 2018
 - **Lugar**:   Club Campestre de Cali 
 - **Dirección**: Calle 5 Carrera 100 (frente a Unicentro) – Santiago de Cali.
-- Horario: A partir de las 7:30 AM
-- Visite la website oficial de VMware Latinoamérica: http://www.vmware.com/latam
+- **Horario**: A partir de las 7:30 AM
+
+Visite la website oficial de VMware Latinoamérica: http://www.vmware.com/latam
 
 
