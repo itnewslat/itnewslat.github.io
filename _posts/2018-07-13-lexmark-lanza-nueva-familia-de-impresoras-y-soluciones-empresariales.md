@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: 'Lexmark lanza nueva familia de impresoras y soluciones empresariales '
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Lexmark-visita-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Lexmark-visita-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Lexmark-visita-g.jpg
 categories:
