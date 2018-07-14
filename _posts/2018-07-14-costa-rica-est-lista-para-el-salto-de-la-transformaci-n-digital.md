@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: 'Costa Rica está lista para el salto de la transformación digital '
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Costa-Rica-Flag-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Costa-Rica-Flag-f.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Costa-Rica-Flag-g.jpg
 categories:
@@ -30,4 +30,4 @@ Ante un panorama más dinámico para la economía y los negocios, se hace necesa
 
 El desarrollo de la transformación digital afecta a todos los sectores de actividad económica, crea nuevas oportunidades e incluso puede llegar a redefinir en modelo de negocio de algunas compañías. Hoy en día, las empresas costarricenses son conscientes de que el cambio digital, su tiempo y consecuencias son determinantes para el futuro de las mismas. 
 
-Entender la modernización tecnológica como un proceso que implica la participación de todos los miembros de una empresa, además de los líderes de tecnología, promueve la colaboración para ser más eficaces y redefinir cómo planear, desarrollar y ejecutar procesos de manera interna y externa. Es necesario que las personas trabajen juntas, se unan a la transformación y haya un cambio en todos los equipos de la organización. 
+Entender la modernización tecnológica como un proceso que implica la participación de todos los miembros de una empresa, además de los líderes de tecnología, promueve la colaboración para ser más eficaces y redefinir cómo planear, desarrollar y ejecutar procesos de manera interna y externa. Es necesario que las personas trabajen juntas, se unan a la transformación y haya un cambio en todos los equipos de la organización.
