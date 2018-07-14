@@ -20,7 +20,7 @@ categories:
 tags:
   - Actualidad
 ---
-![]({https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Teresa-Morales.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Teresa-Morales.jpg)
 
 **Por Teresa Morales, Directora Corporativa Softland Capital Humano**
  
