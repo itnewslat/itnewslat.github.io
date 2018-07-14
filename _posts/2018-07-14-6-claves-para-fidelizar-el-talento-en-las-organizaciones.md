@@ -6,7 +6,7 @@ published: true
 superNews: false
 title: 6 claves para FIDELIZAR el talento en las organizaciones
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Seleccion-Personal-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Seleccion-Personal-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Seleccion-Personal-g.jpg
 categories:
@@ -64,5 +64,4 @@ No hay un insulto mayor que asciendan al compañero que no hace nada cuando tú 
  
 **Desarrolla las habilidades de tu personal**
 
-Los buenos colaboradores tienen la capacidad de lograr cosas que parecen imposibles, por lo que desafiar a nuestros colaboradores permitirá salir de la zona de confort. Pon atención a las actividades de tu equipo y dirígelos contantemente. Si no lo haces tus colaboradores se aburrirán y se irán de la organización  
- 
+Los buenos colaboradores tienen la capacidad de lograr cosas que parecen imposibles, por lo que desafiar a nuestros colaboradores permitirá salir de la zona de confort. Pon atención a las actividades de tu equipo y dirígelos contantemente. Si no lo haces tus colaboradores se aburrirán y se irán de la organización
