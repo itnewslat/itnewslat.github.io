@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-07-18 16:48 -0400'
 published: true
 superNews: false
-title: Ennvate es centro oficial para Chile de la certificación Scrum Master
+title: Ennovate es centro oficial para Chile de la certificación Scrum Master
 categories:
   - Chile
 tags:
