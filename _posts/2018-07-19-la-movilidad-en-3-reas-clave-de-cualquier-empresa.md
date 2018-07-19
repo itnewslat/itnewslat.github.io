@@ -2,11 +2,25 @@
 layout: posts
 color-schema: red-dark
 date: '2018-07-19 10:12 -0400'
-published: false
+published: true
 superNews: false
 title: La movilidad en 3 áreas clave de cualquier empresa
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Movilidad-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Movilidad-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Movilidad
 ---
-
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Sergio-Morilo.jpg)
 
 **Por: Sergio Morilo, Contralor, Operaciones internacionales TOTVS.**
 
