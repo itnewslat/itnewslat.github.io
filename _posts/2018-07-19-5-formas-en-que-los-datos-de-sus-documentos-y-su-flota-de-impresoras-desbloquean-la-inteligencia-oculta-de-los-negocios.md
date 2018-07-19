@@ -37,14 +37,15 @@ Al aplicar análisis a esta información, los proveedores de MPS pueden hacer m�
 Aquí se presentan cinco maneras en las que los proveedores de MPS usan datos sobre los documentos de una empresa y su flota de impresoras, para desbloquear la inteligencia del negocio que puede ser uno de sus recursos más valiosos.
 
 
-1. Comprender las Necesidades de su Dispositivo 
+**1. Comprender las Necesidades de su Dispositivo**
+
 Su viaje de análisis de MPS comienza con datos sobre el uso de su dispositivo: cuánto imprime y cuánto paga por esa impresión. Esto le ayuda a comprender sus volúmenes reales y los costos asociados, algo que muchas empresas no realizan, así como su impacto ambiental.
 
 Con este conocimiento básico, puede comenzar a planear para mejorar la impresión de su organización estableciendo objetivos y desarrollando una política que lo ayude a alcanzarlos. Este ejercicio por lo general es parte de su puesta en marcha de MPS, y hace uso de tres puntos de referencia clave:
 
-•   Su flota actual de impresoras: - ¿dónde están físicamente ubicadas, cuántas páginas imprimen cada mes y cuál es la proyección de su vida útil?
-•   Su base de referencia en costos: - dos puntos de referencia clave son: su costo por página y su costo total de apropiación.
-•   Su impacto ambiental: - la electricidad que usa para hacer funcionar un dispositivo y la cantidad de papel que consume se encuentran entre los indicadores del impacto de su flota de impresión sobre el medio ambiente.
+**Su flota actual de impresoras**: - ¿dónde están físicamente ubicadas, cuántas páginas imprimen cada mes y cuál es la proyección de su vida útil?
+**Su base de referencia en costos**: - dos puntos de referencia clave son: su costo por página y su costo total de apropiación.
+**Su impacto ambiental**: - la electricidad que usa para hacer funcionar un dispositivo y la cantidad de papel que consume se encuentran entre los indicadores del impacto de su flota de impresión sobre el medio ambiente.
 
 El análisis de estos datos lo ayuda a racionalizar su flota de impresoras. Mediante el análisis predictivo, puede modelar escenarios de "qué pasa si" para evaluar diferentes opciones de mejora y optimización. Tomará decisiones mejor fundamentadas sobre qué dispositivos necesita, dónde los necesita y si debe asignar mayores volúmenes de impresión a impresoras multifuncionales o a una sala de impresión centralizada. El proceso deberá ayudar a garantizar que tenga la cantidad correcta de dispositivos y que ninguno esté sobre o subutilizado.
 
@@ -53,14 +54,16 @@ También puede comenzar a definir sus objetivos hacia el futuro. ¿Qué quiere q
 Xerox ofrece una herramienta de evaluación de madurez, que puede ayudarlo a comprender su estado actual, compararlo con los promedios del mercado, mapear el estado futuro deseado e incluso crear una política de impresión.
 
 
-2. Conocer sus Usuarios 
+**2. Conocer sus Usuarios**
+
 El siguiente nivel de conocimiento proviene de entender quién usa las impresoras de la empresa y qué imprimen. El análisis del usuario puede ayudarlo a comprender:
 
-•  Comportamientos del usuario: ¿quién imprime y qué tipos de   documentos están imprimiendo? ¿Dónde imprimen, y cuándo?
-•  Contenido: ¿Qué tipos de contenido se imprimen normalmente? ¿Se podrían entregar algunos de manera más eficiente y menos costosa?
-•  Volúmenes: ¿cuánto imprimen las personas, individualmente y a nivel de equipo / grupo?
-•  Tendencias: ¿Cómo cambian estos factores con el tiempo? ¿Hay generalmente picos o valles en un día, semana, mes o año determinados?
-•  Residuos: ¿la gente usa el papel sabiamente? ¿Podrían usar menos o tomar mejores decisiones sobre cómo y qué imprimir? Por ejemplo, ¿están imprimiendo en color de alta resolución cuando un borrador en blanco y negro funcionaría igual de bien?
+- **Comportamientos del usuario**: ¿quién imprime y qué tipos de   documentos están imprimiendo? ¿Dónde imprimen, y cuándo?
+- **Contenido**: ¿Qué tipos de contenido se imprimen normalmente? ¿Se podrían entregar algunos de manera más eficiente y menos costosa?
+- **Volúmenes**: ¿cuánto imprimen las personas, individualmente y a nivel de equipo / grupo?
+- **Tendencias**: ¿Cómo cambian estos factores con el tiempo? ¿Hay generalmente picos o valles en un día, semana, mes o año determinados?
+- Residuos: ¿la gente usa el papel sabiamente? ¿Podrían usar menos o tomar mejores decisiones sobre cómo y qué imprimir? Por ejemplo, ¿están imprimiendo en color de alta resolución cuando un borrador en blanco y negro funcionaría igual de bien?
+
 
 Algunos proveedores de MPS ofrecen herramientas de gestión de impresión que pueden recopilar datos para este análisis. Esta información deberá abordar el uso individual, como qué documento se imprimió, quién lo hizo, cuándo y en qué dispositivos, así como las cifras agregadas de los volúmenes y costos de impresión monocromática y en color por usuario / departamento y por tipo de documento / extensión del archivo. Algunos proveedores también presentan estos datos en tableros interactivos, que pueden acelerar el análisis y aumentar la precisión.
 
