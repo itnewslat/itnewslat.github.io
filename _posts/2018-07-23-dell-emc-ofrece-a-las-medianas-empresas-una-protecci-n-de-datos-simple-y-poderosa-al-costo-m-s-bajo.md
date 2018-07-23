@@ -2,11 +2,25 @@
 layout: posts
 color-schema: red-dark
 date: '2018-07-23 16:59 -0400'
-published: false
+published: true
 superNews: false
 title: >-
   Dell EMC ofrece a las medianas empresas una protección de datos simple y
   poderosa al costo más bajo
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Dell-Data-Protection-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Dell-Data-Protection-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
 ---
 **La nueva solución Dell EMC IDPA DP4400 ofrece capacidades innovadoras y un amplio soporte de aplicaciones con el tamaño y el precio ideales para los clientes del mercado medio**
 
@@ -43,26 +57,32 @@ La solución IDPA DP4400 está optimizada para entornos VMware, con la integraci
 
 El dispositivo IDPA DP4400 ofrece a los clientes un valor y un costo total de propiedad excelentes (con un costo de protección de hasta 80 % menos ). Con ventanas de respaldo hasta dos veces más rápidas , hasta 20 % más de capacidad en un dispositivo de 2U  y un promedio de tasa de deduplicación de 55:1, ofrece el menor costo de protección en comparación con los productos de su clase desarrollados por la competencia .
 
-Garantía del programa de fidelidad Future-Proof de Dell EMC
+**Garantía del programa de fidelidad Future-Proof de Dell EMC**
 
 La solución IDPA DP4400 forma parte del programa de fidelidad Future-Proof de Dell EMC, que otorga una garantía de satisfacción de tres años , una protección de la inversión en hardware , una garantía de deduplicación de protección de datos de hasta 55:1  y el programa Clear Price, que brinda tranquilidad a los clientes mediante una fijación de precios de mantenimiento coherente y predecible.
 
-Disponibilidad:
+**Disponibilidad:**
 
 La solución Dell EMC IDPA DP4400 se consigue de inmediato a través de Dell EMC y los asociados de canal autorizados. 
 
-Comentarios de clientes:
-Brian Linden, director de TI, Melanson Heath
+**Comentarios de clientes:**
+
+_Brian Linden, director de TI, Melanson Heath_
+
  “IDPA DP4400 es un producto excelente porque es todo en uno. Es altamente escalable y entonces te permite obtener muy buenas capacidades de expansión. Como es de Dell EMC, está listo para usar, y puedo confiar en que no necesito investigar ni analizar demasiado para asegurarme de que me servirá. Es una gran tranquilidad”.
 
-John Sharp, gerente de TI, The Vollrath Company
+_John Sharp, gerente de TI, The Vollrath Company_
+
 “La instalación de IDPA DP4400 es sencilla. En dos horas ya lo teníamos en marcha. El montaje en rack de 2U no requiere esfuerzo. Se hace rápido. Se enchufa y ya está listo para hacer el respaldo de los datos. ¡Funciona de inmediato!”. 
 
-Comentario de un socio:
-Seife Teklu, arquitecto de soluciones sénior, Arrow Electronics
+**Comentario de un socio:**
+
+_Seife Teklu, arquitecto de soluciones sénior, Arrow Electronics_
+
 “Antes del anuncio de IDPA DP4400, los clientes implementaban componentes individuales de software de protección de datos. Algunos clientes no aprovechaban las herramientas de supervisión, búsqueda, análisis y generación de informes que tenían a su disposición. El dispositivo de protección de datos integral IDPA DP4400 de Dell EMC presenta una interfaz de administración simple e intuitiva, pero tiene funciones empresariales. El dispositivo IDPA DP4400 es la solución ideal para clientes de pequeñas y medianas empresas o negocios, ya que permite ahorrar tiempo, reducir los riesgos generales y proporcionar a los clientes las herramientas que necesitan para comprender mejor su entorno de protección de datos”.
 
-Comentario de analista del sector
-Phil Goodwin, director de investigación, división de software y sistemas de almacenamiento, IDC
-“Hoy en día, las organizaciones, y en especial las medianas empresas, se enfrentan a situaciones de mayor complejidad, como el incesante crecimiento de los datos, la diversidad de aplicaciones, el aumento del número de usuarios y las limitaciones de recursos. Por eso surge la necesidad de obtener soluciones que hagan frente a estos desafíos con el personal existente. Sin embargo, los usuarios no quieren perder simplicidad en pro de obtener rendimiento o capacidades. Con el dispositivo IDPA DP4400, Dell EMC satisface la demanda de una gran cantidad de empresas del sector medio que quieren una solución todo en uno que sea asequible, fácil de usar y que tenga las funciones modernas de protección de datos que necesitan para asegurarse de que sus datos están seguros y que sus negocios se pueden recuperar rápidamente en caso de desastres”.
+**Comentario de analista del sector**
 
+_Phil Goodwin, director de investigación, división de software y sistemas de almacenamiento, IDC_
+
+“Hoy en día, las organizaciones, y en especial las medianas empresas, se enfrentan a situaciones de mayor complejidad, como el incesante crecimiento de los datos, la diversidad de aplicaciones, el aumento del número de usuarios y las limitaciones de recursos. Por eso surge la necesidad de obtener soluciones que hagan frente a estos desafíos con el personal existente. Sin embargo, los usuarios no quieren perder simplicidad en pro de obtener rendimiento o capacidades. Con el dispositivo IDPA DP4400, Dell EMC satisface la demanda de una gran cantidad de empresas del sector medio que quieren una solución todo en uno que sea asequible, fácil de usar y que tenga las funciones modernas de protección de datos que necesitan para asegurarse de que sus datos están seguros y que sus negocios se pueden recuperar rápidamente en caso de desastres”.
