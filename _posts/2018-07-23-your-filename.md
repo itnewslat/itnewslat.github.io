@@ -4,7 +4,9 @@ color-schema: red-dark
 date: '2018-07-23 14:36 -0400'
 published: true
 superNews: false
-title: Untitled
+title: >-
+  Etix Everywhere y Compunet se unen para construir un Centro de Datos de última
+  generación en Colombia
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ETIX-p.jpg
 detail-image: >-
@@ -14,8 +16,6 @@ categories:
 tags:
   - Transformación Digital
 ---
-Etix Everywhere y Compunet se unen para construir un Centro de Datos de última generación en Colombia
-
 •	Será el primer Data Center certificado Tier IV ubicado fuera de Bogotá. 
 •	Su desarrollo se inicia a principios de Q4 de 2018.
 
