@@ -2,18 +2,22 @@
 layout: posts
 color-schema: red-dark
 date: '2018-07-23 14:36 -0400'
-published: false
+published: true
 superNews: false
-title: >-
-  Etix Everywhere y Compunet se unen para construir un Centro de Datos de última
-  generación en Colombia
+title: Untitled
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ETIX-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ETIX-g.jpg
+categories:
+  - Colombia
+tags:
+  - Transformación Digital
 ---
-- Será el primer Data Center certificado Tier IV ubicado fuera de Bogotá. 
-- Su desarrollo se inicia a principios de Q4 de 2018.
+Etix Everywhere y Compunet se unen para construir un Centro de Datos de última generación en Colombia
 
-
-
-Cali, Colombia, Julio 19 de 2018
+•	Será el primer Data Center certificado Tier IV ubicado fuera de Bogotá. 
+•	Su desarrollo se inicia a principios de Q4 de 2018.
 
 Etix Everywhere, proveedor y operador global de centros de datos con casa matriz en Luxemburgo; y Compunet, compañía colombiana líder en el ofrecimiento de soluciones administradas de SAP, Cloud y Movilidad en la Región Andina, unen sus propuestas de valor en una alianza para construir y operar un Data Center de última generación en Zonamerica, la primera zona franca global especializada en servicios y tecnología del país, que se convertirá en un gran polo de negocios en el Valle del Cauca. 
 
@@ -23,7 +27,8 @@ El nuevo centro de datos, identificado como Etix Cali # 1, se implementará en d
 
 Etix Cali # 1 será el único data center Tier IV ubicado fuera de Bogotá. Esto permitirá completar la oferta de data centers en Colombia, abriendo al mismo tiempo la posibilidad de ser un centro de recuperación de desastres para las principales compañías del país. 
 
-Conectividad de primer nivel 
+**Conectividad de primer nivel**
+
 Etix Cali # 1 será un centro de datos neutral, como todos los que ha construido Etix Everywhere en diferentes países. Aquí tendrán cabida los diferentes proveedores de comunicaciones, de manera que los clientes podrán disfrutar de la mejor propuesta de valor que ofrecen las compañías de telecomunicaciones del país.
 
 Es importante destacar que la infraestructura se beneficiará del nuevo cable submarino que conecta la región con 60 países. La neutralidad del centro de datos también garantizará tarifas gratuitas de cross-connection.
