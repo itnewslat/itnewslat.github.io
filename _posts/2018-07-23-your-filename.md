@@ -8,7 +8,7 @@ title: >-
   Etix Everywhere y Compunet se unen para construir un Centro de Datos de última
   generación en Colombia
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ETIX-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/etix-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ETIX-g.jpg
 categories:
