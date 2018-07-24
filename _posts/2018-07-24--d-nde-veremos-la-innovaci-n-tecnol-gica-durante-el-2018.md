@@ -23,13 +23,7 @@ tags:
  
 <p style="text-align: justify;">En segundo lugar, la tecnología se volverá más transparente. Gracias a los avances tecnológicos, los investigadores podrán abrir la “caja negra” de la IA y explicar más claramente por qué un modelo específico tomó determinada decisión. Actualmente, una parte significativa del mundo académico y de las startups está haciendo grandes esfuerzos para comprender cómo las máquinas toman decisiones, cómo los modelos aprenden de los datos y cuáles son los parámetros de los datos que influyen en los modelos.</p>
 
-<object width="425" height="350">
-  <param name="movie" value="https://youtu.be/5yQGjwDmsT4" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://youtu.be/5yQGjwDmsT4"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5yQGjwDmsT4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
  
 **Scott Phoenix, el CEO de Vicarious**, hace una presentación sobre los robots con un nivel de inteligencia similar a la humana durante el Samsung CEO Summit, celebrado el pasado mes de octubre en San Francisco. (Fuente: www.vicarious.com) https://youtu.be/5yQGjwDmsT4 
  
