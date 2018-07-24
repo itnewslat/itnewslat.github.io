@@ -22,8 +22,14 @@ tags:
 <p style="text-align: justify;">En los próximos dos años, surgirán nuevos enfoques en dos frentes. En primer lugar, se necesitarán menos datos para operar un algoritmo. Esto significa que un sistema de reconocimiento de imagen que necesita 100 000 imágenes para aprender a operar, en el futuro solo necesitará una fracción de este número. Esto hará que resulte más sencillo implementar rápidamente poderosos sistemas de aprendizaje automático.</p>
  
 <p style="text-align: justify;">En segundo lugar, la tecnología se volverá más transparente. Gracias a los avances tecnológicos, los investigadores podrán abrir la “caja negra” de la IA y explicar más claramente por qué un modelo específico tomó determinada decisión. Actualmente, una parte significativa del mundo académico y de las startups está haciendo grandes esfuerzos para comprender cómo las máquinas toman decisiones, cómo los modelos aprenden de los datos y cuáles son los parámetros de los datos que influyen en los modelos.</p>
- 
- [youtube]https://youtu.be/5yQGjwDmsT4 [/youtube]
+
+<object width="425" height="350">
+  <param name="movie" value="https://youtu.be/5yQGjwDmsT4" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://youtu.be/5yQGjwDmsT4"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
  
 **Scott Phoenix, el CEO de Vicarious**, hace una presentación sobre los robots con un nivel de inteligencia similar a la humana durante el Samsung CEO Summit, celebrado el pasado mes de octubre en San Francisco. (Fuente: www.vicarious.com) https://youtu.be/5yQGjwDmsT4 
  
@@ -35,7 +41,7 @@ tags:
  
 <p style="text-align: justify;">En 2018, más desarrolladores adoptarán la RA, empezando a crear aplicaciones interesantes que irán más allá del mundo de los juegos. Un ejemplo de ello es una compañía de muebles que planea poner todo su catálogo disponible en RA. Samsung NEXT ha invertido en compañías como 8i, que ofrece una plataforma que admite la captura de video en 3D “real” (totalmente volumétrico) de personas, permitiendo que los espectadores caminen como humanos “reales” en ambientes de RV y RA.</p>
  
- 
+    [youtube]https://youtu.be/GdFw_4pWWoc [/youtube]
  
 <p style="text-align: justify;">La aplicación de realidad aumentada Holo de 8i permite la reconstrucción digital de personas y personajes, haciendo que sean visibles en el mundo real por medio de una cámara de smartphone. (Fuente: www.8i.com) https://youtu.be/GdFw_4pWWoc  </p>
  
