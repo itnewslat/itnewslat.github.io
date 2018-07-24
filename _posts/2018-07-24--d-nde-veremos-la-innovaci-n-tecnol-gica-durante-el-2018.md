@@ -5,11 +5,18 @@ date: '2018-07-24 11:03 -0400'
 published: true
 superNews: false
 title: ¿Dónde veremos la innovación tecnológica durante el 2018?
-image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/iotp.jpg'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Futuro-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/iotg.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Futuro-g.jpg
 categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
   - Ecuador
+  - Chile
+  - Panama
 tags:
   - Transformación Digital
 ---
@@ -25,7 +32,7 @@ tags:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5yQGjwDmsT4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
  
-**Scott Phoenix, el CEO de Vicarious**, hace una presentación sobre los robots con un nivel de inteligencia similar a la humana durante el Samsung CEO Summit, celebrado el pasado mes de octubre en San Francisco. (Fuente: www.vicarious.com) https://youtu.be/5yQGjwDmsT4 
+**Scott Phoenix, el CEO de Vicarious**, hace una presentación sobre los robots con un nivel de inteligencia similar a la humana durante el Samsung CEO Summit, celebrado el pasado mes de octubre en San Francisco. (Fuente: [www.vicarious.com](http://www.vicarious.com)) [https://youtu.be/5yQGjwDmsT4](https://youtu.be/5yQGjwDmsT4)
  
 <p style="text-align: justify;">Samsung planea desarrollar una plataforma de IA basada en una arquitectura común que proporcionará la comprensión más profunda de los contextos y comportamientos de uso. Esta es una de las estrategias principales para crear un ecosistema de IA centrado en el usuario. Samsung NEXT también ha invertido en varias compañías que innovan en este campo, incluyendo Vicarious —la cual desarrolla inteligencia general artificial (AGI, por sus siglas en inglés) basada en neurociencia para robots con el fin de hacer posible una implementación más simple con una capacitación más rápida— y Bonsai, la cual desarrolla una plataforma de IA que permite a las empresas crear, implementar y administrar modelos de inteligencia artificial, así como FloydHub, una startup que desarrolló un servicio de nube para aprendizaje automático.</p>
  
@@ -35,9 +42,9 @@ tags:
  
 <p style="text-align: justify;">En 2018, más desarrolladores adoptarán la RA, empezando a crear aplicaciones interesantes que irán más allá del mundo de los juegos. Un ejemplo de ello es una compañía de muebles que planea poner todo su catálogo disponible en RA. Samsung NEXT ha invertido en compañías como 8i, que ofrece una plataforma que admite la captura de video en 3D “real” (totalmente volumétrico) de personas, permitiendo que los espectadores caminen como humanos “reales” en ambientes de RV y RA.</p>
  
-    [youtube]https://youtu.be/GdFw_4pWWoc [/youtube]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GdFw_4pWWoc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
  
-<p style="text-align: justify;">La aplicación de realidad aumentada Holo de 8i permite la reconstrucción digital de personas y personajes, haciendo que sean visibles en el mundo real por medio de una cámara de smartphone. (Fuente: www.8i.com) https://youtu.be/GdFw_4pWWoc  </p>
+<p style="text-align: justify;">La aplicación de realidad aumentada Holo de 8i permite la reconstrucción digital de personas y personajes, haciendo que sean visibles en el mundo real por medio de una cámara de smartphone. (Fuente: [www.8i.com](http://www.8i.com)) [https://youtu.be/GdFw_4pWWoc](https://youtu.be/GdFw_4pWWoc)  </p>
  
 <p style="text-align: justify;">Los Head Mounted Displays (HMDs) —dispositivos de visualización que se colocan en la cabeza del usuario— presentarán mejoras tecnológicas esenciales en la calidad de sus pantallas, sensores y materiales. En 2018, habrá mucho entusiasmo en el sector, en forma de actividades de inversión y de fusiones y adquisiciones. “En materia de RV, contaremos con más dispositivos independientes, que abarcarán desde HMDs existentes conectados a teléfonos móviles hasta hardware de gama alta conectado a potentes PC. Esto permitirá que más personas experimenten la tecnología de nuevas maneras”, señala Ajay Singh, de Samsung NEXT Ventures.</p>
  
@@ -47,7 +54,7 @@ tags:
  
 <p style="text-align: justify;">Hasta la fecha, las criptomonedas constituyen la aplicación más importante de la cadena de bloques. Sin embargo, veremos a los emprendedores de la tecnología blockchain y a los idealistas de la descentralización, con nuevos recursos financieros de las ventas de tokens, esforzándose por empoderar a los consumidores contra el paradigma parcial de la monetización de los datos, o por eliminar los silos de datos empresariales en sectores como el de la cadena de distribución y el cuidado de la salud, por ejemplo.</p>
  
- 
+ ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/blockchainsamsung.jpg)
  
 <p style="text-align: justify;">El enfoque de Samsung hacia la seguridad será una ventaja para la compañía en lo que respecta a la tecnología de cadena de bloques. En este ámbito, lo más notable es el hecho de que la seguridad de toda la tecnología es determinada por las claves del usuario. La tecnología de Samsung permite que los clientes empresariales cuenten con cierto nivel de seguridad con relación a cómo sus empleados interactúan con las aplicaciones basadas en cadena de bloques. Además, Samsung NEXT incluye en su portafolio compañías como HYPR, la cual proporciona a las empresas una mejor experiencia de usuario y de seguridad mediante cadena de bloques, y Filament, que protege los dispositivos de Internet de las Cosas (IoT, por sus siglas en inglés) con su protocolo blockchain.</p>
  
@@ -56,7 +63,8 @@ tags:
 <p style="text-align: justify;">El sector del cuidado de la salud es propicio para el desorden. Empezaremos a ver el poder de la IoT en el cuidado de la salud con el surgimiento de maneras económicas y continuas de capturar y compartir datos, así como de extraer conclusiones que informen y empoderen a los pacientes. Además, la implementación de dispositivos portátiles creará una transmisión masiva de datos sanitarios en tiempo real más allá del consultorio médico, lo que mejorará significativamente el diagnóstico, la observación y el tratamiento. En resumen, la visita al médico empezará a verse de otra manera… pero por buenos motivos.</p>
 
 <p style="text-align: justify;">Samsung está empleando la IoT y la IA para mejorar la eficiencia en el cuidado de la salud. En este mercado, Samsung NEXT ha invertido en startups como Glooko, que ayuda a pacientes con diabetes a cargar en la nube los datos del nivel de glucosa, para así facilitar el acceso a estos datos y su análisis. Otra inversión importante de Samsung NEXT en este mercado es HealthifyMe, una compañía de la India cuya aplicación móvil pone en contacto a instructores humanos con recursos de IA, con personas que buscan consejos sobre dietas y ejercicios.</p>
- 
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Datos%20Samsung.jpg)
  
 <p style="text-align: justify;">HealthifyMe permite que pacientes se comuniquen con profesionales del cuidado de la salud capacitados con IA. (Fuente: www.healthifyme.com)
 Samsung se encuentra en una posición única entre las compañías de tecnología, debido a que ya cuenta con un negocio significativo en el mercado del cuidado de la salud. La compañía ofrece soluciones en dispositivos portátiles, pantallas y tablets para hospitales, y máquinas de resonancia magnética y rayos X. Fusionar todas estas soluciones y cooperar con otros socios, permitirá que los pacientes administren y controlen su salud desde sus dispositivos personales.</p>
@@ -68,5 +76,7 @@ Samsung se encuentra en una posición única entre las compañías de tecnologí
 <p style="text-align: justify;">Samsung NEXT ya cuenta con varias inversiones en IoT, incluyendo Stae para la planificación urbana basada en datos, además de Swiftly, que proporciona software empresarial para ayudar a las agencias de transporte y a las ciudades a mejorar la movilidad urbana.</p>
  
 <p style="text-align: justify;">La compañía tiene una plataforma propia de IoT: SmartThings, una adquisición que se realizó por mediación del equipo de Samsung NEXT. La plataforma se conecta tanto con ARTIK para empresas, como con la plataforma automotriz conectada HARMAN de Ignite, creando un ecosistema integral de IoT. Tomando como base su progreso en materia de IoT, Samsung presentó su visión para la “Ciudad Samsung 2020”  en el CES de este año, que se encuentra en proceso de realización. </p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Stand%20Samsung.gif)
 
 El stand de Samsung Electronics en CES 2018 presentó el concepto de la “Ciudad Samsung 2020”
