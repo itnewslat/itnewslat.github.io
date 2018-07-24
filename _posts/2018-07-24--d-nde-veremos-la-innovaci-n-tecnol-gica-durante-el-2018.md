@@ -44,7 +44,7 @@ tags:
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GdFw_4pWWoc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
  
-<p style="text-align: justify;">La aplicación de realidad aumentada Holo de 8i permite la reconstrucción digital de personas y personajes, haciendo que sean visibles en el mundo real por medio de una cámara de smartphone. (Fuente: [www.8i.com](http://www.8i.com)) [https://youtu.be/GdFw_4pWWoc](https://youtu.be/GdFw_4pWWoc)  </p>
+<p style="text-align: justify;">La aplicación de realidad aumentada Holo de 8i permite la reconstrucción digital de personas y personajes, haciendo que sean visibles en el mundo real por medio de una cámara de smartphone.</p> (Fuente: [www.8i.com](http://www.8i.com)) [https://youtu.be/GdFw_4pWWoc](https://youtu.be/GdFw_4pWWoc)  
  
 <p style="text-align: justify;">Los Head Mounted Displays (HMDs) —dispositivos de visualización que se colocan en la cabeza del usuario— presentarán mejoras tecnológicas esenciales en la calidad de sus pantallas, sensores y materiales. En 2018, habrá mucho entusiasmo en el sector, en forma de actividades de inversión y de fusiones y adquisiciones. “En materia de RV, contaremos con más dispositivos independientes, que abarcarán desde HMDs existentes conectados a teléfonos móviles hasta hardware de gama alta conectado a potentes PC. Esto permitirá que más personas experimenten la tecnología de nuevas maneras”, señala Ajay Singh, de Samsung NEXT Ventures.</p>
  
