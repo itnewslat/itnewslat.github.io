@@ -25,6 +25,7 @@ tags:
 **Según la encuesta, la tasa de conversión en aplicaciones es cinco veces mayor que en la web móvil y dos veces más alta que la registrada en computadoras. Las compras vía móvil lideran las reservas de última hora**
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Alessander-Firmino.jpg)
+
 **Alessander Firmino, director general de Criteo para América Latina.**
 
 <p style="text-align: justify;">Criteo SA (NASDAQ: CRTO), la plataforma publicitaria de referencia para un Internet abierto, ha dado a conocer los resultados del estudio "Summer Travel Report 2018", el cual revela la tendencia de crecimiento del móvil y la influencia de las aplicaciones en el sector del turismo, al analizar más de tres mil millones de reservas online en 59 países en el último año.</p>
