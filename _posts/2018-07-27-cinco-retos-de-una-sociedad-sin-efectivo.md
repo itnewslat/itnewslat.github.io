@@ -2,13 +2,27 @@
 layout: posts
 color-schema: red-dark
 date: '2018-07-27 12:39 -0400'
-published: false
+published: true
 superNews: false
 title: Cinco retos de una Sociedad sin Efectivo
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Banking-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Banking-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
 ---
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/COLIN-GORDON.jpg)
 
-Colin Gordon, Marketing Manager de NCR
+**Colin Gordon, Marketing Manager de NCR**
 
 De acuerdo con Colin Gordon, Marketing Manager de NCR, hay una serie de grandes desafíos asociados a una Sociedad sin Efectivo, que hasta tanto no se afronten y se resuelvan, ésta no podrá ser posible en un 100%.  
 
@@ -40,5 +54,4 @@ Muchas de las preocupaciones que rondan la mente de los consumidores acerca de v
 
 En conclusión: el dinero en efectivo sigue y muy probablemente seguirá trasmitiéndole a los consumidores seguridad, confianza y control sobre este mismo, además de darle a las finanzas un sentido tangible de valor, que es particularmente útil a la hora de elaborar un presupuesto. Y aunque tanto las tarjetas bancarias como los pagos móviles brindan mucha más flexibilidad y comodidad a los usuarios, una Sociedad sin Efectivo sigue siendo muy poco probable en el mediano plazo.
 
-“El escenario ideal sería un mundo con un claro enfoque o tendencia hacia la omnicanalidad, que permita a los consumidores elegir de forma fácil, ágil y cómoda entre transacciones digitales o con dinero en efectivo, porque si bien los pagos no monetarios pueden convertirse en la norma para muchas transacciones en los próximos años, siempre debe haber un lugar para los billetes y monedas”, aseguró Gordon. 
-
+“El escenario ideal sería un mundo con un claro enfoque o tendencia hacia la omnicanalidad, que permita a los consumidores elegir de forma fácil, ágil y cómoda entre transacciones digitales o con dinero en efectivo, porque si bien los pagos no monetarios pueden convertirse en la norma para muchas transacciones en los próximos años, siempre debe haber un lugar para los billetes y monedas”, aseguró Gordon.
