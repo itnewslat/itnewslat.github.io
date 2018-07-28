@@ -122,6 +122,11 @@ prose:
           label: Banner Principal
           help: Puede elegir si la publicación debe aparecer en el banner prinicipal.
           value: false
+      - name: superArticle
+        field:
+          element: checkbox
+          label: Super Noticia
+          value: false
       - name: image-banner
         field:
           element: text

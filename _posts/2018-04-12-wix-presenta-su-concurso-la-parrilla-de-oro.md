@@ -4,6 +4,7 @@ color-schema: red-dark
 date: '2018-04-12 20:43 -0400'
 published: true
 superNews: false
+superArticle: true
 title: Wix presenta su concurso la Parrilla de Oro
 categories:
   - Argentina
@@ -19,7 +20,7 @@ Esta iniciativa desarrollada exclusivamente para Argentina llevará a las person
 Wix.com Ltd. (Nasdaq: WIX) te invita a formar parte de su más reciente concurso “La Parrilla de Oro”, donde participarán jugadores del equipo de fútbol River Plate y donde mezclan las dos aficiones más grandes de la Argentina: Fútbol y parrilla.
 
 El concurso, que oficialmente se inaugura hoy, consiste en que las personas interesadas deberán entrar al sitio web que encontrarán acá y votar por su parrilla favorita. El ganador de este concurso obtendrá como premio único la gran oportunidad de tener un encuentro personal, para él y dos acompañantes, con tres jugadores del River Plate, una experiencia VIP en un partido en el Monumental, y una comida en la parrilla ganadora. No tienes que ser usuario de Wix para participar de este concurso, sólo ser amante de la parrilla y del fútbol y estar radicado en Argentina.
-Por su parte, la parrilla ganadora recibirá el trofeo de La Parrilla de Oro y será parte de la experiencia con River Plate. 
+Por su parte, la parrilla ganadora recibirá el trofeo de La Parrilla de Oro y será parte de la experiencia con River Plate.
 
 **Cómo participar:**
 

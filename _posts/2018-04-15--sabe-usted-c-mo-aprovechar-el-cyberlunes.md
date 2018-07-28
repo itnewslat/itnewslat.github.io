@@ -4,6 +4,7 @@ color-schema: red-dark
 date: '2018-04-15 08:16 -0400'
 published: true
 superNews: false
+superArticle: true
 title: ¿Sabe usted cómo aprovechar el CyberLunes?
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cyberlunesg.jpg

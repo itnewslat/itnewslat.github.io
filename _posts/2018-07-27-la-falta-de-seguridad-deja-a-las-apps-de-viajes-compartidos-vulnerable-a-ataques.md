@@ -47,4 +47,3 @@ La lista de vulnerabilidades de seguridad descubiertas incluye:
 - Instale una solución de seguridad probada para proteger su dispositivo contra ataques cibernéticos
 .
 Para más información sobre la amenaza que representa el uso compartido de automóviles, lea: https://securelist.com/a-study-of-car-sharing-apps/86948/   
-
