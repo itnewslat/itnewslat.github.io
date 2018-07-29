@@ -2,10 +2,23 @@
 layout: posts
 color-schema: red-dark
 date: '2018-07-29 10:55 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 title: Epson y Avery Dennison abren el concurso “Imprime en grande” en Latinoamérica
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Imprime-en-grande-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Imprime-en-grande-g.jpg
+categories:
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Canales
 ---
 Las compañías trabajarán en conjunto con ONGs, para buscar a artistas gráficos o agencias de diseño en América Latina que creen campañas de concientización que se imprimirán en impresoras Epson de gran formato y en suministros de Avery Dennison.
 
@@ -19,7 +32,7 @@ Para participar en el concurso los interesados deberán ingresar a http://latin.
 Desde septiembre 2018 y hasta abril del 2019, los lugares que se intervendrán artísticamente serán el Museo de Arquitectura y Diseño de Buenos Aires, Argentina, la Estación Pinheiros y acceso a la Estación Paulista, Brasil, el Museo Gabriela Mistral, Chile, la Hacienda Santa Bárbara, Colombia, la Antigua Aduana, Costa Rica, el Boulevard de las Naciones Unidas, Ecuador, el Centro comercial Parque Las Américas, Guatemala, el Muro Polanco, México, la Av. Javier Prado, Perú, y la Acrópolis Center, República Dominicana.
 
 El proyecto “Imprime en grande” de Epson busca mostrar cómo la tecnología puede ser útil para la difusión de temáticas de relevancia para la sociedad y apoyar a ONGs y artistas que buscan crear un mundo mejor. 
-#EpsonGranFormato
+> #EpsonGranFormato
 
 Para más información y participación en el concurso ingresar en:
                                           
@@ -30,8 +43,6 @@ Para más información y participación en el concurso ingresar en:
 - [Costa Rica](https://epson.co.cr/imprime-en-grande) 			 
 - [Ecuador](https://epson.com.ec/imprime-en-grande) 			 
 - [Guatemala](https://epson.co.cr/imprime-en-grande) 			 
-- México 			 
-- Perú 				https://epson.com.pe/imprime-en-grande 
-- República Dominicana 	https://epson.com.do/imprime-en-grande
-
-
+- [México](https://epson.com.mx/imprime-en-grande) 			 
+- [Perú](https://epson.com.pe/imprime-en-grande)				 
+- [República Dominicana](https://epson.com.do/imprime-en-grande) 	
