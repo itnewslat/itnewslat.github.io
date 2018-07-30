@@ -33,6 +33,6 @@ detail-image: >-
 
 Igualmente los invitamos a registrarse [**AQUÍ**](https://www.samsung.com/latin/unpacked/)
 
-[ITNEWS.LAT](**http://ITNEWS.LAT**) transmitirá en vivo este evento y desde aquí podrá observar todas las incidencias del evento, en primera fina
+[ITNEWS.LAT](**http://ITNEWS.LAT**) transmitirá en vivo este evento y desde aquí podrás observar todas las incidencias en primera fila
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y-37lkw_uaQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
