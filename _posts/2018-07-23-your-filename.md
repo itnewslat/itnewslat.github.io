@@ -15,6 +15,7 @@ categories:
   - Colombia
 tags:
   - Transformación Digital
+superArticle: false
 ---
 •	Será el primer Data Center certificado Tier IV ubicado fuera de Bogotá. 
 •	Su desarrollo se inicia a principios de Q4 de 2018.
