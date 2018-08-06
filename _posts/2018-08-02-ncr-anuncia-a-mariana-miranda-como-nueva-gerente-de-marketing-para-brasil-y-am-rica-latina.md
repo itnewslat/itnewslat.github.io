@@ -9,7 +9,7 @@ title: >-
   NCR anuncia a Mariana Miranda como nueva Gerente de Marketing para Brasil y
   América Latina
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/NCR-Sede-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/NCR-Sede-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/NCR-Sede-g.jpg
 categories:
@@ -31,4 +31,4 @@ Luego de desempeñarse durante tres años como Gerente de Operaciones de Ventas 
 
 Antes de llegar a NCR, la ejecutiva se desempeñó como Gerente de Operaciones de Ventas en reconocidas empresas como Samsung y Lenovo. Miranda es graduada en Administración de Empresas y tiene un posgrado en Gerencia de Gestión de Negocios con énfasis en Marketing. 
 
-Actualmente está cursando un MBA de Gestión Comercial en la Fundación Getulio Vargas (FGV) de Brasil. 
+Actualmente está cursando un MBA de Gestión Comercial en la Fundación Getulio Vargas (FGV) de Brasil.
