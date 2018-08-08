@@ -27,8 +27,7 @@ tags:
 
 <p style="text-align: left;"><img class="alignleft" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Brooklyn_Bridge_%26_Downtown_Manhattan_%2811654537846%29.jpg/800px-Brooklyn_Bridge_%26_Downtown_Manhattan_%2811654537846%29.jpg" alt="" width="229" height="172" /> <p style="text-align: justify;"><Strong>ITNEWS</Strong> ha sido seleccionado como uno de los medios digitales para la transmisión del evento en estricto directo desde la ciudad de New York, acompañando así a otros medios a nivel mundial, que darán cobertura.</p>
 
-<p style="text-align: justify;">A pocos días del lanzamiento del nuevo buque insignia del fabricante coreanos de equipos electrónico, poco se sabe de las características y diseño del emblematico equipo, solo que se realizará como siempre con tu tradicional titulo <Strong>Unpacked </Strong>, en Brooklyn, Nueva York.</p>
-
+<p style="text-align: justify;">A pocos días del lanzamiento del nuevo buque insignia del fabricante coreano de equipos electrónicos, poco se sabe de las características y diseño del emblemático equipo, solo que se realizará como siempre con su tradicional titulo <Strong>Unpacked </Strong>, en Brooklyn, Nueva York.</p>
 
 <p style="text-align: justify;">Varios portales especializados han adelantados atributos y opciones que tendrá el nuevo Note, pero hasta ahora siguen el plano de las especulaciones. Entre las opciones se mencionan, que tendría con una pantalla de 6.4 pulgadas, el procesador sería Snapdragon 845 de Qualcomm o Exynos 9810, dependiendo de la región, 6GB en RAM y 128GB de almacenamiento interno (aunque también se habla de una versión de 8GB en RAM y hasta 512GB de almacenamiento).</p> 
 
