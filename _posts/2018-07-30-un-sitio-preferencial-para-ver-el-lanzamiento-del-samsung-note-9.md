@@ -33,6 +33,8 @@ tags:
 
 <p style="text-align: justify;">Por otra parte, otras características incluirían una batería de 4000mAh, puerto USB Tipo C, conector para audífonos de 3.5 milímetros y resistencia al agua y polvo. Además, contaría con Bixby 2.0, el asistente inteligente de Samsung. Las medidas del Samsung Galaxy Note 9 serían 161.9 x 76.3 x 8.8 milímetros y estaría disponible en varios colores: azul, cobre, plata, violeta y negro. Finalmente, S Pen, el clásico stylus que acompaña a los Galaxy Note, sería un accesorio que también sufriría cambios importantes, pues realizaría diferentes acciones como controlar la música o tomar selfies.</p>
 
+[Esta es la página oficial del evento](http://www.samsungmobilepress.com/)
+
 Igualmente los invitamos a registrarse [**AQUÍ**](https://www.samsung.com/latin/unpacked/)
 
 [ITNEWS.LAT](http://ITNEWS.LAT) transmitirá en vivo este evento y desde aquí podrás observar todas las incidencias en primera fila
