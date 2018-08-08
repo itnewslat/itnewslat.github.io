@@ -36,12 +36,12 @@ tags:
 
 <p style="text-align: justify;"><Strong>ITNEWS</Strong> pudo conocer de manera extraoficial que entre las opciones que serán punta en el nuevo equipo, estan mejoras en la bateria del equipo, mayor velocidad y ampliación de la memoria.</p>
 
-<strong><a href="http://www.samsungmobilepress.com/">Esta es la página oficial del evento</a></strong>
+<p style="text-align: justify;"><strong><a href="http://www.samsungmobilepress.com/">Esta es la página oficial del evento</a></strong></p>
 
-<strong>Igualmente los invitamos a registrarse <a href="https://www.samsung.com/latin/unpacked/">AQUÍ</a></strong>
+<p style="text-align: justify;"><strong>Igualmente los invitamos a registrarse <a href="https://www.samsung.com/latin/unpacked/">AQUÍ</a></strong></p>
 
-<strong><a href="http://ITNEWS.LAT">ITNEWS.LAT</a> </strong>transmitirá en vivo este evento y desde aquí podrás observar todas las incidencias en primera fila
-<p style="text-align: justify;"></p>
+<p style="text-align: justify;"><strong><a href="http://ITNEWS.LAT">ITNEWS.LAT</a> </strong>transmitirá en vivo este evento y desde aquí podrás observar todas las incidencias en primera fila
+</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y-37lkw_uaQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
