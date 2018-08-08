@@ -45,6 +45,8 @@ tags:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y-37lkw_uaQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+<p style="text-align: justify;"><strong> </strong></p>
+
 <p style="text-align: justify;"><strong>COMENTARIOS DURANTE EL EVENTO</strong></p>
 
 <p style="text-align: justify;"><strong>1.- </strong></p>
