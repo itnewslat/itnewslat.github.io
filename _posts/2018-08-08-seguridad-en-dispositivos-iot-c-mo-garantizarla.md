@@ -19,7 +19,7 @@ categories:
   - Chile
   - Panama
 tags:
-  - Transformación Digital
+  - Seguridad
 ---
 **ESET revela que el 70% de los usuarios considera que este tipo de dispositivos no son seguros. A pesar de ello, el 62% no dejaría de comprarlos.**
 
