@@ -1,7 +1,7 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2018-07-30 18:05 -0400'
+date: '2018-08-30 08:00 -0400'
 published: true
 superNews: false
 superArticle: true
