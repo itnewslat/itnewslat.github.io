@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-08-30 08:00 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 title: Un sitio preferencial para ver el lanzamiento del Samsung Note 9
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Samsung-note-9.jpg
