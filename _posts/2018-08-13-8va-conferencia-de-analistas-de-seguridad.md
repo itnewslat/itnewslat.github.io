@@ -63,8 +63,10 @@ Actualmente, y con el auge de las criptomonedas, cada usuario puede convertirse 
 En esta presentación hablaremos de las últimas tendencias en lo que refiere al cibercrimen relacionado al mundo de las criptomonedas, grandes atracos, secuestros extorsivos digitales, criptojacking, y todas aquellas actividades delictivas que muestran la contracara a las bondades de las criptomonedas. 
  
 **LA PROTECCIÓN Y PRIVACIDAD DE DATOS EN LA ERA DE TRANSFORMACIÓN DIGITAL**  
+
+<p style="text-align: justify;"><img class="alignleft" src="https://pbs.twimg.com/media/DkfybQMUYAEdHkJ.jpg" alt="" width="235" height="179" />
  
-Roberto Martínez, analista de seguridad senior Miriam Padilla, subdirectora de Seguridad de Datos Personales del Sector Privado en el INAI 
+**Roberto Martínez, analista de seguridad senior Miriam Padilla, subdirectora de Seguridad de Datos Personales del Sector Privado en el INAI**
  
 Nuestra información se ha convertido en el pan de cada día para las empresas. En realidad, servicios o accesos que se nos otorgan de forma “gratuita” los pagamos con nuestra información, ya sea de contacto o de nuestros hábitos en y fuera de línea. Es más, por medio de nuestra huella digital, somos rastreados a cada momento y la información es, más a menudo que no, utilizada en contra nuestra.  
  
