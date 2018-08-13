@@ -25,7 +25,7 @@ tags:
 ---
 Nuestra Octava Conferencia de Analistas de Seguridad se llevará a cabo del 12 al 15 de agosto en la Ciudad de Panamá.
 
-La Octava Conferencia de Ciber Seguridad para América Latina de Kaspersky Lab reunirá a expertos clave de la empresa que darán a conocer el panorama de amenazas actual para la región y ofrecerán charlas sobre las amenazas que asechan a los usuarios finales y a las empresas. Además, nuestros expertos hablarán sobre las vulnerabilidades en infraestructuras críticas y cómo nuevas tecnologías del Internet de las Cosas pueden complicar nuestras vidas en vez de mejorarlas.
+<p style="text-align: justify;">La Octava Conferencia de Ciber Seguridad para América Latina de Kaspersky Lab reunirá a expertos clave de la empresa que darán a conocer el panorama de amenazas actual para la región y ofrecerán charlas sobre las amenazas que asechan a los usuarios finales y a las empresas. Además, nuestros expertos hablarán sobre las vulnerabilidades en infraestructuras críticas y cómo nuevas tecnologías del Internet de las Cosas pueden complicar nuestras vidas en vez de mejorarlas.</p>
 
 <img class="alignleft" src="https://pbs.twimg.com/media/DkfLpRkUUAEOVwN.jpg" alt="" width="221" height="164" />
 
@@ -38,7 +38,7 @@ La apertura estuvo a cargo de **Claudio Martinelli, Dtor.General de América Lat
  
 **Dmitry Bestuzhev, director del Equipo Global de Investigación y Análisis, América Latina**
  
-¿Cómo ha sido el 2018 desde el punto de vista de amenazas cibernéticas? La gente dice que cada año la situación es peor, pero ¿será esto cierto? O bien, si las cosas están mejor, ¿cuál es la situación en América Latina? Compartiremos con ustedes datos precisos y confiables que les permitirán conocer la situación actual en la región. 
+<p style="text-align: justify;">¿Cómo ha sido el 2018 desde el punto de vista de amenazas cibernéticas? La gente dice que cada año la situación es peor, pero ¿será esto cierto? O bien, si las cosas están mejor, ¿cuál es la situación en América Latina? Compartiremos con ustedes datos precisos y confiables que les permitirán conocer la situación actual en la región. </p>
  
 **DISPARA PRIMERO, PREGUNTA DESPUÉS: ESTRATEGIAS PARA DEFENDER A LA REGIÓN MÁS ATACADA POR PHISHING EN EL MUNDO** 
  
@@ -46,9 +46,9 @@ La apertura estuvo a cargo de **Claudio Martinelli, Dtor.General de América Lat
 
 **Fabio Assolini, analista de seguridad senior**  
  
-En la película neo-noir de ciencia ficción El Informe de la minoría, Tom Cruise es el jefe de la fuerza de policía Pre-Crimen, un departamento especializado capaz de aprehender a los delincuentes basándose en su conocimiento previo; su misión es detener a los asesinos antes de que actúen, en una forma de "disparar primero, preguntar después" para detener el crimen. Los asesinatos se predicen utilizando a tres mutantes, llamados "Precognitivos" que "predicen" crímenes al recibir visiones del futuro. Si bien, aún no vivimos en 2054, los defensores del mundo virtual actual enfrentan el dilema y los desafíos de estar siempre un paso adelante de los ciberdelincuentes, tratando de predecir su próximo ataque: un tipo de informe de la minoría diario. Pero, para lograrlo exitosamente se requiere de Precognitivos con nuevos enfoques e ideas para ayudar a los defensores a hacer su trabajo. 
+<p style="text-align: justify;">En la película neo-noir de ciencia ficción El Informe de la minoría, Tom Cruise es el jefe de la fuerza de policía Pre-Crimen, un departamento especializado capaz de aprehender a los delincuentes basándose en su conocimiento previo; su misión es detener a los asesinos antes de que actúen, en una forma de "disparar primero, preguntar después" para detener el crimen. Los asesinatos se predicen utilizando a tres mutantes, llamados "Precognitivos" que "predicen" crímenes al recibir visiones del futuro. Si bien, aún no vivimos en 2054, los defensores del mundo virtual actual enfrentan el dilema y los desafíos de estar siempre un paso adelante de los ciberdelincuentes, tratando de predecir su próximo ataque: un tipo de informe de la minoría diario. Pero, para lograrlo exitosamente se requiere de Precognitivos con nuevos enfoques e ideas para ayudar a los defensores a hacer su trabajo. </p>
  
-En esta presentación compartiremos un proyecto interno, creado hace cuatro años para proteger de forma proactiva a una de las regiones más atacadas por phishing en el mundo: América Latina. Es aquí donde los atacantes continúan utilizando esta vieja pero efectiva amenaza contra ciudadanos, compañías y gobiernos, incluso en tiempos del Big Data y protección en la nube. La región lidera todos los rankings relacionados con este tipo de ataque, el cual apunta no solo a las instituciones financieras, sino también a sus clientes y a cada negocio en todos los países latinoamericanos. 
+<p style="text-align: justify;">En esta presentación compartiremos un proyecto interno, creado hace cuatro años para proteger de forma proactiva a una de las regiones más atacadas por phishing en el mundo: América Latina. Es aquí donde los atacantes continúan utilizando esta vieja pero efectiva amenaza contra ciudadanos, compañías y gobiernos, incluso en tiempos del Big Data y protección en la nube. La región lidera todos los rankings relacionados con este tipo de ataque, el cual apunta no solo a las instituciones financieras, sino también a sus clientes y a cada negocio en todos los países latinoamericanos. </p>
  
 **LA CASA DE PAPEL DIGITAL, CRIPTOMONEDAS Y CIBERCRIMEN**
  
