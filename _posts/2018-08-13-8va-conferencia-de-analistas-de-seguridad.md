@@ -66,7 +66,7 @@ La apertura estuvo a cargo de **Claudio Martinelli, Dtor.General de América Lat
 
 <p style="text-align: justify;"><img class="alignleft" src="https://pbs.twimg.com/media/DkfybQMUYAEdHkJ.jpg" alt="" width="235" height="179" /></p>
  
-**Roberto Martínez, analista de seguridad senior Miriam Padilla, subdirectora de Seguridad de Datos Personales del Sector Privado en el INAI**
+**Roberto Martínez, analista de seguridad senior y Miriam Padilla, subdirectora de Seguridad de Datos Personales del Sector Privado en el INAI**
  
 <p style="text-align: justify;">Nuestra información se ha convertido en el pan de cada día para las empresas. En realidad, servicios o accesos que se nos otorgan de forma “gratuita” los pagamos con nuestra información, ya sea de contacto o de nuestros hábitos en y fuera de línea. Es más, por medio de nuestra huella digital, somos rastreados a cada momento y la información es, más a menudo que no, utilizada en contra nuestra.  </p>
  
