@@ -32,7 +32,7 @@ Nuestra Octava Conferencia de Analistas de Seguridad se llevará a cabo del 12 a
 La apertura estuvo a cargo de **Claudio Martinelli, Dtor.General de América Latina de Kaspersky Lab Latinoamerica**
 
 
-**PANORAMA DE AMENAZAS EN AMÉRICA LATINA** 
+- **PANORAMA DE AMENAZAS EN AMÉRICA LATINA** 
 
 <img class="alignleft" src="https://pbs.twimg.com/media/DkfP17CU4AEpD3M.jpg" alt="" width="215" height="192" />
  
@@ -40,7 +40,7 @@ La apertura estuvo a cargo de **Claudio Martinelli, Dtor.General de América Lat
  
 <p style="text-align: justify;">¿Cómo ha sido el 2018 desde el punto de vista de amenazas cibernéticas? La gente dice que cada año la situación es peor, pero ¿será esto cierto? O bien, si las cosas están mejor, ¿cuál es la situación en América Latina? Compartiremos con ustedes datos precisos y confiables que les permitirán conocer la situación actual en la región. </p>
  
-**DISPARA PRIMERO, PREGUNTA DESPUÉS: ESTRATEGIAS PARA DEFENDER A LA REGIÓN MÁS ATACADA POR PHISHING EN EL MUNDO** 
+- **DISPARA PRIMERO, PREGUNTA DESPUÉS: ESTRATEGIAS PARA DEFENDER A LA REGIÓN MÁS ATACADA POR PHISHING EN EL MUNDO**
  
 <img class="alignleft" src="https://pbs.twimg.com/media/DkfbJmCVAAAu8uz.jpg" alt="" width="227" height="164" />
 
