@@ -42,7 +42,7 @@ La apertura estuvo a cargo de **Claudio Martinelli, Dtor.General de América Lat
  
 - **DISPARA PRIMERO, PREGUNTA DESPUÉS: ESTRATEGIAS PARA DEFENDER A LA REGIÓN MÁS ATACADA POR PHISHING EN EL MUNDO**
  
-<img class="alignleft" src="https://pbs.twimg.com/media/DkfbJmCVAAAu8uz.jpg" alt="" width="227" height="164" />
+<img class="alignleft" src="https://pbs.twimg.com/media/Dkfha5gU0Agm_z3.jpg" alt="" width="224" height="250" />
 
 **Fabio Assolini, analista de seguridad senior**  
  
