@@ -42,7 +42,9 @@ La apertura estuvo a cargo de **Claudio Martinelli, Dtor.General de América Lat
  
 **DISPARA PRIMERO, PREGUNTA DESPUÉS: ESTRATEGIAS PARA DEFENDER A LA REGIÓN MÁS ATACADA POR PHISHING EN EL MUNDO** 
  
-Fabio Assolini, analista de seguridad senior  
+<img class="alignleft" src="https://pbs.twimg.com/media/DkfbJmCVAAAu8uz.jpg" alt="" width="227" height="164" />
+
+**Fabio Assolini, analista de seguridad senior**  
  
 En la película neo-noir de ciencia ficción El Informe de la minoría, Tom Cruise es el jefe de la fuerza de policía Pre-Crimen, un departamento especializado capaz de aprehender a los delincuentes basándose en su conocimiento previo; su misión es detener a los asesinos antes de que actúen, en una forma de "disparar primero, preguntar después" para detener el crimen. Los asesinatos se predicen utilizando a tres mutantes, llamados "Precognitivos" que "predicen" crímenes al recibir visiones del futuro. Si bien, aún no vivimos en 2054, los defensores del mundo virtual actual enfrentan el dilema y los desafíos de estar siempre un paso adelante de los ciberdelincuentes, tratando de predecir su próximo ataque: un tipo de informe de la minoría diario. Pero, para lograrlo exitosamente se requiere de Precognitivos con nuevos enfoques e ideas para ayudar a los defensores a hacer su trabajo. 
  
