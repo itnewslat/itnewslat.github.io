@@ -27,9 +27,16 @@ Nuestra Octava Conferencia de Analistas de Seguridad se llevará a cabo del 12 a
 
 La Octava Conferencia de Ciber Seguridad para América Latina de Kaspersky Lab reunirá a expertos clave de la empresa que darán a conocer el panorama de amenazas actual para la región y ofrecerán charlas sobre las amenazas que asechan a los usuarios finales y a las empresas. Además, nuestros expertos hablarán sobre las vulnerabilidades en infraestructuras críticas y cómo nuevas tecnologías del Internet de las Cosas pueden complicar nuestras vidas en vez de mejorarlas.
 
+<img class="alignleft" src="https://pbs.twimg.com/media/DkfP17CU4AEpD3M.jpg" alt="" width="215" height="192" />
+
+La apertura estuvo a cargo de Claudio Martinelli, Dtor.General de América Latina de Kaspersky Lab Latinoamerica
+
+
 **PANORAMA DE AMENAZAS EN AMÉRICA LATINA** 
+
+<img class="alignleft" src="https://pbs.twimg.com/media/DkfP17CU4AEpD3M.jpg" alt="" width="215" height="192" />
  
-Dmitry Bestuzhev, director del Equipo Global de Investigación y Análisis, América Latina 
+**Dmitry Bestuzhev, director del Equipo Global de Investigación y Análisis, América Latina**
  
 ¿Cómo ha sido el 2018 desde el punto de vista de amenazas cibernéticas? La gente dice que cada año la situación es peor, pero ¿será esto cierto? O bien, si las cosas están mejor, ¿cuál es la situación en América Latina? Compartiremos con ustedes datos precisos y confiables que les permitirán conocer la situación actual en la región. 
  
@@ -78,4 +85,4 @@ Presentación especial
  
 Claudio Martinelli, director general para América Latina y el Caribe  
  
-Los problemas de la cadena de suministro y la "balcanización" son los principales desafíos de seguridad en el actual panorama global ultra-conectado. Para superarlos, el mundo requiere de ciberseguridad confiable y transparente. En Kaspersky Lab estamos convencidos de que las compañías necesitamos aumentar la transparencia en nuestros productos y operaciones comerciales para ganar y mantener la confianza. Nuestras nuevas medidas demuestran nuestro enfoque para lograrlo: a través de pasos tangibles y prácticos, implementados dentro del marco general de nuestra Iniciativa de Transparencia Global, una reafirmación del compromiso de la compañía con su principal público de interés: sus clientes. 
+Los problemas de la cadena de suministro y la "balcanización" son los principales desafíos de seguridad en el actual panorama global ultra-conectado. Para superarlos, el mundo requiere de ciberseguridad confiable y transparente. En Kaspersky Lab estamos convencidos de que las compañías necesitamos aumentar la transparencia en nuestros productos y operaciones comerciales para ganar y mantener la confianza. Nuestras nuevas medidas demuestran nuestro enfoque para lograrlo: a través de pasos tangibles y prácticos, implementados dentro del marco general de nuestra Iniciativa de Transparencia Global, una reafirmación del compromiso de la compañía con su principal público de interés: sus clientes.
