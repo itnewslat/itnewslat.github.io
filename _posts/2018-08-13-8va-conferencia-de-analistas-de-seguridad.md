@@ -5,7 +5,7 @@ date: '2018-08-13 08:58 -0500'
 published: true
 superNews: false
 superArticle: true
-title: 8va Conferencia de Analistas de Seguridad
+title: ''
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Kaspersky-Panama.jpg
 categories:
@@ -52,7 +52,9 @@ La apertura estuvo a cargo de **Claudio Martinelli, Dtor.General de América Lat
  
 **LA CASA DE PAPEL DIGITAL, CRIPTOMONEDAS Y CIBERCRIMEN**
  
-Santiago Pontiroli, Analista de seguridad  
+<strong><img class="alignleft" src="https://pbs.twimg.com/media/DkfmU8RU0AUyeTf.jpg" alt="" width="191" height="392" />
+  
+**Santiago Pontiroli, Analista de seguridad**
  
 Los grandes atracos divisados por mentes criminales han llegado a Hollywood para quedarse, reuniendo a audiencias mundiales al filo de sus asientos en búsqueda de respuestas, siguiendo el rastro del dinero. Sin embargo, en el mundo digital este tipo de estafas millonarias no son nuevas, todo sin violencia y en algunos casos, sin siquiera levantar sospecha alguna. 
  
