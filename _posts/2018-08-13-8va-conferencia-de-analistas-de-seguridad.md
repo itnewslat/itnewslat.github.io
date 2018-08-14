@@ -25,8 +25,6 @@ tags:
 ---
 **Nuestra Octava Conferencia de Analistas de Seguridad se llevará a cabo del 12 al 15 de agosto en la Ciudad de Panamá.**
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/KL-Panama.jpg)
-
 <p style="text-align: justify;">La Octava Conferencia de Ciber Seguridad para América Latina de Kaspersky Lab reunirá a expertos clave de la empresa que darán a conocer el panorama de amenazas actual para la región y ofrecerán charlas sobre las amenazas que asechan a los usuarios finales y a las empresas. Además, nuestros expertos hablarán sobre las vulnerabilidades en infraestructuras críticas y cómo nuevas tecnologías del Internet de las Cosas pueden complicar nuestras vidas en vez de mejorarlas.</p>
 
 <img class="alignleft" src="https://pbs.twimg.com/media/DkfLpRkUUAEOVwN.jpg" alt="" width="221" height="164" />
