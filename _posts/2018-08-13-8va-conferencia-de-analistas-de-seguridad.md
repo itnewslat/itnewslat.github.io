@@ -5,7 +5,7 @@ date: '2018-08-13 08:58 -0500'
 published: true
 superNews: false
 superArticle: true
-title: ''
+title: Untitled
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Kaspersky-Panama.jpg
 categories:
@@ -73,8 +73,10 @@ La apertura estuvo a cargo de **Claudio Martinelli, Dtor.General de América Lat
 <p style="text-align: justify;">En esta presentación profundizaremos el tema de nuestra huella digital, especialmente en la manera en que nuestros datos son recopilados y utilizados. Los expertos también compartirán las medidas que como usuarios podemos tomar para proteger nuestra privacidad.  Además, con motivo de la entrada en vigor de la Regulación General de Protección de Datos (GDPR) a finales de mayo de este año, también haremos hincapié en la responsabilidad que tienen las empresas para resguardar nuestra información, las medidas de seguridad que éstas han tomado y los derechos que tenemos los usuarios sobre la información que almacenan.  </p>
  
 **IoT: VIVIENDO CON EL ENEMIGO**
+
+<p style="text-align: justify;"><img class="alignleft" src="https://pbs.twimg.com/media/DkkUyzUV4AIVwcQ.jpg" alt="" width="187" height="259" /></p>
  
-Thiago Marques, Analista de seguridad   
+**Thiago Marques, Analista de seguridad**   
  
 <p style="text-align: justify;">Vivimos en un mundo cada vez más conectado, con un crecimiento acelerado sin igual en el número de dispositivos IoT que forman parte de nuestra vida cotidiana. Aunque suene irónico, muchos de esos dispositivos son desarrollados para ofrecer mayor seguridad física en su hogar; sin embargo, cada vez más estos dispositivos son blanco de ataques para los cibercriminales. A menudo son ellos quienes consiguen tener acceso a los datos privados de los usuarios, aun cuando el concepto original del fabricante no lo preveía.</p>  
  
