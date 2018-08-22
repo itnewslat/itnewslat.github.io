@@ -2,12 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2018-08-22 09:18 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 title: >-
   Veritas presenta una protección de datos de primera clase con una experiencia
   de usuario radicalmente simplificada
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/proteccion-de-datos-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/proteccion-de-datos-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
 ---
 - New Veritas NetBackup moderniza la forma en que las empresas realizan copias de seguridad y restauran datos en las instalaciones y en la nube
 - Diseñado con nuevas funcionalidades para realizar copias de seguridad de VMWare y otras cargas de trabajo virtualizadas
@@ -43,4 +57,3 @@ Con las nuevas opciones de automatización e integración de Veritas NetBackup 8
 **Conozca más sobre el nuevo Veritas NetBackup 8.1.2**
  
 La nueva versión 8.1.2 de NetBackup está disponible a nivel mundial de Veritas y sus socios de canal a nivel mundial el próximo mes. Para obtener más información, regístrese para nuestro evento de transmisión en vivo en XYZ, o visite aquí. Además, ven a ver una demostración en vivo en Veritas Booth # 1242 en VMWorld 2018 en Las Vegas.
-
