@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 title: El grupo Turla infecta a organismos del gobierno alemán a través de Outlook
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Grupo-Hackers-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Grupo-Hackers-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Grupo-Hackers-g.jpg
 categories:
