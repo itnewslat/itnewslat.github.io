@@ -8,8 +8,10 @@ superArticle: false
 title: >-
   DisplayMate: el rendimiento de la pantalla de Galaxy Note9 eleva la barra
   "significativamente más alto"
-image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/S9p.jpg'
-detail-image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/S9g.jpg'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Samsung-Galaxy-note9-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Samsung-Galaxy-note9-g.jpg
 categories:
   - Venezuela
   - Colombia
