@@ -9,7 +9,7 @@ title: >-
   ESET descubre una amenaza que controla la webcam, el micrófono y realiza
   capturas de pantalla
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-hacker-monitor-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-hacker-monitor-g.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-hacker-monitor-g.jpg
 categories:
@@ -42,4 +42,3 @@ Por otro lado, quienes operan InvisiMole también tienen la posibilidad de dar i
 Aquellos interesados en conocer los detalles técnicos de este spyware, pueden acceder al siguiente informe: InvisiMole: sorprendente spyware que se mantuvo encubierto desde 2013.
 
 Para más información ingrese al portal de noticias de ESET llamado WeLiveSecurity en: https://www.welivesecurity.com/la-es/2018/08/21/spyware-controla-webcam-microfono-realiza-capturas-pantalla/
-
