@@ -9,7 +9,7 @@ title: >-
   Avaya es Nombrada Autoridad en Numeración de Vulnerabilidades y Exposiciones
   Comunes
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/reunion-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/reunion-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/reunion-g.jpg
 categories:
