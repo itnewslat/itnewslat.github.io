@@ -9,7 +9,7 @@ title: >-
   Nueva tienda de motores de última generación abre las puertas al futuro de las
   reparaciones
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Motores-Delta-pg.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Motores-Delta-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Motores-Delta-g.jpg
 categories:
