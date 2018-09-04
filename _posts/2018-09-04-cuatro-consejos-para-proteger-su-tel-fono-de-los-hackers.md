@@ -43,4 +43,5 @@ Incorrecto. La sobreexposición y la adicción a nuestros teléfonos celulares r
 Los pagos móviles son el futuro del universo de pago del consumidor. Sin embargo, la adopción masiva ha sido lenta por muchos factores. 
 
 Por esta razón, para que los consumidores experimenten la facilidad y seguridad de los pagos móviles, debemos superar las barreras para la adopción. Los viejos hábitos, como buscar en su billetera una tarjeta de pago, son lo suficientemente difíciles de romper, pero ¿si al pagar se desencadenan estragos generalizados de malware y piratas informáticos? Eso causará un daño inolvidable. Nadie quiere que esto suceda y es totalmente prevenible a través de una buena seguridad de seguridad móvil.
+
 Sigua mis opiniones y consejos de higiene en Twitter @FraudBird
