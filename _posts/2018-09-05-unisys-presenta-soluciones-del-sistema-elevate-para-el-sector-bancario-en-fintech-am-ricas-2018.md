@@ -2,16 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2018-09-05 06:37 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 title: >-
   Unisys presenta soluciones del sistema Elevate para el sector bancario en
   Fintech Américas 2018
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Fintech-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Fintech-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
 ---
-
-
-La estructura omnicanal que permite jornadas continuas a los clientes será un punto destacado de Unisys en la feria realizada en Miami (FL)
+**La estructura omnicanal que permite jornadas continuas a los clientes será un punto destacado de Unisys en la feria realizada en Miami (FL)**
 
 Unisys Corporation (NYSE: UIS) participa los días 6 y 7 de septiembre de Fintech Américas 2018. La conferencia, que tendrá como tema principal la transformación digital de instituciones financieras, reunirá a cientos de organizaciones de diferentes países en América Latina y América del Norte para discutir las innovaciones y las mejores prácticas que ayudan los bancos a ser más ágiles y competitivos. Unisys participa por segunda vez y es patrocinador Platinum de esta edición de Fintech Américas.  
 
@@ -34,4 +46,3 @@ También se presentarán las soluciones de seguridad de sistema Stealth para las
 
 
 Más información: http://www.fintechamericas.co/
-
