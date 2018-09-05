@@ -9,7 +9,7 @@ title: >-
   Los ataques no se toman vacaciones y aumentan las amenazas a la banca y a
   dispositivos IoT
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ciberataque-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciberataque-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ciberataque-g.jpg
 categories:
