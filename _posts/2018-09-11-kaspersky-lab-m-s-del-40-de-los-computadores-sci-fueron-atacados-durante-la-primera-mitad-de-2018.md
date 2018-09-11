@@ -48,5 +48,4 @@ Para estar protegido, Kaspersky Lab ICS CERT le recomienda tomar las siguientes 
 - Implemente soluciones dedicadas de protección en los servidores SCI, estaciones de trabajo y HMI para proteger la infraestructura de TO e industrial contra ataques cibernéticos aleatorios e Implemente soluciones de control, análisis y detección de tráfico de la red para una mejor protección contra ataques dirigidos.
 - Ofrezcale capacitaciónes y soporte a los empleados, socios y proveedores con acceso a su red.
 
-Para leer el informe completo del primer semestre de 2018 sobre de Kaspersky Lab ICS CERT, por favor ingrese a nuestro sitio web.  
-
+Para leer el informe completo del primer semestre de 2018 sobre de Kaspersky Lab ICS CERT, por favor ingrese a nuestro [**sitio web**](https://securelist.com/threat-landscape-for-industrial-automation-systems-in-h1-2018/87913/).
