@@ -5,7 +5,7 @@ date: '2018-09-11 14:41 -0400'
 published: true
 superNews: false
 superArticle: false
-title: ¿Porque la nuba es el cimiento de la innovación?
+title: ¿Porque la nube es el cimiento de la innovación?
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cloud-Computing-p.jpg
 detail-image: >-
@@ -63,4 +63,4 @@ A medida que evoluciona la tecnología, el talento para manejar sistemas tradici
 
 La forma más efectiva para abordar este problema es que las empresas adopten una estrategia predeterminada de nube, aprovechando las ventajas ofrecidas por proveedores de amplia escala a través del continuum de transformación. La nube libera a las empresas de sus sistemas heredados, ofrece flexibilidad de opciones 'híbridas' de convivencia intermedia cuando es necesario, la primera en introducir innovaciones listas para producción, habilitando a las empresas para que adopten una mentalidad donde lo digital sea primero, para ganar a nuevos clientes y crear crecimiento a un ritmo acelerado. Esta es una oportunidad que las empresas están aprovechando cada vez más.
 
-Toda empresa que pretenda competir sobre la base de nuevos productos, procesos y servicios debe decidir ahora si su infraestructura de aplicaciones y datos será capaz de apoyar la innovación digital de toda la empresa. 
+Toda empresa que pretenda competir sobre la base de nuevos productos, procesos y servicios debe decidir ahora si su infraestructura de aplicaciones y datos será capaz de apoyar la innovación digital de toda la empresa.
