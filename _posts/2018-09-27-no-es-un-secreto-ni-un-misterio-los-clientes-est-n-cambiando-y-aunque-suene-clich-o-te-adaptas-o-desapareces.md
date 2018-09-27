@@ -3,8 +3,8 @@ layout: posts
 color-schema: red-dark
 date: '2018-09-27 17:56 -0400'
 published: true
-superNews: false
-superArticle: true
+superNews: true
+superArticle: false
 title: "No es un secreto ni un misterio, los clientes están cambiando y aunque suene “cliché” o te adaptas\_o desapareces"
 categories:
   - Venezuela
@@ -18,6 +18,10 @@ tags:
   - Transformación Digital
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-WeCode.jpg
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cliente-preocupado-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cliente-preocupado-g.jpg
 ---
 <p style="text-align: justify;">Pregúntale a los que alquila películas, a los taxistas a los… si su negocio ha evolucionado</p>
 
@@ -44,7 +48,7 @@ image-banner: >-
 <tbody>
 <tr>
 <td><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/LMB.jpg" alt="" width="266" height="253" /></td>
-<td>Luis Miguel Bevilacqua
+  <td><Strong>Luis Miguel Bevilacqua</Strong>
 
 Experto en Estrategia Digital y Tecnología Financiera
 
