@@ -6,10 +6,6 @@ published: true
 superNews: false
 superArticle: true
 title: "No es un secreto ni un misterio, los clientes están cambiando y aunque suene “cliché” o te adaptas\_o desapareces"
-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cliente-preocupado-p.jpg
-detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cliente-preocupado-g.jpg
 categories:
   - Venezuela
   - Colombia
