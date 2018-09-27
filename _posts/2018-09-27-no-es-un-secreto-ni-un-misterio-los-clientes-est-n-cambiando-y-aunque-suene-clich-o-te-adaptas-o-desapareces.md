@@ -19,9 +19,9 @@ tags:
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-WeCode.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cliente-preocupado-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Banner-WeCode-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cliente-preocupado-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Banner-WeCode-g.jpg
 ---
 <p style="text-align: justify;">Pregúntale a los que alquila películas, a los taxistas a los… si su negocio ha evolucionado</p>
 
