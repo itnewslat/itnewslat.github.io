@@ -23,7 +23,7 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-WeCode.jpg
 ---
-<p style="text-align: justify;">Pregúntale a los que alquila películas, a los taxistas a los… si su negocio ha evolucionado</p>
+<p style="text-align: justify;">Pregúntale a los que alquilan películas, a los taxistas a los… si su negocio ha evolucionado</p>
 
 <p style="text-align: justify;">El sector financiero, uno de los sectores con de mayor historia, no está exento a una evolución forzada por el cambio en el comportamiento de sus clientes. En el 2015, según encuestas del sector, realizadas por Backbase, más de la mitad de los encuestados se describieron como "seguidores" o "seguidores rápidos” pero pocas veces arriesgados a innovar. Históricamente, los bancos se han sentido más cómodos siendo los segundos o terceros en cuanto a ser innovadores. El Siglo XXI trae cambios en el mundo. Con el cliente nativo digital, un grupo demográfico más joven y una sociedad donde cada vez, más jóvenes, se bancariza e inicia sus propios negocios y emprendimientos, los bancos solo tienen la opción de ser disruptivos y replantearse el negocio.</p>
 <p style="text-align: justify;">Para todos los bancos, una estrategia “<em>sine qua non</em><em>”</em>, es entregar una verdadera experiencia omnicanal. Pero, ¿cómo pueden las instituciones financieras lograr esto para competir efectivamente?</p>
