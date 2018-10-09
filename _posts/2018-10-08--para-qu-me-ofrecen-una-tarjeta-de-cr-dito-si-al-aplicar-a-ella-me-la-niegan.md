@@ -2,10 +2,20 @@
 layout: posts
 color-schema: red-dark
 date: '2018-10-08 19:52 -0400'
-published: false
+published: true
 superNews: false
 superArticle: true
 title: ' ¿Para qué me ofrecen una tarjeta de crédito, si al aplicar a ella, me la niegan?'
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
 ---
 
 <p style="text-align: justify;">Amazon, desde hace ya algunos años, ha logrado personalizar su site de ventas a tu medida, basado en tus compras y las experiencias de los demás comparadores que han adquirido el mismo producto o algo similar. Este modelo, a pesar de tener algunas iniciativas muy discretas, no ha terminado de evolucionar en la banca.</p>
