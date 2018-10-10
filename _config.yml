@@ -52,7 +52,7 @@ prose:
       - name: year
         field:
           element: text
-          label: Año de publicación Notícia
+          label: Año de publicación la Notícia
           value: ""
       - name: week
         field:
