@@ -20,6 +20,8 @@ categories:
   - Panama
 tags:
   - Movilidad
+year: 2018
+week: 41    
 ---
 *Por Shelly Cohen Head of Business Development for Wix Stores
 

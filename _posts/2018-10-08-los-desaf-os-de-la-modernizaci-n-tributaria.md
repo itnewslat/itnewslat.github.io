@@ -20,6 +20,8 @@ categories:
   - Panama
 tags:
   - Economía Digital
+year: 2018
+week: 41    
 ---
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Aliosha-Bertini.jpg)
 
@@ -33,4 +35,4 @@ Hace algunos años las empresas ya habían tenido un importante desafío para cu
 
 Adicional a lo anterior, hay cambios en la gestión y operación para antes y después de la emisión de los documentos. Un cambio no tan evidente es que con la puesta en marcha de la boleta electrónica el folio es único a nivel nacional. Esto conlleva tomar las precauciones necesarias para asegurarlo, lo que, además, tiene la ventaja de que puede ser utilizado como un identificador adicional de la transacción, facilitando procesos de gestión interna y con los clientes finales. El hecho de disponer de todos los documentos de manera electrónica permite manejar información clave para la toma de decisiones. Un ejemplo más: la posibilidad de enviar la boleta por correo electrónico abre numerosas posibilidades de comunicación, fidelización, contacto virtual y nuevos negocios con los clientes.
 
-En este nuevo escenario las empresas no sólo deben informarse y decidir qué plataforma tecnológica es la más adecuada para soportar dichos procesos, sino también qué socio de negocios es el más apto para acompañar y apoyar en ese camino hacia la digitalización, con experiencia previa y certificaciones idóneas que permitan cumplir con la nueva normativa de manera rápida, fácil, transparente y certera. Todo, para optimizar la gestión y asegurar un manejo tributario óptimo y también para entregar el mejor servicio a los clientes finales. Y si bien a primera vista no parece, la implementación de boleta electrónica trae muchos más beneficios que dificultades a las empresas en el largo plazo. 
+En este nuevo escenario las empresas no sólo deben informarse y decidir qué plataforma tecnológica es la más adecuada para soportar dichos procesos, sino también qué socio de negocios es el más apto para acompañar y apoyar en ese camino hacia la digitalización, con experiencia previa y certificaciones idóneas que permitan cumplir con la nueva normativa de manera rápida, fácil, transparente y certera. Todo, para optimizar la gestión y asegurar un manejo tributario óptimo y también para entregar el mejor servicio a los clientes finales. Y si bien a primera vista no parece, la implementación de boleta electrónica trae muchos más beneficios que dificultades a las empresas en el largo plazo.

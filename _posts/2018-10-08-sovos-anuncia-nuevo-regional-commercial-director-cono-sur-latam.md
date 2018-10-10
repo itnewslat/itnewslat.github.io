@@ -20,6 +20,8 @@ categories:
   - Panama
 tags:
   - Actualidad
+year: 2018
+week: 41 
 ---
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Claudio-Parada.jpg)
 
@@ -27,7 +29,7 @@ El ingeniero Claudio Parada cuenta con 18 años de experiencia en empresas multi
 
 La compañía especializada en software de cumplimiento tributario e informes fiscales, Sovos dio a conocer a su nuevo Regional Commercial Director Cono Sur Latam, el ingeniero civil industrial de la Universidad de Concepción, Claudio Parada. Con 18 años de experiencia en empresas multinacionales, el ejecutivo es especialista en negociaciones estratégicas de Harvard Business School, Boston.
 
-Anteriormente, trabajó para SAP desempeñándose como Business Solution Advisor en un rol regional; en Microsoft, donde lideró la transformación digital de la compañía y sus clientes; y en Oracle, como Director Comercial. Ahora, en Sovos, entre otros desafíos, consolidará el modelo de servicios cloud para optimizar los procesos tributarios de negocios de sus clientes y ayudarlos así a que su ROI sea tangible en muy corto plazo. 
+Anteriormente, trabajó para SAP desempeñándose como Business Solution Advisor en un rol regional; en Microsoft, donde lideró la transformación digital de la compañía y sus clientes; y en Oracle, como Director Comercial. Ahora, en Sovos, entre otros desafíos, consolidará el modelo de servicios cloud para optimizar los procesos tributarios de negocios de sus clientes y ayudarlos así a que su ROI sea tangible en muy corto plazo.
 
 “Hoy los desafíos de Sovos son los que ha vivido toda empresa que se ha transformado a un modelo de servicios, potenciado por el cloud.  En este caso, estamos enfocados en una transformación de los modelos de negocios con una propuesta de valor distinta, donde la contribución en nuestros clientes sea plasmada a través de retornos claros de la inversión”, explicó Claudio Parada.
 

@@ -22,6 +22,8 @@ categories:
   - Panama
 tags:
   - Seguridad
+year: 2018
+week: 41    
 ---
 **Investigadores de ESET descubrieron LoJax, el primer rootkit activo de UEFI. El equipo demostró que los operadores de Sednit utilizaron diferentes componentes del malware LoJax para alcanzar organizaciones gubernamentales.**
 
@@ -29,7 +31,7 @@ ESET, compañía líder en detección proactiva de amenazas, anunció el descubr
 
 Los rootkits UEFI son herramientas muy peligrosas en el mundo de la ciberdelincuencia ya que permiten tomar el control del dispositivo independientemente del sistema operativo utilizado, son difíciles de descubrir y pueden sobrevivir incluso a las medidas más comunes utilizadas en los departamentos de seguridad, tales como la reinstalación del sistema o el reemplazo del disco duro. Además, la limpieza de un sistema infectado por un rootkit UEFI debe llevarse a cabo por profesionales especializados con conocimientos de alto nivel.
 
-“Estábamos al tanto de la existencia de rootkits UEFI pero el descubrimiento realizado por nuestros investigadores pone de manifiesto su utilización por parte de un grupo activo y conocido de ciberdelincuentes. No se trata de una prueba de concepto para mostrar en una conferencia de seguridad, sino de una amenaza real, avanzada y persistente”, asegura Josep Albors, responsable de investigación y concienciación de ESET. 
+“Estábamos al tanto de la existencia de rootkits UEFI pero el descubrimiento realizado por nuestros investigadores pone de manifiesto su utilización por parte de un grupo activo y conocido de ciberdelincuentes. No se trata de una prueba de concepto para mostrar en una conferencia de seguridad, sino de una amenaza real, avanzada y persistente”, asegura Josep Albors, responsable de investigación y concienciación de ESET.
 
 Sednit -también conocido como APT28, Strontium, Sofacy o Fancy Bear- es el grupo responsable del ataque. Se trata de un grupo de ciberdelincuentes activo desde 2004, a quien el Departamento de Justicia de los Estados Unidos acusó de ser los responsables del ataque al Comité Nacional Demócrata que tuvo lugar antes de las elecciones de 2016 en los Estados Unidos. Se presume también que el grupo es quién está detrás del ataque a la red global de televisión TV5Monde; la filtración de correos de la Agencia Mundial Antidopaje (WADA, por sus siglas en inglés), y otras alrededor del mundo.
 

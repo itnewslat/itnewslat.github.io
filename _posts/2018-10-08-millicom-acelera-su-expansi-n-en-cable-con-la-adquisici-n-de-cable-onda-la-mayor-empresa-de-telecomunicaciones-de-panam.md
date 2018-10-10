@@ -16,8 +16,10 @@ categories:
   - Panama
 tags:
   - Actualidad
+year: 2018
+week: 41  
 ---
-Millicom, proveedor líder de servicios de cable y móviles que opera bajo la marca Tigo en América Latina, anunció hoy que adquirirá una participación mayoritaria del 80% en Cable Onda, el proveedor de servicios de telecomunicaciones fijas y de cable más grande de Panamá. Los accionistas vendedores mantendrán una participación del 20% en la compañía. La transacción está sujeta a las condiciones de cierre habituales y se espera que se concrete al final del cuarto trimestre del año en curso. 
+Millicom, proveedor líder de servicios de cable y móviles que opera bajo la marca Tigo en América Latina, anunció hoy que adquirirá una participación mayoritaria del 80% en Cable Onda, el proveedor de servicios de telecomunicaciones fijas y de cable más grande de Panamá. Los accionistas vendedores mantendrán una participación del 20% en la compañía. La transacción está sujeta a las condiciones de cierre habituales y se espera que se concrete al final del cuarto trimestre del año en curso.
 
 Cable Onda es el proveedor líder en Panamá de servicios de Internet, telefonía y televisión por cable, y brinda servicios a más de 500.000 clientes residenciales.  La compañía también es el mayor proveedor de servicios de telecomunicaciones B2B fijos que atiende a más de 34.000 clientes comerciales y gubernamentales.  
 
@@ -25,6 +27,6 @@ Con este anuncio Millicom responde a su estrategia de acelerar la expansión de 
 
 Según Mauricio Ramos, CEO de Millicom (Tigo), “Esta transacción es un motivo de orgullo para mí pues por años he tenido una relación profesional y gran amistad con Nicolás Gonzales Revilla y con su padre, así como con Stanley Motta. Adicionalmente, Nicolás y yo, hemos copresidido la Asociación Latinoamericana de Cable (TEPAL) por varios años. Esto nos permitirá seguir construyendo juntos esta historia, la cual estamos estructurando para el desarrollo del país.  Nuestra inversión en Cable Onda afirma nuestra estrategia de acelerar la implementación de redes de alta velocidad en Centroamérica y Suramérica.  Le damos la bienvenida a los 2.300 empleados de Cable Onda y continuaremos trabajando conjuntamente en la expansión del liderazgo de Cable Onda en Panamá para brindar innovadoras soluciones digitales a los clientes panameños” concluyó el directivo.
 
-Con esta inversión estratégica, Millicom continuará apostando por el desarrollo de mercados emergentes, incrementando la penetración de banda ancha fija y la penetración de TV paga. Así mismo, la inversión estratégica en Cable Onda y su personal calificado contribuye significativamente con el objetivo de convertir a Millicom en el operador de cable más grande de Latinoamérica, conectando mejor a los clientes a través de la región. 
+Con esta inversión estratégica, Millicom continuará apostando por el desarrollo de mercados emergentes, incrementando la penetración de banda ancha fija y la penetración de TV paga. Así mismo, la inversión estratégica en Cable Onda y su personal calificado contribuye significativamente con el objetivo de convertir a Millicom en el operador de cable más grande de Latinoamérica, conectando mejor a los clientes a través de la región.
 
-Una vez finalizado el acuerdo, se extenderá una comunicación oficial a los medios locales e internacionales. 
+Una vez finalizado el acuerdo, se extenderá una comunicación oficial a los medios locales e internacionales.

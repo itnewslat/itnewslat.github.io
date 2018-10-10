@@ -19,6 +19,11 @@ permalink: /:title.html
 whitelist: []
 plugins_dir:   []
 
+collections:
+  newsletters:
+    output: true
+    permalink: /:collection/:name
+
 prose:
   ignore: [
     '_layouts',

@@ -19,7 +19,9 @@ categories:
   - Chile
   - Panama
 tags:
-  - Canales
+  -
+year: 2018
+week: 41  
 ---
 El 86% de los compradores pagaría más por una buena experiencia de cliente
 
@@ -35,11 +37,11 @@ Conscientes de la importancia de incorporar el diseño al desarrollo de negocio,
 
 1.	**Pecar de ignorancia**. Cada proyecto al que nos enfrentamos es diferente al anterior: desde la creación de un minisite para una pequeña empresa hasta el diseño de un servicio digital para una multinacional. En todos los casos debemos estar abiertos y receptivos a nuevas temáticas, características del sector, tecnologías, metodologías y otros aspectos que hacen diferentes los proyectos, por lo que una inmersión en la realidad del producto que se va a definir dará toda la información necesaria para apoyar tus propuestas.
 
-2.	**Cuidar la relación y comunicación**. Debemos adoptar una posición asertiva y proactiva, ofreciendo un apoyo constante, guía, explicación y, en definitiva, una comunicación activa con el cliente. Durante el proyecto se generarán cientos de decisiones y debates en los que una buena relación con el cliente incrementará la facilidad de comunicación y confianza en tus propuestas. 
+2.	**Cuidar la relación y comunicación**. Debemos adoptar una posición asertiva y proactiva, ofreciendo un apoyo constante, guía, explicación y, en definitiva, una comunicación activa con el cliente. Durante el proyecto se generarán cientos de decisiones y debates en los que una buena relación con el cliente incrementará la facilidad de comunicación y confianza en tus propuestas.
 
 3.	**Canalizar la información**. Facilitar la expresión de ideas de todos los stakeholders y enfocarlas en la correcta dirección es una tarea muy importante a la par que compleja. Debemos ser puente entre cliente y equipos de desarrollo, marketing… y tenemos la misión de traspasar las ideas y objetivos de la mejor manera posible.
 
-4.	**Convertirse en el cliente**. El constante contacto con el cliente, investigaciones y documentación nos ofrecen un alto grado de conocimiento de qué se quiere y cómo se quiere. Es nuestra responsabilidad cubrir esos objetivos y controlar la calidad de la Experiencia de Uso del producto final. 
+4.	**Convertirse en el cliente**. El constante contacto con el cliente, investigaciones y documentación nos ofrecen un alto grado de conocimiento de qué se quiere y cómo se quiere. Es nuestra responsabilidad cubrir esos objetivos y controlar la calidad de la Experiencia de Uso del producto final.
 
 5.	**Por tus obras te conocerán**. Una alta calidad y detalle en tu documentación y prototipos reducirá problemas de comunicación y mejorará la fluidez del desarrollo. Para ello, se deben mantener actualizados, en la medida de lo posible, y accesibles online. Por otro lado, es muy importante hacerlos comprensibles para tu cliente, él no entiende el argot del diseño y, sobre todo, tu jerga.
 

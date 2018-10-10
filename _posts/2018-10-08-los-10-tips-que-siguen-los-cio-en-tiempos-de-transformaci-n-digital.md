@@ -20,6 +20,8 @@ categories:
   - Panama
 tags:
   - Transformación Digital
+year: 2018
+week: 41    
 ---
 
 
@@ -31,15 +33,15 @@ La cuarta revolución industrial trae consigo importantes desafíos, y elegir co
 
 Desde Digital Ware, entregamos 10 recomendaciones que se deben seguir cuando una organización desea implementar el uso de una herramienta tecnológica, llámese software u otras:
 
-1.	Busque una solución  innovadora y actualizada que le permita a su organización marcar la diferencia frente a la competencia. 
+1.	Busque una solución  innovadora y actualizada que le permita a su organización marcar la diferencia frente a la competencia.
 2.	Determine la etapa en la que se encuentra su negocio con relación al ciclo de vida empresarial definido por el nivel de competitividad, prosperidad, productividad y efectividad.
-3.	Puntualice el tipo de tecnología a aplicar, defina sus ventajas competitivas y el impacto en los usuarios. Identifique la cadena de soporte y la cadena de valor para así poder dar mayor utilidad a la herramienta que implante y que los esfuerzos impacten positivamente en la cadena de valor. 
-4.	Genere competitividad y evalúe el nivel de productividad de sus colaboradores. 
-5.	Identifique el sostenimiento de las ventajas competitivas y comparativas de la empresa. 
-6.	Concrete y articule la solución implantada al plan estratégico de la compañía, y que su solución se diferencie de su competencia. 
-7.	Conozca y analice el comportamiento de la alta gerencia. Es importante conocer la estrategia y la visión de cada uno de los miembros de la junta directiva, presidentes, CEO´s, o gerentes, al momento de sugerir una herramienta tecnológica. 
+3.	Puntualice el tipo de tecnología a aplicar, defina sus ventajas competitivas y el impacto en los usuarios. Identifique la cadena de soporte y la cadena de valor para así poder dar mayor utilidad a la herramienta que implante y que los esfuerzos impacten positivamente en la cadena de valor.
+4.	Genere competitividad y evalúe el nivel de productividad de sus colaboradores.
+5.	Identifique el sostenimiento de las ventajas competitivas y comparativas de la empresa.
+6.	Concrete y articule la solución implantada al plan estratégico de la compañía, y que su solución se diferencie de su competencia.
+7.	Conozca y analice el comportamiento de la alta gerencia. Es importante conocer la estrategia y la visión de cada uno de los miembros de la junta directiva, presidentes, CEO´s, o gerentes, al momento de sugerir una herramienta tecnológica.
 8.	Defina las prioridades de su negocio y su propuesta de valor. Pregúntese ¿Qué lo hace diferente del resto? ¿Por qué la solución tecnológica ayudaría a lograr mayor productividad?.
-9.	Establezca indicadores de impacto presentes en las características del público-usuario de su compañía. 
-10.	Implemente una herramienta tecnológica en su organización que vaya de la mano con la capacidad de absorción y el entendimiento de la misma en sus colaboradores. 
+9.	Establezca indicadores de impacto presentes en las características del público-usuario de su compañía.
+10.	Implemente una herramienta tecnológica en su organización que vaya de la mano con la capacidad de absorción y el entendimiento de la misma en sus colaboradores.
 
 El CIO visto como una agente de cambio al interior de las compañías es quién guía y soporta de manera efectiva el paso de las empresas y las lleva a una efectiva y acertada transformación digital.

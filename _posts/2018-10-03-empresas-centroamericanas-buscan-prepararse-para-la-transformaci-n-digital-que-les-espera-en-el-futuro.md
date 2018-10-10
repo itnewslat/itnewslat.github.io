@@ -22,6 +22,8 @@ categories:
   - Panama
 tags:
   - Canales
+year: 2018
+week: 40    
 ---
 Durante este mes la compañía de tecnología Dell EMC realizó una serie de capacitaciones en Centroamérica con el objetivo de capacitar a sus canales de distribución en la región.
 
@@ -35,6 +37,6 @@ Países como México, Argentina, Colombia, Brasil, Ecuador, Perú, Chile serán 
 
 “Este evento es muy importante para nosotros pues nos permite alcanzar y beneficiar a más de 1000 empresas de las cuales un 20% provienen de Centroamérica,” destacó Pariente.
 
-El programa de Partners de Dell EMC capacita a las empresas locales para lograr enfrentar exitosamente la Transformación Digital, creando espacios como el evento ‘Join the Transformation’ donde los vendedores, así como equipos de pre-venta y marketing reciben capacitaciones presenciales donde pueden evacuar sus dudas y tener un especialista en distintas áreas que les brindan una solución a sus dudas puntuales.  Adicionalmente, los participantes pueden cursar ciertas horas de seminarios virtuales de acuerdo a la solución en la que se quiera especializar. 
+El programa de Partners de Dell EMC capacita a las empresas locales para lograr enfrentar exitosamente la Transformación Digital, creando espacios como el evento ‘Join the Transformation’ donde los vendedores, así como equipos de pre-venta y marketing reciben capacitaciones presenciales donde pueden evacuar sus dudas y tener un especialista en distintas áreas que les brindan una solución a sus dudas puntuales.  Adicionalmente, los participantes pueden cursar ciertas horas de seminarios virtuales de acuerdo a la solución en la que se quiera especializar.
 
 “Este tipo de iniciativas nos permite desarrollar espacios de ventas más informados lo cual sin duda se traduce en un beneficio para el consumidor final. En este sentido, Dell capacita a las diferentes empresas para que éstas a su vez puedan informar de forma más completa y especializada a los clientes,” concluyó Pariente.

@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 title: >-
   ESET, el mayor fabricante de software de seguridad de la UE presenta tres
-  productos en la nube líderes para empresas 
+  productos en la nube líderes para empresas
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/eset-security-day-p.jpg
 detail-image: >-
@@ -22,6 +22,8 @@ categories:
   - Panama
 tags:
   - Seguridad
+year: 2018
+week: 40    
 ---
 - ESET Dinamic Threat Defense y ESET Threat Intelligence, detectan las amenazas zero-day,  informan de los ataques dirigidos y de la actividad de las botnets
 - ESET Cloud Administrator,  administra y gestiona la seguridad de la red corporativa
@@ -32,9 +34,9 @@ El primero de ellos, denominado, ESET Dynamic Threat Defense previene las amenaz
 
 ESET Dynamic Threat Defense ofrece protección multicapa, ya que utiliza tres modelos diferentes de machine learning cuando se envía un archivo. Posteriormente, ejecuta la muestra en una sandbox que simula el comportamiento del usuario ‘engañando’ a las técnicas antievasión y utiliza una red neuronal de aprendizaje profundo para comparar el comportamiento observado frente a los datos de comportamiento históricos. Finalmente, el motor de análisis separa las muestras y las analiza en busca de cualquier anomalía.
 
-ESET Cloud Administrator gestiona la seguridad de la red desde una única consola en la nube sin necesidad de utilizar ningún hardware adicional. Esta solución se ofrece como servicio para empresas con hasta 250 equipos, reduciendo el coste total de adquisición de la solución de seguridad. Este servicio permite el acceso en todo momento y desde cualquier ubicación mediante una consola web. 
+ESET Cloud Administrator gestiona la seguridad de la red desde una única consola en la nube sin necesidad de utilizar ningún hardware adicional. Esta solución se ofrece como servicio para empresas con hasta 250 equipos, reduciendo el coste total de adquisición de la solución de seguridad. Este servicio permite el acceso en todo momento y desde cualquier ubicación mediante una consola web.
 
-Con ESET Cloud Administrator la gestión de la configuración, limpieza del servidor, las actualizaciones y los certificados se realizan automáticamente en segundo plano, sin necesidad de interacción del usuario, lo que representa un gran beneficio para ellos. 
+Con ESET Cloud Administrator la gestión de la configuración, limpieza del servidor, las actualizaciones y los certificados se realizan automáticamente en segundo plano, sin necesidad de interacción del usuario, lo que representa un gran beneficio para ellos.
 
 Por último, ESET Threat Intelligence, proporciona información global sobre ataques dirigidos, amenazas avanzadas persistentes (APTs), ataques zero-day y la actividad actualizada de las botnets. Sin embargo, debido a la gran cantidad de amenazas existentes, las empresas se encuentran con la dificultad de establecer qué defensas proactivas son las más importantes. Para satisfacer dicha necesidad, los servicios de Threat Intelligence ayudan a procesar la enorme cantidad de información y proporcionan la  más relevante para cada empresa.
 
