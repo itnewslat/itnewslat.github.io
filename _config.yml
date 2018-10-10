@@ -48,6 +48,22 @@ prose:
   ]
   siteurl: ""
   metadata:
+    _newsletters:
+      - name: year
+        field:
+          element: text
+          label: Año de publicación Notícia
+          value: ""
+      - name: week
+        field:
+          element: text
+          label: Semana de publicación Notícia
+          value: ""
+      - name: banner
+        field:
+          element: text
+          label: Banner para el neswlatter
+          value: ""
     _posts:
       - name: layout
         field:
@@ -137,3 +153,13 @@ prose:
           element: text
           label: Ingrese una imagen para el Banner prinicipal.
           value: ""
+      - name: year
+        field:
+          element:
+            label: Año de publicación de Noticias
+            value: 2018
+      - name: week
+        field:
+          element:
+            label: Semana de publicación de Noticias
+            value: ""
