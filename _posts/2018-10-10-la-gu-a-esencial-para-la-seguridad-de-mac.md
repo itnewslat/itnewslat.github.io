@@ -2,10 +2,24 @@
 layout: posts
 color-schema: red-dark
 date: '2018-10-10 17:22 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 title: La guía esencial para la seguridad de Mac
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/MAC-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/MAC-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
 ---
 Renovar una computadora no es tarea fácil, más allá de las marcas y modelos, siempre nos enfrentaremos a elegir el sistema operativo Windows o Mac. Windows es el sistema más utilizado en el mundo, porque es ofrecido por una gran variedad de compañías y también el más susceptible a sufrir ataques. Recordemos que WannaCry se propagó en Windows e infectó más de 230,000 equipos el año pasado.
 
@@ -21,7 +35,8 @@ Su seguridad es sólida desde el primer momento, es cierto, pero hay varias conf
 
 Instalar un antivirus, como Avast Security para Mac es el primer paso. Además, puedes poner en práctica estos cuatro consejos para mejorar tus defensas de seguridad.
 
-Consejo Mac # 1: revise la configuración de "Seguridad y privacidad" de MacOS
+**Consejo Mac # 1: revise la configuración de "Seguridad y privacidad" de MacOS**
+
 El paso más importante es establecer una contraseña para inicio de sesión, recuerde usar contraseñas seguras y dejar fuera las tradicionales “12345” o “contraseña”.
 
 Posteriomente, recomendamos activar FireVault ya que de esa manera, su Mac cifrará los datos en su disco duro. Asimismo, sugerimos encender Firewall para proteger su red al bloquear el tráfico entrante no deseado, con lo que cualquier red externa que intente hacer ping no recibirá respuesta. 
