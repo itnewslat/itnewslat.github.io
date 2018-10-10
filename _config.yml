@@ -155,11 +155,11 @@ prose:
           value: ""
       - name: year
         field:
-          element:
+          element: text
           label: Año de publicación de Noticias
           value: 2018
       - name: week
         field:
-          element:
+          element: text
           label: Semana de publicación de Noticias
           value: ""
