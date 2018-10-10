@@ -34,13 +34,14 @@ En Preferencias del sistema, haga clic en “Compartir”, revise la lista y ase
 
 Cuando se emiten actualizaciones, están destinadas a mejorar el sistema, generalmente en forma de seguridad. Al actualizar los parches, se fortalece la seguridad y mejora el rendimiento. Algunos temen que si actualizan su sistema, perderán algo de información o serán confundidos por las nuevas reglas y herramientas. Necesitamos desmentir este temor infundado entre los usuarios finales y hacerles comprender que una actualización del sistema es su aliada.
 
-Consejo de Mac # 4 - Instalar seguridad cibernética extra
+**Consejo de Mac # 4 - Instalar seguridad cibernética extra**
+
 Los protocolos de seguridad de Apple son excelentes, pero para estar un paso adelante del sofisticado delito cibernético los usuarios realmente necesitan blindarse con un software adicional de seguridad y privacidad, como:
-•           Antivirus. Instalar un potente antivirus para Mac es un excelente paso para defender tu vida digital. Avast Security para Mac es gratuitoy protege contra malware, sitios web maliciosos y conexiones Wi-Fi vulnerables. Para el más alto nivel de seguridad, obtenga protección contra: Ransomware y transparencia a cualquier intruso wifi adquiriendo la versión Mac Security Pro.
-•           Red privada virtual (VPN). Cifre su conexión a Internet y manténgase privado en línea con una VPN. Conozca más sobre Avast SecureLine VPN.
+
+**Antivirus**. Instalar un potente antivirus para Mac es un excelente paso para defender tu vida digital. Avast Security para Mac es gratuitoy protege contra malware, sitios web maliciosos y conexiones Wi-Fi vulnerables. Para el más alto nivel de seguridad, obtenga protección contra: Ransomware y transparencia a cualquier intruso wifi adquiriendo la versión Mac Security Pro.
+**Red privada virtual (VPN)**. Cifre su conexión a Internet y manténgase privado en línea con una VPN. Conozca más sobre Avast SecureLine VPN.
 
 
 Si ha comprado una Mac, evidentemente se preocupa por el alto rendimiento y la mayor seguridad. Pero si bien los ciberdelincuentes se enfocaban predominantemente en las PC en el pasado, cada vez más están desarrollando malware para las Mac. Deje de creer que las Mac son ajenas a los ataques, evite ser una víctima.  
 
 En el mundo digital, no hay precauciones de más, conozca Avast Security para Mac.
-
