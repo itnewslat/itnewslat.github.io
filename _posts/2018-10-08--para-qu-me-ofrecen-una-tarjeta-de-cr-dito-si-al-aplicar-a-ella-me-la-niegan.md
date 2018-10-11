@@ -20,6 +20,8 @@ image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-WeCode.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-WeCode.jpg
+year: '2018'
+week: '41'
 ---
 
 <p style="text-align: justify;">Amazon, desde hace ya algunos años, ha logrado personalizar su site de ventas a tu medida, basado en tus compras y las experiencias de los demás comparadores que han adquirido el mismo producto o algo similar. Este modelo, a pesar de tener algunas iniciativas muy discretas, no ha terminado de evolucionar en la banca.</p>
