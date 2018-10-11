@@ -2,15 +2,30 @@
 layout: posts
 color-schema: red-dark
 date: '2018-10-10 21:47 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2018'
 title: Avaya Nombra a Miles Davis Director de Soluciones para Américas Internacional
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/nombramiento-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/nombramiento-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Actualidad
+week: '41'
 ---
 **Como promotor del trabajo colaborativo en equipo, Davis ayudará a Avaya a ejecutar su visión estratégica en cuatro categorías de soluciones de producto**
 
-
+![Miles Davis, director de Soluciones para Américas Internacional](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Miles-Davis-lr.jpg)
 
 Avaya anunció hoy el nombramiento de Miles Davis como director de Soluciones para Américas Internacional. En su nuevo puesto Davis dirigirá a un equipo de desarrollo de negocios que se enfoca en el diseño y ejecución de estrategias para clientes en cuatro principales áreas de soluciones: Avaya Cloud, Interacción con los Empleados, Dispositivos, e Interacción con los Clientes. Será responsable de enfocar los recursos para los clientes de Avaya en la región con el objetivo continuo de brindar un mejor servicio a nuestros socios y clientes a través de soluciones de colaboración de primer nivel.
 
@@ -33,4 +48,3 @@ Como experto en posicionar y vender soluciones de tecnología complejas que se p
 Davis cuenta con licenciatura de la Escuela de Negocios Ivey de la Universidad de Western Ontario; se graduó con honores en Mercadotecnia y Francés de la Universidad de Stirling y de la Escuela de Negocios IECS Strasbourg.
 
 Davis es miembro fundador del C4 (Consejo de Directores de Canal de Canadá) y miembro activo de YACA (Asociación Australiana/Canadiense). En 2015, Davis fue nombrado uno de los 25 principales generadores de noticias por la revista canadiense CDN.
-
