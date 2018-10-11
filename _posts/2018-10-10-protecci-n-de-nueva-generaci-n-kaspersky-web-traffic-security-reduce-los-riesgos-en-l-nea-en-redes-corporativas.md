@@ -2,18 +2,30 @@
 layout: posts
 color-schema: red-dark
 date: '2018-10-10 21:51 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2018'
 title: >-
   Protección de nueva generación: Kaspersky Web Traffic Security reduce los
   riesgos en línea en redes corporativas
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kaspersky-Employee-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Kaspersky-Employee-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '41'
 ---
-50% de las empresas batalla con reducir las acciones riesgosas en línea de sus empleados 
-
-
-
+**50% de las empresas batalla con reducir las acciones riesgosas en línea de sus empleados**
 
 En 2017, casi uno de cada tres usuarios[1] de la red, incluidas las corporativas, fue atacado por amenazas en línea. Por consiguiente, no es de sorprender que reducir las acciones  potencialmente riesgosas en línea de los empleados siga siendo un desafío para 50% de las empresas[2]. Para ayudar a solucionar esto, Kaspersky Lab ha renovado su solución Kaspersky Security for Internet Gateway con una nueva aplicación, Kaspersky Web Traffic Security, que refuerza las puertas de enlace en la web para proteger a los empleados de todo tipo de ataques en línea, reduciendo los riesgos y disminuyendo los gastos indirectos de soporte a TI.
 
@@ -23,7 +35,9 @@ Kaspersky Web Traffic Security tiene un potente motor antimalware de varias capa
 
 Para lograr una mejor tasa de detección, Kaspersky Web Traffic Security utiliza inteligencia de amenazas global almacenada en la nube, que incluye datos de reputación de archivos, URL y direcciones IP de Kaspersky Security Network, e información exclusiva adquirida durante la investigación de los expertos.
                                
-"La ingeniería social es una de las técnicas clave utilizadas por los atacantes que intentan penetrar en el perímetro de los negocios. Kaspersky Web Traffic Security está diseñada para reducir este riesgo, así como para asistir al personal de soporte de TI que tiene que resolver los problemas derivados de actividades en línea inapropiadas de otros empleados. La aplicación aumentará la defensa de los negocios, proporcionando así un motor de seguridad cibernética comprobado de nueva generación, con las tasas más bajas de falsos positivos y las tasas de detección más altas en la industria, que rigen el uso de Internet mediante un único punto de aplicación", comenta Sergey Martsynkyan, director de Marketing de productos B2B en Kaspersky Lab.
+"La ingeniería social es una de las técnicas clave utilizadas por los atacantes que intentan penetrar en el perímetro de los negocios. Kaspersky Web Traffic Security está diseñada para reducir este riesgo, así como para asistir al personal de soporte de TI que tiene que resolver los problemas derivados de actividades en línea inapropiadas de otros empleados. La aplicación aumentará la defensa de los negocios, proporcionando así un motor de seguridad cibernética comprobado de nueva generación, con las tasas más bajas de falsos positivos y las tasas de detección más altas en la industria, que rigen el uso de Internet mediante un único punto de aplicación", comenta **Sergey Martsynkyan, director de Marketing de productos B2B en Kaspersky Lab.**
+
+![](https://thetechrevolutionist.com/wp-content/uploads/2018/10/web-security.png)
 
 Además de una protección superior, Kaspersky Web Traffic Security brinda a las empresas capacidades de administración mejoradas, como:
 
