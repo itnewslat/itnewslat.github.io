@@ -23,9 +23,9 @@ tags:
   - Actualidad
 week: '41'
 ---
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Douglas-Medeiros.jpg)
 
 **Por: Douglas Medeiros, Gerente General TOTVS Andina.**
-
 
 Entregar cada vez más con menos recursos ha sido un mantra adoptado y repetido por la mayoría de las empresas. Sin embargo, a primera vista, puede parecer contradictorio tener una gestión basada en reducción de costos y aumento de productividad, sin perder la calidad de servicios ofrecidos.
  
