@@ -22,6 +22,8 @@ categories:
   - Panama
 tags:
   - Actualidad
+year: '2018'
+week: '41'
 ---
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Alexandra-Gaitan.jpg)
@@ -36,4 +38,4 @@ Alexandra cuenta con una trayectoria de más de 18 años en cargos gerenciales y
 
 Desde su cargo como Gerente Marketing y Comunicaciones de CCA, coordinará los diferentes actores que trabajan para lograr el posicionamiento de la marca en la región. Le corresponde estructurar los planes de mercadeo para las diferentes líneas de negocio y articular las acciones de generación de demanda en los diferentes mercados de la mano de ventas. 
 
-Alexandra es Administradora de Empresas de la Universidad Externado de Colombia, y cuenta con una especialización en Mercadeo Estratégico en el CESA, actualmente reside en la ciudad de Bogotá. 
+Alexandra es Administradora de Empresas de la Universidad Externado de Colombia, y cuenta con una especialización en Mercadeo Estratégico en el CESA, actualmente reside en la ciudad de Bogotá.
