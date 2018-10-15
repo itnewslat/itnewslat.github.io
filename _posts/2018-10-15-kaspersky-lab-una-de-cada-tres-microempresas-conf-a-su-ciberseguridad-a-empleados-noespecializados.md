@@ -8,7 +8,7 @@ superArticle: false
 year: '2018'
 title: >-
   Kaspersky Lab: una de cada tres microempresas confía su ciberseguridad a
-  empleados noespecializados 
+  empleados no especializados 
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kaspersky-oficina-p.jpg
 detail-image: >-
