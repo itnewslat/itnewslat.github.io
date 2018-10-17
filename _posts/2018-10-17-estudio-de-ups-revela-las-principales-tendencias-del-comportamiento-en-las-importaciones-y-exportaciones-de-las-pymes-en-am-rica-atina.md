@@ -8,7 +8,7 @@ superArticle: false
 year: '2018'
 title: >-
   Estudio de UPS revela las principales tendencias del comportamiento en las
-  importaciones y exportaciones de las PYMEs en América Ñatina
+  importaciones y exportaciones de las PYMEs en América Latina
 week: '42'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/camion-ups-p.jpg
