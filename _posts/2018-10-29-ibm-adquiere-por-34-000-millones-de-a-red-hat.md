@@ -23,7 +23,7 @@ tags:
   - Actualidad
 week: '44'
 ---
-IBM (NYSE: IBM) y Red Hat (NYSE: RHT), anunciaron hoy que las compañías han alcanzado un acuerdo definitivo según el cual IBM adquirirá todas las acciones comunes emitidas y en circulación de Red. Sombrero por $ 190.00 por acción en efectivo, lo que representa un valor total para la empresa de aproximadamente $ 34 mil millones.
+IBM (NYSE: IBM) y Red Hat (NYSE: RHT), anunciaron hoy que las compañías han alcanzado un acuerdo definitivo según el cual IBM adquirirá todas las acciones comunes emitidas y en circulación de Red Hat por $ 190.00 por acción en efectivo, lo que representa un valor total para la empresa de aproximadamente $ 34 mil millones.
 
 ![](https://www.securityworldmarket.com/media/b5bd024f-6c9a-408f-b178-9c16f2d98dd8/KkdKpA/Images/News/EN/2018/IBM-Red-Hat.jpg?w=480&action=fill)
 
