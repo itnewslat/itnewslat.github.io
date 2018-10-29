@@ -10,7 +10,7 @@ title: >-
   Preocupación de los argentinos por el fraude con tarjetas bancarias y robo de
   identidad creció en 2018, según Índice de Seguridad de Unisys
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Seguridad-Bancaria-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Seguridad-Bancaria-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Seguridad-Bancaria-g.jpg
 categories:
