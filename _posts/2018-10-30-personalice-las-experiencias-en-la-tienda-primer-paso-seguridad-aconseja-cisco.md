@@ -10,7 +10,7 @@ title: >-
   Personalice las experiencias en la tienda. ¿Primer paso? Seguridad, aconseja
   Cisco
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-Hacker-P.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-Hacker-P.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-Hacker-G.jpg
 categories:
@@ -76,5 +76,4 @@ Algunos de los componentes clave para reaccionar a un ataque:
 Una vez que el equipo de sistemas del retail encuentre, detenga y elimine los programas maliciosos de un ataque,  se debe tener previsto en el plan integrado de seguridad, acciones de comunicación para informar a las partes necesarias del impacto del incidente. Esto puede sólo ser interno o, si se trata de datos de clientes y de una red amplia de pagos, incluso de cara a las autoridades. 
 Internamente, las mejores prácticas deben incluir el compartir informes de gestión y  extracción de segmentos de datos y, a continuación, la preparación y la atenuación de los efectos  de un posible ataque continuo, basándose en los procesos de inspección y el despliegue de la analítica de amenazas cognitivas de una solución profesional, para entender el plan propio y características del ataque, y así planificar la protección en el futuro inmediato y a mediano plazo. 
 
-La seguridad integrada, física y tecnológica, debe ser parte de una estrategia sostenida para asegurar y apoyar los resultados de negocio esperados en un retail. Cualquier descuido en este aspecto, una vulneración no prevista ni atendida, puede significar años perdidos de esfuerzo y trabajo en el mercado. Un reciente estudio de Deloitte mostró que el 73% de los clientes reconsideraron seguir comprando en una tienda si fallaba en mantener sus datos a salvo, aunque la tuvieran como cercana (tradicional) desde hace tiempo. 
-
+La seguridad integrada, física y tecnológica, debe ser parte de una estrategia sostenida para asegurar y apoyar los resultados de negocio esperados en un retail. Cualquier descuido en este aspecto, una vulneración no prevista ni atendida, puede significar años perdidos de esfuerzo y trabajo en el mercado. Un reciente estudio de Deloitte mostró que el 73% de los clientes reconsideraron seguir comprando en una tienda si fallaba en mantener sus datos a salvo, aunque la tuvieran como cercana (tradicional) desde hace tiempo.
