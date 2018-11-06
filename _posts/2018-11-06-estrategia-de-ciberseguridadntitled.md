@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2018'
-title: Estrategia de ciberseguridadntitled
+title: Estrategia de ciberseguridad
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciberataque-p.jpg
 detail-image: >-
