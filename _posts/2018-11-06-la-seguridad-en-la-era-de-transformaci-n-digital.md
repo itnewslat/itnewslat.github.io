@@ -8,7 +8,7 @@ superArticle: false
 year: '2018'
 title: La seguridad en la era de transformación digital
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-hacker-monitor-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-hacker-monitor-g.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-hacker-monitor-g.jpg
 categories:
@@ -43,4 +43,4 @@ Para lograr mantener toda la información a salvo, ThinkShield ofrece un portafo
   
 - **Seguridad de los dispositivos**: Una vez que los dispositivos llegan al final de su ciclo de vida, Lenovo mantiene la seguridad de los datos potencialmente confidenciales limpiando las unidades y reciclando de forma segura cada pieza.
 
-De esta forma, el usuario puede estar seguro de que adquiere tecnología de punta y segura, sin poner en riesgo la información de su compañía. 
+De esta forma, el usuario puede estar seguro de que adquiere tecnología de punta y segura, sin poner en riesgo la información de su compañía.
