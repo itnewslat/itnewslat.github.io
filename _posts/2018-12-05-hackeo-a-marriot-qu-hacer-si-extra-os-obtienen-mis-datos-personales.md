@@ -10,7 +10,7 @@ title: 'Hackeo a Marriot: ¿Qué hacer si extraños obtienen mis datos personale
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-Hacker-G.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-Hacker-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-Hacker-P.jpg
 categories:
   - Venezuela
   - Colombia
