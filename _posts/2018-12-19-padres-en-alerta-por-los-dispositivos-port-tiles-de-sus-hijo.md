@@ -8,7 +8,7 @@ superArticle: false
 year: '2018'
 title: Padres en alerta por los dispositivos portátiles de sus hijo
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jugando-pg.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jugando-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Jugando-g.jpg
 categories:
