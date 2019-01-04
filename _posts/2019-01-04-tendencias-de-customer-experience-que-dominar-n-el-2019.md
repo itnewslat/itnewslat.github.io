@@ -27,6 +27,8 @@ week: '1'
 
 ![Por Eva García Luna, Consultora de Soluciones para Zendesk](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Eva-Garcia-Luna.jpg)
 
+**Por Eva García Luna, Consultora de Soluciones para Zendesk**
+
 El futuro de la experiencia de cliente ya llegó. Desde herramientas de automatización al análisis prescriptivo de datos, empresas progresistas están buscando mejores formas de servir a sus clientes. Desde startups a multinacionales, hoy día, cada vez más empresas se dan cuenta del impacto y el valor que tiene poner al cliente en el centro de su estrategia para sus negocios y están buscando nuevas estrategias para conquistarlo y retenerlo.
 
 Durante 2018 muchas tendencias de CX surgieron y empezaron a fortalecerse, teniendo un gran impacto en el sistema de atención al cliente en Argentina y en el mundo. Ya son varias las nuevas tecnologías que se establecen con fuerza en el país, y se estima que la inteligencia artificial podría llevar el crecimiento a más de 4% anual en Argentina.
