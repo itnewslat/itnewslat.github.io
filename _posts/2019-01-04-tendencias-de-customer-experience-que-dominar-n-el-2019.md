@@ -25,7 +25,7 @@ week: '1'
 ---
 **¿Qué tecnologías y estrategias tener en cuenta para conquistar a tus clientes en este nuevo año?**
 
-![Por Eva García Luna, Consultora de Soluciones para Zendesk]({{site.baseurl}}/https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Eva-Garcia-Luna.jpg)
+![Por Eva García Luna, Consultora de Soluciones para Zendesk](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Eva-Garcia-Luna.jpg)
 
 El futuro de la experiencia de cliente ya llegó. Desde herramientas de automatización al análisis prescriptivo de datos, empresas progresistas están buscando mejores formas de servir a sus clientes. Desde startups a multinacionales, hoy día, cada vez más empresas se dan cuenta del impacto y el valor que tiene poner al cliente en el centro de su estrategia para sus negocios y están buscando nuevas estrategias para conquistarlo y retenerlo.
 
