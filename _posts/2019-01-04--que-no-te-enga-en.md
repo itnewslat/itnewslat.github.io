@@ -45,7 +45,6 @@ week: '1'
 <p style="text-align: justify;">Luego del fraude proveniente del entorno, la ingeniería social ocupa el lugar más popular en la lista de artificios utilizados por los delincuentes para obtener información, recuerda que en internet hay mucha base para que los atacantes hagan preguntas que aparentan venir de entidades confiables. </p>
 
 ¡Que no te engañen!
-</p>
 
 <table style="height: 352px;" width="622">
 <tbody>
