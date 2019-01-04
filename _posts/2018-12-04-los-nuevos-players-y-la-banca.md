@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: true
 year: '2018'
-title: Los nuevos players y la banca
+title: ¡Que no te engañen!
 week: '49'
 tags:
   - Actualidad
@@ -23,20 +23,29 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/banca-online-g.jpg
 ---
-<p style="text-align: justify;">Luego de superada la crisis de los bancos del 2014, las instituciones financieras se encontraron con un cliente diferente, la tecnología vino ganando accesibilidad. Nuevos players se aprovecharon de este cambio en los usuarios, junto a la crisis ganar y falta de regulaciones posicionaron medios de pago alternativos. los clientes iniciaron un tránsito sin retorno aparente a la era digital. Pero, en qué consiste esta nueva era? Pues muy fácil, los móviles inteligentes están cambiando el mundo. Los chats, las redes sociales, la colaboración, la inmediatez de la información; en fin, múltiples factores que hacen que empresas tradicionales de atención al clientes deban evolucionar.</p>
-<p style="text-align: justify;">Este cambio, ha permitido la aparición de los Shadow bakign y nuevos jugadores, en especial, en medio de pago alternativo. Los clientes, cada día más comparten su información en busca de servicios de calidad y bajo costo. La banca está en problemas. Las regulaciones, la reducción de presupuesto en TI, las estructuras organizativas tradicionales y la carencia de medios alternativos para interactuar con sus clientes, deben hacer reflexionar a todo ejecutivo realmente preocupado por su organización.</p>
-<p style="text-align: justify;">Cada día es más fácil convertir cualquier institución en un banco y muchos están trabajando en esto, para ganar la batalla, los bancos deben enfocarse en el momento de vida, beben ofrecer lo que realmente necesita el cliente en el momento justo. Si los bancos no ganan contacto cercano con los clientes y entienden el papel que pueden juegar sus productos en el momento justo usando su data transaccional, van a pasar a convertirse en utilities. La Smart Data será la clave del éxito, el banco podrá vender productos no tradicionales aprovechando su mejor recurso; los datos.</p>
-<p style="text-align: justify;">Es así como los canales de los bancos deben apuntar a un rol específico:</p>
+<p style="text-align: justify;">La ciudad de Troya fue conquistada alrededor del año 1300 a.C., tras diez años de asedio. El plan de los griegos para su conquista incluía el caballo de Troya, que guardaba en su interior los soldados que acabarían ocupando la ciudad. Lo que parecía un obsequio, resultó ser la trampa que catapultaría el sitio de Troya. No es casualidad entonces que troyanos sea el nombre seleccionado para llamar a esos pequeños programas que son capaces de tomar control de nuestra computadora y ejecutar tareas no autorizadas por nosotros</p>
 
-<ul>
-	<li><strong>Web</strong>:   canal principal</li>
-	<li><strong>Móvil</strong>: operaciones simples y de rápido acceso Tablet :operaciones en domicilio Call center o chat bot: resolución de problemas</li>
-	<li><strong>Cajero</strong>: retirar efectivo, mientras siga existiendo, se estiman 10 años más de vida</li>
-	<li><strong>Oficina</strong>: como un canal residual, deberá ser diseñado solo para atender necesidad de consejo y gente mayor. Más rentables orientadas al asesoramiento y no a la transaccionalidad</li>
-</ul>
-<p style="text-align: justify;">Un cliente bancario debe obtener ofertas personalizadas y canales para difundir su experiencia. Hoy en día el boca a boca e intercambio de experiencias es mejor que la publicidad tradicional, las redes sociales deben jugar un nuevo papel para la banca y dejar de ser solo un canal de quejas del cliente</p>
-<p style="text-align: justify;">La mejor plataforma de Social Banking no funciona si no hay cambio en la mentalidad para operar.</p>
-<p style="text-align: justify;">Parece poco y hasta suena fácil, pero es todo un reto de cambio de mentalidad, el nacimiento y aceptación de las finTech serán la salida.</p>
+<p style="text-align: justify;">Ahora bien, construir esta pieza de software lleva tiempo, compartirla, no es imposible, pero cada día existen más recursos que las identifican y bloquean, por lo que el más eficiente caballo de Troya hoy día es la Ingeniería Social. </p>
+
+<p style="text-align: justify;">La Ingeniería Social se puede definir como una forma de ciberataque que depende de la interacción humana. Suele implicar el engaño a las víctimas para ganar su confianza y que rompan procedimientos normales de seguridad, logrando que ellos mismos otorguen la información a los atacantes sin siquiera darse cuenta.</p>
+
+<p style="text-align: justify;">La práctica de troyanos dispuestos a atacar la banca Venezolana es irrisoria, las prácticas habituales en Venezuela se enfocan en el phishing y la ingeniería social. Para el momento en que la banca reforzaba sus accesos con factores como la tarjeta de coordenadas, los atacantes realizaban envíos de correo con llamados a páginas falsas donde el cliente “descargaba” toda la información solicitada, desde el usuario y clave hasta toda su tarjeta de coordenadas (un método común de phishing). Sin duda la más efectiva y utilizada treta para acceder las cuentas es la ingeniería social. Una simple llamada telefónica en un momento en el que nos encontramos concentrados en alguna actividad importante, puede facilitar al agresor obtener datos sensibles de un cliente.</p>
+
+<p style="text-align: justify;">Una llamada alertando un posible evento de fraude logra, con cierta facilidad, que un cliente comparta información que facilitará al atacante a obtener información privilegiada. Mientras más tiempo estemos en la línea con la persona en línea, más peligro corremos. Siempre que recibamos una llamada de un banco debemos asegurarnos de que el amable “funcionario” trabaje para la institución financiera.</p>
+
+<ol>
+	<li>Desconfía de ofertas que te encuentres en redes sociales. Visita la página web de la empresa y comprueba si tienen algún descuento o promoción en marcha. Si no ves la oferta en el perfil oficial es que no existe.</li>
+	<li>Ojo a los correos y comunicaciones con el asunto urgente o confidencial de entidades bancarias o seguros. Los bancos no piden las claves de acceso a través del mail por lo que evita este tipo de enlaces y, ante la más mínima duda, ponte en contacto con tu entidad para comprobar la veracidad de la comunicación.</li>
+	<li>En tu oficina ten instalado y actualizado algún sistema de seguridad como cortafuegos o antivirus. Verifica con ellos cualquier archivo adjunto que te llegue a través de correos electrónicos que, en muchas ocasiones, puede parecer que provienen de tu propia compañía. infórmate hay antivirus gratuitos para PC y MAC.</li>
+	<li>Evita participar en juegos y promociones virales que veas en los perfiles de tus amigos en redes sociales. En la gran mayoría de los casos cuando accedes estás autorizando el acceso a tus claves de entrada a tu perfil.</li>
+<li>En el caso de los mensajes SMS conviene que no “pinches” en los enlaces que incorporan y que, al igual que en los casos anteriores, en caso de ser urgente lo mejor es que te pongas en contacto directo con el remitente.</li>
+<li>Cualquier llamada que recibas, verifica el origen, si desconfías, si requieres validar mejor cierra la llamada y toma tu tiempo. Si es importante volverán a llamar. Mientras más insistente o apurado estén del otro lado de la llamada desconfía aun más.</li>
+</ol>
+
+<p style="text-align: justify;">Luego del fraude proveniente del entorno, la ingeniería social ocupa el lugar más popular en la lista de artificios utilizados por los delincuentes para obtener información, recuerda que en internet hay mucha base para que los atacantes hagan preguntas que aparentan venir de entidades confiables. </p>
+
+¡Que no te engañen!
+</p>
 
 <table style="height: 352px;" width="622">
 <tbody>
