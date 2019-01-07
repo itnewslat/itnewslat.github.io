@@ -2,10 +2,10 @@
 layout: posts
 color-schema: red-dark
 date: '2019-01-07 09:59 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2012'
+year: '2019'
 title: >-
   Fortinet se desempeña como socio fundador del Centro para la Ciberseguridad
   del Foro Económico Mundial 
