@@ -8,7 +8,7 @@ superArticle: false
 year: '2019'
 title: Carta del CEO Huawei Consumer Business Group a sus clientes
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/carta-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/carta-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/carta-g.jpg
 categories:
