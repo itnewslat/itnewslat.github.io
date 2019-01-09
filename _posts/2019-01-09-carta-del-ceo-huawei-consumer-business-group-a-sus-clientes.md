@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2019-01-09 16:56 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2019'
