@@ -10,7 +10,7 @@ title: >-
   La promesa de LG Electronics en Inteligencia Artificial para entregar un mejor
   estilo de vida con el Keynote de CES 2019 
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/LG-Keynote-Ces-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/LG-Keynote-Ces-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/LG-Keynote-Ces-g.jpg
 categories:
