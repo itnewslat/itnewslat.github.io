@@ -7,9 +7,10 @@ superNews: false
 superArticle: false
 year: '2019'
 title: El 2019 será el año protagónico de la nube como aliada de las empresas
-image: 'https://github.com/itnewslat/assets/blob/master/img/540x320/Ines-Arteaga-p.jpg'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ines-Arteaga-p.jpg
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/Ines-Arteaga-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ines-Arteaga-g.jpg
 categories:
   - Venezuela
   - Colombia
