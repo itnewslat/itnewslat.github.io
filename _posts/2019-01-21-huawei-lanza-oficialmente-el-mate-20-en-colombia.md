@@ -17,6 +17,8 @@ tags:
   - Movilidad
   - Actualidad
 week: '4'
+image-banner: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Huawei-Mate-G.jpg
 ---
 - El HUAWEI Mate 20 incorpora un notch en forma de gota en su pantalla, que permite a los usuarios disfrutar de una perspectiva más amplia
 - Al igual que el modelo Pro, el HUAWEI Mate 20 ha sido fabricado con la tecnología de procesamiento más sofisticada y poderosa del mercado: el Kirin 980.
