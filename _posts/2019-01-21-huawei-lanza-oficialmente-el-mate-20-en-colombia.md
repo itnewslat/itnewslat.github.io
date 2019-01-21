@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2019-01-21 13:59 -0400'
 published: true
-superNews: false
+superNews: true
 superArticle: false
 year: '2019'
 title: HUAWEI lanza oficialmente el Mate 20 en Colombia
@@ -17,6 +17,8 @@ tags:
   - Movilidad
   - Actualidad
 week: '4'
+image-banner: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Huawei-Mate-L.jpg
 ---
 - El HUAWEI Mate 20 incorpora un notch en forma de gota en su pantalla, que permite a los usuarios disfrutar de una perspectiva más amplia
 - Al igual que el modelo Pro, el HUAWEI Mate 20 ha sido fabricado con la tecnología de procesamiento más sofisticada y poderosa del mercado: el Kirin 980.
