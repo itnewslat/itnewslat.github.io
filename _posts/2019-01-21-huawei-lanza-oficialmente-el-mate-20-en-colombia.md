@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2019-01-21 13:59 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2019'
 title: HUAWEI lanza oficialmente el Mate 20 en Colombia
 image: >-
@@ -16,8 +16,6 @@ categories:
 tags:
   - Movilidad
   - Actualidad
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Huawei-Mate-L.jpg
 week: '4'
 ---
 - El HUAWEI Mate 20 incorpora un notch en forma de gota en su pantalla, que permite a los usuarios disfrutar de una perspectiva más amplia
@@ -45,4 +43,4 @@ De igual manera, EMUI 9.0 incorpora un diseño unificado, ergonómico y simplifi
  
 **Precio y disponibilidad**
 
-El HUAWEI Mate 20 llega al mercado colombiano a partir del próximo 19 de enero. El dispositivo se puede conseguir en los diferentes almacenes de cadena Falabella, Alkosto y Ktronix a nivel nacional, con un precio sugerido para venta de $2.799.900 IVA incluido. 
+El HUAWEI Mate 20 llega al mercado colombiano a partir del próximo 19 de enero. El dispositivo se puede conseguir en los diferentes almacenes de cadena Falabella, Alkosto y Ktronix a nivel nacional, con un precio sugerido para venta de $2.799.900 IVA incluido.
