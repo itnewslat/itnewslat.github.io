@@ -8,7 +8,7 @@ superArticle: false
 year: '2019'
 title: 'Dispositivos conectados: ESET revela cómo mantener segura la información IoT'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Celulares-g.jpg
 categories:
