@@ -2,17 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-01-23 09:09 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   3 Razones por las cuales el teletrabajo representa una ventaja a la hora de
   atraer, retener y motivar el talento
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Hombre-Teletrabajo-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Hombre-Teletrabajo-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Hombre-Teletrabajo-g.jpg
+week: '4'
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
 ---
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Ana-Singh.jpg)
 
@@ -43,4 +54,4 @@ Dell cuenta con un programa de Trabajo Flexible titulado “Connected Workplace�
 
 ‘’El éxito del programa radica en que está muy bien estructurado; el objetivo del mismo es claro y compartido por el nivel más alto de la empresa y nuestros grupos de apoyo de empleados son una gran forma de mantener la participación, colaboración e involucramiento de todos los colaboradores (residentes o remotos) en las actividades que desarrolla la empresa’’ expresó Sigh.
 
-‘’Hoy en día, yo soy usuario del programa y una fiel promotora del Trabajo Flexible en Dell. Mi perspectiva como Líder es que me permite tener una fuerza de trabajo más comprometida, entregada y productiva ya que manejan de una manera más eficiente su tiempo y saben que cuentan con la flexibilidad para poder balancear su vida personal y profesional. Lo importante es que cumplan con los objetivos planteados en tiempo y forma y no cuándo o dónde realicen el trabajo. A nivel personal también soy usuaria y fiel creyente de las ventajas del mismo. La flexibilidad me permite manejar mis prioridades laborales y personales de una manera óptima. Gracias a la misma, sé que no necesito ausentarme de los momentos importantes de mis hijos como, por ejemplo, alguna obra en la escuela, ya que la medición de mi desempeño personal y el de mi equipo es en base a resultados’’ concluyó Sigh. 
+‘’Hoy en día, yo soy usuario del programa y una fiel promotora del Trabajo Flexible en Dell. Mi perspectiva como Líder es que me permite tener una fuerza de trabajo más comprometida, entregada y productiva ya que manejan de una manera más eficiente su tiempo y saben que cuentan con la flexibilidad para poder balancear su vida personal y profesional. Lo importante es que cumplan con los objetivos planteados en tiempo y forma y no cuándo o dónde realicen el trabajo. A nivel personal también soy usuaria y fiel creyente de las ventajas del mismo. La flexibilidad me permite manejar mis prioridades laborales y personales de una manera óptima. Gracias a la misma, sé que no necesito ausentarme de los momentos importantes de mis hijos como, por ejemplo, alguna obra en la escuela, ya que la medición de mi desempeño personal y el de mi equipo es en base a resultados’’ concluyó Sigh.
