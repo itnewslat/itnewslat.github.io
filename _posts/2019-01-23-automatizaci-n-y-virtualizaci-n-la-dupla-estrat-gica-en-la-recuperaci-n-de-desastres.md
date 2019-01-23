@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-01-23 09:35 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   Automatización y virtualización: la dupla estratégica en la recuperación de
-  desastres
+  desastres  
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Desastres-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Desastres-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '4'
 ---
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Randall-Cruz.jpg)
 
