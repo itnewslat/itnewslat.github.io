@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-01-28 13:02 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: ¿Cómo incrementar las ventas online a través de una estrategia de contenidos?
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/compras-online-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/compras-online-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
+week: '5'
 ---
 **Por Natalia Vargas, CMO Lentesplus.com**
 
