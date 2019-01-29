@@ -20,3 +20,19 @@ Además de una distribución de datos descentralizada, IPFS hace posible el acce
 
 Habrá que esperar a ver cómo evoluciona IPFS y si consigue universalizarse al igual que HTTP, pero todo apunta a que los protocolos de Internet que nacieron hace +20 años, podrían tener los días contados.
 
+<table style="height: 352px;" width="622">
+<tbody>
+<tr>
+<td><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/LMB.jpg" alt="" width="266" height="253" /></td>
+  <td><Strong>Luis Miguel Bevilacqua</Strong>
+
+Experto en Estrategia Digital y Tecnología Financiera
+
+Fundador- CEO de FinHack
+
+CoFundador de Wheko
+
+@FinHackin – FinHack.in</td>
+</tr>
+</tbody>
+</table>
