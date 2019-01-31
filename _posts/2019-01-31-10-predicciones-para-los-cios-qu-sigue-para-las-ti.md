@@ -8,11 +8,11 @@ superArticle: false
 year: '2019'
 title: '10 predicciones para los CIOs: ¿Qué sigue para las TI?  '
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivos
-  Ejecutivo CIO-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivo
+  CIO-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ejecutivos
-  Ejecutivo CIO-g.jpg
+  CIO-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -62,4 +62,4 @@ La transformación digital sigue siendo un imperativo urgente para las organizac
   Las empresas deben ganarse la confianza de los clientes manteniendo su información personal bien protegida. O las empresas se enfrentarán a una reacción negativa.
 10.	**5G, RA y RV.**
 
-  Este año será un gran año para los lanzamientos de redes 5G, particularmente en China, Estados Unidos, Japón, Corea del Sur y Reino Unido. Pero creo que 2020 es el año en el que realmente despegará. Con 5G, es concebible que los dispositivos RA/RV mejoren nuestros teléfonos inteligentes. Los vehículos autónomos no se quedarán atrás ya que la IA y 5G trabajan mano a mano para brindar experiencias que solo recientemente parecían estar a décadas de distancia. ¿Ocurrirá en 2019? No es probable. Pero en cualquier caso, ¡estaremos listos para ello! 
+  Este año será un gran año para los lanzamientos de redes 5G, particularmente en China, Estados Unidos, Japón, Corea del Sur y Reino Unido. Pero creo que 2020 es el año en el que realmente despegará. Con 5G, es concebible que los dispositivos RA/RV mejoren nuestros teléfonos inteligentes. Los vehículos autónomos no se quedarán atrás ya que la IA y 5G trabajan mano a mano para brindar experiencias que solo recientemente parecían estar a décadas de distancia. ¿Ocurrirá en 2019? No es probable. Pero en cualquier caso, ¡estaremos listos para ello!
