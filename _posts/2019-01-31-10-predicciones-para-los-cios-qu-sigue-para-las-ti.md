@@ -8,8 +8,7 @@ superArticle: false
 year: '2019'
 title: '10 predicciones para los CIOs: ¿Qué sigue para las TI?  '
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivo
-  CIO-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivo%20CIO-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ejecutivos
   CIO-g.jpg
