@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-02-04 10:52 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: 'Predicciones analíticas de FICO para el 2019: innovaciones para una IA ética'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/inteligencia-artificial-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/inteligencia-artificial-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '6'
 ---
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Scott_Zoldi.jpg)
 
