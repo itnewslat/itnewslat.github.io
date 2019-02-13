@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-02-13 16:55 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: 6 Conductas del consumidor digital que exigen un marketing omnicanal
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Consumidor-Digital-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Consumidor-Digital-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
+week: '8'
 ---
 Analizar los procesos de compra que el consumidor digital adquiere tanto en el canal online como en el offline, representa una valiosa fuente de información para elaborar efectivas estrategias de marketing omnicanal.
  
@@ -37,4 +52,3 @@ Para Begoña Sáchez Barrado existen seis rasgos que determinan el comportamient
 Afirma Sánchez Barrado que “en el mercado actual los dos modelos de comportamiento que están más afianzados en el consumidor digital son los modelos ‘online to online’ y el modelo ROPO”. Según el último estudio sobre eCommerce de la IAB, en el primero de ellos están representados el 69% de los internautas que compran en Internet, mientras que el modelo ROPO lo practican el 22% de los consumidores. Apenas un 9% de los consumidores actuales acude previamente al establecimiento físico para informarse sobre el producto y luego lo compra online. 
  
 “El afianzamiento del modelo de comportamiento ROPO está relacionados con la conexión emocional que el consumidor busca con el producto o servicio que desea adquirir, conexión emocional que la red no le puede ofrecer y si el establecimiento físico, donde el usuario puede entrar en contacto directo con el producto, tocarlo, probarlo, escucharlo, y en el caso de querer adquirir un servicio, contar con una persona que le asesore sobre las bondades del mismo”, destaca. “Otra de las razones del auge de este modelo de comportamiento podemos encontrarla en la exigencia del actual consumidor, que una vez que adquiere el producto, lo quiere tener cuanto antes. La adquisición del producto en la tienda física le proporciona esa inmediatez”.
-
