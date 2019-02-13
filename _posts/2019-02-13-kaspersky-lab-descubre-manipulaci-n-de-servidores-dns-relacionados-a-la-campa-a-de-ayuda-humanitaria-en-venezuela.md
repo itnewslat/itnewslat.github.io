@@ -29,11 +29,11 @@ Investigadores de Kaspersky Lab emitieron un alerta hoy al descubrir la manipula
 
 ¿Cómo funciona? Los voluntarios se registran en un sitio web y luego reciben instrucciones sobre cómo ayudar. El sitio web original solicita a los voluntarios que proporcionen su nombre completo, identificación personal, número de teléfono celular, y si cuentan con un título médico, un automóvil o un teléfono inteligente. También se les solicita la ubicación del lugar donde viven:
 
- ![](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/02/13121529/190213-dns-venezuela-1.png)
+ ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/DNS1.jpg)
 
 Este sitio web apareció en línea el 6 de febrero. Solo unos días después, el 11 de febrero, el día después del anuncio público de la iniciativa, apareció otro sitio web casi idéntico con un nombre y estructura de dominio muy similar.
 
-![](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/02/13121558/190213-dns-venezuela-2.png) 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/dns2.jpg) 
 
 De hecho, el sitio web falso es el reflejo del sitio web original, voluntariosxvenezuela.com.
 Tanto el sitio web original como el falso usan SSL de Let's Encrypt. Las diferencias son las siguientes:
@@ -69,13 +69,13 @@ Tanto el sitio web original como el falso usan SSL de Let's Encrypt. Las diferen
 
 Ahora, la parte más aterradora es que estos dos dominios diferentes, con propietarios diferentes, dirigen el tráfico dentro de Venezuela a la misma dirección IP, que pertenece al propietario del dominio falso:
 
- ![](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/02/13121620/190213-dns-venezuela-3.png)
+ ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/dns3.jpg)
 
 Eso significa que no importa si un voluntario abre la página del dominio legítimo o el falso, de igual manera introducirá su información personal en un sitio web falso.
 
 Ambos dominios, si se resuelven fuera de Venezuela, presentan resultados diferentes:
 
- ![](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/02/13121641/190213-dns-venezuela-4.png)
+ ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/dns4.jpg)
 
 Kaspersky Lab bloquea el dominio falso como phishing.
 
