@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-02-13 16:18 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: Buenas prácticas en la instalación de Cableado Estructurado
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cableado-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cableado-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '7'
 ---
 **La instalación de una solución de cableado estructurado requiere el conocimiento de las normas técnicas que aseguran un trabajo con calidad.**
 
@@ -39,4 +54,4 @@ Buenas prácticas para la instalación y acomodación de cables de cobre:
 •	Evitar el uso de distribuidores ópticos abiertos y/o con suciedad en su interior.
 •	Seguir la recomendación de las fichas técnicas con respecto a la curvatura de los cables evitando radios muy pequeños durante y después la instalación para que no ocurran problemas ópticos y mecánicos.
 •	Realizar un correcto almacenamiento de las bobinas/carretes de fibra.
-Estas prácticas sencillas y combinadas al cumplimiento de las normas de referencia ayudan a garantizar instalaciones correctas con excelente desempeño durante toda la vida útil del proyecto. 
+Estas prácticas sencillas y combinadas al cumplimiento de las normas de referencia ayudan a garantizar instalaciones correctas con excelente desempeño durante toda la vida útil del proyecto.
