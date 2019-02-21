@@ -8,7 +8,7 @@ superArticle: false
 year: '2019'
 title: 'Contenedores: Una solución a la modernización de aplicaciones'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/programacion-pg.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/programacion-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/programacion-g.jpg
 categories:
