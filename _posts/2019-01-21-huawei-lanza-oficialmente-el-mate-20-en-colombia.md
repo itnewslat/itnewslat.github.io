@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2019-01-21 13:59 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2019'
 title: HUAWEI lanza oficialmente el Mate 20 en Colombia
