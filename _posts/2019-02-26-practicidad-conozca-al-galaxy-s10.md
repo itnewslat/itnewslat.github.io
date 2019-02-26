@@ -62,12 +62,11 @@ La tecnología Wireless PowerShare3 del Galaxy S10 le permite compartir su energ
 - 2 Disponible para el Galaxy S10+.
 - 3 Wireless PowerShare está limitado a Samsung u otros smartphones de la marca con carga inalámbrica WPC Qi, como Galaxy S9, S9+, S8, S8+, S8 Active, S7, S7 edge, S7 Active, S6, S6 edge, S6 Active, S6 edge+, Note9, Note8, Note FE, Note5, y wearables como Galaxy Watch Active, Gear Sport, Gear S3, Galaxy Watch (46/42 mm) y Galaxy Buds. Es posible que no funcione con ciertos accesorios, estuches u otros dispositivos de la marca. Puede afectar la recepción de llamadas o los servicios de datos, según su entorno de red.
 
-
-[Hands-On] El diseño premium del Galaxy S10
-[youtube]https://www.youtube.com/watch?v=bfwebjRUfHA[/youtube]
-[Hands-On] La cámara épica del Galaxy S10
-[youtube]https://www.youtube.com/watch?v=CD3FKs8ogEY[/youtube]
-[Hands-On] La pantalla dinámica del Galaxy S10 
-[youtube]https://www.youtube.com/watch?v=LetvrUYX0yM[/youtube]
-[Hands-On] La avanzada tecnología de carga del Galaxy S10
-[youtube]https://www.youtube.com/watch?v=j02d0k0XDKU[/youtube]
+**El diseño premium del Galaxy S10**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bfwebjRUfHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**La cámara épica del Galaxy S10**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CD3FKs8ogEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**La pantalla dinámica del Galaxy S10**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LetvrUYX0yM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**La avanzada tecnología de carga del Galaxy S10**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j02d0k0XDKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
