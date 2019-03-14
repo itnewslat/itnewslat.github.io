@@ -10,7 +10,7 @@ title: >-
   Western Digital es nombrada una de las compañías más éticas del mundo por el
   Instituto Ethisphere
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/100x100-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/100x100-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/100x100-g.jpg
 categories:
