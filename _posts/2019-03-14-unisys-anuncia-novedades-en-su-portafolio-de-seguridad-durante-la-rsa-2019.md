@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-03-14 12:53 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: Unisys anuncia novedades en su portafolio de seguridad durante la RSA 2019
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/RSA-2019-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/RSA-2019-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Actualidad
+week: '11'
 ---
 **Tres nuevas soluciones refuerzan el enfoque Zero Trust de la compañía y proporcionan respuestas innovadoras a los principales retos de seguridad cibernética**
 
