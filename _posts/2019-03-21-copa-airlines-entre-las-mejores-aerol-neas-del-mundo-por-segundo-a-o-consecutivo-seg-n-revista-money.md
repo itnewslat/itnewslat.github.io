@@ -9,10 +9,8 @@ year: '2019'
 title: >-
   Copa Airlines, entre las mejores aerolíneas del mundo por segundo año
   consecutivo, según revista Money
-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/CopaAirlines-g.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/CopaAirlines-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/CopaAirlines-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -24,6 +22,8 @@ categories:
 tags:
   - Actualidad
 week: '12'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/CopaAirlines-p.jpg
 ---
 - La prestigiosa revista Money evaluó costos, tarifas, experiencia del cliente y desempeño de vuelo de 70 aerolíneas internacionales, distinguiendo a Copa Airlines entre las mejores aerolíneas del mundo y la mejor de Latinoamérica
 - La publicación consideró que Copa Airlines es “famosa por su fiabilidad”, al tiempo que destacó que es “la mejor aerolínea de Latinoamérica en términos de valor”
@@ -36,4 +36,4 @@ Copa Airlines, subsidiaria de Copa Holdings, S. A, {NYSE: CPA}, y miembro de la 
 En su edición de abril de este año, la revista estadounidense resaltó que Copa Airlines es “famosa por su fiabilidad”, destacando su alto índice de puntualidad que recientemente fue reconocido por la OAG de Londres como el mejor del mundo en 2018, al tiempo que la consideró como “la mejor aerolínea de Latinoamérica en términos de valor”. 
 Además del reconocimiento de la OAG, FlightStats también distinguió a Copa Airlines como “La aerolínea más puntual de Latinoamérica” por sexto año consecutivo, ratificando que la puntualidad es un sello diferenciador de la aerolínea por excelencia, aspecto valorado por organismos internacionales y, en especial, por los pasajeros.
 
-Copa Airlines opera actualmente un promedio de 350 vuelos diarios a través del Hub de las Américas, el centro de conexiones con más vuelos internacionales en la región, ubicado en el Aeropuerto Internacional de Tocumen, en Ciudad de Panamá, y desde donde conecta a 81 ciudades de 33 países de Norte, Centro y Sudamérica y el Caribe. 
+Copa Airlines opera actualmente un promedio de 350 vuelos diarios a través del Hub de las Américas, el centro de conexiones con más vuelos internacionales en la región, ubicado en el Aeropuerto Internacional de Tocumen, en Ciudad de Panamá, y desde donde conecta a 81 ciudades de 33 países de Norte, Centro y Sudamérica y el Caribe.
