@@ -10,7 +10,7 @@ title: >-
   El servicio bancario, un dilema que cuenta con soluciones pero demanda cambios
   profundos
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Banco-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/banco-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Banco-g.jpg
 categories:
