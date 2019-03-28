@@ -2,15 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-03-28 12:39 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: Amadeus posibilita experiencias digitales revolucionarias para los viajeros
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Viajeros-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Viajeros-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
+week: '13'
 ---
 **El reconocimiento de Amadeus como Adobe Exchange Partner of the Year permite a Avianca y Malaysia Airlines impulsar sus capacidades de personalización gracias a esta innovadora alianza**
 
