@@ -43,6 +43,7 @@ Al intentar abrir el archivo comprimido utilizando el visor predeterminado del E
 Algunas utilidades como WinRAR y 7-Zip simplemente ignoran el prefijo y extraen su contenido correctamente. Una vez que el usuario extrae el archivo con cualquiera de estas utilidades, este se ejecuta e infecta el sistema.
 
 ![](https://media.kasperskycontenthub.com/wp-content/uploads/sites/63/2019/03/28035922/return-of-bom-3.png) 
+
 _Malware extraído con éxito a través de WinRAR_
 
 Después de ejecutar una secuencia de procesos que buscan evitar la detección de las acciones maliciosas, se descarga el malware principal: variantes de un malware bancario con funciones de RAT que queda latente en el equipo de la víctima hasta cuando el usuario intente acceder a su banca por Internet. En ese momento, comenzará a capturar tokens, código de acceso, fecha de cumpleaños, contraseña de acceso, entre otras formas de autenticación bancaria.
