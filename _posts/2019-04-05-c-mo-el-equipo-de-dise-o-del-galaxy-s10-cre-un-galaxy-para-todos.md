@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-04-05 15:08 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: Cómo el equipo de diseño del Galaxy S10 creó un Galaxy para todos
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Samsung-S10-Combo-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Samsung-S10-Combo-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Movilidad
+week: '14'
 ---
 La línea Galaxy S10 celebra una década de innovación Galaxy con nuevas funciones increíbles y tecnologías galardonadas. Pero lo primero que notarán los consumidores cuando vean un nuevo Galaxy S10 no es la pantalla dinámica AMOLED ni el sistema de cámara profesional, sino su atractivo diseño.
 
