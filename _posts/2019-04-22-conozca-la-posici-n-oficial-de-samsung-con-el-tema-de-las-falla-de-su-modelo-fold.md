@@ -25,7 +25,7 @@ tags:
   - Movilidad
 week: '17'
 ---
-El equipo de trabajo de ITNEWS.LAT consultó con el fabricante surcoreano por los diferentes reportes sobre fallas en su reciente modelo **Samsung Galaxy Fold**, el cual fue presentado a los medios a principios de este año y que, durante el pasado **Mobile World Congress de Barcelona**.
+El equipo de trabajo de ITNEWS.LAT consultó con el fabricante surcoreano por los diferentes reportes sobre fallas en su reciente modelo **Samsung Galaxy Fold**, el cual fue presentado a los medios a principios de este año, durante el pasado **Mobile World Congress de Barcelona**.
 
 - "La pantalla de mi Galaxy Fold quedó completamente rota e inservible en solo dos días. Es difícil saber si este es un problema generalizado", escribió Mark Gurman, periodista de Bloomberg, desde su cuenta de Twitter.
 
