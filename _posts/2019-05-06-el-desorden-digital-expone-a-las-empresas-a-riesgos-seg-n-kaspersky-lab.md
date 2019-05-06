@@ -42,9 +42,10 @@ Fuente: ‘Eliminar el desorden digital en los negocios’
 Para evitar ser víctima del desorden digital, Kaspersky Lab insta a las empresas a que consideren: 
  
 Capacitar a los empleados: Es muy importante que la capacitación enseñe habilidades prácticas que se puedan aplicar al trabajo diario, como con  Kaspersky Automated Security Awareness Platform.
+  
 Recordar regularmente al personal lo importante que es seguir las reglas de ciberseguridad para no dejar que las habilidades cibernéticas se desvanezcan (por ejemplo, colgando carteles con consejos en toda la oficina).
 Hacer copias de seguridad de datos esenciales para garantizar que la información corporativa esté segura y actualizar periódicamente los equipos y aplicaciones de TI para evitar vulnerabilidades que no han sido corregidas.
 
-1.	Buscar una solución dedicada para pequeñas y medianas empresas que tenga funciones de administración simple y protección comprobada, como Kaspersky Endpoint Security Cloud. 
+1. Buscar una solución dedicada para pequeñas y medianas empresas que tenga funciones de administración simple y protección comprobada, como Kaspersky Endpoint Security Cloud.
  
 El informe completo sobre el desorden digital está disponible en nuestro blog. 
