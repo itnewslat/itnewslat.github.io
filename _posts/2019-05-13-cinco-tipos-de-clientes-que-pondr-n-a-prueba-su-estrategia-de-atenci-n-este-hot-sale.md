@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-05-13 09:34 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   Cinco tipos de clientes que pondrán a prueba su estrategia de atención este
   Hot Sale
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Compradores-Varios-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Compradores-Varios-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Actualidad
+week: '20'
 ---
 **Las empresas de venta y servicios online deben estar preparadas para atender con eficiencia a los clientes más peculiares o difíciles especialmente entre este 13 y 15 de mayo**
 
