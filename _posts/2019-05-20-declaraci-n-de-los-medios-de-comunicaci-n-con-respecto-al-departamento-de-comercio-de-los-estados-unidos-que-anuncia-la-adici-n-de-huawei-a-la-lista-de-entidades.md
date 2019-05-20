@@ -27,6 +27,16 @@ tags:
   - Actualidad
 week: '21'
 ---
+Actualización
+
+**Postura de Huawei sobre la suspensión de servicios de Google**
+ 
+Huawei ha contribuido sustancialmente al desarrollo y crecimiento de Android en todo el mundo. Como uno de los socios globales clave de Android, hemos trabajado muy de cerca con su plataforma de fuente abierto para desarrollar un ecosistema que ha beneficiado tanto a usuarios como a la industria. 
+
+Huawei continuará ofreciendo actualizaciones de seguridad y servicios post-venta a todos los smartphones y tablets Huawei y Honor, incluyendo los que ya se han vendido o siguen en inventario en todo el mundo. Continuaremos construyendo un ecosistema de software seguro y sustentable, con miras a ofrecer la mejor experiencia a todos los usuarios a nivel mundial. 
+
+=============================================================================================================
+
 En un corto comunicado con fecha 16 de mayo, la empresa Huawei Technologies Co., Ltd. ha fijado posición ante la desición del departamento de comercio de los Estados Unidos 
 
 **Huawei está en contra de la decisión tomada por la Oficina de Industria y Seguridad (BIS) del Departamento de Comercio de los Estados Unidos.**
