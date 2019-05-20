@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2019-05-20 08:41 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2019'
@@ -45,4 +45,4 @@ Red Hat Enterprise Linux: un ecosistema de USD 80.000 millones Para los partners
  
 No obstante ello, IDC prevé que esta tendencia continuará entre 2018 y 2023 con ingresos netos provenientes del nuevo ecosistema superiores a los USD 135.000 millones para los partners de Red Hat. Si bien algunas de las firmas integrantes del ecosistema de Red Hat son multinacionales, otras no lo son. Según la investigación de IDC, esto significa que estas empresas regionales —alentadas por el ecosistema de Red Hat Enterprise Linux— podrían invertir más de USD 35.000 millones en las economías locales para 2023, provocando así un impacto económico a largo plazo incluso más positivo. 
  
-Stefanie Chiras, vicepresidente y gerente general, Red Hat Enterprise Linux, Red Hat “Red Hat Enterprise Linux proporciona una base flexible, estable y más segura para las organizaciones de TI que diseñan aplicaciones y servicios que comprenden la nube híbrida. Pero, como revela el informe, Red Hat Enterprise Linux es más que un simple sistema operativo; es capaz de actuar como impulsor económico que no sólo propicie el éxito de nuestros clientes sino también el de nuestros partners y los mercados mundiales en general.” 
+Stefanie Chiras, vicepresidente y gerente general, Red Hat Enterprise Linux, Red Hat “Red Hat Enterprise Linux proporciona una base flexible, estable y más segura para las organizaciones de TI que diseñan aplicaciones y servicios que comprenden la nube híbrida. Pero, como revela el informe, Red Hat Enterprise Linux es más que un simple sistema operativo; es capaz de actuar como impulsor económico que no sólo propicie el éxito de nuestros clientes sino también el de nuestros partners y los mercados mundiales en general.”
