@@ -7,9 +7,9 @@ superNews: false
 superArticle: false
 year: '2019'
 title: >-
-  Declaración de los medios de comunicación con respecto al Departamento de
-  Comercio de los Estados Unidos que anuncia la adición de Huawei a la lista de
-  entidades
+  Declaración a los medios de comunicación con respecto a la decisión del
+  Departamento de Comercio de los Estados Unidos que anuncia la adición de
+  Huawei a la lista de entidades 
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Huawei-Sede-p.jpg
 detail-image: >-
