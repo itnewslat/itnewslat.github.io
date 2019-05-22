@@ -33,7 +33,7 @@ Algunos episodios se mostraron significativamente más peligrosos que otros, com
 
 En general, después de rastrear la actividad maliciosa asociada a lo largo de la octava temporada, los investigadores de Kaspersky Lab descubrieron que el número promedio de ataques diarios contra usuarios que involucraban malware disfrazado de un episodio de Game of Thrones, era de alrededor de 300-400. Este número aumentó a alrededor de 1,200 durante los tres o cuatro días posteriores al lanzamiento de cada nuevo episodio: un crecimiento considerable en la actividad maliciosa.
 
- ![]({https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/gotkp.jpg)
+ ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/gotkp.jpg)
 
 Otro vector de ataque asociado con Game of Thrones son los sitios web de transmisión que invitan a los usuarios a ver los episodios recién lanzados de forma gratuita, pero que en realidad están diseñados para extraer datos confidenciales de los usuarios. Por lo general, el ícono en línea muestra una escena del programa de televisión y redirige a la víctima a una página de registro, donde le solicita los detalles de la tarjeta bancaria con el código CVC / CVV, afirmando que es solo para fines de validación. Los investigadores han señalado las similitudes entre este esquema y las recientes estafas que rodean la última película de Avengers:End Game. 
 
