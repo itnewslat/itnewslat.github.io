@@ -26,7 +26,7 @@ week: '22'
 
 Servicio y cercanía son los dos atributos que definen el nuevo diseño de la página web de la compañía que se alinea a la imagen de la marca Movistar en todos los países de Hispanoamérica.
 
-“El desarrollo del proyecto se realizó in house respondiendo a una estrategia global de la compañía. Los cambios se ajustan a la tendencia del mercado bajo un concepto intuitivo, jovial, y empático”, manifestó Ricardo Hermida, director de Planificación de Canales de Telefónica | Movistar.
+“El desarrollo del proyecto se realizó in house respondiendo a una estrategia global de la compañía. Los cambios se ajustan a la tendencia del mercado bajo un concepto intuitivo, jovial, y empático”, manifestó Ricardo Hermida, director de Planificación de Canales de Telefónica|Movistar.
 
 Entre las nuevas características que disfrutarán los usuarios en su experiencia de navegación destacan:
 
