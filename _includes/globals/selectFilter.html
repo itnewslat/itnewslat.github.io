@@ -1,0 +1,12 @@
+{% case page.filter %}
+  {% when 'Transformación Digital' %}
+    <label id="filter" name="{{ page.filterUrl }}"></label>
+  {% when 'Movilidad' %}
+    <label id="filter" name="{{ page.filterUrl }}"></label>
+  {% when 'Seguridad' %}
+    <label id="filter" name="{{ page.filterUrl }}"></label>
+  {% when 'Economía Digital' %}
+    <label id="filter" name="{{ page.filterUrl }}"></label>
+  {% when 'Actualidad' %}
+    <label id="filter" name="{{ page.filterUrl }}"></label>  
+{% endcase %}

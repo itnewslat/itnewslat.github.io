@@ -2,10 +2,12 @@
 layout: index
 color-schema: red-dark
 filter: 'Movilidad'
+filterUrl: 'https://www.comunicae.com.mx/feedDestino.php?sId=itnews&cat=148'
 ---
 
   {% include venezuela/header.html %}
 <!-- ======== @Region: #content ======== -->
+{% include globals/selectFilter.html %}
 <div id="content">
   <div class="container">
     <h2 class="title-divider">
@@ -23,6 +25,5 @@ filter: 'Movilidad'
     </div>
   </div>
   <!--.container-->
-</div>
 </div>
 {% include posts/footer.html %}
