@@ -2,6 +2,11 @@
   height: 38px;
 }
 
+.footer-logo-separator{
+  margin-left: 15px;
+  margin-right: 15px
+}
+
 .overlay-hover-content.overlay-gradient:after, .overlay.overlay-gradient:after {
   background-image: none !important;
 }
