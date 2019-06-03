@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2019-05-30 15:47 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2019'
@@ -33,4 +33,4 @@ Otro de los puntos importantes es el despliegue de infraestructura, tanto fibra 
 
 En el estudio también se analizan las normas para implementar bloqueadores de señal, el uso del servicio universal y la creación de sistemas de alertas tempranas. Todas estas temáticas se ponen en perspectiva de las facilidades que la banda ancha móvil presenta para ayudar al mercado a ingresar en la economía digital.
 
-El Estudio Temas en Regulación de Telecomunicaciones: **[Chile publicado por 5G Americas](http://brechacero.com/white-papers/)** puede descargarse aquí. 
+El Estudio Temas en Regulación de Telecomunicaciones: **[Chile publicado por 5G Americas](http://brechacero.com/white-papers/)** puede descargarse aquí.
