@@ -25,8 +25,7 @@ tags:
   - Economía Digital
 week: '23'
 ---
-- Según lo previsto en la Segunda Directiva de Servicios de Pago PSD2
-
+Según lo previsto en la Segunda Directiva de Servicios de Pago PSD2
 
 - **El 70% de los usuarios abandona el carrito de compra online por molestias en el proceso de pago, según TransUnion**
 
@@ -40,8 +39,7 @@ Los consumidores ya entienden la necesidad de autenticarse para realizar pagos d
 
 **En qué consiste PSD2**
 
-La Segunda Directiva de Servicios de Pago o PSD2 (Directiva (UE) 2015/2366 del Parlamento
-Europeo y del Consejo, sobre servicios de pago en el mercado interior) es una norma que aspira a profundizar en la consecución de un mercado de servicios de pago integrado, competitivo, innovador y eficiente en la UE, poniendo especial énfasis en la protección de los consumidores europeos. De ahí la importancia que la norma atribuye a los aspectos relativos a la seguridad de los servicios de pago y, en especial, a regularizar la actividad de unos nuevos actores a los que los clientes de la banca podrán autorizar a acceder a las cuentas de pago que mantengan en una entidad financiera diferente. 
+La Segunda Directiva de Servicios de Pago o PSD2 (Directiva (UE) 2015/2366 del Parlamento Europeo y del Consejo, sobre servicios de pago en el mercado interior) es una norma que aspira a profundizar en la consecución de un mercado de servicios de pago integrado, competitivo, innovador y eficiente en la UE, poniendo especial énfasis en la protección de los consumidores europeos. De ahí la importancia que la norma atribuye a los aspectos relativos a la seguridad de los servicios de pago y, en especial, a regularizar la actividad de unos nuevos actores a los que los clientes de la banca podrán autorizar a acceder a las cuentas de pago que mantengan en una entidad financiera diferente. 
 
 PSD2 se centra especialmente en las transacciones a través de Internet o móviles. La norma prescribe la aplicación obligatoria de medidas y procedimientos de seguridad específicos en las operaciones de pago electrónicas, y en especial en las que tienen lugar a distancia. Estas medidas y procedimientos se articulan en torno al concepto de Autenticación Reforzada del Cliente.
 
