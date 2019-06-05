@@ -1,7 +1,7 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2019-06-05 08:38 -0400'
+date: '2019-06-04 20:38 -0400'
 published: true
 superNews: false
 superArticle: false
@@ -48,5 +48,4 @@ Específicamente durante los próximos años se espera que las organizaciones a 
 
 **Metodología de investigación**
 
-En el verano de 2018, Vanson Bourne, una empresa de investigación independiente, encuestó a 4,600 líderes empresariales de empresas de tamaño mediano a grande de 42 países/subregiones para calcular el puesto de sus organizaciones en el índice de transformación digital de Dell Technologies. Para clasificar los esfuerzos de ser negocios digitales de las empresas, Vanson Bourne examinó su estrategia de TI, las iniciativas de transformación de la fuerza de trabajo y el rendimiento percibido en comparación con un conjunto principal de atributos de negocios digitales. 
-
+En el verano de 2018, Vanson Bourne, una empresa de investigación independiente, encuestó a 4,600 líderes empresariales de empresas de tamaño mediano a grande de 42 países/subregiones para calcular el puesto de sus organizaciones en el índice de transformación digital de Dell Technologies. Para clasificar los esfuerzos de ser negocios digitales de las empresas, Vanson Bourne examinó su estrategia de TI, las iniciativas de transformación de la fuerza de trabajo y el rendimiento percibido en comparación con un conjunto principal de atributos de negocios digitales.
