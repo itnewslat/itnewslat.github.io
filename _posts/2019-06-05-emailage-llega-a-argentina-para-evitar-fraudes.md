@@ -8,7 +8,7 @@ superArticle: false
 year: '2019'
 title: Emailage llega a Argentina para evitar fraudes
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Correo-Empresarial-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Correo-Empresarial-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Correo-Empresarial-g.jpg
 categories:
@@ -33,4 +33,4 @@ Para ello, Emailage ha decidido contratar a un equipo en Argentina con el objeti
 
 Emailage, es una empresa fundada en los Estados Unidos que se ha expandido gradualmente para abrir oficinas en varias partes del mundo. Incluir a Argentina dentro de su estrategia para 2019 es sólo una muestra del potencial que se observa en el país para lograr combatir las transacciones de alto riesgo, mejorar la experiencia del cliente y ayudar al mercado en Argentina a aumentar sus operaciones digitales.
 
-Algunas de las industrias con las que actualmente colabora Emailage pertenecen a sectores de e-commerce, finanzas, tecnología y turismo entre otros. 
+Algunas de las industrias con las que actualmente colabora Emailage pertenecen a sectores de e-commerce, finanzas, tecnología y turismo entre otros.
