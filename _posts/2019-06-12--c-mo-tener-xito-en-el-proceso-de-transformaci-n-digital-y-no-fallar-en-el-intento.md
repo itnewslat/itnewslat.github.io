@@ -10,7 +10,7 @@ title: >-
   ¿Cómo tener éxito en el proceso de transformación digital y no fallar en el
   intento?
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/54x320/Ernesto-Prado-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ernesto-Prado-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ernesto-Prado-g.jpg
 categories:
@@ -41,5 +41,4 @@ InterNexa recomienda cinco claves para que las compañías tengan éxito en su p
 5. **Acompañarse de buenos socios tecnológicos**. Las empresas que tienen la experiencia y además del conocimiento poseen las herramientas, flexibilidad y cercanía para acompañar a los negocios en esa transformación son buenos socios para hacer el proceso más efectivo.
 
 
-Una transformación digital exitosa depende de que la empresa y los colaboradores en todos los niveles sean conscientes de su importancia y de la necesidad del negocio. Por esta razón, el plus de una transformación digital es la comunicación que se debe tener con todo el equipo de trabajo y en especial con las juntas directivas. “Es claro que estas estrategias deben estar guiadas por todos los departamentos, no se trata simplemente de millennials o centennials sino que las juntas directivas y todas las áreas se integren en los procesos”, concluye Ernesto Pardo. 
-
+Una transformación digital exitosa depende de que la empresa y los colaboradores en todos los niveles sean conscientes de su importancia y de la necesidad del negocio. Por esta razón, el plus de una transformación digital es la comunicación que se debe tener con todo el equipo de trabajo y en especial con las juntas directivas. “Es claro que estas estrategias deben estar guiadas por todos los departamentos, no se trata simplemente de millennials o centennials sino que las juntas directivas y todas las áreas se integren en los procesos”, concluye Ernesto Pardo.
