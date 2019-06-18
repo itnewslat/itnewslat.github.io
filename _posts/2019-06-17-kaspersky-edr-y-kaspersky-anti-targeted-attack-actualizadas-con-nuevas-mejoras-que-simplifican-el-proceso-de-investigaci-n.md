@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-06-17 12:43 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   Kaspersky EDR y Kaspersky Anti Targeted Attack actualizadas con nuevas mejoras
   que simplifican el proceso de investigación
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Alianzas-Acuerdos-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alianzas-Acuerdos-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '25'
 ---
 **Las mejoras incluyen indicadores únicos de ataque y mapeo MITRE ATT&CK para reforzar y simplificar el proceso de investigación**
  
