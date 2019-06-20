@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-06-20 08:43 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   HPE permite que sus partners y equipos de ventas ganen juntos   con la nueva
   serie “Pro”
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Alianzas-Acuerdos-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alianzas-Acuerdos-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Canales
+week: '25'
 ---
 **HPE proporciona a los profesionales de ventas, técnicos y de marketing, habilidades, activos, acceso e innovación para lograr un crecimiento mutuo**
 
