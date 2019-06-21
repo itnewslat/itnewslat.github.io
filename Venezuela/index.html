@@ -21,15 +21,8 @@ filterCategory: Venezuela
         </div>
       </div>
     </div>
-    <div class="mb-4 mb-lg-6 py-7 text-center bg-dark overlay overlay-op-8" data-url="" data-bg-img="http://nuevotiempo.org/emisioncentral/files/2014/08/gadgets.jpg" style="background-size:cover; background-repeat:no-repeat;background-position:center">
-      <div class="container">
-        <p class="text-xs mt-0 mb-1 text-white text-uppercase font-weight-bold"> Comunicae.com.mx</p>
-        <h2 class="text-uppercase text-letter-spacing-sm my-0 text-white font-weight-bold">
-          Mas noticias sobre tecnología
-        </h2>
-        <a href="/comunicae.html" target="_blank" class="btn btn-primary btn-sm mt-3 text-uppercase font-weight-bold">Leer más</a>
-      </div>
-    </div>
+    {% include globals/comunicae.html %}
+    {% include globals/moreNews.html %}    
     {% include venezuela/news-galery.html %}
     {% include venezuela/footer.html %}
     <!-- #Content -->
