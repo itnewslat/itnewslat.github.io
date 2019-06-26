@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-06-26 14:28 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   Estrategia, transformación e innovación: puntas de lanza con las que el código
   abierto sigue conquistando el mercado de TI, según sus propios usuarios
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Transformacion-Empresas-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Transformacion-Empresas-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '26'
 ---
 **Más de 940 líderes del sector de Tecnologías de la Información (TI) en el mundo participaron en un estudio realizado por la consultora inglesa Illuminas, para Red Hat, y coincidieron en afirmar que la estrategia, la transformación y la innovación son las principales cualidades con las que el código abierto sigue conquistando al mercado.**
 
