@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-07-01 12:05 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   ESET invita a reflexionar sobre el sharenting y los riesgos de exponer a los
   chicos en las redes sociales
+week: '27'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Webinar-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Webinar-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
 ---
 **ESET Latinoamérica junto a la ONG Argentina Cibersegura invitan a participar de una charla online gratuita sobre las consecuencias de exponer a los más pequeños en Internet.**
 
@@ -28,12 +43,12 @@ La clave está en reflexionar sobre el alcance del sharenting en la actualidad, 
 
 Para conocer más, Digipadres, una iniciativa impulsada por ESET que busca acompañar padres y docentes en el cuidado de los niños en Internet con el fin de generar conciencia acerca de riesgos y amenazas en el mundo digital, junto a la ONG Argentina Cibersegura, Asociación Civil cuyo objetivo es concientizar a la comunidad sobre el uso seguro de Internet y las tecnologías, invitan a participar de una charla online gratuita el próximo jueves 4 de julio a las 17hs (ARG - se recomienda revisar la zona horaria del país desde donde se realiza la inscripción) titulada “Los riesgos de exponer a los chicos en las redes sociales”, es abierta al público y requiere inscripción previa.
 
-La misma va a ser dictada por Aldana Siciliano, Lic. en Psicología y directora de la ONG Argentina Cibersegura, y Silvina Tantone, Especialista en Educación y Nuevas Tecnologías, y tratará los siguientes temas:  
-1. ¿Qué es el shareting y cuáles son sus peligros?
-2. ¿Conocemos el alcance y el impacto de lo que publicamos?
-3. ¿Qué concepto de privacidad queremos transmitirles a los menores?
-4. Consejos para utilizar las tecnologías de forma segura
+La misma va a ser dictada por Aldana Siciliano, Lic. en Psicología y directora de la ONG Argentina Cibersegura, y Silvina Tantone, Especialista en Educación y Nuevas Tecnologías, y tratará los siguientes temas:
 
+1. **¿Qué es el shareting y cuáles son sus peligros?**
+2. **¿Conocemos el alcance y el impacto de lo que publicamos?**
+3. **¿Qué concepto de privacidad queremos transmitirles a los menores?**
+4. **Consejos para utilizar las tecnologías de forma segura**
 
 Para anotarse ingresar a: [https://register.gotowebinar.com/register/7025991851012633355?source=Prensa](https://register.gotowebinar.com/register/7025991851012633355?source=Prensa)
 
