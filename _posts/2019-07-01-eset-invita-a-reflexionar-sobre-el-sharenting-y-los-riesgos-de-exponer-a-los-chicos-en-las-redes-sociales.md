@@ -29,10 +29,11 @@ La clave está en reflexionar sobre el alcance del sharenting en la actualidad, 
 Para conocer más, Digipadres, una iniciativa impulsada por ESET que busca acompañar padres y docentes en el cuidado de los niños en Internet con el fin de generar conciencia acerca de riesgos y amenazas en el mundo digital, junto a la ONG Argentina Cibersegura, Asociación Civil cuyo objetivo es concientizar a la comunidad sobre el uso seguro de Internet y las tecnologías, invitan a participar de una charla online gratuita el próximo jueves 4 de julio a las 17hs (ARG - se recomienda revisar la zona horaria del país desde donde se realiza la inscripción) titulada “Los riesgos de exponer a los chicos en las redes sociales”, es abierta al público y requiere inscripción previa.
 
 La misma va a ser dictada por Aldana Siciliano, Lic. en Psicología y directora de la ONG Argentina Cibersegura, y Silvina Tantone, Especialista en Educación y Nuevas Tecnologías, y tratará los siguientes temas:  
-¿Qué es el shareting y cuáles son sus peligros?
-¿Conocemos el alcance y el impacto de lo que publicamos?
-¿Qué concepto de privacidad queremos transmitirles a los menores?
-Consejos para utilizar las tecnologías de forma segura
+1. ¿Qué es el shareting y cuáles son sus peligros?
+2. ¿Conocemos el alcance y el impacto de lo que publicamos?
+3. ¿Qué concepto de privacidad queremos transmitirles a los menores?
+4. Consejos para utilizar las tecnologías de forma segura
+
 
 Para anotarse ingresar a: [https://register.gotowebinar.com/register/7025991851012633355?source=Prensa](https://register.gotowebinar.com/register/7025991851012633355?source=Prensa)
 
