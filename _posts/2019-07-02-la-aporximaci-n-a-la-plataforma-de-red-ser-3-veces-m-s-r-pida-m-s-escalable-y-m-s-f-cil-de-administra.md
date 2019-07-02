@@ -1,0 +1,27 @@
+---
+layout: posts
+color-schema: red-dark
+date: '2019-07-02 08:04 -0400'
+published: false
+superNews: false
+superArticle: false
+year: '2018'
+title: >-
+  la aporximación a la plataforma de red, será 3 veces más rápida, más escalable
+  y más fácil de administra
+---
+A los medios ya los analistas les encanta rastrear hitos históricos, como “la cuarta revolución industrial”. 
+
+Según **Ksenia Efimova, Analista Senior de Investigación de IDC, EMEA Telecoms and Networking**, estamos ingresando a la Tercera Plataforma. La primera plataforma es la computadora central; siendo la Segunda Plataforma cliente / servidor; mientras que la Tercera Plataforma “consiste en nube, social, movilidad y datos; y aceleradores de innovación, AR, VR, AI, robótica, cadena de bloques, etc. ”. Una gran plataforma de hecho.
+
+Ella colocó esta idea en un panel de la industria que representa a VMware, NetFoundry y Mellanox Technologies para estimular el debate sobre la transformación digital y los desarrollos necesarios para respaldar su adopción generalizada. Los cambios comienzan con el movimiento actual hacia redes de mayor velocidad, pero reconocen que esto solo no es suficiente para abordar la complejidad y el volumen de datos relativamente no estructurados que surgirán de otros desarrollos como el Internet de las cosas (IoT). Existe el problema de los requisitos masivos de energía, que exigen una mayor eficiencia. Existe la complejidad que integra los centros de datos locales, externos, basados en la nube y tradicionales, tanto privados como públicos. Requiere un enfoque completamente nuevo, así que, ¿dónde deberíamos comenzar?.
+
+La pregunta carece de fundamento hasta que se acuerdan la estrategia y los objetivos. "¿Estás buscando construir un centro de datos a hipescala? ¿O simplemente algo para que una filial alemana local mantenga los datos en el país? ¿O está buscando ubicaciones cercanas para reducir la latencia? ¿O el procesamiento IOT, donde es posible que simplemente necesite un par de blades o racks dentro de una torre de telecomunicaciones? " se pregunta **Philip Griffiths, Director de Asociaciones de EMEA de NetFoundry**. Según lo acordado, uno debería centrarse en las prioridades de los clientes: reducir el consumo de energía, utilizar la automatización y la inteligencia artificial, tener todo lo definido por software para salvar a los ingenieros de envío en el sitio y arreglar las cosas manualmente en todo momento.
+
+**Kevin Deierling, Director de Marketing de Mellanox**, sugiere un enfoque más holístico: "Piense fuera de la computadora. En pasado, se podía contar con que la ley de Moore duplicaría el rendimiento cada dos años: Las computadoras podrían absorber todo el software y seguir escribiendo aplicaciones ineficientes ". Pensar de manera integral significa no optimizar en el nivel de la caja sino en toda la plataforma - Cómputo, almacenamiento, redes y aplicaciones. El centro de datos es ahora la computadora. Señala que la desventaja de la virtualización en el centro de datos es que consume mucha potencia de CPU. Una vez que un enrutador de Cisco reenvió paquetes usando software, pero con los conmutadores de 100 o 400 gig de hoy en día, necesita un hardware y software ASIC híbrido para acelerar el reenvío de máquinas virtuales, las reglas de firewall y el equilibrio de carga, etc. "Cuando le dije a Martin Casado por primera vez ... emocionado. Él dice: "¿Quieres decir que pones un conmutador virtual en silicio en una NIC de Ethernet? … eso es fantástico. Lástima que no pueda usarlo, porque soy VMware y necesito controlar esa interfaz para tener el control del software ". Fue solo entonces que explicamos que la ruta de control todavía está controlada por VMware ".
+
+**Joe Baguley, vicepresidente y director de tecnología de EMEA**, VMware está de acuerdo en ver a todo el centro de datos como una sola computadora. De hecho, muchos de sus clientes no están construyendo nuevos centros de datos, optando en cambio por alquilar espacio de centros de datos o mover sus máquinas virtuales a un host adecuado. Aquellos que están construyendo centros de datos quieren saber cómo lo hacen los hiperescaladores, donde todo se hace básicamente en software: "Los clientes que están construyendo centros de datos a gran escala, buscan unir esencialmente bloques de construcción Lego de infraestructura hiperconvergente tapados. a través de una columna vertebral de 10 gigas, que luego llega a 10/40, o incluso de 40 a 100 ... la columna vertebral es solo una capa plana 2, porque toda la inteligencia se realiza en el software de los dispositivos ".
+
+Eso permite un uso mucho más eficiente de la energía del hardware y lo que él llamó "una muerte rotatoria". Donde la mayoría de las empresas se llenan de hardware comprado a lo largo de los años para algún proyecto específico, un operador de CloudScale en una plataforma virtualizada de software agrega hardware nuevo como bloques de Lego. Las cargas de trabajo más críticas pasan automáticamente al último kit, mientras que el hardware más antiguo se desplaza hacia abajo en la jerarquía para reducir la prioridad de los trabajos hasta que desaparece. Mucho más eficiente que los picos y depresiones de actualización de hardware.
+
+Sonó una advertencia sobre la eficiencia energética: "Tenemos que ser conscientes de la **paradoja de Jevons** en que cuanto más hacemos algo eficiente, más barato se vuelve correr, por lo tanto, más personas buscan formas de usarlo, por lo tanto, utilizamos más de eso".
