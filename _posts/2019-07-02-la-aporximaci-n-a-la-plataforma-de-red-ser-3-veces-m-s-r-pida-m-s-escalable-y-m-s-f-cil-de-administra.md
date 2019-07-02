@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-07-02 08:04 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   la aporximación a la plataforma de red, será 3 veces más rápida, más escalable
   y más fácil de administra
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Debate-2-Netevents-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Debate-2-Netevents-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '27'
 ---
 A los medios ya los analistas les encanta rastrear hitos históricos, como “la cuarta revolución industrial”. 
 
@@ -24,4 +39,16 @@ La pregunta carece de fundamento hasta que se acuerdan la estrategia y los objet
 
 Eso permite un uso mucho más eficiente de la energía del hardware y lo que él llamó "una muerte rotatoria". Donde la mayoría de las empresas se llenan de hardware comprado a lo largo de los años para algún proyecto específico, un operador de CloudScale en una plataforma virtualizada de software agrega hardware nuevo como bloques de Lego. Las cargas de trabajo más críticas pasan automáticamente al último kit, mientras que el hardware más antiguo se desplaza hacia abajo en la jerarquía para reducir la prioridad de los trabajos hasta que desaparece. Mucho más eficiente que los picos y depresiones de actualización de hardware.
 
-Sonó una advertencia sobre la eficiencia energética: "Tenemos que ser conscientes de la **paradoja de Jevons** en que cuanto más hacemos algo eficiente, más barato se vuelve correr, por lo tanto, más personas buscan formas de usarlo, por lo tanto, utilizamos más de eso".
+Sonó una advertencia sobre la eficiencia energética: "Tenemos que ser conscientes de la **[paradoja de Jevons](https://es.wikipedia.org/wiki/Paradoja_de_Jevons)** en que cuanto más hacemos algo eficiente, más barato se vuelve correr, por lo tanto, más personas buscan formas de usarlo, por lo tanto, utilizamos más de eso".
+
+Pero, ¿este enfoque hiper-convergente se adapta a todos? Ya vemos la migración de CRM y ERP a hiperconvergencia y acepta **Baguely**: "Si puede virtualizarlo, se ejecutará en hiperconvergenciado ... La barrera para HCI rara vez tiene que ver con las aplicaciones o el software, es la gente no entiende cómo aprovechar el HCI ... hay un montón de gente que necesita renunciar a sus feudos y entender que están jugando un juego más importante. Redes, cómputo, almacenamiento, todo en uno ".
+
+**Kevin Deierling** señala cómo esto migra hacia el borde: “Tenemos un SmartNIC que combina una conectividad de red de 25 gigas y 100 gigas con núcleos ARM para aplicaciones de vanguardia; y ahora eso está ejecutando ESXi. Así que estamos empezando a ver que el hipervisor se ejecuta en estas diminutas máquinas ". Se refiere a hiperconvergencia como" infraestructura invisible ": fácil de implementar y funciona, hasta que mueva una máquina virtual. Pero con la inteligencia de SmartNIC en la red, cuando algo se mueve hay una notificación y la red se adapta: "ahora también hemos hecho que la red sea invisible".
+
+Otro ejemplo de inteligencia que migra hacia los bordes es visto en 5G IoT. Originalmente se sugirió que todo se conectaría a la nube, pero en lugar de eso, se trata de una arquitectura de múltiples niveles, con centros de datos en la nube masivos, luego centros de datos en la nube regionales y luego bordes locales y tal vez incluso puertas de enlace IoT que realizan procesos locales.
+
+Volviendo a los factores humanos: la industria también se enfrenta a una grave escasez de habilidades que requiere más automatización. Baguley sostiene que: "Los emprendedores aún no se han dado cuenta del hecho de que la automatización es un requisito fundamental del diseño, no un perno ... Veo que estas personas construyen sistemas y luego elaboran la forma de automatizar, en lugar de resolver cómo para construir un sistema automatizado, es la única forma de escalar ”.
+
+Ese es un buen punto para finalizar la discusión, ya que nos recuerda que la red de la Tercera Plataforma del mañana no solo debe ser más rápida y más escalable, sino también mucho más fácil de administrar.
+
+[La transcripción completa de esta sesión está disponible ahora](https://www.netevents.org/wp-content/uploads/2019/01/Debate-IV-Next-Generation-Data-Centers-IDC-final.pdf).
