@@ -8,7 +8,7 @@ superArticle: false
 year: '2019'
 title: >-
   La aproximación a la plataforma de red, será 3 veces más rápida, más escalable
-  y más fácil de administra
+  y más fácil de administrar
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Debate-2-Netevents-p.jpg
 detail-image: >-
