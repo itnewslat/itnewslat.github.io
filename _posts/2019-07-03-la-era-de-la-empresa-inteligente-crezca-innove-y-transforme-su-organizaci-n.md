@@ -23,7 +23,7 @@ tags:
   - Transformación Digital
 week: '27'
 ---
-![](https://pbs.twimg.com/profile_images/993622271687254016/xTkyhYO3_400x400.jpg)
+![Randall Quirós, presidente de SAP Centroamérica](https://pbs.twimg.com/profile_images/993622271687254016/xTkyhYO3_400x400.jpg)
 
 Por: **Randall Quirós, presidente de SAP Centroamérica**
 
@@ -43,7 +43,7 @@ Implementar tecnologías inteligentes permite a las organizaciones transformarse
 **El marco de trabajo de SAP para la empresa inteligente está conformado por 3 componentes:**
 
 - **Una suite inteligente**, brindando inteligencia a las aplicaciones que gestionan la relación con los clientes, las cadenas de suministro, las redes, los empleados, y los procesos de negocio clave 
-- Una plataforma digital, para gestionar datos desde cualquier fuente (propia o de terceros), en cualquier formato (estructurado o no estructurado), y soportar el desarrollo, integración y extensión de las aplicaciones de negocio 
+- **Una plataforma digital**, para gestionar datos desde cualquier fuente (propia o de terceros), en cualquier formato (estructurado o no estructurado), y soportar el desarrollo, integración y extensión de las aplicaciones de negocio 
 - **Tecnologías inteligentes**, para aplicar la inteligencia a los datos y a los procesos, a través de innovaciones como Machine Learning, analíticas avanzadas e Internet de las Cosas
 
-La inteligencia sólo es valiosa para la empresa cuando se integra directamente en los procesos que son importantes para la organización. SAP está liderando a la industria hacia la próxima generación de experiencia al cliente con un paquete de software CRM completamente modernizado: SAP C/4HANA. La realidad digital se convierte en prioridad. Las compañías deben comenzar a adquirir la habilidad y conocimiento necesario para innovar y continuar liderando en un entorno cada vez más competitivo.  
+La inteligencia sólo es valiosa para la empresa cuando se integra directamente en los procesos que son importantes para la organización. SAP está liderando a la industria hacia la próxima generación de experiencia al cliente con un paquete de software CRM completamente modernizado: SAP C/4HANA. La realidad digital se convierte en prioridad. Las compañías deben comenzar a adquirir la habilidad y conocimiento necesario para innovar y continuar liderando en un entorno cada vez más competitivo.
