@@ -2,13 +2,30 @@
 layout: posts
 color-schema: red-dark
 date: '2019-07-05 13:25 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: ¿Cómo construir un plan de respuesta a incidentes de ciberseguridad?
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciber-seguridad-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ciber-seguridad-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '27'
 ---
 **La importancia de ser proactivo ante los ciberataques**
+
+Por: **Andres Hernández, Cisco LATAM Security Services Sales Consultant** [**@andherna**](https://twitter.com/andherna)
 
 En el tema de respuesta a incidentes de ciberseguridad, todos habrán escuchado del auge de los ataques cibernéticos y la importancia de responder de manera rápida para evitar más daños de los ya generados, porque en un sólo incidente se pueden perder millones de dólares.
 
@@ -26,7 +43,7 @@ Es por esto que es muy importante contar con la flexibilidad y disposición de p
 
 Es aquí en donde podemos establecer diversos esquemas reactivos y proactivos, como lo es nuestro servicio de “Incident Response Retainer”, donde se ilustran de manera muy sencilla, los pasos que debemos seguir y el momento en el que nos ubicamos ante el problema.
 
-
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Incidentes-de-seguridad.jpg)
 
 Por lo tanto, en la idea de ser proactivos debemos tener un plan bien establecido orientado junto con los objetivos del negocio, playbooks para los ataques que hayan sido identificados mas críticos para la organización, esquemas de comunicación entre las diferentes áreas y responsables a todos los niveles dentro de la misma, realizar evaluaciones del estado actual de su plan de respuesta a incidentes, ejecutar simulacros para poner a prueba dicho plan, así como la ejecución de evaluaciones de compromiso o evaluaciones de caza de amenazas para encontrar indicadores de compromiso.  O también tendrá la opción de poder fortalecer y/o madurar las fortalezas y habilidades de su personal de seguridad mediante entrenamientos básicos, intermedios o avanzados en temas de ciberseguridad, en donde no solo se les enseñará a pensar desde el punto de vista del rol de defensa, sino que también los llevará al punto de vista del atacante, utilizando una plataforma virtual que se basa en las condiciones del mundo real, y de esta manera, permitirá a los participantes aprender los últimos métodos de explotación de vulnerabilidades, uso de herramientas, procesos de CSIRT (Computer Security Incident Response Team) y técnicas avanzadas para mitigar y/o eliminar amenazas. 
 
@@ -34,6 +51,6 @@ Nuestro grupo de respuesta a incidentes trabaja de la mano con Cisco Talos, la d
 
 En este sentido, Cisco cuenta con más de 5 mil profesionales en ciberseguridad a nivel mundial y más de 300 ingenieros especializados en inteligencia de amenazas y analítica que ofrecen servicios flexibles con diferentes actividades, de acuerdo con las necesidades de los clientes, para ayudarlos a reaccionar de la manera mas rápida y eficiente debido al panorama dinámico y complejo de amenazas en el que estamos viviendo.
 
-Para más información puede revisar la página:  www.cisco.com/go/securityservices
+Para más información puede revisar la página:  [www.cisco.com/go/securityservices](www.cisco.com/go/securityservices)
 
-Para contactar al autor puede hacerlo a la cuenta @andherna
+Para contactar al autor puede hacerlo a la cuenta [**@andherna**](https://twitter.com/andherna)
