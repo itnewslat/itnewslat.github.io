@@ -8,7 +8,7 @@ superArticle: false
 year: '2019'
 title: Cómo ser una empresa verdaderamente inclusiva
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivos
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivo
   CIO-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ejecutivos
@@ -56,4 +56,4 @@ Sin embargo, ser una empresa inclusiva requiere tomar una serie de medidas para 
 
 Aceptemos que el talento puede presentarse de formas diferentes, cada persona posee una aptitud distinta, y sin importar su discapacidad, su desempeño puede ser eficiente y competitivo, lo único que hace falta es que las empresas muestren su apertura a la integración. 
 
-Y al hacerlo recibirán diversas ventajas: además de generar entornos de trabajo diversos y productivos, con un mejor ambiente, queda por demás mencionar los beneficios fiscales que podrán obtener del gobierno. 
+Y al hacerlo recibirán diversas ventajas: además de generar entornos de trabajo diversos y productivos, con un mejor ambiente, queda por demás mencionar los beneficios fiscales que podrán obtener del gobierno.
