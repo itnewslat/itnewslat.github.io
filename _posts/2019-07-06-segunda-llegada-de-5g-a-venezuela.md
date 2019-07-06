@@ -74,5 +74,3 @@ La verdad es que el problema de Venezuela no pasa por tener o no tener 5G, es te
 El mayor obstaculo de las telecomunicaciones en Venezuela es la falta de dispositivos que puedan conectarse a las nuevas tecnologías. Esto es producto de un problema mucho mayor, el desastre político-económico que atraviesa un país donde los derechos humanos más básicos han pasado a un segundo plano. Hablar de 5G hasta que se pueda revertir el hambre, hasta que las escuelas comiencen nuevamente a educar a los hijos del país, hasta que los hospitales tengan medicinas y hasta que los supermercados comida es un sueño. Un vil intento de manipulación y propaganda mal hecho.
 
 El dilema que tiene el gobierno es que precisamente esa tecnología que olvidaron, a la que no le invirtieron y que nunca fue prioridad, es precisamente una de las principales armas que tiene el país para levantarse de la pesadilla que atraviesa. Mientras esto ocurre el temple de los venezolanos continuará brindándonos lecciones de vida al resto de nosotros.
-
-**José Felipe Otero Muñoz** es el Director para América Latina y el Caribe de 5G Americas.
