@@ -25,7 +25,7 @@ week: '28'
 ---
 ![](http://www.5gamericas.org/files/3414/1401/3349/IMG_4800-1-2---FOR-NEW-WEBSITE.png)
 
-Por Tomado del Blog de [**José Felipe Otero**](mailto://jfo@josefelipeotero.com) 
+Por Tomado del Blog de [**José Felipe Otero**](http://www.josefelipeotero.com/segunda-llegada-de-5g-a-venezuela/) 
 
 La literatura debería ser ese mundo donde el ser humano se maravilla con ficciones, el lugar donde lo inverosímil se hace palpable y la imaginación traduce en palabras realidades imposibles. Es el lugar donde los versos del poeta se convierten en la prosa del novelista, donde los protagonistas de la tragedia se desnudan ante el amor desbordado de los cuentistas. Es el mundo donde reina la canción y los sentimientos, donde la desesperanza puede ser truncada con un simple pasar de página.
 
