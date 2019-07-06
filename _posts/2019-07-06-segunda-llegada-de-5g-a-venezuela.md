@@ -59,4 +59,4 @@ Estimados de dinero totalmente inflados para inversión en infraestructura, serv
 
 Los últimos diez años del sector de la industria de telecomunicaciones de Venezuela han sido una historia de terror. El que llegó a ser uno de los líderes tecnológicos de América Latina, con uno de los equipos de prensa especializada mejor preparados de toda la región fue erosionándose por medio de las emigraciones (muchas de ellas forzadas), las faltas de oportunidades y la simple corrupción. Historias de cómo se intentaba amedrentar a periodistas han sido notorias durante este periodo protagonizado por el incremento del hambre en este hermoso país que ha tenido que regalarle al mundo más de cuatro millones de personas que se han ido a buscar un mejor futuro para ellos y su familia.
 
-[**Puede seguir leyendo en ... **](http://www.josefelipeotero.com/segunda-llegada-de-5g-a-venezuela/) 
+[**Puede seguir leyendo en**](http://www.josefelipeotero.com/segunda-llegada-de-5g-a-venezuela/) 
