@@ -8,7 +8,7 @@ superArticle: false
 year: '2019'
 title: Movistar extiende su cobertura de LTE a Darién
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/54x320/Darien-Panama-Movistar-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Darien-Panama-Movistar-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Darien-Panama-Movistar-g.jpg
 categories:
