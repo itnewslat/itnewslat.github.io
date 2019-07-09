@@ -21,7 +21,7 @@ categories:
   - Panama
 tags:
   - Canales
-week: '29'
+week: '28'
 ---
  ... **para acelerar las perspectivas en tiempo real a favor de los clientes empresariales**
 
@@ -45,4 +45,4 @@ Con miles de clientes de IntelliFlash en todo el mundo, Western Digital fue reco
 
 **Conviértase en socio empresarial de Western Digital**
 
-El Programa de Socios Empresariales de Western Digital (EPP) es un reconocido programa diseñado para apoyar a los integradores de sistemas, los proveedores de soluciones y los distribuidores que atienden a estos diversos segmentos del mercado de TI y casos de uso empresarial. Las partes interesadas pueden solicitar convertirse en un socio valioso para obtener acceso a una completa selección de recursos que les ayudarán a desarrollar soluciones y servicios personalizados que atiendan a mercados específicos y satisfagan las necesidades de los clientes conforme amplían sus negocios y maximizan la rentabilidad. 
+El Programa de Socios Empresariales de Western Digital (EPP) es un reconocido programa diseñado para apoyar a los integradores de sistemas, los proveedores de soluciones y los distribuidores que atienden a estos diversos segmentos del mercado de TI y casos de uso empresarial. Las partes interesadas pueden solicitar convertirse en un socio valioso para obtener acceso a una completa selección de recursos que les ayudarán a desarrollar soluciones y servicios personalizados que atiendan a mercados específicos y satisfagan las necesidades de los clientes conforme amplían sus negocios y maximizan la rentabilidad.
