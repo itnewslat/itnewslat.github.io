@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-07-12 10:27 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: Avast observa un aumento en secuestros cibernéticos DNS en Brasil
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-usuario-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-usuario-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '28'
 ---
 **Routers vulnerables son comprometidos para re-direccionar el tráfico web de los usuarios a sitios web de phishing, instalar scripts de cifrado o servir publicidad maliciosa**
 
@@ -25,33 +40,27 @@ Los llamados kits de explotación pueden atacar con éxito un router, ya que muc
 - **admin**:gvt12345
 - **admin**:password
 - **admin**:vivo12345
-- root:root
-- super:super
-
+- **root**:root
+- **super**:super
 
 Como una de las consecuencias, el router se reconfigura para usar servidores DNS falsos, que redirigen a las víctimas a páginas de phishing que se parecen mucho a los sitios reales de banca en línea. Recientemente, Netflix se convirtió en un dominio popular para secuestradores de DNS.
+
 Los datos de Avast muestran que los sitios web que pertenecen a las siguientes organizaciones activas en Brasil son secuestrados con mayor frecuencia:
-●	Santander (24%)
-●	Bradesco (19%)
-●	Banco do Brasil (13%)
-●	Itau BBA (13%)
-●	Netflix (11%)
-●	Caixa (10%)
-●	Serasa Experian (10%)
+
+- Santander (24%)
+- Bradesco (19%)
+- Banco do Brasil (13%)
+- Itau BBA (13%)
+- Netflix (11%)
+- Caixa (10%)
+- Serasa Experian (10%)
+
 "Las instituciones afectadas son un gran objetivo ya que son populares en sus países, y el problema es que hay poco que puedan hacer para evitar ser víctimas, además de alertar a sus clientes, ya que los sitios de phishing están fuera de sus dominios", dijo David Jursa. Analista de Inteligencia de Amenazas en Avast.
-Anuncios maliciosos y ataques decriptogramas.
+
+**Anuncios maliciosos y ataques decriptogramas.**
+
 Aparte del phishing, los ciberdelincuentes utilizan el secuestro de DNS para reemplazar los anuncios legítimos con anuncios maliciosos. Por ejemplo, los ciberdelincuentes pueden secuestrar plataformas publicitarias, como Outbrain, que pueden integrarse en sitios web para publicar anuncios a los visitantes de aquellos sitios web. Si la dirección del servidor de la plataforma publicitaria es secuestrada en el enrutador de los usuarios, el usuario verá anuncios maliciosos, por ejemplo, para engañarlos para que descarguen más malware o para dirigirlos a sitios web no solicitados con contenido sospechoso o ilegal.
+
 Además, los investigadores de amenazas de Avast también han visto cómo los cibercriminales utilizan el secuestro de DNS para enviar criptogramas malintencionados a los navegadores de los usuarios, por lo que las máquinas de los usuarios serán comprometidos para extraer criptomonedas, lo que puede generar facturas de energía elevadas y un ciclo de vida más corto.
 Mantenerse protegido
 David Jursa continuó: “Los usuarios deben tener cuidado al visitar el sitio web de su banco o de Netflix, y asegurarse de que la página tenga un certificado válido al buscar el candado en la barra de URL del navegador. Además, los usuarios deben actualizar con frecuencia el firmware de su router a la última versión y configurar las credenciales de inicio de sesión del enrutador con una contraseña segura ". La gente puede averiguar si su enrutador está infectado al usar la función Avast Wi-Fi Inspector, que es parte de Avast Free Antivirus y todas las versiones de antivirus pagadas de Avast, que también incluye Avast Web Shield, un escudo central que protege a los usuarios de CSRF los ataques.
-Acerca de Avast:
-Avast (LSE: AVST) es el líder mundial en productos de seguridad digital. Con más de 400
-millones de usuarios en línea, Avast ofrece productos bajo las marcas Avast y AVG que
-protegen a las personas de las amenazas en Internet y la evolución del panorama de
-amenazas en IoT. La red de detección de amenazas de la compañía se encuentra entre las
-más avanzadas del mundo, y utiliza el aprendizaje automático y las tecnologías de
-inteligencia artificial para detectar y detener amenazas en tiempo real. Los productos de
-seguridad digital de Avast para dispositivos móviles, PC o Mac son los mejor clasificados y
-certificados por VB100, AV-Comparatives, AV-Test, OPSWAT, ICSA Labs, West CoastLabs
-y otros. Visite: www.avast.com.
-
