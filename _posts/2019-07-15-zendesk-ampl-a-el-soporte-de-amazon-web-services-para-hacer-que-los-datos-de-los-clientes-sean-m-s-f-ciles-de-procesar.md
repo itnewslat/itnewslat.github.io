@@ -10,7 +10,7 @@ title: >-
   Zendesk amplía el soporte de Amazon Web Services para hacer que los datos de
   los clientes sean más fáciles de procesar
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/54x320/Amazon-Web-Services-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Amazon-Web-Services-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Amazon-Web-Services-g.jpg
 categories:
