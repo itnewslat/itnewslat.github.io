@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2019'
 title: >-
-  TCS Colombia fue reconocido como ‘Socio del año para Latinoamérica´ por
+  TCS Colombia fue reconocido como "Socio del año para Latinoamérica" por
   Microsoft
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/reconocimiento-p.jpg
