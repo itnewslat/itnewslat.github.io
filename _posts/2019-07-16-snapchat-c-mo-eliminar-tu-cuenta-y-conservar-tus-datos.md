@@ -2,11 +2,27 @@
 layout: posts
 color-schema: red-dark
 date: '2019-07-16 16:21 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: 'SnapChat: cómo eliminar tu cuenta y conservar tus datos'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kaspesky-Snapchat-p
+  .jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Kaspesky-Snapchat-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '29'
 ---
 **Recientemente, se acusó a los desarrolladores de Snapchat de violar la privacidad de sus usuarios luego de que se revelara que empleados de esta app hacían uso de SnapLion, una herramienta para acceder a datos personales y espiar snaps.**
 
@@ -43,21 +59,22 @@ Los usuarios de Android tienen que descargar los snaps uno por uno.
 - Selecciona Exportar snap.
 - Pulsa en Carrete.
 
-3. **Ponte en contacto con el servicio de soporte**: También los usuarios pueden ponerse en contacto con el servicio de soporte de Snapchat si quieren solicitar toda la información que tengan disponible de tu cuenta, como el historial de las canciones identificadas con Shazam, los avatares Bitmoji, las fotos y videos guardadas en Recuerdos (en caso de haberlas), entre otros. El equipo de soporte considerará la solicitud y enviará lo que se pida.
+3.**Ponte en contacto con el servicio de soporte**: También los usuarios pueden ponerse en contacto con el servicio de soporte de Snapchat si quieren solicitar toda la información que tengan disponible de tu cuenta, como el historial de las canciones identificadas con Shazam, los avatares Bitmoji, las fotos y videos guardadas en Recuerdos (en caso de haberlas), entre otros. El equipo de soporte considerará la solicitud y enviará lo que se pida.
 
-4. Obtén un archivo con los datos recopilados por la red social: Si se quiere revisar el historial de la actividad en Snapchat, una lista de conversaciones, los inicios de sesión y demás, se puede solicitar esta información a la red social. Todo esto vendrá en un solo archivo ZIP, el cual se puede conservar como un recuerdo. Pero primero se debe tener una cuenta de correo electrónico asociado a la cuenta de Snapchat. Esto es lo que se logra obtener:
+4. **Obtén un archivo con los datos recopilados por la red social**: Si se quiere revisar el historial de la actividad en Snapchat, una lista de conversaciones, los inicios de sesión y demás, se puede solicitar esta información a la red social. Todo esto vendrá en un solo archivo ZIP, el cual se puede conservar como un recuerdo. Pero primero se debe tener una cuenta de correo electrónico asociado a la cuenta de Snapchat. Esto es lo que se logra obtener:
 
-•	Historial de tus autorizaciones, compras, ubicaciones, búsquedas y mucho más.
-•	Un archivo con tus conversaciones,
-•	Tus datos de perfil, amigos e información de suscripciones,
-•	Tus avatares Bitmoji.
+- Historial de tus autorizaciones, compras, ubicaciones, búsquedas y mucho más.
+- Un archivo con tus conversaciones,
+- Tus datos de perfil, amigos e información de suscripciones,
+- Tus avatares Bitmoji.
 
 “Resuelto el asunto de la copia de seguridad, se puede seguir con la eliminación de la cuenta. Como la mayoría de las redes sociales, Snapchat primero sugiere que se desactive el perfil, si es que en un futuro cercano cambias de opinión. Pero lo que no saben los usuarios, es que no se puede eliminar la cuenta por medio de la aplicación; esto debe hacerse en el sitio web”, advierte Dmitry Bestuzhev, director del Equipo de Investigación y Análisis para América Latina en Kaspersky.
 
 Para hacerlo se debe:
-•	Acceder a https://accounts.snapchat.com e ingresar las credenciales de inicio de sesión (nombre de usuario) y contraseña.
-•	Hacer clic en Eliminar mi cuenta.
-•	Ingresar nuevamente el nombre de usuario y contraseña.
-•	Hacer clic en Continuar.
 
-De esta forma, la app se eliminará del dispositivo móvil. En caso de que también quiera eliminar su cuenta de otras redes, Kaspersky cuenta con instrucciones de cómo eliminar el perfil de Twitter, Facebook e Instagram. 
+- Acceder a https://accounts.snapchat.com e ingresar las credenciales de inicio de sesión (nombre de usuario) y contraseña.
+- Hacer clic en Eliminar mi cuenta.
+- Ingresar nuevamente el nombre de usuario y contraseña.
+- Hacer clic en Continuar.
+
+De esta forma, la app se eliminará del dispositivo móvil. En caso de que también quiera eliminar su cuenta de otras redes, Kaspersky cuenta con instrucciones de cómo eliminar el perfil de Twitter, Facebook e Instagram.
