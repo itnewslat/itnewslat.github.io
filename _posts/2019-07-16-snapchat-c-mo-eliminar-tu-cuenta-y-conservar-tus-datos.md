@@ -8,8 +8,7 @@ superArticle: false
 year: '2019'
 title: 'SnapChat: cómo eliminar tu cuenta y conservar tus datos'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kaspesky-Snapchat-p
-  .jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kaspesky-Snapchat-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Kaspesky-Snapchat-g.jpg
 categories:
