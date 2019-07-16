@@ -41,7 +41,7 @@ Para ayudar aquellos usuarios que deseen eliminar su cuenta de SnapChat preocupa
 
 En cuanto a las conversaciones personales, se debe clickear Guardar cada vez que se envíe un snap que se quiera conservar.
 
-2. **Descarga las fotos y videos de Recuerdo**s: Si se quiere abandonar Snapchat, pero se han guardado los snaps en Recuerdos, se deben descargar las fotos favoritas en el dispositivo:
+**Descarga las fotos y videos de Recuerdo**s: Si se quiere abandonar Snapchat, pero se han guardado los snaps en Recuerdos, se deben descargar las fotos favoritas en el dispositivo:
 
 La aplicación para iOS lo hace de una sola vez.
 
@@ -60,7 +60,7 @@ Los usuarios de Android tienen que descargar los snaps uno por uno.
 
 3.**Ponte en contacto con el servicio de soporte**: También los usuarios pueden ponerse en contacto con el servicio de soporte de Snapchat si quieren solicitar toda la información que tengan disponible de tu cuenta, como el historial de las canciones identificadas con Shazam, los avatares Bitmoji, las fotos y videos guardadas en Recuerdos (en caso de haberlas), entre otros. El equipo de soporte considerará la solicitud y enviará lo que se pida.
 
-4. **Obtén un archivo con los datos recopilados por la red social**: Si se quiere revisar el historial de la actividad en Snapchat, una lista de conversaciones, los inicios de sesión y demás, se puede solicitar esta información a la red social. Todo esto vendrá en un solo archivo ZIP, el cual se puede conservar como un recuerdo. Pero primero se debe tener una cuenta de correo electrónico asociado a la cuenta de Snapchat. Esto es lo que se logra obtener:
+4.**Obtén un archivo con los datos recopilados por la red social**: Si se quiere revisar el historial de la actividad en Snapchat, una lista de conversaciones, los inicios de sesión y demás, se puede solicitar esta información a la red social. Todo esto vendrá en un solo archivo ZIP, el cual se puede conservar como un recuerdo. Pero primero se debe tener una cuenta de correo electrónico asociado a la cuenta de Snapchat. Esto es lo que se logra obtener:
 
 - Historial de tus autorizaciones, compras, ubicaciones, búsquedas y mucho más.
 - Un archivo con tus conversaciones,
