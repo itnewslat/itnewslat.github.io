@@ -39,9 +39,7 @@ Si vas a crear un e-Commerce, hoy te propongo que tengas en cuenta algunos de lo
 3. **No Me Cuentes Tu Vida**
   Está bien hacer caso a las variables SEO y pensar que la web tiene que tener mucho texto y muchas veces repetida tu palabra clave, pero por favor, en internet, menos es más. Ajusta tu contenido y destaca sólo lo fundamental, no te enrolles.
 4. **Creer Que Tu Web Lo Puede Tener Todo**
- 
   Genial si lo consigues, pero ¿cuánto tiempo crees que tiene tu cliente para encontrar ese “todo” en tu web? Una web fácil, esto es, una web usable, llevará sí o sí lo que realmente quieres de tu web: una tasa de conversión alta. ¿Cuál es la tuya?
-  
 5. **A Veces No Basta Con Subir Una Foto Del Móvil**
   Si una imagen no llama la atención o tiene la suficiente calidad, o pones la palabra “gratis” al lado, o te has cargado todo tu trabajo. Si tienes un buen móvil ¡aprende a hacer buenas fotos! y si no es lo tuyo, busca a un profesional que las haga.
 6. **No Ocultes Tus Carencias, No Van a Pasar Desapercibidas**
