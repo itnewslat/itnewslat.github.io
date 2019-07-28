@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 year: '2019'
 week: '27,28,29,30'
 banner: >-
