@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-07-29 14:08 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   Dell Technologies logra varios de los objetivos de impacto social para el año
   2020 antes de lo programado
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Dell-Legacy-2020-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Dell-Legacy-2020-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '31'
 ---
 **Expande programas para fomentar la sostenibilidad, cultivar la inclusión y transformar vidas con tecnología**
 
@@ -63,4 +78,3 @@ Aprovechar el poder de la tecnología brinda posibilidades ilimitadas de fomenta
 Respeto de la ética y la privacidad 
 
 La ética y la privacidad cumplen una función crítica cuando se desea establecer una base sólida para lograr un impacto social positivo. En este tiempo de innovación rápida, Big Data, un entorno de reglamentaciones en evolución y expectativas cada vez mayores de los miembros del equipo y los clientes, el liderazgo en ética y privacidad es fundamental como rasgo distintivo de Dell Technologies. Nuestro compromiso de establecer continuamente estándares cada vez mayores de ética y privacidad será nuestra guía para lograr el Progreso hecho realidad.
-
