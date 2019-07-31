@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-07-31 09:37 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: Cinco Factores para Simplificar la Experiencia del Cliente
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Natalia-Sanchon-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Natalia-Sanchon-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Canales
+week: '31'
 ---
 Por: Natalia Sanchon, Marketing Manager, Avaya, Región Américas International
 
@@ -29,12 +44,15 @@ Entonces, ¿cómo se puede simplificar? Basándonos en nuestras conversaciones c
 
   Cualquier back office debe ser digitalizado y automatizado. A medida que la economía digital continúa expandiéndose, las organizaciones deben evaluar cómo pueden incorporar la automatización de procesos robóticos para aliviar los agentes de tareas repetitivas y de baja categoría y, por consiguiente, acelerar los tiempos de manejo. Estos procesos deben combinarse con la administración de casos de forma eficiente, distribuir inteligentemente e informar sobre los niveles de servicio de back-office.
   
-**El agente y el supervisor**: Otro componente crítico de una estrategia simplificada de CX consiste en la extensión del agente y el supervisor, junto con el acceso instantáneo a la información contextual. Las organizaciones deben establecer un espacio de trabajo unificado en el que los agentes tengan acceso en tiempo real al contexto del cliente, incluida la información histórica, el conocimiento del producto y las sugerencias del siguiente paso. Una vez que los agentes estén mejor preparados para gestionar los comportamientos de los clientes de hoy, las resoluciones se producirán mucho más rápido.
-La trayectoria del cliente: ¿Con qué frecuencia se pone en el lugar de sus clientes y prueba la ruta que ha diseñado para ellos? ¿Está resolviendo sus problemas y brindando el apoyo requerido en el momento adecuado?
-Hay dos principios fundamentales que sustentan una trayectoria del cliente simple y convincente:
+3. **El agente y el supervisor**: Otro componente crítico de una estrategia simplificada de CX consiste en la extensión del agente y el supervisor, junto con el acceso instantáneo a la información contextual. Las organizaciones deben establecer un espacio de trabajo unificado en el que los agentes tengan acceso en tiempo real al contexto del cliente, incluida la información histórica, el conocimiento del producto y las sugerencias del siguiente paso. Una vez que los agentes estén mejor preparados para gestionar los comportamientos de los clientes de hoy, las resoluciones se producirán mucho más rápido.
+
+4. **La trayectoria del cliente**: ¿Con qué frecuencia se pone en el lugar de sus clientes y prueba la ruta que ha diseñado para ellos? ¿Está resolviendo sus problemas y brindando el apoyo requerido en el momento adecuado?
+	Hay dos principios fundamentales que sustentan una trayectoria del cliente simple y convincente:
+
   - Construir una ruta que impulse la resolución de problemas y / o los resultados comerciales medible.
   - Encontrar el balance adecuado entre la automatización y los servicios asistidos, y agregar de manera inteligente un punto de contacto humano durante el trayecto.
-La tecnología: Mientras se asume este punto, en esta era la economía global está fundamentada inherentemente en la tecnología; el simplificar la experiencia del cliente se basa en el empoderamiento del brazo tecnológico de una organización para atender el negocio de forma ágil. Para lograr esto, las empresas necesitan:
+  
+5. **La tecnología**: Mientras se asume este punto, en esta era la economía global está fundamentada inherentemente en la tecnología; el simplificar la experiencia del cliente se basa en el empoderamiento del brazo tecnológico de una organización para atender el negocio de forma ágil. Para lograr esto, las empresas necesitan:
 
   - APIs abiertas: para aumentar el valor de los sistemas de información y las plataformas integrándolas para impulsar los requisitos comerciales; y
   - La Nube: un factor esencial para simplificar la implementación (es decir, ir más rápido al mercado), garantizar un soporte continuo y sin esfuerzo, y satisfacer el crecimiento basado en la demanda.
