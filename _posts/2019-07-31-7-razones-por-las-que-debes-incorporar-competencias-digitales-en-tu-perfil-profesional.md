@@ -11,7 +11,7 @@ title: >-
   profesional
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivos
-  Ejecutivo CIO-p.jpg
+  CIO-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ejecutivos
   Ejecutivo CIO-g.jpg
