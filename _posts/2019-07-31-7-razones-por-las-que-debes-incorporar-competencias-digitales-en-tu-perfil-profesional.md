@@ -10,7 +10,7 @@ title: >-
   7 Razones por las que debes incorporar competencias digitales en tu perfil
   profesional
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivos
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivo
   CIO-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ejecutivos
