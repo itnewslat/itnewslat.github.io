@@ -8,7 +8,7 @@ superArticle: false
 year: '2019'
 title: 5 Mitos y verdades sobre la Transformación Digital
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x32/Transformacion-Digital-manos-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Transformacion-Digital-manos-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Transformacion-Digital-manos-g.jpg
 categories:
