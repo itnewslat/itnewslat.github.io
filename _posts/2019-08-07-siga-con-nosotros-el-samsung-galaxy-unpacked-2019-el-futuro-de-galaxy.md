@@ -25,18 +25,7 @@ week: '32'
 ---
 El 7 de agosto, Samsung Electronics dará a conocer nuevos dispositivos diseñados para llevar la conectividad del ecosistema Galaxy al siguiente nivel.
 
-<video data-video-id="5728834628001“
-
-data-account="901973578001“
-
-data-player="Bkues494e“
-
-data-embed="default“
-
-data-application-id="“
-
-class="video-js" controls></video>
-                
+<script src="//players.brightcove.net/901973578001/Bkues494e_default/index.min.js"></script>                
 
 La revelación tendrá lugar en el evento Samsung Galaxy Unpacked en Nueva York.
 
