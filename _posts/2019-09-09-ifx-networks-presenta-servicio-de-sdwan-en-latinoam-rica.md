@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-09-09 07:34 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: IFX Networks presenta servicio de SDWAN en Latinoamérica
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Conectividad-mundial-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Conectividad-mundial-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '37'
 ---
 IFX Networks, proveedor de servicios administrados de telecomunicaciones y TI, anuncia la disponibilidad de su solución SDWAN en Latinoamérica. El nuevo servicio ofrece una conectividad optimizada entre sucursales y nubes públicas y privadas, incrementando directamente la productividad.
 
@@ -32,5 +47,4 @@ Implementar el servicio SDWAN de IFX Networks reporta, entre otros, los siguient
 
 **Disponibilidad**: es posible disponer e integrar múltiples esquemas de conectividad WAN en un mismo punto. Seguridad y soporte técnico: el servicio incluye funciones críticas de seguridad y cuenta con soporte técnico 24x7x365, a través del CARE (Centro de Atención Regional) de IFX Networks.
 
-“Estamos celebrando 20 años. La presentación del servicio de SDWAN consolida nuestro liderazgo en Latinoamérica. Esta iniciativa tiene el respaldo de una operación que comprende 17 países, 350 colaboradores, 12 centros de datos y una comunidad de 2200 clientes, entre empresas del sector corporativo, instituciones del sector gobierno y canales de TI”, concluye Luis Gabriel Castellanos.
-
+**“Estamos celebrando 20 años**. La presentación del servicio de SDWAN consolida nuestro liderazgo en Latinoamérica. Esta iniciativa tiene el respaldo de una operación que comprende 17 países, 350 colaboradores, 12 centros de datos y una comunidad de 2200 clientes, entre empresas del sector corporativo, instituciones del sector gobierno y canales de TI”, concluye Luis Gabriel Castellanos.
