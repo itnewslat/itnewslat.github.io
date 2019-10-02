@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2019-10-02 15:10 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   Lenovo continúa premiando a sus canales de ventas en la tercera edición de
   Súper Experiencias Lenovo
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Lenovo-Canales-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Lenovo-Canales-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Canales
+week: '40'
 ---
 Con el fin de premiar la labor de sus canales de venta, Lenovo lanzó por tercera vez un nuevo concurso para llevar a 40 gerentes y vendedores de resellers de Latinoamérica a vivir experiencias únicas en Estambul, Turquía y asistir a uno de los eventos futbolísticos más importantes de Europa.
 
