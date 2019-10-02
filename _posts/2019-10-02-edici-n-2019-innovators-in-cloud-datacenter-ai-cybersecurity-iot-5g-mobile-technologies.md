@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2019-10-02 14:12 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2019'
@@ -62,4 +62,4 @@ Las categorías de NetEvents Innovation Awards 2019 incluyen:
 
 **Cobertura**
 
-Este año ha sido seleccionado **IT News** para realizar la cobertura a la región latinoamerica 
+Este año ha sido seleccionado **IT News** para realizar la cobertura a la región latinoamerica
