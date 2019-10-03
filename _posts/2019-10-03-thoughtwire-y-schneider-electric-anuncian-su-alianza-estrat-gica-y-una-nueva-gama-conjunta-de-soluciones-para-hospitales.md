@@ -10,7 +10,7 @@ title: >-
   ThoughtWire y Schneider Electric anuncian su alianza estratégica y una nueva
   gama conjunta de soluciones para hospitales 
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/Hospitales-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Hospitales-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Hospitales-g.jpg
 categories:
