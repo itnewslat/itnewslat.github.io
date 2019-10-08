@@ -10,7 +10,7 @@ title: >-
   Unisys Stealth integra la nueva interfaz de Microsoft para dotar de seguridad
   ininterrumpida a las cargas de trabajo críticas en Azure
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Apoyo-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/apoyo-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Apoyo-g.jpg
 categories:
@@ -33,4 +33,4 @@ Unisys anunció en 2016 la disponibilidad de Unisys Stealth(cloud) para Microsof
 
 “Stealth representa una solución de seguridad clave para las empresas que quieren acelerar y extender sus aplicaciones hacia la nube de Azure con la más alta productividad y sin importar los niveles de sensibilidad”, afirma Sudhir Mehta, vicepresidente global de productos de seguridad y estrategia en Unisys.
 
-Stealth, que incluye funcionalidades de aislamiento dinámico para incomunicar rápidamente a usuarios o dispositivos desde el primer signo de compromiso, reduce la superficie de ataque en cualquier entorno creando comunidades de interés microsegmentadas y basadas en identidades. De esta forma, se separan los sistemas, usuarios y datos de confianza de los sospechosos y reduce así la posibilidad de ataque. Además, Stealth cifra cualquier comunicación entre activos protegidos y los oculta a usuarios no autorizados. 
+Stealth, que incluye funcionalidades de aislamiento dinámico para incomunicar rápidamente a usuarios o dispositivos desde el primer signo de compromiso, reduce la superficie de ataque en cualquier entorno creando comunidades de interés microsegmentadas y basadas en identidades. De esta forma, se separan los sistemas, usuarios y datos de confianza de los sospechosos y reduce así la posibilidad de ataque. Además, Stealth cifra cualquier comunicación entre activos protegidos y los oculta a usuarios no autorizados.
