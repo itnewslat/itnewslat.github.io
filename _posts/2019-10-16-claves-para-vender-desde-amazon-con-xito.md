@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-10-16 17:49 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: Claves para vender desde Amazon con éxito
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ecommerce-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ecommerce-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
+week: '42'
 ---
 **Iniciar un negocio de Amazon es una excelente manera de vender productos de comercio electrónico y lanzar marcas completamente nuevas.**
 
@@ -31,7 +46,9 @@ Antes de nada, regístrate en Amazon Seller Central. Una vez se cargue la págin
 
 - **Vendedor profesional**. Esta cuenta está destinada para los grandes empresarios que suelen tener un gran inventario. Se requiere pagar una cuota mensual de 39 euros, independientemente del número de ventas realizadas ¡No hay límites! La gran ventaja que tiene es que te permite acceder a ficheros e informes de todos tus pedidos.
 - **Vendedor individual**. Este tipo es idóneo para aquellos que no tienen un gran stock.  No hay una cuota de suscripción mensual, solo se paga 0,99€ cuando se ha cerrado la venta de un producto, y no se pueden superar más de 40 artículos vendidos al mes. Los nuevos usuarios utilizan esta cuenta durante los primeros meses para comprobar la efectividad de su marca en este nuevo hábitat.
-- Categorías de venta 
+
+**Categorías de venta** 
+
 - **Modelo de mayorista o distribuidor**. Se utiliza si eres el distribuidor oficial de una marca en concreto con la que puedes acceder a la venta online de tus productos. En esta ocasión, también podrás crear tu propia tienda online dentro de Amazon.
 - **Modelo de marca blanca**. Esta es la técnica más utilizada por aquellos que empiezan a vender en Amazon. Consiste en comprar productos a un proveedor bastante asequible (por lo general chino), y subirlos a Amazon para su venta. Como puedes ver, en este caso, no existe una marca definida detrás de los productos.
 - **Modelo del fabricante**. En este caso eres el fabricante directo de los artículos que vas a poner en venta. Aquí, la plataforma te permite crear tu propia tienda online.
@@ -46,23 +63,24 @@ Antes de nada, regístrate en Amazon Seller Central. Una vez se cargue la págin
   - **Relevantes**: que estén en línea con tus otros objetivos a corto y largo plazo.
   - **Oportunos**: creados con una fecha objetivo o fecha límite en mente.
   
-- Realizar estudios de mercado.  Una vez que hayas encontrado algunos productos que te interesaría vender, tendrás que hacer un poco de investigación de mercado para determinar si vale la pena venderlos o no. Aplicaciones como la Extensión de Chrome de Jungle Scout nos sería de gran ayuda. Con ella se puede hacer una proactiva investigación de productos al instante.
+- **Realizar estudios de mercado**.  Una vez que hayas encontrado algunos productos que te interesaría vender, tendrás que hacer un poco de investigación de mercado para determinar si vale la pena venderlos o no. Aplicaciones como la Extensión de Chrome de Jungle Scout nos sería de gran ayuda. Con ella se puede hacer una proactiva investigación de productos al instante.
 
+**Así es como funciona**: 
 
-Así es como funciona: 
-o	Realiza una búsqueda en Amazon.com utilizando tu idea de producto como término de búsqueda.
-o	Después de que se cargue la página de resultados, haz clic en el botón "JS" a la derecha de la barra de búsqueda / dirección de tu navegador para abrir la Extensión Jungle Scout Chrome.
-o	Verifica los datos del producto. La aplicación te mostrará la media de ventas mensuales, las revisiones promedio por producto y mucho más.
- 
-•	Amazon Keyword Reasearch. Es fundamental para descubrir qué vender en Amazon FBA. Tu objetivo esencial debería ser capturar la demanda en la plataforma, no intentar generarla. Por lo tanto, encontrar las palabras clave correctas con el mayor volumen de búsqueda será fundamental para lograr el éxito. Helium 10 y Viral Launch pueden ayudarte en dicha labor.
-•	Compra un código UPC. Es básicamente un número único que se compra a una compañía llamada GS1 que garantiza que ningún otro producto en el mundo comparta el mismo número de identificación que tu producto.
-•	Crea tu listado. Para ello, ingresa en tu cuenta de Seller Central y ves al apartado Inventario -> Agregar producto. Si estás realizando un arbitraje minorista y tu producto ya existe, solo has de localizar el número UPC (los 11-13 dígitos que aparecen debajo del código de barras). Si se trata de un producto nuevo, debes hacer clic en el enlace que dice "Estoy agregando un producto que no se vende en Amazon.com". Después de eso, deberás rellenar algunos detalles básicos del artículo en venta.
-•	Mantenimiento continuo de tu modelo de negocio. A medida que crezca tu tienda en Amazon, hay algunas cosas que debes hacer de manera regular, que incluyen: 
-o	Monitorea tus anuncios de Amazon. Con el tiempo contarás con algunas campañas publicitarias (si decides realizarlas) que funcionen bien y otras que no. Es decir, procederemos a eliminar las campañas perdedoras y duplicar las ganadoras.
-o	Controla constantemente tus listados. Revísalos para detectar cambios no deseados utilizando, por ejemplo, una herramienta como Sentrykit. En ocasiones, Amazon puede agregar contenido no deseado a tus listados y otros competidores pueden incluso sabotearlos.
-o	Haz crecer tu catálogo de productos.  A medida que tus productos maximicen su potencial de ventas necesitará obtener más. La mayoría de los grandes vendedores tienen catálogos de productos de docenas o incluso de cientos de productos.
-o	Expande tus fronteras. Amazon es sin duda un canal de ventas increíble. Sin embargo, también existen otros medios como Shopify, eBay o incluso puedes llegar a vender a otros minoristas.
-Conclusión
+  - Realiza una búsqueda en Amazon.com utilizando tu idea de producto como término de búsqueda.
+  - Después de que se cargue la página de resultados, haz clic en el botón "JS" a la derecha de la barra de búsqueda / dirección de tu navegador para abrir la Extensión Jungle Scout Chrome.
+  - Verifica los datos del producto. La aplicación te mostrará la media de ventas mensuales, las revisiones promedio por producto y mucho más.
+
+- **Amazon Keyword Reasearch**. Es fundamental para descubrir qué vender en Amazon FBA. Tu objetivo esencial debería ser capturar la demanda en la plataforma, no intentar generarla. Por lo tanto, encontrar las palabras clave correctas con el mayor volumen de búsqueda será fundamental para lograr el éxito. Helium 10 y Viral Launch pueden ayudarte en dicha labor.
+
+  - **Compra un código UPC**. Es básicamente un número único que se compra a una compañía llamada GS1 que garantiza que ningún otro producto en el mundo comparta el mismo número de identificación que tu producto.
+  - **Crea tu listado. Para ello, ingresa en tu cuenta de Seller Central y ves al apartado Inventario -> Agregar producto.** Si estás realizando un arbitraje minorista y tu producto ya existe, solo has de localizar el número UPC (los 11-13 dígitos que aparecen debajo del código de barras). Si se trata de un producto nuevo, debes hacer clic en el enlace que dice "Estoy agregando un producto que no se vende en Amazon.com". Después de eso, deberás rellenar algunos detalles básicos del artículo en venta.
+  - **Mantenimiento continuo de tu modelo de negocio**. A medida que crezca tu tienda en Amazon, hay algunas cosas que debes hacer de manera regular, que incluyen: 
+  - **Monitorea tus anuncios de Amazon**. Con el tiempo contarás con algunas campañas publicitarias (si decides realizarlas) que funcionen bien y otras que no. Es decir, procederemos a eliminar las campañas perdedoras y duplicar las ganadoras.
+  - C**ontrola constantemente tus listados**. Revísalos para detectar cambios no deseados utilizando, por ejemplo, una herramienta como Sentrykit. En ocasiones, Amazon puede agregar contenido no deseado a tus listados y otros competidores pueden incluso sabotearlos.
+  - **Haz crecer tu catálogo de productos**.  A medida que tus productos maximicen su potencial de ventas necesitará obtener más. La mayoría de los grandes vendedores tienen catálogos de productos de docenas o incluso de cientos de productos.
+  - **Expande tus fronteras**. Amazon es sin duda un canal de ventas increíble. Sin embargo, también existen otros medios como Shopify, eBay o incluso puedes llegar a vender a otros minoristas.
+
+**Conclusión**
 
 Iniciar un negocio de Amazon es una excelente manera de vender productos de comercio electrónico y lanzar marcas completamente nuevas. Al mismo tiempo que permite que dicha plataforma realice todo el trabajo pesado para ti. Como vendedor, tendrás la capacidad de conectarte a un ecosistema de venta online altamente exitoso y acceder a una gran red de compradores. Agrega Amazon FBA (Fulfillment by Amazon) a tu cuenta de vendedor para automatizar aún más tus procesos y sé el que marca la diferencia.
-
