@@ -33,9 +33,8 @@ Las estimaciones anteriores se basan en K-IFRS. Hay que tener en cuenta que las 
 - **Ventas**: 61 ~ 63 trillones de won coreanos (aproximadamente 50.8 billones de dólares)
 - **Beneficio operativo**: 7.6 ~ 7.8 billones de won coreanos (aproximadamente 6.5 billones de dólares)
  
-<ul style="list-style-type: disc;">
-	<li><strong> </strong><strong>Cifras consolidadas del 2° trimestre de 2019 y 3° trimestre de 2018 basadas en K-IFRS</strong></li>
-</ul>
+**Cifras consolidadas del 2° trimestre de 2019 y 3° trimestre de 2018 basadas en K-IFRS**
+
 <table width="581">
 <tbody>
 <tr>
