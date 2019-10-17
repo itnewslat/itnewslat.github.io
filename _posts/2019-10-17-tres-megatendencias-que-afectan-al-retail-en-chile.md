@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2019-10-17 15:12 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2019'
@@ -17,9 +17,7 @@ tags:
   - Economía Digital
 week: '42'
 ---
-
-
-Por: Iván Fernández, Vicepresidente para Latinoamérica de Aptos. 
+**Por: Iván Fernández, Vicepresidente para Latinoamérica de Aptos.**
 
 Los retailers chilenos han liderado la innovación para encontrar oportunidades de venta más allá de las tiendas físicas. Son pioneros en la región en ventas en línea y fueron los primeros en vincular la compra online con la tienda física, enlazando soluciones puntuales para tareas específicas. 
 
@@ -65,4 +63,3 @@ En Chile hay 12.4 millones de usuarios de internet y 5.7 millones de compradores
 De acuerdo con las tres mega tendencias antes mencionadas, y desde nuestra visión, la mejor opción para los retailers es una solución que presente una plataforma modular que incluya todos los procesos de manera holística e interconectada; es decir, la unificación entre la tienda física, el comercio digital y la omnicanalidad en tiempo real. 
 
 Ahora, debemos entender y alinear el ciclo de vida de las mercancías con el ciclo de interacción y relacionamiento con los consumidores.  El foco debe estar centrado en el cliente y en su experiencia de consumo.
-
