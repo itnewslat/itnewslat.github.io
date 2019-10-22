@@ -3,7 +3,7 @@ email: ""
 description: "Enfocados en las tendencias tecnológicas de los próximos años y las nuevas audiencias que están  cambiando el mercado."
 author: Itnews
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://itnews.lat" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 image_url: "/assets/imagenes/"
 logo_red: "logo_large_red.png"
 logo_blue: "logo_large_blue.png"
