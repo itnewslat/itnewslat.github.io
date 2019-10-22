@@ -1,12 +1,12 @@
-header-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Banner-Ciberespacio.jpg'
+header-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Ciberespacio-728X90.gif'
 
 publicity-1:
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/We-Code-1.png
     url: https://instagram.com/wecode.ve?r=nametag
 
 sideBar-publicity:
-  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300-Vendido.jpg
-    url: http://www.ITNEWS.LAT/
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner_4GEllaCambio_ciberespacio.jpg
+    url: http://www.digitel.com.ve/
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
     url: http://www.ciberespacio.com.ve/
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/partner-it.jpg
