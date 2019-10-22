@@ -44,3 +44,53 @@ El liderazgo de mercado de Samsung y la inversión en innovación también contr
 "Estamos entusiasmados de que nuestros esfuerzos constantes para proporcionar innovaciones significativas que deleiten a los consumidores y les ayuden a vivir mejores vidas hayan sido bien recibidos", dijo YH Lee, director de marketing de Samsung Electronics. "Para mejorar aún más nuestra marca, continuaremos escuchando y aprendiendo de nuestros consumidores, así como liderando los cambios en la sociedad a través de la innovación, para que todos podamos prosperar juntos".
 
 Tras el anuncio de este año de las mejores marcas globales de Interbrand, la cumbre de mejores marcas globales se celebrará en la ciudad de Nueva York el 23 de octubre.
+
+<strong>Samsung Electronics – Crecimiento en Valor de Marca</strong>
+<table>
+<tbody>
+<tr>
+<td width="79"><strong>A</strong><strong>ño</strong></td>
+<td style="text-align: center;" width="79"><strong>2013</strong></td>
+<td style="text-align: center;" width="79"><strong>2014</strong></td>
+<td style="text-align: center;" width="79"><strong>2015</strong></td>
+<td style="text-align: center;" width="79"><strong>2016</strong></td>
+<td style="text-align: center;" width="79"><strong>2017</strong></td>
+<td style="text-align: center;" width="79"><strong>2018</strong></td>
+<td style="text-align: center;" width="79"><strong>2019</strong></td>
+</tr>
+<tr>
+<td width="79"><strong>Valor de marca (en Millones de US$</strong></td>
+<td style="text-align: center;" width="79">39,610
+
+&nbsp;</td>
+<td style="text-align: center;" width="79">45,462
+
+&nbsp;</td>
+<td style="text-align: center;" width="79">45,297
+
+&nbsp;</td>
+<td style="text-align: center;" width="79">51,808
+
+&nbsp;</td>
+<td style="text-align: center;" width="79">56,249
+
+&nbsp;</td>
+<td style="text-align: center;" width="79">59,890
+
+&nbsp;</td>
+<td style="text-align: center;" width="79">61,098
+
+&nbsp;</td>
+</tr>
+<tr>
+<td width="79"><strong>Posición de la Marca</strong></td>
+<td style="text-align: center;" width="79">8</td>
+<td style="text-align: center;" width="79">7</td>
+<td style="text-align: center;" width="79">7</td>
+<td style="text-align: center;" width="79">7</td>
+<td style="text-align: center;" width="79">6</td>
+<td style="text-align: center;" width="79">6</td>
+<td style="text-align: center;" width="79">6</td>
+</tr>
+</tbody>
+</table>
