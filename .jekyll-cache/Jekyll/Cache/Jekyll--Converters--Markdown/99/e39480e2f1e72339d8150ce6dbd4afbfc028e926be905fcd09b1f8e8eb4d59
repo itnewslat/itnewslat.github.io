@@ -1,0 +1,89 @@
+I"j<p>Kingston Technology Company, Inc., el fabricante independiente de productos de memoria líder en el mundo, anunció el lanzamiento de la línea UV500 de productos SSD. Disponible en múltiples factores de forma, la UV500 será la primera unidad SSD de Kingston habilitada con 3D NAND e integrada con encriptación de disco completo. La UV500 está impulsada por el controlador Marvell 88SS1074 y, al combinarse con 3D NAND Flash, ofrece increíbles velocidades de lectura/escritura de hasta 520MB/s y 500MB/s, lo que la hace 10 veces más rápida que un disco duro de 7200RPM.</p>
+
+<p>La unidad UV500 mejora considerablemente el tiempo de respuesta de un sistema con impresionantes velocidades de arranque, carga y transferencia y, debido a que cuenta con menos partes móviles, es menos propensa a fallar comparado con los discos duros mecánicos. La unidad UV500 protege los datos confidenciales con encriptación AES de 256 bits basada en hardware y soporta TCG Opal 2.0. Está disponible en tres factores de forma diferentes (2.5″, M.2 2280, mSATA) para adaptarse a cualquier sistema cliente. La UV500 es ideal como unidad de arranque o almacenamiento principal, ya que está disponible en capacidades de 120GB, 240GB, 480GB, 960GB y 1920GB*.</p>
+
+<p>“Nos sentimos orgullosos de lanzar al mercado la familia UV500 de unidades SSD con auto cifrado” dijo Ariel Perez, gerente de la unidad de SSD en Kingston. “La combinación entre un potente controlador, 3D NAND y encriptación de datos en múltiples factores de forma hace que la unidad UV500 sea ideal tanto para los consumidores como para los usuarios empresariales que buscan impulsar el desempeño de sus sistemas existentes”.</p>
+
+<p>La UV500 cuenta con cinco años de garantía limitada y el legendario soporte de Kingston.</p>
+
+<p>Para más información, visite <a href="http://www.kingston.com/">www.kingston.com</a>.</p>
+
+<p>Características y especificaciones de la UV500:</p>
+<ul>
+  <li><strong>Factor de forma:</strong> 2.5″/M.2 2280/mSATA</li>
+  <li><strong>Interface:</strong> SATA Rev. 3.0 (6Gb/s) – con compatibilidad retroactiva con SATA Rev. 2.0 (3Gb/s)</li>
+  <li><strong>Capacidades:</strong>
+    <ul>
+      <li>5″: 120GB, 240GB, 480GB, 960GB, 1920B*</li>
+      <li>M.2 2280: 120GB, 240GB, 480GB, 960GB*</li>
+      <li>mSATA: 120GB, 240GB, 480GB</li>
+    </ul>
+  </li>
+  <li>Controlador: Marvell 88SS1074</li>
+  <li>NAND: 3D TLC</li>
+  <li>Desempeño base:
+    <ul>
+      <li><strong>Transferencia de datos (ATTO)</strong></li>
+      <li>120GB — hasta 520/320MB/s</li>
+      <li>240GB — hasta 520/500MB/s</li>
+      <li>480GB — hasta 520/500MB/s</li>
+      <li>960GB — hasta 520/500MB/s</li>
+      <li><strong>Lectura/Escritura 4k aleatoria máxima (IOMETER)</strong></li>
+      <li>120GB — hasta 79,000/18,000 IOPS</li>
+      <li>240GB — hasta 79,000/25,000 IOPS</li>
+      <li>480GB — hasta 79,000/35,000 IOPS</li>
+      <li>960GB — hasta 79,000/45,000 IOPS</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Consumo energético:</strong></p>
+
+    <p>0.195W Reposo / 0.5W Promedio / 1.17W (MÁX) Lectura / 2.32 W (MÁX) Escritura</p>
+  </li>
+  <li><strong>Temperatura de almacenamiento:</strong> -40°C~85°C</li>
+  <li><strong>Temperatura en operación:</strong> 0°C~70°C</li>
+  <li><strong>Dimensiones:</strong>
+    <ul>
+      <li>1mm x 69.85mm x 7mm (2.5″)</li>
+      <li>80mm x 22mm x 3.5mm (M.2)</li>
+      <li>8mm x 29.85mm x 4.85mm (mSATA)</li>
+    </ul>
+  </li>
+  <li><strong>Peso:</strong>
+    <ul>
+      <li>120GB – 480GB — 41g (2.5″)</li>
+      <li>960GB — 57g (2.5″)</li>
+      <li>120GB — 6.6g (M.2)</li>
+      <li>240GB — 6.7g (M.2)</li>
+      <li>480GB — 7.7g (M.2)</li>
+      <li>120GB — 6.2g (mSATA)</li>
+      <li>240GB – 480GB — 6.7g (mSATA)</li>
+    </ul>
+  </li>
+  <li><strong>Vibración en operación:</strong> 2.17G Pico (7–800Hz)</li>
+  <li><strong>Vibración en reposo:</strong>20G Pico (10–2000Hz)</li>
+  <li><strong>Expectativa de vida:</strong> 1 millón de horas MTBF</li>
+  <li><strong>Garantía/soporte:</strong> 5 años de garantía limitada con soporte técnico gratuito</li>
+  <li><strong>Total de Bytes Escritos (TBW):</strong>
+    <ul>
+      <li>120GB — 60TB</li>
+      <li>240GB — 100TB</li>
+      <li>480GB — 200TB</li>
+      <li>960GB — 480TB</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Esta unidad SSD está diseñada para utilizar en computadoras de escritorio y portátil, y no está diseñada para ambientes de servidores.</p>
+
+<ol>
+  <li>Basado en el “desempeño inmediato” con el uso de una tarjeta madre SATA Rev 3.0 / PCIe 3.0. La velocidad puede variar según el hardware “anfitrión”, el software y el uso. La lectura/escritura 4k aleatoria IOMETER se basa en una partición de 8GB.</li>
+  <li>Parte de la capacidad listada en un dispositivo de almacenamiento Flash se usa para formateo y otras funciones, y por lo tanto no está disponible para el almacenamiento de datos. Como tal, la capacidad disponible real para almacenamiento de datos es menor que la listada en los productos. Para obtener más información, visite la Guía Flash de Kingston en kingston.com/flashguide.</li>
+  <li>Garantía limitada de 5 años o “vida restante de la unidad SSD”, tal como se especifica en Kingston SSD Manager (Kingston.com/SSDManager). Un producto nuevo sin uso mostrará un valor indicador de desgaste de cien (100), mientras que un producto que ha alcanzado su límite de resistencia para ciclos de programación mostrará un valor indicador de desgaste de uno (1). Visite Kingston.com/wa para más información.</li>
+  <li>Total de bytes escritos (TBW) se deriva de JEDEC Client Workload (JESD219A).</li>
+</ol>
+
+<ul>
+  <li>Próximamente</li>
+</ul>
+:ET

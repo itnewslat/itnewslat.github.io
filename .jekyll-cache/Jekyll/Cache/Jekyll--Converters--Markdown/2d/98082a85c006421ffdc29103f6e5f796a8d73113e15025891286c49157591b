@@ -1,0 +1,24 @@
+I"^<ul>
+  <li>Haciéndose pasar por la versión móvil de una app muy popular entre los usuarios de criptomonedas, las transacciones realizadas en bitcoin o ethereum terminan en la cuenta del delincuente</li>
+  <li>El autor del descubrimiento, Lukas Stefanko, explicará la investigación en el Mobile World Congress, que se celebra en Barcelona a partir del 25 de febrero</li>
+</ul>
+
+<p>ESET, líder mundial en ciberseguridad y el mayor fabricante de software de seguridad de la Unión Europea, ha anunciado el descubrimiento del primer malware de Android en Google Play capaz de reemplazar el contenido de la aplicación portapapeles del dispositivo. El objetivo de este malware es conseguir robar criptomonedas Bitcoins y Ethereum, por lo que redirige las transferencias realizadas en estas criptomonedas a la cuenta del atacante en lugar de a la de la víctima.</p>
+
+<p>“Este descubrimiento pone de manifiesto que los clippers que redirigen criptomonedas ya no son solamente una conversación en foros escondidos de Android o de Windows, sino que son una realidad sobre la que los usuarios de Android deben estar alerta”, comenta el autor de la investigación Lukas Stefanko.</p>
+
+<p>El clipper, detectado por ESET como Android/Clipper.C se aprovecha de los usuarios que realizan transacciones con criptomonedas y que normalmente no introducen su clave manualmente, sino que la copian desde el portapapeles. El malware reemplaza la dirección escrita en el portapapeles con la del ciberdelincuente.</p>
+
+<p>Los clippers aparecieron en sistemas Windows por primera vez en 2017. Ya en 2018, ESET descubrió tres aplicaciones maliciosas alojadas en download.cnet.com, uno de los sitios de hosting más conocidos del mundo. En agosto de 2018, se descubrió el primer clipper de Android, que se comercializaba en foros de hacking clandestinos. A partir de ese momento, se ha detectado este malware en varias tiendas de aplicaciones sospechosas.</p>
+
+<p>Los usuarios que solo utilizan la tienda oficial de Google para descargar aplicaciones estaban seguros ante este tipo de amenazas hasta ahora. Este mes de febrero, los investigadores de ESET han descubierto el primer clipper en Google Play. “Afortunadamente, hemos encontrado este clipper muy poco tiempo después de su incorporación a la tienda y, en cuanto ESET ha avisado a Google, se ha eliminado”, afirma Stefanko.</p>
+
+<p>El clipper descubierto por ESET se hace pasar por un servicio legítimo denominado MetaMask, diseñado para utilizar apps descentralizadas de Ethereum sin abrir el modo completo de Ethereum y que se acopla a los navegadores como Chrome o Firefox como una extensión. Actualmente, no existe una versión móvil de este servicio.
+“Parece ser que existe una demanda para la versión móvil de MetaMask y los cibercriminales lo saben. Por ello han se han hecho pasar por este servicio para distribuir su malware”, advierte Stefanko. Además, este malware persigue los fondos en Bitcoins o Ethereum de la víctima. En cualquier caso, tan solo solicita al usuario que introduzca la dirección de su cuenta en un formulario falso, por lo que la víctima revela la información confidencial al atacante.</p>
+
+<p>“Con el clipper instalado en el dispositivo, robar no puede ser más sencillo. Son las propias víctimas las que envían, involuntariamente, sus fondos al atacante”, explica Stefanko.</p>
+
+<p>La aparición de este nuevo malware supone un nuevo imperativo para que los usuarios de Android tengan en cuenta una serie de recomendaciones, como mantener el sistema actualizado, utilizar una solución de seguridad específica para dispositivos móviles, descargar solamente apps desde la tienda oficial y, en cualquier caso, comprobar la página web oficial del desarrollador para asegurarse que existe una versión móvil del servicio que ofrece. Finalmente, es necesario también verificar cualquier transacción que implique datos confidenciales o una transacción financiera. Por último, si se usa el portapapeles, debemos comprobar que lo que hemos pegado es realmente lo que queremos escribir.</p>
+
+<p>Para más información sobre este descubrimiento, se puede visitar el blog de ESET.</p>
+:ET

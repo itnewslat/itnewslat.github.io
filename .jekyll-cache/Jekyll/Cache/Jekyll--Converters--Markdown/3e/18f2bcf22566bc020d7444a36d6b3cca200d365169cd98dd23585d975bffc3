@@ -1,0 +1,26 @@
+I"�<p>Según el informe de Kaspersky Lab sobre el Internet de las Cosas (IoT por sus siglas en ingles), durante la primera mitad de 2018 los dispositivos IoT fueron atacados con más de 120,000 modificaciones de malware. Eso es más del triple de la cantidad de malware de IoT observada en durante el 2017. Kaspersky Lab advierte que el crecimiento vertiginoso de las familias de malware que tienen como objetivo los dispositivos inteligentes es una continuación de una tendencia peligrosa, dado a que en 2017, el número de modificaciones de malware para dispositivos inteligentes aumentó 10 veces con respecto al monto visto en 2016.</p>
+
+<p>El mercado de los dispositivos IoT -también conocidos como dispositivos “inteligentes”- y su rol en la vida cotidiana están creciendo exponencialmente. Pero los ciberdelincuentes también están viendo las oportunidades financieras y, como resultado, se están multiplicando y diferenciando sus ataques. El peligro para los consumidores que aprecian sus dispositivos IoT es que las amenazas pueden golpear inesperadamente, convirtiendo dispositivos aparentemente inofensivos en poderosas máquinas para realizar actividades ilegales. Estas pueden incluir la “minería” de criptomonedas, ataques DDoS, o la discreta inclusión de dispositivos en actividades de botnets.</p>
+
+<p>Conscientes de estos peligros, los expertos de Kaspersky Lab revisan periódicamente los datos recopilados por diversas fuentes, incluidos nuestros honeypots, dispositivos que se utilizan como señuelos para atraer la atención de los ciberdelincuentes y analizar sus actividades. Las actualizaciones más recientes son sorprendentes: durante la primera mitad de 2018, el número de modificaciones de malware dirigidas a dispositivos IoT que fueron observadas por los investigadores se elevó a más del triple en comparación al número registrado en todo 2017.</p>
+
+<p>Las estadísticas muestran que el método más popular de propagación de malware IoT sigue siendo el forzar las contraseñas, es decir, intentar repetidamente varias combinaciones de contraseñas. Este método de fuerza bruta se utilizó en 93% de los ataques detectados. En la mayoría de los casos restantes, el acceso a dispositivos de IoT se logró con exploits conocidos.</p>
+
+<p>Los dispositivos que atacaron con mayor frecuencia los honeypots de Kaspersky Lab fueron routers (por un amplio margen). El 60% de los intentos registrados de atacar nuestros dispositivos virtuales provenía de ellos. La porción restante de los dispositivos de IoT infectados incluía una variedad de diferentes tecnologías, como dispositivos DVR e impresoras. Los honeypots incluso recibieron un ataque de 33 lavadoras.</p>
+
+<p>Los ciberdelincuentes pueden tener diferentes motivos para sacar provecho de los dispositivos IoT, pero el objetivo más popular es facilitar los ataques DDoS mediante la creación de botnets. Algunas modificaciones de malware también han sido diseñadas para desactivar malware rival, corregir sus propias vulnerabilidades y bloquear servicios vulnerables en el dispositivo.</p>
+
+<p>“Comparados con las computadoras personales y los teléfonos inteligentes, los dispositivos para IoT podrían no parecer lo suficientemente poderosos como para atraer a los cibercriminales y ser utilizados en su actividad ilegal. Sin embargo, su falta de desempeño es superada por su cantidad, y el hecho de que algunos fabricantes de dispositivos inteligentes aún no prestan la suficiente atención a la seguridad de sus productos. Incluso si los proveedores comenzaran ahora a proporcionar a sus dispositivos una mejor seguridad, pasará un buen tiempo antes de que los dispositivos vulnerables más antiguos hayan sido retirados gradualmente de nuestros hogares”, señala Mikhail Kuzin, investigador de seguridad en Kaspersky Lab.  “Además, las familias de malware dirigidas a IoT se están adaptando y desarrollando muy rápido y, aunque no se han solucionado las brechas previamente explotadas, los delincuentes están descubriendo nuevas oportunidades constantemente. Por lo tanto, los productos IoT se han convertido en un objetivo fácil para los ciberdelincuentes que pueden convertir máquinas simples en un dispositivo poderoso para realizar actividades ilegales, como espiar, robar y extorsionar”, finalizó.</p>
+
+<p>Para reducir el riesgo de infección, Kaspersky Lab le recomienda a los usuarios lo siguiente:</p>
+
+<ul>
+  <li>Instalar tan pronto como sea posible las actualizaciones para el firmware del dispositivo. Una vez descubierta una vulnerabilidad, se puede reparar con parches incluidos en las actualizaciones.</li>
+  <li>Cambiar siempre las contraseñas preinstaladas. Utilice contraseñas complejas que incluyan letras mayúsculas y minúsculas, números y símbolos.</li>
+  <li>Utilizar Kaspersky Smart Home y IoT Scanner para verificar si sus dispositivos IoT tienen vulnerabilidades e infecciones.</li>
+  <li>Reiniciar un dispositivo tan pronto como detecte que está actuando de forma extraña. Esto podría ayudar a deshacerse del malware existente, pero no reduce el riesgo de contraer otra infección.</li>
+</ul>
+
+<p>Lea la versión completa del informe en https://securelist.lat/new-trends-in-the-world-of-iot-threats/87948/</p>
+
+:ET

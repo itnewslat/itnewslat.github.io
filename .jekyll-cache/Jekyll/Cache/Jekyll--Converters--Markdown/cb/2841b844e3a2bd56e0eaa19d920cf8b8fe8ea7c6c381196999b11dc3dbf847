@@ -1,0 +1,30 @@
+I"�<p>El Equipo de investigación y análisis global de Kaspersky Lab (GReAT, por sus siglas en inglés) ha descubierto AppleJeus, una nueva operación maliciosa llevada a cabo por el infame grupo Lazarus. Los atacantes penetraron la red de una bolsa de intercambio de criptomonedas en Asia mediante un software de comercio de criptomonedas troyanizado. El objetivo del ataque fue robar criptomonedas de sus víctimas. Además de ese malware basado en Windows, los investigadores pudieron identificar una versión, hasta entonces desconocida, dirigida a la plataforma MacOS.</p>
+
+<p>Este es el primer caso en que los investigadores de Kaspersky Lab han observado al grupo Lazarus distribuyendo malware dirigido a usuarios de MacOS, siendo una llamada de atención para todos los que utilizan este sistema operativo para actividades relacionadas con criptomonedas.</p>
+
+<p>Con base en el análisis del equipo de investigación, la penetración de la infraestructura de la bolsa de intercambio comenzó con el descuido de un empleado que descargó una aplicación de terceros desde un sitio web aparentemente legítimo de una empresa que desarrolla software para el comercio de criptomonedas.</p>
+
+<p>El código de la aplicación no es sospechoso, con excepción de un componente: un actualizador. En el software legítimo, dichos componentes se utilizan para bajar nuevas versiones de programas. En el caso de AppleJeus, actúa como un módulo de reconocimiento: primero recopila información básica sobre la computadora en la que se ha instalado, luego envía estos datos al servidor de mando y control y, si los atacantes deciden que vale la pena atacar a la computadora, el código malicioso regresa, pero en forma de una actualización de software. La actualización maliciosa instala es un troyano conocido como Fallchill, una vieja herramienta que el grupo Lazarus ha vuelto a usar recientemente. Este hecho dio a los investigadores una base para atribuir el origen. Después de instalado, el troyano Fallchill proporciona a los atacantes acceso casi ilimitado a la computadora atacada, lo que les permite robar información financiera valiosa o bien, instalar herramientas adicionales para tal fin.</p>
+
+<p>La situación se vio agravada por el hecho de que los delincuentes han desarrollado software tanto para la plataforma Windows como MacOS. Esta última suele estar mucho menos expuesta a amenazas cibernéticas en comparación a Windows. La funcionalidad de las versiones del malware en ambas plataformas es exactamente la misma.</p>
+
+<p>Otra cosa inusual acerca de cómo funciona AppleJeus es que, si bien parece un ataque de la cadena de suministro, en realidad puede no ser el caso. El proveedor del software de intercambio de criptomonedas que se utilizó para entregar la carga maliciosa a las computadoras de las víctimas tiene un certificado digital válido para firmar su software y datos de aspecto legítimo para registro del dominio. Sin embargo, al menos con base en información pública, los investigadores de Kaspersky Lab no han podido identificar ninguna organización legítima ubicada en la dirección utilizada en la información del certificado.</p>
+
+<p>“Notamos un interés creciente del Grupo Lazarus en los mercados de criptomonedas a principios de 2017, cuando un operador de Lazarus instaló software para minar la criptodivisa Monero en uno de sus servidores. Desde entonces, han sido detectados varias veces teniendo como objetivo las bolsas de intercambio de criptomonedas junto con organizaciones financieras regulares. El hecho de que desarrollaran malware para infectar a usuarios de MacOS además de usuarios de Windows y, muy probablemente, hasta crearan una compañía y un software completamente falso para poder entregar este malware sin ser detectados por las soluciones de seguridad, significa que ven gran potencial de ganancias en la operación, y definitivamente debemos esperar más casos similares en un futuro cercano. Para los usuarios de MacOS, este caso es una llamada de atención, especialmente si usan sus Macs para realizar operaciones con criptomonedas”, señala Vitaly Kamluk, director del Equipo Global de Investigación y Análisis para Asia-Pacifico en Kaspersky Lab.</p>
+
+<p>El grupo Lazarus, conocido por la forma avanzada de sus actividades y sus vínculos con Corea del Norte, destaca no solo por sus ataques de ciberespionaje y cibersabotaje, sino también por ataques con motivos financieros.</p>
+
+<p>Varios investigadores, incluidos colaboradores de Kaspersky Lab, han informado previamente sobre este grupo dirigido a bancos y otras grandes empresas financieras.</p>
+
+<p>Para protegerse usted y a su empresa de ciberataques avanzados de grupos como Lazarus, los expertos en seguridad de Kaspersky Lab recomiendan lo siguiente:</p>
+
+<ul>
+  <li>No confíe automáticamente en el código que se ejecuta en sus sistemas. Ni un sitio web de apariencia auténtica, ni el perfil de una empresa sólida, ni los certificados digitales garantizan que no existan puertas traseras.</li>
+  <li>Utilice una solución de seguridad robusta, equipada con tecnologías de detección de comportamiento malicioso que permitan detectar incluso amenazas que son desconocidas hasta ahora.</li>
+  <li>Suscriba al equipo de seguridad de su organización a un servicio de informes de inteligencia de amenazas de alta calidad que le permita obtener acceso adelantado a la información sobre los acontecimientos más recientes con relación a tácticas, técnicas y procedimientos que emplean los agentes de amenazas avanzadas.</li>
+  <li>Use autenticación de múltiples factores y carteras en hardware si realiza transacciones financieras importantes. Para este propósito, preferiblemente dedique una computadora independiente y aislada que no use para navegar por Internet o leer el correo electrónico.</li>
+</ul>
+
+<p>Para la versión completa del informe sobre AppleJeus, por favor entre en nuestra página https://securelist.com/operation-applejeus/87553/</p>
+
+:ET

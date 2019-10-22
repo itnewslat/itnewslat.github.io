@@ -1,0 +1,36 @@
+I"q<p><strong>Las principales víctimas de este ataque se encuentran en Brasil y Colombia</strong></p>
+
+<p>Investigadores de Kaspersky Lab han descubierto un nuevo minero de criptomonedas, PowerGhost que ha afectado redes corporativas de varias regiones, principalmente en América Latina. Esto es lo último en la nueva tendencia donde cibercriminales utilizan mineros en ataques dirigidos con el fin de obtener dinero. A medida que esta tendencia crezca, más empresas se verán en peligro, ya que los mineros sabotean y ralentizan sus redes informáticas, dañando los procesos comerciales generales y llenando sus propios bolsillos en el proceso.</p>
+
+<p>En este momento los mineros de criptomonedas son un tema en furor en el área de ciberseguridad. Este software especializado en “minería” crea nuevas monedas aprovechando la potencia de  computadoras y dispositivos victimas sin su conocimiento. La amenaza se ha disparado en los últimos tiempos, y ha reemplazado al ransomware como el principal tipo de software malicioso, como lo expuso una investigación previa de Kaspersky Lab. Sin embargo, la aparición de PowerGhost agrega una nueva dimensión a esa tendencia. Demuestra que los desarrolladores de mineros maliciosos están cambiando su atención hacia ataques dirigidos para obtener más dinero, como predijeron los investigadores de Kaspersky Lab.</p>
+
+<p><img src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Kaspersky-mapa.jpg" alt="" /></p>
+
+<p><strong>Geografía de infecciones por el minero</strong></p>
+
+<p>PowerGhost se distribuye dentro de redes empresariales, infectando a estaciones de trabajo y servidores. Las victimas principales de este ataque han sido usuarios corporativos en Brasil, Colombia, India y Turquía. Sin embargo, también se han registrado víctimas en México, Perú y Ecuador. Curiosamente, PowerGhost utiliza varias técnicas sin la necesidad de archivos para acceder discretamente a las redes corporativas— lo que significa que el minero no almacena la carga maliciosa del malware directamente en un disco, lo que hace más compleja su detección y neutralización.</p>
+
+<p>La infección del equipo se produce mediante exploits o herramientas de administración remota. Cuando la máquina se infecta, la carga maliciosa del minero se descarga y se ejecuta sin estar almacenado en el disco duro. Una vez que esto ha sucedido, los ciberdelincuentes pueden hacer que el minero se actualice automáticamente, se extienda dentro de la red y se inicie el proceso de minería de criptomonedas.</p>
+
+<p>“Los ataques de PowerGhost a empresas, con el propósito de instalar mineros, generan nuevas preocupaciones sobre el software de criptominería. El minero que examinamos indica que atacar a los usuarios ya no es suficiente. Los ciberdelincuentes ahora también tienen como objetivo a las  empresas, lo que hace que la “minería” de criptomonedas sea una amenaza para la comunidad empresarial”, comenta  Vladas Bulavas, analista de malware para Kaspersky Lab.</p>
+
+<p>Los productos de Kaspersky Lab detectan la amenaza como:</p>
+
+<ul>
+  <li>PDM:Trojan.Win32.Generic</li>
+  <li>PDM:Exploit.Win32.Generic</li>
+  <li>HEUR:Trojan.Win32.Generic</li>
+  <li>not-a-virus:HEUR:RiskTool.Win32.BitMiner.gen</li>
+</ul>
+
+<p>Para reducir el riesgo de infección por mineros, Kaspersky Lab aconseja a los usuarios:</p>
+
+<ol>
+  <li>Siempre mantener actualizado el software en todos los dispositivos que utilice. Para evitar que los mineros exploten vulnerabilidades, use herramientas que puedan detectar automáticamente vulnerabilidades y descargue e instale parches.</li>
+  <li>No pasar por alto objetivos menos obvios, como los sistemas de gestión de colas de trabajo, terminales POS e incluso máquinas expendedoras. Tales equipos también pueden ser secuestrados para extraer criptomonedas.</li>
+  <li>Utilizar una solución de seguridad robusta con componentes de control de aplicaciones, detección de comportamiento y prevención de exploits que monitoreen las acciones sospechosas de aplicaciones y bloqueen la acción de archivos maliciosos. Kaspersky Endpoint Security for Business incluye estas funciones.</li>
+  <li>Para proteger el entorno corporativo, capacite a sus empleados y equipos de TI, mantenga separados los datos confidenciales y restrinja el acceso.</li>
+</ol>
+
+<p>Para obtener más información sobre PowerGhost, por favor lea el reporte completo en Securelist.com.</p>
+:ET

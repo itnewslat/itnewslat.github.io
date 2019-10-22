@@ -1,0 +1,28 @@
+I"N<p><strong>Investigadores de Kaspersky Lab además observaron superposiciones de victimas con el APT DarkHotel</strong></p>
+
+<p>Investigadores de Kaspersky Lab que rastrean la actividad de ScarCruft, un agente de amenazas en lengua coreana, han descubierto que ese grupo está probando y creando nuevas herramientas y técnicas, así como ampliando el alcance y el volumen de la información obtenida de sus víctimas. Entre otras cosas, el grupo ha creado un código que puede identificar los dispositivos Bluetooth conectados.</p>
+
+<p>Se cree que la amenaza persistente avanzada (APT, por sus siglas en inglés) ScarCruft está patrocinada por un estado y ataca generalmente a entidades gubernamentales y empresas con vínculos en la península de Corea, aparentemente en busca de información de interés político. En la actividad más reciente observada por Kaspersky Lab, hay indicios de que el agente de amenazas está evolucionando, probando nuevos ataques, desarrollando interés en los datos de dispositivos móviles y mostrando ingenio para adaptar herramientas y servicios legítimos a sus operaciones de ciberespionaje.</p>
+
+<p>Los ataques del grupo comienzan, al igual que los de muchas otras APT, con spear-phishing o comprometiendo un sitio web estratégico –lo que se conoce también como ataques de “abrevadero”– aprovechando una vulnerabilidad u otros trucos para infectar a ciertos visitantes.</p>
+
+<p>En el caso de ScarCruft, a esto le sigue la primera etapa de una infección que es capaz de eludir el UAC o control de cuentas del usuario de Windows, lo que le permite ejecutar la siguiente carga con privilegios más altos utilizando un código que se implementa normalmente en las organizaciones para realizar pruebas legítimas de penetración. Para evadir la detección a nivel de red, el malware utiliza la esteganografía y oculta así el código malicioso en un archivo de imagen. La etapa final de la infección implica la instalación de una backdoor (puerta trasera) conocida como ROKRAT que se basa en servicios en la nube. Esta puerta trasera recopila una amplia gama de información obtenida de los sistemas y dispositivos de las víctimas, y puede reenviarla a cuatro servicios en la nube: Box, Dropbox, pCloud y Yandex.Disk.</p>
+
+<p>Los investigadores de Kaspersky Lab descubrieron el interés de este APT por el robo de datos de dispositivos móviles, así como malware que identifica dispositivos Bluetooth que utilizan la API Bluetooth en Windows.</p>
+
+<p>Según los datos de telemetría, las víctimas de esta campaña incluyen compañías de inversiones y comercio en Vietnam y Rusia que pueden tener vínculos con Corea del Norte y entidades diplomáticas en Hong Kong y Corea del Norte. Se descubrió que una de las víctimas infectada por ScarCruft en Rusia también había sido atacada previamente por el grupo DarkHotel de lengua coreana.</p>
+
+<p>“No es la primera vez que vemos que ScarCruft y DarkHotel se superponen. Tienen intereses similares en cuanto a sus objetivos, pero herramientas, técnicas y procesos muy diferentes. Esto nos lleva a creer que uno de los grupos acecha regularmente a la sombra del otro. ScarCruft es cauteloso y prefiere no llamar la atención, pero ha demostrado ser un grupo sumamente calificado y activo, con un ingenio considerable en la forma en que desarrolla e implementa las herramientas. Creemos firmemente que continuará evolucionando”, dijo Seongsu Park, investigador principal de seguridad, Equipo Global de Análisis e Investigación, Kaspersky Lab.
+Todos los productos de Kaspersky Lab detectan y bloquean con éxito esta amenaza.</p>
+
+<p>Para evitar ser víctima de un ataque dirigido por un agente de amenazas conocido o desconocido, los investigadores de Kaspersky Lab recomiendan implementar las siguientes medidas:</p>
+
+<ul>
+  <li>Proporcione a su equipo de SOC acceso al informe más reciente sobre Threat Intelligence, o Inteligencia de amenazas, para mantenerse al día con las herramientas, técnicas y tácticas nuevas y emergentes que utilizan los agentes de amenazas y los ciberdelincuentes.</li>
+  <li>Para la detección a nivel de endpoints, la investigación y remedio oportuno de incidentes, implemente soluciones EDR como Kaspersky Endpoint Detection and Response.</li>
+  <li>Además de adoptar una protección esencial para endpoints, implemente una solución de seguridad de clase corporativa como Kaspersky Anti Targeted Attack Platform, que detecte en una etapa temprana las amenazas avanzadas a nivel de red.</li>
+  <li>Dado que muchos ataques dirigidos comienzan con el phishing u otra técnica de ingeniería social, realice entrenamientos para fomentar conciencia sobre seguridad y enseñe habilidades prácticas, por ejemplo, a través de Kaspersky Automated Security Awareness Platform.</li>
+</ul>
+
+<p>Información adicional sobre las actividades más recientes de Scarcruft está disponible en Securelist.</p>
+:ET

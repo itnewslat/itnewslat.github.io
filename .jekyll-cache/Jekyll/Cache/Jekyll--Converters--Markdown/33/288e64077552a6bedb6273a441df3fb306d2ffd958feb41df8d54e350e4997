@@ -1,0 +1,24 @@
+I"�<p><strong>El malware denominado LightNeuron puede leer, bloquear y hasta redactar correos electrónicos de forma remota en el sistema infectado. El mismo se esconde en adjuntos de correo en PDF y JPEG y ya afectó a organizaciones de Brasil y de otras partes del mundo.</strong></p>
+
+<p>ESET, compañía líder en detección proactiva de amenazas, presentó su investigación sobre el descubrimiento de LightNeuron, una puerta trasera de Microsoft Exchange que puede leer, modificar o bloquear cualquier correo electrónico que pase por el servidor de correo, e incluso redactar nuevos correos electrónicos y enviarlos bajo la identidad de cualquier usuario legítimo de la elección de los atacantes. El malware se controla de forma remota a través de correos electrónicos utilizando archivos adjuntos de archivos PDF y JPG estenográficos.</p>
+
+<p>LightNeuron apunta a los servidores de correo de Microsoft Exchange al menos desde 2014. Los investigadores de ESET identificaron tres organizaciones de víctimas diferentes, entre ellas un ministerio de asuntos exteriores en un país de Europa del Este y una organización diplomática regional en el Medio Oriente.</p>
+
+<p>LightNeuron es el primer malware conocido que utiliza incorrectamente el mecanismo del Agente de transporte de Microsoft Exchange. “En la arquitectura del servidor de correo, LightNeuron puede operar con el mismo nivel de confianza que los productos de seguridad, como los filtros de spam. Como resultado, este malware le da al atacante control total sobre el servidor de correo y, por lo tanto, sobre toda la comunicación del correo electrónico”, explica Matthieu Faou, el investigador de malware de ESET que realizó la investigación.</p>
+
+<p>Los investigadores de ESET recopilaron evidencia que sugiere, con un alto nivel de certeza, que LightNeuron pertenece al grupo de espionaje Turla, también conocido como Snake. Este grupo y sus actividades están ampliamente cubiertos por la investigación de ESET. “Creemos que los profesionales de la seguridad de TI deben conocer esta nueva amenaza”, comenta Faou.</p>
+
+<p>Para hacer que los correos electrónicos de comando y control (C&amp;C) parezcan inocentes, LightNeuron usa la esteganografía para ocultar sus comandos dentro de documentos PDF o imágenes JPG válidos.</p>
+
+<p>La capacidad de controlar la comunicación por correo electrónico convierte a LightNeuron en una herramienta perfecta para la filtración sigilosa de documentos y también para controlar otras máquinas locales a través de un mecanismo de C&amp;C que es muy difícil de detectar y bloquear.</p>
+
+<p><img class="alignleft" src="https://www.welivesecurity.com/wp-content/uploads/2019/05/figure3-wm-1024x618.png" alt="" width="454" height="274" /></p>
+
+<p><strong>Pie de imagen: Transport Agent LightNeuron</strong></p>
+
+<p>“Debido a las mejoras de seguridad en los sistemas operativos, los atacantes necesitan persistencia en las herramientas que puedan vivir en el sistema objetivo, buscar documentos valiosos y desviarlos, todo sin generar sospechas. LightNeuron surgió como una la solución de Turla “, concluye Faou.</p>
+
+<p>Los investigadores de ESET advierten que limpiar LightNeuron de una red no es una tarea fácil: simplemente eliminar los archivos maliciosos no funciona, ya que rompería el servidor de correo electrónico. Faou, aconseja: “Animamos a los administradores a leer el documento de investigación en su totalidad antes de implementar un mecanismo de limpieza”.</p>
+
+<p>El análisis detallado, que incluye la lista completa de Indicadores de compromiso y muestras, se puede encontrar en el documento de investigación Turla LightNeuron: One Email Away from Remote Code Execution.</p>
+:ET

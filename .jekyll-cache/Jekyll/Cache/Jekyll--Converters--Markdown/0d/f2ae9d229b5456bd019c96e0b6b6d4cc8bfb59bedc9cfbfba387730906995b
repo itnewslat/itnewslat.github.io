@@ -1,0 +1,62 @@
+I"=#<p>Ahora que los proveedores de tecnología están brindando conectividad a toda una serie de diferentes artículos y dispositivos, toda la fuerza de Internet de las Cosas comienza a ser sentida tanto por las empresas como por los consumidores. Desde artículos simples como routers domésticos hasta sistemas más complejos, de machine-to-machine; el IoT es un concepto tecnológico revolucionario y poderoso.</p>
+
+<p>A medida que los sistemas y dispositivos conectados continúan brindando beneficios a los sectores empresarial y de consumo, los piratas informáticos también se han dado cuenta de estos beneficios para sacar provecho de ello. Los dispositivos IoT conectados son atractivos para los piratas informáticos, así como para los usuarios de sombrero blanco.</p>
+
+<p>Sin embargo, el malware que afecta los sistemas de IoT opera de una forma un poco diferente que el malware tradicional. Debido a que las plataformas y dispositivos de IoT, no tienen la misma potencia de cómputo o seguridad, este tipo de amenazas han experimentado un repunte considerable recientemente, vale la pena examinar de cerca las infecciones que pueden afectar este tipo de dispositivos habilitados.</p>
+
+<p><strong>¿Qué tan lejos está el alcance del IoT?</strong></p>
+
+<p>Estadísticas significativas han rodeado el IoT desde su inicio, han demostrado el impacto potencial que podría tener un sistema de artículos conectados. Considere estos números actualizados según Statista:</p>
+
+<ul>
+  <li>Los investigadores pronosticaron que durante el 2017 más de $284 mil millones en servicios de IoT quedaron pendientes, y anuncian que el gasto del consumidor llegará a $1.494 mil millones para el 2020.</li>
+  <li>El mercado minorista general de IoT superará los $5 mil millones en los próximos dos años.</li>
+  <li>El número de sensores y dispositivos de IoT que llegarán a ser consumidos podría ser de 12.860 millones en 2020.</li>
+  <li>El mercado mundial de etiquetas RFID alcanzará un valor de $24.5 billones para 2020.</li>
+  <li>En los próximos dos años se instalarán más de 37 millones de sistemas de gestión del tránsito vial habilitados para IoT.</li>
+  <li>Habrá más de 830 millones de dispositivos portátiles inteligentes y 20.800 millones de sistemas automáticos inteligentes instalados en el sector de consumo para el 2020.</li>
+  <li>Con un alcance tan amplio en los sectores de consumo, minorista y civil, no es de extrañar el por qué los actores malintencionados están comenzando a aprovechar los sensores y dispositivos conectados para fines malignos.</li>
+</ul>
+
+<p><strong>¿Cómo funciona el malware IoT?</strong></p>
+
+<p>Los IoT endpoints son considerablemente diferentes a los PC y sistemas informáticos tradicionales, a los que muchos usuarios y hackers están acostumbrados. Si bien estos dispositivos están equipados con conectividad inalámbrica, algunos no tienen el tipo de interfaz de usuario clásica o potencia de computo.</p>
+
+<p>Sin embargo, algunos de los factores que diferencian a los dispositivos IoT de otras plataformas tecnológicas son solo los tipos de cosas que buscan los hackers.</p>
+
+<p>“Si bien los dispositivos IoT tienen mucha menos potencia que las PC básicas, tienen el beneficio, al menos para los atacantes, de que a menudo los dispositivos carecen de controles de seguridad adecuados y que los usuarios los instalan pero se olvidan de ellos”, declaró Danny Palmer, colaborador de ZDNet.</p>
+
+<p>El uso de contraseñas predeterminadas y el hecho de que los usuarios no traten los IoT endpoints de la misma manera que tratarían un endpoint tradicional, crea debilidades de protección las cuales abren la puerta a posibles infecciones.</p>
+
+<p>Dicho esto, hay algunas similitudes entre los últimos ataques de malware que infectan las PC y los servidores, al igual que los ataques lanzados en los sistemas de IoT. Tal como lo explica Palmer, muchas muestras de malware de IoT buscan aprovechar los dispositivos para la minería de criptomonedas, creando una botnet capaz de generar un beneficio de moneda digital imposible de rastrear.</p>
+
+<p>Aunque algunos expertos en seguridad y tecnología no están convencidos de que los piratas informáticos puedan generar ningún tipo de ingreso considerable a partir de los esquemas de minería de criptomonedas IoT, a esta instancia deberían considerarse una amenaza.</p>
+
+<p>“Si bien las ganancias de los dispositivos IoT infectados pueden ser pequeñas, al menos no representan una preocupación para los usuarios porque, en última instancia, el dispositivo está infectado con un malware”, señaló Palmer. “Mientras que el cryptojacking podría decirse que no es tan dañino como el ransomware o los troyanos, los dispositivos aún se han visto comprometidos”.</p>
+
+<p><strong>IoT malware: La variante Mirai se dirige a los dispositivos IoT</strong></p>
+
+<p>Un ejemplo de una infección que se dirige específicamente a los IoT endpoints es una variante del malware Mirai, llamada OMG, identificada por los investigadores de Trend Micro, como ELF_MIRAI.AUSX. Esta variante aprovecha las mismas capacidades de ataque distribuidas de estilo de denegación de servicio que la muestra original de Mirai. La variante OMG también incluye ciertas adiciones y omisiones de códigos en un esfuerzo por infectar los puntos finales IoT, incluidos los enrutadores domésticos, en particular.</p>
+
+<p>“El objetivo principal de un ataque de Mirai es permitir que los ciberdelincuentes usen routers de propiedad privada en sus actividades maliciosas sin el conocimiento del propietario”, explican los investigadores de Trend Micro. “Tales ataques pueden tener consecuencias nefastas para sus víctimas, que también podrían incluir a empresas. Las empresas podrían enfrentar interrupciones comerciales, pérdidas monetarias e incluso daños en la reputación de su marca “.</p>
+
+<p><strong>Reaper: aprovechando las capacidades de Mirai</strong></p>
+
+<p>La variante OMG Mirai fue una de las primeras infecciones notables dirigidas a IoT, pero seguramente no fue la última. A finales de 2017, el colaborador de WIRED Andy Greenberg informó sobre el Reaper IoT Botnet, que en el momento de escribir estas líneas ya había infectado un millón de redes.</p>
+
+<p>Si bien Mirai y la variante OMG presentaron las debilidades en términos de seguridad y las fallas de contraseñas predeterminadas no actualizadas, el Reaper botnet, también conocido como IoT Troop, utiliza un enfoque más centrado. Esta amenaza utiliza técnicas de piratería más activas para identificar e infectar IoT endpoints y establecer un botnet de gran alcance con considerable potencia de computo.</p>
+
+<p>“La diferencia está entre buscar puertas abiertas y abrir candados activamente”, explicó Andy Greenberg, comparando Mirai con Reaper. “En lugar de simplemente adivinar las contraseñas de los dispositivos que infecta, Reaper usa fallas de seguridad conocidas en el código de estas máquinas inseguras, las cuales intervienen con una serie de herramientas de compromiso y luego se expanden aún más”.</p>
+
+<p><strong>Protección de IoT endpoints: mejores prácticas empresariales</strong></p>
+
+<p>La amenaza del botnet Reaper, muestra que los agentes maliciosos son cada vez más conocedores de sus infecciones dirigidas a IoT, y es probable que los ataques a los dispositivos conectados solo se vuelvan más complejos. 
+A medida que las empresas continúan aprovechando todo lo que el IoT puede ofrecer, también es importante asegurarse de que estos dispositivos y endpoints estén protegidos adecuadamente:</p>
+
+<ul>
+  <li><strong>Seleccione productos IoT confiables</strong>: es importante implementar solo routers y dispositivos IoT que incluyan protecciones de seguridad robustas. Por ejemplo, los investigadores de Trend Micro recomiendan evitar los routers que se incluyen en los paquetes de servicios de Internet y no instalar estos dispositivos usados, ya que pueden tener configuraciones incorrectas e inseguras.</li>
+  <li><strong>Use credenciales solidas de autenticación</strong>: la mayoría de los dispositivos IoT vienen con contraseñas predeterminadas o preinstaladas. Estas contraseñas representan una puerta abierta a los piratas informáticos, convirtiendo estos dispositivos en un blanco fácil de violación e infección para los actores malintencionados. Por esta razón, es necesario cambiar las contraseñas predeterminadas a una más fuerte y que no sea fácil de adivinar.</li>
+  <li><strong>Asegúrese que los dispositivos estén actualizados</strong>: las empresas y los consumidores también deben asegurarse de que el firmware que respalda las operaciones del router esté actualizado, incluidos el sistema operativo, los controladores, los programas de administración y las configuraciones.</li>
+  <li>Para obtener más información sobre las últimas noticias relacionadas con IoT, conéctese hoy mismo con los expertos en seguridad de Trend Micro.</li>
+</ul>
+:ET

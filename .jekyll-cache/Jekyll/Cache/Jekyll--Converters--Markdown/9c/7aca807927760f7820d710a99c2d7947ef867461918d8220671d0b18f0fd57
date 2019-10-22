@@ -1,0 +1,12 @@
+I"}<p>Kaspersky ha identificado una aplicación falsa que está diseñada para engañar a los usuarios que buscan la versión certificada del popular FaceApp pero que en realidad infecta los dispositivos de las víctimas con un módulo de publicidad engañosa (adware) llamado MobiDash.</p>
+
+<p>Una vez que la aplicación se descarga de tiendas no oficiales y es instalada, simula un error y se elimina automáticamente. Posteriormente, un módulo malintencionado en la aplicación se resguarda discretamente en el dispositivo del usuario, mostrando anuncios.</p>
+
+<p>Según datos de Kaspersky, alrededor de 500 usuarios únicos se han encontrado con el problema en los últimos dos días donde las primeras detecciones aparecen a partir del 7 de julio. Además, cerca de 800 modificaciones de módulos diferentes han sido identificadas.</p>
+
+<p>“Los creadores del MobiDash ocultan usualmente su módulo de adware bajo la apariencia de aplicaciones y servicios populares. Esto significa que las actividades de la versión falsa de FaceApp podrían intensificarse, especialmente, si estamos hablando de cientos de infectados en solo unos días”, señala Igor Golovin, investigador de seguridad en Kaspersky. “Sugerimos a los usuarios a no descargar aplicaciones de tiendas no oficiales e instalar soluciones de seguridad en sus dispositivos para evitar daños”.</p>
+
+<p>Los productos de Kaspersky detectan y bloquean la amenaza como not-a-virus: HEUR: AdWare.AndroidOS.Mobidash.</p>
+
+<p>Para más información y consejos de seguridad en relación al FaceApp, <strong><a href="https://latam.kaspersky.com/blog/faceapp-privacy-risks">visite</a></strong>:</p>
+:ET

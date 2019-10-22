@@ -1,0 +1,34 @@
+I"<p><strong>Sodin ha sido detectado en Asia, Europa, Norteamérica y América Latina</strong></p>
+
+<p>Los investigadores de Kaspersky han descubierto a Sodin, un nuevo ransomware que aprovecha una vulnerabilidad de día cero de Windows para obtener privilegios de administrador en el sistema infectado. El ransomware también aprovecha la arquitectura de la Unidad Central de Procesamiento (CPU) para evitar ser detectado, una funcionalidad que no se ve a menudo en este tipo de amenazas. Además, en algunos casos, el malware no requiere la interacción del usuario ya que los atacantes simplemente lo plantan en servidores vulnerables.</p>
+
+<p>El ransomware, o el cifrado o bloqueo de datos o dispositivos acompañado de una demanda de dinero, es una ciberamenaza persistente que afecta tanto a individuos como organizaciones de todos los tamaños en todo el mundo. La mayoría de las soluciones de seguridad detectan las versiones comunes y los vectores de ataque establecidos. Sin embargo, métodos complejos como el de Sodin que implican el aprovechamiento de una vulnerabilidad de día cero, descubierta recientemente en Windows (CVE-2018-8453), para escalar privilegios pueden evitar sospechas durante un largo tiempo.</p>
+
+<p>Este malware parece ser parte de un esquema RAAS (siglas en inglés de ransomware-as-a-service), lo que significa que sus distribuidores pueden elegir libremente la forma en que este se propaga. Hay indicios de que el malware se está distribuyendo a través de un programa de afiliados. Por ejemplo, los programadores del malware han dejado en su funcionalidad ‘un agujero’ que les permite descifrar los archivos sin que sus afiliados sepan: una ‘clave maestra’ que no requiere la clave del distribuidor para el descifrado (normalmente las claves del distribuidor son las que se han utilizado para descifrar los archivos de las víctimas que pagan el rescate). Los programadores podrían utilizar esta función para controlar el descifrado de los datos de la víctima o la distribución del ransomware, eliminando, por ejemplo, a ciertos distribuidores del programa de afiliados al hacer inútil el malware.</p>
+
+<p>Además, aunque amenazas de ransomware usualmente requieren algún tipo de interacción con el usuario, como abrir un archivo adjunto en un mensaje de correo electrónico o hacer clic en un enlace malicioso, los atacantes detrás de Sodin no necesitan esa ayuda, ya que generalmente encuentran un servidor vulnerable y envían una orden para bajar el archivo malicioso llamado “radm.exe”, el cual guarda el ransomware localmente y lo pone en marcha.</p>
+
+<p>La mayoría de los objetivos de Sodin han sido detectados en Asia: el 17,6% de los ataques se han detectado en Taiwán, el 9,8% en Hong Kong y el 8,8% en la República de Corea. Sin embargo, también se han observado ataques en Europa, Norteamérica y América Latina. Los cibercriminales detrás de este ataque exigen US$2.500 equivalentes en Bitcoin de cada víctima.</p>
+
+<p>Según investigadores de Kaspersky, lo que hace que Sodin sea aún más difícil de detectar es el uso de la técnica “Heaven’s Gate”. Esta permite que un malware ejecute código de 64 bits a partir de un proceso de 32 bits, lo cual no es una práctica común y no suele ocurrir en ransomware.</p>
+
+<p>Los investigadores creen que la técnica de Heaven’s Gate se usa en Sodin por dos razones principales:</p>
+
+<ul>
+  <li>Hacer que el análisis del código malicioso sea más difícil, pues no todos los examinadores de código soportan esta técnica y, por lo tanto, no pueden reconocerla.</li>
+  <li>Evadir la detección mediante soluciones de seguridad instaladas. Esta técnica se usa para eludir la detección basada en la emulación, un método para descubrir amenazas previamente desconocidas que implica el lanzamiento de código que se comporta de manera sospechosa en un entorno virtual que emula a una computadora real.</li>
+</ul>
+
+<p>“<em>Aunque los ataques de ransomware han disminuido un 30% en los últimos dos años, hemos visto un cambio en su comportamiento: los cibercriminales eligen sus objetivos en base a su potencial, dándole preferencia a las grandes instituciones y compañías que pueden pagar el rescate solicitado, disminuyendo el volumen de ataques contra usuarios domésticos. Estos ataques centrados en organizaciones buscan dejarlas sin acceso a sus sistemas durante mucho tiempo, causando daños considerables que a su vez han llevado a que los cibercriminales empleen técnicas cada vez más avanzadas, como en el caso de Sodin</em>”, comenta <strong>Roberto Martínez, analista senior de seguridad en Kaspersky</strong>.</p>
+
+<p>Para evitar ser víctimas de ransomware como Sodin, los investigadores de Kaspersky aconsejan a las empresas:</p>
+
+<ul>
+  <li>Asegurarse de que el software utilizado en su empresa se actualice regularmente a las versiones más recientes. Los productos de seguridad con capacidades de Evaluación de vulnerabilidades y administración de parches pueden ayudar a automatizar estos procesos.</li>
+  <li>Utilizar una solución de seguridad robusta, como Kaspersky Endpoint Security for Business, que está equipada con capacidades de detección basadas en el comportamiento para proteger eficazmente contra amenazas conocidas y desconocidas, incluidas las vulnerabilidades.</li>
+</ul>
+
+<p>Todas las soluciones de Kaspersky detectan el ransomware como Trojan-Ransom.Win32.Sodin. La vulnerabilidad CVE-2018-8453 que utiliza el ransomware fue detectada anteriormente por la tecnología de Kaspersky en campañas maliciosas, las cuales los investigadores acreditan pertenecer al grupo de hackers FruityArmor. La vulnerabilidad fue enmendada el 10 de octubre de 2018.</p>
+
+<p>El informe completo sobre Sodin está disponible en <strong><a href="https://securelist.lat/sodin-ransomware/89189/">Securelist.com</a></strong></p>
+:ET

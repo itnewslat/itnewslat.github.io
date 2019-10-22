@@ -1,0 +1,38 @@
+I"<ul>
+  <li>Submelius, que es como se conoce a esta amenaza, ya es una de las más detectadas en España según la compañía de ciberseguridad ESET</li>
+</ul>
+
+<p>ESET, el mayor fabricante de software de seguridad de la Unión Europea, ha investigado el funcionamiento y distribución de un malware conocido como Submelius que se ha convertido en una de las amenazas más detectadas en España en los últimos días.</p>
+
+<p>Submelius no es nuevo; de hecho, el año pasado hubo una campaña potente que usaba sitios webs de películas online como vector de ataque. La novedad es que ahora los ciberdelincuentes utilizan Facebook Messenger como plataforma de distribución del malware y que, además, usan la imagen de la víctima para que ésta baje la guardia y pique el anzuelo.</p>
+
+<p>Este malware, detectado por ESET como JS/Chromex.Submelius, utiliza extensiones del navegador Google Chrome (el más utilizado a día de hoy) con el objetivo de poder robar información, descargar malware o bombardear al usuario con publicidad, pero para llegar a este punto ha de engañar previamente a las víctimas.</p>
+
+<p><strong>Facebook Messenger como vector de ataque</strong>
+<img src="https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ESET1.jpg" alt="Ejemplo de vídeo enviado a la víctima 1" /></p>
+
+<p>Todo comienza cuando el usuario-víctima recibe un mensaje de uno de sus contactos en Facebook a través de la aplicación de mensajería. Supuestamente estaría circulando un vídeo, del que se muestra la previsualización en la que puede verse reconocido (en realidad esta foto ha sido obtenida de su propio perfil gracias a que el contacto ha sido previamente infectado y los ciberdelincuentes tienen acceso a las imágenes públicas de la red social del usuario). Con esta estrategia consiguen que muchos usuarios bajen la guardia y pulsen sobre el enlace para ver qué tipo de vídeo se está compartiendo sobre su persona.</p>
+
+<p>Si el usuario cae en la trampa, y pulsa sobre el enlace, es redirigido a un dominio controlado por los atacantes desde el cual se realiza toda la operación para instalar las extensiones de Google. En caso de contar con una solución antivirus como las proporcionadas por ESET, el acceso a la web maliciosa es bloqueado, alertando del riesgo y de la detección de la amenaza. Si no, el usuario accede a una web que simula ser la de YouTube. “Hay que reconocer que los delincuentes se han molestado en replicar la web de esta empresa utilizando los mismos logos y disposición de elementos, e incluso aplicando un certificado válido que proporcione la verificación de seguridad mediante el protocolo de cifrado HTTPS que, recordemos, sirve para indicar que la conexión entre nuestro sistema y la web es segura, pero no garantiza que el contenido de la web lo sea“, explica Josep Albors, responsable de la investigación realizada por el laboratorio de ESET España. Sin embargo, fallan en lo más elemental, la URL no tiene nada que ver con la de YouTube.</p>
+
+<p><img src="https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/eset2.jpg" alt="" />
+Los delincuentes han descuidado la URL</p>
+
+<p>Cuando el usuario intente reproducir el vídeo picará en el segundo anzuelo dispuesto por los ciberdelincuentes porque para poder verlo exigirán instalar un complemento para el navegador, presentando la misma opción una y otra vez hasta que el usuario la acepte o cierre la página.</p>
+
+<p>Una vez instalada la extensión, y para cerrar el círculo, los delincuentes redirigen a la víctima a la web de registro de Facebook. Si introduce sus credenciales, estas serán robadas por la extensión maliciosa y utilizadas para acceder a la cuenta del usuario y así seguir propagando la amenaza entre su lista de contactos con el mismo procedimiento.</p>
+
+<p>“Hemos de ir con mucho cuidado cuando lo que recibimos a través de Facebook, desde otra red social o incluso por medio del correo electrónico, sea de un contacto de confianza. Los delincuentes saben que muchos usuarios bajan la guardia cuando alguien de su entorno es quien actúa como vector de ataque, y más si el gancho es algo relacionado con nuestra privacidad, por lo que, antes de hacer clic, preguntemos y averigüemos si realmente nuestros amigos nos han querido enviar este enlace”, recomienda Albors.</p>
+
+<p>Una de las amenazas más detectadas en España
+Submelius ha llegado a ser en los últimos días, según los datos de telemetría de ESET, la segunda amenaza más detectada en España (a día de hoy con una prevalencia del 26,87%) y en el balance mensual solo se halla por detrás del minado no autorizado de criptomonedas y la estafa del falso soporte técnico. Además, junto a Italia, Suecia y Dinamarca es uno de los países con más detecciones de este tipo de malware.</p>
+
+<p><img src="https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/eset3.jpg" alt="" />
+España es uno de los países más afectados</p>
+
+<p><strong>Cómo evitarlo</strong><em>**</em>
+Para evitar ser infectado por este tipo de malware es necesario navegar siendo consciente de los peligros, y mantener las alertas encendidas incluso si son conocidos quienes envían mensajes sospechosos; además, es muy importante contar con una solución de seguridad que detecte este tipo de amenazas como ESET.</p>
+
+<p>En caso de que sea demasiado tarde y Submelius haya infectado el dispositivo del usuario instalando alguna de las extensiones maliciosas en Chrome, debemos proceder a eliminarlas lo antes posible. Para ello hay que acceder al apartado de extensiones escribiendo “chrome://extensions” en la barra del navegador y eliminar las sospechosas. Además, siempre es recomendable analizar el equipo con una solución de seguridad como ESET Internet Security para buscar posibles restos de esta infección y proceder a su eliminación.</p>
+
+:ET

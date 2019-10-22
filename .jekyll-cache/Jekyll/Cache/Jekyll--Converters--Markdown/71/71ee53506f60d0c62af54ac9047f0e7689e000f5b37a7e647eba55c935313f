@@ -1,0 +1,27 @@
+I"!<p>De acuerdo con un reporte de Kaspersky Lab, en lo transcurrido del 2017, se detectó numerosos ataques a través de aplicaciones móviles maliciosas en más de 230 países alrededor del mundo, siendo las más populares aquellas cuyo principal medio de monetización es la publicidad.</p>
+
+<p>Los troyanos móviles que adquieren privilegios de root o administrador (rooting malware) se han mantenido como la mayor amenaza para los usuarios de dispositivos Android. Casi la mitad de los troyanos del TOP 20 de programas maliciosos móviles, pertenecen a familias que pueden obtener acceso root. Esto se debe a que son muy difíciles de detectar, tienen amplias posibilidades y los delincuentes les dan una gran difusión. La tarea principal de este tipo de malware es generalmente mostrar al usuario la mayor cantidad de publicidad posible e instalar aplicaciones de publicidad sin que se dé cuenta. Algunos programas publicitarios maliciosos ponen tanto empeño en su tarea que hacen imposible usar el dispositivo infectado debido a la constante aparición de ventanas con avisos y la gran lentitud en la ejecución de los comandos del propietario.</p>
+
+<p><strong>Lo barato sale caro</strong></p>
+
+<p>Una forma de infección que se ha visto recientemente es a través de las aplicaciones preinstaladas en teléfonos inteligentes de bajo costo. Las aplicaciones -que pueden incluir malware de manera deliberada o no- son instaladas por el fabricante en la carpeta system/app o, incluso, /system/priv-app (priv de “privilegiado”) del dispositivo Android, lo que impide al usuario su desinstalación. El malware preinstalado puede mostrar al usuario anuncios sin posibilidad de evitarlos o recopilar datos personales para venderlos a terceros (o combinar ambas intrusiones para mostrarte anuncios basados en sus datos). Todo ello es lo que ayuda a reducir el precio final del dispositivo.</p>
+
+<p>De igual forma, se ha encontrado un troyano preinstalado que permite a los delincuentes introducir publicidad en el sistema operativo en dispositivos de desarrolladores relativamente grandes como ZTE, Archos, Prestigio y myPhone. En otra investigación se descubrió que los smartphones OnePlus y BLU tenían software espía preinstalado que recopilaba información personal sensible, la cual se enviaba a los servidores de los fabricantes.</p>
+
+<p>Es de llamar la atención que la mayoría de los fabricantes que hemos mencionado aparecen como socios verificados en la web oficial de Android; ello significa que la preinstalación de malware es una práctica cada vez más común, por lo que no se puede confiar en el honor de un fabricante conocido.</p>
+
+<p>“Ante una oferta de teléfonos inteligentes cada vez más amplia, en ocasiones es difícil para los usuarios decidir por un modelo en específico. Considerando que los teléfonos contienen cada vez más información personal, incluso aquella considerada como sensible, es importante que los usuarios hagan una elección no solo con base en el precio, sino privilegiando la seguridad y privacidad. Un smartphone sorprendentemente barato puede resultar más caro cuando el fabricante instala malware que muestra publicidad, que comparte información sensible con terceros y que interfiere con el funcionamiento deseado del dispositivo”, comentó Santiago Pontiroli, analista de seguridad para Kaspersky Lab.</p>
+
+<p><strong>Compra, pero verifica</strong></p>
+
+<p>Para que puedas minimizar el riesgo de comprar un dispositivo infectado o, al menos, identificar un dispositivo que te mostrará anuncios en todas las aplicaciones y que recopilará tu información personal sin tu permiso tras comprarlo, te recomendamos lo siguiente:</p>
+
+<ul>
+  <li><strong>Investiga antes de comprar</strong>. Lo más probable es que haya comentarios por Internet del teléfono que te interesa, en especial si los propietarios se quejan del malware preinstalado.</li>
+  <li><strong>Como suele pasar, si algo parece demasiado bueno para ser verdad, no te fíes. En la medida de lo posible evita smartphones que son más baratos que otros modelos similares</strong>. Es posible que su fabricante esté recurriendo a prácticas dudosas para recuperar el dinero que no está cobrando en el precio.</li>
+  <li><strong>Comprueba el estado de verificación de tu dispositivo Android para asegurarte de que se trata de un firmware que ha sido aprobado por Google</strong>. Esta certificación no garantiza que no haya malware preinstalado, pero los dispositivos verificados tienen menos posibilidades de estar infectados
+.</li>
+</ul>
+
+<p>Instala una solución antivirus de confianza como Kaspersky Internet Security para Android, que te informará y protegerá si encuentra un programa malicioso. El malware a veces se instala antes de que estrenes el dispositivo, por lo que el dispositivo puede infectarse sin importar que tu comportamiento sea seguro.</p>
+:ET

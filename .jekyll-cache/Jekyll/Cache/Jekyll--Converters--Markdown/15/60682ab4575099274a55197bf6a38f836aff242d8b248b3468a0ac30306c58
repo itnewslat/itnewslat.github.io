@@ -1,0 +1,20 @@
+I"w<p><strong>El laboratorio de ESET descubre que también ha atacado, al menos, a los sistemas informáticos de otros dos países europeos</strong></p>
+
+<p>El pasado mes de marzo, el diario alemán Süddeutsche Zeitung revelaba que un grupo de ciberdelincuentes había conseguido traspasar los sistemas de seguridad del Ministerio de Asuntos Exteriores del país y que había estado espiando los correos electrónicos de la institución durante prácticamente todo el año anterior.</p>
+
+<p>ESET, el mayor fabricante de software de seguridad de la Unión Europea, ha procedido a analizar cómo el grupo Turla ha estado utilizando un complemento malicioso para Outlook y para otros clientes de correo electrónico como The Bat! (muy extendido en el este de Europa) para infectar no solo al Ministerio alemán, sino también, al menos, a las oficinas de asuntos exteriores de otros dos países europeos y a un fabricante de la industria de la defensa.</p>
+
+<p>El backdoor creado por el grupo Turla se ha venido utilizando desde al menos 2009, aunque la última versión data de 2018 e incorpora la capacidad de ejecutar scripts de Powershell maliciosos directamente en la memoria de la máquina, lo que representa una táctica sobre la que han estado trabajando los ciberdelincuentes de diferentes grupos en los últimos años.</p>
+
+<p>El objetivo de Turla, también conocido como Snake o Uroboros, es espiar los correos que llegan a las víctimas y robar archivos, aunque también permite al atacante controlar de forma remota las máquinas comprometidas. El malware utiliza el buzón de correo real de la víctima para comunicarse con el atacante y robar los datos a través de documentos PDF adjuntos de forma totalmente invisible (aunque no se aprovechan de ninguna vulnerabilidad ni en los lectores de PDF ni en Outlook como vectores de ataque, sino que se utiliza el MAPI legítimo de Outlook para acceder al correo).</p>
+
+<p>Se trata, según se apunta desde el laboratorio de ESET, del único grupo de espionaje que utiliza herramientas de puerta trasera (introducidas como librerías del sistema maliciosas) controladas completamente desde el correo electrónico.</p>
+
+<p><strong>Cómo funcionó en Alemania</strong></p>
+
+<p>Los ciberdelincuentes infectaron en un primer momento la red del Instituto de Administración Pública Federal de Alemania como paso previo a su acceso al Ministerio en marzo de 2017, pero no fue hasta finales de año cuando los servicios de seguridad del país detectaron la brecha, que se hizo pública en marzo de 2018.</p>
+
+<p>Cuando la víctima recibe o envía un mensaje desde una máquina comprometida, el malware genera un registro que contiene metadatos sobre el mensaje, entre los que se incluyen el destinatario, el remitente, el asunto o el nombre del archivo que se adjunta. Todos estos datos se convierten en un archivo PDF que llega a los atacantes y que se envía a la vez que el mensaje legítimo, por lo que no se aprecian picos de envío a horas inusuales. Además, en los mensajes que recibe la víctima se incorpora un PDF con comandos maliciosos.</p>
+
+<p>Asimismo, esta variante incluye interesantes características para garantizar su supervivencia, ya que los atacantes tienen la posibilidad de retomar el control del backdoor mediante el envío de comandos desde cualquier dirección de email, en el caso de que alguna de las direcciones de correo que incorpora por defecto sea bloqueada.</p>
+:ET

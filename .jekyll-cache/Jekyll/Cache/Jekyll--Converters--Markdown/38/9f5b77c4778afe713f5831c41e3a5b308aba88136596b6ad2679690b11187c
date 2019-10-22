@@ -1,0 +1,28 @@
+I"<<p>Los investigadores de Kaspersky Lab han visto que la cantidad de ataques que usan software malicioso móvil, prácticamente se duplicó en apenas un año. En 2018 hubo 116.5 millones de ataques, comparado con 66.4 millones en 2017, así como un aumento considerable de usuarios únicos afectados. A pesar de que fueron atacados más dispositivos, el número de archivos de malware ha disminuido, lo que ha llevado a los investigadores a concluir que la calidad del malware móvil se ha vuelto más impactante y precisa. Estos y otros hallazgos se dan a conocer en el informe de Kaspersky Lab “Evolución del malware móvil 2018”.</p>
+
+<p>A medida que el mundo aumenta la adopción de los dispositivos móviles, el papel de los teléfonos inteligentes en los procesos empresariales y en la vida cotidiana crece rápidamente. Para responder a esto, los ciberdelincuentes prestan más atención a la forma en que distribuyen el malware y los vectores de ataque que usan. Los canales por donde se entrega el malware a los usuarios y se infectan sus dispositivos son determinantes para el éxito de una campaña maliciosa, y se aprovechan de los usuarios que no tienen instaladas soluciones de seguridad en sus teléfonos.</p>
+
+<p>El éxito de las estrategias para la distribución queda demostrado, no solamente por el aumento de los ataques, sino también por la cantidad de usuarios únicos que han encontrado malware. En 2018 esta cifra superó la del año anterior por 774,000, sumando 9,895,774 usuarios afectados. Entre las amenazas encontradas, el crecimiento más significativo se registró en el uso de Trojan-Droppers, cuya participación prácticamente se duplicó, pasando de 8.63% a 17.21%. Este tipo de malware se ha diseñado para burlar la protección del sistema y distribuir todo tipo de malware, desde los troyanos bancarios hasta el ransomware.</p>
+
+<p>“En 2018, los usuarios de dispositivos móviles sufrieron lo que pudo haber sido la amenaza más violenta que se haya visto. Durante el año, observamos tanto nuevas técnicas para infectar los dispositivos móviles, como DNS hijacking, así como una mayor atención por emplear mejores estrategias de distribución, como spam a través de mensajes SMS. Esta tendencia demuestra la creciente necesidad de instalar soluciones de seguridad móviles en los teléfonos inteligentes para proteger a los usuarios contra los intentos de infectar sus dispositivos por cualquier fuente”, dijo Viсtor Chebyshev, experto en seguridad de Kaspersky Lab.</p>
+
+<p>Otros hallazgos del informe sobre la evolución del malware móvil en 2018:</p>
+
+<ul>
+  <li>En 2018, los productos de Kaspersky Lab protegieron a 80,638 usuarios en 150 países contra ransomware, y fueron detectadas 60,176 muestras de troyanos usados con ransomware móvil</li>
+  <li>En 2018, se quintuplicaron los ataques con criptomineros maliciosos móviles</li>
+  <li>En 2018, se detectaron 151,359 paquetes de instalación para troyanos móviles bancarios, 1.6 veces más en comparación al año anterior</li>
+</ul>
+
+<p>Para proteger sus dispositivos, los expertos en seguridad de Kaspersky Lab aconsejan lo siguiente:</p>
+
+<ul>
+  <li>Instale solo aplicaciones móviles adquiridas desde tiendas de aplicaciones oficiales, como Google Play en dispositivos Android, o App Store en iOS</li>
+  <li>Bloquee la instalación de programas de fuentes desconocidas en la configuración de su teléfono inteligente</li>
+  <li>No pase por alto las restricciones de los dispositivos, ya que esto podría proporcionar a los ciberdelincuentes posibilidades ilimitadas para llevar a cabo sus ataques</li>
+  <li>Instale las actualizaciones del sistema y de la aplicación tan pronto como estén disponibles, pues corrigen las vulnerabilidades y mantienen los dispositivos protegidos. Tenga en cuenta que las actualizaciones del sistema operativo móvil nunca deben descargarse de fuentes externas (a menos que esté participando en una prueba beta oficial). Las actualizaciones de las aplicaciones solo deben ser instaladas a través de las tiendas de aplicaciones oficiales</li>
+  <li>Utilice soluciones de seguridad confiables, como Kaspersky Security Cloud, para contar con una protección completa contra una amplia gama de amenazas</li>
+</ul>
+
+<p>Para obtener más información sobre las amenazas a los dispositivos móviles, lea la publicación del blog disponible en Securelist.com.</p>
+:ET

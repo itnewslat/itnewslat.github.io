@@ -1,0 +1,16 @@
+I"�<p><strong>Entre los archivos robados se encuentran documentos con información acerca del posicionamiento y las rutas de las tropas</strong></p>
+
+<p>El laboratorio de ESET, la mayor empresa de ciberseguridad de la Unión Europea, ha descubierto una campaña de ciberespionaje contra instituciones de alto nivel en diversos países de Latinoamérica. Más de la mitad de los equipos atacados pertenece al ejército venezolano, aunque también se incluyen equipos de la policía, de entidades educativas y de asuntos exteriores. La mayor parte de estos ataques (hasta tres cuartas partes) han tenido lugar en Venezuela. El siguiente país más afectado, con un 16% de ataques, es Ecuador, donde las fuerzas militares han sido las más afectadas.</p>
+
+<p>Según los análisis del laboratorio de ESET, el grupo que se encuentra detrás de estos ataques se llama Machete y está robando gigabytes de documentación confidencial desde hace varias semanas. La campaña se encuentra aún activa, con cambios frecuentes en el malware, en sus infraestructuras y en las campañas de distribución del phishing. ESET descubrió las actividades de Machete por primera vez hace un año. En tan solo tres meses (de marzo a mayo de 2019), ESET observó más de 50 equipos infectados que estaban comunicando con los ciberespías.</p>
+
+<p>“Los operadores de Machete utilizan técnicas muy efectivas de phishing dirigido. Sus ataques, centrados en diversos países de Latinoamérica, han permitido refinar su táctica con los años: conocen a sus objetivos, cómo mezclarse en las comunicaciones rutinarias y cuáles son los documentos de mayor valor para robarlos”, afirma Matias Porolli, investigador en ESET. “Los atacantes buscan también archivos específicos utilizados por los sistemas de información geográfica (GIS). De hecho, están especialmente interesados, parece ser, en aquellos que describen rutas de navegación y posicionamiento de tropas y que son usados en redes militares”.</p>
+
+<p>El grupo Machete envía correos electrónicos muy específicos a sus víctimas, algo que cambia en cada objetivo. Para evitar sospechas, los operadores de Machete utilizan documentos reales que han robado previamente (por ejemplo, radiogramas o documentos militares clasificados) y manejan correctamente la jerga militar para preparar mensajes de phishing creíbles. El ataque comienza con un archivo autoextraíble que contiene un documento señuelo y continúa descargando e instalando componentes con funcionalidad de backdoor (que permite a los atacantes acceder de forma remota) y que copian y cifran documentos, realizan capturas de pantalla y graban los registros de pulsaciones en el teclado cada 30 minutos. Además, envían toda la información a los atacantes cada diez minutos.</p>
+
+<p>“Las operaciones de Machete son de las más peligrosas que hemos observado hasta la fecha, ya que son capaces de evolucionar muy rápidamente, incluso en pocas semanas. Según nuestras investigaciones y las evidencias encontradas en el código del malware, nuestras sospechas indican que estaríamos ante un grupo de habla hispana”, concluye Porolli.</p>
+
+<p>Países con incidencia del grupo Machete en 2019</p>
+
+<p><img src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ataque-eset.jpg" alt="" /></p>
+:ET

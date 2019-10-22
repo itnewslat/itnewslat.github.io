@@ -1,0 +1,38 @@
+I"�<p>Una compleja operación cibernética llamada Dark Tequila ha estado atacando a los usuarios en México durante por lo menos los últimos cinco años, y les ha robado credenciales bancarias y datos personales empleando código malicioso que puede moverse lateralmente a través de las computadoras de las víctimas sin conexión a Internet. Según los investigadores de Kaspersky Lab, ese código malicioso se propaga a través de dispositivos USB infectados y de spear-phishing, e incluye funcionalidades especiales para evadir la detección. Se cree que el agente de amenaza detrás de Dark Tequila es de origen hispanohablante y latinoamericano.</p>
+
+<p>El malware Dark Tequila y su infraestructura de apoyo son inusualmente avanzados para las operaciones de fraude financiero. La amenaza se centra principalmente en robar información financiera, pero una vez dentro de una computador también sustrae credenciales de otros sitios, incluso sitios web populares, recolectando direcciones comerciales y personales de correo electrónico, cuentas de registros de dominio, cuentas de almacenamiento de archivos y más, posiblemente para ser vendidos o usados en operaciones futuras. Ejemplos incluyen los clientes de correo electrónico de Zimbra y las cuentas de los sitios de Bitbucket, Amazon, GoDaddy, Network Solutions, Dropbox, RackSpace, y otros.</p>
+
+<p>El malware lleva una carga útil de varias etapas e infecta los dispositivos de los usuarios a través de USB infectados y correos electrónicos de phishing. Una vez dentro de una computadora, el malware se comunica con su servidor de mandos para recibir instrucciones. La carga útil se entrega a la víctima solo cuando se cumplen ciertas condiciones. Si el malware detecta que hay una solución de seguridad instalada, monitoreo de la red o signos de que la muestra se ejecuta en un entorno de análisis (por ejemplo, una sandbox virtual), detiene su rutina de infección y se auto-elimina del sistema.</p>
+
+<p>Si no encuentra ninguna de estas condiciones, el malware activa la infección y copia un archivo ejecutable en una unidad extraíble para que se ejecute automáticamente. Esto permite que el malware se traslade a través de la red de la víctima aunque no esté conectada a Internet o incluso cuando la red de la víctima tiene varios segmentos no conectados entre sí. Cuando se conecta otro USB a la computadora infectada, éste se infecta automáticamente y así puede infectar otro objetivo, cuando este USB sea conectado allí.</p>
+
+<p>El implante malicioso contiene todos los módulos necesarios para su operación, incluyendo un detector de pulsaciones en el teclado y el módulo vigilante en Windows para capturar detalles de inicio de sesión y otra información personal. Cuando el servidor de mandos envíe el comando respectivo, nuevos diferentes módulos se instalarán y se activarán. Todos los datos robados de la víctima, se transmiten al servidor del atacante en forma cifrada.</p>
+
+<p>Dark Tequila ha estado activo desde al menos 2013, atacando a usuarios en México o conectados a ese país. Según el análisis de Kaspersky Lab, la presencia de palabras en español en el código y la evidencia del conocimiento local del país, sugieren que el actor que se encuentra detrás de esta operación es de América Latina.</p>
+
+<p>“A primera vista, Dark Tequila se parece a cualquier otro troyano bancario que busca información y credenciales para obtener ganancias financieras. Sin embargo, un análisis más profundo revela una complejidad de malware que no se ve a menudo en las amenazas financieras. La estructura modular del código y sus mecanismos de ofuscación y detección lo ayudan a evitar que lo descubran y a entregar su carga maliciosa solo cuando la víctima sea reconocida y aprobada por el atacante. Esta campaña ha estado activa durante varios años y todavía se siguen encontrando nuevas muestras. Hasta la fecha, solo ha atacado objetivos en México, pero su capacidad técnica es adecuada para atacar objetivos en cualquier parte del mundo”, dijo Dmitry Bestuzhev, jefe del Equipo Global de Investigación y Análisis, América Latina, Kaspersky Lab.</p>
+
+<p><strong>Los productos de Kaspersky Lab detectan y bloquean con éxito el malware relacionado con Dark Tequila.</strong></p>
+
+<p>Kaspersky Lab aconseja a los usuarios que sigan las siguientes medidas para protegerse contra el spear-phishing y los ataques que se realizan utilizando medios extraíbles como las unidades USB:</p>
+
+<p>Para todos:</p>
+
+<ul>
+  <li>Verifique cualquier archivo adjunto de correo electrónico con una solución antimalware antes de abrirlo</li>
+  <li>Deshabilite la ejecución automática desde dispositivos USB</li>
+  <li>Verifique las unidades USB con su solución antimalware antes de abrirlas</li>
+  <li>No conecte dispositivos y memorias USB desconocidas a su dispositivo</li>
+  <li>Utilice una solución de seguridad con protección robusta adicional contra amenazas financieras</li>
+</ul>
+
+<p>Las empresas también deben asegurarse de:</p>
+
+<ul>
+  <li>Si no son necesarios para los negocios, bloquee los puertos USB en los dispositivos del usuario</li>
+  <li>Administre el uso de dispositivos USB: defina qué dispositivos USB se pueden usar, por quién y para qué</li>
+  <li>Eduque a los empleados sobre las prácticas seguras de USB, particularmente si están moviendo el dispositivo entre una computadora hogareña y un dispositivo de trabajo.</li>
+  <li>No deje los USB por ahí o en exhibición</li>
+</ul>
+
+:ET
