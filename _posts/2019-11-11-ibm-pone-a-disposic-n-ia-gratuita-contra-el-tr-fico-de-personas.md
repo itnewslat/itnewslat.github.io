@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2019'
-title: IBM  pone a disposicón IA gratuita contra el tráfico de personas
+title: IBM  pone a disposición IA gratuita contra el tráfico de personas
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Inmigrantes-p.jpg
 detail-image: >-
