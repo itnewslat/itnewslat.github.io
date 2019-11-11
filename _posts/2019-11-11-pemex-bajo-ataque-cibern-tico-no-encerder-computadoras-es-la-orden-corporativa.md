@@ -43,4 +43,4 @@ Según Wikipedia: "El **scareware** (del inglés scare, «miedo» y software) ab
 1. En la primera mitad de 2009, el APWG identificó un aumento del 583% en programas scareware.
 1. La etiqueta del "scareware" puede también aplicarse a cualquier aplicación o virus (no necesariamente vendido como dice arriba) que engaña a usuarios con la intención de causar ansiedad o pánico. "
 
-Oficialmente la empresa **[PEMEX](https://www.pemex.com)* no ha emitido un comunicado de prensa, y la información fue obtenida de fuentes internas de la empresa, quienes filtraron el comunicado interno.
+Oficialmente la empresa **[PEMEX](https://www.pemex.com)** no ha emitido un comunicado de prensa, y la información fue obtenida de fuentes internas de la empresa, quienes filtraron el comunicado interno.
