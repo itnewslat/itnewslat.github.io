@@ -2,15 +2,29 @@
 layout: posts
 color-schema: red-dark
 date: '2019-11-12 09:04 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: >-
   Unisys mejora los servicios CloudForte con nuevos recursos de optimización y
   seguridad para Microsoft Azure
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cloud-Computing-1p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cloud-Computing-1g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '46'
 ---
-
 **Las nuevas herramientas proporcionan a las organizaciones más flexibilidad y seguridad en entornos de nube que manejan cargas de trabajo complejas y enfrentan amenazas en constante evolución**
 
 Unisys Corporation (NYSE: UIS) ha anunciado, durante la Microsoft Ignite, el Unisys Cloud Architecture Navigator™ y el Cloud Compliance Director™. Estos nuevos recursos automatizados, con disponibilidad inmediata, permiten a las organizaciones optimizar sus operaciones y aumentar los niveles de seguridad en sus cargas de trabajo a través de la solución Unisys CloudForte® para Microsoft Azure y para entornos de nube híbrida. 
