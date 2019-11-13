@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2019-11-13 11:11 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2019'
 title: Kaspersky abrirá el primer Centro de Transparencia en América Latina
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sao-Paulo-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Sao-Paulo-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '46'
 ---
 **El cuarto centro de la compañía para la revisión de código fuente se inaugurará en São Paulo en enero de 2020**
 
