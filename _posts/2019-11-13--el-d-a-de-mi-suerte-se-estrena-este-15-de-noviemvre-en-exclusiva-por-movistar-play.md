@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2019'
 title: >-
-  "El día de mi suerte" se estrena este 15 de noviemvre en exclusiva por
+  "El día de mi suerte" se estrena este 15 de noviembre en exclusiva por
   Movistar Play
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/El-dia-de-mi-suerte-p.jpg
