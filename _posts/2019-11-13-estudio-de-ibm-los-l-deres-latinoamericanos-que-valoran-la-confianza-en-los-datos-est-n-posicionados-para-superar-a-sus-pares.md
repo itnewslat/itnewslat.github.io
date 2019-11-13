@@ -10,8 +10,8 @@ title: >-
   Estudio de IBM: los líderes latinoamericanos que valoran la confianza en los
   datos están posicionados para superar a sus pares
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivos
-  Ejecutivo CIO-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivo
+  CIO-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ejecutivos
   Ejecutivo CIO-g.jpg
@@ -58,4 +58,4 @@ El estudio reforzó la importancia de crear ecosistemas confiables. Los datos qu
 -	Los líderes esperan que la evolución de las plataformas de negocios digitales requiera un nuevo enfoque para compartir datos. 
 -	62% de los líderes ya están integrando nuevos modos de monetización en sus estrategias de datos.
 
-Acceda a los resultados completos del estudio aquí: https://ibm.co/c-suite-study 
+Acceda a los resultados completos del estudio aquí: https://ibm.co/c-suite-study
