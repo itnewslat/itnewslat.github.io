@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2019'
-title: La línea aérea WINGO nombre nuevo directora ejecutiva
+title: La línea aérea WINGO nombra nueva directora ejecutiva
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/WINGO-p.jpg
 detail-image: >-
