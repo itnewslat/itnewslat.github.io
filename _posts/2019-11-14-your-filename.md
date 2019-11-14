@@ -6,9 +6,9 @@ published: true
 superNews: false
 superArticle: false
 year: '2019'
-title: ''
+title: La línea aérea WINGO nombre nuevo directora ejecutiva
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/CopaAirlines-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/WINGO-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/CopaAirlines-g.jpg
 categories:
@@ -23,7 +23,7 @@ tags:
   - Actualidad
 week: '46'
 ---
-Wingo, la filial colombiana de bajo costo de la aerolínea de Panamá Copa Airlines Star Alliance, ha designado a **Carolina Cortizo Colón** como su nueva directora ejecutiva.
+Wingo, la filial colombiana de bajo costo de la aerolínea de Panamá Copa Airlines-Star Alliance, ha designado a **Carolina Cortizo Colón** como su nueva directora ejecutiva.
 
 Cortizo anteriormente ocupó varios cargos en Copa, más recientemente el de director de precios y gestión de ingresos.
 
