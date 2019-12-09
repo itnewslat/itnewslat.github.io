@@ -1,0 +1,15 @@
+I"�
+<p>ESET, la mayor empresa de ciberseguridad de la Unión Europea, ha descubierto DePriMon, un programa de descarga de malware muy llamativo, ya que registra un monitor en un puerto local con el nombre de “Default Print Monitor”.</p>
+
+<p>Los investigadores de ESET, que consideran a este malware muy interesante técnicamente debido a su complejidad y arquitectura modular, dieron con esta novedosa técnica de ataque investigando unas acciones llevadas a cabo por ciberdelincuentes en Oriente Medio.</p>
+
+<p>De acuerdo con los datos de la telemetría de ESET, el malware DePriMon está activo desde, al menos, marzo de 2017 y fue detectado por primera vez en una empresa del sector privado en Europa Central, así como en docenas de ordenadores en Oriente Medio. En algunos casos, DePriMon se detectó junto al malware ColoredLambert, utilizado por el grupo de ciberespionaje Lamberts (también conocido como Longhorn) y asociado a la fuga de datos de Vault 7.</p>
+
+<p>Los investigadores de ESET consideran a DePriMon como un descargador de malware inusitadamente avanzado debido a que los desarrolladores han puesto especial énfasis en crear su arquitectura y en desarrollar sus componentes críticos. Por ello, es importante que se tenga en cuenta su capacidad más allá de los límites geográficos de su distribución inicial y su posible relación con un grupo de espionaje.</p>
+
+<p>DePriMon se descarga en la memoria y se ejecuta directamente desde ahí como una biblioteca DLL utilizando una técnica conocida como “reflective DLL-loading” que permite que el malware nunca se almacene en el disco. Cuenta con un archivo de configuración que llama la atención por su extensión y por algunos elementos interesantes, como su cifrado o la protección de la comunicación con el servidor de mando y control (C&amp;C). Como resultado de todo ello, DePriMon es una herramienta persistente, potente y flexible diseñada para descargar un payload, ejecutarlo y recoger información básica sobre el sistema y sobre el usuario.</p>
+
+<p>Para ayudar a los usuarios a defenderse de esta amenaza, los investigadores de ESET han analizado el malware profundamente, centrándose especialmente en la etapa de instalación, catalogada como “Port Monitors” en la base de datos de conocimiento MITRE ATT&amp;CK, en las tácticas tanto de Persistencia como de Escalado de Privilegios. Como dicha base de datos no incluye ejemplos reales de esta técnica, los investigadores de ESET creen que es el primer ejemplo descrito públicamente de malware que utiliza la técnica “Port Monitor”.</p>
+
+<p>Para más información sobre DePriMon, se puede visitar el <strong><a href="https://www.welivesecurity.com/2019/11/21/deprimon-default-print-monitor-malicious-downloader/">blog de ESET</a></strong>.</p>
+:ET

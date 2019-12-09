@@ -1,0 +1,34 @@
+I"<p><strong>Esta campaña sin precedentes ha afectado objetivos confirmados en México, Argentina, Bolivia, Brasil, Chile y Costa Rica.</strong></p>
+
+<p>La investigación realizada por Kaspersky sobre la campaña RevengeHotels, dirigida al sector hotelero, ha confirmado que más de 20 hoteles en América Latina, Europa y Asia han sido víctimas de ataques con malware, e incluso hay más hoteles potencialmente afectados en todo el mundo. Los datos de las tarjetas de crédito de los viajeros que se almacenan en un sistema de administración del hotel, hasta aquellos recibidos por parte de las agencias de viajes en línea (OTAs, por sus siglas en inglés), corren el riesgo de ser robados y vendidos a delincuentes en todo el mundo.</p>
+
+<p>RevengeHotels es una campaña activa desde 2015 pero que ha aumentado su presencia en 2019; incluye diferentes grupos que utilizan troyanos de acceso remoto tradicionales (RATs, por sus siglas en inglés) para infectar a las empresas del sector hotelero. Al menos dos grupos, RevengeHotels y ProCC, fueron identificados como parte de la campaña; sin embargo, más grupos cibercriminales están potencialmente involucrados.</p>
+
+<p>El principal vector de ataque en esta campaña son los correos electrónicos con documentos maliciosos de Word, Excel o PDF adjuntos. Algunos de ellos explotan el CVE-2017-0199, lo cargan usando guiones de VBS y PowerShell y entonces instalan versiones especiales de varios RATs y otro malware adecuado, como ProCC, en la máquina de la víctima, que luego podría ejecutar órdenes y establecer el acceso a distancia al sistema infectado.</p>
+
+<p>Cada correo electrónico de spear phishing fue diseñado con especial atención a los detalles y usualmente se hace pasar por personas reales de organizaciones legítimas que hacen una solicitud de reservación falsa para un grupo grande de personas. Vale la pena señalar que incluso los usuarios cuidadosos podrían ser engañados para hacerles abrir y descargar los archivos adjuntos en esos correos electrónicos, ya que incluyen una gran cantidad de detalles (por ejemplo, copias de documentos legales y razones para reservar en el hotel) y parecen convincentes. El único detalle que revelaría al atacante sería un dominio de la organización con errores tipográficos deliberados.</p>
+
+<p>Una vez infectada, se podría acceder a la computadora desde lejos, no solo por el propio grupo cibercriminal; la evidencia recopilada por los investigadores de Kaspersky muestra que el acceso a distancia a la recepción de los hoteles y los datos que contienen se venden en foros criminales por suscripción. El malware recopiló datos de los portapapeles, los spoolers de las impresoras e instantáneas de pantalla de la recepción de los hoteles (esta función fue activada usando palabras específicas en inglés o portugués). Debido a que el personal del hotel a menudo copiaba los datos de la tarjeta de crédito de los clientes de OTA para cobrarles, esos datos también podrían verse comprometidos.</p>
+
+<p>La telemetría de Kaspersky confirmó objetivos en Argentina, Bolivia, Brasil, Chile, Costa Rica, Francia, Italia, México, Portugal, España, Tailandia y Turquía. Sin embargo, según los datos extraídos de Bit.ly, un popular servicio de acortamiento de enlaces utilizado por los atacantes para difundir enlaces maliciosos, los investigadores de Kaspersky suponen que los usuarios de muchos otros países han accedido al menos al enlace malicioso, lo que sugiere que la cantidad de países con víctimas potenciales podría ser más alta.
+“Como los usuarios desconfían de cuán protegidos están realmente sus datos, los ciberdelincuentes recurren a las pequeñas empresas, que a menudo no están muy bien protegidas contra los ataques cibernéticos y poseen una concentración de datos personales. Los hoteleros y otras pequeñas empresas que se ocupan de los datos de los clientes deben ser más cautelosos y aplicar soluciones de seguridad profesionales para evitar fugas de datos que podrían no solo afectar a los clientes, sino también dañar la reputación del hotel”, comenta Dmitry Bestuzhev, jefe de Investigación y Análisis Equipo, Kaspersky Latinoamérica.</p>
+
+<p>Para mantenerse a salvo, se recomienda a los viajeros:</p>
+
+<ul>
+  <li>Usar una tarjeta de pago virtual para las reservaciones realizadas a través de OTA, ya que estas tarjetas normalmente caducan después de un solo cobro.</li>
+  <li>Cuando pague por una reservación o al hacer el checkout en la recepción del hotel, use una billetera virtual, como Apple Pay o Google Pay, o una tarjeta de crédito secundaria con una cantidad limitada de débito disponible.</li>
+</ul>
+
+<p>Los propietarios y la gerencia del hotel también deben seguir estos pasos para proteger los datos del cliente:</p>
+
+<p>Realizar evaluaciones de riesgos de la red existente e implementar regulaciones sobre cómo se manejan los datos de los clientes.</p>
+
+<p>Utilizar una solución de seguridad confiable con protección web y funcionalidad de control de aplicaciones, como Kaspersky Endpoint Security for Business. La protección web ayuda a bloquear el acceso a sitios web maliciosos y de suplantación de identidad (phishing), mientras que el control de aplicaciones (en modo de lista blanca) permite asegurarse de que ninguna aplicación, excepto las de la lista blanca, pueda ejecutarse en las computadoras de la recepción de los hoteles.</p>
+
+<ul>
+  <li>Incluir capacitación sobre conciencia de seguridad para enseñar a los empleados cómo detectar intentos de phishing y mostrar la importancia de permanecer alertas al manejar los correos electrónicos que se reciben.</li>
+</ul>
+
+<p>El reporte completo de RevengeHotels: cybercrime targeting hotel desks worldwide (RevengeHotels: cibercrimen dirigido a la recepción de hoteles en todo el mundo) puede ser consultado en securelist.com</p>
+:ET
