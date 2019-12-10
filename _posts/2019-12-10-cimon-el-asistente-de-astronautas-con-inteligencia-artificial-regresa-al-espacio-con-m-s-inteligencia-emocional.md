@@ -10,7 +10,7 @@ title: >-
   CIMON, el asistente de astronautas con Inteligencia Artificial, regresa al
   espacio con más inteligencia emocional
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/IBM-CIMON-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/IBM-CIMON-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/IBM-CIMON-g.jpg
 categories:
