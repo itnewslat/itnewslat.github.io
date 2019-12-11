@@ -7,8 +7,10 @@ superNews: false
 superArticle: false
 year: '2019'
 title: 'Seguridad, prioridad de los viajeros mexicanos de negocios '
-image: 'https://github.com/itnewslat/assets/blob/master/img/540x320/Viajeros-p.jpg'
-detail-image: 'https://github.com/itnewslat/assets/blob/master/img/1024x680/Viajeros-g.jpg'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Viajeros-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Viajeros-g.jpg
 categories:
   - Venezuela
   - Colombia
