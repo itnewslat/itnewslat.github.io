@@ -34,7 +34,8 @@ También se ha incorporado la sección Atención al Cliente, que permite canaliz
 
 “Como parte de nuestros proyectos de actualización digital, hemos realizado cambios sustanciales en nuestra página web, a fin de hacer más amigable la interacción tecnológica con los pasajeros donde quiera que se encuentren y cuando lo deseen, en especial para obtener sus boletos aéreos de manera inmediata”, dijo Jessica Pereira, gerente de Mercadeo y Publicidad de Laser Airlines.
 
-La nueva web www.laserairlines.com ofrece, además, un completo contenido sobre servicios, rutas regulares y horarios, reprogramaciones, noticias, tips para viajar e información actualizada sobre disposiciones migratorias. En una segunda fase, se incorporará el programa de fidelidad para beneficio de los pasajeros frecuentes.  
+La nueva web www.laserairlines.com ofrece, además, un completo contenido sobre servicios, rutas regulares y horarios, reprogramaciones, noticias, tips para viajar e información actualizada sobre disposiciones migratorias. En una segunda fase, se incorporará el programa de fidelidad para beneficio de los pasajeros frecuentes. 
+
 La herramienta forma parte de los canales de venta de Laser Airlines, junto al call center 0501-LASER00, oficinas comerciales dentro y fuera de Venezuela, así como stands ubicados en las principales ciudades del país.
  
 ![](http://www.ciberespacio.com.ve/wp-content/uploads/2019/12/laserairlines.com_.jpg)
