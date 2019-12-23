@@ -48,4 +48,4 @@ Otra oferta interesante es Trigo y viene de Israel y dirigen su tecnología a to
 
 Contiene información de “Ocado wages a grocery war against Amazon, Walmart and Alibaba” https://econ.st/36QcpgY y “Trigo raises $22 million to challenge Amazon Go with automated grocery stores” http://bit.ly/2lTyQiY.  También aparece en mi blog .
 
-Tomado de [**LASLOBEKE.com**](http://laszlobeke.com/los-retos-los-supermercados-la-tecnologia/)
+Tomado de [**laszlobeke.com**](http://laszlobeke.com/los-retos-los-supermercados-la-tecnologia/)
