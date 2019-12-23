@@ -66,6 +66,3 @@ Para más información acerca de cómo prevenir ser víctima de este tipo de eng
 ESET acerca #quenotepase, con información útil para evitar que situaciones cotidianas afecten la privacidad en línea. Para conocer más sobre seguridad informática ingrese al portal de noticias de ESET: https://www.welivesecurity.com/la-es/2019/12/20/sitio-suplanta-identidad-entidad-financiera-colombia-robar-informacion-clientes/
   
 Para descargar el comunicado completo haz clic aquí
-
-
-
