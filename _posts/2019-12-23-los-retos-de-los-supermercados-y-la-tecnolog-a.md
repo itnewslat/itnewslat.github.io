@@ -23,7 +23,7 @@ tags:
   - Transformación Digital
 week: '52'
 ---
-Tomado de [**LASLOBEKE.com**](http://laszlobeke.com/los-retos-los-supermercados-la-tecnologia/)
+Tomado de [**laszlobeke.com**](http://laszlobeke.com/los-retos-los-supermercados-la-tecnologia/)
 
 Los retos de los supermercados y la tecnología son extraordinarios.  Se trata del sector más grande del detal y el cual además necesita manejar productos perecederos. Los desafíos están en la entrega de las ventas por Internet, en la tienda sin cajeros, en el manejo de los productos en los almacenes, en el entendimiento de los patrones compra de los clientes y más. Los gigantes Amazon, Walmart y Alibaba arrancan con ventaja, pero están apareciendo soluciones disponibles y asequibles para los competidores medianos. En el detal, no existe relación tan intensa como la que hay entre el cliente y su supermercado y las oportunidades a futuro parecen inmensas.
 
