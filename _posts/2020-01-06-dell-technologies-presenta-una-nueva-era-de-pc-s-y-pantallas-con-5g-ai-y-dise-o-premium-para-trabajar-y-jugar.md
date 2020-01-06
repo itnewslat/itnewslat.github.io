@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2020-01-06 12:25 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2020'
@@ -75,4 +75,4 @@ Las pantallas Dell UltraSharp, la gama más alta de Dell, utiliza tecnología de
 
 El nuevo monitor Alienware para juegos de 25” (AW2521HF), diseñado para ofrecer gran velocidad con una increíble cobertura de color sRGB del 99%, incluye tecnología IPS más rápida que ofrece colores intensos, una tasa de actualización de 240 Hz y un asombroso tiempo de respuesta de 1 ms incluyendo un tiempo de respuesta gris a gris, todo en resolución FHD. También cuenta con AMD Radeon FreeSync y es compatible con G-Sync.
 
-Además de las pantallas detalladas anteriormente, Dell hoy también lanzó incorporaciones a la gama general de monitores. Consulte estos anuncios aquí 
+Además de las pantallas detalladas anteriormente, Dell hoy también lanzó incorporaciones a la gama general de monitores. Consulte estos anuncios aquí
