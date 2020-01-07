@@ -17,7 +17,6 @@ markdown: kramdown
 permalink: /:title.html
 
 whitelist: []
-plugins_dir:   []
 
 collections:
   newsletters:
