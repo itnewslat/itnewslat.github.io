@@ -10,7 +10,7 @@ title: >-
   Sony resalta su evolución como una “Empresa creativa en entretenimiento con
   bases sólidas de tecnología” en el CES 2020
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/50320/SONY-CES2020-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/SONY-CES2020-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/SONY-CES2020-g.jpg
 categories:
