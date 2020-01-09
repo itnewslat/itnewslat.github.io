@@ -10,7 +10,7 @@ title: >-
   Belkin y Devialet unen fuerzas para presentar en el CES 2020 un altavoz
   inteligente de alta fidelidad con capacidades de carga inalámbrica
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/SOUN0DFORM-ELITE-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/SOUNDFORM-ELITE-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/SOUNDFORM-ELITE-g.jpg
 categories:
