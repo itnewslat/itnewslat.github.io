@@ -1,23 +1,21 @@
 (function($){ 
 	$(document).ready(function(){
-      console.log('script working . . .')
+      let feed = $("#filter").attr("name");      
 
-      let feed = $("#filter").attr("name");
-      console.log('===>',feed);
-      //feed to parse
-      // let feed = "https://cors-anywhere.herokuapp.com/https://www.comunicae.com.mx/feedDestino.php?sId=itnews&cat=148";
-      
-         $.ajax({
-            url: "https://cors-anywhere.herokuapp.com/" + feed,
-            dataType: 'xml',
-            success  : function (data) {
-              let json =  xml2json(data);
-              createListNews(json);
-            },
-            error: function(error){
-               console.log(error)
-            }
-      }); 
+      if(!!feed){
+        $.ajax({
+          url: "https://cors-anywhere.herokuapp.com/" + feed,
+          dataType: 'xml',
+          success  : function (data) {
+            let json =  xml2json(data);
+            createListNews(json);
+          },
+          error: function(error){
+             console.log(error) 
+          }
+        }); 
+      }
+
       
       let xml2json = (data) => {
          const children = [...data.children];
@@ -38,11 +36,10 @@
         return jsonResult;
       }
 
-      let createListNews = (json) => {
+      let createListNews = json => {
         const items = json.rss.channel.item;      
         items.forEach((item) =>{
-          console.log(item)
-          const containerNews = document.getElementById('news');
+          const containerNews =  document.getElementById('news');
           // href element
           let hrefDiv = document.createElement('div');
           hrefDiv.setAttribute('class',"row row-hover py-1 py-lg-3 align-items-center clickable-element" );
