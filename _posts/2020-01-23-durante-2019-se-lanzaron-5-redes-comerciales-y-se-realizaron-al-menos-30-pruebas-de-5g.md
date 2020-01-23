@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2020-01-23 12:01 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: >-
   Durante 2019 se lanzaron 5 redes comerciales y se realizaron al menos 30
   pruebas de 5G
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Redes-5G-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Redes-5G-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Movilidad
+week: '04'
 ---
 **Brasil, Chile y Perú fueron los mercados en los que mayor cantidad de ensayos se verificaron. Las bandas de 3,5 GHz y 28 GHz fueron las más empleadas en las pruebas realizadas.**
 
