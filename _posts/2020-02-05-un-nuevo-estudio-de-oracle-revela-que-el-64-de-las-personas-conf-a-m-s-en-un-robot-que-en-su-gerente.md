@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2020-02-05 16:26 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: >-
   Un nuevo estudio de Oracle revela que el 64% de las personas confía más en un
   robot que en su gerente
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Robots-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Robots-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '06'
 ---
 - La investigación a nivel mundial destaca la manera en que la inteligencia artificial está cambiando la relación entre las personas y la tecnología en el trabajo.
 - La imparcialidad, la resolución de problemas y la administración de presupuesto son algunos de los aspectos que se salen a relucir a la hora de comparar a los robots con los gerentes
