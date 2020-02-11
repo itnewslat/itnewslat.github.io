@@ -39,4 +39,4 @@ El segundo bloque estuvo a cargo de Ángel Matt y Ercik Myke, profesores en Reel
 
 La programación de la Mega Sala Digital Movistar está disponible de forma permanente para su consulta en: www.fundaciontelefonica.com.ve. Quienes deseen asistir alguno de sus eventos pueden solicitar mayor información enviando un correo electrónico a: saladigitalmovistar.ve@telefonica.com
 
-Con estos espacios Fundación Telefónica | Movistar continúa generando oportunidades de desarrollo para los venezolanos a través de proyectos educativos, mediante alianzas estratégicas e integrando de manera eficiente e innovadora la tecnología.
+Con estos espacios Fundación Telefónica  Movistar continúa generando oportunidades de desarrollo para los venezolanos a través de proyectos educativos, mediante alianzas estratégicas e integrando de manera eficiente e innovadora la tecnología.
