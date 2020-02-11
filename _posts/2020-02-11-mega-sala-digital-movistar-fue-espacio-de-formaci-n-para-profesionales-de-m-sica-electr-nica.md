@@ -20,6 +20,7 @@ tags:
 week: '07'
 ---
 - La conferencia _#Connect: historia y evolución de la escena electrónica en Venezuela_, organizada por Box Music Studio, estuvo conformada por 4 ponencias teórico-prácticas en la que se pretendió introducir a los asistentes a los fundamentos conceptuales y criterios básicos usados en la composición, análisis, producción y realización de música electrónica.
+
 - La actividad se enmarca en el eje de Empleabilidad de _Fundación Telefónica | Movistar_, que apunta a la capacitación de los jóvenes del país, poniendo a su disposición herramientas para insertarse en el mercado laboral y el emprendimiento.
 
 En su permanente apoyo a iniciativas que contribuyan al desarrollo de las habilidades y competencias para los empleos del futuro, Fundación Telefónica | Movistar abre las puertas de su Mega Sala Digital Movistar a la primera edición de la conferencia “#Connect: historia y evolución de la escena electrónica en Venezuela”, organizada por Box Music Studio, en la que se compartieron diferentes vertientes del mundo de la música electrónica en el país, con la ponencia de 4 artistas del medio.
