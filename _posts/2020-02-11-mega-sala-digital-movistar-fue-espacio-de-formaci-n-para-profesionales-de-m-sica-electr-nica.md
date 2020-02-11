@@ -19,11 +19,11 @@ tags:
   - Actualidad
 week: '07'
 ---
-- La conferencia “#Connect: historia y evolución de la escena electrónica en Venezuela”, organizada por Box Music Studio, estuvo conformada por 4 ponencias teórico-prácticas en la que se pretendió introducir a los asistentes a los fundamentos conceptuales y criterios básicos usados en la composición, análisis, producción y realización de música electrónica.
-- La actividad se enmarca en el eje de Empleabilidad de Fundación Telefónica | Movistar, que apunta a la capacitación de los jóvenes del país, poniendo a su disposición herramientas para insertarse en el mercado laboral y el emprendimiento.
+- La conferencia _#Connect: historia y evolución de la escena electrónica en Venezuela_, organizada por Box Music Studio, estuvo conformada por 4 ponencias teórico-prácticas en la que se pretendió introducir a los asistentes a los fundamentos conceptuales y criterios básicos usados en la composición, análisis, producción y realización de música electrónica.
+- La actividad se enmarca en el eje de Empleabilidad de _Fundación Telefónica | Movistar_, que apunta a la capacitación de los jóvenes del país, poniendo a su disposición herramientas para insertarse en el mercado laboral y el emprendimiento.
 
-En su permanente apoyo a iniciativas que contribuyan al desarrollo de las habilidades y competencias para los empleos del futuro, Fundación Telefónica | Movistar abre las puertas de su Mega Sala Digital Movistar a la primera edición de la conferencia “#Connect: historia y evolución de la escena electrónica en Venezuela”, organizada por Box Music Studio, en la que se compartieron diferentes vertientes del mundo de la música electrónica en el país, con la ponencia de 4 artistas del medio. 
- 
+En su permanente apoyo a iniciativas que contribuyan al desarrollo de las habilidades y competencias para los empleos del futuro, Fundación Telefónica | Movistar abre las puertas de su Mega Sala Digital Movistar a la primera edición de la conferencia “#Connect: historia y evolución de la escena electrónica en Venezuela”, organizada por Box Music Studio, en la que se compartieron diferentes vertientes del mundo de la música electrónica en el país, con la ponencia de 4 artistas del medio.
+
 Ana Mancera, gerente general de Fundación Telefónica | Movistar, explica que esta actividad forma parte de la programación de la Mega Sala Digital Movistar y está enmarcada en su eje estratégico de Empleabilidad. “Esta alianza con Box Music Studio se inscribe en nuestro esfuerzo por contribuir a la empleabilidad de los jóvenes del país, poniendo a su disposición herramientas para insertarse en el mercado laboral y el emprendimiento. Para nosotros es prioritario promover la formación de las nuevas generaciones de profesionales mediante el uso de la tecnología y la Mega Sala Digital Movistar está diseñada para poner a disposición de estudiantes, instituciones educativas, culturales y público en general, una infraestructura de conectividad”.
 
 En el taller participaron profesores de la UNIMET, instructores de Reloop Dj Academy y artistas invitados como Félix Carmona, quien cuenta con una larga trayectoria en el género y además es director académico del diplomado de música electrónica en la UNIMET. 
@@ -38,4 +38,4 @@ El segundo bloque estuvo a cargo de Ángel Matt y Ercik Myke, profesores en Reel
 
 La programación de la Mega Sala Digital Movistar está disponible de forma permanente para su consulta en: www.fundaciontelefonica.com.ve. Quienes deseen asistir alguno de sus eventos pueden solicitar mayor información enviando un correo electrónico a: saladigitalmovistar.ve@telefonica.com
 
-Con estos espacios Fundación Telefónica | Movistar continúa generando oportunidades de desarrollo para los venezolanos a través de proyectos educativos, mediante alianzas estratégicas e integrando de manera eficiente e innovadora la tecnología. 
+Con estos espacios Fundación Telefónica | Movistar continúa generando oportunidades de desarrollo para los venezolanos a través de proyectos educativos, mediante alianzas estratégicas e integrando de manera eficiente e innovadora la tecnología.
