@@ -10,7 +10,7 @@ title: >-
   Les presentamos el Samsung Galaxy S20: Cambia la forma en que experimentas el
   mundo
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Samsung-S20-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Samsung-s20-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Samsung-S20-g.jpg
 categories:
