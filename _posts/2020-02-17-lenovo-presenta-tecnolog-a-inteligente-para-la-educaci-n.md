@@ -33,7 +33,7 @@ El VR Classroom 2 proporciona hardware, contenidos, capacitación y soporte tota
 
 “Para preparar a los jóvenes en las carreras del mañana se necesita una tecnología más inteligente y de un socio confiable que respalde la implementación. Los docentes valoran las posibilidades infinitas que la realidad virtual ofrece a los estudiantes cuando es fácil de utilizar y cuenta con pleno respaldo”, afirmó Rich Henderson, Director Global de Soluciones Educativas de Lenovo.
 
-Dispositivos de Lenovo para la educación
+**Dispositivos de Lenovo para la educación**
 
 La totalmente nueva Lenovo 10e Chromebook Tablet es la herramienta ideal para que los estudiantes más pequeños, de jardín de infantes a segundo grado, comiencen su viaje educativo con juegos de resolución de problemas, evaluaciones y aplicaciones didácticas prácticas. 
  
