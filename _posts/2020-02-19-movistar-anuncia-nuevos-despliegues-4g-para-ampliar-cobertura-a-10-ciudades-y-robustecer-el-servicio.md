@@ -26,13 +26,13 @@ week: 08
 
 Con una inversión de más de 10,5 millones de dólares, la empresa de telecomunicaciones anunció el despliegue adicional de 339 nodos de 4G para reforzar la cobertura de esta red e incorporar el servicio en Maturín, Barinas, Acarigua, San Antonio, Los Teques, San Cristóbal, Cabimas, Ciudad Ojeda, Guarenas y Guatire.
 
-José Luis Rodríguez Zarco, presidente de Telefónica | Movistar Venezuela, precisó que con esta inversión la compañía alcanzará cerca de 1.000 nodos desplegados a escala nacional, y ofrecerá una mejora en la experiencia de comunicación. “Estamos trabajando para ejecutar este despliegue en tiempo récord, entre marzo y junio, para finalizar el primer semestre con el doble de huella LTE”.
+José Luis Rodríguez Zarco, presidente de Telefónica-Movistar Venezuela, precisó que con esta inversión la compañía alcanzará cerca de 1.000 nodos desplegados a escala nacional, y ofrecerá una mejora en la experiencia de comunicación. “Estamos trabajando para ejecutar este despliegue en tiempo récord, entre marzo y junio, para finalizar el primer semestre con el doble de huella LTE”.
 
 Resaltó que se están instalando nodos de última evolución tecnológica. “Esto permitirá a los clientes registrar mayores velocidades y aquellos con dispositivos compatibles tendrán la oportunidad de navegar en 4.5G”.
 
 De esta forma, Movistar se consolida como la operadora con el mayor parque de clientes 4G del mercado. “Nuestra aspiración es cerrar el año con un total de 600 nuevos nodos instalados y eso será posible en la medida en la que contemos con los recursos financieros, producto del valor adecuado de las rentas básicas de nuestros planes y servicios. Es indispensable que las empresas cuenten con el flujo de caja necesario para ejecutar el plan de inversión que garantice la sostenibilidad de los servicios”, sostuvo Rodríguez Zarco.
 
-Con esta ampliación de la huella 4G, un total de 21 ciudades contarán con esta tecnología: Caracas, La Guaira, Puerto La Cruz, Margarita, El Tigre, Cumaná, Valencia, Barquisimeto, Maracaibo, Maracay,  Puerto Ordaz, Maturín, Barinas, Acarigua, San Antonio, Los Teques, San Cristóbal, Cabimas, Ciudad Ojeda, Guarenas y Guatire.
+Con esta ampliación de la huella 4G, un total de 21 ciudades contarán con esta tecnología: Caracas, La Guaira, Puerto La Cruz, Margarita, El Tigre, Cumaná, Valencia, Barquisimeto, Maracaibo, Maracay,  Puerto Ordaz, Maturín, Barinas, Acarigua, San Antonio de los Altos, Los Teques, San Cristóbal, Cabimas, Ciudad Ojeda, Guarenas y Guatire.
 
 El vicepresidente de Mercadeo, Rodolfo Campa, invitó a los clientes a darse la oportunidad de vivir una mejor experiencia de comunicación con la red 4G+. “Actualizar el chip en este momento no tiene costo, Movistar los está obsequiando para aquellos clientes con equipo que deseen estar en 4G. Además, durante los próximos tres meses estaremos obsequiando un bono de 3 Gigas de navegación para aquellos clientes que se cambien de tecnología”, apuntó.
 
@@ -40,7 +40,7 @@ Campa desmontó algunos mitos como la pérdida del plan y del número cuando el 
 
 **Compromiso con el país**
 
-El presidente de Telefónica | Movistar destacó que la compañía es la que más invierte en el sector. “Nuestro compromiso con el desarrollo de las telecomunicaciones en el país es inquebrantable y la recuperación del valor de los servicios es fundamental para lograrlo”, expresó.
+El presidente de Telefónica-Movistar destacó que la compañía es la que más invierte en el sector. “Nuestro compromiso con el desarrollo de las telecomunicaciones en el país es inquebrantable y la recuperación del valor de los servicios es fundamental para lograrlo”, expresó.
 
 De acuerdo con el balance de la compañía, gran parte del presupuesto de red está orientado a la recuperación de estaciones robadas y/o vandalizadas. El año pasado contabilizó unos 370 eventos de robos y vandalismo que implicaron más de 3,5 millones de dólares para recuperarlas. 
 
