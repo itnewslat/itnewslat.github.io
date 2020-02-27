@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: true
 year: '2019'
-title: 'Sistema de archivos interplanetarios (IPFS) '
+title: Desarrollo soportado en Dockers
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sistemas-de-Archivos-p.jpg
 detail-image: >-
@@ -23,20 +23,29 @@ image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Sistemas-de-Archivos-g.jpg
 week: '5'
 ---
-<p style="text-align: justify;">Imagina un servicio de internet sin interrupciones debido a fallas en los servidores donde se aloja la información, esta oración es una representación muy simple para explicar lo que se obtiene con IPFS.</p>
-
-<p style="text-align: justify;">IPFS es un proyecto de código abierto soportado en un sistema distribuido P2P, que permite compartir archivos que se distribuirán a otros computadores o nodos en todo el sistema de archivos en red, esto hace imposible a terceros interceptar, eliminar o modificar el contenido almacenado porque incluso si se elimina o no está disponible un nodo, el contenido seguirá estando disponible desde otros nodo, logrando además comunicaciones más eficientes, ya que permite la transmisión a través de varios nodos simultáneamente.</p>
-
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/IFPS.jpg)
+<p style="text-align: justify;">Dentro de las principales dificultades, en entornos de desarrollo, donde la complejidad de la arquitectura es una regla heredada de años, está el desplegar la nueva aplicación desarrollada sin que presente problemas de integración con los demás servicios o sistemas que forman parte de la arquitectura que brindará apoyo a su funcionamiento. </p>
+  
+<p style="text-align: justify;">Cuando los desarrollos son tercerizados, los programadores deben replicar en sus ambientes locales la arquitectura del cliente, esta tarea puede resultar ser más difícil que el propio desarrollo, sobre todo en empresas donde la obsolescencia es alta.</p>
+  
+<p style="text-align: justify;">Para contrarrestar este tipo de dificultades aportando además una cantidad de beneficios importantes, nacieron los Dockers.</p>
+  
+<p style="text-align: justify;">La idea detrás de Docker es crear contenedores ligeros y portables para las aplicaciones software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo que la máquina tenga por debajo, facilitando así también los despliegues. </p>
+  
+<p style="text-align: justify;">Del mismo modo que los contenedores de mercancías permiten su transporte por barco, tren o camión independientemente de la carga de su interior, los contenedores de software actúan como una unidad estándar de implementación de software que puede contener diferentes dependencias y código. De esta manera, la inclusión del software en contenedor permite a los desarrolladores y los profesionales de TI implementarlo en entornos con pocas modificaciones o ninguna en absoluto.</p>
  
-<p style="text-align: justify;">En lugar de descargar archivos de servidores individuales —como en el protocolo tradicional HTTP—, el cliente IPFS solicita a sus pares en la red que le provean una ruta de acceso a un archivo, dada la clave se puede recuperar el contenido en cualquier momento, dicha clave es totalmente independiente del origen de la información. En términos sencillos, IPFS actúa de manera similar al protocolo BitTorrent, salvo que, en lugar de compartir e intercambiar archivos, IPFS intercambia objetos git. Esto resume todo el sistema en un simple almacén distribuido de datos de valor y una clave.v
+<p style="text-align: justify;">Los contenedores no son una invención reciente, pero a través de proyectos open source como Docker y rkt de CoreOS, la tecnología de contenedores está hoy en boca de todos.</p>
 
-<p style="text-align: justify;">IPFS permite el repartimiento de datos a gran escala con alta eficiencia, versiones históricas, redes resistentes a la censura y contenido asegurado y verificado a través de hashes criptográficos.</p>
+**Ventajas de la tecnología de contenedores**
+  
+- Los contenedores de aplicaciones “empaquetan” los recursos necesarios para el funcionamiento de una aplicación para facilitar su uso a administradores y desarrolladores, simplificando tanto la instalación como la puesta en marcha de programas muy complejos. Se obtiene además, una mayor consistencia entre los entornos de prueba y los de producción. Cuando se desarrolla con Docker, se hacen pruebas de la app dentro de un contenedor, y la despliegas dentro de un contenedor. Eso significa que el entorno de pruebas es idéntico al entorno en el que se va a ejecutar el software. En consecuencia, los desarrolladores ganan en tranquilidad y en confianza pues saben que los usuarios finales no se van a topar con problemas relacionados con el ambiente donde fue desplegada su nueva aplicación.
+- Instalación más sencilla debido a que los contenedores de software se inician a partir de imágenes o representaciones portables de un contenedor, incluyendo un programa y todos los componentes requeridos (como librerías, soporte o archivos de configuración). De esta forma se compensan las diferencias entre sistemas operativos. Su instalación se reduce a la introducción de una línea de comando.
+- Las imágenes se pueden transportar cómodamente de un sistema a otro y se caracterizan por una considerable independencia de la plataforma. Lo único que se necesita para iniciar un contenedor desde una imagen es un sistema operativo que soporte contenedores.
+- Cada programa o aplicación funciona independientemente de otros contenedores, de forma que aplicaciones con requerimientos opuestos pueden funcionar en paralelo en el mismo sistema.
 
-<p style="text-align: justify;">Además de una distribución de datos descentralizada, IPFS hace posible el acceso a contenidos de Internet incluso sin conexión, algo que HTTP no puede hacer, y que sería de inestimable importancia especialmente en países en los que la conexión a Internet es mala o inestable o en zonas o regiones alejadas de las áreas metropolitanas con buena conexión a Internet.</p>
-
-<p style="text-align: justify;">Habrá que esperar a ver cómo evoluciona IPFS y si consigue universalizarse al igual que HTTP, pero todo apunta a que los protocolos de Internet que nacieron hace +20 años, podrían tener los días contados.</p>
-
+En fin, los Dockers son una analogía de software a la elasticidad de una nube de infraestructura, más carga más contenedores activos y viceversa.
+  
+![](https://www.shiplilly.com/wp-content/uploads/2016/01/standard-container-300x225.jpg)
+ 
 <table style="height: 352px;" width="622">
 <tbody>
 <tr>
