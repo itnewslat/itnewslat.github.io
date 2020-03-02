@@ -50,4 +50,6 @@ Estos últimos, son los únicos reconocidos oficialmente por la Administración 
  
 En este sentido, dada la confusión provocada, tanto para los fumadores como para los periodistas y el público en general, es necesario difundir información basada en la ciencia, sobre alternativas al cigarrillo como los electrónicos, que si bien no son libres de riesgo, son significativamente menos nocivos para la salud que fumar tabaco, según han declarado organismos independientes como el Departamento de Salud del Reino Unido. 
  
-Noticias como esta, no hacen más que contribuir a socavar la confianza en el mundo académico, ya que variedad de medios especializados han destacado el error de la revista poniendo de manifiesto la falta de rigor científico y la escasa fiabilidad del mismo. 
+Noticias como esta, no hacen más que contribuir a socavar la confianza en el mundo académico, ya que variedad de medios especializados han destacado el error de la revista poniendo de manifiesto la falta de rigor científico y la escasa fiabilidad del mismo.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
