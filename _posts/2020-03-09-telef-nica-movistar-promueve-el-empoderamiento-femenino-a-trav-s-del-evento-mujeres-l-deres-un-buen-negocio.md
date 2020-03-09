@@ -21,7 +21,7 @@ week: '11'
 ---
 Cuatro perfiles distintos buscando puntos de encuentro en el debate “Líderes empresarias y empresariales”  
 
-**En el marco de la política de diversidad de la compañía, Daniela Laurita, CEO de Telefónica|Movistar, destacó la importancia estratégica de la figura femenina dentro de la organización.**
+**En el marco de la política de diversidad de la compañía, Daniela Laurita, CEO de Telefónica Movistar, destacó la importancia estratégica de la figura femenina dentro de la organización.**
 
 - La compañía celebró el Día Internacional de la Mujer con una agenda de ponencias que resaltó la importancia de la incorporación masiva de mujeres al sector productivo en puestos decisorios. 
 - El debate generacional “Líderes empresarias y empresariales” reunió mujeres que representan el liderazgo femenino en el mundo corporativo y como dueñas de sus propios negocios.
