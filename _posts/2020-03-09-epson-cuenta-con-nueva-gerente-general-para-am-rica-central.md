@@ -43,3 +43,5 @@ Este mismo informe expone a través de un sondeo realizado a casi 13.000 negocio
 La designación de Karina en el puesto es un acontecimiento de suma relevancia para la empresa japonesa y confirma los pasos de esta hacia la igualdad de oportunidades. 
 
 “Epson es una empresa líder mundial en tecnología que se dedica a conectar personas, cosas e información con sus tecnologías eficientes, compactas y de alta precisión, como embajadora de estos objetivos deseo lograr cambios significativos y constantes para nuestro entorno empresarial, responderemos a los cambios de forma rápida y flexible para mejorar nuestro valor corporativo tanto en el medio como el largo plazo”, concluyó Riofrio.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
