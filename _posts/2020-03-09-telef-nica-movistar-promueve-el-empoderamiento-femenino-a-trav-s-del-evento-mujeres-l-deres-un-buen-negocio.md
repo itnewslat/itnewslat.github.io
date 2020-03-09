@@ -58,3 +58,5 @@ Adicionalmente, dentro del mismo programa, se realizarán talleres de capacitaci
 
 Mediante una serie de clases teórico-prácticas, presenciales en la Mega Sala Digital y en línea, se impartirán conocimientos sobre los softwares de mayor uso, aplicaciones web y móviles, extensiones y herramientas de Google, plataformas y medios digitales, fundamentos de marketing digital, gestión básica de redes sociales y estrategias de storytelling, realizando ejercicios prácticos; con actividades adicionales y un grupo de acompañamiento.
 Esta actividad forma parte de los Objetivos de Desarrollo Sostenible promovidos por la ONU, y que apoyamos desde Telefónica para evitar la discriminación de mujeres, promover la igualdad de oportunidades de liderazgo y el empoderamiento, además de fomentar la diversidad en el plano laboral, con la misión de aumentar la participación femenina en todos los ámbitos.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
