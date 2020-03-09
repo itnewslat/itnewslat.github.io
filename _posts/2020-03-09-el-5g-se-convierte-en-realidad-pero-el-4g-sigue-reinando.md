@@ -54,3 +54,5 @@ El nuevo informe "The Mobile Economy 2020" fue elaborado por GSMA Intelligence, 
 1. Se pronostica que habrá 8,8 mil millones de conexiones SIM para 2025, en comparación con 8 mil millones en 2019. Los totales de conexiones excluyen las conexiones de IoT celular. 
 2. Un suscriptor móvil único representa a un individuo que puede tenes múltiples conexiones móviles.
 3. La contribución al PIB comprende aperadores móviles (0,7% del PIB); industrias relacionadas (0,5%); contribución indirecta (0,5%); y mejoras en productividad (2,9%).
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
