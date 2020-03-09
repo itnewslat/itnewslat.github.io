@@ -35,4 +35,6 @@ Axionlog es la primera compañía de Latinoamérica que logra en tiempo récord 
 
 “Para nosotros es un gran hito en nuestra historia tecnológica haber llevado todas nuestras operaciones a la nube de manera exitosa en tan sólo cuatro meses, ayudando a transformar nuestro negocio, dándole mayor valor, optimizando sus costos operativos e incrementando la seguridad y disponibilidad de los sistemas. Oracle y gA han sido socios claves en este camino, aportando su experiencia y conocimiento en el trazado de la hoja de ruta hacia la nube”, aseguró Luis Brizuela, CIO de Axionlog.
  
-Por su parte, para Ricardo Fisch, VP y Head de los Servicios Cloud de gA, “es un gran orgullo que Axionlog haya confiado en nosotros para diseñar e implementar su viaje a la nube (Cloud Journey). La nube no sólo propone nuevas plataformas, sino que es el mayor cambio en el paradigma de uso de Tecnología de Información desde Internet”. 
+Por su parte, para Ricardo Fisch, VP y Head de los Servicios Cloud de gA, “es un gran orgullo que Axionlog haya confiado en nosotros para diseñar e implementar su viaje a la nube (Cloud Journey). La nube no sólo propone nuevas plataformas, sino que es el mayor cambio en el paradigma de uso de Tecnología de Información desde Internet”.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
