@@ -63,4 +63,6 @@ Las redes sociales también quieren más ingresos e inducen de una forma u otra 
 Lo inteligente de cara al futuro es medir más y mejor: usar programas para la detección de seguidores falsos, medir el Engagement real, y por qué no, emular programas como el de Amazon Associates, el cual mide la efectividad mediante enlaces especiales, cookies y métricas concretas. Mejor la calidad que la cantidad.
 
 *Este artículo fue publicado en la columna Geek Zone, de la revista digital Business Venezuela - BV 368 – 1era. Edición 202o.
-Tomado de **[Tendencias Digitales](https://internet-latinoamerica.blogspot.com/2020/03/funciona-el-influencer-marketing.html?utm_source=medios&utm_medium=email&utm_campaign=funciona-influencer-marketing)** 
+Tomado de **[Tendencias Digitales](https://internet-latinoamerica.blogspot.com/2020/03/funciona-el-influencer-marketing.html?utm_source=medios&utm_medium=email&utm_campaign=funciona-influencer-marketing)**
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
