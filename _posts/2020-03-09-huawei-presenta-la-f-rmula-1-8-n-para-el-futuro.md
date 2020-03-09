@@ -50,3 +50,5 @@ Para eso, la recién anunciada AppGallery se convierte la plataforma de distribu
 “Los servicios móviles de Huawei, junto con las aplicaciones disponibles en AppGallery y los servicios de terceros que se ejecutan sobre los teléfonos inteligentes de nuestra marca, forman el ecosistema de servicios móviles de Huawei para brindar a nuestros usuarios un ambiente totalmente conectado e inteligente”, finaliza David Moheno, director de relaciones públicas para Huawei Latinoamérica.
 
 Con la estrategia 1+8+N, Huawei va más allá de la estructura actual de dispositivos inteligentes, y le apunta al futuro de una conectividad inteligente, constante y sin interrupciones, para seguir ofreciendo uno de los más amplios portafolios de productos y servicios para el usuario final.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
