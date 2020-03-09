@@ -43,3 +43,5 @@ Otros resultados destacados, incluidos en la investigación publicada por Fortin
 La plataforma Fortinet Threat Intelligence Insider Latin America es una herramienta en línea gratuita que ofrece hallazgos trimestrales de amenazas del laboratorio de inteligencia de Fortinet, FortiGuard Labs, para 10 países de la región. Además de información local sobre intentos de ataques a la ciberseguridad, ofrece resúmenes ejecutivos y mejores prácticas de seguridad.
  
 Para descargar el reporte completo sobre los intentos de ataques registrados en Chile durante el cuarto trimestre de 2019, ingrese **[aquí](https://www.fortinetthreatinsiderlat.com/es/Q4-2019/CL/html/trends#trends_position)**.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
