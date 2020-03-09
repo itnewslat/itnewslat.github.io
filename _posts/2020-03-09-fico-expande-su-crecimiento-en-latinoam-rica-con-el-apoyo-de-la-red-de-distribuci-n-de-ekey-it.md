@@ -32,3 +32,5 @@ Gracias a su sólido ecosistema de canales de distribución en la región, EKEY 
 Además, gracias a su experiencia con empresas y socios estratégicos en temas de transformación tecnológica, EKEY IT ha permitido ofrecer, además de las soluciones ya existentes, un sinfín de opciones en línea con las necesidades diversas de los diferentes sectores y países de la región, lo que ha ayudado a FICO a posicionarse en mercados como Argentina, Chile, Paraguay, Uruguay, Bolivia, Ecuador, Perú, Colombia, México, etc.
 
 “Gracias a la colaboración con FICO, hemos podido ayudar a las empresas de toda la región a anticiparse y generar una ventaja competitiva ante las necesidades y requerimientos de sus clientes, en medio de esta era digital que avanza a gran velocidad. Además, gracias a la flexibilidad y adaptabilidad de la tecnología de FICO, es posible llevar soluciones a la medida a empresas de todos los sectores en toda América Latina”, comentó Hernán Calderale, presidente de EKEY IT.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
