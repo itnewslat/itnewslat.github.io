@@ -44,3 +44,5 @@ La compañía también lanzó recientemente un sofisticado servicio de búsqueda
 "Estamos encantados de fusionarnos con WatchGuard debido a la nueva escala y el acceso al portafolio de productos que brinda a los clientes y socios de Panda Security", dijo Juan Santamaría Uriarte, CEO de Panda Security. “También nos entusiasma ver que nuestra innovadora cartera de productos se entregue a través de la sólida red global de socios de WatchGuard. Juntos, esperamos construir una plataforma de seguridad que conecte la red y el perímetro del usuario, con capacidades inigualables en el mercado de ciberseguridad”.
 
 La transacción está sujeta a las condiciones de cierre habituales, incluidas las aprobaciones regulatorias, y se espera que se cierre en el segundo trimestre de 2020. WatchGuard estuvo representado en la transacción por Paul Hastings LLP y Cuatrecasas, Gonçalves Pereira LLP.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
