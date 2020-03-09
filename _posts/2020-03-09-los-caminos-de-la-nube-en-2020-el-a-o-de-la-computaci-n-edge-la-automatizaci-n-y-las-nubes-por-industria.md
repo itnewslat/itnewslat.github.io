@@ -63,4 +63,6 @@ La tecnología de código abierto está teniendo un profundo impacto en la nube 
 
 Esto significa la adopción generalizada del paradigma de entrega continua, en el cual las organizaciones adoptan la filosofía DevOps de compilaciones, pruebas e implementaciones rápidas. El modelo de entrega continua está creciendo en paralelo al mayor desarrollo de aplicaciones nativas de la nube creadas desde el principio para implementarse a través de contenedores y Kubernetes. 
 
-En resumen, con miras a futuro, las empresas tendrán una paleta creciente de opciones a su disposición para facilitar la gestión de la carga de trabajo, acelerar la implementación de aplicaciones, garantizar la máxima seguridad, explotar tecnologías aditivas como Edge y más. Sin duda, el gran y nuevo mundo de la nube de la década que se inicia ofrecerá un valor, una resiliencia y una capacidad de respuesta que solo eran concebibles en sueños hasta hace unos pocos años. 
+En resumen, con miras a futuro, las empresas tendrán una paleta creciente de opciones a su disposición para facilitar la gestión de la carga de trabajo, acelerar la implementación de aplicaciones, garantizar la máxima seguridad, explotar tecnologías aditivas como Edge y más. Sin duda, el gran y nuevo mundo de la nube de la década que se inicia ofrecerá un valor, una resiliencia y una capacidad de respuesta que solo eran concebibles en sueños hasta hace unos pocos años.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
