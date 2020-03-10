@@ -34,3 +34,5 @@ Con las nuevas tecnologías, todo está al alcance de tu voz. Tabletas como la S
 Tu hogar inteligente estará conectado a una red de Internet, y por tanto, no estará exento de posibles ataques cibernéticos. Por eso es muy importante contar con sistemas de seguridad que eviten que los cibercriminales también puedan controlar los dispositivos de IoT instalados en tu vivienda. 
 
 Debes tener en cuenta las opciones que te brinda tu proveedor o fabricante para garantizar una protección adecuada que les dé prioridad a los requisitos de seguridad necesarios. De manera fundamental, los dispositivos deben estar en sincronía con los protocolos y arquitecturas de las marcas, para evitar acciones fraudulentas. Por ejemplo, la solución basada en la nube Lenovo Connected Home Security que reduce el riesgo de acceso no autorizado a tus dispositivos conectados, monitorea tu red y te alerta si un usuario desconocido inicia sesión en ella. El servicio alerta a las personas sobre intentos de piratería en línea, así como ataques de phishing.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
