@@ -2,11 +2,22 @@
 layout: posts
 color-schema: red-dark
 date: '2020-03-14 08:56 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: Laser Airlines celebra 26 años en la industria aeronáutica nacional
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Laserp.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Laserg.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Panama
+tags:
+  - Actualidad
+week: '11'
 ---
 **La aerolínea alcanza un nuevo aniversario sirviendo la ruta de Bogotá y con una oferta enfocada en calidad, calidez y puntualidad**
 
@@ -24,3 +35,5 @@ A finales de 2019, la empresa lanzó un nuevo portal en Internet, plataforma que
 “Nuestra oferta de calidad no solo incluye nuevos destinos, como es el caso más reciente de Bogotá, sino también brindar facilidades y mejores herramientas a nuestro público. En atención a ello, para el 2020 presentaremos nuevos proyectos de fidelización y tecnología que potenciarán la interacción con nuestra aerolínea en tiempo real y en cualquier ubicación geográfica”, señaló el presidente Ejecutivo de la empresa.
 
 Destacó que Laser Airlines continúa trabajando con su gente, el país y la industria aeronáutica. “El compromiso es uno de los valores con más arraigo en nuestra cultura organizacional; por ello, fomentamos cada día las mejores prácticas para garantizar la prestación del servicio aéreo que merecen nuestros clientes”, apuntó.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
