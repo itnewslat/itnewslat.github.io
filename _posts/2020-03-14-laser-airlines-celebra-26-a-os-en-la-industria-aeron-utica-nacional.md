@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: Laser Airlines celebra 26 años en la industria aeronáutica nacional
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Laserp.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/laserp.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Laserg.jpg
 categories:
