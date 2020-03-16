@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: 'Ciberataques: una de las principales amenazas para el 2020'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciberataque-pg.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciberataque-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ciberataque-g.jpg
 categories:
