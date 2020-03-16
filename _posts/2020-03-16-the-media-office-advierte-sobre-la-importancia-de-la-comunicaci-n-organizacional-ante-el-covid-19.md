@@ -8,12 +8,7 @@ superArticle: false
 year: '2020'
 title: >-
   The Media Office advierte sobre la importancia de la comunicación
-  organizacional ante el COVID-19Las empresas e instituciones son el principal
-  motor de nuestra sociedad. En medio de una pandemia y ante la amenaza de una
-  eventual crisis sanitaria en Venezuela, las organizaciones deben apresurarse
-  en desarrollar estrategias y definir protocolos de comunicación que
-  contribuyan a proteger a sus trabajadores y colaboradores, su operatividad y
-  su reputación; señala Miguel Sogbi, CEO de The Media Office (TMO).
+  organizacional ante el COVID-19
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Coronavirus-p.jpg
 detail-image: >-
