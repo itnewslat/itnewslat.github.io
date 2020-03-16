@@ -54,8 +54,9 @@ Según una encuesta de Avast, 61% de las personas dijeron que no reciben de su e
 
   Mientras trabajan desde sus casas durante el brote, los empleados también deben estar atentos a los correos electrónicos de phishing relacionados con el coronavirus, incluyendo los correos de spear phishing. Estos pueden parecer que vienen de dentro de la empresa y pueden incluir archivos adjuntos, enlaces o una solicitud. Es importante que los usuarios verifiquen la dirección de correo electrónico del remitente o se pongan en contacto con él a través de otro canal para confirmar que el mensaje fue enviado por ellos antes de abrir cualquier archivo adjunto, enlace o acceder a una solicitud.  
 
-[1]  Encuesta en línea del primer trimestre de 2019 entre 585 usuarios de Avast en Argentina que trabajan por cuenta propia o a tiempo completo.
-2  Encuesta en línea del tercer trimestre de 2018 entre 1292 usuarios de  Avast en Argentina.
+1. Encuesta en línea del primer trimestre de 2019 entre 585 usuarios de Avast en Argentina que trabajan por cuenta propia o a tiempo completo.
+1. Encuesta en línea del tercer trimestre de 2018 entre 1292 usuarios de  Avast en Argentina.
+
 
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
