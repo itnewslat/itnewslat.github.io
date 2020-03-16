@@ -56,3 +56,5 @@ Estas reacciones demuestran que es posible una contribución responsable y signi
 Tomado de **[Blog Políticas Públicas, Telefónica](https://www.telefonica.com/es/web/public-policy/blog/articulo/-/blogs/la-necesidad-de-respuestas-empresariales-responsables-ante-el-covid-19)**
 
 Por **Raquel Carretero Juarez**
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
