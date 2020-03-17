@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2020-03-17 13:05 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: >-
   MonitorMinor: nuevo stalkerware lee apps de mensajería y desbloquea el
   dispositivo de sus victimas
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Xerox-BN-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Xerox-BN-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '12'
 ---
 **Según la telemetría de Kaspersky, México es el segundo país a nivel global con el mayor número de instalaciones de este stalkerware**
 
