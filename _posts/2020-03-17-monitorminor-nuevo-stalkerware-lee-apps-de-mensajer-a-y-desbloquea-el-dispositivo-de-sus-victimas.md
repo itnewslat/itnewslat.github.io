@@ -10,9 +10,9 @@ title: >-
   MonitorMinor: nuevo stalkerware lee apps de mensajería y desbloquea el
   dispositivo de sus victimas
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Xerox-BN-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x20/Pareja-Celular-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Xerox-BN-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Pareja-Celular-g.jpg
 categories:
   - Venezuela
   - Colombia
