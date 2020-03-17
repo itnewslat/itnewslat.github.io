@@ -54,7 +54,8 @@ En cuanto a la comunicación externa, Sogbi apunta que es clave y fundamental en
 - Ante cualquier situación, el nivel de preocupación debe ser el apropiado. 
 - Hay que dejar claro que, ante cualquier síntoma como tos seca, fiebre alta, dolor de cabeza, el trabajador debe ver a un médico. Cada organización debe promover que los trabajadores que presenten algún síntoma, se queden en sus casas. En este sentido, es recomendable reducir el temor que puedan tener los trabajadores de perder su empleo, en el caso de faltas o ausencias. 
 - Seguir las recomendaciones de salud pública que apliquen según su caso. 
-- Es importante reducir las reuniones cara a cara, si no son imprescindibles. ● Restringir los viajes de trabajo. Nacionales o internacionales. 
+- Es importante reducir las reuniones cara a cara, si no son imprescindibles. 
+- Restringir los viajes de trabajo. Nacionales o internacionales. 
 - Usar fuentes creíbles: Es clave informarse a través de personas y organizaciones serias y creíbles, para poder comunicar correctamente en la organización y para poder tomar las mejores decisiones. 
 - Darle peso a las fuentes oficiales como la Organización Mundial de la Salud (OMS). 
 - Seguir en redes sociales a medios y periodistas con reputación ganada por la trayectoria y la seriedad de sus profesionales y contenidos. 
