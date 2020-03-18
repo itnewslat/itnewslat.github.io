@@ -31,5 +31,6 @@ Estamos enfrentando el reto más importante en la historia de la aviación y de 
 
 Asimismo, para quienes necesitan seguir viajando, les recordamos que en Copa Airlines hemos reforzado nuestros procedimientos de limpieza de cabina, mostradores y todo punto de contacto entre nuestros pasajeros y agentes, siguiendo las recomendaciones de las autoridades de salud nacionales e internacionales.
 
-Para conocer más información sobre estas y otras medidas que estamos tomando en Copa Airlines para afrontar esta coyuntura, agradecemos seguir nuestras cuentas oficiales de la en redes sociales y copa.com. 
+Para conocer más información sobre estas y otras medidas que estamos tomando en Copa Airlines para afrontar esta coyuntura, agradecemos seguir nuestras cuentas oficiales de la en redes sociales y copa.com.
 
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
