@@ -39,4 +39,4 @@ Estamos juntos en esta batalla y quiero pedirles que obremos con responsabilidad
 
 **José Luis Rodríguez Zarco**
 Presidente de Movistar en Venezuela.
-
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
