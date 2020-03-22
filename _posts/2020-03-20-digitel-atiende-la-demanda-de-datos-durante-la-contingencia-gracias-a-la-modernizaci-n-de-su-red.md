@@ -28,3 +28,5 @@ El consumo, que ha experimentado un aumento de al menos un 40% en promedio, ha s
 Este año la operadora inició la siguiente fase del mejoramiento de su infraestructura, con la colocación de más de 80 estaciones de los 300 nuevos sitios que permitirán pasar de un 60% a 75% de cobertura de cuarta generación en todo el país, así como también con la modernización de 200 sitios de la infraestructura ya instalada en Centro y Centro Occidente.
 
 Digitel reafirma el compromiso con sus clientes, manteniendo el foco en su estrategia de ofrecer la mejor red de datos para acceder a contenidos y servicios donde quiera que se encuentren, más aún en estos momentos, cuando las comunicaciones resultan indispensables para todos.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
