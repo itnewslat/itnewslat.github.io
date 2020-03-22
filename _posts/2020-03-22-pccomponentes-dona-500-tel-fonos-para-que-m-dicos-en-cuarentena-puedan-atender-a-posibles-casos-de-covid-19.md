@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2020-03-22 18:44 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: >-
   PcComponentes dona 500 teléfonos para que médicos en cuarentena puedan atender
   a posibles casos de COVID-19
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Medicos-con-Celular-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Medicos-con-Celular-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Movilidad
+week: '12'
 ---
 **El ecommerce ha mostrado su preocupación e implicación en la causa para favorecer que el personal sanitario del Servicio Murciano de Salud pueda realizar consultas y seguimiento de pacientes por vía telefónica con el objetivo de evitar colapsos en el sistema sanitario**
 
@@ -23,6 +38,4 @@ Con esta iniciativa, el ecommerce pretende favorecer la atención y seguimiento 
 Además de esta medida de apoyo, y desde las primeras recomendaciones y protocolos de actuación recomendados por el Gobierno y las autoridades sanitarias, PcComponentes mantiene activo un servicio de asistencia remota gratuita para todas aquellas personas que ejercen el teletrabajo, sean clientes o no; una medida que ya suma casi un centenar de consultas hasta el momento. Entre los principales problemas técnicos registrados destacan los problemas con webcams y micrófonos, problemas de conexión a la red de trabajo de la empresa, lentitud o problemas de rendimiento en los equipos y asesoramiento sobre programas para realizar escritorio remoto y videoconferencias.
 
 Este sistema cuenta con una efectividad en solución de problemas más que satisfactorio entre los usuarios que han valorado la asistencia con una puntuación de 4,75 sobre 5. Esto se debe también a todos los recursos dedicados a este servicio remoto por parte de la compañía, lo que permite la ausencia de tiempo de espera en la selección de cita para la atención personalizada.
-
-
-
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
