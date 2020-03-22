@@ -57,4 +57,4 @@ El corona virus afectará de la misma forma que afecta una guerra a la economía
 Los gobiernos van a tomar las medidas macroeconómicas necesarias para crear un ambiente próspero en los venideros meses. Ejemplo claro de esto en la baja en las tasas de interés.
 
 Quieres más información, sigue mis redes **@gerardosandoval**
-
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
