@@ -39,3 +39,5 @@ Ante ello, Kaspersky, empresa especialista en ciberseguridad, brinda consejos pa
 - **Habla con él a diario**. Dedica diez minutos al día antes de dormir para charlar con tu hijo sobre su día, incluyendo su actividad en línea. Pídele que cuente un aspecto positivo y otro negativo que haya encontrado en línea.
 
 - Para más consejos sobre cómo proteger la experiencia en línea de los niños, visita nuestro blog: http://latam.kaspersky.com/blog
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
