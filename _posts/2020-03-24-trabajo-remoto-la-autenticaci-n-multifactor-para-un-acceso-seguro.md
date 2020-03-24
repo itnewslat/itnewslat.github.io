@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: 'Trabajo remoto: la autenticación multifactor para un acceso seguro'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-en-Casa-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-en-Casa-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Trabajo-en-Casa-g.jpg
 categories:
