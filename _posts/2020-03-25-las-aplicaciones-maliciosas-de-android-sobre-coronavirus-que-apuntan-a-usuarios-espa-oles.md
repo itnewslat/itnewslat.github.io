@@ -10,7 +10,7 @@ title: >-
   Las aplicaciones maliciosas de Android sobre Coronavirus que apuntan a
   usuarios españoles
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/Aplicacion-Coronavirus-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/Aplicacion-Coronavirus-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Aplicacion-Coronavirus-g.jpg
 categories:
