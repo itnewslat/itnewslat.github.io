@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: Samsung usa la tecnología y hace un anuncio virtual de S20
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Samsung-S20-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Samsung-s20-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Samsung-S20-g.jpg
 categories:
