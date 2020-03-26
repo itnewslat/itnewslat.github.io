@@ -2,13 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2020-03-26 18:51 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: >-
   Los CEO pueden ahorrar millones a sus compañías con gestión de calidad de sus
   soluciones tecnológicas
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Rafael-Alvarez-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Rafael-Alvarez-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Economía Digital
+week: '13'
 ---
 - La gestión de calidad de software, incluidas las vulnerabilidades confirmadas de seguridad, tienen una relevancia estratégica. Fluid Attacks entrega 3 consejos para evitar incidentes relacionados a errores de software. 
 
@@ -33,3 +48,4 @@ Las empresas deben considerar dar más atención a su propio software a nivel es
   “Para que los defectos de software y las vulnerabilidades de seguridad sean un tema clave de liderazgo, las empresas deben crear un entorno seguro en el que los equipos técnicos no duden en revelar qué está o podría estar mal. Si la gente piensa que hablar en voz alta los amenazará, estarán peligrosamente silenciados”, concluye Alvarez de Fluid Attacks. 
 
 
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
