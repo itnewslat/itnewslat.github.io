@@ -2,11 +2,20 @@
 layout: posts
 color-schema: red-dark
 date: '2020-03-30 09:29 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: Movilnet optimiza radiobases en la región andina
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Movilnet-Andina-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Movilnet-Andina-g.jpg
+categories:
+  - Venezuela
+tags:
+  - Movilidad
+week: '14'
 ---
 **Junto a la comunidad organizada se realizaron mantenimientos a equipos de telecomunicaciones en Táchira y Mérida**
 
