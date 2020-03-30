@@ -8,8 +8,7 @@ superArticle: false
 year: '2020'
 title: >-
   Trabajando como UN SOLO EQUIPO para mantener a nuestras comunidades informadas
-  y conectadas Trabajando como UN SOLO EQUIPO para mantener a nuestras
-  comunidades informadas y conectadas 
+  y conectadas 
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Rachel-Samren-p.jpg
 detail-image: >-
