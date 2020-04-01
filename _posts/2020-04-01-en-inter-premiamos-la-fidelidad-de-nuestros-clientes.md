@@ -21,7 +21,7 @@ En Inter estamos comprometidos con todos nuestros suscriptores y hoy queremos ag
 
 Al hacer el pago del monto correspondiente a su factura mensual y antes del 15 de cada mes, estarán participando por:
 
-- 1er lugar. Bs.500.000.000
+- 1er lugar. Bs.500.000.000,00
 - 2do lugar. 1 año de mensualidad gratis de todos tus servicios contratados
 
   - Se elegirá un ganador mensual para el primer lugar.
