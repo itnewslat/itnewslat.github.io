@@ -10,7 +10,7 @@ title: >-
   Los ciberdelincuentes se aprovechan del COVID-19 para propagar sus amenazas en
   marzo
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Aplicacion-Coronavirus-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/Aplicacion-Coronavirus-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Aplicacion-Coronavirus-g.jpg
 categories:
