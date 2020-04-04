@@ -43,4 +43,4 @@ Por su parte, Wingo desarrolló en tiempo récord una nueva funcionalidad para g
 
 Copa Airlines se mantiene en contacto con las autoridades de los distintos países, y hará las gestiones para lograr las aprobaciones que le permitan operar nuevos vuelos humanitarios, buscando llevar a sus pasajeros de regreso a sus hogares.
 
-<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
