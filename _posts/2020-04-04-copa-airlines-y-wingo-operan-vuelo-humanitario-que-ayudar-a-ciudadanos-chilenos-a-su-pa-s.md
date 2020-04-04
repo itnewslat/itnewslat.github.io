@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: >-
   Copa Airlines y Wingo operan vuelo humanitario que ayudará a ciudadanos
-  chilenos a su país
+  chilenos a regresar a su país
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Viaje-humanitario-p.jpg
 detail-image: >-
