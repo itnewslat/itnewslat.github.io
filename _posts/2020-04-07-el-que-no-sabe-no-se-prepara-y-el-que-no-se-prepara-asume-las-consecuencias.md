@@ -60,11 +60,8 @@ week: '15'
 <tr>
 <td><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Sergio-Saggese.jpg" alt="" width="300" height="300" /></td>
   <td><Strong>Sergio Saggese C.</Strong>
-
-Certified Business Continuity Professional (CBCP)
-
-Presidente & Co-fundador de Agnóstica, Consultoría Estratégica 
-</td>
+<td><Strong> Certified Business Continuity Professional (CBCP)</Strong></td>
+<td><Strong>Presidente & Co-fundador de Agnóstica, Consultoría Estratégica </Strong></td>
 
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
