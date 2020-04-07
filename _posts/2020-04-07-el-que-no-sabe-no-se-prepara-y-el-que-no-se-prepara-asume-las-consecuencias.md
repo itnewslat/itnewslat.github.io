@@ -58,7 +58,7 @@ week: '15'
 <table style="height: 352px;" width="622">
 <tbody>
 <tr>
-<td><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Sergio Saggese.jpg" alt="" width="300" height="300" /></td>
+<td><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Sergio-Saggese.jpg" alt="" width="300" height="300" /></td>
   <td><Strong>Sergio Saggese C.</Strong>
 
 Certified Business Continuity Professional (CBCP)
