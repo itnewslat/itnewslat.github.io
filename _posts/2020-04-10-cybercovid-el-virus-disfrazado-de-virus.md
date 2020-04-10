@@ -23,6 +23,8 @@ tags:
   - Seguridad
 week: '15'
 ---
+Por: **Juan Marino**, Regional Sales Manager - Ciberseguridad
+
 Mientras que las organizaciones responden al nuevo contexto adecuando sus capacidades para habilitar el trabajo remoto y ya muchos se sorprenden al ver que es posible mantener la productividad, surge una amenaza a la que también podemos ganarle: me refiero al “virus disfrazado de virus”. No se trata de nuevas formas de virus informático o malware, sino que estamos evidenciando formas de ataque que ya existían pero que ahora aprovechan el interés global por todo lo relacionado a COVID-19. Concretamente, correos y sitios maliciosos que prometen información relacionada con este asunto para cometer fraudes, robar información o secuestrar sistemas pidiendo rescate (ransomware). Y si #QUEDATEENCASA es una campaña efectiva para intentar controlar la propagación del virus biológico, lamentablemente no lo es para detener el virus informático. A este no lo detiene la cuarentena, ni las mascarillas y está a un click de distancia. Por eso habría que considerar tal vez una campaña adicional: #CLIQUEACONCUIDADO.
 
 Cisco Talos, la mayor organización privada de inteligencia de amenazas del mundo, “continúa viendo a los atacantes tomar ventaja de la situación de coronavirus” tal como lo expresa en su reciente artículo.
