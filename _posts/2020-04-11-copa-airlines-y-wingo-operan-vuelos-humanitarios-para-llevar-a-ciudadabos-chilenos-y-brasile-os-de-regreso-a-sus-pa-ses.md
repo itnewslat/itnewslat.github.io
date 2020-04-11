@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2020'
 title: >-
-  Copa Airlines y WINGO operan vuelos humanitarios para llevar a ciudadabos
+  Copa Airlines y WINGO operan vuelos humanitarios para llevar a ciudadanos
   chilenos y brasileños de regreso a sus países
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Viaje-humanitario-p.jpg
