@@ -59,8 +59,8 @@ Por la compra de un Matebook D15 (8GB+256GB) por COP$2.399.999, Huawei incluirá
 
 **Primeras ventas (Abril 4 a mayo 4)**
 
-Desde el 4 de abril, el Matebook D14 (8GB+512GB) tendrá un precio de COP$2.459.000, y Huawei incluirá la licencia de Office 365 para Windows por un año + una maleta para computador.
-Desde el 4 de abril, el Matebook D15 (8GB+256GB) tendrá un precio de COP$2.299.999, y Huawei incluirá la licencia de Office 365 para Windows por un año + una maleta para computador.
+Desde el 4 de abril, el Matebook D14 (8GB+512GB) tendrá un precio de COP$3.049.900 y Huawei incluirá la licencia de Office 365 para Windows por un año + una maleta para computador.
+Desde el 4 de abril, el Matebook D15 (8GB+256GB) tendrá un precio de COP$2.859.900 y Huawei incluirá la licencia de Office 365 para Windows por un año + una maleta para computador.
 
 Unidades limitadas de regalo por fase de venta. 
 
