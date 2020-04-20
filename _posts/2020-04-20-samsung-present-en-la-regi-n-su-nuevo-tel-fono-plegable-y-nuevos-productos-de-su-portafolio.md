@@ -87,6 +87,8 @@ El Asistente de voz múltiple está disponible en The Serif. Es compatible con l
 
 El Serif ofrece soporte Airplay2 que le permite reproducir contenido de dispositivos Apple fácilmente en la pantalla grande y utilizar varias características como duplicación de pantalla, transmisión de vídeo y conversión de música.
 
+**Imagenes de los equipos**
+
 <div class="list_img clearfix">
     <ul>
         	      <li><a href="https://news.samsung.com/latin/wp-content/themes/sw_newsroom/download.php?id=tRAYymB8Q9YRIFXUdxL%2Bfw%3D%3D" title="Descargar Imagen" onclick="gtag('config', 'UA-126121754-1', {'page_path':'/latin/download/008_galaxya31_black_front.jpg'});">
@@ -121,9 +123,6 @@ El Serif ofrece soporte Airplay2 que le permite reproducir contenido de disposit
         </li>
             </ul>
     </div>
-    <!-- <div>
-        ※ All images attached in the press releases published on Samsung Newsroom are also available on <a href="https://www.flickr.com/photos/samsungtomorrow/albums" target="_blank" title="New window open" class="flicker_link"> Samsung Newsroom's Flickr.</a>
-    </div> -->
 
  <div class="top_area clearfix">
                             <div class="meta">
