@@ -87,6 +87,44 @@ El Asistente de voz múltiple está disponible en The Serif. Es compatible con l
 
 El Serif ofrece soporte Airplay2 que le permite reproducir contenido de dispositivos Apple fácilmente en la pantalla grande y utilizar varias características como duplicación de pantalla, transmisión de vídeo y conversión de música.
 
+<div class="list_img clearfix">
+    <ul>
+        	      <li><a href="https://news.samsung.com/latin/wp-content/themes/sw_newsroom/download.php?id=tRAYymB8Q9YRIFXUdxL%2Bfw%3D%3D" title="Descargar Imagen" onclick="gtag('config', 'UA-126121754-1', {'page_path':'/latin/download/008_galaxya31_black_front.jpg'});">
+            <div class="img_wrap" style="background-image:url(https://img.global.news.samsung.com/latin/wp-content/uploads/2020/04/008_galaxya31_black_front-612x408.jpg);background-size:auto 100%;background-repeat:no-repeat;background-position:center;background-color:#FFFF;"></div>
+            <div class="img_name"><span>Galaxy A31</span></div>
+            </a>
+        </li>
+        	      <li><a href="https://news.samsung.com/latin/wp-content/themes/sw_newsroom/download.php?id=Akaz6iA5YsCkF8h%2FCMOEYQ%3D%3D" title="Descargar Imagen" onclick="gtag('config', 'UA-126121754-1', {'page_path':'/latin/download/SM-M115F_005_L-Perspective_Blue.png'});">
+            <div class="img_wrap" style="background-image:url(https://img.global.news.samsung.com/latin/wp-content/uploads/2020/04/SM-M115F_005_L-Perspective_Blue-612x408.png);background-size:auto 100%;background-repeat:no-repeat;background-position:center;background-color:#FFFF;"></div>
+            <div class="img_name"><span>Galaxy M11</span></div>
+            </a>
+        </li>
+        	      <li><a href="https://news.samsung.com/latin/wp-content/themes/sw_newsroom/download.php?id=y2zg2ZS260qb%2B13fRu%2BoEA%3D%3D" title="Descargar Imagen" onclick="gtag('config', 'UA-126121754-1', {'page_path':'/latin/download/galaxy-z-flip_all-color_combination2.jpg'});">
+            <div class="img_wrap" style="background-image:url(https://img.global.news.samsung.com/latin/wp-content/uploads/2020/04/galaxy-z-flip_all-color_combination2-725x408.jpg);background-size:auto 100%;background-repeat:no-repeat;background-position:center;background-color:#FFFF;"></div>
+            <div class="img_name"><span>Galaxy Z Flip</span></div>
+            </a>
+        </li>
+        	      <li><a href="https://news.samsung.com/latin/wp-content/themes/sw_newsroom/download.php?id=eE522hKEuGtsAJvCuKztkg%3D%3D" title="Descargar Imagen" onclick="gtag('config', 'UA-126121754-1', {'page_path':'/latin/download/galaxy-z-flip_mirror-purple_combination1.jpg'});">
+            <div class="img_wrap" style="background-image:url(https://img.global.news.samsung.com/latin/wp-content/uploads/2020/04/galaxy-z-flip_mirror-purple_combination1-725x408.jpg);background-size:auto 100%;background-repeat:no-repeat;background-position:center;background-color:#FFFF;"></div>
+            <div class="img_name"><span>Galaxy Z Flip</span></div>
+            </a>
+        </li>
+        	      <li><a href="https://news.samsung.com/latin/wp-content/themes/sw_newsroom/download.php?id=RyPfaubWR9nRBvYuvdK3Ng%3D%3D" title="Descargar Imagen" onclick="gtag('config', 'UA-126121754-1', {'page_path':'/latin/download/Samsung-SERIF-TV-2.jpg'});">
+            <div class="img_wrap" style="background-image:url(https://img.global.news.samsung.com/latin/wp-content/uploads/2020/04/Samsung-SERIF-TV-2-345x408.jpg);background-size:auto 100%;background-repeat:no-repeat;background-position:center;background-color:#FFFF;"></div>
+            <div class="img_name"><span>Serif TV</span></div>
+            </a>
+        </li>
+        	      <li><a href="https://news.samsung.com/latin/wp-content/themes/sw_newsroom/download.php?id=TtChP2UlhDXuIvUkQ84B4w%3D%3D" title="Descargar Imagen" onclick="gtag('config', 'UA-126121754-1', {'page_path':'/latin/download/Galaxy-Watch-Active2_01-1.jpg'});">
+            <div class="img_wrap" style="background-image:url(https://img.global.news.samsung.com/latin/wp-content/uploads/2020/04/Galaxy-Watch-Active2_01-1-816x408.jpg);background-size:auto 100%;background-repeat:no-repeat;background-position:center;background-color:#FFFF;"></div>
+            <div class="img_name"><span>Galaxy Active2</span></div>
+            </a>
+        </li>
+            </ul>
+    </div>
+    <!-- <div>
+        ※ All images attached in the press releases published on Samsung Newsroom are also available on <a href="https://www.flickr.com/photos/samsungtomorrow/albums" target="_blank" title="New window open" class="flicker_link"> Samsung Newsroom's Flickr.</a>
+    </div> -->
+
  <div class="top_area clearfix">
                             <div class="meta">
                                 <p class="hash"><span class="title">ETIQUETAS</span><a href="https://news.samsung.com/latin/tag/galaxy-a31" rel="tag">Galaxy A31</a>, <a href="https://news.samsung.com/latin/tag/galaxy-active2" rel="tag">Galaxy Active2</a>, <a href="https://news.samsung.com/latin/tag/galaxy-m11" rel="tag">Galaxy M11</a>, <a href="https://news.samsung.com/latin/tag/galaxy-z-flip" rel="tag">Galaxy Z Flip</a>, <a href="https://news.samsung.com/latin/tag/lanzamiento-digital" rel="tag">Lanzamiento Digital</a></p>
