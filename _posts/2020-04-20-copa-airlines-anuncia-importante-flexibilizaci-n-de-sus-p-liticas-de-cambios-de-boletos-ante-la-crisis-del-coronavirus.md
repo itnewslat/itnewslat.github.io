@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2020'
 title: >-
-  Copa Airlines anuncia importante flexibilización de sus póliticas de cambios
+  Copa Airlines anuncia importante flexibilización de sus políticas de cambios
   de boletos ante la crisis del coronavirus
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/CopaAirlines-p.jpg
