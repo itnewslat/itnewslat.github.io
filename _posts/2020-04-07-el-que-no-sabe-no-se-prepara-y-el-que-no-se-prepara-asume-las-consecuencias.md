@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2020-04-07 11:13 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2020'
 title: 'El que no sabe no se prepara y, el que no se prepara asume las consecuencias.'
 image: >-
