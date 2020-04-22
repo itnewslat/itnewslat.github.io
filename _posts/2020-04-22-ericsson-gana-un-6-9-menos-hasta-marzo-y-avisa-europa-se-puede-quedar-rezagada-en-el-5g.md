@@ -25,6 +25,8 @@ tags:
   - Actualidad
 week: '17'
 ---
+Tomado de [HISPANIDAD.COM](https://www.hispanidad.com/confidencial/ericsson-gana-69-marzo-avisa-europa-puede-quedar-rezagada-5g_12017929_102.html)
+
 **Pues confiábamos en ti, Ericsson. La compañía mantiene sus previsiones para el periodo 2020-2022 a pesar del coronavirus.**
 
 El beneficio neto de Ericsson hasta marzo fue de 2.156 millones de coronas suecas (197 millones de euros), un 6,9% menos que un año antes, según los resultados publicados este miércoles por la compañía.
@@ -36,3 +38,5 @@ El segundo dato es más significativo: la facturación en Norteamérica creció 
 Así las cosas, y a pesar de la incertidumbre por las consecuencias del coronavirus, la compañía mantiene sus previsiones de crecimiento para el periodo 2020-2022. Eso sí, el presidente y CEO, Börje Ekholm, alertó sobre la crisis económica en Europa: “Puede quedar rezagada en una infraestructura digital clave para el futuro”, señaló, refiriéndose al 5G.
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
+
+Tomado de [HISPANIDAD.COM](https://www.hispanidad.com/confidencial/ericsson-gana-69-marzo-avisa-europa-puede-quedar-rezagada-5g_12017929_102.html)
