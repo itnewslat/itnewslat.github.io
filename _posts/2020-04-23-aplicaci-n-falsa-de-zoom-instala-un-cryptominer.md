@@ -37,7 +37,7 @@ Ciclo de infección de Cryptomining en Zoom:
 
 El troyano utiliza el ícono Zoom y viene como un instalador compilado de Autoit.
 
-<img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/LMB.jpg" alt="" width="600" height="102" />
+<img class="alignnone" src="https://i1.wp.com/elceo.com/wp-content/uploads/2020/04/captura-de-pantalla-2020-04-22-a-las-14-12-16.png?resize=1536%2C262&ssl=1" alt="" width="600" height="102" />
  
 Tras la ejecución, deja caer un instalador legítimo de Zoom y un criptominer en los siguientes directorios:
 
