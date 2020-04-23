@@ -10,7 +10,7 @@ title: >-
   El 100% de las redes 4G son susceptibles a ataques de denegación de servicio;
   5G no es inmune
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Tecnologia-4g-5g-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Tecnologia-4g-5g-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Tecnologia-4g-5g-g.jpg
 categories:
