@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: 'Las Cambiantes Amenazas a las Redes de TI Exigen una Mayor Vigilancia '
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540/Router-Hackers-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Router-Hackers-g.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Router-Hackers-g.jpg
 categories:
