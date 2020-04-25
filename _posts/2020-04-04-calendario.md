@@ -35,6 +35,6 @@ week: '00'
 - **Semana 15** [06 al 12 de abril de 2020](https://itnews.lat/newsletters/15.html)
 - **Semana 16** [13 al 19 de abril de 2020](https://itnews.lat/newsletters/16.html)
 - **Semana 17** [20 al 26 de abril de 2020](https://itnews.lat/newsletters/17.html)
-- **Semana 18** 27 al 03 de mayo de 2020
+- **Semana 18** [27 al 03 de mayo de 2020](https://itnews.lat/newsletters/18.html)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
