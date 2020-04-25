@@ -13,12 +13,6 @@ detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Bancaribe-g.jpg
 categories:
   - Venezuela
-  - Colombia
-  - Argentina
-  - Perú
-  - Ecuador
-  - Chile
-  - Panama
 tags:
   - Actualidad
 week: '17'
