@@ -23,7 +23,7 @@ categories:
   - Panama
 tags:
   - Seguridad
-week: '18'
+week: '16'
 ---
 **Por medio de RiskRecon, una compañía de Mastercard, las organizaciones de atención médica en todo el mundo tendrán una mayor visibilidad de su huella digital, la cual será evaluada teniendo en cuenta miles de controles de ciberseguridad**
 
