@@ -56,3 +56,5 @@ El objetivo de algunas aplicaciones móviles no es ofrecer funciones interesante
 6. **La plataforma DigiCert PKI proporciona una solución en su clase para proteger dispositivos móviles utilizando credenciales de certificado digital**. Con soporte interno para dispositivos móviles y una amplia variedad de asociaciones con socios líderes de Enterprise Device Management, como MobileIron, AirWatch, Fiberlink y Zenprise; La plataforma DigiCert PKI proporciona una solución óptima para administrar la seguridad del contenido en dispositivos móviles.
  
 "A medida que estos dispositivos continúan evolucionando y reflejan o incluso reemplazan la funcionalidad en las computadoras de escritorio, las empresas confiarán en la plataforma PKI DigiCert para proporcionar las credenciales de seguridad necesarias para garantizar que estos dispositivos sean confiables, sus datos estén protegidos y el dispositivo esté disponible para su uso por su usuario legítimo", concluyó Dean Coclin.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
