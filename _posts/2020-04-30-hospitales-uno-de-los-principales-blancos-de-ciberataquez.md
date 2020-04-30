@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2020'
-title: 'Hospitales: uno de los principales blancos de ciberataquez'
+title: 'Hospitales: uno de los principales blancos de ciberataques'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Hospitales-p.jpg
 detail-image: >-
