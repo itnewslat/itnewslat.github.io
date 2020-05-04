@@ -14,13 +14,7 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ecommerce-Bogota-g.jpg
 categories:
-  - Venezuela
   - Colombia
-  - Argentina
-  - Perú
-  - Ecuador
-  - Chile
-  - Panama
 tags:
   - Economía Digital
 week: '19'
