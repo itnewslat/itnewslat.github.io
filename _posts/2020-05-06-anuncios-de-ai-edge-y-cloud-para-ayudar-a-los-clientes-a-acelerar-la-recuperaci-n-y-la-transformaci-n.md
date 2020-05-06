@@ -24,6 +24,8 @@ categories:
 tags:
   - Transformación Digital
 week: '19'
+image-banner: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Arvind-Krishna-l.jpg
 ---
 - Conferencia del CEO de IBM Arvind Krishna durante el IBM Think Digital 2020: Anuncios de AI, Edge y Cloud para ayudar a los clientes a acelerar la recuperación y la transformación
 -  Más de 90.000 asistentes se unen a la experiencia del evento Think Digital de IBM
