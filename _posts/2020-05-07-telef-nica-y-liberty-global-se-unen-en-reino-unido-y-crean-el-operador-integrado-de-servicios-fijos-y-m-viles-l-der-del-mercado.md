@@ -43,8 +43,10 @@ Telefónica y Liberty Global se asegurarán de que la JV se beneficie de la esca
 
 A continuación, se detalla, por separado, la información financiera de Virgin Media y O2 correspondiente al período de 12 meses finalizado a fecha 31 de diciembre de 2019.
 
-<img class="Centre" src="https://www.telefonica.com/documents/23283/0/tabla-es.png/01ebc3f2-b366-9751-2d86-fc818abdfabb?t=1588827118586" alt="" width="700" height="438" />
- 
+<center>
+<img src="https://www.telefonica.com/documents/23283/0/tabla-es.png/01ebc3f2-b366-9751-2d86-fc818abdfabb?t=1588827118586" alt="" width="700" height="438" />
+</center>
+
 La JV tiene la intención de distribuir, periódicamente, el efectivo disponible a sus socios, así como realizar nuevas recapitalizaciones, también de manera periódica, sujetas a condiciones operativas y de mercado, para mantener su ratio de apalancamiento neto dentro del referido objetivo de 4,0x-5,0x8. En el periodo de tiempo entre la firma del acuerdo y el cierre de la operación, las partes retendrán el flujo de caja libre generado por sus respectivos negocios. Liberty Global transferirá a la JV las desgravaciones y pérdidas fiscales pendientes de amortizar en Reino Unido, derivadas principalmente de inversiones previas en infraestructuras y que podrán ser aprovechadas por la JV tras el cierre de la operación. Cada parte financiará el déficit en sus respectivos planes de pensiones de prestaciones definidas, derivado de la próxima valoración trienal.
 
 Ni Telefónica, ni Liberty Global consolidarán los resultados de la JV en sus respectivas cuentas tras el cierre de la operación.
