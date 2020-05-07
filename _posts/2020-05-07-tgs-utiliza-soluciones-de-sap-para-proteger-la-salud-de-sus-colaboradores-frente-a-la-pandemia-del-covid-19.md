@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2020-05-07 11:27 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2020'
