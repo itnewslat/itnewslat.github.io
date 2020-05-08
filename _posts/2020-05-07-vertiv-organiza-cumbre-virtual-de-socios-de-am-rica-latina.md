@@ -27,7 +27,8 @@ week: '19'
 
 Vertiv (NYSE: VRT), un proveedor global de infraestructura digital crítica y soluciones de continuidad, celebró la segunda Cumbre de Socios de América Latina utilizando un formato digital para llegar a los participantes, que representan a 15 países de la región. El evento de dos días de duración, cuyo tema era "Impulsando el crecimiento del canal", se centró en las estrategias para impulsar los negocios, las tecnologías Vertiv y el anuncio de los socios de la región que tuvieron un mejor desempeño.
 
-“Hoy más que nunca, como arquitectos de la continuidad, queremos brindarles soluciones y servicios innovadores a nuestros socios para que respondan a los desafíos de seguridad, conectividad y continuidad de los negocios”, dijo Ricardo Duque, vicepresidente de estrategias de canales para Vertiv en las Américas. “Así mismo, estamos ayudando a los socios del canal para que capturen las oportunidades que representan el Edge (borde de la red) y la tecnología 5G”.
+“Hoy más que nunca, como arquitectos de la continuidad, queremos brindarles soluciones y servicios innovadores a nuestros socios para que respondan a los desafíos de seguridad, conectividad y continuidad de los negocios”, dijo Ricardo Duque, vicepresidente de estrategias de canales para Vertiv en las Américas. “Así mismo, estamos ayudando a los socios del canal 
+para que capturen las oportunidades que representan el Edge (borde de la red) y la tecnología 5G”.
 
 Según Duque, el edge no es una revolución, sino una evolución. Se encuentra donde está cada uno de los clientes y es distinto para cada negocio. Esto significa que cada implementación perimetral tiene sus propios requisitos. Vertiv puede ayudar a sus socios a encontrar dónde está el ‘borde’ para cada cliente y ayudar a habilitar soluciones críticas de infraestructura para que las empresas sigan a la vanguardia de las nuevas tecnologías.
 
@@ -35,10 +36,9 @@ Vertiv ofrece a sus socios del canal soluciones como Vertiv™ SmartCabinet™, 
 
 One, Partner Marketing Automation Tool y Product Selector, para posibilitar el ecommerce, y el Digital Mastery para ayudar a los socios de canal a iniciar la ruta digital de su negocio.
 
-La Cumbre de Socios fue el marco propicio para dar a conocer a los socios de América Latina que tuvieron el mayor rendimiento durante 2019.  Las empresas ganadoras fueron seleccionadas por su determinación de promover las aplicaciones vitales del mundo digital y de apoyar los mercados actuales de computación de vanguardia, de móviles y de la nube con las soluciones Vertiv de infraestructura de TI. Estos son los mejores socios en seis categorías:
+La Cumbre de Socios fue el marco propicio para dar a conocer a los socios de América Latina que tuvieron el mayor rendimiento durante 2019.  Las empresas ganadoras fueron seleccionadas por su determinación de promover las aplicaciones vitales del mundo digital y de apoyar los mercados actuales de computación de vanguardia, de móviles y de la nube con las soluciones Vertiv de infraestructura de TI. Estos son los mejores socios en cinco categorías:
 
 - **Business Growth Award** (Crecimiento empresarial): Zeittec, Brasil       
-- **Rising Star Award** (Compañía emergente): Powertec, Chile
 - **Strategic Project Award** (Proyecto estratégico): Q2 Group SA, Argentina
 - **Best EDGE Solution Award** (Solución en el borde de la red): AM&M SA de CV, México
 - **Communitiy Award** (Premio de la comunidad): WDC Networks, Brasil
