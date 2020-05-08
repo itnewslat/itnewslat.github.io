@@ -32,9 +32,9 @@ Esta amenaza, que estuvo activa desde mediados del 2019, comprometió el funcion
 
 Durante los trabajos de análisis de amenazas en la región, el Laboratorio de Investigaciones de ESET Latinoamérica identificó una serie de dominios codificados en diversas muestras relacionadas a esta campaña, que pudieron ser registrados. Con el objetivo de entender el alcance de la amenaza y el volumen de conexiones generadas por la misma, de la información recolectada se pudo determinar que unas 35.000 direcciones IP únicas contactaban al servidor malicioso.
 
-<center>
-<div class='img'><img class="alignnone" src="https://www.eset.com/fileadmin/ESET/LATAM/Prensa/Gr%C3%A1fico_VictoryGate.png" alt="" width="650" height="280" /><span>Pie de imagen. El número máximo de direcciones IP únicas que se conectan al servidor de comando y control de la botnet por día</span></div>
-</center>
+<figure>
+<img class="alignnone" src="https://www.eset.com/fileadmin/ESET/LATAM/Prensa/Gr%C3%A1fico_VictoryGate.png" alt="" width="650" height="280" /> <figcaption>Pie de imagen. El número máximo de direcciones IP únicas que se conectan al servidor de comando y control de la botnet por día.</figcaption>
+</figure>
 
 “VictoryGate”, fue una campaña masiva de malware que tenía como objetivo minar criptomonedas en los equipos infectados. Por las características encontradas en el código malicioso, se pudo determinar que su propagación se daba a través de dispositivos de almacenamiento extraíbles USB. Este factor explica, en gran medida, que se haya registrado el mayor número de equipos comprometidos dentro de un mismo país.
 
