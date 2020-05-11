@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: 'Covid-19 impulsa los E-commerce, aumentando las ventas online en un 28%  '
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/compras-mobiles-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/compras-mobiles-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/compras-mobiles-g.jpg
 categories:
