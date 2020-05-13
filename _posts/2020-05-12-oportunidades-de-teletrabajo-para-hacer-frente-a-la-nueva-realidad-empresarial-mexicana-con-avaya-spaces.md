@@ -10,9 +10,9 @@ title: >-
   Oportunidades de Teletrabajo Para Hacer Frente a la Nueva Realidad Empresarial
   Mexicana con Avaya Spaces
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kaspersky-Teletrabajo-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Avaya-Teletrabajo-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Kaspersky-Teletrabajo-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Avaya-Teletrabajo-g.jpg
 categories:
   - Venezuela
   - Colombia
