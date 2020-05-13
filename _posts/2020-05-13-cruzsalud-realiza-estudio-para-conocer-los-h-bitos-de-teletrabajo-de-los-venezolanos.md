@@ -45,25 +45,38 @@ De acuerdo a las apreciaciones del Dr. Jorge Rojas, Director Médico de Cruzsalu
 - **Privacidad**: Anónimo
 - **Tipo:** Cerrada y multivariable
 - **Margen de error**: 3%
-
+<center>
+::::::::::::::::::::::
+</center>
 <center>
 <div class='img'><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Grafico-1.jpg" alt="" width="600" height="600" /></div>
+</center>
+<center>
+::::::::::::::::::::::
 </center>
 
 <center>
 <div class='img'><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Grafico-2.jpg" alt="" width="600" height="600" /></div>
 </center>
-
+<center>
+::::::::::::::::::::::
+</center>
 <center>
 <div class='img'><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Grafico-3.jpg" alt="" width="600" height="600" /></div>
 </center>
-
+<center>
+::::::::::::::::::::::
+</center>
 <center>
 <div class='img'><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Grafico-4.jpg" alt="" width="600" height="600" /></div>
 </center>
-
+<center>
+::::::::::::::::::::::
+</center>
 <center>
 <div class='img'><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Grafico-5.jpg" alt="" width="600" height="600" /></div>
 </center>
-
+<center>
+::::::::::::::::::::::
+</center>
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
