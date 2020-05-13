@@ -2,13 +2,22 @@
 layout: posts
 color-schema: red-dark
 date: '2020-05-13 16:29 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: >-
   Cruzsalud realiza estudio para conocer los hábitos de teletrabajo de los
   Venezolanos
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Estudio-Cruzsalud-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Estudio-Cruzsalud-g.jpg
+categories:
+  - Venezuela
+tags:
+  - Economía Digital
+week: '20'
 ---
 **Cruzsalud, empresa con 15 años de trayectoria en salud ocupacional, realizó un estudio para conocer cómo los trabajadores venezolanos se adaptan al trabajo a distancia, o teletrabajo.**
 
