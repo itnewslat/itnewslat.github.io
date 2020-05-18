@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2020-05-18 12:19 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: Tecnología HPE para hacer frente a los desafíos de COVID-19
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/examen-analisis-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/examen-analisis-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '21'
 ---
 Para Hewlett Packard Enterprise, la salud y seguridad de sus socios de negocio y clientes son la máxima prioridad y responsabilidad.
 
