@@ -12,7 +12,7 @@ image: >-
   CIO-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ejecutivo
-  CIO-p.jpg
+  CIO-g.jpg
 categories:
   - Venezuela
   - Colombia
