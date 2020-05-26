@@ -3,8 +3,8 @@ layout: posts
 color-schema: red-dark
 date: '2020-05-26 18:50 -0400'
 published: true
-superNews: false
-superArticle: true
+superNews: true
+superArticle: false
 year: '2020'
 title: La novedosa serie de TV Lifestyle de Samsung se reinventa
 image: >-
