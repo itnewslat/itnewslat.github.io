@@ -1,0 +1,52 @@
+---
+layout: posts
+color-schema: red-dark
+date: '2020-06-08 08:20 -0400'
+published: true
+superNews: false
+superArticle: false
+year: '2020'
+title: '7 Consideraciones Actuales para Monitorear el Borde de su Red '
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Monitoreo-de-Red-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Monitoreo-de-Red-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '24'
+---
+Por: **Mo Sheikh, Gerente de ofertas de Vertiv para unidades de distribución de energía para racks (rPDU).**
+ 
+Utilizar las soluciones adecuadas de continuidad digital para gestionar los sitios en el borde es más importante que nunca.
+
+El Internet de alta velocidad, la conexión inalámbrica generalizada y el impulso de las compañías para expandir y digitalizar sus negocios han ayudado a fomentar el crecimiento de los sitios en el borde de la red. Las empresas y los servicios públicos han establecido sucursales y oficinas remotas, armarios de TI y torres celulares y de radio para soportar los negocios y los consumidores conectados en todo momento y lugar.
+
+Debido a la reciente disrupción en la industria, los empleados han intercambiado los viajes diarios ida y vuelta y el trabajo de oficina por el trabajo desde su hogar. Las empresas se han esforzado por evolucionar sus negocios en tiempo real, al abordar el uso emergente de las conexiones de la red privada virtual (VPN), los aumentos de servicios en la nube (impulsados en parte a través de videoconferencias y herramientas de colaboración en línea), los riesgos de seguridad y el incremento en las llamadas de asistencia técnica para el soporte de hardware y software. Del mismo modo, los proveedores de Internet han requerido escalar el soporte para los servicios de conectividad residencial, ya que la mayor parte del trabajo en el mundo no está sucediendo desde la oficina de la esquina sino desde la oficina del hogar.
+
+Además, los centros de datos se han vuelto portátiles. Responder a mayores necesidades de los negocios y clientes ha añadido una presión adicional a las empresas tales como los proveedores de telecomunicaciones y entretenimiento, hospitales y firmas de servicios financieros, que requieren una latencia ultrabaja para los procesos críticos. Estas empresas están levantando centros de datos pequeños en contenedores afuera de los edificios principales o en otras ubicaciones de alta demanda. Los sitios en el borde aseguran una conectividad continua, al respaldar los requisitos comerciales y ofrecer una mejor experiencia del cliente.
+ 
+**El nuevo saber sobre la gestión de los sitios en el borde**
+
+Entonces, ¿qué hay de nuevo en cuanto a la gestión de los sitios en el borde que las empresas, los servicios públicos, los proveedores de Internet y las otras firman necesitan tener presente mientras sortean esta temporada y más allá de esta?
+
+1.     **El trabajo remoto llegó para quedarse**. Una encuesta reciente de Gartner reveló que casi la mitad de todas las organizaciones ha trasladado el 81% o más de sus empleados a un modelo de trabajo remoto. Algunos probablemente nunca regresen, debido a que los directores financieros han aprovechado el trabajo remoto para controlar los costos, potenciar la productividad de la fuerza laboral y responder a las necesidades del talento para ofrecer estilos de trabajo más flexibles. Esto significa que los proveedores de telecomunicaciones necesitan continuar la expansión y evolución de sus capacidades en el borde de la red para respaldar a estas personas que trabajan en su hogar.
+2.     **Los sitios en el borde mantienen la productividad de sus empleados**. En las sedes centrales y otras oficinas, las compañías han desarrollado redes para ofrecer la redundancia tan necesaria para mejorar la recuperación ante los desastres. A medida que las oficinas y los centros de datos se vacían y se mantienen con un personal reducido, las empresas tienen un mayor riesgo de sufrir desconexiones de VPN y cortes eléctricos en la infraestructura. Si estos ocurren, literalmente casi toda la fuerza laboral podría quedar fuera de línea. Asimismo, si las personas que trabajan en su hogar tienen problemas con la conexión inalámbrica, es posible que no puedan conectarse con los sistemas de la compañía. Las empresas, los servicios públicos y los proveedores de telecomunicaciones del mundo tienen una responsabilidad compartida de mantener los negocios en funcionamiento. Los sitios en el borde pueden ofrecer la conectividad requerida para que los negocios y trabajadores mantengan la productividad. respaldar a estas personas que trabajan en su hogar. 
+3.     **Los sitios en el borde podrían no ofrecer acceso físico**. Hemos escuchado de algunos de nuestros clientes que el acceso a los centros de datos de coubicaciones ya no está garantizado. Del mismo modo, los sitios en el borde pueden cerrar el acceso a personal no incluido en la planilla o trasladarse al modelo de gestión remota para proteger la salud de los empleados, salvaguardar la integridad física y ambiental del equipo y permitir que el talento se centre en otras labores. El software de gestión centralizada y las soluciones de gestión y monitoreo remoto literalmente pueden dejar los sitios “desactivados”, al operar de manera independiente sin luces o personal. Las compañías que aún no han dotado los sitios en el borde con estas capacidades probablemente querrán actuar con rapidez para hacerlo y así asegurar la continuidad de sus operaciones.
+4.     **Los sitios en el borde seguirán en aumento**. Las presiones actuales de la industria y el aumento del teletrabajo están chocando con las necesidades globales de los negocios como la digitalización. Esto está sucediendo actualmente con el crecimiento en puntos finales corporativos y personales, que van desde el equipo conectado por sensor, utilizado en las implementaciones del Internet de las Cosas (IoT) para aumentar el uso de los servicios en la nube y las aplicaciones empresariales. Toda esta transformación digital se traduce en mayores necesidades empresariales e individuales del consumidor para lograr una conectividad ultrapredecible y ultrarápida. Un ejemplo sencillo: piense en un director ejecutivo que ahora se encuentra administrando un negocio global desde su hogar y utiliza múltiples dispositivos para gestionar un negocio en constante cambio y una fuerza laboral descentralizada. Cualquier corte eléctrico de cualquier duración podría comprometer su capacidad para tomar decisiones y ejecutarlas.
+5.     **Los sitios en el borde necesitan evolucionar en busca de una funcionalidad adicional y una mejor capacidad de servicio**. Antes de 2020, muchos sitios en el borde desempeñaban una función de apoyo. Eran valiosos, pero no siempre se consideraban de misión crítica. Ahora, son parte importante de la resiliencia operativa y de los planes de crecimiento futuros de las compañías. Las empresas, sobre todo los proveedores de telecomunicaciones, necesitan asegurarse de que los sitios en el borde tengan una funcionalidad inteligente para detectar todos los intentos de acceso al sitio o a su equipo, al proporcionar un suministro ininterrumpido de energía y un enfriamiento para los activos críticos, distribuir la energía eléctrica entre los equipos, reiniciar el equipo correctamente cuando sea necesario, brindar detección de humedad y fugas en el sitio y monitorear el estado general del equipo, entre otros requisitos. La detección temprana de problemas puede ayudar al personal a avanzar de manera proactiva para enfrentar los desafíos, como cambiar a la alimentación con batería, enviar técnicos para realizar reparaciones proactivas o trasladar el tráfico a otro sitio mientras se reemplaza el equipo. Además, el equipo basado en rack contribuye a configurar los sitios para ofrecer un mantenimiento eficiente y una gestión continua en más sitios con un uso intensivo de tecnología.
+6.     **Los servicios de monitoreo remoto mantienen los sitios en el borde en funcionamiento**. El personal de TI utiliza un panel único para monitorear todos los sitios de forma remota desde la comodidad y seguridad de sus hogares. Mientras que las compañías internacionales tienen acceso a un software de gestión centralizada robusto, las pequeñas empresas pueden no necesitar dicha funcionalidad integral. Estas compañías pueden acceder a una herramienta para la gestión y el monitoreo remoto en línea de todos los dispositivos en el borde, al poner estas capacidades al alcance y dentro del presupuesto.
+7.     **Las nuevas herramientas son necesarias para dar sentido a los datos**. Con el aumento de los sitios en el borde y los puntos finales, los equipos de TI serán bombardeados con alertas y alarmas. Las herramientas de gestión de TI pueden emplear los protocolos predefinidos para automatizar los correos electrónicos para el personal clave, escalonar los incidentes para una resolución priorizada y crear un flujo de trabajo digital de principio a fin, que permita que los equipos de TI puedan trabajar de forma más efectiva.
+
+Mientras que las presiones actuales de la industria están aumentando la tensión en los costos, también ofrecen una oportunidad para replantear el negocio en un mundo de trabajo remoto, picos de demanda impredecibles, conectividad generalizada y operaciones inteligentes. Vertiv puede ayudarle a definir estrategias sobre cómo configurar sus sitios en el borde para garantizarle el éxito, fortalecer su continuidad empresarial y recuperación ante desastres con el equipo adecuado y utilizar nuevas herramientas para incrementar la visibilidad, el control y la respuesta proactiva. Además, estamos preparados para soportar sus operaciones críticas para el negocio con servicios de monitoreo remoto continuos, en caso de que necesite reubicar al personal de TI en otras laborales esenciales.
+
+Si requiere asesoramiento estratégico, soluciones técnicas para los sitios en el borde o servicios continuos, por favor comuníquese con su representante de Vertiv.
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
