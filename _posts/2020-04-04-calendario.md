@@ -45,5 +45,6 @@ week: '00'
 
 ### JUNIO
 - **Semana 23** [01 al 07 de junio de 2020](https://itnews.lat/newsletters/23.html)
+- **Semana 24** [08 al 14 de junio de 2020](https://itnews.lat/newsletters/24.html)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
