@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2020-06-05 10:22 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: Tres ideas para reinventar tu call center en tiempos de crisis
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/call-center-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/call-center-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Transformación Digital
+week: '24'
 ---
 Por: **Thais Marca, Gerente General de IBM Services en América Latina**
 
@@ -38,9 +53,8 @@ Una encuesta realizada por un banco descubrió que la satisfacción del cliente 
   - Optimice el trabajo remoto con una combinación más equilibrada de empleados externos y centrales.
   - Analice los comentarios fuera del período de crisis para reevaluar el diseño, el uso y el rendimiento a diferentes valores normales.
 
-
 Algunos ejemplos recientes en América Latina muestran el enfoque de los gobiernos y las empresas para proporcionar una buena experiencia a los ciudadanos, empleados y clientes. El gobierno colombiano acaba de lanzar un asistente virtual para proporcionar respuestas a las preguntas de los ciudadanos sobre COVID-19. Con el uso de la IA y el procesamiento del lenguaje natural, las personas pueden comprender y responder preguntas frecuentes sobre la enfermedad, tales como: "¿Cuáles son los síntomas?", "¿Cómo limpio mi casa correctamente?" o "¿Cómo me protejo?". La compañía chilena Codelco, el mayor productor de cobre del mundo, ha implementado un asistente virtual, que actúa como un cribado inteligente para ayudar a su fuerza laboral en la investigación de salud relacionada con el coronavirus, con el objetivo de ayudar a controlar la salud. de los empleados.
 
 Para muchas empresas, la pandemia de COVID-19 está ocurriendo en medio de una transformación tecnológica de asistentes virtuales impulsados por inteligencia artificial (IA). Para estas organizaciones, los agentes virtuales están revolucionando sus centros de contacto, apoyando la escalabilidad y permitiendo que los empleados puedan dedicarse a trabajos más complejos y estratégicos. Pero muchas otras compañías aún no han comenzado. Así, ya sea que estas estén en medio de una transformación o todavía atravesando los primeros pasos de su  viaje de IA, las organizaciones tienen que adaptarse para satisfacer la demanda lo más rápido posible.
 
-
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
