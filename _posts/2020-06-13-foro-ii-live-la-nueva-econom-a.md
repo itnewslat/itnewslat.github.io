@@ -28,7 +28,7 @@ Asitencia de altos ejecutivos
 El pasado martes se llevó a cabo la segunda edición de los LIVE auspiciado por ITNEWS LAT, con la participación como moderador del evento, el reconocido comunicador en tecnología, **Edgar Rincón**. Estos eventos estan diseñados para recoger la opinión de los ejecutivos y líderes del mercado en una sesión de 50 minutos todos los martes a las 4:00 pm (Hora del Este).
 
 <center>
-<div class='img'><img class="alignnone" src="https://pbs.twimg.com/media/EaF1kQPWoAEizIO?format=jpg&name=large" alt="" width="500" height="618" /></div>
+<div class='img'><img class="alignnone" src="https://pbs.twimg.com/media/EaF1kQPWoAEizIO?format=jpg&name=large" alt="" width="243" height="300" /></div>
 </center>
 
 Para acceder estos eventos los interesados solo deben estar siguiendo la cuenta @ITNEWSLAT en Instagram y conectarse a la esa hora. Los live quedarán residentes en la cuenta en la seccion de IGTV, No hay liitaciones de preguntas a los invitados.
