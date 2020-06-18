@@ -29,13 +29,14 @@ Todos los martes se lleva a cabo la edición de los LIVE auspiciado por ITNEWS L
 
 Para acceder estos eventos los interesados solo deben estar siguiendo la cuenta **@ITNEWSLAT** en Instagram y conectarse a la esa hora. Los live quedarán residentes en la cuenta en la seccion de IGTV, No hay liitaciones de preguntas a los invitados
 
+Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma, 
 
 <table style="height: 250px; width: 609px;" width="609">
 <tbody>
 <tr>
 <td style="text-align: center;"><a href="https://itnews.lat/live-la-tecnolog-a-en-las-empresas-post-covid.html"><img class="alignleft size-full wp-image-68325" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/LIVE_MiguelLara-e1592507741574.jpg" alt="LIVE_MiguelLara" width="200" height="250" /></a></td>
 <td style="text-align: center;"><a href="https://itnews.lat/foro-ii-live-la-nueva-econom-a.html"><img class="alignleft size-full wp-image-68324" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Henkel-García-4_3-e1592507714843.jpg" alt="Henkel García 4_3" width="200" height="250" /></a></td>
-<td style="text-align: center;"><a href="https://itnews.lat/hablemos-de-customer-experience.html"><a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/José-Luis-Gascón4_3-e1592508052745.jpg"><img class="alignleft size-full wp-image-68326" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/José-Luis-Gascón4_3-e1592508052745.jpg" alt="José Luis Gascón4_3" width="200" height="250" /></a></td>
+<td style="text-align: center;"><a href="https://itnews.lat/hablemos-de-customer-experience.html"><img class="alignleft size-full wp-image-68326" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/José-Luis-Gascón4_3-e1592508052745.jpg" alt="José Luis Gascón4_3" width="200" height="250" /></a></td>
 </tr>
 <tr>
 <td></td>
