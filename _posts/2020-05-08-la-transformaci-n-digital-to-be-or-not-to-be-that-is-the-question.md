@@ -10,7 +10,7 @@ title: 'La Transformación Digital, “to be, or not to be, that is the question
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Transformacion-Digital-manos-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Transformacion-Digital-manos-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Instagram-live.jpg
 categories:
   - Venezuela
   - Colombia
