@@ -59,6 +59,7 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 
 El evento cuenta con el patrocinio de empresas como :
 
-**Bit Consulting Ve**, Nuestra Mente en sus Negocios, firma especializada en consultoría y soluciones tecnológicas, (Instagram / Twitter: @BitConsultingVE)
-**GALANET**, SU ALIADO EN INTERNET No busques más. Galanet es tu solución, quién aporto la infraestructura tecnológica que permitió la transmisión de alta calidad del evento
+- **Bit Consulting Ve**, Nuestra Mente en sus Negocios, firma especializada en consultoría y soluciones tecnológicas, (Instagram / Twitter: @BitConsultingVE)
+- **GALANET**, SU ALIADO EN INTERNET No busques más. Galanet es tu solución, quién aporto la infraestructura tecnológica que permitió la transmisión de alta calidad del evento
+
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
