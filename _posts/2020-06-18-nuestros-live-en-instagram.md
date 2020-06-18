@@ -10,6 +10,10 @@ title: Nuestros "LIVE" en Instagram
 ---
 **Una cita, una reunión entre amigos**
 
+Todos los martes se lleva a cabo la edición de los LIVE auspiciado por ITNEWS LAT, con la participación como moderador del evento, el reconocido comunicador en tecnología, **Edgar Rincón**. Estos eventos estan diseñados para recoger la opinión de los ejecutivos y líderes del mercado en una sesión de 50 minutos todos los martes a las 4:00 pm (Hora del Este).
+
+Para acceder estos eventos los interesados solo deben estar siguiendo la cuenta **@ITNEWSLAT** en Instagram y conectarse a la esa hora. Los live quedarán residentes en la cuenta en la seccion de IGTV, No hay liitaciones de preguntas a los invitados
+
 
 <table style="height: 250px; width: 609px;" width="609">
 <tbody>
