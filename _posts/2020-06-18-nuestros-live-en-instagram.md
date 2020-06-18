@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2020-06-18 15:43 -0400'
-published: false
+published: true
 superNews: false
-superArticle: false
-year: '2018'
+superArticle: true
+year: '2020'
 title: Nuestros "LIVE" en Instagram
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Instagram-live-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Instagram-live-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Actualidad
+week: '25'
 ---
 **Una cita, una reunión entre amigos**
 
@@ -39,3 +54,4 @@ Para acceder estos eventos los interesados solo deben estar siguiendo la cuenta 
 </tr>
 </tbody>
 </table>
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
