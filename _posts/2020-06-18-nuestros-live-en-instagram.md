@@ -8,7 +8,7 @@ superArticle: true
 year: '2020'
 title: Nuestros "LIVE" en Instagram
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Instagram-live-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Instagram-live.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Instagram-live-g.jpg
 categories:
