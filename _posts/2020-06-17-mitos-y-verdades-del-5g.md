@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: Mitos y verdades del 5G
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/54x320/Mitos-5G-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Mitos-5G-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Mitos-5G-g.jpg
 categories:
