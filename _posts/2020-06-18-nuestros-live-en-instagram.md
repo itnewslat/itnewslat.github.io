@@ -30,7 +30,7 @@ Todos los martes se lleva a cabo la edición de los LIVE auspiciado por ITNEWS L
 Para acceder estos eventos los interesados solo deben estar siguiendo la cuenta **@ITNEWSLAT** en Instagram y conectarse a la esa hora. Los live quedarán residentes en la cuenta en la seccion de IGTV, No hay liitaciones de preguntas a los invitados
 
 Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma, 
-
+<center>
 <table style="height: 250px; width: 609px;" width="609">
 <tbody>
 <tr>
@@ -55,4 +55,5 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 </tr>
 </tbody>
 </table>
+</center>
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
