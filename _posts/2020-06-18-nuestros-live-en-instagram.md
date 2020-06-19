@@ -39,7 +39,7 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 <td style="text-align: center;"><a href="https://itnews.lat/hablemos-de-customer-experience.html"><img class="alignleft size-full wp-image-68326" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/José-Luis-Gascón4_3-e1592508052745.jpg" alt="José Luis Gascón4_3" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td></td>
+<td> <a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Mariadela_Larrazabal_4_3-e1592571945107.jpg"><img class="alignleft size-full wp-image-68329" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Mariadela_Larrazabal_4_3-e1592571945107.jpg" alt="Mariadela_Larrazabal_4_3" width="200" height="250" /></a></td>
 <td></td>
 <td></td>
 </tr>
