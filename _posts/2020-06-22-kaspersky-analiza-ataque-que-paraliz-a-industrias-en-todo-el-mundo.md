@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: Kaspersky analiza ataque que paralizó a industrias en todo el mundo
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320Ataque-DDOS-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-DDOS-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-DDOS-g.jpg
 categories:
