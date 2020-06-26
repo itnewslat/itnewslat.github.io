@@ -8,9 +8,9 @@ superArticle: false
 year: '2020'
 title: Los cuatro mitos de la inseguridad informática
 image: >-
-  https://github.com/itnewslat/assets/blob/master/img/540x320/Milton-Quiroga-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Milton-Quiroga-p.jpg
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/Milton-Quiroga-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Milton-Quiroga-g.jpg
 tags:
   - Seguridad
 categories:
