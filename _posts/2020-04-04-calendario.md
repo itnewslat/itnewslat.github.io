@@ -48,5 +48,12 @@ week: '00'
 - **Semana 24** [08 al 14 de junio de 2020](https://itnews.lat/newsletters/24.html)
 - **Semana 25** [15 al 21 de junio de 2020](https://itnews.lat/newsletters/25.html)
 - **Semana 26** [22 al 28 de junio de 2020](https://itnews.lat/newsletters/26.html)
+- **Semana 27** [29 al 05 de julio de 2020](https://itnews.lat/newsletters/27.html)
+
+### JULIO
+- **Semana 28** [06 al 12 de julio de 2020](https://itnews.lat/newsletters/28.html)
+- **Semana 29** [13 al 19 de julio de 2020](https://itnews.lat/newsletters/29.html)
+- **Semana 30** [20 al 26 de julio de 2020](https://itnews.lat/newsletters/30.html)
+- **Semana 31** [27 al 02 de junio de 2020](https://itnews.lat/newsletters/31.html)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
