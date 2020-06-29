@@ -35,9 +35,8 @@ Los puntos que BCG toma en cuenta para evaluar el desempeño de las compañías 
 4.	**Creación de valor**. Toma en cuenta el TSR (Total Shareholder Retur o Total Shareholder Retur), que incluye recompras de acciones desde enero de 2017 hasta diciembre de 2019, un promedio de tres años.
 
 <center>
-<div class='img'><img class="alignnone" src="http://technocio.com/wp-content/uploads/2020/06/empresas-m%C3%A1s-innovadoras.jpg" alt="" width="600" height="330" /></div>
+<div class='img'><img class="alignnone" src="http://technocio.com/wp-content/uploads/2020/06/empresas-m%C3%A1s-innovadoras.jpg" alt="" width="600" height="330" /></div></center>
 
- 
  “La innovación es parte del ADN de Huawei desde hace más de tres décadas. Por ejemplo, algunos de nuestros aportes al mercado global de smartphones fueron el desarrollo de un dispositivo con cámara dual Leica, la evolución hacia el primer smartphone de la serie P con tres cámaras, la integración de la Inteligencia Artificial de forma proactiva en el desempeño y las funciones fotográficas de nuestros dispositivos, y la creación de un ecosistema completo que brinda conectividad fluida y segura. Estas innovaciones se suman a nuestras más de 74 mil patentes registradas a nivel mundial”, expresó David Moheno, Director de Relaciones Públicas de Huawei CBG para América Latina.
  
 Tal es el compromiso de Huawei en innovar, que fue la compañía número uno en solicitud de patentes durante 2019 con un total de 3,524, de acuerdo con la Oficina Europea de Patentes (EPO, por sus siglas en inglés), reflejo de que la marca destina entre el 10 y 15 por ciento de sus ingresos anuales a la investigación y desarrollo (I+D).
