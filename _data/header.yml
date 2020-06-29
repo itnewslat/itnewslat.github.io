@@ -24,8 +24,8 @@ headers:
 global-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Ciberespacio-728X90.gif'
 
 publicity-1:
-  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300-Vendido.jpg
-    url: http://www.ITNEWS.LAT/
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner3.png
+    url: http://www.logintel.com.ve/
 
 sideBar-publicity:
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
