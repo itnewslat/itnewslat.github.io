@@ -10,9 +10,9 @@ title: >-
   Dell Technologies anuncia colaboración con Google Cloud y avanza en soluciones
   para centros de datos
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-usuario-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Dell-Google-Cloud-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-usuario-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Dell-Google-Cloud-g.jpg
 categories:
   - Venezuela
   - Colombia
