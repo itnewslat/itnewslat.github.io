@@ -40,8 +40,8 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 </tr>
 <tr>
 <td> <a href="https://itnews.lat/es-la-nube-la-soluci-n-iv-edici-n-de-live.html"><img class="alignleft size-full wp-image-68329" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Mariadela_Larrazabal_4_3-e1592571945107.jpg" alt="Mariadela_Larrazabal_4_3" width="200" height="250" /></a></td>
-<td></td>
-<td></td>
+<td><a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/EduardoRG_HOY_4_3-e1593695885456.jpg"><img class="alignleft size-full wp-image-68332" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/EduardoRG_HOY_4_3-e1593695885456.jpg" alt="EduardoRG_HOY_4_3" width="200" height="250" /></a></td>
+<td><a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Sebastián-Jasminoy_4_3-e1593695932289.jpg"><img class="alignleft size-full wp-image-68333" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Sebastián-Jasminoy_4_3-e1593695932289.jpg" alt="Sebastián Jasminoy_4_3" width="200" height="250" /></a></td>
 </tr>
 <tr>
 <td></td>
