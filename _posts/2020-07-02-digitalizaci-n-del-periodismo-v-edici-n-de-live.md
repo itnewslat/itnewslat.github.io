@@ -2,16 +2,31 @@
 layout: posts
 color-schema: red-dark
 date: '2020-07-02 09:21 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2020'
 title: Digitalización del Periodismo - V Edición de LIVE
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/V-FORO-LIVE-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/V-FORO-LIVE-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Actualidad
+week: '27'
 ---
 El pasado martes se llevó a cabo la quinta edición de los LIVE auspiciado por ITNEWS LAT, con la participación como moderador del evento, el reconocido comunicador en tecnología, Edgar Rincón. Estos eventos estan diseñados para recoger la opinión de los ejecutivos y líderes del mercado en una sesión de 50 minutos todos los martes a las 4:00 pm (Hora del Este).
 
 <center>
-<a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/EduardoRG_HOY_4_3-e1593695885456.jpg"><img class="alignleft size-full wp-image-68332" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/EduardoRG_HOY_4_3-e1593695885456.jpg" alt="EduardoRG_HOY_4_3" width="200" height="250" /></a>
+<img class="alignleft size-full wp-image-68332" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/EduardoRG_HOY_4_3-e1593695885456.jpg" alt="EduardoRG_HOY_4_3" width="200" height="250" /></a>
 </center>
 
 Para acceder estos eventos los interesados solo deben estar siguiendo la cuenta @ITNEWSLAT en Instagram y conectarse a la esa hora. Los live quedarán residentes en la cuenta en la seccion de IGTV, No hay liitaciones de preguntas a los invitados.
