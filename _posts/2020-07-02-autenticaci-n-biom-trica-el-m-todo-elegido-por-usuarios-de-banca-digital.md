@@ -7,9 +7,6 @@ superNews: false
 superArticle: false
 year: '2020'
 title: 'Autenticación biométrica, el método elegido por usuarios de banca digital'
-image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/Biometrica-g.jpg'
-detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Biometrica-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -21,6 +18,9 @@ categories:
 tags:
   - Seguridad
 week: '27'
+detail-image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/Biometrica-g.jpg'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Biometrica-p.jpg
 ---
 **Según la encuesta de FICO, cuando los clientes se conectan a las aplicaciones de banca móvil, sólo el 44% está preparado para usar sus nombres de usuario y contraseñas**
 
