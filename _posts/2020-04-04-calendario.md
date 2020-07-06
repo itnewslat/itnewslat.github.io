@@ -54,6 +54,6 @@ week: '00'
 - **Semana 28** [06 al 12 de julio de 2020](https://itnews.lat/newsletters/28.html)
 - **Semana 29** [13 al 19 de julio de 2020](https://itnews.lat/newsletters/29.html)
 - **Semana 30** [20 al 26 de julio de 2020](https://itnews.lat/newsletters/30.html)
-- **Semana 31** [27 al 02 de junio de 2020](https://itnews.lat/newsletters/31.html)
+- **Semana 31** [27 al 02 de agosto de 2020](https://itnews.lat/newsletters/31.html)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
