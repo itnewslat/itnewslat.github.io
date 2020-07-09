@@ -25,6 +25,10 @@ IBM y el Instituto de Estudios Superiores de Administración (IESA) anunciaron u
 
 De acuerdo con IDC, América Latina está experimentando una escasez de más de 586.570 profesionales del área de Tecnología de Información (TI) para 2020, lo que hará que las empresas cambien sus planes y retrasen lanzamientos de productos y servicios al mercado, causando pérdidas de al menos 0.9% del PIB de América Latina en el mismo año.
 
+<center>
+<div class='img'><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/IESAIBM.jpg" /><span>Pie de imagen. Documento firmado digitalmente</span></div>
+</center>
+
 “Estamos viviendo un momento sin precedentes, y la educación juega un papel fundamental para impulsar el desarrollo de nuestros jóvenes talentos”, comenta Germán Pacheco, gerente general de IBM Venezuela. “No podríamos estar más orgullosos de colaborar con el IESA en este programa que formará a las mentes del futuro; una de nuestras misiones hacia la sociedad es permitir que los profesionales de la educación mejoren la experiencia de sus alumnos y satisfagan la demanda actual y futura de habilidades tecnológicas”, finalizó Pacheco.
 
 IESA es la primera institución educativa en Venezuela en iniciar el programa IBM Skills Academy. Su oferta de académica se centrará en la formación de habilidades que están ganando relevancia en la era de la economía digital, como la Ciencia de Datos, Ciberseguridad, e Inteligencia Artificial en primera instancia. 
