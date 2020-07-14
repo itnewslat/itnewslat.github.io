@@ -44,7 +44,7 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 <td><a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Sebastián-Jasminoy_4_3-e1593695932289.jpg"><img class="alignleft size-full wp-image-68333" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Sebastián-Jasminoy_4_3-e1593695932289.jpg" alt="Sebastián Jasminoy_4_3" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td></td>
+<td> <a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Luis-Lubeck_4_3-e1594724952207.jpg"><img class="alignleft size-full wp-image-68334" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Luis-Lubeck_4_3-e1594724952207.jpg" alt="Luis Lubeck_4_3" width="200" height="250" /></a></td>
 <td></td>
 <td></td>
 </tr>
@@ -57,9 +57,13 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 </table>
 </center>
 
-El evento cuenta con el patrocinio de empresas como :
+El evento hemos contado con el patrocinio de empresas como :
 
 - **Bit Consulting Ve**, Nuestra Mente en sus Negocios, firma especializada en consultoría y soluciones tecnológicas, (Instagram / Twitter: @BitConsultingVE)
 - **GALANET**, SU ALIADO EN INTERNET No busques más. Galanet es tu solución, quién aporto la infraestructura tecnológica que permitió la transmisión de alta calidad del evento
+- **ABSIDE**, Innovación en vivo para la transformación digital, tu aliado de negocios para la empresa inteligente
+- **LOGINTEL**
+
+
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
