@@ -31,6 +31,7 @@ Digitalización, una palabra de la que mucho se ha dicho y que ha aumentado su r
 </center>
 
 Fue el tema central que este 15 de julio, sirvió para dar apertura al ciclo de webinars Día D. El espacio, patrocinado por la empresa DAYCOHOST, bajo la conducción de ITCandino y ITnewslat ha sido ideado para el encuentro, debate e integración del sector corporativo venezolano y de la región, dando cabida a las voces de reconocidas autoridades de empresas del segmento tecnológico del país y LATAM sobre retos, estrategias, soluciones tecnológicas e historias de éxito, para operar en lo que algunos especialistas han denominado el Nuevo, Nuevo normal.
+
 ⁣⁣⁣⁣
 Esta primera sesión, titulada Digitalización exponencial, contó con la apertura a cargo de **Mariadela Larrazábal** G., Presidente de DAYCOHOST y la participación de **Leandro Ramírez**, Presidente ORACLE Centroamérica y el CARIBE, quien estuvo acompañado por los periodistas **Alcides León** de ITCandino y **Edgar Rincón** de ITnewslat.
 
