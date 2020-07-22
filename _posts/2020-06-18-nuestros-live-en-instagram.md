@@ -45,7 +45,7 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 </tr>
 <tr>
 <td> <a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Luis-Lubeck_4_3-e1594724952207.jpg"><img class="alignleft size-full wp-image-68334" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Luis-Lubeck_4_3-e1594724952207.jpg" alt="Luis Lubeck_4_3" width="200" height="250" /></a></td>
-<td></td>
+<td> <a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/GERMANPACHECO_4_3-1-e1595443546558.jpg"><img class="alignleft size-full wp-image-68335" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/GERMANPACHECO_4_3-1-e1595443546558.jpg" alt="GERMANPACHECO_4_3 (1)" width="200" height="250" /></a></td>
 <td></td>
 </tr>
 <tr>
