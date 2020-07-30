@@ -58,13 +58,13 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 </center>
 
 El evento hemos contado con el patrocinio de empresas como :
-
+---
 - **BancaribE**
 - **Bit Consulting Ve**
 - **GALANET**
 - **ABSIDE**
 - **LOGINTEL**
-
+---
 
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
