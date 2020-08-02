@@ -49,7 +49,7 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 <td> <a href="https://www.instagram.com/tv/CDM0W1_HCF6/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68337" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Magdalena_hoy_4_3-e1596120401559.jpg" alt="Magdalena_hoy_4_3" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td></td>
+<td> <a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/RN_4-3-e1596396886973.jpg"><img class="alignleft size-full wp-image-68341" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/RN_4-3-e1596396886973.jpg" alt="RN_4-3" width="200" height="250" /></a></td>
 <td></td>
 <td></td>
 </tr>
