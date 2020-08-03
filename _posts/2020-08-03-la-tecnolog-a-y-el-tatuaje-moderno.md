@@ -8,9 +8,9 @@ superArticle: false
 year: '2020'
 title: La tecnología y el tatuaje moderno
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Tatuador-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Tatuando-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Tatuador-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Tatuando-g.jpg
 categories:
   - Venezuela
 tags:
@@ -21,7 +21,7 @@ week: '32'
 
 Además de los avances en materia de sanidad, materiales y simplicidad, el arte del tatuaje ha avanzado de tal manera, que les permite a los tatuadores ejecutar el trabajo de la manera más impecable posible, abre diálogo Germán Gamboa, artista del tatuaje venezolano, titulado en el Instituto Diseño de Caracas; que optó por entregarse a su pasión por el arte en la piel desde muy joven, y ha llegado a obtener reconocimientos a nivel nacional, así como participación en eventos internacionales, en Italia y Rumania.
 
-**INSPIRACIÓN, TÉCNICA Y TECNOLOGÍA**
+**Inspiración, técnica y tecnología**
 
 Entre las máquinas que se emplean actualmente destacan las que usan agujas de cartucho, que permiten en toda una jornada elaborar una pieza con la misma máquina, sin tener problemas a la hora de manipular las agujas. “Este es un mecanismo práctico que permite el uso de agujas desechables, sin la necesidad de manipular mucho la máquina, ayudando al tatuador a evitar la contaminación cruzada. Este es motivo por el cual hoy en día todas las herramientas del tatuaje se han ido simplificando desde el punto de vista físico”. 
 
