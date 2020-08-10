@@ -58,5 +58,6 @@ week: '00'
 
 ### AGOSTO
 - **Semana 32** [03 al 09 de agosto de 2020](https://itnews.lat/newsletters/32.html)
+- **Semana 33** [09 al 16 de agosto de 2020](https://itnews.lat/newsletters/33.html)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
