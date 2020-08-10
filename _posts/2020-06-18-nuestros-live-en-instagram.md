@@ -39,29 +39,30 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 <td style="text-align: center;"><a href="https://www.instagram.com/tv/CBgrRxOnsFN/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68326 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/José-Luis-Gascón4_3-e1592508052745.jpg" alt="José Luis Gascón4_3" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td> <a href="https://www.instagram.com/tv/CByrYa8HTP3/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68329 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Mariadela_Larrazabal_4_3-e1592571945107.jpg" alt="Mariadela_Larrazabal_4_3" width="200" height="250" /></a></td>
-<td> <a href="https://www.instagram.com/tv/CCEwrKJnpxL/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68332 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/EduardoRG_HOY_4_3-e1593695885456.jpg" alt="EduardoRG_HOY_4_3" width="200" height="250" /></a></td>
-<td> <a href="https://www.instagram.com/tv/CCWu5Nwn9-8/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68333 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Sebastián-Jasminoy_4_3-e1593695932289.jpg" alt="Sebastián Jasminoy_4_3" width="200" height="250" /></a></td>
+<td style="text-align: center;"><a href="https://www.instagram.com/tv/CByrYa8HTP3/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68329 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Mariadela_Larrazabal_4_3-e1592571945107.jpg" alt="Mariadela_Larrazabal_4_3" width="200" height="250" /></a></td>
+<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CCEwrKJnpxL/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68332 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/EduardoRG_HOY_4_3-e1593695885456.jpg" alt="EduardoRG_HOY_4_3" width="200" height="250" /></a></td>
+<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CCWu5Nwn9-8/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68333 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Sebastián-Jasminoy_4_3-e1593695932289.jpg" alt="Sebastián Jasminoy_4_3" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td> <a href="https://www.instagram.com/tv/CCowgvdnCpH/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68334 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Luis-Lubeck_4_3-e1594724952207.jpg" alt="Luis Lubeck_4_3" width="200" height="250" /></a></td>
-<td> <a href="https://www.instagram.com/tv/CC6xiHkHRrm/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68335 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/GERMANPACHECO_4_3-1-e1595443546558.jpg" alt="GERMANPACHECO_4_3 (1)" width="200" height="250" /></a></td>
-<td> <a href="https://www.instagram.com/tv/CDM0W1_HCF6/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68337" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Magdalena_hoy_4_3-e1596120401559.jpg" alt="Magdalena_hoy_4_3" width="200" height="250" /></a></td>
+<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CCowgvdnCpH/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68334 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Luis-Lubeck_4_3-e1594724952207.jpg" alt="Luis Lubeck_4_3" width="200" height="250" /></a></td>
+<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CC6xiHkHRrm/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68335 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/GERMANPACHECO_4_3-1-e1595443546558.jpg" alt="GERMANPACHECO_4_3 (1)" width="200" height="250" /></a></td>
+<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CDM0W1_HCF6/?utm_source=ig_web_copy_link"><img class="alignleft size-full wp-image-68337" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Magdalena_hoy_4_3-e1596120401559.jpg" alt="Magdalena_hoy_4_3" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td> <a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/RN_4-3-e1596396886973.jpg"><img class="alignleft size-full wp-image-68341" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/RN_4-3-e1596396886973.jpg" alt="RN_4-3" width="200" height="250" /></a></td>
-<td></td>
-<td></td>
+<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CDe2CwAneun/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68341 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/RN_4-3-e1596396886973.jpg" alt="RN_4-3" width="200" height="250" /></a></td>
+<td style="text-align: center;"> <a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/CarlosJ_43-e1597017075914.jpg">
+</a><a href="https://www.instagram.com/itnewslat/"><img class="alignleft wp-image-68343 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/CarlosJ_43-e1597017075914.jpg" alt="CarlosJ_43" width="200" height="250" /></a></td>
+<td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
 
 El evento hemos contado con el patrocinio de empresas como :
 
-- **Bancaribe**
-- **Bit Consulting Ve**
-- **GALANET**
-- **ABSIDE**
-- **LOGINTEL**
+- Bancaribe
+- Bit Consulting Ve
+- Galanet
+- ABSIDE
+- LOGINTEL
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
