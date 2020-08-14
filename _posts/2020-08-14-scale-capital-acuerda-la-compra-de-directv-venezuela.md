@@ -39,3 +39,5 @@ Para la activación del servicio, los ex clientes de DIRECTV VENEZUELA  solo ten
 Las acciones que aquí se comunican guardan armonía con lo dispuesto por la Sala Constitucional del Tribunal Supremo de Justicia venezolano.
 
 Para mayor información visite www.galaxyvenezuela.com
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
