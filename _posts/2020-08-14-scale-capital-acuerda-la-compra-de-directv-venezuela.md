@@ -17,6 +17,8 @@ tags:
   - Actualidad
 week: '33'
 ---
+Tomado de [SCALE CAPITAL](https://scale.capital/scale-capital-acuerda-la-compra-de-directv-venezuela/) 
+
 - La  activación de las operaciones cuenta con el visto bueno del Gobierno de la República Bolivariana de Venezuela y será gratuito los primeros noventa (90) días.
 - El acuerdo permite dar servicio de forma inmediata a más de 2 millones familias que fueron suscriptores de DIRECTV Venezuela.
 
