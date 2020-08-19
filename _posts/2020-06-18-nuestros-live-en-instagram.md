@@ -52,7 +52,7 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 <td style="text-align: center;"> <a href="https://www.instagram.com/tv/CDe2CwAneun/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68341 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/RN_4-3-e1596396886973.jpg" alt="RN_4-3" width="200" height="250" /></a></td>
 <td style="text-align: center;"> <a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/CarlosJ_43-e1597017075914.jpg">
 </a><a href="https://www.instagram.com/itnewslat/"><img class="alignleft wp-image-68343 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/CarlosJ_43-e1597017075914.jpg" alt="CarlosJ_43" width="200" height="250" /></a></td>
-<td style="text-align: center;"><a href="https://www.instagram.com/tv/CEC4c0ynxpt/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68345 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/MARIANO-O’KON43-e1597838334991.jpg" alt="MARIANO O’KON43" width="200" height="250" /></a></td>
+<td style="text-align: center;"><a href="https://www.instagram.com/tv/CEC4c0ynxpt/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68345 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/MARIANO-O’KON43-e1597838334991.jpg" width="200" height="250" /></a></td>
 </tr>
 </tbody>
 </table>
