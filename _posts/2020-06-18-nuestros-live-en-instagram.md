@@ -34,25 +34,29 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 <table style="height: 250px; width: 609px;" width="609">
 <tbody>
 <tr>
-<td style="text-align: center;"><a href="https://www.instagram.com/tv/CA8mMxxnNzR/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68325 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/LIVE_MiguelLara-e1592507741574.jpg" alt="LIVE_MiguelLara" width="200" height="250" /></a></td>
-<td style="text-align: center;"><a href="https://www.instagram.com/tv/CBOo1lynOPj/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68324 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Henkel-García-4_3-e1592507714843.jpg" alt="Henkel García 4_3" width="200" height="250" /></a></td>
-<td style="text-align: center;"><a href="https://www.instagram.com/tv/CBgrRxOnsFN/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68326 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/José-Luis-Gascón4_3-e1592508052745.jpg" alt="José Luis Gascón4_3" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CA8mMxxnNzR/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68325 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/LIVE_MiguelLara-e1592507741574.jpg" alt="" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CBOo1lynOPj/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68324 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Henkel-García-4_3-e1592507714843.jpg" alt="" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CBgrRxOnsFN/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68326 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/José-Luis-Gascón4_3-e1592508052745.jpg" alt="" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://www.instagram.com/tv/CByrYa8HTP3/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68329 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Mariadela_Larrazabal_4_3-e1592571945107.jpg" alt="Mariadela_Larrazabal_4_3" width="200" height="250" /></a></td>
-<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CCEwrKJnpxL/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68332 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/EduardoRG_HOY_4_3-e1593695885456.jpg" alt="EduardoRG_HOY_4_3" width="200" height="250" /></a></td>
-<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CCWu5Nwn9-8/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68333 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Sebastián-Jasminoy_4_3-e1593695932289.jpg" alt="Sebastián Jasminoy_4_3" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CByrYa8HTP3/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68329 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Mariadela_Larrazabal_4_3-e1592571945107.jpg" alt="" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CCEwrKJnpxL/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68332 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/EduardoRG_HOY_4_3-e1593695885456.jpg" alt="" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CCWu5Nwn9-8/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68333 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/06/Sebastián-Jasminoy_4_3-e1593695932289.jpg" alt="" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CCowgvdnCpH/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68334 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Luis-Lubeck_4_3-e1594724952207.jpg" alt="Luis Lubeck_4_3" width="200" height="250" /></a></td>
-<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CC6xiHkHRrm/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68335 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/GERMANPACHECO_4_3-1-e1595443546558.jpg" alt="GERMANPACHECO_4_3 (1)" width="200" height="250" /></a></td>
-<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CDM0W1_HCF6/?utm_source=ig_web_copy_link"><img class="alignleft size-full wp-image-68337" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Magdalena_hoy_4_3-e1596120401559.jpg" alt="Magdalena_hoy_4_3" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CCowgvdnCpH/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68334 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Luis-Lubeck_4_3-e1594724952207.jpg" alt="" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CC6xiHkHRrm/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68335 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/GERMANPACHECO_4_3-1-e1595443546558.jpg" alt="" width="200" height="250" /></a></td>
+<td style="text-align: justify;"> <a href="https://www.instagram.com/tv/CDM0W1_HCF6/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68337 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/Magdalena_hoy_4_3-e1596120401559.jpg" alt="" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td style="text-align: center;"> <a href="https://www.instagram.com/tv/CDe2CwAneun/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68341 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/RN_4-3-e1596396886973.jpg" alt="RN_4-3" width="200" height="250" /></a></td>
-<td style="text-align: center;"> <a href="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/CarlosJ_43-e1597017075914.jpg">
-</a><a href="https://www.instagram.com/itnewslat/"><img class="alignleft wp-image-68343 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/CarlosJ_43-e1597017075914.jpg" alt="CarlosJ_43" width="200" height="250" /></a></td>
-<td style="text-align: center;"><a href="https://www.instagram.com/tv/CEC4c0ynxpt/?utm_source=ig_web_copy_link"><img class="alignleft wp-image-68345 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/MARIANO-O’KON43-e1597838334991.jpg" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CDe2CwAneun/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68341 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/07/RN_4-3-e1596396886973.jpg" alt="" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/itnewslat/"><img class="aligncenter wp-image-68343 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/CarlosJ_43-e1597017075914.jpg" alt="" width="200" height="250" /></a></td>
+<td style="text-align: justify;"><a href="https://www.instagram.com/tv/CEC4c0ynxpt/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68345 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/MARIANO-O’KON43-e1597838334991.jpg" alt="" width="200" height="250" /></a></td>
+</tr>
+<tr>
+<td style="text-align: justify;"></td>
+<td style="text-align: justify;"></td>
+<td style="text-align: justify;"></td>
 </tr>
 </tbody>
 </table>
