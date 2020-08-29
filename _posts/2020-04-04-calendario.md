@@ -62,4 +62,7 @@ week: '00'
 - **Semana 34** [17 al 23 de agosto de 2020](https://itnews.lat/newsletters/34.html)
 - **Semana 35** [24 al 30 de agosto de 2020](https://itnews.lat/newsletters/35.html)
 
+### SEPTIEMBRE
+- **Semana 36** [31 al 06 de septiembre de 2020](https://itnews.lat/newsletters/36.html)
+
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
