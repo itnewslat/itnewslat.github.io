@@ -57,7 +57,7 @@ El 17 de junio, solo 75 días antes del inicio de la competencia, se anunció qu
 El US Open se lleva a cabo del 31 de agosto al 13 de septiembre. Para ver la tecnología en acción, visite USOpen.org, o utilice en su propio dispositivo móvil la aplicación US Open, disponible en las tiendas de aplicaciones de Apple y Android.
 
 <center>
-<div class='img'><img class="alignnone" src="https://t6hgmcqx.s3.amazonaws.com/14204/cea98330-5ad2-4fb0-8a3f-e93378945624/UDQTDrxlIGvX4ielQwTMDg/200820_IBM_Sports_and_Tech_infographic%20FINAL%20.png"alt="" width="650" height="650"> </div>
+<div class='img'><img class="alignnone" src="https://t6hgmcqx.s3.amazonaws.com/14204/cea98330-5ad2-4fb0-8a3f-e93378945624/UDQTDrxlIGvX4ielQwTMDg/200820_IBM_Sports_and_Tech_infographic%20FINAL%20.png" alt="" width="650" height="650" /></div>
 </center>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
