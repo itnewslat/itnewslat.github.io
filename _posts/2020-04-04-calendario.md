@@ -64,5 +64,6 @@ week: '00'
 
 ### SEPTIEMBRE
 - **Semana 36** [31 al 06 de septiembre de 2020](https://itnews.lat/newsletters/36.html)
+- **Semana 37** [07 al 13 de septiembre de 2020](https://itnews.lat/newsletters/37.html)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
