@@ -58,6 +58,11 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 <td style="text-align: justify;"><a href="https://www.instagram.com/tv/CEm7XGhHYjt/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68350 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/08/José-F.-Otero43-e1599133057185.jpg" alt="José F. Otero43" width="200" height="250" /></a></td>
 <td style="text-align: center;"> <a href="https://www.instagram.com/tv/CE48U92HnPG/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68355 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/09/mireya43-e1599478239998.jpg" alt="mireya43" width="200" height="250" /></a></td>
 </tr>
+<tr>
+<td style="text-align: justify;"><a href="https://www.instagram.com/itnewslat/"><img class="aligncenter wp-image-68361 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/09/Caro43-e1600084151266.jpg" alt="Caro43" width="200" height="250" /></a></td>
+<td style="text-align: justify;"></td>
+<td style="text-align: center;"></td>
+</tr>
 </tbody>
 </table>
 
