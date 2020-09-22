@@ -49,3 +49,4 @@ El aprendizaje digital puede ser muy interactivo y abrir nuevas puertas y oportu
 
 ¡A todos los padres como yo, sigan adelante! A todos los maestros (incluida mi increíble esposa), sepan lo respetados y apreciados que son durante este momento desafiante y complicado. Permanezcamos unidos y sigamos creando experiencias significativas, dentro y fuera del aula.
 
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
