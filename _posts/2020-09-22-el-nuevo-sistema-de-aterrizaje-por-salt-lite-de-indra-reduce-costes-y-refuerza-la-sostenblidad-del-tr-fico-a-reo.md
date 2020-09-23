@@ -10,7 +10,7 @@ title: >-
   El nuevo sistema de aterrizaje por saltélite de Indra reduce costes y refuerza
   la sostenblidad del tráfico aéreo
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x32/Aterrizaje-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Aterrizaje-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Aterrizaje-g.jpg
 categories:
