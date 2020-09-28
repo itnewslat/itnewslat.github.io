@@ -67,5 +67,12 @@ week: '00'
 - **Semana 37** [07 al 13 de septiembre de 2020](https://itnews.lat/newsletters/37.html)
 - **Semana 38** [14 al 20 de septiembre de 2020](https://itnews.lat/newsletters/38.html)
 - **Semana 39** [21 al 27 de septiembre de 2020](https://itnews.lat/newsletters/39.html)
+- **Semana 40** [28 al 04 de octubre de 2020](https://itnews.lat/newsletters/40.html)
+
+### OCTUBRE
+- **Semana 41** [05 al 11 de octubre de 2020](https://itnews.lat/newsletters/41.html)
+- **Semana 42** [12 al 18 de octubre de 2020](https://itnews.lat/newsletters/42.html)
+- **Semana 43** [19 al 25 de octubre de 2020](https://itnews.lat/newsletters/43.html)
+- **Semana 44** [26 al 01 de noviembre de 2020](https://itnews.lat/newsletters/44.html)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
