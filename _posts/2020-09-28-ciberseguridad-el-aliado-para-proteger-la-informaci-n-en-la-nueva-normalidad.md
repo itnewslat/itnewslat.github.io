@@ -23,7 +23,7 @@ tags:
   - Seguridad
 week: '40'
 ---
-Fortalecer los sistemas de seguridad para salvaguardar la información personal y de las empresas cobra mayor importancia a partir de las nuevas dinámicas que está adoptando la sociedad.
+**Fortalecer los sistemas de seguridad para salvaguardar la información personal y de las empresas cobra mayor importancia a partir de las nuevas dinámicas que está adoptando la sociedad.**
 
 La tecnología es una herramienta esencial para las nuevas dinámicas de conectividad que están adoptando empresas y gobiernos en el mundo. Sin embargo, si no se cuenta con un sistema robusto que blinde la información, puede llegar a ser un puente de fácil acceso para un ataque cibernético y es aquí donde la ciberseguridad se convierte en protagonista.
 
