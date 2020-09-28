@@ -49,22 +49,24 @@ Aparte de la 5G, se prevé que las conexiones mundiales generales de LTE 4G cont
 
 En total, se desplegó la siguiente cantidad de redes inalámbricas con tecnologías 4G y 5G en el mundo y en las Américas al 16 de septiembre de 2020, según TeleGeography:
 
-**Mundialmente**:  
-- 5G: 114
-- LTE Advanced: 335
-- LTE: 682
-**América del Norte**:  
-- 5G: 7
-- LTE Advanced: 12
-- LTE: 23
-**América Latina y Caribe**: 
-- 5G: 10
-- LTE Advanced: 49
-- LTE: 125
+**Mundialmente**:
+
+  - 5G: 114
+  - LTE Advanced: 335
+  - LTE: 682
+
+**América del Norte**:
+
+  - 5G: 7
+  - LTE Advanced: 12
+  - LTE: 23
+
+**América Latina y Caribe**:
+
+  - 5G: 10
+  - LTE Advanced: 49
+  - LTE: 125
 
 *Fuente: TeleGeography y 5G Americas
 
-Para más información y para consultar una cantidad de cuadros de estadísticas sobre la familia de tecnologías del 3GPP, y un listado de despliegues LTE y 5G por operador y región, visite  www.5GAmericas.org. Los datos de suscriptores y las proyecciones fueron provistos por Omdia y los datos de despliegues por TeleGeography (GlobalComm). 
-
-
-
+Para más información y para consultar una cantidad de cuadros de estadísticas sobre la familia de tecnologías del 3GPP, y un listado de despliegues LTE y 5G por operador y región, visite  www.5GAmericas.org. Los datos de suscriptores y las proyecciones fueron provistos por Omdia y los datos de despliegues por TeleGeography (GlobalComm).
