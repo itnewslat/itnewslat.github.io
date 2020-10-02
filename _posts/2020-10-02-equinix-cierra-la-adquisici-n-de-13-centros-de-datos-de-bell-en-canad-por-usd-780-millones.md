@@ -10,7 +10,7 @@ title: >-
   Equinix cierra la adquisición de 13 centros de datos de Bell en Canadá por USD
   $780 millones 
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/CheckHand-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/CheckHand-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/CheckHand-g.jpg
 categories:
