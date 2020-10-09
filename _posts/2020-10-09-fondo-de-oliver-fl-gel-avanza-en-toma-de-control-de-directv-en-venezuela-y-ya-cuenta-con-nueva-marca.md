@@ -33,4 +33,5 @@ Tomado de [DiarioFinanciero DF.CL](https://www.df.cl/noticias/capital/coffee-bre
 <p style="text-align: justify;">Haciendo algo de memoria, el 14 de agosto el fondo de Flögel anunció la intención de compra de las operaciones de DirecTV Venezuela, y desde ese mismo día reconectaron casi 4 millones de decodificadores que habían sido desconectados por AT&amp;T en mayo e iniciaron un periodo gratuito de 3 meses que concluye el 14 de noviembre.</p>
 <p style="text-align: justify;">Con esta compra, el fondo aumenta su portafolio en el mundo de las telecomunicaciones, donde cuenta con Mediastream, y con Simple Móvil en Chile.</p>
 <p style="text-align: justify;"><img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04" alt="" /></p>
-<p style="text-align: justify;">Tomado de [DiarioFinanciero DF.CL](https://www.df.cl/noticias/capital/coffee-break/fondo-de-oliver-flogel-avanza-en-toma-de-control-de-directv-en-venezuela/2020-10-09/111932.html)</p>
+
+Tomado de [DiarioFinanciero DF.CL](https://www.df.cl/noticias/capital/coffee-break/fondo-de-oliver-flogel-avanza-en-toma-de-control-de-directv-en-venezuela/2020-10-09/111932.html)
