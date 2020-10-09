@@ -11,6 +11,12 @@ title: >-
   cuenta con nueva marca
 categories:
   - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
 tags:
   - Actualidad
 week: '41'
