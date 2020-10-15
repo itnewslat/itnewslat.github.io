@@ -29,7 +29,7 @@ week: '42'
 
 <p style="text-align: justify;">Durante mas de 2 horas los cinco profesionales de la comunicación, expusieron sus puntos de vista sobre el sector, aportando cifras, referencias y en muchos casos experticias sobre su conociemiento de mas de 20 años trabajando la fuente.</p>
 
-<p style="text-align: justify;">Entre los asistentes al foro, estaban presentes ejecutivos de la industria de las telecomunicaciones, quienes manifestaron a través de diferentes su agrado y satisfacción por la iniciativa, igualmente el foro con la presencia de asistentes de varios paises de américa latina y de europa, destancando la presencia y participación de <Strong>Víctor Suarez</Strong>, decano de la fuente de telecomunicaciones del país, y creador del boletin mas famoso de la industria conocido como <Strong>INSIDE TELECOM</Strong> </p>
+<p style="text-align: justify;">Entre los asistentes al foro, estaban presentes ejecutivos de la industria de las telecomunicaciones, quienes manifestaron a través de diferentes medios su agrado y satisfacción por la iniciativa, igualmente el foro con la presencia de asistentes de varios paises de américa latina y de europa, destancando la presencia y participación de <Strong>Víctor Suarez</Strong>, decano de la fuente de telecomunicaciones de Venezuela, y creador del boletin mas famoso de la industria conocido como <Strong>INSIDE TELECOM</Strong> </p>
 
 <p style="text-align: justify;">Las próximas edición del foro serán organizadas por los diferentes medios que dirigen y coordinan el resto de comunicadores, y su fecha así como también el tema a ser tratado será comunicado a traés de las redes sociales.</p>
 
