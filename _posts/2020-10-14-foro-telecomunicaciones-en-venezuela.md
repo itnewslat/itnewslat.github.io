@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: Foro "Telecomunicaciones en Venezuela"
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Foro-Telecom-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Foro-Telecom-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Foro-telecom-g.jpg
 categories:
