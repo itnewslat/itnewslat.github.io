@@ -65,12 +65,11 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 </tr>
 <tr>
 <td style="text-align: justify;"><a href="https://www.instagram.com/tv/CGBCxVPH04Q/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68368 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/10/DavidR43-e1601983942437.jpg" alt="DavidR43" width="200" height="250" /></a></td>
-<td style="text-align: justify;"></td>
-<td style="text-align: center;"></td>
+<td style="text-align: justify;"><a href="https://youtu.be/2wkjbtrA4yI"><img class="aligncenter wp-image-68373 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/10/zoom43-e1603231974109.jpg" alt="zoom43" width="200" height="250" /></a></td>
+<td style="text-align: center;"><a href="https://www.instagram.com/tv/CGlGZ_jnqQ8/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68374 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/10/Sanoja43-e1603232211811.jpg" alt="Sanoja43" width="200" height="250" /></a></td>
 </tr>
 </tbody>
 </table>
-&nbsp;
 
 El evento hemos contado con el patrocinio de empresas como :
 
