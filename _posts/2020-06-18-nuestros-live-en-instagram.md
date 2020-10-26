@@ -69,7 +69,7 @@ Aquí podrá disfrutar de las ediciones pasadas en un sola plataforma,
 <td style="text-align: center;"><a href="https://www.instagram.com/tv/CGlGZ_jnqQ8/?utm_source=ig_web_copy_link"><img class="aligncenter wp-image-68374 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/10/Sanoja43-e1603232211811.jpg" alt="Sanoja43" width="200" height="250" /></a></td>
 </tr>
 <tr>
-<td></td>
+<td style="text-align: center;"><a href="http://www.instagram.com/ITNEWSLAT/"><img class="aligncenter wp-image-68377 size-full" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/10/SheWorks43-1-e1603717153139.jpg" alt="SheWorks43 (1)" width="200" height="250" /></a></td>
 <td></td>
 <td></td>
 </tr>
