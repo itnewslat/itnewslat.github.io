@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2020'
-title: ''
+title: Avast informa que la ola de Adware continúa en Google Play
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/google-play-store-p.jpg
 detail-image: >-
@@ -23,7 +23,6 @@ tags:
   - Seguridad
 week: '44'
 ---
-<h3 style="text-align: justify;">Avast informa que la ola de Adware continúa en Google Play</h3>
 <p style="text-align: justify;">Los usuarios informan que se anunciaron en YouTube aplicaciones de juegos de deportes, rompecabezas, automóviles y helicópteros que contienen el adware HiddenAds<em>.</em></p>
 <p style="text-align: justify;"><a href="https://www.avast.com/es-ar/index">Avast </a>(LSE:AVST), uno de los líderes mundiales en privacidad digital y ciberseguridad, descubrió 21 aplicaciones de juegos de adware en Play Store de Google y las informó a Google. Actualmente, 19 de las aplicaciones todavía están disponibles en Play Store, pero Google está investigando los informes. De manera similar a las aplicaciones de adware reportadas por Avast <a href="https://press.avast.com/avast-reports-hiddenads-adware-campaign-in-47-apps-disguised-as-games-on-the-google-play-store">en junio</a> y <a href="https://blog.avast.com/es/scam-apps-spreading-via-tiktok-avast">septiembre</a>, el adware es parte de la familia HiddenAds, muestra anuncios intrusivos y atrae a los usuarios para que descarguen el adware haciéndose pasar por aplicaciones de juegos. Esta vez, por ejemplo, las aplicaciones prometen virtualmente "dejar volar su auto a través de la carretera, árboles, colinas", “disparar a los criminales desde un helicóptero” o, para los entusiastas del hogar, “permitir a los jugadores planchar virtualmente su ropa”. Las aplicaciones se han descargado casi ocho millones de veces hasta ahora según las estimaciones de SensorTower.</p>
 <p style="text-align: justify;">Numerosas reseñas de usuarios en Google Play Store mencionan que las aplicaciones llamaron su atención a través de anuncios en YouTube, prometiendo un juego diferente al que la aplicación finalmente ofreció. Después de la descarga, los anuncios comenzaron a inundar sus teléfonos.</p>
