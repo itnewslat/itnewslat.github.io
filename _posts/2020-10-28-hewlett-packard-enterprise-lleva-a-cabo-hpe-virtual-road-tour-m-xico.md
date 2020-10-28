@@ -46,6 +46,6 @@ week: '44'
 </ul>
 <p style="text-align: justify;">No menos importante, HPE exhorta a incluir servicios de educación, los cuales tienen como principal objetivo que los clientes se encuentren capacitados y habilitados para ayudar a adoptar nuevas soluciones y herramientas de colaboración.</p>
 <p style="text-align: justify;">Una vez más, HPE refuerza su compromiso con los clientes en esta época en la que la tecnología se ha convertido en un medio esencial para continuar operando en las empresas, ofreciendo sus productos y servicios para satisfacer sus necesidades de negocio. Siempre disponible para brindar soporte en cualquier tipo de solución, industria y cliente.</p>
-
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Virtual-Road-HP-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
