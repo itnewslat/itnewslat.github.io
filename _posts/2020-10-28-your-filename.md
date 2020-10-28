@@ -6,13 +6,12 @@ published: false
 superNews: false
 superArticle: false
 year: '2018'
-title: ''
+title: Siete beneficios que ofrece una pantalla AMOLED en un reloj inteligente
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Smart-Watch-Huawei-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Smart-Watch-Huawei-g.jpg
 ---
-<p style="text-align: justify;"><strong>Siete beneficios que ofrece una pantalla AMOLED en un reloj inteligente</strong></p>
 <p style="text-align: justify;"><em>El nuevo Huawei Watch Fit se caracteriza por tener una nueva pantalla AMOLED rectangular de 1.64 pulgadas, que ofrece varios beneficios.</em></p>
 <p style="text-align: justify;">Con el lanzamiento del nuevo Huawei Watch Fit, la compañía rompió el molde de sus relojes inteligentes, ofreciendo una pantalla AMOLED rectangular de 1.64 pulgadas para que los usuarios disfruten de entrenamientos animados con una gran resolución.</p>
 <p style="text-align: justify;">Esta nueva propuesta de display rectangular ofrece como resultado una relación pantalla-cuerpo de hasta el 70%, lo que hace que el smartwatch sea espectacular para mirarlo desde cualquier ángulo. A continuación, siete de los más importantes beneficios que ofrece la nueva pantalla AMOLED rectangular del Watch Fit.</p>
