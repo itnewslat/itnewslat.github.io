@@ -78,4 +78,6 @@ week: '44'
 	<li style="text-align: justify;">Adoptar una seguridad eficaz para los <em>endpoints</em> que ofrezca protección contra las amenazas de la web, la red y el correo electrónico.</li>
 	<li style="text-align: justify;">También es importante mejorar los conocimientos de los responsables de TI sobre las ciberamenazas pertinentes y la forma de prevenirlas. Kaspersky Endpoint Security Cloud ofrece formación online sobre ciberseguridad que les permite adquirir nuevas habilidades sobre cómo clasificar el malware y reconocer comportamientos maliciosos y sospechosos en el software. Está disponible en versión beta en la <a href="https://cloud.kaspersky.com/">consola de administración de productos</a>.</li>
 </ul>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Grupo-Hackers-p.jpg)
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
