@@ -33,3 +33,4 @@ week: '44'
 <p style="text-align: justify;"> Tonny continuará dando soporte a la organización en Brasil, para asegurar una transición fluida y el mejor servicio para los clientes en el país. El nuevo líder para IBM Brasil será anunciado a la brevedad.</p>
 <p style="text-align: justify;"></p>
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Tonny-Martins-p.jpg)
