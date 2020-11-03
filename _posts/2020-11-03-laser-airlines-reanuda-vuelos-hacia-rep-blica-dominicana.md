@@ -8,7 +8,7 @@ superArticle: false
 year: '2020'
 title: Laser Airlines reanuda vuelos hacia República Dominicana
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Laserp.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/laserp.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Laserg.jpg
 categories:
@@ -28,6 +28,6 @@ week: '45'
 <p style="text-align: justify;">La página web de la aerolínea ha sido optimizada para que el pasajero pueda descargar su pase de abordar directamente en su dispositivo electrónico y, así, reducir los contactos físicos durante el proceso de viaje.</p>
 <p style="text-align: justify;"> “Hemos capacitado a todo el personal operativo en el manejo de los protocolos de prevención del COVID-19, desde la fase de pre chequeo hasta el retiro del equipaje, pues estamos comprometidos en generar confianza y tranquilidad para que nuestros clientes puedan disfrutar un vuelo confiable junto a nosotros”, agregó Cortés.</p>
 <p style="text-align: justify;">Los canales oficiales de información de la aerolínea son la página web <a href="http://www.laserairlines.com">www.laserairlines.com</a> y las redes sociales @LaserAirlines en Twitter, @LaserAirlinesOficial en Instagram y Laser Airlines en Facebook.</p>
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Laserg.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/laserp.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
