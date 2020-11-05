@@ -8,9 +8,9 @@ superArticle: false
 year: '2020'
 title: 'Latinoamérica presenta rezago en planeación de bandas mmWave para 5G '
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Pago-Digital-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/5G-Tecnologia-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Pago-Digital-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/5G-Tecnologia-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -32,6 +32,6 @@ week: '45'
 <p style="text-align: justify;">Estos despliegues pueden brindar capacidad adicional en zonas de muy alta densidad de conexiones y también apoyarán servicios como la distribución de video de ultra alta definición o banda ancha fija-inalámbrica. Además de las políticas de espectro dirigidas específicamente a bandas mmWave se requieren marcos regulatorios que fomenten el despliegue de infraestructura de fibra óptica y radiobases, preferentemente con reglas homologadas y permisos ágiles.</p>
 <p style="text-align: justify;">El reporte está disponible para su descarga en https://brechacero.com/white-papers/.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Pago-Digital-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/5G-Tecnologia-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
