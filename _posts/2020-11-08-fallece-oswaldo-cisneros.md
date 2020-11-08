@@ -17,11 +17,11 @@ tags:
   - Actualidad
 week: '45'
 ---
-Hoy pudimos conocer la noticias que el conocido empresario venezolano **Oswaldo Cisneros** (1941-2020). Empresario innovador, con un don de gente único en la industria de las telecomunicaciones (TELCEL y DIGITEL) y un extraordinario compromiso social.
+<p style="text-align: justify;">Hoy pudimos conocer la noticias que el conocido empresario venezolano **Oswaldo Cisneros** (1941-2020). Empresario innovador, con un don de gente único en la industria de las telecomunicaciones (TELCEL y DIGITEL) y un extraordinario compromiso social.</p>
 
-El hecho ocurrió en la ciudad de Miami, en la madrugada del día de hoy, mientras se encontraba hospitalizado por una afección que le obligó a estar en el centro asistencial desde su llegada hace unos días atras.
+<p style="text-align: justify;">El hecho ocurrió en la ciudad de Miami, en la madrugada del día de hoy, mientras se encontraba hospitalizado por una afección que le obligó a estar en el centro asistencial desde su llegada hace unos días atras.</p>
 
-Por su parte la empresa **DIGITEL**, emitió el siguiente comunicado de prensa
+<p style="text-align: justify;">Por su parte la empresa **DIGITEL**, emitió el siguiente comunicado de prensa</p>
 
 <p style="text-align: justify;">Con una profunda tristeza, hoy 8 de noviembre de 2020, les informamos que por complicaciones de salud ha fallecido en Miami, junto a su familia, nuestro presidente y gran amigo el señor Oswaldo Cisneros. Un hombre ejemplar, visionario, humilde y con un gran amor por Venezuela.</p>
 <p style="text-align: justify;">Su visión como hombre de negocios y su calidad humana, permitieron que miles de personas se vieran beneficiadas, gracias a sus ganas de fomentar el talento en el país y a su compromiso social. Oswaldo Cisneros deja un importante legado, marcado por la innovación y el empuje para hacer la diferencia en el desarrollo de una mejor Venezuela.</p>
@@ -30,14 +30,12 @@ Por su parte la empresa **DIGITEL**, emitió el siguiente comunicado de prensa
 
 ![](http://www.ciberespacio.com.ve/wp-content/uploads/2015/05/OSwaldo-Cisneros.jpg)
 
-Durante la conversación con Edgar Rincón, Oswaldo Cisneros analiza el mercado nacional de las telecomunicaciones
-<p style="text-align: justify;">
-  
-En tal sentido, nuestro editor Edgar Rincón, publicaba la noticia en sus redes sociales indicando</p>
+<p style="text-align: justify;"> Durante unas de las tantas conversación con Edgar Rincón, Oswaldo Cisneros analizaba el mercado nacional de las telecomunicaciones</p>
+
+<p style="text-align: justify;"> En tal sentido, nuestro editor Edgar Rincón, publicaba la noticia en sus redes sociales indicando</p>
 <p style="text-align: justify;"><em><span style="color: #38444d; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic'; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">De verdad que no tengo palabras para expresarme, solo siento un profundo dolor y soledad por esta terrible noticia. Me uno como uno más al dolor que embarga a la familia </span><a class="link-complex" style="color: #1da1f2; text-decoration: none; outline: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic'; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;" href="https://twitter.com/search?q=%23Digitel" target="_blank" rel="hashtag"><span class="hash">#</span><span class="link-complex-target" style="text-decoration: underline;">Digitel</span></a><span style="color: #38444d; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic'; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">. Un fuerte abrazo La industria pierde un amigo, líder y visionario</span></em>
-
-**[@ERINCONM link del tweet](https://twitter.com/erinconm/status/1325448148320481280)**</p>
-
+</p>
+[@ERINCONM link del tweet](https://twitter.com/erinconm/status/1325448148320481280)
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Oswaldo-Cisneros-p.jpg)
 
