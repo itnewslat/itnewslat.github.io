@@ -17,7 +17,7 @@ tags:
   - Actualidad
 week: '45'
 ---
-<p style="text-align: justify;">Hoy pudimos conocer la noticias que el conocido empresario venezolano **Oswaldo Cisneros** (1941-2020). Empresario innovador, con un don de gente único en la industria de las telecomunicaciones (TELCEL y DIGITEL) y un extraordinario compromiso social.</p>
+<p style="text-align: justify;">Hoy pudimos conocer la noticias que el conocido empresario venezolano Oswaldo Cisneros (1941-2020). empresario,visionario y líder de la industria de las telecomunicaciones (TELCEL y DIGITEL) y un extraordinario compromiso social.</p>
 
 <p style="text-align: justify;">El hecho ocurrió en la ciudad de Miami, en la madrugada del día de hoy, mientras se encontraba hospitalizado por una afección que le obligó a estar en el centro asistencial desde su llegada hace unos días atras.</p>
 
