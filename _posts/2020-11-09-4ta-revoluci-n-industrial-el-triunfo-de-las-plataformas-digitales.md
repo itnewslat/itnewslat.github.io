@@ -3,14 +3,14 @@ layout: posts
 color-schema: red-dark
 date: '2020-11-09 18:33 -0400'
 published: true
-superNews: true
-superArticle: false
+superNews: false
+superArticle: true
 year: '2020'
 title: '4ta Revolución Industrial: El Triunfo de las Plataformas Digitales'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cuarta-Revolucion-Industrial-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cuarta-Revolucion-Industrial-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner_LMN_1200x450.jpg
 categories:
   - Venezuela
   - Colombia
@@ -27,7 +27,8 @@ tags:
 ---
 <p style="text-align: justify;"><strong><em>La manera más efectiva de anticipar el futuro es creándolo, entendiendo el impacto estratégico de las nuevas tecnologías e ideas innovadoras en el mundo.</em></strong></p>
 
-<img class="wp-image-68384" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/11/HectorAlonso.jpg" alt="" width="280" height="282" /></a> Hector Alonso Presidente Regional Lumen América Latina
+<img class="wp-image-68384" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/11/HectorAlonso.jpg" alt="" width="280" height="282" /> 
+<p style="text-align: justify;"><strong><em>Hector Alonso</em></strong> Presidente Regional Lumen América Latina</p>
 <p style="text-align: justify;">La mayoría de las veces, la frase “el futuro es incierto”, es correcta cuando se intenta planificar una estrategia para enfrentar el porvenir. Sin embargo, en nuestra industria de tecnologías corporativas, esa afirmación podría ser relativa.</p>
 <p style="text-align: justify;">Hoy tenemos claridad de lo que depara el futuro, del escenario en el que se desenvolverán las empresas digitales, y por lo mismo, es que debemos prepararnos para lo que viene; modelando nuestros negocios, construyendo una cultura organizacional resiliente, y aprovechando los beneficios principales de las nuevas tecnologías en esta era de la Transformación Digital.</p>
 <p style="text-align: justify;">La crisis generada a partir de la pandemia de Covid-19 favoreció la Aceleración Digital, permitiendo que el salto cuantitativo proyectado para realizarse en unos años, se concretara en sólo seis meses. Es así como la robótica, la Inteligencia Artificial, y la IoT han fortalecido la innovación empresarial. Hemos visto que, en el marco de esta crisis, la tecnología se ha consolidado como la herramienta fundamental para adaptarse a una nueva forma de entender la normalidad, ésta que aún no hemos definido con precisión.</p>
