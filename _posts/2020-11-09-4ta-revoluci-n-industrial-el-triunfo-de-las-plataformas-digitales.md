@@ -22,6 +22,8 @@ categories:
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner_LMN_1200x450.jpg
 week: '46'
+tags:
+  - Transformación Digital
 ---
 <p style="text-align: justify;"><strong><em>La manera más efectiva de anticipar el futuro es creándolo, entendiendo el impacto estratégico de las nuevas tecnologías e ideas innovadoras en el mundo.</em></strong>
  
