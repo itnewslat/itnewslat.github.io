@@ -8,7 +8,7 @@ superArticle: true
 year: '2020'
 title: '4ta Revolución Industrial: El Triunfo de las Plataformas Digitales'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cuarta-Revolucion-Industrial-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner_LMN_1200x450.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner_LMN_1200x450.jpg
 categories:
