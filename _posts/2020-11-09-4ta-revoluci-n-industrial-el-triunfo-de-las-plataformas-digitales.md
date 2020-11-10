@@ -25,6 +25,8 @@ week: '46'
 tags:
   - Transformación Digital
 ---
+[Mas información aquí](https://www.lumen.com/es-co/home.html?L_Campaign=PUBLICIDAD-ONLINE&L_Tactic=MEDIA-ADS&L_Subtactic=BRANDING-LUMEN&utm_source=CCQ-Banner&utm_medium=Paid&utm_content=Lumen-fist-bump-4RI_Static-Banner&utm_term=Lumen-fist-bump-4RI_450x200&utm_campaign=Branding-Lumen-Venezuela)
+
 <p style="text-align: justify;"><strong><em>La manera más efectiva de anticipar el futuro es creándolo, entendiendo el impacto estratégico de las nuevas tecnologías e ideas innovadoras en el mundo.</em></strong></p>
 
 <img class="wp-image-68384" src="http://www.ciberespacio.com.ve/wp-content/uploads/2020/11/HectorAlonso.jpg" alt="" width="280" height="282" /> 
@@ -43,3 +45,5 @@ tags:
 <p style="text-align: justify;">La tercera está relacionada a la revolución que experimentarán nuestras clásicas redes WiFi, pasando al nuevo estándar <strong>WiFi 6</strong>. Con este avance, la velocidad de descarga debería incrementarse al menos tres veces. Esto, sumado a su mayor capacidad para proporcionar una conexión eficiente y sostenida a un número muy superior de dispositivos en forma simultánea, permitirá satisfacer las nuevas y más complejas exigencias en IoT y automatización de entornos corporativos.</p>
 <p style="text-align: justify;">Como empresas tecnológicas debemos prepararnos y trabajar para el cambio. Esto implica priorizar la acción y los resultados. Si queremos avanzar hacia el siguiente nivel, debemos modificar nuestros antiguos paradigmas, y transformarlos en nuevas formas de encarar las exigencias de una industria dinámica y exigente.</p>
 <p style="text-align: justify;">Este cambio requiere progresar con un propósito en común, que es construir una cultura colaborativa de resiliencia en nuestros negocios, con una visión compartida respecto del futuro.</p>
+
+<a href="https://www.lumen.com/es-co/home.html?L_Campaign=PUBLICIDAD-ONLINE&amp;L_Tactic=MEDIA-ADS&amp;L_Subtactic=BRANDING-LUMEN&amp;utm_source=CCQ-Banner&amp;utm_medium=Paid&amp;utm_content=Lumen-fist-bump-4RI_Static-Banner&amp;utm_term=Lumen-fist-bump-4RI_450x200&amp;utm_campaign=Branding-Lumen-Venezuela"><img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/banner_LMN.jpg" alt="" width="600" height="225" /></a>
