@@ -39,4 +39,7 @@ En un mundo donde el marketing digital es cada vez menos freemium, es decir, don
 <p style="text-align: justify;">El Marketing de Contenidos es bueno, pero sin una estrategia, es como ir de viaje sin un destino establecido. Recuerda el ejemplo de Google Maps. Si no cuentas con la estrategia correcta, perderás tiempo y energía escribiendo contenido que solo te permitirá obtener un ROI mediocre. Define bien tu estratega y te irá mejor.</p>
 <p style="text-align: justify;">*Este artículo fue publicado en la columna Geek Zone, de la revista digital <a href="https://bit.ly/3lzGs4d" target="_blank">Business Venezuela - BV 374 - Septiembre 2020</a>.</p>
 <p style="text-align: justify;">![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Angel-Mendez-p.jpg)</p>
-<p style="text-align: justify;"><img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04" alt="" /></p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Angel-Mendez-p.jpg)
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
