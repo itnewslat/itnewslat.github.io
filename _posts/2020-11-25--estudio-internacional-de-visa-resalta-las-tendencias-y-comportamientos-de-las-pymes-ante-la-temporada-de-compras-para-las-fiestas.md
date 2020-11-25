@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2020'
 title: >-
-  >Estudio Internacional de Visa Resalta las Tendencias y Comportamientos de las
+  Estudio Internacional de Visa Resalta las Tendencias y Comportamientos de las
   PyMEs Ante la Temporada de Compras para las Fiestas
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Tarjetas-Visa-p.jpg
