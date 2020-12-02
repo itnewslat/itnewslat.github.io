@@ -52,6 +52,6 @@ week: '49'
 <ul>
 	<li style="text-align: justify;"><strong>Un marco normativo acertado.</strong> A nivel mundial, la regulación sobre el acceso a datos y cuentas de clientes se ha implementado a diferentes ritmos y alcances. En Europa la regulación ya está vigente a través de la conocida PSD2. En el caso de México, recientemente se aprobó y en Brasil se está diseñando un marco normativo con todas las instituciones involucradas. Se espera que más países de América Latina pronto tenga una ley de <em>Open Banking</em>.</li>
 </ul>
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320Oficina-Bancaria-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Oficina-Bancaria-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
