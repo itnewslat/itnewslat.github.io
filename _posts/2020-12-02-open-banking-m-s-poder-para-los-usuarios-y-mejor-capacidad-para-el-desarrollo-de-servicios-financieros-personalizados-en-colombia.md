@@ -10,7 +10,7 @@ title: >-
   Open Banking; más poder para los usuarios y mejor capacidad para el desarrollo
   de servicios financieros personalizados en Colombia
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320Oficina-Bancaria-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Oficina-Bancaria-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Oficina-Bancaria-g.jpg
 categories:
