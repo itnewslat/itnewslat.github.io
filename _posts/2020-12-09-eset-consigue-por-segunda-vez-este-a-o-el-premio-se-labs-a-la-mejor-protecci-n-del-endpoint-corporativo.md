@@ -10,7 +10,7 @@ title: >-
   ESET consigue por segunda vez este año el premio SE Labs a la mejor protección
   del endpoint corporativo
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Robot-Eset-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Robot-Eset-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Robot-Eset-g.jpg
 categories:
@@ -30,7 +30,7 @@ week: '50'
 <p style="text-align: justify;">ESET Endpoint Security combina un antivirus robusto con medidas de protección y monitorización de la red con el objetivo de proteger a las empresas. Al ser analizada por SE Labs, la herramienta de ESET fue expuesta a una mezcla de ataques dirigidos y amenazas reales basadas en vectores de ataque como los emails y las webs maliciosas. Los resultados demuestran que la solución es efectiva tanto a la hora de bloquear URL maliciosas como de lidiar con exploits y clasificar correctamente las aplicaciones y webs legítimas.</p>
 <p style="text-align: justify;">“<em>ESET Endpoint Security ofrece a los clientes el mejor nivel de protección posible. Recibir esta calificación por parte de SE Labs es una buena prueba de ello</em>”, afirma Jiri Kropác, responsable del laboratorio de detección de amenazas en ESET. “Estamos constantemente adaptando y mejorando<em> nuestras tecnologías para ofrecer una herramienta que equilibre la detección y prevención más innovadoras con un rendimiento óptimo y esto se ve reflejado en el informe de SE Labs. Estamos orgullosos de recibir este tipo de reconocimientos</em>”.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Robot-Eset-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Robot-Eset-p.jpg)
 
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
