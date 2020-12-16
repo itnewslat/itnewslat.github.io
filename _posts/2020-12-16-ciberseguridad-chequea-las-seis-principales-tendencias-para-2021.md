@@ -8,8 +8,7 @@ superArticle: false
 year: '2020'
 title: 'Ciberseguridad: chequea las seis principales tendencias para 2021'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cyberseguridad
-  p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cyberseguridad-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cyberseguridad
   g.jpg
@@ -45,6 +44,6 @@ week: '51'
 <p style="text-align: justify;">La tendencia más positiva para lograr una mayor eficacia en las acciones es el paso de la prevención a la respuesta de seguridad cibernética. La filosofía de Unisys es que cuando se trata de seguridad, ya no se trata de si un usuario ha sido hackeado, sino de cuándo. Y lo más importante: cómo es la respuesta al ataque. "Las empresas no tienen suficiente presupuesto para prevenir un ataque e invertir en una multitud de tecnologías de protección. Por lo tanto, es alentador ver que las organizaciones centren sus enfoques en responder a una intrusión, incluso simulando periódicamente un ataque - para lograr un nivel de claridad de exposición - y capacitando al equipo para abordar cualquier laguna que pueda existir", señala Aguirre.</p>
 <p style="text-align: justify;">La tendencia negativa, o aquella que puede considerarse la más perjudicial, es consecuencia de la ampliación del campo de ataque de las organizaciones. Hay más puertas de entrada a las empresas con mucha gente trabajando o estudiando en casa. Por eso, los ciberdelincuentes lanzan, ahora más que nunca, ataques con el objetivo de explotar las vulnerabilidades de quienes confían en sus redes domésticas. "El año 2020 y el Covid-19 han demostrado que algunas tendencias son difíciles de predecir, pero estamos convencidos de que lo importante es estar alertas y preparados para actuar rapidamente, independientemente de la amenaza que surja", concluye Aguirre.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cyberseguridad p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cyberseguridad-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
