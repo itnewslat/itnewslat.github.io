@@ -11,7 +11,7 @@ title: >-
   violación de datos
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Datos
-  importantes-g.gif
+  importantes-p.gif
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Datos
   importantes-g.gif
@@ -42,6 +42,6 @@ week: '52'
 <p style="text-align: justify;">Por esta razón, DigiCert seguirá desempeñando un papel activo para ayudar a las organizaciones a implementar la seguridad en un mundo cada vez más rico en datos porque tiene experiencia en integridad, cifrado y autenticación de datos. Otra responsabilidad relacionada con la protección de datos es la transparencia y ahora los consumidores quieren estar informados y piden una mayor transparencia sobre el uso de sus datos.</p>
 <p style="text-align: justify;">DigiCert recomienda que las empresas y los fabricantes sean transparentes en la recopilación de datos e informen a sus consumidores sobre los procesos utilizados para mantenerlos seguros. Las empresas y los consumidores que trabajan juntos pueden proteger la confidencialidad y la integridad de los datos.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Datos importantes-g.gif)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Datos%20importantes-p.gif)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
