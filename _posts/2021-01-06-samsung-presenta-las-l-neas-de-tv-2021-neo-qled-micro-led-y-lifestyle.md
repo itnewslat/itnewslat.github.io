@@ -1,0 +1,75 @@
+---
+layout: posts
+color-schema: red-dark
+date: '2021-01-06 14:08 -0400'
+published: true
+superNews: false
+superArticle: false
+year: '2021'
+title: 'Samsung presenta las líneas de TV 2021 Neo QLED, MICRO LED y Lifestyle'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Samsung-NEO-QLED-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Samsung-NEO-QLED-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Movilidad
+week: '1'
+---
+<p style="text-align: justify;"><strong> destacando el compromiso con un futuro sostenible e incluyente</strong></p>
+<p style="text-align: justify;"><em>Samsung entra en su decimoquinto año como la marca líder mundial de televisores con la visión de "Pantallas en todas partes, pantallas para todos"</em></p>
+<p style="text-align: justify;">Samsung Electronics Co., Ltd. presentó hoy su portafolio 2021 de pantallas de TV Neo QLED, MICRO LED y Lifestyle durante su primer evento virtual First Look antes del CES 2021. La nueva línea subraya las características de compromiso de Samsung con la accesibilidad, sostenibilidad e innovación con nuevos avances que ayudan a redefinir el papel de la televisión en los hogares de los usuarios.</p>
+<p style="text-align: justify;">“Durante el año pasado, fuimos testigos del papel fundamental que desempeñó la tecnología para ayudarnos a continuar con nuestras vidas y mantenernos conectados entre nosotros. Nuestro compromiso con un futuro inclusivo y sostenible va de la mano con nuestra incansable búsqueda de la innovación para satisfacer las necesidades cambiantes de los consumidores, desde la reducción de la huella de carbono de nuestros productos hasta el suministro de un conjunto de características de accesibilidad y la oferta de experiencia de visualización incomparable que se adapta al estilo de vida de cada usuario” dijo JH Han, presidente de Visual Display Business en Samsung Electronics.</p>
+<p style="text-align: justify;"><strong>Un futuro sostenible y accesible para todos</strong></p>
+<p style="text-align: justify;">En los próximos años, Samsung se embarcará en un viaje de "<strong>Going Green</strong>" para alinear las operaciones comerciales de TV a través de los siguientes programas de sostenibilidad a largo plazo:</p>
+
+<ul style="text-align: justify;">
+	<li><strong>Reducir la huella de carbono y mejorar la eficiencia energética:</strong> buscará reducir sistemáticamente su huella de carbono general en la fabricación de televisores. La compañía también buscará bajar el consumo de energía de los usuarios y utilizar más materiales reciclados en toda su línea de TV.</li>
+	<li><strong>Diseño de empaque sostenible:</strong> sobre la base de los valiosos comentarios de los consumidores, Samsung está expandiendo su galardonado diseño de "empaque ecológico" a todos los televisores Lifestyle 2021 y a la mayoría de la línea Neo QLED 2021. Esta solución sostenible puede reciclar hasta 200.000 toneladas de cajas de cartón ondulado cada año[1]. Al minimizar el texto y las imágenes gráficas en el empaque ecológico, se elimina la tinta a base de aceite de la impresión en color que se usa tradicionalmente en las cajas de TV, lo que ayuda a reducir más el desperdicio.</li>
+	<li><strong>Control remoto de celda solar:</strong> en 2021, los televisores Samsung vendrán con un control remoto que funciona con energía solar que se puede recargar con luz interior, luz exterior o USB, una innovación única en su tipo para la marca. Esto ayudará a evitar el desperdicio de 99 millones de baterías AAA proyectadas durante siete años[2]. Para construir el control remoto, Samsung innovó el proceso de fabricación que recicla los plásticos de las botellas reciclables, incluido el 24% de contenido reciclado[3].</li>
+</ul>
+<p style="text-align: justify;">Las funciones de accesibilidad 2021 de Samsung, ahora disponibles en todos los modelos QLED y Neo QLED 2021, brindan los últimos avances en tecnología e inteligencia artificial (IA) para ayudar a más personas a disfrutar cómodamente de su experiencia televisiva. La línea 2021 agrega nuevas características como <strong>Subtítulos en movimiento</strong>, <strong>Zoom de lenguaje de señas</strong> y <strong>Audio de salida múltiple</strong>, brindando a las personas con problemas de audición, sordos, personas con baja visión y ciegos la capacidad de optimizar su visualización según sus necesidades y preferencias. Para 2022, Samsung se compromete a expandir su función Voice Guide, que brinda guía de audio para personas sordas y con baja visión. Y Samsung continuará desarrollando nuevas funciones basadas en inteligencia artificial para mejorar la accesibilidad de los televisores Samsung en los próximos años.</p>
+<p style="text-align: justify;"><strong>Neo QLED, un salto cualitativo en la tecnología de pantalla de TV</strong></p>
+<p style="text-align: justify;">Samsung está introduciendo una tecnología de pantalla completamente nueva, <strong>Neo QLED</strong>, en sus <strong>modelos insignia 8K (QN900A) y 4K (QN90A)</strong>. Samsung está llevando QLED al siguiente nivel habilitado por una nueva fuente de luz, <strong>Quantum Mini LED</strong> controlado con precisión por <strong>Quantum Matrix Technology</strong> y <strong>Neo Quantum Processor</strong>, un potente procesador de imágenes optimizado para Neo QLED.</p>
+<p style="text-align: justify;">Samsung diseñó el <strong>Quantum Mini LED</strong> para tener 1/40 de la altura de un LED convencional. En lugar de usar una lente para dispersar la luz y un paquete para fijar el LED en su lugar, el Quantum Mini LED tiene microcapas increíblemente delgadas llenas de muchos más LED. La tecnología <strong>Quantum Matrix</strong> permite un control ultrafino y preciso de los LED densamente empaquetados, lo que evita el florecimiento y permite a los espectadores disfrutar del contenido como debe ser visto. Neo QLED aumenta la escala de luminancia a 12 bits con 4096 pasos; esto ayuda a que las áreas oscuras sean más oscuras y las áreas brillantes más brillantes, lo que resulta en una experiencia HDR más precisa e inmersiva. Y Neo QLED se beneficia del potente <strong>procesador Neo Quantum</strong> patentado por Samsung con capacidades mejoradas de escalado. Mediante el uso de hasta 16 modelos de redes neuronales diferentes, cada uno capacitado en tecnología de mejoramiento de inteligencia artificial y aprendizaje profundo, el procesador Neo Quantum puede optimizar la calidad de imagen a una salida de imagen 4K y 8K independientemente de la calidad de entrada.</p>
+<p style="text-align: justify;">El 2021 Neo QLED 8K de Samsung presenta un nuevo <strong>diseño Infinity One</strong>: una pantalla casi sin bisel que brinda una experiencia de visualización aún más inmersiva en un diseño y factor de forma elegantes. Y la <strong>caja acoplable Slim One Connect</strong> de Neo QLED 8K, un sistema de administración de cables completamente nuevo que se puede conectar a la parte posterior del televisor, permite una instalación más fácil y una estética más limpia. El 2021 Neo QLED 8K también incluye varias características de audio premium que llenan la habitación; El sonido dinámico de <strong>Object Tracking Sound</strong> (OTS) Pro corresponde al movimiento de objetos en la pantalla, y <strong>SpaceFit Sound</strong> analiza el entorno físico del televisor instalado y emite un sonido envolvente adaptado específicamente a su espacio.</p>
+<p style="text-align: justify;">Los modelos 2021 Neo QLED 8K y 4K de Samsung ofrecen funciones inteligentes que amplían el papel del televisor y ayudan a los consumidores a satisfacer sus necesidades cambiantes cuando se trata de fitness, entretenimiento y la oficina en casa.</p>
+
+<ul style="text-align: justify;">
+	<li><strong>Samsung Health</strong> transforma a la perfección el hogar en un gimnasio personal y la nueva función <strong>Smart Trainer</strong> rastrea y analiza la postura en tiempo real, como un entrenador personal. Durante y después del entrenamiento, Smart Trainer proporciona comentarios sobre el formulario, lo ayuda a contar sus repeticiones y calcula las calorías quemadas. Con video y entrenamiento interactivo a través del control de voz habilitado por Bixby, Samsung Health Smart Trainer eleva y personaliza la experiencia de entrenamiento en casa.</li>
+</ul>
+<ul style="list-style-type: disc; text-align: justify;">
+	<li>Con dos nuevas funciones exclusivas, Samsung ofrece la mejor experiencia de juegos de TV. <strong>Super Ultrawide GameView</strong> ofrece a los jugadores la opción de jugar no solo con la relación de aspecto amplia de 21:9, sino incluso con la relación ultra ancha de 32:9. El campo de visión más amplio garantiza que los jugadores no se pierdan ni un momento de la acción. Y Game Bar permite a los jugadores monitorear y ajustar rápidamente aspectos críticos del juego, ya sea cambiar las relaciones de aspecto, verificar el retraso de entrada o conectar un auricular. Finalmente, FreeSync Premium Pro minimiza el tartamudeo para que los jugadores disfruten de una calidad de imagen fluida durante el juego.</li>
+</ul>
+<ul style="list-style-type: disc; text-align: justify;">
+	<li>Con <strong>Google Duo</strong>, los consumidores pueden usar su teléfono para iniciar una videollamada de alta calidad y velocidad a la que pueden unirse hasta 32 personas, sin importar el sistema operativo que estén usando. Con la aplicación Google Duo, puede realizar videollamadas directamente a través de una cámara opcional conectada por USB. Y con la solución de cámara inteligente, la cámara puede seguir tus movimientos. Se acercará y alejará automáticamente para que tenga el tamaño adecuado, siempre enfocado.</li>
+</ul>
+<ul style="text-align: justify;">
+	<li><strong>PC en TV</strong> en dispositivos Samsung permite a los consumidores conectar una PC al televisor, lo que permite trabajar y aprender desde casa a través de la pantalla del televisor con un mouse, teclado y PC conectados. Los consumidores también pueden acceder directamente a MS Office 365 a través del navegador web del televisor para crear y editar documentos. Simplemente instale una aplicación Easy Connection en su computadora e inicie sesión en su cuenta Samsung, y su televisor se conectará automáticamente a su PC, haciendo que trabajar desde la sala de estar sea perfecto.</li>
+</ul>
+<p style="text-align: justify;"><strong>Una nueva era de calidad y diseño de imágenes impresionantes con MICRO LED</strong></p>
+<p style="text-align: justify;">En 2021, la promesa de Micro LED llega a casa. Con la nueva línea <strong>MICRO LED</strong>, Samsung ha hecho que Micro LED esté disponible en un formato de TV tradicional por primera vez, brindando a los consumidores una experiencia visual impresionante en una pantalla ultra grande de próxima generación.</p>
+<p style="text-align: justify;">Disponible en <strong>110''</strong>, <strong>99''</strong> y tamaños más pequeños para fin de año, la nueva línea MICRO LED utiliza luces LED del tamaño de un micrómetro para eliminar la luz de fondo y los filtros de color utilizados en las pantallas convencionales. Se ilumina automáticamente y produce colores y brillo asombrosamente reales a través de sus 24 millones de LED controlados individualmente. Y con un <strong>Diseño Monolítico</strong> definido por una proporción de pantalla a cuerpo superior al 99%, todo lo que verá es la impresionante calidad de imagen.</p>
+<p style="text-align: justify;">Samsung ha innovado sus funciones de Smart TV para aprovechar la enorme pantalla de la nueva línea MICRO LED. Por ejemplo, los consumidores pueden usar la función <strong>4Vue</strong> (vista cuádruple) para ver cómodamente hasta cuatro fuentes de contenido diferentes simultáneamente en una pantalla. Los espectadores pueden conectar varios dispositivos externos para mantenerse al día con varios juegos de playoffs a la vez o transmitir un recorrido mientras juegan un videojuego, todo en una calidad y tamaño asombrosos.</p>
+<p style="text-align: justify;">Finalmente, la experiencia de audio dinámica del nuevo MICRO LED es tan envolvente como sus imágenes. <strong>Majestic Sound</strong> ofrece un impresionante sonido de 5.1 canales sin altavoz externo, transformando cualquier habitación en un lujoso cine en casa.</p>
+<p style="text-align: justify;"><strong>Mejora de la cartera de televisores de estilo de vida galardonado</strong></p>
+<p style="text-align: justify;">Samsung también está mejorando su línea de <strong>Televisores</strong> <strong>Lifestyle</strong> 2021 con un nuevo diseño y factores de forma para reflejar los intereses y gustos cambiantes de los consumidores. Desde su lanzamiento en 2017, <strong>The Frame</strong> ha redefinido la televisión, transformando pantallas en impresionantes obras de arte, con más de un millón de unidades vendidas.</p>
+<p style="text-align: justify;">La versión 2021 se basa en el legado innovador de The Frame y ofrece una experiencia más personalizable en una forma más delgada. <strong>The Frame</strong> es aproximadamente la mitad más delgado[4] en comparación con las versiones anteriores, reflejando la profundidad de un marco de imagen tradicional. Las nuevas opciones de bisel acoplable vienen en <strong>cinco opciones de color</strong> y <strong>dos estilos personalizables diferentes</strong>, moderno y biselado, para combinar con la estética de cualquier habitación en la que se encuentre The Frame.</p>
+<p style="text-align: justify;">Con una suscripción a la nueva Art Store de The Frame, los consumidores podrán disfrutar de más de 1.400 piezas cuidadosamente seleccionadas. La nueva tecnología de autocuración basada en inteligencia artificial de Samsung analiza mejor las preferencias individuales de los consumidores para recomendar obras de arte.</p>
+<p style="text-align: justify;">Con opciones casi infinitas de personalización, la cartera de televisores de estilo de vida de Samsung, que incluye <strong>The Frame</strong>, <strong>The Serif</strong>, <strong>The Sero</strong>, <strong>The Terrace</strong> y <strong>The Premiere</strong>, actualiza de inmediato la decoración de cualquier hogar.</p>
+<p style="text-align: justify;">Para obtener más información sobre las líneas de TV 2021 de Samsung, visite <a href="https://www.samsung.com/co">https://www.samsung.com/co</a></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">[1] Basado en investigación interna.</p>
+<p style="text-align: justify;">[2] Basado en investigación interna.Los resultados pueden variar según las circunstancias de uso.</p>
+<p style="text-align: justify;">[3]Basado en investigación interna.</p>
+<p style="text-align: justify;">[4] 46% más delgado que los modelos anteriores.</p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Samsung-NEO-QLED-p.jpg)
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
