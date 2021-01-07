@@ -1,0 +1,51 @@
+---
+layout: posts
+color-schema: red-dark
+date: '2021-01-07 08:39 -0400'
+published: true
+superNews: false
+superArticle: false
+year: '2021'
+title: >-
+  Ataques a la cadena de suministro, troyanos y botnets protagonizan el final de
+  2020
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Virus-Troyano-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Virus-Troyano-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '1'
+---
+<p style="text-align: justify;"><em>ESET recuerda que muchos incidentes de seguridad siguen ocurriendo a partir de un uso malicioso del correo electrónico </em></p>
+<p style="text-align: justify;">El año 2020 se ha despedido a lo grande tras descubrirse el pasado mes de diciembre un importante hackeo a la empresa SolarWinds que ha afectado a grandes organizaciones de múltiples sectores. Sin embargo, este no ha sido el único incidente de seguridad destacable durante el último mes de un atípico año, que ha venido acompañado de muchas otras amenazas en forma de troyanos, botnets o robo de credenciales a partir de mensajes de correo maliciosos.</p>
+<p style="text-align: justify;">El incidente de seguridad sufrido por SolarWinds y, por ende, por muchas de las grandes empresas que utilizan este software, ha sido uno de los más graves del año que acabamos de dejar atrás. El ataque se habría producido por un grupo APT, y aunque algunas fuentes señalan a un grupo relacionado con Rusia como posible responsable, como siempre sucede en estos casos, no se pueden establecer conexiones concluyentes aún como para atribuir su autoría a un grupo o país en concreto.</p>
+<p style="text-align: justify;">El software de gestión de redes corporativas SolarWinds es utilizado por muchas grandes empresas de la lista Fortune 500, pero también por organismos gubernamentales y universidades de Estados Unidos, y se cree que los atacantes lo utilizaron para acceder a información confidencial de las empresas y organismos oficiales atacados. Los responsables de este incidente utilizaron lo que se conoce como ataque a la cadena de suministro, comprometiendo la seguridad de un proveedor como SolarWinds y troyanizando sus actualizaciones para instalar malware en sus objetivos pasando inadvertido.</p>
+<p style="text-align: justify;">Pero esta no fue la única operación de este tipo detectada durante el pasado mes de diciembre, ya que investigadores de <a href="https://www.eset.com/es/">ESET</a>, la mayor empresa de ciberseguridad de la Unión Europea, descubrieron otro ataque de cadena de suministro en el sitio web de la Autoridad de Certificación del Gobierno de Vietnam. Los atacantes modificaron dos de los instaladores del software disponibles para su descarga en ese sitio web y agregaron un backdoor con el objetivo de comprometer a los usuarios de la aplicación legítima.</p>
+<p style="text-align: justify;">Asimismo, y siguiendo con las investigaciones que se llevan realizando desde hace años al grupo APT Turla, investigadores de ESET encontraron un backdoor y un software para robar información previamente indocumentada y que fue apodado Crutch por sus desarrolladores. Según esta investigación, se habría estado utilizando desde 2015 hasta, al menos, principios de 2020. Se ha observado la utilización de Crutch en la red de un Ministerio de Relaciones Exteriores en un país de la Unión Europea, lo que sugiere que esta familia de malware solo se utiliza contra objetivos muy específicos, algo común con muchas herramientas de Turla.</p>
+<p style="text-align: justify;"><strong>Troyanos para todos los gustos</strong></p>
+<p style="text-align: justify;">Aunque durante la segunda mitad del mes de diciembre la actividad de troyanos bancarios con origen en Latinoamérica ha disminuido considerablemente (al menos en lo que respecta a troyanos dirigidos a usuarios españoles), el laboratorio de ESET todavía pudo analizar alguna campaña de este estilo que usaba una nueva plantilla de correo. Fue el troyano bancario Mekotio el que, mediante una supuesta “comunicación urgente” sobre la COVID-19, envió una importante cantidad de correos electrónicos a usuarios españoles para intentar que estos se descargasen los archivos maliciosos que contenían la amenaza, responsable del robo de credenciales bancarias.</p>
+<p style="text-align: justify;">Otro troyano bancario que lleva tiempo entre nosotros es Dridex, que también lanzó una campaña en todo el mundo con una supuesta factura adjunta. En el caso de que el usuario abriese y permitiese la ejecución de macros se iniciaba una cadena de infección que terminaba con la instalación de este troyano bancario clásico y cuyos desarrolladores han estado preparando también variantes de ransomware desde hace algunos años.</p>
+<p style="text-align: justify;">Un apunte especial merecen las campañas de troyanos bancarios orientadas a dispositivos Android. Entre ellas encontramos una que aún aprovechaba el nombre de Flash Player, software que fue definitivamente abandonado por Adobe el 1 de enero de este 2021. Los usuarios que descargaban esta aplicación maliciosa en sus dispositivos móviles eran infectados por una variante de troyano bancario con funcionalidades como el robo de credenciales o la interceptación de mensajes SMS para hacerse con los códigos de verificación que envían las entidades para confirmar la realización de una transferencia.</p>
+<p style="text-align: justify;">Además, durante las últimas semanas de diciembre apareció una campaña similar a la anterior pero que suplantaba en esta ocasión a la empresa estatal Correos. Utilizando el seguimiento de un supuesto envío, los delincuentes intentan que los usuarios descarguen y ejecuten esta app maliciosa, llegando incluso a ofrecer instrucciones detalladas para conseguir su correcta instalación. Su finalidad volvía a ser la obtención de credenciales bancarias para robar dinero de las cuentas de los usuarios.</p>
+<p style="text-align: justify;"><strong>El regreso de las botnets</strong></p>
+<p style="text-align: justify;">Tal y como sucedió en años anteriores, el malware Emotet volvió a activarse justo antes de la campaña navideña. Mediante el envío masivo de correos electrónicos personalizados para cada región o país a los que se enviasen, los delincuentes detrás de esta veterana amenaza volvían a adjuntar documentos Word maliciosos que, al permitir la ejecución de macros, ejecutaban código malicioso y descargaban malware adicional. Recordemos que Emotet está relacionada con el robo y cifrado de información en varias campañas realizadas durante todo 2020, llevadas a cabo con la ayuda de otras familias de malware como Trickbot, Qbot, Ryuk o Conti, entre otras.</p>
+<p style="text-align: justify;">Precisamente, una de estas familias de malware, Qbot, estuvo especialmente activa durante las semanas que Emotet estuvo descansando antes de volver a activarse de nuevo. Su forma de propagarse es muy similar a Emotet y consiste en el envío masivo de emails con adjuntos que contienen macros maliciosas que descargan y ejecutan malware adicional. Qbot suele estar relacionado con el robo de información, aunque también se le ha visto propagando variantes de ransomware como Prolock y Egregor.</p>
+<p style="text-align: justify;"><strong>Otras amenazas</strong></p>
+<p style="text-align: justify;">El lanzamiento de Cyberpunk 2077, posiblemente el videojuego más esperado del año pasado, también fue aprovechado por los delincuentes como gancho para propagar sus amenazas. A través de varios enlaces que prometían una descarga gratuita del juego se han estado distribuyendo varias amenazas, desde molestas encuestas a amenazas que recopilaban información de nuestro sistema y mostraban publicidad no deseada.</p>
+<p style="text-align: justify;">Un nuevo correo suplantando a una entidad bancaria (en este caso el BBVA) fue detectado a principios de diciembre adjuntando un fichero malicioso. Usando como gancho una supuesta notificación de pago, los delincuentes intentaban que sus víctimas ejecutasen este fichero para proceder a robar credenciales almacenadas en las aplicaciones objetivo, que suelen ser principalmente navegadores de Internet, clientes de correo electrónico, FTPs y VPNs.</p>
+<p style="text-align: justify;">“<em>Muchas de las amenazas que hemos repasado en este Barómetro de diciembre utilizan el correo electrónico como principal vector de ataque</em>”, comenta Josep Albors, responsable de investigación y concienciación de ESET España. “<em>Esto pone de manifiesto la vigencia de este medio como puerta de entrada de los delincuentes, tanto a sistemas de usuarios domésticos como a redes corporativas, y es un problema que especialmente las empresas deberían solucionar lo antes posible</em>”.</p>
+<p style="text-align: justify;">Las credenciales robadas pueden ser usadas posteriormente por los delincuentes para realizar ataques más elaborados a, por ejemplo, redes corporativas a las que acceden a través de VPNs. También pueden utilizar las credenciales almacenadas en el correo para enviar mensajes en nombre de la víctima o usar las credenciales almacenadas en los navegadores para acceder a alguno de los servicios utilizados por la víctima, ya sean de índole personal o profesional.</p>
+<p style="text-align: justify;">Por último, el importante crecimiento del valor del Bitcoin ha provocado que los delincuentes vuelvan a propagar campañas relacionadas con estafas y robos de criptomonedas. Esto es algo que se ha venido observando durante todo 2020, pero que se ha intensificado durante las últimas semanas del año. Entre estas campañas encontramos supuestas ofertas de inversión avaladas por personajes famosos, minado no autorizado en webs legítimas, botnets con funciones de minado y troyanos bancarios que también roban las credenciales de acceso a las billeteras de criptomonedas que muchos usuarios guardan en sus dispositivos.</p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Virus-Troyano-p.jpg)
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
