@@ -6,7 +6,9 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: Fortinet extiende la disponibilidad gratuita de sus cursos
+title: >-
+  Fortinet extiende la disponibilidad gratuita de sus cursos de ciberseguridad
+  NSE para contribuir a la fuerza laboral de la industria
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Entrenamiento-p.jpg
 detail-image: >-
@@ -23,7 +25,7 @@ tags:
   - Canales
 week: '1'
 ---
-<strong>de ciberseguridad NSE para contribuir a la fuerza laboral de la industria</strong></p>
+
 <p style="text-align: justify;"><em>En respuesta a la creciente brecha de habilidades y demanda en ciberseguridad, Fortinet continúa ofreciendo el catálogo completo de sus cursos Network Security Expert de manera gratuita </em></p>
 <p style="text-align: justify;"><a href="https://www.fortinet.com/?utm_source=pr&amp;utm_campaign=2019-q3-fortinet">Fortinet</a>, líder global de soluciones de ciberseguridad amplias, integradas y automatizadas, anunció hoy que todos sus cursos avanzados continuarán abiertos al público de <a href="https://www.fortinet.com/training/cybersecurity-professionals?utm_source=pr&amp;utm_medium=campaign&amp;utm_campaign=Freetraininginitiative">forma gratuita</a> durante el año 2021. Fortinet continúa comprometido con el desarrollo de una fuerza laboral de ciberseguridad más inclusiva al facilitar sus cursos digitales de manera gratuita para personas en cualquier parte del mundo. La iniciativa de Fortinet de cursos gratuitos proporciona:</p>
 
