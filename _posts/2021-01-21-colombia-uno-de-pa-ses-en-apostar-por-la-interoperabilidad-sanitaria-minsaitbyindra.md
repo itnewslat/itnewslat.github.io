@@ -1,0 +1,47 @@
+---
+layout: posts
+color-schema: red-dark
+date: '2021-01-21 16:57 -0400'
+published: true
+superNews: false
+superArticle: false
+year: '2021'
+title: >-
+  Colombia, uno de países en apostar por la interoperabilidad sanitaria.
+  @minsaitbyindra
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Medico-Tecnologia-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Medico-Tecnologia-g.jpg
+categories:
+  - Colombia
+tags:
+  - Transformación Digital
+week: '3'
+---
+<ul style="text-align: justify;">
+	<li><strong>Así lo señala el Libro Blanco de Interoperabilidad en Salud que ha presentado Minsait, una compañía de Indra, donde señala cómo el intercambio y uso de datos entre los agentes del sector ayudaría a reducir la distancia con los países más desarrollados en este ámbito gracias a su potencial para mejorar la salud de la población y reducir costos</strong></li>
+	<li><strong>El entorno favorable a nivel regulatorio y el grado de avance del proyecto de interoperabilidad de Historia Clínica Electrónica Unificada que se desarrolla en Bogotá permite que Colombia se ubique como uno de los países referentes en transformación digital del sector salud en América Latina</strong></li>
+	<li><strong>Los modelos de interoperabilidad permiten que el paciente sea dueño de su información y obtenga atención personalizada y de calidad, y que los profesionales accedan de forma sencilla a la información para un mejor diagnóstico y tratamiento</strong></li>
+</ul>
+<p style="text-align: justify;"><strong> </strong>Colombia es uno de los principales países de Latinoamérica en impulsar la interoperabilidad sanitaria, promoviendo así la digitalización y contribuyendo a reducir la brecha de salud en la región. Así lo señala Minsait, una compañía de Indra, en su Libro Blanco de Interoperabilidad en Salud, que acaba de dar a conocer en el país. Este estudio muestra cómo los sistemas interoperables de salud permiten adoptar tecnologías como Big Data o Inteligencia Artificial para ayudar a impulsar la digitalización y reducir la brecha entre los resultados de salud de Latinoamérica y otros países.Para ello, la compañía ha creado un exhaustivo informe con entrevistas a 80 líderes de ocho países de la región, incluyendo Colombia, la cual obtuvo resultados que evidencian un progreso importante en términos de madurez en interoperabilidad en salud.</p>
+<p style="text-align: justify;">Desde la perspectiva de los expertos consultados por Minsait, en ello ha sido importante la existencia de una agenda digital y un marco regulatorio favorable a la digitalización, así como el proyecto de Historia Clínica Electrónica Unificada en Bogotá, en el cual participó Minsait con la solución Onesait Healthcare. Factores que destacan como las principales fortalezas y oportunidades para seguir avanzando en este sentido. Asimismo, el Libro Blanco de Interoperabilidad en Salud también apela a la necesidad de fortalecer la inversión en infraestructura tecnológica como paso necesario para potenciar la interoperabilidad.</p>
+<p style="text-align: justify;">La pandemia que experimentamos a nivel mundial ha acelerado la demanda de sistemas de información interoperables, lo que implica el desarrollo e incorporación de aplicaciones y dispositivos interconectados que permitan el intercambio de datos entre médicos, pacientes y gestores, así como el uso cooperativo de la información para tomar decisiones que impacten de forma positiva la salud de la población, garanticen la prestación del servicio y reduzcan costos.</p>
+<p style="text-align: justify;">“Durante los últimos años, la interoperabilidad ha venido adquiriendo mayor relevancia en la discusión sobre la eficiencia en los sistemas de salud, a tal punto en que, para cumplir las metas en calidad y cobertura de los servicios en el sistema de salud, las autoridades han empezado a impulsar lineamientos y políticas que ayuden a este cambio necesario” sostuvo José Fernando Quintero, director de Sanidad en Minsait.</p>
+<p style="text-align: justify;">En efecto, según el informe de madurez tecnológica mundial <em>The Network Readiness Index</em> de 2020, Colombia ocupa el puesto 69 de 121, lo que significa que el país se encuentra cerca de la media mundial. Gran parte de este resultado obedece a que el país cuenta con una regulación que incentiva la transformación digital con políticas como el Plan TIC 2018-2022 y el Gobierno Digital, que han sido clave para cerrar brechas digitales entre zonas urbanas y rurales. Además, recientemente el país aprobó la Historia Clínica Electrónica Interoperable, que permitirá el intercambio de datos, documentos y expedientes clínicos</p>
+<p style="text-align: justify;"><strong>HCEU: un proyecto referente de interoperabilidad en salud</strong></p>
+<p style="text-align: justify;">Este proyecto de Historia Clínica Electrónica Unificada (HCEU), promovido por la Secretaria de Salud de la Alcaldía Mayor de Bogotá (HCEU), no sólo se alinea al entorno regulatorio y busca atender las necesidades en salud, sino que supone una apuesta decidida por reducir tiempos de espera y mejorar el bienestar de los usuarios.</p>
+<p style="text-align: justify;">HCEU es una solución integral de interoperabilidad que cuenta con tres componentes: la Historia Clínica Electrónica interoperable de pacientes de la red pública hospitalaria, el agendamiento de citas centralizado y la gestión de las fórmulas médicas. Actualmente, la plataforma gestiona la prestación y atención en servicios de salud de una red compuesta por 22 hospitales y 142 centros de atención médica, el manejo y administración de más de 80 millones de historias clínicas, la gestión y procesamiento de más de 7,5 millones de citas médicas al año, la emisión de más de 2,6 millones de fórmulas médicas, y más de 100.000 eventos clínicos diarios.</p>
+<p style="text-align: justify;">“Onesait Healthcare Data es la tecnología implementada en este importante proyecto que contribuye a la toma de decisiones y la atención sanitaria, dado que aporta una visión exacta del paciente, lo que contribuye a tomar mejores decisiones en salud para el paciente y optimiza el tiempo que el personal sanitario dedica en la búsqueda de información y otros trámites administrativos y de control”, puntualizó José Fernando Quintero.</p>
+<p style="text-align: justify;"><strong>El dato, centro y motor de la transformación </strong></p>
+<p style="text-align: justify;">En opinión de Minsait, el modelo tecnológico de referencia de la interoperabilidad deberá resolver las dificultades que supone el uso de las historias clínicas fragmentadas y con limitaciones, permitiendo trabajar bajo un marco de modelo de datos normalizados, libres de propiedad privada, y capaz de desarrollar nuevas funcionalidades de forma independiente al proveedor.</p>
+<p style="text-align: justify;">Para ello, la compañía considera primordial transformar el actual rol de los sistemas de información - establecidos como proveedores de servicios- hacia a un modelo de ecosistema donde se maximice el valor del dato, que lo convierte en centro y motor de la transformación de toda organización, y permite conocer mejor a los usuarios del sistema, automatizar procesos, predecir escenarios, reducir los costes operativos y conseguir una diferenciación en la calidad de un servicio personalizado.</p>
+<p style="text-align: justify;">En este sentido, el informe demanda la incorporación de habilidades analíticas de personas cualificadas que segmenten bien los datos y lancen las consultas adecuadas para obtener la información precisa de los datos disponibles, así como el uso de plataformas abiertas para habilitar un ecosistema que impulse la competencia entre proveedores (a nivel de aplicación, servicio y plataforma) y permita una mejor gestión de la salud del ciudadano.</p>
+<p style="text-align: justify;">Por último, el estudio de Minsait muestra la brecha que ha ocasionado en la sociedad latinoamericana la pandemia del COVID-19, que ha evidenciado con fuerza la necesidad de contar con un sistema de salud robusto, apoyado en las tecnologías como palanca clave para compartir información.</p>
+<p style="text-align: justify;">Los datos extraídos sobre el papel específico jugado por la interoperabilidad durante la crisis ponen de relieve la falta de seguridad y confidencialidad del dato intercambiado, así como la ausencia de información precisa, oportuna y en tiempo real, desde el punto de vista de la gestión de los recursos.</p>
+<p style="text-align: justify;">Por su parte, las opiniones con relación al ámbito profesional dejan ver carencias importantes en las tecnologías de comunicación médico-paciente y en el acceso multicanal a la información clínica. La demanda de más canales también se extiende al ámbito del ciudadano, donde se destaca, además, la ausencia de tecnologías seguras de rastreo.</p>
+<p style="text-align: justify;">Acceso al Libro Blanco de Interoperabilidad en Salud en el siguiente enlace:<a href="https://www.minsait.com/es/actualidad/insights/libro-blanco-de-interoperabilidad-en-salud">https://www.minsait.com/es/actualidad/insights/libro-blanco-de-interoperabilidad-en-salud</a></p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Medico-Tecnologia-p.jpg)
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
