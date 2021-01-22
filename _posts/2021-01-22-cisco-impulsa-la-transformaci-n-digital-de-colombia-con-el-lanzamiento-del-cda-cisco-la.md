@@ -1,0 +1,38 @@
+---
+layout: posts
+color-schema: red-dark
+date: '2021-01-22 12:15 -0400'
+published: true
+superNews: false
+superArticle: false
+year: '2021'
+title: >-
+  Cisco impulsa la transformación digital de Colombia con el lanzamiento del CDA
+  @Cisco_LA
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ATC-CISCO-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ATC-CISCO-g.jpg
+categories:
+  - Colombia
+tags:
+  - Transformación Digital
+week: '3'
+---
+
+<p style="text-align: justify;">En el marco del 25 aniversario de Cisco en el país, la compañía se enorgullece en anunciar la llegada a Colombia del programa <a href="https://www.cisco.com/c/m/es_co/cda.html?dtid=oemels001119&amp;ccid=cc001667&amp;ecid=27377"><strong>Country Digital Acceleration</strong></a><strong>, </strong>CDA (por sus siglas en Inglés) una iniciativa mundial de Cisco que impulsa la aceleración digital de los países a través de la innovación y digitalización. Como parte de este programa, se anuncia el lanzamiento en Bogotá del centro de experiencia e innovación <strong>Advanced Technology Center (ATC)</strong>, un espacio que promueve el uso de nuevas tecnologías que ayuden en la modernización y digitalización del país, a través de la demostración de usos prácticos para las industrias de educación, salud y del sector público, así como de todas nuestras soluciones de seguridad.</p>
+<p style="text-align: justify;">Este nuevo <strong>Advanced Technology Center (ATC)</strong> promoverá en Colombia una inmersión digital, a través de un tour virtual 360° para mostrar -con el uso de demos de inteligencia artificial, automatización, análisis de datos y cloud, entre otras- las soluciones más disruptivas del portafolio de Cisco.</p>
+<p style="text-align: justify;">Dada la actual situación de pandemia, el lanzamiento y las visitas al ATC serán por el momento realizadas de manera virtual.</p>
+<p style="text-align: justify;">“Con este programa, reiteramos la confianza que ha depositado CISCO en Colombia durante estos 25 años, apoyando el fortalecimiento de la transformación digital del país. Así mismo, la inversión realizada en el Advance Technology Center (ATC) en Bogotá, permitirá apalancar el emprendimiento y la innovación en este momento de cambio; así como identificar nuevas oportunidades en las áreas de Educación, Salud y Ciberseguridad en el país ”, comentó   Javier Castro, Country Manager Cisco Colombia.</p>
+<p style="text-align: justify;"><strong>25 años y mucho camino por delante</strong></p>
+<p style="text-align: justify;">Durante estos 25 años los cambios fueron continuos. Con las soluciones innovadoras de Cisco, Colombia en 2012 fue pionero en organizar una reunión a puerta cerrada de manera virtual entre los presidentes miembros del proyecto de Alianza del Pacífico, en la que es reconocida como la primera cumbre virtual de Jefes de Estado de la región latinoamericana a través de un sistema de teleconferencia. Así mismo, Cisco anotó otro hito al lograr consolidar una alianza de trabajo e innovaciones con el SENA, logrando facilitar el aprendizaje de cerca de 9,8 millones de estudiantes registrados a 2014 en la institución en todas sus seccionales a lo largo y ancho del país, que pudieron acceder a aulas y recursos en línea transformando su experiencia, gracias a la expansión de programas virtuales y servicios administrativos de la entidad que ya no tuvo fronteras con Internet.</p>
+<p style="text-align: justify;">Tras 25 años en el mercado colombiano, Cisco ha concentrado sus esfuerzos en reinventarse constantemente para estar a la vanguardia de la transformación digital. La innovación y la competitividad son los pilares sobre los que construye su posición en el mercado.</p>
+<p style="text-align: justify;">“La labor de Cisco, desde un principio, fue crear conciencia sobre la importancia de integrar la tecnología en los negocios y comunidades para transformar vidas a través del cambio digital. Las alianzas entre diferentes integrantes del ecosistema (empresa privada y Gobierno) fue fundamental para la evolución tecnológica de Colombia. Llevamos 5 lustros trabajando por la transformación de la sociedad a partir del Internet y todo su universo de innovaciones y desarrollos, y seguimos comprometidos ahora, en una era de transformaciones continuas que van de lo digital a lo organizacional, permitiendo construir una mejor sociedad, un mejor ecosistema de socios de negocios y, por ende, un país con mayor productividad digital”, agregó Javier Castro.</p>
+<p style="text-align: justify;">En cuanto a lo tecnológico, Cisco es la única empresa que entrega soluciones de infraestructura de extremo a extremo, demostrando su liderazgo en el desarrollo de redes y sistemas de comunicación, vanguardia global que pone al servicio de las diferentes industrias del país como un diferencial de productividad y eficiencia que hoy, desde este retador 2020, tiene un gran significado cuando se habla de reactivación rápida y ágil en todas las economías.</p>
+<p style="text-align: justify;">En este tiempo, el trabajo con el Estado, gobierno tras gobierno, ha sido otro gran aporte y acierto para el desarrollo tecnológico del país. Como un actor proactivo a través de las regulaciones que ha impulsado Cisco, se han desarrollado proyectos con entidades como el Comando Conjunto Cibernético de las Fuerzas Militares y la OEA, en aspectos relacionados con ciberseguridad y ciberdefensa, así como en el avance de ciudades inteligentes teniendo a Barranquilla como uno de sus puntos de aterrizaje entre las urbes que prioriza en su proyecto Latinoamérica.</p>
+<p style="text-align: justify;">Es de resaltar también que, durante los últimos años, la empresa ha acompañado en el plan de Transformación Digital e Innovación del Gobierno. Así mismo, dentro del contexto generado por la pandemia, se han apoyado diferentes programas de educación al utilizar nuestra plataforma de Colaboración WEBEX en Universidades e institutos, permitiendo la continuidad de clases de manera virtual. Otra área de trabajo ha sido Telesalud, facilitando la conexión de unidades de cuidado intensivo de hospitales regionales con hospitales en ciudades principales y poder permitir comunicación segura entre el cuerpo médico a nivel nacional.</p>
+<p style="text-align: justify;">Dentro del área de Educación, en especial, nos es muy grato haber contribuido en los últimos 20 años, a través de nuestro programa <strong>Cisco Networking Academy</strong>, con la promoción del conocimiento en redes y desarrollar el talento humano en alianza con colegios y universidades, a fin de solventar el rezago de la educación formal en esta materia. De la mano de nuestros partners de educación, instructores y academias, se ha capacitado nuevo talento digital para aportar de manera significativa a la nueva demanda del mercado y al desarrollo de talento con nuevas competencias en TI para el país.</p>
+<p style="text-align: justify;">En Colombia, a la fecha son más de 45.373 estudiantes impactados, entre los cuales el 23% son mujeres y 33.771 estudiantes están listos para certificación. Al día de hoy, son más de 347 y un 6% son mujeres. El programa cuenta con 561 socios - centros de educación en todo el país. Algunas de las instituciones aliadas más grandes son: el SENA (Servicio Nacional de Aprendizaje), La Universidad Nacional (Sede Medellín), La Universidad Tecnológica de Pereira, La Universidad Autónoma de Bucaramanga y la Secretaría de Educación de Bogotá.</p>
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ATC-CISCO-p.jpg)
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
