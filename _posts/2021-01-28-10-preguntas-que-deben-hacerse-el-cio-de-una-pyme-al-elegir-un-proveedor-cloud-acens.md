@@ -55,6 +55,6 @@ week: '4'
 	<li style="text-align: justify;">¿Nos ayuda en nuestra transformación digital para generar un entorno robusto que no solo defienda y proteja ante los riesgos, sino que en caso de desastre o ataque ayude a recuperar el servicio en un plazo razonable?</li>
 </ol>
 
-<img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivo CIO-p.jpg" alt="" width="540" height="320" />
+<img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivo%20CIO-p.jpg" alt="" width="540" height="320" />
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
