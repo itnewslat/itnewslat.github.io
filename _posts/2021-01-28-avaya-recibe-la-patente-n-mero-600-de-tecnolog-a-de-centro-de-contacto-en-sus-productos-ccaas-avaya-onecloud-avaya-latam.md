@@ -41,3 +41,6 @@ week: '4'
 	<li style="text-align: justify;"><a href="https://www.avaya.com/en/documents/aragon-research-globe-for-intelligent-contact-centers-2020.pdf">Eche un vistazo</a> al informe Aragon Research Globe™ for Intelligent Contact Centers, 2020.</li>
 	<li style="text-align: justify;">Lea nuestro blog, <a href="https://www.avaya.com/blogs/archives/2020/07/modern_contact_center_avaya_aragon/">El rol esencial de un centro de contacto moderno para cumplir nuevos estándares</a>.</li>
 </ul>
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Patentes-p.jpg)
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
