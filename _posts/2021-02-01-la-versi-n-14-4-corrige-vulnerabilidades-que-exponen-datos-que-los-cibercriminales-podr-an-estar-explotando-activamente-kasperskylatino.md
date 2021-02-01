@@ -10,7 +10,7 @@ title: >-
   La versión 14.4 corrige vulnerabilidades que exponen datos que los
   cibercriminales podrían estar explotando activamente @kasperskylatino
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Iphone-12p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Iphone-12-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Iphone-12-g.jpg
 categories:
@@ -34,6 +34,6 @@ week: '5'
 <p style="text-align: justify;"><em>“¿Por qué es tan importante actualizar cuanto antes? La posibilidad de caer en las trampas y escenarios mencionados es muy alta, ya que los atacantes tienden a infectar plataformas web populares con una gran audiencia para este tipo de ataque. Y cuanto más grande sea, mayor es la posibilidad de verse afectados”,</em> comenta <strong>Victor Chebyshev, analista de seguridad en Kaspersky</strong>.</p>
 <p style="text-align: justify;">Para obtener más detalles, visita este enlace: <a href="https://latam.kaspersky.com/blog/update-ios-to-14-4-immediately/20936/">https://latam.kaspersky.com/blog/update-ios-to-14-4-immediately/20936/</a></p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Iphone-12p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Iphone-12-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
