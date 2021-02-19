@@ -19,53 +19,54 @@ tags:
 week: '7'
 ---
 <p style="text-align: justify;"><strong>Así mismo anunció frecuencias adicionales entre Panamá y Valencia</strong></p>
+
 <p style="text-align: justify;"> Como parte de la reactivación de sus operaciones en Venezuela, Copa Airlines informa que <strong>reiniciará vuelos en la ruta Panamá-Maracaibo/Maracaibo-Panamá, con dos frecuencias semanales a partir del 2 de marzo de 2021, e incorporará una nueva frecuencia entre Panamá-Valencia/Valencia-Panamá, incrementando operaciones a dos veces por semana desde el 26 de febrero</strong>. La Aerolínea implementa estos vuelos tras recibir la autorización del Instituto Nacional de Aeronáutica Civil (INAC) de la República Bolivariana de Venezuela, y se operarán de acuerdo con los siguientes itinerarios:</p>
 
-<table width="604">
+<table style="width: 604px;" width="604" cellspacing="2" cellpadding="1">
 <tbody>
 <tr>
-<td style="text-align: center;" width="75"><strong>Vuelo</strong></td>
-<td style="text-align: center;" width="76"><strong>Destino salida</strong></td>
-<td style="text-align: center;" width="85"><strong>Hora local</strong>
+<td width="75">Vuelo</td>
+<td width="76">Destino salida</td>
+<td width="85">Hora local
 
-<strong>Salida</strong></td>
-<td style="text-align: center;" width="76"><strong>Destino llegada</strong></td>
-<td style="text-align: center;" width="85"><strong>Hora local llegada</strong></td>
-<td style="text-align: center;" width="208"><strong>Días de los vuelos</strong></td>
+Salida</td>
+<td width="76">Destino llegada</td>
+<td width="85">Hora local llegada</td>
+<td width="208">Días de los vuelos</td>
 </tr>
 <tr>
-<td style="text-align: center;" width="75">CM717</td>
-<td style="text-align: center;" width="76">PANAMÁ</td>
-<td style="text-align: center;" width="85">10:31 a.m.</td>
-<td style="text-align: center;" width="76">MARACAIBO</td>
-<td style="text-align: center;" width="85">1:10 p.m.</td>
-<td style="text-align: center;" rowspan="2" width="208">Martes y jueves,
+<td width="75">CM717</td>
+<td width="76">Panamá</td>
+<td width="85">10:31 a.m.</td>
+<td width="76">Maracaibo</td>
+<td width="85">1:10 p.m.</td>
+<td rowspan="2" width="208">Martes y jueves,
 
 desde el 02 de marzo de 2021</td>
 </tr>
 <tr>
-<td style="text-align: center;" width="75">CM713</td>
-<td style="text-align: center;" width="76">MARACAIBO</td>
-<td style="text-align: center;" width="85">2:20 p.m.</td>
-<td style="text-align: center;" width="76">PANAMÁ</td>
-<td style="text-align: center;" width="85">3:08 p.m.</td>
+<td width="75">CM713</td>
+<td width="76">Maracaibo</td>
+<td width="85">2:20 p.m.</td>
+<td width="76">Panamá</td>
+<td width="85">3:08 p.m.</td>
 </tr>
 <tr>
-<td style="text-align: center;" width="75">CM251</td>
-<td style="text-align: center;" width="76">PANAMÁ</td>
-<td style="text-align: center;" width="85">10:22 a.m.</td>
-<td style="text-align: center;" width="76">VALENCIA</td>
-<td style="text-align: center;" width="85">1:26 p.m.</td>
-<td style="text-align: center;" rowspan="2" width="208">Lunes y viernes,
+<td width="75">CM251</td>
+<td width="76">Panamá</td>
+<td width="85">10:22 a.m.</td>
+<td width="76">Valencia</td>
+<td width="85">1:26 p.m.</td>
+<td rowspan="2" width="208">Lunes y viernes,
 
 desde el 26 de febrero de 2021</td>
 </tr>
 <tr>
-<td style="text-align: center;" width="75">CM250</td>
-<td style="text-align: center;" width="76">VALENCIA</td>
-<td style="text-align: center;" width="85">2:36 p.m.</td>
-<td style="text-align: center;" width="76">PANAMÁ</td>
-<td style="text-align: center;" width="85">3:57 p.m.</td>
+<td width="75">CM250</td>
+<td width="76">Valencia</td>
+<td width="85">2:36 p.m.</td>
+<td width="76">Panamá</td>
+<td width="85">3:57 p.m.</td>
 </tr>
 </tbody>
 </table>
