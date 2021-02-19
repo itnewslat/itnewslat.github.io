@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: Datos que nos conocías sobre los Contact Centers y la atención al cliente
+title: Datos que no conocías sobre los Contact Centers y la atención al cliente
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Antiguo-p.jpg
 detail-image: >-
