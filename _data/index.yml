@@ -34,3 +34,21 @@ moreNews:
         href: "http://www.synergy-gb.com/newsgb/index.php"
     moreNews: /prwire.html
     moreNews-title: Más noticias sobre tecnología
+
+
+title: Itnews.lat
+email: ""
+description: "Enfocados en las tendencias tecnológicas de los próximos años y las nuevas audiencias que están  cambiando el mercado."
+author: Itnews
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+image_url: "/assets/imagenes/"
+image_vzla_url: "/assets/imagenes/venezuela/"
+logo_vzla: "logo-horizontal.jpg"
+logo_vzla_white: "Logo-Ciberespacio-Transparente-Cuadrado.png"
+logo_red: "logo_large_red.png"
+logo_blue: "logo_large_blue.png"
+logo_green: "logo_large_green.png"
+logo_white: "logo_large_white.png"
+logo_orange: "logo_large_orange.png"
+logo: logo.png
