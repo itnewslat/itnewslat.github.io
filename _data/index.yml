@@ -43,9 +43,9 @@ author: Itnews
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 image_url: "/assets/imagenes/"
-image_vzla_url: "/assets/imagenes/venezuela/"
-logo_vzla: "logo-horizontal.jpg"
-logo_vzla_white: "Logo-Ciberespacio-Transparente-Cuadrado.png"
+image_vzla_url: "/assets/imagenes/"
+logo_vzla: "logo_large_red.png"
+logo_vzla_white: "logo_large_white.png"
 logo_red: "logo_large_red.png"
 logo_blue: "logo_large_blue.png"
 logo_green: "logo_large_green.png"

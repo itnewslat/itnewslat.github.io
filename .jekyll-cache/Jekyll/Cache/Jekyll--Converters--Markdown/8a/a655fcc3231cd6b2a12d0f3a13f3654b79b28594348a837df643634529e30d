@@ -1,8 +1,0 @@
-I"�<p><strong>Desarrollado por el grupo Stealth Falcon, los objetivos de los ciberdelincuentes se centran en Emiratos Árabes, Arabia Saudita, Tailandia y Países Bajos</strong></p>
-
-<p>ESET, la mayor empresa de ciberseguridad de la Unión Europea, ha descubierto las actividades que está llevando a cabo el grupo de ciberdelincuentes Stealth Falcon contra activistas políticos y periodistas en Oriente Medio. Según diversos analistas, estos ataques estarían encuadrados dentro del <a href="https://www.reuters.com/investigates/special-report/usa-spying-raven/"><strong>Proyecto Raven</strong></a>, una iniciativa en la que estarían trabajando antiguos profesionales de la Agencia de Seguridad Nacional de EEUU. De momento, sólo se ha hecho pública cierta información técnica sobre los ataques, entre la que se incluye un análisis del componente clave del malware, un backdoor basado en PowerShell que se distribuye en un documento infectado a través de correo electrónico.</p>
-
-<p>Win32/StealthFalcon se creó en 2015 y permite al ciberdelincuente controlar los ordenadores de forma remota. ESET ha encontrado máquinas infectadas en Emiratos Árabes, Arabia Saudita, Tailandia y en una misión diplomática de los Países Bajos en Oriente Medio. Según los analistas de ESET las similitudes entre los ataques actuales y las capacidades del script PowerShell atribuidas en el pasado al grupo Stealth Falcon confirman que se trata de los mismos atacantes.</p>
-
-<p>Para información más actualizada sobre el ataque, <a href="https://www.welivesecurity.com/2019/09/09/backdoor-stealth-falcon-group/"><strong>se puede visitar el blog de ESE</strong>T</a>.</p>
-:ET
