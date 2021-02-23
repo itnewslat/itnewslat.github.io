@@ -8,9 +8,9 @@ superArticle: false
 year: '2021'
 title: 'Transformación digital: Qué viene para el 2021'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Medicos-en-Servicio-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Futuro-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Medicos-en-Servicio-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Futuro-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -53,6 +53,6 @@ week: '8'
 <p style="text-align: justify;">La carrera por la supremacía cuántica está en pie, y los actores principales, como Amazon, Google, IBM y otros, hacen grandes inversiones en investigación y desarrollo. Los avances logrados en 2020 tomarán impulso en este nuevo año. La computación cuántica, considerada universalmente como una de las amenazas más peligrosas de la historia contra la seguridad cibernética, en las manos equivocadas, pondría en riesgo los datos protegidos con los métodos de cifrado actuales. Las empresas que manejan los datos más sensibles del mundo no podrán perder el tiempo a la hora de implementar planes que permitan desarrollar algoritmos inmunes a la computación cuántica en los productos de seguridad de datos que liberen.</p>
 <p style="text-align: justify;">Sin lugar a duda el 2020 nos tomó a todos por sorpresa. Sin embargo, hay algo que siempre estuvo claro, la innovación continuó prosperando y esto ayudó a acelerar la adopción tecnológica. Será un 2021 emocionante, y definitivamente decisivo para ver cómo la seguridad cibernética expande sus límites y las áreas tecnológicas que venimos monitoreando desde hace un tiempo, todo finalmente empieza a tomar forma.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Medicos-en-Servicio-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Futuro-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
