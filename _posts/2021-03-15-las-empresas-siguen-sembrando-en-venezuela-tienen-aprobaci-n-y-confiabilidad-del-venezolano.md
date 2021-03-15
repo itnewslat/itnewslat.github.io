@@ -1,0 +1,46 @@
+---
+layout: posts
+color-schema: red-dark
+date: '2021-03-15 13:55 -0400'
+published: true
+superNews: false
+superArticle: false
+year: '2021'
+title: >-
+  Las empresas siguen sembrando en Venezuela tienen “aprobación y confiabilidad
+  del venezolano”
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Frigilux-cajas-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Frigilux-cajas-g.jpg
+categories:
+  - Venezuela
+tags:
+  - Actualidad
+week: '11'
+---
+<p style="text-align: justify;">Con el ejemplo de grandes organizaciones privadas que siguen dando la cara por Venezuela, como Polar, Frigilux, Digitel, Nestlé, Excelsior Gama y otras reconocidas, aún en medio de la crisis socioeconómica y de las duras medidas por la pandemia, se exalta al gremio empresarial como un sector con significativa aprobación venezolana.</p>
+<p style="text-align: justify;">Esta aseveración se hace en un trabajo audiovisual realizado por el periodista Luis Olavarrieta y publicado en su Instagram, en el que se da referencia al último estudio de la firma Datanálisis, el cual indica que solo hay dos instituciones en el país que logran altos niveles de confiabilidad: la iglesia con 60.6% y los empresarios con 47%.</p>
+<p style="text-align: justify;">Olavarrieta entrevistó a los representantes del empresariado, quienes explicaron desde sus perspectivas qué los hace merecedores de tal receptividad del venezolano, al tiempo que realzó a empresarios que siguen “invirtiendo, generando condiciones, sembrando progreso en familias y comunidades”, y entre ellos, menciona por él área de “tecnología y electrodomésticos el grupo que lleva Yaser Dagga con Frigilux por más de 50 años en Venezuela. Don Manuel Gama, con Excelsior Gama es imposible no nombrarlo en sector de alimentos”.</p>
+<p style="text-align: justify;">Enalteció el legado de Oswaldo Cisneros, en telecomunicaciones, a quien catalogó de “fundamental”, lo que nota “a través del esfuerzo que continúa su equipo, en su nombre, con Digitel”.</p>
+<p style="text-align: justify;">A lo largo de la publicación de Olavarrieta, en la que hay testimonios de los presidentes de Fedecámaras, Consecomercio, Conindustria y Fedeagro, se mencionan otros reconocidos miembros del sector privado, como Lorenzo Mendoza, del área de alimentos,  Horacio Veluttini, del sector inmobiliario, Silvano Ginelli, del automotriz, Alberto Vollmer y otros.</p>
+<p style="text-align: justify;">Para Adán Celis, presidente de Conindustria, el aprecio que tienen los venezolanos a la figura empresarial “es porque nos ven como entes independientes, de producción, que en este momento cumplimos lo que decimos, los colaboradores nuestros que están en el sector privado están en muchísimas mejores condiciones que los trabajadores que están en el sector público”.</p>
+<p style="text-align: justify;">Además, Celis piensa que todos los obstáculos y las campañas de descréditos que han sufrido en el país, no han frenado la buena imagen empresarial porque, “nos ven que a pesar de todas las dificultades que tenemos, nosotros los empresarios seguimos sin ningún tipo de ayuda, más bien con una cantidad de trabas que nos ponen las autoridades y a pesar de eso seguimos pendientes de nuestros colaboradores, de nuestro proveedores, de nuestros clientes, también de nuestros accionistas, pero también pendientes en muchos casos de las mismas comunidades que están cercanas a nuestras industrias”.</p>
+<p style="text-align: justify;"><strong>Los cambios han sido inevitables</strong></p>
+<p style="text-align: justify;">Aquiles Hopking, presidente de Fedeagro dice que, “aquí a todos nos tocó, a unos en mayor medida, otros en menor medida, diversificarnos, reinventarnos, a lo mejor a ser un poco más pequeños pero más eficientes, a mirar el mundo de otra manera, a entender que el papá Estado se acabó, que ya no vamos a vivir más de subsidios, que esa Venezuela que dependía del petróleo se acabó, y probablemente no la vamos a ver más, no porque Venezuela vaya a dejar de ser un país petrolero, sino porque tenemos que dejar de ser un país monoproductor, y el campo venezolano está llamado a tener ese gran reto: de atender la alimentación que el mundo va a demandar, porque la demanda de alimentos en el mundo va a crecer 50% de aquí al año 2050”.</p>
+<p style="text-align: justify;">Ricardo Cussano, presidente Fedecámaras, expresa que hoy los empresarios están definidos por su resiliencia, “ese concepto que hoy vemos tatuados en tantos brazos de los venezolanos (…) Pero creo que más allá de eso, sin importar la dimensión, el más pequeñito empresario en cualquier rincón del país hasta el más grande… la más grande expresión de lo que es la empresa, lo hace con un profundo sentir venezolano”.</p>
+<p style="text-align: justify;"><strong>Reconocimiento a la responsabilidad social</strong></p>
+<p style="text-align: justify;">Si bien es cierto que el ciudadano reconoce la función esencial de productividad del sector privado, también se siente el aplauso que este le da a la responsabilidad social que asume el empresariado, sobre todo en este tiempo.</p>
+<p style="text-align: justify;">Cussano comenta que “grandes empresas, grandes trasnacionales, grandes empresas locales, se interrelacionan con la cotidianidad más profunda de sus trabajadores fuera del trabajo, con sus familiares, con la educación a sus familiares, con acciones culturales; otros que lo hacen con su entorno local, lo que está alrededor de sus empresas. No hay pueblo, no hay barrio, no hay ciudad donde el señor que tiene la bodega no apoye al equipo de béisbol de los muchachos de la cuadra”.</p>
+<p style="text-align: justify;">Olavarrieta acentúa que el compromiso social del empresario no se ha detenido. “En el país existen infinidades de ejemplos que el venezolano ha palpado a través de los años. Por ejemplo; Empresa Polar sigue contribuyendo con la formación y promoción del sueño deportivo de miles de jóvenes en el país. Los planes de desarrollo agrícola e industrial de Nestlé siguen impulsando a cientos de agricultores y proveedores. Frigilux a través de su fundación participa activamente en programas de salud a nivel nacional, asistiendo a miles de pacientes con distintas patologías. Excélsior Gama sigue con su compromiso ineludible con el medio ambiente”.</p>
+<p style="text-align: justify;">Felipe Capazzolo, presidente de Consecomercio, considera que “es un momento estelar para la empresa privada venezolana. Se nos ha puesto una prueba muy dura; todo el período de pandemia la empresa venezolana demostró que a la hora de la chiquita puede apoyar al país. Pasará a la historia como hechos (…) Todos nos unimos en una cadena de valor, en una cadena humana, para que el producto llegara al anaquel, para que no faltara lo básico en casa de todos los venezolanos”.</p>
+<p style="text-align: justify;">Hopking cree que “la crisis nos llevó a entender que teníamos que unirnos, que teníamos que ser solidarios, que tenemos que pensar y apoyar al más débil, bien al empresario más pequeño o al consumidor que probablemente sea el más necesitado”.</p>
+<p style="text-align: justify;"><strong>El mensaje empresarial</strong></p>
+<p style="text-align: justify;">“A los empresarios los invito a apostar y a creer en Venezuela, obviamente si estamos aquí es porque creemos en Venezuela. Apostemos a lo hecho en Venezuela, lo hecho por manos venezolanas, vamos a mirar no solamente a nuestro país, miremos al mundo, hagámoslo bien, con eficiencia, productividad y calidad. Hecho en Venezuela”, añade Hopking.</p>
+<p style="text-align: justify;">Cussano, por su parte, se refirió a “los valores de un país, en el que aún y a pesar de un modelo impuesto, sigue prevaleciendo ese espíritu emprendedor y ese espíritu de libertades, de poder con esfuerzo, con trabajo, de enarbolar las libertades y los preceptos del derecho de propiedad (…) y hacer real los preceptos del derecho a la vida, la salud, la educación, la alimentación”.</p>
+<p style="text-align: justify;">Para cerrar, Celis reiteró la insistencia de confiar en Venezuela y sus logros en medio de las dificultades. “Hoy en día el 60% de los ingresos en divisas en el país están en manos de privados, no solo de empresarios sino del venezolano de por sí. Ya cada día la economía depende más del venezolano y no del Estado, es un paso importante y ahí es donde los empresarios juegan un papel fundamental. Ese mensaje de preocuparse por sus colaboradores, de lo que se está haciendo en las comunidades también, hay una conciencia hoy en día de la importancia que se tiene de influir para bien. Y muchos de los empresarios hoy en día estamos apostando a eso, a ese cambio que necesita el país (…) la Venezuela donde todos volvamos a reírnos, a esa Venezuela de alegría, esa es la Venezuela a la que apostamos los empresarios. Que viva Venezuela”, asentó.</p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Frigilux-cajas-p.jpg)
+
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
