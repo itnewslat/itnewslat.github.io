@@ -40,3 +40,7 @@ tags:
 <p style="text-align: justify;">Inteligencia artificial, movilidad, educación digital, talento humano, y comunicaciones y procesos automatizados, son la vía rápida y efectiva para alcanzar la meta, y esta es la misma en cualquiera de los diferentes sectores del mercado, como banca y finanzas, seguros, manufactura, retail, gobierno, sector académico y empresas de servicios, puntualiza De Luca.</p>
 
 <p style="text-align: justify;"><strong>Sybven entiende y resalta la importancia del Customer Experience como una de las más marcadas tendencias para este año</strong>, y trabajamos para superar las expectativas de los clientes, y brindar una<strong> experiencia de usuario personalizada</strong>. “Estamos muy comprometidos con el crecimiento digital de Venezuela, así como de la región, acelerando e invirtiendo en toda la infraestructura, soluciones y organización para lograr construir un futuro positivo, y el único futuro visible, es el digital”.</p>
+
+<img class="alignnone" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Psysbase.jpg" alt="" width="540" height="217" />
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
