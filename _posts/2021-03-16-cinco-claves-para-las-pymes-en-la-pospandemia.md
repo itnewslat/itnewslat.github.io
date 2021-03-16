@@ -8,7 +8,7 @@ superArticle: false
 year: '2021'
 title: Cinco claves para las pymes en la pospandemia
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Cinco-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cinco-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cinco-g.jpg
 categories:
