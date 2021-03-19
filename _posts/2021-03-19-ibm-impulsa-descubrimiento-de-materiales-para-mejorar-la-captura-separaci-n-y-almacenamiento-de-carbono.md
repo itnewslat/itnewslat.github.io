@@ -10,7 +10,7 @@ title: >-
   IBM impulsa descubrimiento de materiales para mejorar la captura, separación y
   almacenamiento de carbono
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/54x320/Redes-capilares-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Redes-capilares-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Redes-Capilares-g.jpg
 categories:
@@ -44,7 +44,7 @@ week: '11'
 <p style="text-align: justify;">Por supuesto, el cambio climático es un desafío global, que requiere la colaboración de la academia y la industria, un esfuerzo conjunto de la comunidad global de investigación. Esta es la razón por la que IBM se ha convertido recientemente en miembro inaugural del <a href="https://impactclimate.mit.edu/">Consorcio de Clima y Sostenibilidad del MIT</a>, junto con otras empresas como Apple, Boeing, Cargill, Dow, PepsiCo y Verizon.</p>
 <p style="text-align: justify;">Sólo juntos podemos avanzar, adoptar nuestros resultados de investigación a escala mundial, utilizar nuestras nuevas soluciones para formular una estrategia climática sostenible a largo plazo y limitar el cambio climático.</p>
   
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/54x320/Redes-capilares-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Redes-capilares-p.jpg)
 
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
