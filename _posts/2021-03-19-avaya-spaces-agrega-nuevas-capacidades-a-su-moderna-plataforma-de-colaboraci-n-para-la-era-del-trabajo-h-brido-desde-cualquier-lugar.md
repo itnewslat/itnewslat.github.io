@@ -41,3 +41,5 @@ week: '11'
 <p style="text-align: justify;">Lanzado en 2020, Avaya Spaces fue reconocido recientemente en la categoría “Strong Performer” en el informe de Frost &amp; Sullivan <em>Frost Radar para Reuniones en la Nube y Servicios de Colaboración de Grupos 2020</em>. “En el último año, Avaya Spaces ha experimentado un rápido crecimiento en número de usuarios y en nuevas capacidades, brindando una experiencia de usuario moderna y atractiva, alta calidad de video, amplias medidas de seguridad y un gran ecosistema de socios que amplían las capacidades de la nube y la Inteligencia Artificial”, dijo Alaa Sayed, director de Industria de TIC de Frost &amp; Sullivan. “Spaces ofrece más que videoconferencias, con una variedad de funciones siempre activas que incluyen mensajería persistente, intercambio de archivos y contenido, salas de reuniones personales virtuales, administración de tareas y más”.</p>
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Avaya-Spaces-p.jpg)
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
