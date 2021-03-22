@@ -9,9 +9,9 @@ year: '2021'
 title: '2021, UN AÑO DE CAMBIO DIGITAL'
 week: '11'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Psysbase.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners.gif
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Psysbase.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners.gif
 categories:
   - Venezuela
   - Colombia
