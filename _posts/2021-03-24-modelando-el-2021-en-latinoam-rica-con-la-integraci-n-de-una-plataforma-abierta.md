@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2021-03-24 12:20 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2021'
@@ -44,3 +44,8 @@ week: '12'
 <p style="text-align: justify;">Hugo resaltó la suma de experiencias compartidas de todas las ciudades y la comunicación entre ellas, caso de Vicente López y San Miguel, basados en la misma plataforma de Milestone Systems, para una mayor prevención y atención rápida.</p>
 <p style="text-align: justify;">Al igual que cada uno de ellos, Reynel Guerrero, director de Ventas de SCR Communications de México, coincidió en que los efectos de la pandemia perdurarán, y de ahí la importancia de una plataforma múltiple a prueba de estas contingencias que le brinde confianza al cliente para lo que se presente en este y los años venideros.</p>
 <p style="text-align: justify;">A su criterio, Milestone Systems ha respaldado esa apuesta por la diversificación, lo que le permite a sus socios y distintos usuarios ser flexibles para su adaptación ante los distintos desafíos a la vuelta de este 2021. Entre ellos se encuentran los retos previstos desde antes de la pandemia como la conectividad, mejores costos y mayor eficiencia para resolver, en últimas, las necesidades propias de cada persona.</p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Vigilancia-p.jpg)
+
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
