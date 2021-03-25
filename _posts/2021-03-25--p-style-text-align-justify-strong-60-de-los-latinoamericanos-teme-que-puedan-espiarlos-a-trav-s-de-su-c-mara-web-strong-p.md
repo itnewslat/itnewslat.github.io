@@ -7,8 +7,8 @@ superNews: false
 superArticle: false
 year: '2021'
 title: >-
-  <p style="text-align: justify;"><strong>60% de los latinoamericanos teme que
-  puedan espiarlos a través de su cámara web </strong></p>
+  60% de los latinoamericanos teme que puedan espiarlos a través de su cámara
+  web
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/webcam-p.jpg
 detail-image: >-
