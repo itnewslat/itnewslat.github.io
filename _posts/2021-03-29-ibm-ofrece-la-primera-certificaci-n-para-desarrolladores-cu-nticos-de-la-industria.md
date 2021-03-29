@@ -10,7 +10,7 @@ title: >-
   IBM ofrece la primera certificación para desarrolladores cuánticos de la
   industria
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Computacion-Cuantica-P.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Computacion-Cuantica-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Computacion-Cuantica-g.jpg
 categories:
@@ -48,7 +48,7 @@ week: '13'
 <p style="text-align: justify;"><em> </em></p>
 <p style="text-align: justify;"><em>*Para más información visite el blog original </em><a href="https://www.ibm.com/blogs/research/2021/03/quantum-developer-certification/"><em>aquí</em></a></p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Computacion-Cuantica-P.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Computacion-Cuantica-p.jpg)
 
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
