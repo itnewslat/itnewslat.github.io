@@ -6,7 +6,9 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: ''
+title: >-
+  Xiaomi incursiona en el mercado de vehículos eléctricos y teléfonos plegables
+  con un cambio en su identidad de marca
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Xiaomi-Electric-p.jpg
 detail-image: >-
@@ -23,8 +25,6 @@ tags:
   - Movilidad
 week: '13'
 ---
-<p style="text-align: justify;"><strong>Xiaomi incursiona en el mercado de vehículos eléctricos y teléfonos plegables con un cambio en su identidad de marca</strong></p>
-
 <ul style="text-align: justify;">
 	<li>La compañía invertirá 10.000 millones de dólares en el desarrollo de vehículos eléctricos inteligentes a lo largo de 10 años, para dar paso a un nuevo Xiaomi.</li>
 	<li>De manera conjunta, la tecnológica presenta Mi MIX FOLD, el primer smartphone plegable de Xiaomi.</li>
