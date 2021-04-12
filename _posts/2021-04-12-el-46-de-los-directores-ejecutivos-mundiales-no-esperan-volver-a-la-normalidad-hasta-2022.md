@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2021-04-12 10:46 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2021'
@@ -46,3 +46,8 @@ week: '16'
 <p style="text-align: justify;">La encuesta CEO Outlook Pulse Survey 2021 de KPMG para directores ejecutivos solicita a los directores ejecutivos de las empresas más influyentes del mundo que proporcionen su perspectiva a tres años sobre el panorama económico y empresarial, así como sobre la pandemia de COVID-19 en curso. Esta encuesta Pulse analiza cómo han evolucionado sus puntos de vista desde septiembre de 2020.</p>
 <p style="text-align: justify;">Se encuestó a 500 directores ejecutivos de 11 mercados clave (Australia, Canadá, China, Francia, Alemania, India, Italia, Japón, España, Reino Unido y EE. UU.) entre el 29 de enero y el 4 de marzo de 2021. Todos los encuestados tienen ingresos anuales superiores a los $ 500 millones de dólares y el 35% de las empresas encuestadas tienen más de $ 10 mil millones en ingresos anuales. NOTA: es posible que algunas cifras no sumen el 100 por ciento debido al redondeo.</p>
 <p style="text-align: justify;">El contenido está disponible en su totalidad haciendo <a href="http://ow.ly/1GUF30rC7Z7">clic aquí.</a></p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ejecutivo CIO-p.jpg)
+
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
