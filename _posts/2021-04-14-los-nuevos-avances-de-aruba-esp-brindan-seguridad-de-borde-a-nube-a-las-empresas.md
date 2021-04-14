@@ -1,0 +1,59 @@
+---
+layout: posts
+color-schema: red-dark
+date: '2021-04-14 12:12 -0400'
+published: true
+superNews: false
+superArticle: false
+year: '2021'
+title: >-
+  Los nuevos avances de Aruba ESP brindan seguridad de borde a nube a las
+  empresas
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciber-seguridad-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ciber-seguridad-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Seguridad
+week: '16'
+---
+<ul style="text-align: justify;">
+	<li>Al aplicar un enfoque Zero Trust y SASE, las empresas aceleran la transformación de la seguridad y la WAN, avanzan en la adopción de la nube y el IoT y aceleran la transformación digital</li>
+	<li>Asiste a <a href="https://www.arubanetworks.com/atmosphere/?utm_source=google&amp;utm_campaign=atmdigital&amp;utm_medium=paidsearch&amp;utm_geo=NAMER&amp;gclid=EAIaIQobChMIhd3Hwqi97wIVJh6tBh1KtAHzEAAYASAAEgIjd_D_BwE">Atmosphere ’21 - Journey to the Edge</a> el 13 y 14 de abril. Regístrese <a href="https://events.arubanetworks.com/atmospheredigital2021/index.cfm?iLangID=1">aquí</a> para asistir.</li>
+</ul>
+<p style="text-align: justify;">Aruba, una compañía de Hewlett Packard Enterprise (NYSE: HPE), anuncia hoy un amplio conjunto de integraciones de seguridad de borde a nube de cartera cruzada para <a href="https://www.arubanetworks.com/solutions/aruba-esp/">Aruba ESP (Edge Services Platform)</a>. Los nuevos avances incluyen la integración de la plataforma de control de acceso a la red segura ClearPass Policy Manager con <a href="https://www.arubanetworks.com/products/sd-wan/edgeconnect/">la plataforma de borde Aruba EdgeConnect SD-WAN</a>, anteriormente Silver Peak, la integración de Aruba Threat Defense con la plataforma EdgeConnect y la expansión de la seguridad de múltiples proveedores Aruba ESP ecosistema de socios, que brinda a los clientes empresariales la libertad de implementar los mejores componentes de seguridad de borde de servicio de acceso seguro (SASE) entregados en la nube de su elección. Los avances actuales de Aruba ESP permitirán a las empresas acelerar su viaje de transformación digital desde el borde hasta la nube.</p>
+<p style="text-align: justify;">A medida que las organizaciones se enfrentan a los desafíos resultantes de la pandemia de COVID-19 en curso y un nuevo "trabajo desde cualquier lugar", la adopción de servicios alojados en la nube seguirá acelerándose. Este cambio está intensificando la urgencia de transformar los centros de datos convencionales y las redes basadas en VPN y conmutación de etiquetas multiprotocolo (MPLS-Multiprotocol Label Switching) en una arquitectura SASE nativa de la nube que presenta un suministro más dinámico de servicios de red seguros, al tiempo que protege los datos de un extremo a otro.</p>
+<p style="text-align: justify;">Paralelamente, la transformación digital está provocando un aumento significativo de los dispositivos de IoT que se conectan a la red, presentando nuevos desafíos que no se abordan solo con la seguridad en la nube. Dado que los dispositivos de IoT no tienen agentes, los departamentos de TI no pueden instalar clientes de seguridad ni redirigir el tráfico del dispositivo a los servicios de seguridad en la nube; por lo tanto, la seguridad Zero Trust debe aplicarse en el borde de la WAN.</p>
+<p style="text-align: justify;">Para aprovechar todo el potencial de la nube y la transformación digital, las organizaciones necesitan un nuevo perímetro de WAN que combine seguridad local y en la nube, cumpliendo la promesa de SASE de proteger a los usuarios que se conectan a SaaS y plataformas de nube pública, y para salvaguardar los dispositivos de IoT que requieren seguridad basada en identidad Zero Trust. A través de las nuevas integraciones de Aruba ESP que se anuncian hoy, los clientes empresariales ahora tienen la capacidad de aplicar políticas de seguridad basadas en identidad de nivel granular desde el borde hasta la nube para conectar y proteger de forma segura tanto a los usuarios como a los dispositivos.</p>
+<p style="text-align: justify;">Un informe reciente de la firma de investigación de comunicaciones 650 Group destaca el creciente énfasis en SASE al mismo tiempo que explica la necesidad de que las empresas reexaminen su enfoque de seguridad a la luz de la evolución tecnológica actual. Chris DePuy, analista de tecnología fundador en 650 Group afirma: “A medida que las empresas cambian hacia las arquitecturas Zero Trust y SASE, están evaluando e implementando cada vez más servicios de seguridad entregados en la nube de múltiples proveedores, y no es necesario que todos los componentes de SASE provengan de un vendedor único. El enfoque de Aruba logra un equilibrio entre brindar funcionalidad de seguridad local en el borde de la WAN y brindar a los clientes la libertad de elección para integrar servicios de seguridad líderes en la nube de socios como Zscaler, Netskope y Check Point. Esta estrategia de asociación de múltiples proveedores brinda a las empresas la flexibilidad de continuar trabajando con los proveedores existentes o cambiar hacia los mejores sistemas ".</p>
+<p style="text-align: justify;"><strong>Integración de ClearPass Policy Manager con Aruba EdgeConnect</strong></p>
+<p style="text-align: justify;">La integración de <a href="https://www.arubanetworks.com/products/security/network-access-control/">ClearPass Policy Manager</a> con <a href="https://www.arubanetworks.com/products/sd-wan/edgeconnect/">la plataforma de borde Aruba EdgeConnect SD-WAN</a> aumenta la inteligencia de la aplicación al agregar conocimiento de identidad de usuarios, dispositivos IoT, roles y postura de seguridad para formar la base de un borde SASE WAN. La combinación de inteligencia de posiciones de seguridad y roles con capacidades avanzadas de segmentación dinámica elimina la complejidad asociada con la implementación de cientos de VLAN para cada clase de usuario y dispositivo, lo que simplifica drásticamente la administración y gestión de la red. La integración de ClearPass Policy Manager con EdgeConnect proporciona una definición coherente y automatizada de roles que se pueden aplicar en toda la red desde el dispositivo del usuario, a través de LAN y a través de WAN.</p>
+<p style="text-align: justify;"><strong>Integración de Aruba Threat Defense con Aruba EdgeConnect</strong></p>
+<p style="text-align: justify;">La integración de Aruba Threat Defense con la plataforma de borde Aruba EdgeConnect SD-WAN extiende las capacidades avanzadas de detección y prevención de intrusiones (IDS / IPS) a los dispositivos físicos y virtuales de EdgeConnect. Esto permite que la plataforma EdgeConnect aproveche la infraestructura de amenazas de Aruba, compartiendo información crítica sobre amenazas entre <a href="https://www.arubanetworks.com/products/network-management-operations/central/">Aruba Central</a> y EdgeConnect para brindar visibilidad completa en toda la red. Estas capacidades avanzadas de gestión unificada de amenazas (UTM) permiten a las empresas ofrecer seguridad lateral este-oeste, así como una salida segura de Internet local desde las sucursales y se pueden implementar de forma centralizada en las instalaciones o en la nube. Al aprovechar una infraestructura de amenazas común y fuentes de amenazas en Aruba ESP, los administradores de red y seguridad pueden aplicar y hacer cumplir de manera centralizada las políticas de administración de amenazas en toda la empresa.</p>
+<p style="text-align: justify;"><strong>Libertad de elección a través de un ecosistema de socios de múltiples proveedores</strong></p>
+<p style="text-align: justify;">A medida que las empresas cambian hacia una arquitectura Zero Trust y SASE, están evaluando e implementando cada vez más servicios de seguridad entregados en la nube de múltiples proveedores. Una <a href="https://blogs.arubanetworks.com/spectrum/ponemon-survey-highlights-security-best-practices-for-implementing-a-zero-trust-or-sase-architecture/">nueva encuesta de mejores prácticas de seguridad del Ponemon Institute</a> afirma esto, revelando que más del 70 por ciento de los encuestados optarían por la mejor solución de seguridad entregada en la nube en lugar de un enfoque todo en uno[1], con el fin de diseñar una confianza cero integral e infraestructura SASE.</p>
+<p style="text-align: justify;">Con un nuevo flujo de trabajo de aprovisionamiento de Service Orchestration, la consola de administración de Aruba Orchestrator, anteriormente Silver Peak Unity Orchestrator, ahora incluye información predeterminada preconfigurada con respecto a los servicios de seguridad en la nube basados ​​en proximidad del socio de seguridad en la nube. Los administradores de red pueden asociar rápida y fácilmente las ubicaciones de las sucursales de Aruba con los puntos de presencia (POP) y los centros de datos en la nube del socio. Los <a href="https://www.silver-peak.com/company/tech-partners?strategic_partner_type=72">principales proveedores de seguridad</a> como Check Point, Forcepoint, McAfee, Netskope, Palo Alto Networks, Symantec y Zscaler son actualmente parte del extenso ecosistema de socios de la alianza tecnológica de Aruba.</p>
+<p style="text-align: justify;">"La integración de ClearPass Policy Manager y Aruba Threat Defense con la plataforma de borde EdgeConnect SD-WAN nos permite ofrecer un marco de políticas consistente basado en identidad en toda la cartera de servicios de borde seguro de Aruba", dijo David Hughes, fundador de Silver Peak y vicepresidente senior del negocio WAN en Aruba, una empresa de Hewlett Packard Enterprise. “Esta poderosa combinación permitirá a los clientes moverse a su propio ritmo, desde arquitecturas de red heredadas centradas en el centro de datos, con seguridad basada en el perímetro, a una WAN centrada en la nube con seguridad basada en los principios de Zero Trust y SASE. Los clientes empresariales pueden implementar nuestra plataforma EdgeConnect WAN local para hacer cumplir las políticas desde el borde e integrarse fácilmente con los servicios de seguridad líderes en la nube del proveedor de su elección, todo controlado de forma centralizada dentro de Aruba Orchestrator".</p>
+<p style="text-align: justify;"><strong>La cartera integral segura de WAN Edge abarca ubicaciones de trabajo híbridas</strong></p>
+<p style="text-align: justify;">La plataforma Aruba ESP ofrece a los clientes la cartera más completa de la industria de soluciones de borde de WAN, inalámbricas y cableadas seguras que permiten a los clientes adaptarse a la nueva normalidad de hoy y las incógnitas del mañana. La cartera de WAN Edge incluye:</p>
+
+<ul style="text-align: justify;">
+	<li>Virtual Intranet Access Client (VIA): máxima movilidad para los usuarios que trabajan desde cualquier lugar, ya sea que se conecten a redes públicas o privadas.</li>
+	<li>Puntos de acceso remoto (RAP): espacio mínimo para espacios de trabajo móviles, remotos y temporales, que brindan conectividad segura a la red empresarial corporativa</li>
+	<li>SD-Branch: máxima integración y administración unificada simple en WLAN, LAN y SD-WAN con seguridad Zero Trust</li>
+	<li>EdgeConnect: calidad de experiencia (QoE) óptima de borde a nube con una plataforma de borde SD-WAN avanzada y componentes SASE unificados</li>
+</ul>
+<p style="text-align: justify;">[1]Ponemon Institute, The State of SD-WAN, SASE and Zero Trust Security Architectures, April 2021</p>
+
+![]({{site.baseurl}}/https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciber-seguridad-p.jpg)
+
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
