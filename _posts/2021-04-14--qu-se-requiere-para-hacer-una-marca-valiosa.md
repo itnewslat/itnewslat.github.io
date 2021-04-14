@@ -23,8 +23,6 @@ tags:
   - Transformación Digital
 week: '16'
 ---
-<p style="text-align: justify;"><strong></strong></p>
-
 <ul style="text-align: justify;">
 	<li>Conoce la fórmula de la 4e para construir marcas valiosas.</li>
 	<li>El presupuesto en pauta no lo es todo en marketing, 4e=e es la metodología de branding que está creando valor para los clientes y las compañías.</li>
