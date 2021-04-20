@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2021-04-20 12:48 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2021'
@@ -37,7 +37,7 @@ Este tipo de situaciones ha evidenciado la importancia de contar con la capacida
 <p style="text-align: justify;">A nivel empresarial, las instituciones educativas también deben tomar medidas para ser capaces de adoptar un sistema en línea totalmente remoto. Algunas de las características clave que estas organizaciones debieran tener en cuenta incluyen:</p>
 
 <ul style="list-style-type: disc; text-align: justify;">
-	<li> Promover una conexión segura a la red</li>
+	<li>Promover una conexión segura a la red</li>
 	<li>Brindar seguridad a los dispositivos (endpoints)</li>
 	<li>Incluir funcionalidades de prevención de pérdida de datos</li>
 	<li>Implementar capacidades de comunicaciones y seguridad con SD-WAN seguro</li>
@@ -46,3 +46,8 @@ Este tipo de situaciones ha evidenciado la importancia de contar con la capacida
 <p style="text-align: justify;"><strong>Una base segura garantiza la continuidad del negocio y de los estudios</strong></p>
 <p style="text-align: justify;">Muchas instituciones educativas han incorporado el e-learning con el apoyo de las nuevas tecnologías de la información y las comunicaciones. Fortinet, líder en soluciones de ciberseguridad amplias, integradas y automatizadas, trabaja junto a universidades en toda América Latina para fomentar la renovación tecnológica y el mejoramiento de su infraestructura de ciberseguridad.</p>
 <p style="text-align: justify;">La preparación para la continuidad operativa y de aprendizaje es vital tanto para los distritos escolares y las universidades como para los niños y jóvenes que no quieren comprometer sus estudios. Seguir medidas básicas de ciberseguridad y adoptar nuevas soluciones a nivel operacional dentro del sector educativo son clave durante situaciones de contingencia como la que vivimos hoy.</p>
+
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Educacion-VIrtual-p.jpg)
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
