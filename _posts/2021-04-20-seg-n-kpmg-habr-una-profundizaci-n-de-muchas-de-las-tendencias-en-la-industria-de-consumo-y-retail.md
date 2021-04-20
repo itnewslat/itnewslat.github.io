@@ -41,3 +41,5 @@ week: '18'
 <p style="text-align: justify;"></p>
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Retail-p.jpg)
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
