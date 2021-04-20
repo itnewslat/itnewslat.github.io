@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2021-04-20 12:35 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2021'
@@ -37,3 +37,7 @@ week: '18'
 <p style="text-align: justify;">#SmartLife es la primera campaña de LG Electronics que cuenta con certificación de carbono neutral. Esto quiere decir que, tras producir el spot oficial de la campaña, se calculó la huella de carbono total generada por las actividades relacionadas, como jornadas de filmación, consumo de energía, residuos por insumos, catering, transporte, combustible y todo aquello necesario para su realización.</p>
 <p style="text-align: justify;">Para lo anterior, se llevó toda la información y desechos a la planta de reciclaje Rembre.</p>
 <p style="text-align: justify;">Para obtener la carbono neutralidad, LG Electronics gestionó la compensación de sus emisiones invirtiendo en proyectos que retribuyan tres veces el daño ocasionado. En esta línea, el proyecto cuenta con la ecoetiqueta Biocarbon+, que combina un bono de carbono certificado bajo estándares internacionales VCS y el apoyo a una iniciativa local de reforestación.</p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Medio-Ambiente-p.jpg)
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
