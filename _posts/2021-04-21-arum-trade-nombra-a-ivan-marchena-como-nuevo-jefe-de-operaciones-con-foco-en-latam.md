@@ -31,3 +31,8 @@ week: '18'
 <p style="text-align: justify;">Entre sus objetivos profesionales, Iván Marchena se ha propuesto impulsar el crecimiento de la región latinoamericana a través de la educación gratuita para lograr el empoderamiento de todos los sectores de los países de la región.</p>
 <p style="text-align: justify;">"Estoy entusiasmado con este nuevo reto ya que en Arum Trade compartimos el deseo de traer valor a América Latina", comenta Iván Marchena. “Me alegra asumir este nuevo desafío ya que Arum Trade sabe claramente a dónde ir y comparto la misma visión. Mi primer objetivo es llenar el vacío que existe en mi América Latina natal con respecto a la educación comercial gratuita y de buena calidad”, dijo Marchena.</p>
 <p style="text-align: justify;">Iván siempre ha tenido en mente proyectos que permitan la adopción de las criptomonedas así como al trading de activos tradicionales. Está enfocado en el desarrollo de la región Latinoamericana y por ello ha insistido en la necesidad de propiciar la educación financiera que ahora podrá impulsar en su posición como Jefe de Operaciones de Arum Trade para la región.</p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ivan-Marchena-p.jpg)
+
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
