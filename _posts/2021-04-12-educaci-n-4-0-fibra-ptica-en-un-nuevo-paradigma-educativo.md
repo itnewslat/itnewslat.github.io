@@ -33,6 +33,6 @@ week: '16'
 <p style="text-align: justify;">Respecto al ahorro de espacio, las salas técnicas ya no son necesarias y pueden utilizarse para otros fines, como aulas, laboratorios y salas de estudio, generando una reutilización eficiente de los espacios. Además, las fibras ópticas monomodo, con un alcance de hasta 20 kilómetros de distancia, ofrecen importantes ventajas en los grandes campus universitarios, permitiendo que todo el control de la red se realice desde una única ubicación, independientemente de la distancia.</p>
 <p style="text-align: justify;">Finalmente, no es menor destacar el componente ecológico de estas soluciones que utilizan un 87% menos de plástico que las redes tradicionales representando una reducción significativa del impacto de la infraestructura en el medio ambiente. Este factor se combina con una reducción de hasta un 70% en el consumo de energía y un ahorro de espacio de hasta un 89%, lo que hace a esta tecnología de conectividad más amigable con el ecosistema.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Tecnologia-Educacion-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Tecnologia-Educacion-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
