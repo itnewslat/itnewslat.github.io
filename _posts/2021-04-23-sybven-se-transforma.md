@@ -42,6 +42,6 @@ week: '18'
 </tr>
 </tbody>
 </table>
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Mundo-Sybase-p.jpg
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Mundo-Sybase-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04" alt="" />
