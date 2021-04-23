@@ -23,7 +23,7 @@ tags:
   - Transformación Digital
 week: '18'
 ---
-<p style="text-align: justify;"><a href="http://www.ciberespacio.com.ve/wp-content/uploads/2014/04/magdalena-de-luca-1.jpg"><img class="alignleft size-full wp-image-31016" src="http://www.ciberespacio.com.ve/wp-content/uploads/2014/04/magdalena-de-luca-1.jpg" alt="magdalena de luca 1" width="183" height="275" /></a>Así como el mundo cambió y ese cambio ha impulsado a las empresas a rediseñarse organizacionalmente, e inclusive, como marcas; así mismo Sybven está cambiando, mediante un rebranding que afianza sus valores y le permite dar un paso más allá en su crecimiento en todos los mercados, abre diálogo Magdalena De Luca, CEO de Sybven.</p>
+<p style="text-align: justify;"><img class="alignleft" src="https://i1.wp.com/ipsperiodista.org/wp-content/uploads/2020/06/magdalena.jpg?fit=694%2C1080" alt="" width="171" height="265" />Así como el mundo cambió y ese cambio ha impulsado a las empresas a rediseñarse organizacionalmente, e inclusive, como marcas; así mismo Sybven está cambiando, mediante un rebranding que afianza sus valores y le permite dar un paso más allá en su crecimiento en todos los mercados, abre diálogo Magdalena De Luca, CEO de Sybven.</p>
 <p style="text-align: justify;">“Todo empezó con un proceso de reorganización en 2020, en el que nos reestructuramos en células, porque nuestro nuevo diseño organizacional está conformado de esta manera; y dentro de este cambio, cada una de esas células se define por la colaboración, la competencia técnica y la empresarial, así como la capacidad de trabajar en equipo con una alta orientación a logros dentro de los marcos de competencia imprescindibles”, describe De Luca.</p>
 <p style="text-align: justify;">En este nuevo proceso de la compañía, cada célula se maneja de autónoma, y en conjunto crean mecanismos de negocios y de operación con propósito, misión y visión; asimismo, estas células agilizan el proceso de triangulación entre aliados internos, externos y clientes, velando por cada uno de los proyectos y atendiendo las necesidades reales de cada clientes, difundiendo las competencias adquiridas entre las otras células de la organización.</p>
 <p style="text-align: justify;"><strong>UNA VERDADERA TRANSFORMACIÓN</strong></p>
@@ -33,4 +33,3 @@ week: '18'
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Mundo-Sybase-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
