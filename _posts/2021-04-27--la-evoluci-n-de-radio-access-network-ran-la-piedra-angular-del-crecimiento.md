@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: '>La evolución de Radio Access Network (RAN): La piedra angular del crecimiento'
+title: 'La evolución de Radio Access Network (RAN): La piedra angular del crecimiento'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Antenas-Celular-p.jpg
 detail-image: >-
