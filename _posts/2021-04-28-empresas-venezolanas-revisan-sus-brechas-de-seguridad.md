@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2021-04-28 08:40 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2021'
@@ -26,4 +26,5 @@ week: '19'
 <p style="text-align: justify;">“Las VPN seguras deben ser algo del día a día de las empresas, los controles de seguridad y políticas de acceso deben refinarse aún más, ya que la nueva normalidad vino para quedarse y con ella las amenazas del internet que antes no eran tan comunes en el país”.</p>
 <p style="text-align: justify;">Si bien el teletrabajo puede ayudar a disminuir costos por el poco uso de las instalaciones de la empresa, también puede significar una debilidad a la hora de la seguridad de sus datos, así como el mal empleo de equipos, de allí que más que nunca deba revisarse la ciberseguridad de las organizaciones.</p>
 
-
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Brecha-Seguridad-p.jpg)
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
