@@ -6,7 +6,7 @@ published: false
 superNews: true
 superArticle: false
 year: '2021'
-title: "La nube se simplifica para los desarrolladores:\_</strong><strong>IBM Cloud Code Engine permite ejecutar código de manera fácil y a escala"
+title: "La nube se simplifica para los desarrolladores:\_IBM Cloud Code Engine permite ejecutar código de manera fácil y a escala"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Programador-p.jpg
 detail-image: >-
