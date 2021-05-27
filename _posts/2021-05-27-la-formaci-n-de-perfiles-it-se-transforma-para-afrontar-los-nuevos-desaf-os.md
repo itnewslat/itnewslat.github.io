@@ -8,7 +8,7 @@ superArticle: false
 year: '2021'
 title: La formación de perfiles IT se transforma para afrontar los nuevos desafíos
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Empleados-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Empleados-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Empleados-g.jpg
 categories:
@@ -38,6 +38,6 @@ week: '23'
 <p style="text-align: justify;">En cuanto al mercado IT, es sin duda, una de las industrias a ser parte de la solución, además que podría considerarse una de las pocas rutas conocidas para superar con éxito los desafíos de empleabilidad en este nuevo mundo POST COVID-19.</p>
 <p style="text-align: justify;"><em>“Cabe recordar que es un sector donde el desempleo no existe, por decirlo de alguna manera, uno de sus mejores aspectos es que es muy bien remunerado; hay demanda y ofertas laborales para buenos profesionales en cualquier parte del mundo.  Para todos existe la posibilidad de vivir en la región de encontrar un trabajo en otro país con un sueldo considerable, sumado a la alternativa de hacerlo remoto, todo eso ahora es una realidad. La formación de KeepCoding es el pasaporte para esta esta realidad paralela donde la crisis no existe”</em>, concluyó Botelho.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Empleados-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Empleados-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
