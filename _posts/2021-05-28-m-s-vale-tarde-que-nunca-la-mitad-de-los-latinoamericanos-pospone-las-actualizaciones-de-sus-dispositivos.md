@@ -10,7 +10,7 @@ title: >-
   Más vale tarde que nunca: la mitad de los latinoamericanos pospone las
   actualizaciones de sus dispositivos
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Celulares-g.jpg
 categories:
@@ -33,7 +33,6 @@ week: '23'
 <p style="text-align: justify;"></p>
 <p style="text-align: justify;">El informe completo está disponible a través de este <a href="https://www.kaspersky.com/blog/device-updates-report/">enlace.</a></p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares-p.jpg)
-
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
