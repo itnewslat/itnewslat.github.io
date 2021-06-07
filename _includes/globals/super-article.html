@@ -7,7 +7,7 @@
     {% for item in posts-sorted  %}
       {% if counter <= '0' %}
        {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
-          <div class="mb-4 mb-lg-6 py-7 text-center bg-dark overlay overlay-op-8" data-url="{{ item.url }}" data-bg-img="{{item.image}}" style="background-size:contain; background-repeat:no-repeat;background-position:center">
+          <div class="mb-4 mb-lg-6 py-7 text-center bg-dark overlay overlay-op-8" data-url="{{ item.url }}" data-bg-img="{{item.image}}" style="background-repeat:no-repeat;background-position:center">
             <div class="container">
               <p class="text-xs mt-0 mb-1 text-white text-uppercase font-weight-bold"> <i class="fa fa-clock-o"></i> {{ item.date | date_to_string }}</p>
               <h2 class="text-uppercase text-letter-spacing-sm my-0 text-white font-weight-bold">
