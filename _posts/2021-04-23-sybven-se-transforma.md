@@ -8,8 +8,7 @@ superArticle: true
 year: '2021'
 title: SYBVEN SE TRANSFORMA
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners
-  2.gif
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Salva.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners
   2.gif
