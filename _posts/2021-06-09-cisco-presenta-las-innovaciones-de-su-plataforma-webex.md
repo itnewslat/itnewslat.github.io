@@ -23,7 +23,7 @@ tags:
   - Transformación Digital
 week: '25'
 ---
-<p style="text-align: justify;"><strong> </strong><strong>Potenciando un futuro laboral inclusivo:</strong>><strong>que facilitan el trabajo híbrido y los eventos, garantizando la igualdad de voz y de oportunidades</strong></p>
+<p style="text-align: justify;"><strong>Potenciando un futuro laboral inclusivo: que facilitan el trabajo híbrido y los eventos, garantizando la igualdad de voz y de oportunidades</strong></p> 
 
 <ul style="text-align: justify;">
 	<li>La rapidez de innovación de Webex continúa en la palestra, introduciendo más de 800 nuevas funciones y dispositivos desde septiembre.</li>
