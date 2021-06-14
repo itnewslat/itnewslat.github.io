@@ -6,9 +6,9 @@ published: true
 superNews: false
 superArticle: true
 year: '2021'
-title: SYBVEN SE TRANSFORMA
+title: 'Agilidad Organizacional, Anticiparse a los Cambios'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Salva.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-Agilidad-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners
   2.gif
@@ -22,17 +22,26 @@ categories:
   - Panama
 tags:
   - Transformación Digital
-week: '18'
+week: '26'
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners.gif
 ---
-<p style="text-align: justify;">Así como el mundo cambió y ese cambio ha impulsado a las empresas a rediseñarse organizacionalmente, e inclusive, como marcas; así mismo Sybven está cambiando, mediante un rebranding que afianza sus valores y le permite dar un paso más allá en su crecimiento en todos los mercados, abre diálogo Magdalena De Luca, CEO de Sybven.</p>
-<p style="text-align: justify;">“Todo empezó con un proceso de reorganización en 2020, en el que nos reestructuramos en células, porque nuestro nuevo diseño organizacional está conformado de esta manera; y dentro de este cambio, cada una de esas células se define por la colaboración, la competencia técnica y la empresarial, así como la capacidad de trabajar en equipo con una alta orientación a logros dentro de los marcos de competencia imprescindibles”, describe De Luca.</p>
-<p style="text-align: justify;">En este nuevo proceso de la compañía, cada célula se maneja de autónoma, y en conjunto crean mecanismos de negocios y de operación con propósito, misión y visión; asimismo, estas células agilizan el proceso de triangulación entre aliados internos, externos y clientes, velando por cada uno de los proyectos y atendiendo las necesidades reales de cada clientes, difundiendo las competencias adquiridas entre las otras células de la organización.</p>
-<p style="text-align: justify;"><strong>UNA VERDADERA TRANSFORMACIÓN</strong></p>
-<p style="text-align: justify;">De Luca explica que, en una segunda fase de cambios, de ese proceso de rebranding, se ha incluido el diseño de un nuevo logotipo, para un refrescamiento de la identidad visual corporativa Sybven. “En efecto, el objetivo es afianzar la marca a los valores que nos representan, como la empresa grande, innovadora, experta, ágil, y digital, que cuenta con las competencias para atender de manera asertiva los cambios que impone el nuevo entorno, en los más de 17 países con proyectos exitosos, que atendemos actualmente”.</p>
-<p style="text-align: justify;">El cambio, además de ser una respuesta al cambio global, es una manera de conectar con sus diversos públicos objetivos: tanto colaboradores, como clientes, proveedores, gremios, comenta De Luca. Y como toda estrategia de rebranding, aplicada con foco, constancia y consciencia, el impacto positivo se evidencia en el fortalecimiento de la imagen corporativa y en la optimización de la reputación y rentabilidad del negocio. Sybven apunta a afianzar y a crecer, así como a apalancar el crecimiento de cada uno de sus clientes en toda la región.</p>
+<a href="https://www.sybven.com/"><img class="aligncenter" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner-Sybase.jpg" alt="Mas información sobre SYBVEN, Aquí" width="593" height="250" /></a>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Mundo-Sybase-p.jpg)
+<p style="text-align: justify;">Sin duda, en la era de la transformación digital, las organizaciones que puedan anticiparse al mundo cambiante en el que vivimos y que además generen soluciones innovadoras para sus clientes, serán las únicas que alcanzarán el éxito.</p>
+<p style="text-align: justify;">En Sybven, estamos conscientes de que actualmente existe una brecha entre la comprensión y la adopción de la agilidad en las empresas, y muchas piensan que esto aplica solo a las área de proyectos tecnológicos pero no es así, el proceso debe tocar a toda la organización apunta Magdalena De Luca, CEO de Sybven.</p>
+<p style="text-align: justify;">Desde antes del pasado año y en la actualidad, tanto la pandemia por Covid-19 como otros diversos factores, demostraron cuán necesaria es la relación más natural entre personas, procesos, máquinas y cambios. “Para lograr la diferenciación y destacar en estos mercados globales, innovadores, volátiles, y complejos, las empresas deben adoptar la cultura ágil para asegurar su sostenibilidad y crecimiento”.</p>
+<p style="text-align: justify;"><strong>Agilidad Organizacional</strong></p>
+<p style="text-align: justify;">La adopción de la cultura ágil en una empresa, es conocida como Agilidad Organizacional. Y esta se enfoca en aquellas empresas que ponen en práctica el Manifiesto Ágil,expresamente en la forma en la cual se organizan para hacer negocios, pasando por sus operaciones diarias, hasta la forma de agregar valor a sus clientes. “Hablar de agilidad y fluidez implica reconfigurar la forma de trabajar, transformar procesos y medios”.</p>
+<p style="text-align: justify;">La agilidad organizacional es una filosofía de trabajo que, entre otras cosas, permite gerenciar y gestionar proyectos de forma colaborativa y efectiva. Algunos la confunden con la rapidez, pero esto se debe a que las empresas que la adoptan, observan en poco tiempo, mayor rapidez y fluidez en sus procesos, ahorrando energía y tiempo.</p>
+<p style="text-align: justify;"><strong>Impacto en la transformación digital</strong></p>
+<p style="text-align: justify;">La agilidad organizacional propone un cambio profundo en el ADN empresarial y por ende, en cada persona que forma parte de la organización, con la finalidad de apalancar la transformación digital.</p>
+<p style="text-align: justify;">“En Sybven impulsamos y recomendamos que las organizaciones que trabajen bajo la cultura ágil y que centren sus operaciones en las cuatro áreas claves de la transformación digital: expectativas del cliente, mejoras del producto, innovación colaborativa y formas organizativas”.</p>
+<p style="text-align: justify;">Esto traerá como beneficios concretos, la entrega de proyectos y resultados de forma acelerada, el aumento en la productividad, mejoras en la alineación del negocio, así como un importante impacto positivo en la moral del equipo y su sentido de pertenencia, entre otros.</p>
+<p style="text-align: justify;"><strong>Agile Mentoring: la clave para implementar la cultura ágil</strong></p>
+<p style="text-align: justify;">Esta técnica resulta de suma eficacia para todas las empresas que buscan desarrollar y potenciar la agilidad en su cultura organizacional, así como en sus colaboradores. Además, evita recurrir a capacitaciones especializadas muy costosas, porque se adapta a las necesidades de cada organización y se aplica desde la incorporación de nuevos colaboradores.</p>
+<p style="text-align: justify;">En Sybven, tenemos amplia experiencia en el acompañamiento en procesos de mentoría para la transformación hacia una cultura ágil, apunta De Luca. Estos procesos son guiados por Agile Coaches experimentados, quienes asesoran a los clientes para asegurar un resultado acorde a sus expectativas y para lograr éxito y mejoras en los negocios.</p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-Agilidad-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04" alt="" />
