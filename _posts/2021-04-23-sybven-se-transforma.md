@@ -26,7 +26,7 @@ week: '26'
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners.gif
 ---
-<a href="https://www.sybven.com/"><img class="aligncenter" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner-Sybase.jpg" alt="Mas información sobre SYBVEN, Aquí" width="450" height="190" /></a>
+<a href="https://www.sybven.com/"><img class="aligncenter" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner-Sybase.jpg" alt="Mas información sobre SYBVEN, Aquí" width="284" height="120" /></a>
 
 <p style="text-align: justify;">Sin duda, en la era de la transformación digital, las organizaciones que puedan anticiparse al mundo cambiante en el que vivimos y que además generen soluciones innovadoras para sus clientes, serán las únicas que alcanzarán el éxito.</p>
 <p style="text-align: justify;">En Sybven, estamos conscientes de que actualmente existe una brecha entre la comprensión y la adopción de la agilidad en las empresas, y muchas piensan que esto aplica solo a las área de proyectos tecnológicos pero no es así, el proceso debe tocar a toda la organización apunta Magdalena De Luca, CEO de Sybven.</p>
