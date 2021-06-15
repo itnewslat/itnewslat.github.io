@@ -8,7 +8,7 @@ superArticle: true
 year: '2021'
 title: 'Agilidad Organizacional, Anticiparse a los Cambios'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-Agilidad-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-Sybase-Largo.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners
   2.gif
