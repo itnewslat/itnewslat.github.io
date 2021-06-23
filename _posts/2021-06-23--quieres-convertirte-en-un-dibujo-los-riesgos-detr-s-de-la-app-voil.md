@@ -7,8 +7,10 @@ superNews: false
 superArticle: false
 year: '2021'
 title: ¿Quieres convertirte en un dibujo?  los riesgos detrás de la app Voilá
-image: 'https://github.com/itnewslat/assets/blob/master/img/540x320/Faceapp-p.jpg'
-detail-image: 'https://github.com/itnewslat/assets/blob/master/img/1024x680/Faceapp-g.jpg'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Faceapp-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Faceapp-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -38,6 +40,6 @@ week: '27'
 <p style="text-align: justify;">Para más consejos sobre cómo cuidar tus datos en línea, consulta nuestro <a href="https://latam.kaspersky.com/blog">blog</a>.</p>
 <p style="text-align: justify;"><strong> </strong></p>
 
-![](https://github.com/itnewslat/assets/blob/master/img/540x320/Faceapp-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Faceapp-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
