@@ -8,7 +8,7 @@ superArticle: false
 year: '2021'
 title: 'Navegando por las nubes grises: la importancia de la seguridad en la nube'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Nube-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/nube-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Nube-g.jpg
 categories:
@@ -45,6 +45,6 @@ week: '28'
 </ol>
 <p style="text-align: justify;">Es innegable el papel protagónico que la nube ha adquirido en el nuevo entorno de trabajo remoto, la nube se ha transformado en un elemento clave para el mundo digital, aportando innumerables beneficios para la transformación, innovación y agilidad empresarial, sin embargo, resulta muy importante no perder de vista los riesgos inmersos en este nuevo entorno de trabajo digital. Lo invitamos a evaluar su infraestructura en la nube y a poner en práctica nuestros consejos de seguridad, recuerde que la nube puede convertirse en su más grande aliado si se emplea de forma adecuada, es decir garantizando la eficiencia de su negocio sin perder la visibilidad y protección de su infraestructura.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Nube-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/nube-p.jpg)
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
