@@ -56,7 +56,7 @@ week: '28'
 <p style="text-align: justify;"><em>“Si bien Facebook es relativamente estricto cuando se trata de vigilar el contenido que aparece en su plataforma, los ciberdelincuentes siguen siendo creativos e ingeniosos. Intentan encontrar y aprovechar cualquier oportunidad en su sistema de moderación de contenidos de Facebook para poder difundir sus estafas y engañar a tantos usuarios como sea posible para quedarse con el dinero que tanto les costó ganar. Como siempre, el mejor consejo sigue siendo estar atento y revisar todo, especialmente porque las redes sociales se han visto inundadas de publicaciones de trolls promoviendo desde noticias falsas de fuentes no verificadas hasta estafas relacionadas con las vacunas para el COVID-19. Además, se recomienda tener una </em><em>solución de seguridad instalada </em><em>en todos los dispositivos y actualizar los sistemas.”, </em>comenta Camilo Gutiérrez Amaya, jefe del Laboratorio de Investigación de ESET Latinoamérica.</p>
 <p style="text-align: justify;">Para conocer más sobre seguridad informática ingrese al portal de noticias de ESET: <a href="https://www.welivesecurity.com/la-es/2021/06/30/estafas-mas-comunes-facebook-como-evitarlas/">https://www.welivesecurity.com/la-es/2021/06/30/estafas-mas-comunes-facebook-como-evitarlas/</a></p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Facebook-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Facebook-p.jpg)
 
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
