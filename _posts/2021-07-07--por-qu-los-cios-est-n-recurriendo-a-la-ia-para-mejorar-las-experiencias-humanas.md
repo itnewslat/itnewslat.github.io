@@ -64,4 +64,4 @@ week: '29'
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
 
-https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Rogelio-Ruiz-p.jpg
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Rogelio-Ruiz-p.jpg)
