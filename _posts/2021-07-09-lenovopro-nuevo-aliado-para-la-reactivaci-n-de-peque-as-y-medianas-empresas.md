@@ -28,7 +28,7 @@ week: '29'
 <table style="height: 42px;" width="569">
 <tbody>
 <tr>
-<td style="text-align: justify;"><sub><strong>Nuestras noticias tambiés son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
 </tr>
 </tbody>
 </table>
