@@ -25,8 +25,6 @@ tags:
   - Economía Digital
 week: '30'
 ---
-<p style="text-align: justify;"><strong></strong></p>
-
 <ul style="list-style-type: disc; text-align: justify;">
 	<li><em>Pequeños productores de café y cacao usan la tecnología blockchain de IBM Food Trust y la potente inteligencia artificial de IBM Watson Decision Platform for Agriculture para mejorar la toma de decisiones en sus establecimientos y agilizar transacciones.</em></li>
 </ul>
@@ -45,6 +43,8 @@ week: '30'
 <p style="text-align: justify;">Heifer International y CATIE organizaron recientemente un taller con expertos de IBM y la industria del cacao para explorar la combinación de datos macroclimáticos y conocimientos sobre la fisiología del cacao, con el objetivo de desarrollar modelos predictivos. Los expertos tienen como meta utilizar la inteligencia artificial y las capacidades de aprendizaje automático de Watson para dar a los pequeños agricultores de cacao acceso a datos que ayudarán a predecir el rendimiento y el crecimiento del cacao.</p>
 <p style="text-align: justify;">Como parte de una larga historia de aprovechamiento de la tecnología para promover el desarrollo rural, Heifer International también está participando en el <a href="https://newsroom.ibm.com/2021-03-22-IBM-Launches-Fourth-Annual-Call-for-Code-Global-Challenge-to-Tackle-Existential-Threat-of-Climate-Change">Call for Code Global Challenge 2021</a> para abordar el cambio climático.</p>
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Granos-de-Cafe-p.jpg)
+
 <table style="height: 42px;" width="569">
 <tbody>
 <tr>
@@ -55,4 +55,4 @@ week: '30'
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Granos-de-Cafe-p.jpg)
+
