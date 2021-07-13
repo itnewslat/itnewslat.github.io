@@ -39,6 +39,8 @@ week: '30'
 <p style="text-align: justify;">https://partner.microsoft.com/cs-cz/inspire/awards https://news.microsoft.com/es-xl/microsoft-anuncia-a-los-ganadores-y-finalistas-de-los-premiospartner-of-the-year-2021/</p>
 <p style="text-align: justify;">CONSEIN es una empresa integradora de servicios en el área de tecnología de la información, con 34 años en el mercado. Especializada en productos y servicios Microsoft, alianza que tiene más de 28 años, acreditada con la categoría Gold Partner.</p>
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Consein-p.jpg)
+
 <table style="height: 42px;" width="569">
 <tbody>
 <tr>
@@ -47,6 +49,8 @@ week: '30'
 </tbody>
 </table>
 
+
+
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Consein-p.jpg)
+
