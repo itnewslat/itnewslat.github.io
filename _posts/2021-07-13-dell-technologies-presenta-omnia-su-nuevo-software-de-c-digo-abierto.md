@@ -2,11 +2,26 @@
 layout: posts
 color-schema: red-dark
 date: '2021-07-13 07:52 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2021'
 title: 'Dell Technologies presenta Omnia, su nuevo software de código abierto'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Omnia-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Omnia-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+tags:
+  - Canales
+week: '30'
 ---
 <p style="text-align: justify;"><em>Las organizaciones pueden innovar más rápido con las opciones de servicios HPC bajo demanda y aceleración de servidores</em></p>
 
@@ -46,4 +61,4 @@ title: 'Dell Technologies presenta Omnia, su nuevo software de código abierto'
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Omnia-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Omnia-p.jpg)
