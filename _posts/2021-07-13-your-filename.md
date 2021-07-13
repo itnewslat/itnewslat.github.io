@@ -6,7 +6,9 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: ''
+title: >-
+  El sector retail de Latinoamérica muestra números positivos en los primeros
+  seis meses de 2021
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Retail-p.jpg
 detail-image: >-
@@ -23,8 +25,6 @@ tags:
   - Actualidad
 week: '30'
 ---
-<p style="text-align: justify;"><strong>El sector retail de Latinoamérica muestra números positivos en los primeros seis meses de 2021</strong></p>
-
 <ul style="text-align: justify;">
 	<li>Según un informe interno reciente de <a href="https://bit.ly/3dspnHq">Orquest</a>, el software líder en planificación de horarios y tareas basado en IA con el que ya trabajan McDonalds o Inditex, <strong>las cifras de ventas totales en el sector retail durante los seis primeros meses de 2021 alcanzan números cercanos a todo lo vendido durante el 2020.</strong></li>
 	<li><strong>Latinoamérica muestra importantes signos de recuperación, todos los países mejoraron los promedios de ventas en los últimos meses</strong>. <strong>En todo el mundo las ventas comienzan a recuperar el ritmo de crecimiento que presentaban a mediados de 2019. Parece que se empieza a ver la luz al final del túnel de la pandemia.</strong></li>
