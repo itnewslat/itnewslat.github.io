@@ -36,6 +36,8 @@ week: '30'
 <p style="text-align: justify;">Un estudio realizado por el IICA, el BID y Microsoft1 en 2020, destacó que el 32 por ciento de la población de América Latina y el Caribe (244 millones de personas) no tienen acceso a Internet. Al priorizar las inversiones a largo plazo en sus redes, Millicom está cumpliendo con su compromiso de brindar conexión de alta calidad a más personas en las comunidades en las que opera, con el propósito de cerrar la brecha digital y fortalecer su posición de liderazgo en redes durante el proceso. Estas iniciativas de expansión de la red móvil ayudarán a acelerar la adopción de 4G LTE, respaldando la misión de alcanzar una mayor inclusión digital, mientras continuamos la ruta de implementación de plataformas 5G.</p>
 <p style="text-align: justify;">Para más información, visite Millicom.com</p>
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Dinero-p.jpg)
+
 <table style="height: 42px;" width="569">
 <tbody>
 <tr>
@@ -46,4 +48,4 @@ week: '30'
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Dinero-p.jpg)
+
