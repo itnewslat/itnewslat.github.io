@@ -23,7 +23,6 @@ tags:
   - Transformación Digital
 week: '30'
 ---
-<h1 style="text-align: justify;"><strong></strong><em></em><strong></strong></h1>
 <p style="text-align: justify;">Los retos actuales del mundo corporativo y del entorno digital son muchos, podemos encontrar múltiples aplicaciones ejecutándose simultáneamente en una red, actualizándose y haciéndose muchas veces incontrolables lo cual genera un impacto en los negocios. También los usuarios son cada vez más exigentes, para nadie es un secreto que las nuevas generaciones poseen un manejo avanzado de la tecnología y demandan más que simple conectividad, quieren soluciones que se adapten a cualquier estructura, la conexión entre el desempeño y la tecnología es ahora directamente proporcional, los KPIs los encontramos más cercanos en su asociación con el área de IT.</p>
 <p style="text-align: justify;">Es muy común también ver la obsolescencia que prevalece en algunas infraestructuras, los equipos se van quedando atrás en la tarea de demostrar rendimiento a una marejada de datos que viene constantemente en los incrementos de capacidad de conexión a la red. Son equipos que se van adaptando, pero no necesariamente pueden cumplir con funciones, ventajas y temas de seguridad generando importantes brechas. Adicionalmente, se tiene un cambio de paradigma, ahora el funcionamiento de una red se mide desde el punto de vista del usuario y el reto es darle a este todas las funcionalidades y capacidades, permitiéndole conectarse tanto desde la red privada como desde la red pública.</p>
 <p style="text-align: justify;">Es así como nace la necesidad de contar con un abanico de productos que no es solo tecnología para conexión inalámbrica, sino que además se comporte como un portafolio de soluciones en un ecosistema que ayude a cubrir todos esos retos con capacidades específicas. Es un nuevo modelo interesante para trabajar en la <a href="https://brandcom.us4.list-manage.com/track/click?u=9581ae7daa795e06b11c9f476&amp;id=40f431fb68&amp;e=0af6310e5f">4<sup>a</sup> Revolución Industrial,</a> donde el proveedor es un aliado integral. En esta línea de acción se ubica el <em>Managed Digital Solutions</em> de Lumen Technologies, por ejemplo, tal como apunta Alejandro Girardotti, Director Regional de Producto Datos de Lumen LATAM: “nos concentramos en las necesidades, los retos, las problemáticas que los clientes necesitan resolver con la tecnología”.</p>
@@ -36,6 +35,8 @@ week: '30'
 <p style="text-align: justify;">Otro de los temas interesantes de Lumen y su <em>Managed Wi-Fi</em> es el WiFi 6, un protocolo o estándar de red que todavía no es muy conocido en el mercado, pero es 3 veces más rápido, presenta un 75% de menor latencia, tiene 4 veces mayor capacidad de conexión, ofrece mejora en el manejo de altas densidades y para el manejo de IoT, mejora el manejo de espacios y en la operación outdoor. También otra de las características del <em>Managed Wi-Fi</em> es el <em>User Experience UXS</em>, que permite mediante dispositivos especiales evaluar la red desde el punto de vista del usuario.</p>
 <p style="text-align: justify;">Las áreas de IT necesitan tener evidencias de desempeño como si fueran un usuario, quien eventualmente accede a aplicaciones en la red privada y en la nube, con este simulacro o prueba IT puede adelantarse al reporte de fallas. Se trata de una plataforma abierta que se puede integrar a otros sistemas dentro de la propia compañía y con otras plataformas de gestión. Lumen ofrece una solución de extremo a extremo, acuerdos con los <em>vendors</em> principales, un solo modelo de servicio, amplio portafolio, plataforma y motor <a href="https://brandcom.us4.list-manage.com/track/click?u=9581ae7daa795e06b11c9f476&amp;id=ea9ae7313c&amp;e=0af6310e5f">industria 4.0</a>, un solo interlocutor responsable, un solo proyecto de implementación, todo ello en un único proveedor de servicios.</p>
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/TransformacionDigital-p.jpg)
+
 <table style="height: 42px;" width="569">
 <tbody>
 <tr>
@@ -46,4 +47,4 @@ week: '30'
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/TransformacionDigital-p.jpg)
+
