@@ -51,6 +51,8 @@ week: '30'
 <p style="text-align: justify;">Software antivirus como <a href="http://www.avast.com/">Avast Free Antivirus</a> bloquea las ventanas emergentes de fraude de soporte técnico para proteger a los usuarios en línea.</p>
 <p style="text-align: justify;">Para obtener más información sobre las técnicas comunes que utilizan los estafadores y las tácticas de seguridad adicionales que los consumidores pueden aprovechar en línea, visite <a href="https://blog.avast.com/es/tech-support-fraud-avast">el blog de Avast</a>.</p>
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Amenazas-industriales-p.jpg)
+
 <table style="height: 42px;" width="569">
 <tbody>
 <tr>
@@ -61,4 +63,4 @@ week: '30'
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Amenazas-industriales-p.jpg)
+
