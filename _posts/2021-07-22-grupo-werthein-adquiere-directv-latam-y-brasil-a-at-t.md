@@ -59,7 +59,7 @@ week: '31'
 <div class="row" style="color: #212529; text-align: justify;"></div>
 <p style="text-align: justify;">
 
-  ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Directv-Sede-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Directv-Sede-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
