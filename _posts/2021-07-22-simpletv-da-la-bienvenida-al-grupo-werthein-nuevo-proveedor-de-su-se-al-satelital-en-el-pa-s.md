@@ -25,7 +25,7 @@ week: '31'
 <p style="text-align: justify;">La empresa de televisión por suscripción líder en Venezuela, aunque no ha sostenido conversaciones con la nueva operadora, no tiene dudas de la continuidad de la relación comercial que hasta hoy sostiene con Vrio Corp., división de entretenimiento de AT&amp;T.</p>
 <p style="text-align: justify;">Aún faltan algunos meses para que se inicien las operaciones con el nuevo responsable de la administración de DirecTV y, mientras tanto, SimpleTV continuará trabajando ofreciendo lo mejor de su multiplataforma de entretenimiento y enriqueciendo la experiencia de sus clientes en Venezuela.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alexander-Elorriaga-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Alexander-Elorriaga-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
