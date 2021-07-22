@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: Grupo Werthein adquiere DirecTV LatAm y Brasil a AT & T
+title: Grupo Werthein adquiere DirecTV LatAm y Brasil a AT&T
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Directv-Sede-p.jpg
 detail-image: >-
@@ -23,12 +23,11 @@ tags:
   - Actualidad
 week: '31'
 ---
-
 <ul style="list-style-type: disc;">
 	<li style="text-align: justify;"><strong>El holding argentino se quedará con Vrio Corp, una subsidiaria de AT&amp;T Latin America</strong></li>
 	<li style="text-align: justify;"><strong><span style="color: #1b1b1f;">AT&amp;T confirmó que acordó la venta de las operaciones regionales de DirecTV al Grupo Werthein, incluyendo los negocios de Argentina, Chile, Colombia y Perú, así como Brasil (Sky) y todos los suscriptores de la plataforma DirecTVGo</span></strong></li>
 </ul>
-<div class="row" style="color: #212529; text-align: justify;"><span style="color: #444444;">Grupo Werthein y </span>AT&amp;T<span style="color: #444444;"> </span><span style="color: #444444;"> anunciaron hoy que Grupo Werthein ha llegado a un acuerdo para adquirir la unidad de negocios Vrio Corp., de AT&amp;T. Grupo Werthein es un holding privado, con más de 100 años de trayectoria y presencia regional e internacional , con experiencia en telecomunicaciones, mercado financiero, seguros, producción agropecuaria y bienes raíces.</span></div>
+<p style="color: #444444;">Grupo Werthein y AT&amp;T anunciaron hoy que Grupo Werthein ha llegado a un acuerdo para adquirir la unidad de negocios Vrio Corp., de AT&amp;T. Grupo Werthein es un holding privado, con más de 100 años de trayectoria y presencia regional e internacional , con experiencia en telecomunicaciones, mercado financiero, seguros, producción agropecuaria y bienes raíces.</p>
 <div class="row" style="color: #212529; text-align: justify;"></div>
 <div class="row" style="color: #212529; text-align: justify;">
 <p style="color: #444444;">Grupo Werthein ha acordado adquirir, sujeto a las condiciones de cierre habituales, el 100% del capital de Vrio, una compañía líder de servicios de entretenimiento digital con 10,3 millones de suscriptores1 en 11 países de América Latina y el Caribe2.</p>
