@@ -57,7 +57,9 @@ week: '31'
 <p style="text-align: justify;">© 2021 AT&amp;T Intellectual Property. Todos los derechos reservados. AT&amp;T y el logotipo del globo son marcas comerciales registradas de AT&amp;T IntellectualProperty.</p>
 
 <div class="row" style="color: #212529; text-align: justify;"></div>
-<p style="text-align: justify;">![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Directv-Sede-p.jpg)</p>
+<p style="text-align: justify;">
+
+  ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Directv-Sede-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
