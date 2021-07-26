@@ -7,10 +7,6 @@ superNews: false
 superArticle: false
 year: '2021'
 title: No More Ransom celebra cinco años de éxitos en la lucha contra el ransomware
-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Manufactira-empleados-p.jpg
-detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Manufactira-empleados-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -22,6 +18,10 @@ categories:
 tags:
   - Seguridad
 week: '32'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/No-more-Ramson-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/No-more-Ramson-g.jpg
 ---
 <p style="text-align: justify;">La iniciativa ha ayudado a recuperar datos de más de 6,000,000 personas en todo el mundo</p>
 <p style="text-align: justify;"><strong>No More Ransom, la iniciativa iniciada en 2016 por agencias de cumplimiento de la ley y empresas de seguridad informática para ayudar a víctimas del <em>ransomware</em> a restaurar sus archivos, cumple hoy cinco años. El aniversario se distingue por la prevención de más de US$ 900 millones de dólares en ganancias ilegales y la recuperación de datos pertenecientes a más de 6,000,000 personas.</strong></p>
@@ -32,7 +32,7 @@ week: '32'
 <p style="text-align: justify;">“<em>Estoy muy contento de que, desde el inicio del proyecto, hayamos podido ayudar a tantas personas a recuperar sus archivos sin tener que pagar. Seguimos luchando contra el ransomware con nuestros socios de la industria y las agencias de aplicación de la ley de todo el mundo para ayudar a más usuarios y evitar daños mayores</em>”, dijo <strong>Jornt van der Weil, investigador de seguridad del Equipo de Análisis e Investigación Global de Kaspersky.</strong></p>
 <p style="text-align: justify;">Para información sobre cómo ayudar en la lucha contra el ransomware, o para obtener más detalles sobre la iniciativa <em>No More Ransom</em>, visite el sitio web de la iniciativa en <a href="https://www.nomoreransom.org/es/index.html">nomoreransom.org</a>.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Manufactira-empleados-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/No-more-Ramson-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
