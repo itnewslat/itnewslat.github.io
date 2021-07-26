@@ -8,7 +8,7 @@ superArticle: false
 year: '2021'
 title: "Empresas de manufactura aumentan su competitividad con redes\_a prueba de calor, humedad y electromagnetismo"
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Manufactira-empleados-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Manufactira-empleados-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Manufactira-empleados-g.jpg
 categories:
@@ -40,7 +40,7 @@ week: '32'
 <p style="text-align: justify;">Esta es solo una muestra de la variedad de productos y soluciones del fabricante para entornos industriales. El requerimiento preciso para cada instalación será determinado por los especialistas en el análisis M.I.C.E.</p>
 <p style="text-align: justify;">Frente a la transformación digital, Vladimir Linares precisa que las empresas de manufactura que no se adapten a los cambios que están experimentando las industrias, pueden quedar rezagadas. Esta ola recién comienza en nuestra región, por lo que es el momento oportuno para subirse y aprovechar la misma, señala.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/Manufactira-empleados-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Manufactira-empleados-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
