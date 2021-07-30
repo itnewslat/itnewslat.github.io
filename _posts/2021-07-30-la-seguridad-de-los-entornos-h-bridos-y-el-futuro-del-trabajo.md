@@ -8,7 +8,7 @@ superArticle: false
 year: '2021'
 title: La seguridad de los entornos híbridos y el futuro del trabajo
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Juan-Carlos-Puentes-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Juan-Carlos-Puentes-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Juan-Carlos-Puentes-g.jpg
 categories:
@@ -41,7 +41,7 @@ week: '32'
 <p style="text-align: justify;">Un enfoque de plataforma de seguridad va más allá de los modelos de seguridad tradicionales. Con toda la seguridad dirigida a la misma plataforma, las organizaciones pueden detectar, investigar y responder más rápidamente a las amenazas. Además, si un enfoque de seguridad integrado aprovecha el<a href="https://www.fortinet.com/solutions/enterprise-midsize-business/machine-learning.html?utm_source=blog&amp;utm_campaign=ai-automation">aprendizaje automático (ML)</a>, el sistema puede convertirse en un sistema de seguridad y de red autorregenerable que protege los dispositivos, datos y aplicaciones en los centros de datos locales y los servicios en la nube.</p>
 <p style="text-align: justify;">Con un enfoque holístico a la seguridad, que haga converger las redes y la protección como parte de una plataforma, las organizaciones pueden ayudar a reducir sus riesgos y aumentar el control sobre sus entornos híbridos y multi-nube exigidos por el trabajo moderno y a futuro.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Juan-Carlos-Puentes-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Juan-Carlos-Puentes-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
