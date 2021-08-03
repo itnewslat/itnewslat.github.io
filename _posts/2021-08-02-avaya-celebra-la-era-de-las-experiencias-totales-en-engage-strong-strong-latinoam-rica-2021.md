@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: "Avaya Celebra la Era de Las Experiencias Totales en ENGAGE\_</strong><strong>Latinoamérica 2021"
+title: "Avaya Celebra la Era de Las Experiencias Totales en ENGAGE Latinoamérica 2021"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Avaya-Engage-p.jpg
 detail-image: >-
