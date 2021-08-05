@@ -55,7 +55,7 @@ week: '33'
 <p style="text-align: justify;"><em>“Además de estos consejos es importante siempre mantener todos los sistemas actualizados y contar con una </em><a href="https://www.eset.com/latam/hogar/"><em>solución de seguridad</em></a><em> confiable en todos los dispositivos, especialmente si se realizan transacciones bancarias</em>”, concluye Martina López de ESET.</p>
 <p style="text-align: justify;">Por otro lado, ESET invita a conocer <a href="https://open.spotify.com/episode/2NB2rgkNqfv2QhWktmotF2?go=1&amp;utm_source=embed_v3&amp;t=0&amp;nd=1"><strong>Conexión Segura</strong></a>, qué está ocurriendo en el mundo de la seguridad informática. Para escucharlo ingrese a:<a href="https://open.spotify.com/episode/2NB2rgkNqfv2QhWktmotF2?go=1&amp;utm_source=embed_v3&amp;t=0&amp;nd=1">https://open.spotify.com/episode/2NB2rgkNqfv2QhWktmotF2?go=1&amp;utm_source=embed_v3&amp;t=0&amp;nd=1</a></p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-hacker-monitor-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-hacker-monitor-g.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
