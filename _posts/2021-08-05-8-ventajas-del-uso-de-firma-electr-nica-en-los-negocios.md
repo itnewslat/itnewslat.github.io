@@ -38,3 +38,15 @@ week: '33'
 </ol>
 <p style="text-align: justify;">Por estas razones, la tecnología de firmas electrónicas de DocuSign puede ayudar a fomentar una mayor confianza, eficiencia y rapidez al enviar un documento. Finalmente, DocuSign recomienda la adopción de la firma electrónica para todo tipo de acuerdos que en esta época se requiera llevar a cabo sin poner en peligro de salud a los firmantes, y sin dilatar los procesos de firma, como se tendría que hacer de forma tradicional en papel y con la pérdida de tiempo en todos los procesos de negocio debido a los trámites burocráticos.</p>
 <p style="text-align: justify;">Para más información acerca de DocuSign y sus ofertas en México, visita: <a href="https://urldefense.com/v3/__https:/www.docusign.mx/__;!!BN3BN5aqUA!v-uatgCm3cmpTmSHF9ojSxtXfq8AdNsZvrwkkrqzqxyFc5IsdufpofbIpH70maMqjd1m$">https://www.docusign.mx/</a></p>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Firma-Electronica-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
