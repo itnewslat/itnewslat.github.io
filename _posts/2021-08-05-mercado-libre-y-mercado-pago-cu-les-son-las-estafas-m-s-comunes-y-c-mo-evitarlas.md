@@ -10,7 +10,7 @@ title: >-
   Mercado Libre y Mercado Pago: Cuáles son las estafas más comunes y cómo
   evitarlas
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-hacker-monitor-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-hacker-monitor-g.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ataque-hacker-monitor-g.jpg
 categories:
