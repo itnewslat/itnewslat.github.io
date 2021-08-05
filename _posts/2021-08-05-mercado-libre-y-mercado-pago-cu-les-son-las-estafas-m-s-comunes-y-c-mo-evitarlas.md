@@ -64,5 +64,3 @@ week: '33'
 </tr>
 </tbody>
 </table>
-
-<img src="https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-hacker-monitor-g.jpg"/>
