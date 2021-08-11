@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: ''
+title: La burocracia no encaja con la transformación digital
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Reunion-empleados-p.jpg
 detail-image: >-
@@ -23,8 +23,6 @@ tags:
   - Transformación Digital
 week: '34'
 ---
-<p style="text-align: justify;"><strong>La burocracia no encaja con la transformación digital</strong></p>
-
 <ul style="list-style-type: disc; text-align: justify;">
 	<li><em>Repensar la forma en que manejamos los documentos es una necesidad urgente</em></li>
 </ul>
