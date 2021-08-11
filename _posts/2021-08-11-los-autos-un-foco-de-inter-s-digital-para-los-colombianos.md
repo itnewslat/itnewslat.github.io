@@ -8,9 +8,9 @@ superArticle: false
 year: '2021'
 title: 'Los autos, un foco de interés digital para los colombianos'
 image: >-
-  https://github.com/itnewslat/assets/blob/master/img/540x320/Vehiculo-Autonomo-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Vehiculo-Autonomo-p.jpg
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/Vehiculo-Autonomo-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Vehiculo-Autonomo-g.jpg
 categories:
   - Colombia
 tags:
