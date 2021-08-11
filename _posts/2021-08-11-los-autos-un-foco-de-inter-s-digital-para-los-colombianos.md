@@ -25,7 +25,7 @@ week: '34'
 <p style="color: #333333; text-align: justify;">En términos de dispositivos, <span style="font-weight: bold;">los colombianos prefieren los dispositivos móviles a la hora de informarse sobre la industria automotriz</span>. El 52% utiliza móviles, mientras que el 37% utiliza sólo desktop. Un 11% usa ambas herramientas para informarse y tomar decisiones.</p>
 <p style="color: #333333; text-align: justify;">A la hora de buscar información, <span style="font-weight: bold;">las propiedades que más minutos se llevan por persona en Colombia son CarGurus, Mercadolibre Autos, Cars.com, Red77 y Carandriver.com</span>. En cuanto a marcas, <span style="font-weight: bold;">lideran</span> en promedio de minutos por persona <span style="font-weight: bold;">Ford, Hyundai Kia, Nissan, Susuki y General Motors.</span></p>
 
-![](https://github.com/itnewslat/assets/blob/master/img/540x320/Vehiculo-Autonomo-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Vehiculo-Autonomo-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
