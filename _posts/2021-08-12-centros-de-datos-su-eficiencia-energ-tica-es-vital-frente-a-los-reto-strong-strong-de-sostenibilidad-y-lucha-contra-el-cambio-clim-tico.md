@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: "Centros de datos: su eficiencia energética es vital frente a los reto\_</strong><strong>de sostenibilidad y lucha contra el cambio climático"
+title: "Centros de datos: su eficiencia energética es vital frente a los reto\_de sostenibilidad y lucha contra el cambio climático"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Centro-computo-IA-p.jpg
 detail-image: >-
