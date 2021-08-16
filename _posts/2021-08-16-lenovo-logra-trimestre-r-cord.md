@@ -127,3 +127,15 @@ US$ millones</td>
 	<li style="text-align: justify;">La <strong>excelencia operativa y la cadena de suministro global</strong> del Grupo continúan siendo las <a href="https://news.lenovo.com/pressroom/press-releases/lenovo-ranked-16-in-gartners-2021-top-25-global-supply-chain/">mejores de su clase</a>, ayudando a que el negocio navegue continuos desafíos globales en el suministro de componentes.</li>
 	<li style="text-align: justify;">El Grupo continúa <strong>focalizado en</strong> <strong>ESG</strong>, a través de sus <a href="https://news.lenovo.com/pressroom/press-releases/new-ambitious-science-based-esg-targets-10-year-sustainability-milestones/">objetivos climáticos con base científica</a> y el impulso de la innovación verde; brindando apoyo a las comunidades y empresas que lo necesitan como resultado de los desafíos del COVID, y empoderando a las comunidades subrepresentadas con acceso a la tecnología y la educación STEM a través de la <a href="https://www.lenovo.com/us/en/about/foundation/">Fundación Lenovo</a>. El <strong>informe anual de ESG</strong> del Grupo se publicará en septiembre 2021.Recientemente, Lenovo también fue designada como <a href="https://news.lenovo.com/pressroom/press-releases/best-workplace-for-disability-inclusion-scores-100/">el mejor lugar de trabajo para la inclusión de la discapacidad</a> por el índice de igualdad Disability:IN 2021.</li>
 </ul>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Logro-gerencial-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
