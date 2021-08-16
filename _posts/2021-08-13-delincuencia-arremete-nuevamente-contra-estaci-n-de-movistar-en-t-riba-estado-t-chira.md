@@ -15,12 +15,6 @@ detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Movistar-Tariba-g.jpg
 categories:
   - Venezuela
-  - Colombia
-  - Argentina
-  - Perú
-  - Ecuador
-  - Chile
-  - Panama
 tags:
   - Actualidad
 week: '34'
