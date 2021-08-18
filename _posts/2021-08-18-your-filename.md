@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: ''
+title: Los usos desconocidos del Galaxy Smart Tag
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Galaxy-tag-p.jpg
 detail-image: >-
@@ -23,7 +23,7 @@ tags:
   - Movilidad
 week: '35'
 ---
-<p style="text-align: justify;"><strong>Los usos desconocidos del Galaxy Smart Tag</strong></p>
+<p style="text-align: justify;"><strong></strong></p>
 
 <ul style="list-style-type: disc; text-align: justify;">
 	<li><em>Controlar dispositivos inteligentes, ubicar el celular y localizar objetos, </em><em>entre las posibilidades que ofrece el Smart Tag.</em></li>
