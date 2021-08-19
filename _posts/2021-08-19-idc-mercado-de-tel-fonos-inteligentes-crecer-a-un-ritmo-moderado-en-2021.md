@@ -8,9 +8,9 @@ superArticle: false
 year: '2021'
 title: "IDC: Mercado de teléfonos inteligentes\_crecerá a un ritmo moderado en 2021"
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares-Usando-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Celulares-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Celulares-Usando-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -40,7 +40,7 @@ week: '35'
 <p style="text-align: justify;">Mientas que las otras dos grandes marcas que lideran el Top 5 de ventas del mundo, han tenido importantes ganancias en ventas.</p>
 <p style="text-align: justify;"><strong> </strong></p>.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares-Usando-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
