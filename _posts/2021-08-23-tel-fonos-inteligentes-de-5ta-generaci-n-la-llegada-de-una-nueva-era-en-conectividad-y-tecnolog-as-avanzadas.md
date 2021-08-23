@@ -35,7 +35,7 @@ week: '36'
 <p style="text-align: justify;">Por último y no menos importante se encuentra la tan esperada conectividad, MediaTek Dimensity incorpora Módems 5G y Wi-Fi de última generación, esto significa que tendremos compatibilidad con redes 5G en distintos tipos de configuraciones y bandas que estarán disponibles en Latinoamérica llegando a velocidades esperadas hasta de 4.7Gbps y latencias muy bajas que permitirán una respuesta muy rápida del dispositivo. A su vez el soporte de redes Wi-Fi de doble banda y la última generación de protocolos de conectividad como Wi-Fi 6 (dependiendo de la variante del chipset). Permitirán una conectividad única, esto debido a la capacidad de poder combinar bandas de frecuencia y garantizar la conectividad de los dispositivos que tengamos.</p>
 <p style="text-align: justify;">Uno de los aspectos que ayudará a expandir esta nueva generación de productos es la accesibilidad a productos con soluciones de 5ta generación, en el mercado latinoamericano ya encontramos diversidad de marcas y productos como Xiaomi Redmi Note 10 5G, Oppo Reno 5z, Realme 7 5G, Poco M3, muchos de estos dispositivos estarán disponible mediante Open market y retailers online.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
