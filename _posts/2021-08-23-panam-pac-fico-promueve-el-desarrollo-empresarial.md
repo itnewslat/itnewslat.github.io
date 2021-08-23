@@ -37,7 +37,7 @@ week: '36'
 <p style="text-align: justify;">Las grandes condiciones que promueven el desarrollo, los beneficios que brindan y la ventaja de conformar un ecosistema empresarial y comercial en constante crecimiento, se traducen en una oportunidad segura para quienes proyectan el desarrollo de su negocio a la par de una comunidad mixta conformada por zonas residenciales, turísticas y comerciales.</p>
 <p style="text-align: justify;">Panamá Pacífico habilita un entorno sostenible que permite liberar el potencial humano. Crea un ecosistema urbano sostenible de clase mundial, para que las personas y empresas prosperen.</p>
 
-![](ttps://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Panama-Emprende-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Panama-Emprende-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
