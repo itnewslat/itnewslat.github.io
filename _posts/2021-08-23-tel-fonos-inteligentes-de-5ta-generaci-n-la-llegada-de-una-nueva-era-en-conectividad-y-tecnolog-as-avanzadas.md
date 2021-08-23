@@ -10,7 +10,7 @@ title: >-
   Teléfonos Inteligentes de 5ta Generación: la llegada de una nueva era en
   conectividad y tecnologías avanzadas
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celulares.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Celulares-g.jpg
 categories:
