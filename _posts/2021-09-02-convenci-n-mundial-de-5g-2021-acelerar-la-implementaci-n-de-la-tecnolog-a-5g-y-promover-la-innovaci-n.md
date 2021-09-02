@@ -3,8 +3,8 @@ layout: posts
 color-schema: red-dark
 date: '2021-09-02 15:36 -0400'
 published: true
-superNews: false
-superArticle: true
+superNews: true
+superArticle: false
 year: '2021'
 title: >-
   Convención Mundial de 5G 2021: acelerar la implementación de la tecnología 5G
