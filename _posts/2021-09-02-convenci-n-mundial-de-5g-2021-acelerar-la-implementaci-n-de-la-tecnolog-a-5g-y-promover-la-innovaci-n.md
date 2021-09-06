@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2021-09-02 15:36 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2021'
 title: >-
