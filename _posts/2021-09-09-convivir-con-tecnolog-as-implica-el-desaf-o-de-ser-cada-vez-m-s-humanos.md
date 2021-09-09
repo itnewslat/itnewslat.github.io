@@ -23,26 +23,16 @@ tags:
   - Transformación Digital
 week: '38'
 ---
-<p style="text-align: justify;">
-Con el avance de la Inteligencia Artificial en los últimos años, impulsado por las tecnologías digitales, estamos experimentando una aceleración vertiginosa en los procesos de automatización en prácticamente todo lo que nos rodea.
-
-Según Martha Gabriel, futuróloga y especialista en innovación, áreas como la salud, negocios, derecho, comunicación, marketing, ciencia, entretenimiento, creatividad, etc; se han visto fuertemente influenciadas por la automatización de sus funciones.
-
-Martha Gabriel aseguró, en el <a href="https://brandcom.us4.list-manage.com/track/click?u=9581ae7daa795e06b11c9f476&amp;id=bfa33756b5&amp;e=446b3b5f3e">Lumen Latam Forum</a>  que existen estimaciones de que solo un 5% de los trabajos hoy, no conllevarán cierto nivel de automatización en el futuro, y  se proyecta que al menos el 30% de los trabajos a nivel mundial, implican que las actividades profesionales que realizan se puedan hacer con altos niveles de digitalización.
-
-Esta automatización, que hoy vive avances como en ninguna otra época en la humanidad, y la integración creciente de robots plantea una pregunta urgente para la humanidad: ¿cuál es el impacto de esto en nuestra existencia?
-
-La respuesta que surge es: enorme, pero depende de nosotros si será enormemente bueno o enormemente malo, comenta Martha Gabriel.
-
-La primera consecuencia de cualquier impacto significativo en nuestras vidas es si seremos dueños o víctimas del cambio que causa la robotización de actividades del trabajo. Si imaginamos una ola gigante acercándose a un surfista: su impacto puede ahogarlo o impulsarlo, dependiendo de cómo actúe, ya sea, resistiéndola o usándola como impulso.
-
-Lo mismo sucede hoy con la ola tecnológica de automatización en el mundo, el Internet de las Cosas, Inteligencia Artificial, Nanotecnología, Robótica y Big Data, son tecnologías que estructuran este proceso y pueden usarse tanto para apalancarnos como para aplastarnos, dependiendo de nuestras habilidades para enfrentarnos con ellos.
-
-El cómo no ser reemplazado por un robot, presenta un desafío sin duda, pero ¿por dónde empezamos dicha tarea?
-
-Es importante señalar que, en el pasado, debido a la limitación tecnológica existente, varias actividades repetitivas debían ser realizadas por humanos. En la era digital, estos trabajos son cada vez más realizados por robots y, en consecuencia, no hay más espacio para los “humanos robóticos”: las tecnologías digitales asociadas a la mecánica están liberando al ser humano de la esclavitud del trabajo repetitivo, ya sea físico o mental.
-
-En este nuevo contexto, el ser que suele tener valor y éxito es el humano digital, el que continuamente se desarrolla y educa para convertirse en el mejor humano posible, expandido al máximo por las tecnologías disponibles. Para ello, <strong>las principales habilidades que debemos cultivar</strong>, según Martha Gabriel, son:</p>
+<p style="text-align: justify;">Con el avance de la Inteligencia Artificial en los últimos años, impulsado por las tecnologías digitales, estamos experimentando una aceleración vertiginosa en los procesos de automatización en prácticamente todo lo que nos rodea.</p>
+<p style="text-align: justify;">Según Martha Gabriel, futuróloga y especialista en innovación, áreas como la salud, negocios, derecho, comunicación, marketing, ciencia, entretenimiento, creatividad, etc; se han visto fuertemente influenciadas por la automatización de sus funciones.</p>
+<p style="text-align: justify;">Martha Gabriel aseguró, en el <a href="https://brandcom.us4.list-manage.com/track/click?u=9581ae7daa795e06b11c9f476&amp;id=bfa33756b5&amp;e=446b3b5f3e">Lumen Latam Forum</a>  que existen estimaciones de que solo un 5% de los trabajos hoy, no conllevarán cierto nivel de automatización en el futuro, y  se proyecta que al menos el 30% de los trabajos a nivel mundial, implican que las actividades profesionales que realizan se puedan hacer con altos niveles de digitalización.</p>
+<p style="text-align: justify;">Esta automatización, que hoy vive avances como en ninguna otra época en la humanidad, y la integración creciente de robots plantea una pregunta urgente para la humanidad: ¿cuál es el impacto de esto en nuestra existencia?</p>
+<p style="text-align: justify;">La respuesta que surge es: enorme, pero depende de nosotros si será enormemente bueno o enormemente malo, comenta Martha Gabriel.</p>
+<p style="text-align: justify;">La primera consecuencia de cualquier impacto significativo en nuestras vidas es si seremos dueños o víctimas del cambio que causa la robotización de actividades del trabajo. Si imaginamos una ola gigante acercándose a un surfista: su impacto puede ahogarlo o impulsarlo, dependiendo de cómo actúe, ya sea, resistiéndola o usándola como impulso.</p>
+<p style="text-align: justify;">Lo mismo sucede hoy con la ola tecnológica de automatización en el mundo, el Internet de las Cosas, Inteligencia Artificial, Nanotecnología, Robótica y Big Data, son tecnologías que estructuran este proceso y pueden usarse tanto para apalancarnos como para aplastarnos, dependiendo de nuestras habilidades para enfrentarnos con ellos.</p>
+<p style="text-align: justify;">El cómo no ser reemplazado por un robot, presenta un desafío sin duda, pero ¿por dónde empezamos dicha tarea?</p>
+<p style="text-align: justify;">Es importante señalar que, en el pasado, debido a la limitación tecnológica existente, varias actividades repetitivas debían ser realizadas por humanos. En la era digital, estos trabajos son cada vez más realizados por robots y, en consecuencia, no hay más espacio para los “humanos robóticos”: las tecnologías digitales asociadas a la mecánica están liberando al ser humano de la esclavitud del trabajo repetitivo, ya sea físico o mental.</p>
+<p style="text-align: justify;">En este nuevo contexto, el ser que suele tener valor y éxito es el humano digital, el que continuamente se desarrolla y educa para convertirse en el mejor humano posible, expandido al máximo por las tecnologías disponibles. Para ello, <strong>las principales habilidades que debemos cultivar</strong>, según Martha Gabriel, son:</p>
 
 <ol style="text-align: justify;">
 	<li><strong>Pensamiento crítico</strong>: curiosidad, aprender a preguntar y reflexionar para detectar nuevas amenazas y oportunidades.</li>
