@@ -6,11 +6,11 @@ published: true
 superNews: false
 superArticle: true
 year: '2021'
-title: 'SYBVEN ENTRA AL BILLION CLUB, Y ACELERA LA TRANSFORMACIÓN DIGITAL EN LA REGIÓN'
+title: 'SYBVEN entra al Billion Club, y acelera la transformación digital en la región'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-Sybase-Largo.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Sybven-1B-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners.gif
 categories:
   - Venezuela
   - Colombia
