@@ -8,9 +8,9 @@ superArticle: false
 year: '2021'
 title: Katherina Di Battista asume la posición de Gerente General en SimpleTV
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kathy-Di-Battista-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Katherina-Di-Battista-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Kathy-Di-Battista-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Katherina-Di-Battista-g.jpg
 categories:
   - Venezuela
 tags:
@@ -24,7 +24,7 @@ week: '39'
 <p style="text-align: justify;">“Tenemos una importante cantidad de proyectos por ejecutar y muchas ganas de seguir fortaleciendo nuestra presencia en Venezuela. Me siento muy orgullosa de formar parte de este gran equipo, con amplia experiencia en el sector de telecomunicaciones, el cual, está plenamente enfocado en sus suscriptores y sus necesidades. La meta es continuar ofreciendo la mejor calidad de servicios y productos, con contenido exclusivo para brindar una excelente plataforma de entretenimiento a todos los venezolanos” expresó Katherina Di Battista.</p>
 <p style="text-align: justify;">SimpleTV se propone continuar creciendo, invirtiendo e innovando para ser una empresa de referencia en el país.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kathy-Di-Battista-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Katherina-Di-Battista-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
