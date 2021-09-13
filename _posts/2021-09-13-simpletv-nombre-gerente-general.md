@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: SimpleTV nombre gerente general
+title: SimpleTV nombra gerente general
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Kathy-Di-Battista-p.jpg
 detail-image: >-
