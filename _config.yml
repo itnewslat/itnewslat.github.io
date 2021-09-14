@@ -100,8 +100,6 @@ prose:
           label: Escoja el país donde estara disponible su publicación
           help: Puede escojer una o mas etiquetas
           options:
-            - name: 'Todos'
-              value: ['Venezuela', 'Colombia','Argentina', 'Perú', 'Ecuador', 'Chile', 'Panama', 'Mexico']
             - name: 'Venezuela'
               value: 'Venezuela'
             - name: 'Colombia'
@@ -136,7 +134,6 @@ prose:
               value: 'Canales'
             - name: 'Actualidad'
               value: 'Actualidad'
-          alterable: true
       - name: published
         field:
           element: checkbox
