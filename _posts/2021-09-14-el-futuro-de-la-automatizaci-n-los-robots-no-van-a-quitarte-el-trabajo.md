@@ -31,7 +31,7 @@ week: '39'
 <p style="text-align: justify;">El Foro Económico Mundial publicó que en 2022 se crearán 133 millones de trabajos y se perderán 75 millones. Los puestos de trabajo que más relevancia tendrán de acuerdo con la organización son los analistas de datos, los expertos en inteligencia artificial y machine learning, y los directores generales y de operaciones.</p>
 <p style="text-align: justify;">La automatización por sí sola no va a robar puestos de trabajo como algunos temen. Dominará algunos puestos de trabajo, pero también dará paso a nuevas formas de empleo, muchas de ellas (aunque no todas) relacionadas con el desarrollo, el mantenimiento o el trabajo con esta nueva infraestructura tecnológica</p>
 
-![](El futuro de la automatización: Los robots no van a quitarte el trabajo)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/David-Hernandez-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
