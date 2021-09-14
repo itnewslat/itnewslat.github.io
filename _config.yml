@@ -101,15 +101,7 @@ prose:
           help: Puede escojer una o mas etiquetas
           options:
             - name: 'Todos'
-              value:
-                - 'Venezuela'
-                - 'Colombia'
-                - 'Argentina'
-                - 'Perú'
-                - 'Ecuador'
-                - 'Chile'
-                - 'Panama'
-                - 'Mexico'
+              value: ['Venezuela', 'Colombia','Argentina', 'Perú', 'Ecuador', 'Chile', 'Panama', 'Mexico']
             - name: 'Venezuela'
               value: 'Venezuela'
             - name: 'Colombia'
