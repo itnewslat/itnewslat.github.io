@@ -1,0 +1,82 @@
+<!-- ======== @Region: #header ======== -->
+<div id="header">
+  <!--Header & Branding region-->
+  <div class="header py-3 d-none d-lg-flex">
+    <div class="header-inner container">
+      <!--branding/logo -->
+      <div class="header-brand flex-column align-items-start">
+        <a class="header-brand-text" href="/" title="Home">
+          <img class="logoHeight"  src="{{site.data.index.logo_vzla | prepend: site.data.index.image_vzla_url}}" alt="">
+        </a>
+      </div>
+      <!-- other header content -->
+      <div class="header-block d-flex order-12 align-items-center">
+        <a href="#search" class="btn btn-icon d-lg-none" data-toggle="class" data-target='{"#search-overlay":{"actions":{"toggle":"show"}}}'><i class="fa fa-search fa-flip-horizontal search-icon nav-link-icon"></i></a>
+
+        <a href="#top" class="btn btn-icon btn-white order-12 d-lg-none" data-toggle="jpanel-menu" data-target=".navbar-main" data-direction="right"> <i class="fa fa-bars"></i> </a>
+        <div class="bg-light text-sm d-none d-lg-block text-center" data-css='{"width":728,"height":90}'>
+          <a href="{{{site.data.venezuela.publicity.header-url}}" target="_blank">
+            <img class="img-fluid" src="{{site.data.venezuela.publicity.header-publicity}}" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-toggle="sticky">
+    <div class="navbar navbar-expand-md">
+      <div class="w-100 bg-primary navbar-dark">
+        <!-- Search form overlay -->
+
+        <!--Header search region - hidden by default using .fade class -->
+        <div class="header-search fade dur-fast pos-absolute pos-a w-100 pos-zindex-fixed overlay" id="search-overlay">
+          <form class="search-form d-flex align-items-center container">
+            <i class="fa fa-search fa-flip-horizontal icon-1x text-white"></i>
+            <input type="text" name="search" class="form-control search h-100 pl-2" value="" placeholder="Search" id="search-input">
+            <a href="#" class="text-white" data-toggle="class" data-target='{"#search-overlay":{"actions":{"remove":"show"}}}'> <span class="sr-only">Close </span><i class="fa fa-times icon-1x"></i> </a>
+          </form>
+          <ul id="results-container"></ul>
+        </div>
+        <!-- Mobile mini header -->
+        <div class="container d-flex d-lg-none align-items-center py-2">
+          <a href="/" class="h4 text-white my-0 py-2">
+            <img class="logoHeight"  src="{{site.data.index.logo_vzla_white | prepend: site.data.index.image_vzla_url}}" alt="">
+          </a>
+          <!-- Mobile menu items -->
+          <div class="ml-auto d-flex align-items-center">
+            <!-- Mobile menu toggler -->
+            <a href="#top" class="text-white op-8 px-1 order-2" data-toggle="jpanel-menu" data-target=".navbar-main" data-direction="right"> <i class="fa fa-bars icon-1x"></i> </a>
+            <!-- Search icon -->
+            <a href="#search" class="text-white op-8 px-1" data-toggle="class" data-target='{"#search-overlay":{"actions":{"add":"show"}}}'> <i class="fa fa-search fa-flip-horizontal search-icon icon-1x"></i> </a>
+          </div>
+        </div>
+        <!-- Desktop header -->
+        <div class="container d-none d-lg-flex align-items-center px-0 py-2 py-lg-0">
+
+          <!-- Fade in brand on sticky -->
+          <div class="sticky-effect-fade-in sticky-effect-expand-w d-flex align-items-center">
+            <a href="/" class="h4 my-0 ml-3 mr-5 py-2">
+              <img class="header-logo" src="{{site.data.index.logo_vzla_white | prepend: site.data.index.image_vzla_url}}" alt="">
+            </a>
+          </div>
+          <!--everything within this div is collapsed on mobile-->
+          <div class="navbar-main collapse">
+            <!--main navigation-->
+            <ul class="nav navbar-nav container dropdown-effect-fade pos-static">
+              {% for option in site.data.header.headers %}
+                <li class="nav-item dropdown dropdown-mega-menu ">
+                  <a href="{{ option.href }}" class="nav-link dropdown-toggle">
+                    <i class="flag-icon {{ option.flag }}"></i>
+                    {{ option.element }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <!--/.navbar-collapse -->
+          <!-- Search icon -->
+          <a href="#search" class="text-white ml-auto mr-3" data-toggle="class" data-target='{"#search-overlay":{"actions":{"add":"show"}}}'> <i class="fa fa-search fa-flip-horizontal search-icon icon-1x"></i> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

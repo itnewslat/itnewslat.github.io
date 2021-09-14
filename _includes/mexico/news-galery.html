@@ -1,0 +1,24 @@
+<div id="gallery" class="bg-light">
+  <div class="container py-7">
+    <h2 class="text-uppercase text-letter-spacing-sm my-0 text-primary font-weight-bold">
+      Galería de Noticias
+    </h2>
+    <hr class="mt-2 mb-3" />
+    <div class="row no-gutters">
+      {% for item in site.posts limit:12%}
+          <div class="col-6 col-lg-3"> 
+            <div class="card-effect card-effect-front-to-back">
+              <img data-src="{{ item.image }}" data-toggle="blazy" alt="{{ item.title }}" class="img-fluid" />
+              <div class="card-back rounded bg-dark bg-op-8 flex-valign text-center p-3">
+                <a href="{{ item.url }}">   
+                  <h5 class="text-white">
+                      {{ item.title | truncatewords: 6}}
+                  </h5>
+                </a>
+              </div>
+            </div>
+          </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

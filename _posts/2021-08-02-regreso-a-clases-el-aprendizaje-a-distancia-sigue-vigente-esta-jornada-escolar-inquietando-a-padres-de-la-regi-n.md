@@ -21,6 +21,7 @@ categories:
   - Ecuador
   - Chile
   - Panama
+  - Mexico
 tags:
   - Seguridad
 week: '33'

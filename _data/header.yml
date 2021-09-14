@@ -20,6 +20,10 @@ headers:
   - element: Argentina
     href: /Argentina/
     flag: flag-icon-ar
+  - element: México
+    href: /Mexico/
+    flag: flag-icon-it
+
 
 global-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Ciberespacio-728X90.gif'
 

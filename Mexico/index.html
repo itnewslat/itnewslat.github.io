@@ -1,0 +1,28 @@
+---
+layout: index
+color-schema: olive
+filterCategory: Mexico
+---
+
+  {% include mexico/header.html %}
+  {% include mexico/banner.html %}
+    <!-- ======== @Region: #content ======== -->
+    <div id="content" class="p-0 bg-white">
+      {% include mexico/lasted-news.html %}
+      {% include globals/super-article.html %}
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+          {% include mexico/news-tags.html %}
+          </div>
+          <div class="col-lg-3 mb-4 mb-lg-2">
+            {% include mexico/side-bar.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include globals/comunicae.html %}
+    {% include globals/moreNews.html %}
+    {% include mexico/news-galery.html %}
+    {% include mexico/footer.html %}
+    <!-- #Content -->

@@ -1,0 +1,26 @@
+<div class="bg-light text-sm text-center mt-4" data-css='{"width":"100%","height":240}'>
+{% for publicity in site.data.venezuela.publicity.publicity-1 %}
+<img class="img-fluid" src="{{publicity.image}}" data-url="{{ publicity.url }}" alt="">
+{% endfor %}
+</div>
+<!-- Follow us-->
+<h5 class="text-uppercase mt-4 mb-0 font-weight-bold">
+  Follow Us
+</h5>
+<hr class="mt-2 mb-3" />
+<!--@todo: replace with company social media details-->
+<div class="nav">
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <div class="addthis_inline_follow_toolbox"></div>
+</div>
+<!-- Popular news widget -->
+<hr class="mt-2 mb-3" />
+<!-- publicity -->
+<div class="mb-4">
+  <ul class="list-unstyled list-lg tags">
+{% for publicity in site.data.mexico.publicity.sideBar-publicity %}
+  <img class="img-fluid" src="{{publicity.image}}" data-url="{{ publicity.url }}" alt="">
+  <hr class="mt-2 mb-3" />
+  {% endfor %}
+  </ul>
+</div>

@@ -20,6 +20,7 @@ categories:
   - Ecuador
   - Chile
   - Panama
+  - Mexico
 tags:
   - Transformación Digital
 week: '26'

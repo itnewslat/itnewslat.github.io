@@ -1,0 +1,12 @@
+{% for data in site.data.mexico.super-article.content %}
+  <div class="mb-4 mb-lg-6 py-7 text-center bg-dark overlay overlay-op-8" data-url="{{ data.link }}" data-bg-img="{{data.image}}">
+    <div class="container">
+      <p class="text-xs mt-0 mb-1 text-white text-uppercase font-weight-bold"> <i class="fa fa-clock-o"></i> {{ data.date }}</p>
+      <h2 class="text-uppercase text-letter-spacing-sm my-0 text-white font-weight-bold">
+        {{data.description}}
+      </h2>
+      <a href="{{ data.link }}" target="_blank" class="btn btn-primary btn-sm mt-3 text-uppercase font-weight-bold">Leer más</a>
+
+    </div>
+  </div>
+{% endfor %}

@@ -21,6 +21,7 @@ categories:
   - Ecuador
   - Chile
   - Panama
+  - Mexico
 tags:
   - Canales
 week: '33'

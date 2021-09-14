@@ -1,0 +1,81 @@
+{% assign rawtags = "" %}
+{% assign posts = site.categories[page.filterCategory] %}
+{% for post in posts %}
+  {% assign tcateg = post.tags | join:'|' | append:'|' %}
+  {% assign rawtags = rawtags | append:tcateg %}
+{% endfor %}
+  {% assign rawtags = rawtags | split:'|' | sort %}
+  {% assign tags = "" %}
+  {% for cat in rawtags %}
+    {% if cat != "" %}
+      {% if tags == "" %}
+      {% assign tags = cat | split:'|' %}
+    {% endif %}
+    {% unless tags contains cat %}
+    {% assign tags = tags | join:'|' | append:'|' | append:cat | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+<!-- News sections: Lifestyle -->
+{% for cat in tags %}
+  <h4 class="text-uppercase text-letter-spacing-sm my-0 text-primary font-weight-bold">
+    {{ cat | capitalize }}
+  </h4>
+  <hr class="mt-2 mb-3" />
+  <div class="row">
+    <div class="col-lg-7">
+      <!-- Main item -->
+      {% assign counter = '0' %}
+        {% for item in posts %}
+          {% if item.tags contains cat %}
+          {% assign posts-sorted = "" | split: ','  %}
+          {% assign posts-sorted = posts-sorted | push: item %}
+            {% for item in posts-sorted  %}
+              {% if counter <= '0' %}
+               {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+               <div class="card card-silent mb-lg-4 border-0 flex-ew" data-url="{{item.url}}">
+                 <img class="card-img img-fluid" data-src="{{ item.image }}" alt="Abigo Camur Dolore Et Imputo Jus Lobortis Secundum" data-toggle="blazy">
+                  <div class="card-body px-0">
+                    <h4 class="card-title mb-1">
+                      {{ item.title }}
+                    </h4>
+                    <p class="card-text text-uppercase text-xs"> <i class="fa fa-clock-o"></i> {{ item.date | date_to_string }}</p>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+    </div>
+    <div class="col-lg-5">
+      <!-- subitems -->
+      <!-- News subitem 1 -->
+       {% assign counter = '0' %}
+          {% for item in posts %}
+            {% if item.tags contains cat %}
+              {% assign posts-sorted = "" | split: ','  %}
+              {% assign posts-sorted = posts-sorted | push: item %}
+                {% for item in posts-sorted  %}
+                  {% if counter <= '2' %}
+                   {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+                  <div class="row row-hover py-1 py-lg-3 align-items-center" data-url="{{ item.url }}">
+                    <div class="col-3">
+                      <img class="img-fluid" data-toggle="blazy" data-src="{{ item.image }}" alt="Autem Cogo Esca Humo Loquor Nimis Occuro Refoveo Sed">
+                    </div>
+                    <div class="col-9 pl-0">
+                      <h6 class="mb-1">
+                        {{ item.title }}
+                      </h6>
+                      <p class="text-uppercase text-xs mb-0"></span> <i class="fa fa-clock-o"></i>{{ item.date | date_to_string }}</p>
+                    </div>
+                  </div>
+                  <hr class="my-1" />
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+              <a href="{%if cat contains 'Canales'%}/canales.html{% elsif cat contains 'Actualidad' %}/actualidad.html{% elsif cat contains 'Economía Digital' %}/economia_digital.html{% elsif cat contains 'Movilidad' %}/movilidad.html{% elsif cat contains 'Seguridad' %}/seguridad.html{% elsif cat contains 'Transformación Digital' %}/transformacion_digital.html{% endif %}" class="btn btn-primary"><i class="fa fa-arrow-circle-right mr-2"></i>Ver más</a>
+    </div>
+  </div>
+{% endfor %}

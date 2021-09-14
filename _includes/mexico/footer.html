@@ -1,0 +1,40 @@
+<!-- Fixed footer with Breaking news bar -->
+<div class="w-100 pos-lg-fixed pos-zindex-20 pos-b pos-r bg-dark text-white" data-animate="fadeInUp">
+  <div class="container">
+    <div class="row align-items-center no-gutters">
+      <div class="col-12 col-lg-8">
+        <!--news ticker-->
+        <div class="row align-items-stretch align-items-lg-center">
+          <div class="col-3 col-lg-auto my-0 py-1 py-lg-3 bg-primary text-center">
+            <h5 class="text-uppercase text-sm font-weight-bold my-0">
+              Breaking news
+            </h5>
+          </div>
+          <div class="col-9 owl-carousel owl-equalheight" data-toggle="owl-carousel" data-owl-carousel-settings='{"items":1, "center":true, "autoplay":true, "loop":true, "nav":false, "dots":false, "margin":5}'>
+
+            <!--News item 1-->
+            {% for item in site.categories[page.filterCategory] limit:4 %}
+              <a href="{{ item.url }}"><p class="my-0 text-sm font-weight-normal" style="color:#fff" >{{ item.title | truncate: 70}}</p></a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 order-1 order-lg-2 py-1 py-lg-0">
+        <!--Copyright social media icons-->
+        <div class="d-flex justify-content-center justify-content-lg-end align-items-center">
+          <p class="my-0 ml-3 text-xs order-2">Copyright 2018</p>
+          <!--@todo: replace with company social media details-->
+          <a href="https://instagram.com/ITNEWSLAT" class="btn btn-icon btn-link btn-sm text-sm text-white"> <i class="fab fa-instagram"></i> <span class="sr-only">Instagram</span>
+          </a>
+          <a href="http://twitter.com/ITNewsLat" class="btn btn-icon btn-link btn-sm text-sm text-white"> <i class="fab fa-twitter"></i> <span class="sr-only">Twitter</span>
+          </a>
+          <a href="https://facebook.com/itnewslat" class="btn btn-icon btn-link btn-sm text-sm text-white"> <i class="fab fa-facebook"></i> <span class="sr-only">Facebook</span>
+          </a>
+          <a href="https://synergy.vision/" target="_blank"  class="footer-logo-separator"> 
+            <img height="30" src="/assets/img/vision-white.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

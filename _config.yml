@@ -100,6 +100,16 @@ prose:
           label: Escoja el país donde estara disponible su publicación
           help: Puede escojer una o mas etiquetas
           options:
+            - name: 'Todos'
+              value:
+                - 'Venezuela'
+                - 'Colombia'
+                - 'Argentina'
+                - 'Perú'
+                - 'Ecuador'
+                - 'Chile'
+                - 'Panama'
+                - 'Mexico'
             - name: 'Venezuela'
               value: 'Venezuela'
             - name: 'Colombia'
@@ -114,6 +124,8 @@ prose:
               value: 'Chile'
             - name: 'Panama'
               value: 'Panama'
+            - name: 'México'
+              value: 'Mexico'
       - name: tags
         field:
           element: multiselect
