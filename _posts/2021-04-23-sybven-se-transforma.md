@@ -1,17 +1,16 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2021-04-23 14:11 -0400'
+date: '2021-09-09 10:11 -0400'
 published: true
 superNews: false
 superArticle: true
 year: '2021'
-title: 'Agilidad Organizacional, Anticiparse a los Cambios'
+title: 'SYBVEN entra al Billion Club, y acelera la transformación digital en la región'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-Sybase-Largo.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners
-  2.gif
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners.gif
 categories:
   - Venezuela
   - Colombia
@@ -29,20 +28,23 @@ image-banner: >-
 ---
 <a href="https://bit.ly/3xqoHtI"><img class="aligncenter" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner-Sybase.jpg" alt="Mas información sobre SYBVEN, Aquí" width="284" height="120" /></a>
 
-<p style="text-align: justify;">Sin duda, en la era de la transformación digital, las organizaciones que puedan anticiparse al mundo cambiante en el que vivimos y que además generen soluciones innovadoras para sus clientes, serán las únicas que alcanzarán el éxito.</p>
-<p style="text-align: justify;">En Sybven, estamos conscientes de que actualmente existe una brecha entre la comprensión y la adopción de la agilidad en las empresas, y muchas piensan que esto aplica solo a las área de proyectos tecnológicos pero no es así, el proceso debe tocar a toda la organización apunta Magdalena De Luca, CEO de Sybven.</p>
-<p style="text-align: justify;">Desde antes del pasado año y en la actualidad, tanto la pandemia por Covid-19 como otros diversos factores, demostraron cuán necesaria es la relación más natural entre personas, procesos, máquinas y cambios. “Para lograr la diferenciación y destacar en estos mercados globales, innovadores, volátiles, y complejos, las empresas deben adoptar la cultura ágil para asegurar su sostenibilidad y crecimiento”.</p>
-<p style="text-align: justify;"><strong>Agilidad Organizacional</strong></p>
-<p style="text-align: justify;">La adopción de la cultura ágil en una empresa, es conocida como Agilidad Organizacional. Y esta se enfoca en aquellas empresas que ponen en práctica el Manifiesto Ágil,expresamente en la forma en la cual se organizan para hacer negocios, pasando por sus operaciones diarias, hasta la forma de agregar valor a sus clientes. “Hablar de agilidad y fluidez implica reconfigurar la forma de trabajar, transformar procesos y medios”.</p>
-<p style="text-align: justify;">La agilidad organizacional es una filosofía de trabajo que, entre otras cosas, permite gerenciar y gestionar proyectos de forma colaborativa y efectiva. Algunos la confunden con la rapidez, pero esto se debe a que las empresas que la adoptan, observan en poco tiempo, mayor rapidez y fluidez en sus procesos, ahorrando energía y tiempo.</p>
-<p style="text-align: justify;"><strong>Impacto en la transformación digital</strong></p>
-<p style="text-align: justify;">La agilidad organizacional propone un cambio profundo en el ADN empresarial y por ende, en cada persona que forma parte de la organización, con la finalidad de apalancar la transformación digital.</p>
-<p style="text-align: justify;">“En Sybven impulsamos y recomendamos que las organizaciones que trabajen bajo la cultura ágil y que centren sus operaciones en las cuatro áreas claves de la transformación digital: expectativas del cliente, mejoras del producto, innovación colaborativa y formas organizativas”.</p>
-<p style="text-align: justify;">Esto traerá como beneficios concretos, la entrega de proyectos y resultados de forma acelerada, el aumento en la productividad, mejoras en la alineación del negocio, así como un importante impacto positivo en la moral del equipo y su sentido de pertenencia, entre otros.</p>
-<p style="text-align: justify;"><strong>Agile Mentoring: la clave para implementar la cultura ágil</strong></p>
-<p style="text-align: justify;">Esta técnica resulta de suma eficacia para todas las empresas que buscan desarrollar y potenciar la agilidad en su cultura organizacional, así como en sus colaboradores. Además, evita recurrir a capacitaciones especializadas muy costosas, porque se adapta a las necesidades de cada organización y se aplica desde la incorporación de nuevos colaboradores.</p>
-<p style="text-align: justify;">En Sybven, tenemos amplia experiencia en el acompañamiento en procesos de mentoría para la transformación hacia una cultura ágil, apunta De Luca. Estos procesos son guiados por Agile Coaches experimentados, quienes asesoran a los clientes para asegurar un resultado acorde a sus expectativas y para lograr éxito y mejoras en los negocios.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-Agilidad-p.jpg)
+<p style="text-align: justify;">Paul Kienholz, CEO de <em>Dana Connect</em>, expresó su felicitación a Magdalena De Luca, CEO de Sybven, y le dio la bienvenida a <em>The Billion Club</em>, luego de que la organización lograra un nuevo récord: 1 billón de transacciones en un año, a través de la solución Dana.</p>
+<p style="text-align: justify;">“Contactar mensualmente a más del 7,83% de la población de Latam en múltiples momentos y procesos, es un logro muy importante. Seguimos creciendo en la búsqueda de lograr los 5 billones y así seguir impulsando la transformación digital de la región”, resalta Magdalena De Luca.</p>
+<p style="text-align: justify;"><strong>La clave = Plataforma + Servicios + Innovación</strong></p>
+<p style="text-align: justify;">Mediante una robusta plataforma que gobierna las comunicaciones entrantes y salientes, listas de contactos y documentos desde un solo lugar, para conectar marcas y clientes de forma eficaz y dinámica, Sybven, como partner de <em>Dana Connect</em>, implementa el concepto de CCM (Customer Comunication Manager).</p>
+<p style="text-align: justify;">Por medio de los canales digitales (emails, SMS enriquecidos, notificaciones push, llamadas, páginas destino, WhatsApp y más) pueden habilitarse todas las funcionalidades para lograr la mejor experiencia de los clientes, así como de las organizaciones.</p>
+<p style="text-align: justify;">Cada interacción entre la marca y el cliente, se realiza mediante flujos de procesos inteligentes, que a su vez, se convierten en transacciones masivas, de las cuales Sybven, contabilizó <strong>más de 1 billón</strong> en un año, agregando además una gama importante de servicios a través de su célula de marketing digital, MKT360.</p>
+<p style="text-align: justify;">Este logro se enmarca en el mercado de Venezuela, Perú, Ecuador, Dominicana y Panamá, entre otros. Distribuidas 46% en Banca, 33% en Seguros, 17% en AFP principalmente. “Nuestros clientes lograron una reducción importante de costos, mejoraron sus procesos y crecieron digitalmente con miras a seguir creciendo en el uso de la plataforma”, apunta De Luca.</p>
+<p style="text-align: justify;">Si quieres conocer más sobre las innovaciones en servicios que ofrece Sybven síguelos en su web <a href="http://www.sybven.com/"><strong>www.sybven.com</strong></a>, en sus redes sociales: <strong>@csybven</strong> Instagram, Facebook y twitter, en LinkedIn como <strong>Corporación Sybven</strong> y por <strong>Sybven </strong>su canal de Youtube.</p>
 
-<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04" alt="" />
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sybven-1B-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
