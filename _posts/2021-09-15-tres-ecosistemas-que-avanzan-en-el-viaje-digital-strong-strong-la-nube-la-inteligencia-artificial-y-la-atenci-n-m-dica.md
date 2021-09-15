@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: "Tres ecosistemas que avanzan en el viaje digital:\_</strong><strong>la nube, la inteligencia artificial y la atención médica"
+title: "Tres ecosistemas que avanzan en el viaje digital:\_la nube, la inteligencia artificial y la atención médica"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Amet-Novillo-p.jpg
 detail-image: >-
@@ -48,4 +48,3 @@ week: '39'
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
