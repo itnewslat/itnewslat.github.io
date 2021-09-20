@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2021'
 title: >-
-  Los más buscados: Måneskin supera a BTS, y Friday Night Funkin’ gana
+  Los más buscados: Maneskin supera a BTS, y Friday Night Funkin’ gana
   popularidad entre los niños
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/niños-tecnologia-p.jpg
@@ -57,4 +57,3 @@ week: '40'
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
