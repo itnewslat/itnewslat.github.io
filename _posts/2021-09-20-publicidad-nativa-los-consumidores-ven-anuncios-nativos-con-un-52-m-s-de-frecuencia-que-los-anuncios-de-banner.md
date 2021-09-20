@@ -10,7 +10,7 @@ title: >-
   Publicidad nativa: los consumidores ven anuncios nativos con un 52% más de
   frecuencia que los anuncios de banner
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Consumidor-Digital-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Consumidor-Digital-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Consumidor-Digital-g.jpg
 categories:
@@ -44,7 +44,7 @@ week: '40'
 <p style="text-align: justify;">Para que la publicidad nativa sea exitosa <strong>debe estar adaptada a los distintos dispositivos y plataformas</strong>, facilitando a través de los textos, imágenes o contenido interactivo el diálogo con el usuario.</p>
 <p style="text-align: justify;"><strong>Este formato publicitario no sólo está en auge, sino que a partir de la integración del contenido y la constante interacción con el usuario permite la adaptabilidad a los diversos contextos y tecnologías</strong>. Sin dudas su mayor ventaja es aquella que permite al anunciante mostrar las cualidades de su producto o servicio a partir de la intención y deseo del usuario de acceder a ellos.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Consumidor-Digital-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Consumidor-Digital-p.jpg)
 
 
 <table style="height: 42px;" width="569">
