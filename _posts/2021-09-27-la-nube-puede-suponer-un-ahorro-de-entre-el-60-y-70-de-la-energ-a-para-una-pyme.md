@@ -40,6 +40,8 @@ El consumo de un servidor con dos procesadores, que es un equipo habitual en una
 En este sentido, ya en 2013, un estudio de Lawrence Berkeley National Laboratory (2) señalaba que migrar a la nube aplicaciones de negocio como el email o el CRM podría reducir el consumo energético de estas aplicaciones hasta en un 87%. Más reciente aún, un estudio de Accenture (3) de 2020, a partir del análisis de la experiencia de migración a la nube de cientos de sus clientes, apuntaba que una pyme puede reducir su consumo energético un 65% y las emisiones de carbono un 84%.
 
 “La gran diferencia es que las pymes suelen pagar por equipos grandes que no necesitan realmente en previsión de picos de demanda, sabiendo que el 90% del tiempo no los van a usar a la máxima capacidad. Con la flexibilidad de pago por uso que ofrece la nube, las pymes sólo pagan por el uso real que hacen de los equipos”, explica Fernández.
+
+
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Nube-Cloud-p.jpg)
 <table style="height: 42px;" width="569">
 <tbody>
