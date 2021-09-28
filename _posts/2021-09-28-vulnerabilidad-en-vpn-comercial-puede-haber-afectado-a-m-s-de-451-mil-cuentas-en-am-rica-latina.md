@@ -34,19 +34,13 @@ El breve análisis de los expertos de la compañía indica que empresas de 168 p
 
 El Equipo de Investigación y Análisis (GReAT) de Kaspersky también evaluó la infraestructura utilizada por los ciberdelincuentes detrás del ransomware Groove y reveló varias superposiciones de actividades que pueden ser asociadas a tres grupos diferentes de ransomware: Groove, Blackmatter y Babuk. "Esto ofrece una débil indicación que estos criminales pueden estar cooperando entre sí", detalla Dmitry Bestuzhev, director de Equipo de Investigación y Análisis para América Latina en Kaspersky.
 
-
-
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/crecimiento-vpn-latam-2021-p.jpg)
-
 
 Para las empresas que utilizan VPNs u otro tipo de conexión remota, Kaspersky recomienda las siguientes prácticas de seguridad:
 
 - Utilice la autenticación de doble factor para la VPN, como un certificado electrónico en un token y una contraseña. Este incidente demostró que el solo uso de una contraseña no es suficiente para garantizar una alta protección.
-- 
 - Para las empresas que utilizan una VPN, es necesario mantener una política de actualización constante. Muchos ciberataques exploran vulnerabilidades en esta tecnología para lograr acceder a la red. Aplicando las actualizaciones y parches es la forma más sencilla de evitar un incidente de seguridad.
-- 
 - Solo permitir accesos remotos (RDP) basados en direcciones IPs, evitando otorgar permisos generales, como por país. Inclusive, estos tipos de permisos genéricos deben ser bloqueados por defecto. Los accesos remotos también deben autenticarse en dos pasos, pues requerir solo una contraseña no es suficientemente seguro.
-- 
 - Realice un monitoreo constante de accesos. Las empresas deben monitorear los intentos de acceso remoto para identificar posibles actividades sospechosas. Esto le permitirá reaccionar rápidamente y evitar que un intento de ataque se desarrolle. Este monitoreo lo puede realizar el equipo de SOC o se puede subcontratar a una empresa que proporcione este servicio.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/tunel-vpn-p.jpg)
