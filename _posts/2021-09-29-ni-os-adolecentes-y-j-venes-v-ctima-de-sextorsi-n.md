@@ -46,10 +46,16 @@ INGENIERIA DEL ATAQUE: **Indentidad Ficticia/Sintética, Amenaza, Emoción y Urg
 QUE DEBEMOS TENER EN CUENTA:
 
 1- Las influencias viscerales como el pánico y el miedo son muy influyentes. Los consejos racionales no se recordarán cuando alguien se encuentre bajo estrés emocional.
+
 2- Los elementos persuasivos influyen de manera subliminal en la toma de decisiones y fomentan el cumplimiento, como la aplicación de la urgencia para asegurarse de que la persona actúe mientras está bajo la influencia visceral.
+
 3- Ofrecer explicaciones tecnológicas parecerá suficientemente convincente para la mayoría de las personas que tienen un conocimiento limitado de la tecnología. Muchos no tendrán amigos que puedan aconsejarles sobre si estas explicaciones son creíbles.
+
 4- El uso cuidadoso de la retórica en dichos correos electrónicos, como señalar la vergüenza y las normas sociales, induce una preparación semántica, que influirá aún más en el cumplimiento y conducirá a la resignación.
+
 5- La impotencia inducida alentará a las víctimas a rendirse. Esto es aún más cierto para las personas que son reacias al miedo, ya que probablemente se sentirían motivadas para hacer que todo desaparezca rápidamente debido al nivel de malestar psicológico.
+
+
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/niños-tecnologia-p.jpg)
 
