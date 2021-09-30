@@ -45,7 +45,7 @@ Para evitar ser víctima de programas maliciosos y estafas, Kaspersky aconseja:
 
 - Utilizar una solución de seguridad confiable, como Kaspersky Security Cloud, que identifica archivos adjuntos maliciosos y bloquea los sitios de phishing.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/james-bond-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/james-bond-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
