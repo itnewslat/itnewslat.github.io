@@ -72,7 +72,7 @@ Tres formas en que las empresas pueden convertir su carga de datos en una ventaj
 
 - Desarrollar software para ofrecer las experiencias personalizadas e integradas que los clientes desean.
 
-![ (https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/gestion-de-data-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/gestion-de-data-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
