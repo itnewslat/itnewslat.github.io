@@ -51,7 +51,7 @@ Lorenzo Garavito, presidente de Iris, explica las 5 tendencias con las que los e
 
 **5.    API:** interfaz de programación de aplicaciones que a menudo actúa como un mediador que permite que un programa de software interactúa con otro software. En el contexto fintech, una API a menudo se refiere a la interfaz que permite que entidades financieras se hablen entre sí, para prestar un mejor servicio a los clientes.
 
-![](/https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/analisis-bancarios-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/analisis-bancarios-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
