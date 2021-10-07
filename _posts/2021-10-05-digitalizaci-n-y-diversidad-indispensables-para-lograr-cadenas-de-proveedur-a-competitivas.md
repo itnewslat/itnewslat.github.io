@@ -35,21 +35,22 @@ Durante la presentación del informe, Gómez hizo un llamado a las empresarias a
  
 “WEConnect International y SAP México hemos colaborado estratégicamente para impulsar el empoderamiento económico de las mujeres y la digitalización de sus negocios, de ahí el valor de este informe que busca maximizar dicho esfuerzo y sumar a otras organizaciones para crear una proveeduría más diversa e inclusiva” comentó Ixchel Alcántara, directora para América Latina y el Caribe de WEConnect International.
  
-<image003.png>Si bien el presente reporte se enfoca en la incorporación de las empresas de las mujeres en las cadenas de proveeduría, la noción de compras inclusivas se extiende a todas las adquisiciones que se ejecutan con una estrategia planeada para fomentar la igualdad de oportunidades en las empresas encabezadas por personas que enfrentan brechas de desigualdad.
+Si bien el presente reporte se enfoca en la incorporación de las empresas de las mujeres en las cadenas de proveeduría, la noción de compras inclusivas se extiende a todas las adquisiciones que se ejecutan con una estrategia planeada para fomentar la igualdad de oportunidades en las empresas encabezadas por personas que enfrentan brechas de desigualdad.
  
 Ante diferentes aristas que implica la completa incursión de las mujeres en las cadenas de proveeduría y la digitalización de sus negocios, el informe funge como una guía de acción que tanto la iniciativa privada, gobierno, academia y sociedad civil pueden abrazar para acelerar la brecha de género en este aspecto. Algunas de las propuestas de acción son:
 
-·       Fomentar la participación de las mujeres (desde la infancia) en las carreras, empleos y emprendimientos STEM
-·       Reforzar las políticas de equidad de género en todas las actividades empresariales
-·       Desarrollar programas de impulso a la productividad, desde el gobierno y el sector privado, con enfoque de género
-·       Facilitar la adopción de soluciones digitales en empresas fundadas y dirigidas por mujeres.
-·       Incentivar la creación de redes de empresarias con el fin de compartir experiencias y conocimientos
-·       Promover iniciativas de compras inclusivas que alienten la participación de compañías de mujeres en cadenas de abastecimiento, locales e internacionales
-·       Aumentar la presencia de mujeres en los puestos de liderazgo de asociaciones y cámaras empresariales
-·       Incorporar el enfoque de género en los estudios académicos que abordan aspectos de digitalización y ecosistema empresarial
-·       Fomentar programas de compras gubernamentales que adopten criterios de equidad de género y diversidad
-·       Desarrollar productos de financiamiento, públicos y privados, con perspectiva de género, que consideren las necesidades específicas de las empresarias y emprendedoras
-·       Buscar oportunidades gratuitas de desarrollo empresarial del sector público y privado, como Ariba Network
+- Fomentar la participación de las mujeres (desde la infancia) en las carreras, empleos y emprendimientos STEM
+- Reforzar las políticas de equidad de género en todas las actividades empresariales
+- Desarrollar programas de impulso a la productividad, desde el gobierno y el sector privado, con enfoque de género
+- Facilitar la adopción de soluciones digitales en empresas fundadas y dirigidas por mujeres.
+- Incentivar la creación de redes de empresarias con el fin de compartir experiencias y conocimientos
+- Promover iniciativas de compras inclusivas que alienten la participación de compañías de mujeres en cadenas de abastecimiento, locales e internacionales
+- Aumentar la presencia de mujeres en los puestos de liderazgo de asociaciones y cámaras empresariales
+- Incorporar el enfoque de género en los estudios académicos que abordan aspectos de digitalización y ecosistema empresarial
+- Fomentar programas de compras gubernamentales que adopten criterios de equidad de género y diversidad
+- Desarrollar productos de financiamiento, públicos y privados, con perspectiva de género, que consideren las necesidades específicas de las empresarias y emprendedoras
+- Buscar oportunidades gratuitas de desarrollo empresarial del sector público y privado, como Ariba Network
+
  
 Respondiendo a las recomendaciones que el informe realiza, SAP y WEConnect International lanzarán GroWomen in Tech, un programa que busca acelerar la transformación digital de miles de empresas propiedad de mujeres en América Latina desarrollando las habilidades requeridas por la Economía Digital para el éxito de sus negocios, e impulsando con ello su incorporación en las cadenas globales de valor.
 
