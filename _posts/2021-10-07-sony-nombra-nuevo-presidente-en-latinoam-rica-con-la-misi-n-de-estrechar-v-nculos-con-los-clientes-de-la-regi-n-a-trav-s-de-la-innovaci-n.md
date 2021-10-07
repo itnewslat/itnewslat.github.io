@@ -38,7 +38,7 @@ Como presidente de Sony Latinoamérica, Kenchiro Hibi estará al frente de las e
  
 “Latinoamérica es un mercado apasionante para Sony. Es una región que ha demostrado un particular interés en los contenidos audiovisuales de alta calidad; por lo tanto, es nuestra responsabilidad empoderar a los creadores para inspirar Kando (emociones) a través del poder del entretenimiento en las categorías de cine, fotografía,  televisión y música, tanto en el sector consumo como en el profesional”, agregó. 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/edificio-sony-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/edificio-sony-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
