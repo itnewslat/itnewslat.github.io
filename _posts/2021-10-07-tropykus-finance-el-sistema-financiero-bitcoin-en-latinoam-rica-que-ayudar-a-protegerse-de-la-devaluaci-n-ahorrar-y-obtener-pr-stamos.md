@@ -26,8 +26,8 @@ tags:
   - Actualidad
 week: '40'
 ---
-- Desarrollada sobre tecnología blockchain de la compañía IOV Labs, la plataforma Tropykus finance funciona como un sistema financiero libre y sin fronteras que llegó a Latinoamerica en septiembre de este año
-- Respaldado por la red Bitcoin, Tropykus permitirá a las personas obtener rendimientos de sus ahorros y acceder a préstamos más justos
+- Desarrollada sobre tecnología blockchain de la compañía IOV Labs, la plataforma Tropykus finance funciona como un sistema financiero libre y sin fronteras que llegó a Latinoamerica en septiembre de este año.
+- Respaldado por la red Bitcoin, Tropykus permitirá a las personas obtener rendimientos de sus ahorros y acceder a préstamos más justos.
 
 Tropykus finance llega en un importante momento para las finanzas de los latinoamericanos. Según la compañía Bloomberg, 4 de las 5 monedas con mayor devaluación en el mundo corresponden a países de la región latina, la capacidad de conservar el valor de los ahorros en el tiempo será casi nula si los individuos continúan en el sistema financiero tradicional.
 
