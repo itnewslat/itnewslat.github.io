@@ -53,9 +53,7 @@ Ante diferentes aristas que implica la completa incursión de las mujeres en las
  
 Respondiendo a las recomendaciones que el informe realiza, SAP y WEConnect International lanzarán GroWomen in Tech, un programa que busca acelerar la transformación digital de miles de empresas propiedad de mujeres en América Latina desarrollando las habilidades requeridas por la Economía Digital para el éxito de sus negocios, e impulsando con ello su incorporación en las cadenas globales de valor.
 
-
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Diversidad-y-digitalizacion-p.jpg)
-
 
 <table style="height: 42px;" width="569">
 <tbody>
