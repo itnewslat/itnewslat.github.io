@@ -12,7 +12,7 @@ title: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/inteligencia-artificial-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/inteligencia-artificial-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/inteligencia-artificial-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -49,7 +49,7 @@ Mayor visibilidad sobre las habilidades de cada profesional para reforzar los mo
 Mayor visibilidad para reforzar las iniciativas de diversidad, igualdad e inclusión.
 “Estamos observando un crecimiento en las ofertas de trabajo superior al 80%... pero las solicitudes tan sólo han crecido un 5% desde principios de año. Esto hace que los responsables de captación de talento tengan que emplear sus esfuerzos en reestructurar, redistribuir o recontratar a profesionales”, afirma Mark Brandau, vicepresidente de marketing en iCIMS. “En este entorno laboral tan inusual, los trabajadores tienen muchas opciones, pero es crucial que los directores de talento refuercen la visibilidad y el conocimiento que tienen de los trabajadores actuales de la organización y prioricen la experiencia y las habilidades de sus colegas para crear un espacio de crecimiento y aprendizaje. iCIMS Talent Cloud Opportunity Marketplace ayuda a reducir las complejidades y los costes de la adquisición de talento y elimina los estigmas de la movilidad interna, de forma que los trabajadores que más valen puedan crecer dentro de la empresa”.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/inteligencia-artificial-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/inteligencia-artificial-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
