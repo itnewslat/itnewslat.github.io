@@ -10,7 +10,8 @@ title: 'SYBVEN entra al Billion Club, y acelera la transformación digital en la
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-Sybase-Largo.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners.gif
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner
+  itnews1200x450-octubre SYBVEN.gif
 categories:
   - Venezuela
   - Colombia
@@ -24,7 +25,8 @@ tags:
   - Transformación Digital
 week: '26'
 image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner-animado-ITnews-conpartners.gif
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner
+  itnews1200x450-octubre SYBVEN.gif
 ---
 <a href="https://bit.ly/3xqoHtI"><img class="aligncenter" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner-Sybase.jpg" alt="Mas información sobre SYBVEN, Aquí" width="284" height="120" /></a>
 
