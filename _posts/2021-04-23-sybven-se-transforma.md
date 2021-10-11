@@ -41,7 +41,7 @@ image-banner: >-
 <p style="text-align: justify;">Si quieres conocer más sobre las innovaciones en servicios que ofrece Sybven síguelos en su web <a href="http://www.sybven.com/"><strong>www.sybven.com</strong></a>, en sus redes sociales: <strong>@csybven</strong> Instagram, Facebook y twitter, en LinkedIn como <strong>Corporación Sybven</strong> y por <strong>Sybven </strong>su canal de Youtube.</p>
 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sybven-1B-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/billon.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
