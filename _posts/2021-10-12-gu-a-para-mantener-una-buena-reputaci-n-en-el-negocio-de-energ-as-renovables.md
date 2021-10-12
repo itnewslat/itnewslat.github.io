@@ -32,7 +32,16 @@ En este negocio, como en cualquier otro, es fácil cometer errores que pongan en
 
 4.	**Comunicación asertiva**. Es vital que las organizaciones que se quieran aventurar en las energías renovables, y en general a cualquier negocio, cuenten con un buen equipo de comunicación. Dar información clara a los medios y a la comunidad ayuda a que nadie pueda tergiversar la verdad. Establecer desde el principio los valores por los que se rige la empresa y recalcar su deseo de trabajar junto con los habitantes de la zona dejará en claro que quienes están llevando el proyecto son personas íntegras y honestas. 
 
-Finalmente, el consejo de Kroll para mantener una imagen y no verse envuelto en problemas públicos y legales es, en primer lugar, optar siempre por un equipo competente, calificado y honesto. En segundo, utilizar herramientas adecuadas y en buen estado que preserven el ecosistema que se encuentra alrededor y, por último, lo mejor es actuar siempre con moral, el lucro de una empresa no puede estar basado en el detrimento de las comunidades y de su patrimonio biocultural. 
+Finalmente, el consejo de Kroll para mantener una imagen y no verse envuelto en problemas públicos y legales es, en primer lugar, optar siempre por un equipo competente, calificado y honesto. En segundo, utilizar herramientas adecuadas y en buen estado que preserven el ecosistema que se encuentra alrededor y, por último, lo mejor es actuar siempre con moral, el lucro de una empresa no puede estar basado en el detrimento de las comunidades y de su patrimonio biocultural.
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Energias-Renovables-p.jpg)
 
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
 
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
