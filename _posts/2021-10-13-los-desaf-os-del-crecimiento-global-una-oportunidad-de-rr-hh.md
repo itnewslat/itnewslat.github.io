@@ -13,6 +13,7 @@ detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Gerentes-g.jpg
 categories:
   - Argentina
+  - Chile
 tags:
   - Canales
 week: '41'
@@ -51,4 +52,3 @@ Es así como, con la incorporación de una solución más robusta y unificada, p
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
