@@ -17,7 +17,8 @@ tags:
   - Economía Digital
 week: '41'
 ---
-Las más de 700 oportunidades laborales están abiertas en Colombia y toda la región para personas de diferentes áreas y niveles de experiencia.
+- Las más de 700 oportunidades laborales están abiertas en Colombia y toda la región para personas de diferentes áreas y niveles de experiencia.
+
  
 Nubank, la plataforma de servicios financieros más grande del mundo fuera de Asia, y una de las empresas de tecnología líder a nivel mundial —que en Colombia se conoce bajo el nombre de Nu—, anuncia la apertura de más de 700 puestos de trabajo con enfoque en tecnología. Estas oportunidades laborales están disponibles para personas de todo el mundo, con diferentes niveles de formación y experiencia. Muchas de estas búsquedas tienen especial énfasis en fortalecer y escalar el equipo en Colombia.
  
