@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2021-10-14 08:00 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2021'
