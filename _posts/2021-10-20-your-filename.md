@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: ''
+title: 'Movilnet y Fundación Derek Manaure realizaron clínica deportiva en Yare '
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/movilnet-fundacion-derek-g.jpg
 image: >-
@@ -17,9 +17,7 @@ tags:
   - Actualidad
 week: '42'
 ---
-Movilnet y Fundación Derek Manaure realizaron clínica deportiva en Yare 
- 
-Niñas, niños y adolescentes de las escuelas deportivas Pumas de Yare, Panteras de Colina, Baruta Calcuta y Estrellas de Yare reforzaron sus conocimientos sobre el baloncesto.
+**Niñas, niños y adolescentes de las escuelas deportivas Pumas de Yare, Panteras de Colina, Baruta Calcuta y Estrellas de Yare reforzaron sus conocimientos sobre el baloncesto.**
  
 Movilnet y Fundación Derek Manaure se unen para realizar clínicas deportivas en diversas comunidades de Caracas y Miranda, y así incentivar la práctica del baloncesto y de todas las disciplinas en general.
  
@@ -29,7 +27,7 @@ La Empresa de telecomunicaciones y la Institución se trasladaron hasta San Fran
  
 Asimismo, durante su interacción aconsejó a los chamos enfocarse en sus metas. “A través del estudio y el deporte pueden lograr todas sus metas”. 
  
-Apoyo al talento del futuro 
+**Apoyo al talento del futuro**
  
 La cancha Carmen Cecilia Rengifo (Cayu), ubicada en el sector El Empedrado, fue la protagonista de tan importante evento. 
  
