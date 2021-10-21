@@ -26,11 +26,10 @@ tags:
   - Transformación Digital
 week: '42'
 ---
-Qualtrics Vaccination & Testing Manager permite a las empresas captar en forma segura el status de vacunación y realizar controles diarios de síntomas para crear entornos de trabajo presencial más seguros para sus trabajadores.
- 
-Durante la pandemia global, Qualtrics ha sido la herramienta usada por más de 100 millones de ciudadanos en el mundo en 25.000 programas de COVID, que incluyen evaluación, programación de turnos, pruebas y gestión del estatus de vacunación.
+- Qualtrics Vaccination & Testing Manager permite a las empresas captar en forma segura el status de vacunación y realizar controles diarios de síntomas para crear entornos de trabajo presencial más seguros para sus trabajadores.  
+- Durante la pandemia global, Qualtrics ha sido la herramienta usada por más de 100 millones de ciudadanos en el mundo en 25.000 programas de COVID, que incluyen evaluación, programación de turnos, pruebas y gestión del estatus de vacunación.
 
-Quito, Ecuador. Octubre 19 de 2021. — Una cantidad cada vez mayor de organizaciones en el mundo recurren a Qualtrics (Nasdaq: XM), líder y creador de la categoría del manejo de la experiencia, para promover la seguridad de los empleados que regresan al trabajo presencial en la oficina. Qualtrics Vaccination & Testing Manager permite a las organizaciones captar en forma segura y fácil el status de vacunación de los empleados y realizar controles de síntomas diarios.
+Una cantidad cada vez mayor de organizaciones en el mundo recurren a Qualtrics (Nasdaq: XM), líder y creador de la categoría del manejo de la experiencia, para promover la seguridad de los empleados que regresan al trabajo presencial en la oficina. Qualtrics Vaccination & Testing Manager permite a las organizaciones captar en forma segura y fácil el status de vacunación de los empleados y realizar controles de síntomas diarios.
 
 Un gran número de compañías, gobiernos y escuelas en América Latina están creando nuevas políticas en torno a las vacunaciones, el uso de máscaras faciales y las pruebas de COVID-19. Sin embargo, la mayoría de las empresas no cuenta con sistemas instalados para captar en forma segura y organizar este tipo de información. Cualquiera sea el modo en que las organizaciones decidan poner en marcha nuevas políticas— ya sean disposiciones de vacunación o la obligatoriedad de máscaras faciales, entre otras—resulta crítico para los líderes ser conscientes del estatus de los empleados respecto a la vacunación contra el COVID-19, de modo que puedan desplegarse las medidas de protección adecuadas.
 
