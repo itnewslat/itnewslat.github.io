@@ -1,7 +1,7 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2021-09-09 10:11 -0400'
+date: '2021-10-21 08:12 -0500'
 published: true
 superNews: false
 superArticle: true
@@ -23,25 +23,28 @@ categories:
   - Mexico
 tags:
   - Transformación Digital
-week: '26'
+week: '42'
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner
   itnews1200x450-octubre SYBVEN.gif
 ---
 <a href="https://bit.ly/3xqoHtI"><img class="aligncenter" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner-Sybase.jpg" alt="Mas información sobre SYBVEN, Aquí" width="284" height="120" /></a>
 
+El software Qualtrics facilita diversas funciones fundamentales en el ámbito empresarial: estudios de mercado para hacer seguimiento de marca; potencia la experiencia del cliente, respondiendo a sus necesidades, analizando las tendencias y haciendo cambios en tiempo real, explica Magdalena De Luca, líder de la Célula Visión Global y Estratégica y CEO de Sybven.
 
-<p style="text-align: justify;">Paul Kienholz, CEO de <em>Dana Connect</em>, expresó su felicitación a Magdalena De Luca, CEO de Sybven, y le dio la bienvenida a <em>The Billion Club</em>, luego de que la organización lograra un nuevo récord: 1 billón de transacciones en un año, a través de la solución Dana.</p>
-<p style="text-align: justify;">“Contactar mensualmente a más del 7,83% de la población de Latam en múltiples momentos y procesos, es un logro muy importante. Seguimos creciendo en la búsqueda de lograr los 5 billones y así seguir impulsando la transformación digital de la región”, resalta Magdalena De Luca.</p>
-<p style="text-align: justify;"><strong>La clave = Plataforma + Servicios + Innovación</strong></p>
-<p style="text-align: justify;">Mediante una robusta plataforma que gobierna las comunicaciones entrantes y salientes, listas de contactos y documentos desde un solo lugar, para conectar marcas y clientes de forma eficaz y dinámica, Sybven, como partner de <em>Dana Connect</em>, implementa el concepto de CCM (Customer Comunication Manager).</p>
-<p style="text-align: justify;">Por medio de los canales digitales (emails, SMS enriquecidos, notificaciones push, llamadas, páginas destino, WhatsApp y más) pueden habilitarse todas las funcionalidades para lograr la mejor experiencia de los clientes, así como de las organizaciones.</p>
-<p style="text-align: justify;">Cada interacción entre la marca y el cliente, se realiza mediante flujos de procesos inteligentes, que a su vez, se convierten en transacciones masivas, de las cuales Sybven, contabilizó <strong>más de 1 billón</strong> en un año, agregando además una gama importante de servicios a través de su célula de marketing digital, MKT360.</p>
-<p style="text-align: justify;">Este logro se enmarca en el mercado de Venezuela, Perú, Ecuador, Dominicana y Panamá, entre otros. Distribuidas 46% en Banca, 33% en Seguros, 17% en AFP principalmente. “Nuestros clientes lograron una reducción importante de costos, mejoraron sus procesos y crecieron digitalmente con miras a seguir creciendo en el uso de la plataforma”, apunta De Luca.</p>
-<p style="text-align: justify;">Si quieres conocer más sobre las innovaciones en servicios que ofrece Sybven síguelos en su web <a href="http://www.sybven.com/"><strong>www.sybven.com</strong></a>, en sus redes sociales: <strong>@csybven</strong> Instagram, Facebook y twitter, en LinkedIn como <strong>Corporación Sybven</strong> y por <strong>Sybven </strong>su canal de Youtube.</p>
+“Además, mediante la recopilación de información sobre los empleados -entrevistas, evaluaciones de desempeño 360, programas de compromiso de empleados- gestiona de forma sencilla, todos los puntos de vista de los colaboradores, en un solo lugar. Convirtiendo a Qualtrics en uno de los softwares de experiencia del cliente, más usado en el planeta”, añade De Luca.
 
+**Muchas ventajas que mejoran la experiencia del cliente**
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/billon.jpg)
+“Qualtrics es la plataforma que emplean las empresas más emblemáticas del mundo para obtener un conocimiento sin brechas, sobre la experiencia y alcanzar así los mejores resultados. La plataforma XM permite a cualquier organización recopilar y comprender fácilmente los datos sobre la experiencia de las personas para tomar acciones concretas sobre las creencias, las emociones y los sentimientos, tanto de clientes, como de empleados”, apunta De Luca.
+
+Este software fácil de usar, puede implementarse en organizaciones de cualquier tamaño; siendo una de sus principales bondades, el que permite al colaborador y a los clientes, mostrar su grado de conformidad o disconformidad con la organización y las marcas. Además, acelera la respuesta de los clientes, creando así una ventaja competitiva para la empresa.
+
+El experience management es un proceso realizado por las empresas para medir las experiencias de los clientes, empleados, producto y marca; de forma que se monitoreen las interacciones entre la organización y las personas, con la finalidad de detectar las debilidades del negocio en ese sector, e identificar oportunidades de mejora. 
+
+Qualtrics fue adquirida por SAP en enero de 2019, con el objetivo de ofrecer soluciones innovadoras que mejoren la experiencia de la marca, los clientes, los empleados y los productos de una empresa. 
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/imagen-sybven.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
