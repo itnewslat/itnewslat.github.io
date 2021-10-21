@@ -6,7 +6,9 @@ published: true
 superNews: false
 superArticle: true
 year: '2021'
-title: 'SYBVEN entra al Billion Club, y acelera la transformación digital en la región'
+title: >-
+  SYBVEN se enfoca en potenciar la experiencia del cliente, a través de
+  QUALTRICS
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-Sybase-Largo.jpg
 detail-image: >-
