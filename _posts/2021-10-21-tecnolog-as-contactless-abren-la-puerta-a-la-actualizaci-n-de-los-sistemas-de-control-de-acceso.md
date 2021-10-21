@@ -36,20 +36,21 @@ Los profesionales de seguridad e IT luchan día a día para brindarles una exper
 
 Si bien garantizar el regreso seguro a los lugares de trabajo tuvo su propio conjunto de retos, la posibilidad de actualizar y modernizar los sistemas de control de acceso con soluciones sin contacto (también conocidos como contactless) permitió combatir de mejor manera las amenazas y vulnerabilidades derivadas de una infraestructura de tecnología obsoleta.
 
-
-Soluciones sin contacto y sus beneficios
+**Soluciones sin contacto y sus beneficios**
 
 Algunas de las tecnologías modernas para el acceso sin contacto se destacan en las puertas automáticas, giratorias o corredizas, las cuales ayudan indudablemente a reducir el contacto en los puntos de entrada y salida de los diferentes espacios. Además, estos elementos se pueden integrar con credenciales sin contacto y lectores para disminuir la contaminación de la superficie. 
 
 Es importante aclarar que la tecnología contactless abarca tanto las identificaciones móviles como las físicas —cabe recordar que una credencial física es personal e intransferible, por lo cual también cumple con esta función sin contacto—.
 
 Por otro lado, existen lectores con capacidad de largo alcance que aprovechan las conexiones Bluetooth Low Energy (BLE) para ofrecer un rendimiento de lectura a distancia. Gracias a esta cualidad, la tecnología BLE puede distanciar aún más a los empleados que, de otro modo, tendrían que amontonarse alrededor de lectores y puertas.
+
 Los sistemas actualizados permiten también establecer protocolos más higiénicos. Por ejemplo: pueden enviar credenciales a cualquier dispositivo autorizado, en cualquier lugar, lo que permite que los empleados y visitantes reciban una credencial sin una interacción cara a cara. 
+
 A propósito de emisión de credenciales físicas, cabe destacar una interesante tendencia que se está presentando: se trata del uso de plataformas de emisión de tarjetas basada en la nube, las cuales eliminan la necesidad de visitar un centro de emisión abarrotado; las tarjetas se pueden diseñar y enviar desde cualquier oficina o campus, en cualquier dispositivo, a través de una interfaz web.
 
 Estas credenciales también se pueden utilizar para acceder a computadoras en red, liberar trabajos de impresión y pagar en máquinas expendedoras. Cuando se combinan con los servicios de ubicación, incluso pueden proporcionar datos de ocupación del edificio en tiempo real para ayudar con las emergencias, así como el distanciamiento social y el rastreo de contactos. 
 
-El acceso móvil se consolida como tendencia
+**El acceso móvil se consolida como tendencia**
 
 Los dispositivos IoT están siendo cada vez más utilizados en América Latina. De acuerdo con estudios de Statista, esta tecnología alcanzará los 995,6 millones de unidades para 2023. Esta proveedora de datos también pronosticó que para el 2025 las conexiones IoT en territorio latino rondarán los 1.200 millones.
 
@@ -59,8 +60,7 @@ Los usuarios simplemente presionan su teléfono inteligente para acceder sin con
 
 Esta tecnología también representa mayor seguridad, más adaptabilidad a los desarrollos futuros gracias a mayores posibilidades de actualización y mejores alcances de lectura. 
 
-
-Actualización, a la vuelta de la esquina
+**Actualización, a la vuelta de la esquina**
 
 Sobre el proceso de actualización, la región atraviesa una etapa de transición en el que todavía está extrayendo todos los principales beneficios del uso de tarjetas inteligentes (Seos®), al tiempo que abre la puerta al futuro: soluciones de control de acceso móvil. 
 
