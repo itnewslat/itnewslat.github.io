@@ -8,9 +8,9 @@ superArticle: false
 year: '2021'
 title: Rodolphe Belmer es nombrado Director General de Atos Argentina
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Control-Atos-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Rodolphe-Belmer-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Control-Atos-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Rodolphe-Belmer-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -36,7 +36,7 @@ A partir del lunes 25 de octubre, el Sr. Pierre Barnabé y el Sr. Adrian Gregory
 
 Bertrand Meunier, Presidente del Consejo de Administración de Atos SE y Presidente del Comité de Nombramientos y Gobernanza, comentó "El Consejo de Administración agradece encarecidamente a Elie Girard la profunda labor de transformación que ha llevado a cabo en los dos últimos años y su gestión del Grupo y sus empleados durante la crisis de Covid. En vista de los retos a los que se enfrenta Atos, hemos nombrado a Rodolphe Belmer por su perspicacia estratégica y su demostrado liderazgo y eficacia operativa, así como por su capacidad para dirigir con éxito transformaciones complejas."
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Control-Atos-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Rodolphe-Belmer-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
