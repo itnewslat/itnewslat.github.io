@@ -26,7 +26,6 @@ week: '43'
 ---
 - El reporte de seguridad del primer semestre 2021 destaca la importancia de la seguridad en la nube a medida que los ataques aumentan en frecuencia y complejidad.
 
-
 Durante la primera mitad del presente año, la seguridad cibernética se ubicó en el ojo del huracán, rodeada por ciberdelincuentes a la espera de la más mínima grieta de seguridad para devastar activos valiosos de las empresas. Dando paso a riesgos y amenazas desde todos los ángulos, involucrando técnicas actualizadas y una mayor motivación para afectar a ciertas industrias específicamente. Estos problemas de seguridad incluyen ataques de ransomware modernos de alto perfil, campañas activas, vulnerabilidades críticas, estafas relacionadas con Covid-19 y otras amenazas, sin mencionar el desarrollo de amenazas en la nube y el Internet de las cosas (IoT).
  
 De acuerdo con los resultados presentados por Trend Micro en el reporte de seguridad del primer semestre de 2021, la infraestructura en la nube está siendo el blanco perfecto para desarrollar diferentes ataques. Las organizaciones declaran que los principales riesgos de infraestructura están en la seguridad en la nube, por ende se debe pensar en cómo protegerla. A continuación, se muestra una descripción general de lo que se está viendo en los ataques a dicha infraestructura.
