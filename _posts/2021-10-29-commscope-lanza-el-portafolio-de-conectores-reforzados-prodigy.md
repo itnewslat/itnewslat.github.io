@@ -32,7 +32,7 @@ CommScope, líder mundial en soluciones de redes de fibra, lanza su nueva gama d
 
 Prodigy responde a las demandas clave de las instalaciones FTTH modernas: velocidad, densidad, fiabilidad, flexibilidad, escalabilidad y facilidad de instalación. Los aspectos más destacados del sistema Prodigy son: 
  
-**Conector universal reforzado y reducido para entornos de alta densidad **
+**Conector universal reforzado y reducido para entornos de alta densidad**
 
 Alineación automática autoguiada con mecanismos de autobloqueo para eliminar los errores de conexión y la liberación accidental 
 Diseño Break-freeque permite reutilizar el conector Prodigy en caso de problemas de conexión sobre el terreno 
