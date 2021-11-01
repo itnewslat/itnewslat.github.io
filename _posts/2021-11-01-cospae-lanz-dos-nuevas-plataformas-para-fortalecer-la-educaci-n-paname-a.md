@@ -42,7 +42,7 @@ En esta plataforma también se podrá acceder a ferias de empleo y los estudiant
 
 “Apoyamos el lanzamiento de Conecta, que constituye una valiosa herramienta alineada a nuestros objetivos y complementaria a los esfuerzos del estado y la empresa privada para lograr la exitosa y pronta recuperación de nuestra economía y hacer de Panamá un país más próspero, incluso, digital y sostenible”, indicó la embajadora Vergara. 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/COSPAE-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/COSPAE-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
