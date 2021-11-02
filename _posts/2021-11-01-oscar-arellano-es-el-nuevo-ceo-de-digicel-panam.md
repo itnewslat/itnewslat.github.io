@@ -12,7 +12,14 @@ detail-image: >-
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/oscar-arellanos-p.jpg
 categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
   - Panama
+  - Mexico
 tags:
   - Actualidad
 week: '44'
