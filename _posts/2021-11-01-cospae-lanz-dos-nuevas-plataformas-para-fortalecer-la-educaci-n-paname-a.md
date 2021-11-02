@@ -10,7 +10,7 @@ title: CoSPAE lanzó dos nuevas plataformas para fortalecer la educación paname
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/COSPAE-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/COSPAE-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/COSPAE-p.jpg
 categories:
   - Panama
 tags:
