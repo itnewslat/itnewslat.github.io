@@ -12,7 +12,7 @@ title: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/samsung-electronic-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/samsung-electronic-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/samsung-electronic-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -54,7 +54,7 @@ Así mismo, el pasado 12 de octubre, Samsung también ocupó el primer lugar en 
  
 Cada año, Forbes entrevista a casi 150.000 colaboradores de 58 países que trabajan para empresas con operaciones en varios países o regiones, y este año pidió a los encuestados que calificaran su satisfacción con las medidas tomadas por sus empleadores ante el COVID 19, además de calificarlos s en términos de imagen, presencia económica, desarrollo del talento, igualdad de género y responsabilidad social.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/samsung-electronic-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/samsung-electronic-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
