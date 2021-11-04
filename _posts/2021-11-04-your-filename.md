@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2021'
-title: ''
+title: 'Black Friday, cómo prepararse para combatir la ciberdelincuencia'
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Videoconferencia-Webex-g.jpg
 image: >-
@@ -24,12 +24,9 @@ tags:
   - Actualidad
 week: '44'
 ---
-Black Friday, cómo prepararse para combatir la ciberdelincuencia
+- Axur llevará a cabo el próximo 10 de Noviembre un webinar para que estés ciberseguro en el próximo Black Friday
 
-Axur llevará a cabo el próximo 10 de Noviembre un webinar para que estés ciberseguro en el próximo Black Friday
-
- 
-Bogotá, Noviembre 3 de 2021 - El próximo Miércoles 10 de noviembre a las 10:00 de la mañana (COL) se llevará a cabo el webinar “Black Friday 2021: Tendencias de la ciberdelincuencia y cómo prepararse”, un evento virtual en el que podrás conocer de primera mano no solo información actualizada sobre fraudes, ataques ransomwares, estrategias de los ciberdelincuentes, sino cómo puedes proteger tu compañía y a tus clientes a través de las técnicas más efectivas de ciberseguridad, prevención de estafas, investigación en la Deep y Dark Web, y la importancia de mantener una rutina constante de Takedown, con la que lograrás la eliminación de contenidos falsos que usan tu marca de manera fraudulenta para estafar.
+El próximo Miércoles 10 de noviembre a las 10:00 de la mañana (COL) se llevará a cabo el webinar “Black Friday 2021: Tendencias de la ciberdelincuencia y cómo prepararse”, un evento virtual en el que podrás conocer de primera mano no solo información actualizada sobre fraudes, ataques ransomwares, estrategias de los ciberdelincuentes, sino cómo puedes proteger tu compañía y a tus clientes a través de las técnicas más efectivas de ciberseguridad, prevención de estafas, investigación en la Deep y Dark Web, y la importancia de mantener una rutina constante de Takedown, con la que lograrás la eliminación de contenidos falsos que usan tu marca de manera fraudulenta para estafar.
 
 Margarita Barrero, Líder de desarrollo de negocios internacionales de Axur y una de las expertas que nos acompañará en el evento afirma  que "La ciberdelincuencia no descansa y menos en días de descuentos y compras online. Se acerca el Black Friday y que mejor que estar preparados para evitar caer en estafas. Los mercados latinoamericanos, están apostándole más que nunca a fechas especiales para el e-commerce como el Black Friday con la promesa de lograr crecimiento en las ventas, y la reactivación económica, luego de años complejos" 
 
