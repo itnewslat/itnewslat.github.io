@@ -10,7 +10,7 @@ title: Tendencias para reactivar el sector hotelería en la era post-pandemia
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/esteban-hernandez-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/320x540/esteban-hernandez-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/esteban-hernandez-p.jpg
 categories:
   - Venezuela
   - Colombia
