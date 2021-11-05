@@ -21,6 +21,8 @@ categories:
 tags:
   - Transformación Digital
 week: '44'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Data-Centers-p.jpg
 ---
 - En un entorno desafiante como el venezolano, la garantía de contar con fuentes alternas
 - de provisión de energía es una ventaja diferencial única para
