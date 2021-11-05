@@ -12,7 +12,7 @@ title: >-
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Estadio-futbol-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Estadio-futbol-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Estadio-futbol-g.jpg
 categories:
   - Venezuela
   - Colombia
