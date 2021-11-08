@@ -34,7 +34,8 @@ Con esta compra, CrowdStrike ampliará la seguridad en el dispositivo y las capa
 
 CrowdStrike ha redefinido la seguridad en la nube protegiendo el epicentro de los riesgos dentro de cualquier empresa: el endpoint. Gracias a la tecnología de SecureCircle, CrowdStrike da un paso más en la protección de los datos y hace posible que los clientes lleven la protección Zero Trust hasta los dispositivos, analizando tanto las identidades como los datos. Gracias a las innovadoras capacidades de SecureCircle, CrowdStrike podrá resolver desde el agente Falcon un problema complejo que suele inquietar a las empresas de todos los tamaños: la protección de los datos.
 
-Una nueva manera de acercarse a la protección Zero Trust
+**Una nueva manera de acercarse a la protección Zero Trust**
+
 Se estima que el mercado de la prevención de pérdidas de datos* facturará alrededor de los 3.000 millones de dólares este año. Y a pesar de las ingentes cantidades de recursos invertidos en la prevención de fugas de información, las empresas siguen sufriendo brechas debido a filtraciones accidentales, ransomware o ataques sofisticados llevados a cabo por los ciberdelincuentes. Estos hechos evidencian que las tecnologías de prevención de fugas de datos han sido un fracaso y que las empresas necesitan una solución que proteja su información sin que la experiencia de usuario se vea impactada.
 
 La tecnología de SecureCircle incorporada en las soluciones de CrowdStrike dan una vuelta a las estrategias de protección de datos reforzando el cifrado de los datos en sus tres estados naturales: en tránsito, en uso y almacenados. Además, combinada con la solución CrowdStrike Zero Trust Assessment, permitirá a los clientes de CrowdStrike controlar el acceso a los datos y las políticas de uso para cada usuario según la calificación que tenga cada usuario, permitiendo así una mitigación dinámica de los riesgos.
