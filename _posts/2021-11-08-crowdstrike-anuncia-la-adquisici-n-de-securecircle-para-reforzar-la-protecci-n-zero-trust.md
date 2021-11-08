@@ -10,8 +10,9 @@ title: >-
   CrowdStrike anuncia la adquisición de SecureCircle para reforzar la protección
   Zero Trust
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x620/CrowdStrike-g.jpg
-image: 'https://github.com/itnewslat/assets/blob/master/img/540x320/CrowdStrike-p.jpg'
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/CrowdStrike-g.jpg
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/CrowdStrike-p.jpg
 categories:
   - Venezuela
   - Colombia
