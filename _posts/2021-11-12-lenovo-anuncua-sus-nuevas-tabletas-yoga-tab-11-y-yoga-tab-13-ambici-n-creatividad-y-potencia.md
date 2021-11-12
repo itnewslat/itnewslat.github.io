@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2021'
 title: >-
-  Lenovo anuncua sus nuevas tabletas  YOGA TAB 11 Y YOGA TAB 13: Ambición,
+  Lenovo anuncia sus nuevas tabletas YOGA TAB 11 y YOGA TAB 13: ambición,
   creatividad y potencia.
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/lenovo-yoga-11-g.jpg
