@@ -24,7 +24,7 @@ categories:
   - Mexico
 tags:
   - Actualidad
-week: '45'
+week: '46'
 ---
 El driver NVIDIA Studio se lanzará hoy con soporte para una gran cantidad de actualizaciones de aplicaciones para creadores, incluidas las funciones de Omniverse anunciadas durante el GTC de esta semana. Además, el paquete Adobe Creative Cloud está de vuelta a partir del 12 de noviembre.
  
