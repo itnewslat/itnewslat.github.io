@@ -49,8 +49,9 @@ El verdadero desafío de un espacio de trabajo híbrido es identificar cómo se 
  
 No es un secreto que los empleados que laboran de manera remota pierden visibilidad para sus líderes y tienen mayor riesgo de ser ignorados para cualquier posibilidad de ascenso, creando una desventaja profesional simplemente por no encontrase detrás de un escritorio. Para evitarlo, es vital tomar medidas que garanticen equidad e igualdad al momento de la toma decisiones.
 
-** Juan Prado**
+**Juan Prado**
 Future Workplace Business Owner - LATAM at SoftwareONE
+
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-hibrido-p.jpg)
 
 <table style="height: 42px;" width="569">
