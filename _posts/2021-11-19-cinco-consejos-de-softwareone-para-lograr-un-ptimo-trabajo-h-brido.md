@@ -24,12 +24,6 @@ tags:
   - Actualidad
 week: '46'
 ---
-
-
-Descripción generada automáticamente
-
-Por Juan Prado, Future Workplace Business Owner - LATAM at SoftwareONE
- 
 El trabajo híbrido es una tendencia al alza que las empresas han estado implementando en el último año. Este nuevo modelo ha dejado a la luz a dos protagonistas: la tecnología y la libertad de los colaboradores de escoger desde dónde trabajar.
  
 En este orden de ideas, las empresas han entendido la necesidad de crear estos espacios y dar a sus empleados la capacidad de equilibrar todas sus cargas de trabajo, llevando al máximo las competencias de colaboración, producción y adaptación. Esta modalidad permite al trabajador realizar sus obligaciones desde casa, en la modalidad de teletrabajo; en la oficina, con su rutina anterior; o en alternancia entre estas dos posibilidades. Sin duda, es un desafío enorme para las compañías, que deben adaptar los equipos, la cultura organizacional y cubrir las necesidades tecnológicas de los colaboradores para que el trabajo colaborativo funcione al 100%.
@@ -55,6 +49,8 @@ El verdadero desafío de un espacio de trabajo híbrido es identificar cómo se 
  
 No es un secreto que los empleados que laboran de manera remota pierden visibilidad para sus líderes y tienen mayor riesgo de ser ignorados para cualquier posibilidad de ascenso, creando una desventaja profesional simplemente por no encontrase detrás de un escritorio. Para evitarlo, es vital tomar medidas que garanticen equidad e igualdad al momento de la toma decisiones.
 
+** Juan Prado**
+Future Workplace Business Owner - LATAM at SoftwareONE
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-hibrido-p.jpg)
 
 <table style="height: 42px;" width="569">
