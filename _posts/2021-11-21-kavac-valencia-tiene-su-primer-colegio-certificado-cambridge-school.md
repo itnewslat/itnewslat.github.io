@@ -19,7 +19,8 @@ week: '46'
 ---
 Texto Origina **Iván R. Méndez | @ivanxcaracas** de [**Opinión y Noticias**](https://www.opinionynoticias.com/noticiaseducativas/40413-kavac) 
 
-Un país es tan pujante como lo son sus escuelas y liceos. La educación de calidad crea ciudadanos resilientes, creativos, tolerantes y competitivos.
+
+_Un país es tan pujante como lo son sus escuelas y liceos. La educación de calidad crea ciudadanos resilientes, creativos, tolerantes y competitivos._
 
 Esa es la visión que acompaña la cotidianidad en la Unidad Educativa Kavac de Valencia, que apenas fundada en septiembre 2020 ya logró certificarse como  Cambridge International School  . Es la primera unidad educativa certificada en el interior del país bajo esta metodología para formar estudiantes con inglés como segunda lengua y la segunda de Venezuela . Pero el mérito es mayor, empezaron a funcionar en un país aún paralizado por la pandemia. 
 
@@ -92,3 +93,6 @@ IG: **@UEkavac** | Facebook: **Unidad Educativa Kavac**
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
+
+
+Texto Origina **Iván R. Méndez | @ivanxcaracas** de [**Opinión y Noticias**](https://www.opinionynoticias.com/noticiaseducativas/40413-kavac) 
