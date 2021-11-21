@@ -95,4 +95,4 @@ IG: **@UEkavac** | Facebook: **Unidad Educativa Kavac**
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
 
 
-Texto Origina **Iván R. Méndez | @ivanxcaracas** de [**Opinión y Noticias**](https://www.opinionynoticias.com/noticiaseducativas/40413-kavac) 
+Texto Original **Iván R. Méndez | @ivanxcaracas** de [**Opinión y Noticias**](https://www.opinionynoticias.com/noticiaseducativas/40413-kavac) 
