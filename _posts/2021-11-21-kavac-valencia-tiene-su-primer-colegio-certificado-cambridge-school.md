@@ -18,7 +18,7 @@ tags:
 week: '46'
 ---
 Texto Original **Iván R. Méndez | @ivanxcaracas** de [**Opinión y Noticias**](https://www.opinionynoticias.com/noticiaseducativas/40413-kavac) 
-
+__________________________________________________________________________________________________________
 
 _Un país es tan pujante como lo son sus escuelas y liceos. La educación de calidad crea ciudadanos resilientes, creativos, tolerantes y competitivos._
 
