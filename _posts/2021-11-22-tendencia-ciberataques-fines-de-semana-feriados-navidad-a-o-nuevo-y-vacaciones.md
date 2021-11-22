@@ -7,8 +7,8 @@ superNews: false
 superArticle: false
 year: '2021'
 title: >-
-  TENDENCIA CIBERATAQUES: FINES DE SEMANA, FERIADOS, NAVIDAD, AÑO NUEVO y
-  VACACIONES 
+  Tendencia Ciberataques: Fines de semana, feriados, navidad, año nuevo y
+  vacaciones
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Pymes-g.jpg
 image: >-
