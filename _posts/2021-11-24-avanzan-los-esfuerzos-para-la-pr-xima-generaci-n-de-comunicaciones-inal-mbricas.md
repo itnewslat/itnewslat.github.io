@@ -2,13 +2,29 @@
 layout: posts
 color-schema: red-dark
 date: '2021-11-24 07:26 -0500'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2021'
 title: >-
   Avanzan los esfuerzos para la próxima generación de comunicaciones
   inalámbricas
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Antenas-de-5G-g.jpg
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Antenas-de-5G-p.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Movilidad
+week: '47'
 ---
 - Nuevo trabajo de 5G Americas analiza las interesantes posibilidades y esfuerzos para la evolución de la tecnología inalámbrica más allá de la 5G
 
@@ -34,7 +50,7 @@ Brian Daly, Vicepresidente Asistente, Normas y Alianzas con la Industria, AT&T y
 
 Swaminathan “Swami” Arunachalam, Director Senior, Investigación de 6G y Alianzas con la Industria, América del norte, Nokia, y colíder del grupo de 5G Americas, añadió: “Es la primera parte del ciclo de investigación para la 6G. También se planifica el estudio y despliegue de las tecnologías relevantes en la era de 6G, como desagregación de redes y programabilidad a lo ancho del sistema de extremo a extremo, en el contexto de 5G-Advanced. Se trata de pasos intermedios importantes hacia la era 6G que comprenderán nuevas tecnologías adicionales tales como tecnologías de radio THZ, capacidades de comunicaciones y detección, y sub-redes."
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Antenas-de-5G-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Antenas-de-5G-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
