@@ -3,8 +3,8 @@ layout: posts
 color-schema: red-dark
 date: '2021-12-01 16:08 -0400'
 published: true
-superNews: false
-superArticle: true
+superNews: true
+superArticle: false
 year: '2021'
 title: Las implicaciones energéticas de la 5G en el núcleo de las telecomunicaciones
 week: '48'
