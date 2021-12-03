@@ -23,8 +23,7 @@ week: '48'
 - Una tarjeta de crédito con $0 de cuota de manejo, $0 cobros por emisión, con comisiones informadas de forma oportuna; segura, sin datos sensibles visibles; dual, el usuario tendrá una versión virtual, (con emisión instantánea “digital first”) y una versión física; cupos de crédito dinámicos soportados con inteligencia artificial y tecnología de pagos sin contacto Visa. Son algunas de las características de la nueva tarjeta Visa Sempli Business
 - Se trata, además, de una tarjeta ecofriendly elaborada con PVC reciclado.
 
- 
-Bogotá, diciembre 1 de 2021 - Sempli y Visa anuncian el lanzamiento de una tarjeta de crédito diseñada para emprendedores, empresarios y freelancers en Colombia: Sempli Business, una nueva manera de financiar y controlar sus gastos operativos recurrentes sin comprometer la liquidez y el capital de trabajo de sus negocios.
+Sempli y Visa anuncian el lanzamiento de una tarjeta de crédito diseñada para emprendedores, empresarios y freelancers en Colombia: Sempli Business, una nueva manera de financiar y controlar sus gastos operativos recurrentes sin comprometer la liquidez y el capital de trabajo de sus negocios.
  
 Sempli Business es una tarjeta de crédito en el mercado colombiano diseñada y pensada especialmente para la pequeña empresa, así como para el ecosistema emprendedor. Esta solución nace para resolver una de las necesidades más importantes de las empresas colombianas: cubrir los gastos diarios y usos recurrentes de capital de trabajo a través de un medio de pago a nombre de la empresa y no de sus socios o empleados como personas naturales.
  
