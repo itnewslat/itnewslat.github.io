@@ -8,9 +8,9 @@ superArticle: false
 year: '2021'
 title: '5G: la conectividad que impulsará la Industria 4.0'
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/Jose-Renato-Mello-Goncalves-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Jose-Renato-Mello-Goncalves-g.jpg
 image: >-
-  https://github.com/itnewslat/assets/blob/master/img/540x320/Jose-Renato-Mello-Goncalves-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jose-Renato-Mello-Goncalves-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -34,7 +34,7 @@ Las nuevas soluciones de redes privadas inalámbricas brindan conectividad con a
 
 Con la implementación de este tipo de solución tecnológica en Brasil y otros países de América Latina, toda la industria avanzará en la modernización digital de sus operaciones, siendo un paso fundamental la base tecnológica de las miles de aplicaciones y automatizaciones por venir.
 
-![](https://github.com/itnewslat/assets/blob/master/img/540x320/Jose-Renato-Mello-Goncalves-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jose-Renato-Mello-Goncalves-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
