@@ -33,11 +33,8 @@ La gran mayoría de sectores económicos viró a la digitalidad, por su parte el
 **- Prospección a través de nuevas herramientas**
 Las plataformas tecnológicas han sido las protagonistas durante estos dos años, sin embargo, la mayoría quedan cortas a la hora de prospectar nuevos clientes y dar a conocer los productos o servicios, es por esto que los equipos comerciales deben asegurarse en tener plataformas digitales aptas para encontrar nuevas oportunidades de negocio y cotizar de acuerdo a las necesidades del mercado, esto permitirá una mayor visibilidad y acercamiento con los compradores.
  
- 
 **- Relacionamiento con nuevos clientes**
 El relacionamiento no se debe perder, al contrario es uno de los puntos claves del fortalecimiento en los nuevos negocios que nacen a partir de la virtualidad y que por bioseguridad no es recomendable ir presencialmente a lugares físicos, muchas veces perdiendo el tiempo en recorridos y haciendo más complejo depurar la agenda del día a día, es por esto que mantener contacto directo con los clientes es fundamental, asesoría telefónica o virtual, contenidos de valor a través de eventos o email marketing, documentación vigente para el comprador en la nube, son algunas de las recomendaciones para activar asertivamente el vínculo con nuestros clientes.
- 
- 
  
 **- Informes y resultados de negocios**
 Uno de los procesos más complejos en los ciclos de implementación de ventas son la muestra de informes y resultados en cada etapa del proceso, es por esto que no solo basta con enviar un documento, o compartir una presentación con informes, las métricas deben quedar registradas en la nube, dando la oportunidad al comprador de revisar dichos reportes 7x24x365, haciendo accesible y rápida la información.
