@@ -3,8 +3,8 @@ layout: posts
 color-schema: red-dark
 date: '2021-12-22 14:21 -0400'
 published: true
-superNews: false
-superArticle: true
+superNews: true
+superArticle: false
 year: '2021'
 title: >-
   Llega a Argentina DTEN, con soluciones de videocolaboración prácticas y
