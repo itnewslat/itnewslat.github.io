@@ -3,9 +3,9 @@ layout: posts
 color-schema: red-dark
 date: '2021-12-22 14:21 -0400'
 published: true
-superNews: true
-superArticle: false
-year: '2018'
+superNews: false
+superArticle: true
+year: '2021'
 title: >-
   Llega a Argentina DTEN, con soluciones de videocolaboración prácticas y
   accesibles  para empresas e instituciones educativas
@@ -19,6 +19,7 @@ tags:
   - Transformación Digital
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Videoconferencias-g.jpg
+week: '51'
 ---
 Tras la pandemia, la colaboración a distancia se ha vuelto indispensable, sobre todo entre la comunidad educativa y negocios en general. Por ejemplo, en Argentina, la CONEAU  permite que las actividades virtuales ocupen hasta un 49% de las carreras, reforzando la importancia de este modelo y según el Resetting Normal 2021, un estudio global realizado por el Grupo Adecco, el 53% de los trabajadores quiere mantener un horario en el que más de la mitad de su tiempo se dedique a trabajar a distancia después de la pandemia. 
 
