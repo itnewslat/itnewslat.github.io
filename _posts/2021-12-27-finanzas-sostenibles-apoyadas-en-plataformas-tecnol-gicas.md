@@ -22,7 +22,7 @@ categories:
   - Mexico
 tags:
   - Economía Digital
-week: '51'
+week: '52'
 ---
 Las expectativas de los consumidores con respecto a los productos que adquieren han cambiado substancialmente en los últimos años, introduciendo nuevos parámetros que antes no eran considerados, y que da más prioridad al “cómo” que al “qué”.
 
