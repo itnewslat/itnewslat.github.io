@@ -28,9 +28,7 @@ week: '2'
 
 Entre algunas de las actualizaciones del año que se despide, another -agencia regional independiente de comunicación- realizó un resumen de lo que se vendrá en materia de Search Engine Optimization (SEO) para el 2022. 
 
- 
 Con base en el eBook de Search Engine Journal, SEO Trends 2022, Eugenia Macedo, experta en Inbound Marketing en another, destaca 10 puntos fundamentales para la optimización de contenidos, a fin de colocarlos mejor en los motores de búsqueda. Algunas de las predicciones más interesantes, y que dominarán el rumbo del posicionamiento orgánico son: 
-
  
 1. Intención del usuario: Siempre ha existido una relación entre el target al que uno se dirige y las palabras clave que busca, pero más allá de esto hay que pensar en su intención al momento de hacer sus búsquedas. Esta estrategia de posicionamiento orgánico dentro de los motores de búsqueda ayuda a construir una experiencia más holística dentro de las acciones de marketing. “Para determinar la intención del usuario es fundamental examinar las palabras clave que usa: ¿son preguntas? ¿son comparaciones? ¿hay intención de compra en sus oraciones? Este análisis es clave”, comenta Eugenia.
 1. Contenido de calidad: El SEO se compone de muchos factores y uno de ellos es el contenido, es decir, lo que se ofrece a los usuarios que visitan el sitio. No hay que enfocarse en solo crear materiales en cantidad, es mejor investigar y comprender los intereses del target al que se enfoca. Organizar los temas y priorizar con base en los objetivos de negocios. 
