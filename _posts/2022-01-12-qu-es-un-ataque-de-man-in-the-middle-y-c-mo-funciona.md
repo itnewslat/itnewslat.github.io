@@ -21,7 +21,7 @@ categories:
   - Panama
   - Mexico
 tags:
-  - Actualidad
+  - Seguridad
 week: '2'
 ---
 - La compañía de seguridad informática, ESET, advierte sobre los ataques de Man-in-the-Middle, qué son, cómo se realizan y cómo protegerse.
