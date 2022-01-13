@@ -10,9 +10,9 @@ title: >-
   Logicalis lleva el lugar de trabajo digital "más allá de la productividad" con
   el lanzamiento de su suite de Colaboración
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Jorge-Cote-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Trabajo-movil-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jorge-Cote-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-movil-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -38,7 +38,7 @@ Chanter agrega que “La experiencia de colaboración gerenciada de Logicalis pe
 
 La suite de Colaboración de Logicalis es la primera de las tres soluciones de su nuevo Digital Workplace Centre of Excellence. Los siguientes lanzamientos se centrarán en la experiencia y la innovación de los colaboradores.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jorge-Cote-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Trabajo-movil-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
