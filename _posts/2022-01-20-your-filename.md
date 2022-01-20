@@ -28,8 +28,7 @@ DigiCert adquiere el proveedor de ciberseguridad de IoT Mocana
  
  DigiCert integrará el software de Mocana para ofrecer una plataforma de seguridad de IoT completa e integral, acelerando el tiempo de comercialización para los fabricantes y operadores de dispositivos de IoT
  
- 
-(América Latina) – (enero 19, 2022) – DigiCert, Inc., proveedor líder de TLS/SSL, IoT y otras soluciones PKI, respaldado por Clearlake Capital Group. L.P. ("Clearlake"), Crosspoint Capital y TA Associates, anunciaron hoy que han adquirido el proveedor de ciberseguridad de Internet de las cosas (IoT), Mocana. La combinación de las tecnologías de DigiCert y Mocana, brindan a los fabricantes y operadores de IoT una plataforma integral para administrar la seguridad durante todo el ciclo de vida del dispositivo IoT. Los términos de la transacción no fueron revelados.
+DigiCert, Inc., proveedor líder de TLS/SSL, IoT y otras soluciones PKI, respaldado por Clearlake Capital Group. L.P. ("Clearlake"), Crosspoint Capital y TA Associates, anunciaron hoy que han adquirido el proveedor de ciberseguridad de Internet de las cosas (IoT), Mocana. La combinación de las tecnologías de DigiCert y Mocana, brindan a los fabricantes y operadores de IoT una plataforma integral para administrar la seguridad durante todo el ciclo de vida del dispositivo IoT. Los términos de la transacción no fueron revelados.
  
 La adquisición acelera estratégicamente la presencia de DigiCert en el mercado IoT de rápido crecimiento. IDC estima que habrá más de 55 mil millones de dispositivos conectados para 2025, con un crecimiento impulsado por la inversión organizacional en plataformas IoT para lograr eficiencia operativa, transformación digital y diferenciación competitiva.
  
