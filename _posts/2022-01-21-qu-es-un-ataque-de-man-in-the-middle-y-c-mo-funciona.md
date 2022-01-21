@@ -26,7 +26,6 @@ week: '3'
 ---
 - La compañía de seguridad informática, ESET, advierte sobre los ataques de Man-in-the-Middle, qué son, cómo se realizan y cómo protegerse.
 
-
 ESET, compañía líder en detección proactiva de amenazas, analiza Man-in-the-Middle (MitM), que en español significa “hombre en el medio”, un tipo de ataque destinado a interceptar, sin autorización, la comunicación entre dos dispositivos conectados a una red. Este permite a un agente malintencionado manipular el tráfico interceptado de diferentes formas, ya sea para escuchar la comunicación y obtener información sensible, como credenciales de acceso, información financiera, etc., o para suplantar la identidad de alguna de las partes. 
 
 Para que un ataque MitM funcione correctamente, el delincuente debe asegurarse que será el único punto de comunicación entre los dos dispositivos, es decir, debe estar presente en la misma red que los dispositivos apuntados en el ataque para cambiar la tabla de enrutamiento para cada uno de ellos. 
