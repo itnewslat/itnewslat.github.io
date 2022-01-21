@@ -28,7 +28,7 @@ En CES 2022, Samsung Electronics presentó una nueva visión para las experienci
 
 El video a continuación presentó a los espectadores el stand de Samsung en CES 2022, donde la compañía muestra un escenario en el que se presenta información en tiempo real al conductor de un vehículo sobre las condiciones de la carretera y otros factores.
 
-https://www.youtube.com/watch?v=akZ8U6OcksQ&feature=emb_imp_woyt
+[Haga click aqui para ver el video ](https://www.youtube.com/watch?v=akZ8U6OcksQ&feature=emb_imp_woyt)
 
 En el escenario, el vehículo usa cámaras y sensores para analizar su entorno, luego aprovecha la realidad aumentada para presentar las condiciones de la carretera y otra información al conductor dentro de su campo de visión. Luego, el conductor puede hacer uso de esa información superpuesta para asegurarse de que disfrutan de una conducción cómoda y segura.
 
