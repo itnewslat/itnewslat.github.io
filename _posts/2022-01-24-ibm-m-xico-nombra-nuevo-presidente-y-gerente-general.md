@@ -26,7 +26,7 @@ week: '4'
 ---
 Según pudo conocer el equipo de redaccion de ITNEWS.LAT (México) el nombramiento de Mauricio Torres Echenagucia como nuevo presidente y gerente general de la oficina del país azteca. Anteriormente Torres ocupaba el mismo cargo en las oficinas de IBM Chile.
 
-Con una larga trayectoria en la corporación azul, Torres se ha desempeñado tambiem como presidente y gerente general de IBM Venezuela así como Director of Software and Cognitive Solutions Sales y director de estretegia y transformacion digital para latinoamerica.
+Con una larga trayectoria en la corporación azul, Torres se ha desempeñado también como presidente y gerente general de IBM Venezuela así como Director of Software and Cognitive Solutions Sales y director de estretegia y transformacion digital para latinoamerica.
 
 En su cuenta de Linkedln, notificó el nombramiento con un mensaje de agradecimeinto a clientes, compañeros de trabajos y amistades que lo han apoyado en su trayectoria
 
