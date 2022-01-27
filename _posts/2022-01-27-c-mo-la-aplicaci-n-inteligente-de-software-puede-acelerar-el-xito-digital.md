@@ -27,7 +27,7 @@ week: '4'
 
 Cristián Castro Carriel, Director Regional LATAM en Dynatrace, propone un enfoque más automático e inteligente para el desarrollo de software con el objetivo de que las organizaciones puedan alcanzar el éxito digital en esta era de transformación vertiginosa.
 
-Chile, enero de 2022. Es innegable que la demanda de servicios digitales se está disparando, junto con las expectativas de los usuarios. 
+Es innegable que la demanda de servicios digitales se está disparando, junto con las expectativas de los usuarios. 
 
 Los consumidores quieren experiencias conectadas sin complicaciones, y se espera que las organizaciones inviertan alrededor de 1,78 billones de dólares en 2022 para la transformación digital en comparación con los 1,31 billones de dólares en 2020 para seguir el ritmo de estas demandas.
 
