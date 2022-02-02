@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: LG anuncia sus resuntados financierons de 2021
+title: LG anuncia sus resultados financieros de 2021
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/edificio-lg-g.jpg
 image: >-
