@@ -26,11 +26,9 @@ tags:
   - Seguridad
 week: '5'
 ---
-
+- Gracias a los nuevos desarrollos incorporados, la tecnología de Tyco Radar se convierte en una solución con total precisión, expandiendo a otro nivel las capacidades de los equipos de seguridad física.
  
-Gracias a los nuevos desarrollos incorporados, la tecnología de Tyco Radar se convierte en una solución con total precisión, expandiendo a otro nivel las capacidades de los equipos de seguridad física. 
- 
-Bogotá Colombia, febrero 2022-  Johnson Controls, líder mundial en edificios inteligentes, saludables y sostenibles, presentó durante su más reciente Tyco Live Demo, la incorporación de Inteligencia Artificial y Deep Learning a sus soluciones basadas en hardware y software; tecnologías que mejoran el desempeño operacional de dispositivos a partir de la recolección de información, experiencia y los aprendizajes que se generen en tiempo real.
+Johnson Controls, líder mundial en edificios inteligentes, saludables y sostenibles, presentó durante su más reciente Tyco Live Demo, la incorporación de Inteligencia Artificial y Deep Learning a sus soluciones basadas en hardware y software; tecnologías que mejoran el desempeño operacional de dispositivos a partir de la recolección de información, experiencia y los aprendizajes que se generen en tiempo real.
  
 Una de las herramientas más destacadas que Johnson Controls dio a conocer a la industria es la utilización de la tecnología Deep Learning en su solución de protección perimetral Tyco Radar que, entre otras cosas, permite a los clientes evitar falsas alarmas en sus instalaciones en comparación con los analíticos de vídeo tradicionales.  También, apoya el monitoreo de áreas de riesgo para su recurso humano e instalaciones ofreciendo un tiempo de respuesta eficiente aún en áreas remotas.
  
