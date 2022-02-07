@@ -21,7 +21,7 @@ tags:
   - Transformación Digital
 week: '6'
 ---
-Dell Technologies (NYSE:DELL) anuncia el lanzamiento de APEX Backup Services, que ofrece una protección de datos segura y escalable de princípio a fin con supervisión y gestión centralizadas para aplicaciones de software como servicio (SaaS), endpoints y cargas de trabajo híbridas.
+Dell Technologies anuncia el lanzamiento de APEX Backup Services, que ofrece una protección de datos segura y escalable de princípio a fin con supervisión y gestión centralizadas para aplicaciones de software como servicio (SaaS), endpoints y cargas de trabajo híbridas.
  
 Gracias a su fácil instalación, la oferta basada en SaaS puede desplegarse en cuestión de minutos y ofrece una escala ilimitada. Además de proteger las aplicaciones en la nube, la solución también permite gestionar y visualizar de forma centralizada los equipos -como portátiles, desktops, entre otros- y las cargas de trabajo híbridas (nube pública, nube privada, nube híbrida y centro de datos). Esto garantiza que los datos corporativos estén siempre protegidos y sean recuperables. Las funciones de seguridad resistentes ayudan a proteger contra los ciberataques y el ransomware con detección instantánea, respuesta rápida y recuperación acelerada.
  
