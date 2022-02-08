@@ -43,3 +43,16 @@ Al canalizar la imagen del tigre, Samsung también abraza su propio pasado feroz
 **¡Regístrate para conocer el Nuevo Galaxy!** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KpTBm_fg-Wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
+
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Samsung-Unpacked-p.jpg)
