@@ -10,9 +10,9 @@ title: >-
   Según Carlos Blanco, Director Ejecutivo de ABSIDE "La transformación digital
   debe ser la prioridad para la empresa este año"
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/TransformacionDigital-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Carlos-Blanco-G.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/TransformacionDigital-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Carlos-Blanco-P.jpg
 categories:
   - Venezuela
   - Colombia
@@ -50,7 +50,7 @@ En opinión de Carlos Blanco, las inversiones en tecnología deben estar alinead
 
 “La Innovación digital tiene el potencial de acelerar la recuperación económica. Para ello, urge cerrar la brecha digital, aumentar las competencias digitales y un profundo cambio cultural en las empresas. En ABSIDE, tenemos la misión de impulsar el crecimiento y transformación digital de las empresas a través de la comercialización e implementación de soluciones tecnológicas digitales de gestión empresarial para todo tipo de industria contribuyendo al aumento de su rentabilidad, su productividad y fortaleciendo su cultura organizacional. Somos Partner Gold de SAP, lo que nos permite resolver desafíos de negocio y ayudarles a convertirse en una empresa líder”
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/TransformacionDigital-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Carlos-Blanco-P.jpg)
 
 
 <table style="height: 42px;" width="569">
