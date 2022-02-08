@@ -30,19 +30,20 @@ En promedio, los mexicanos usan 29.6 horas al mes esta aplicación donde las sec
  
 Así mismo, la popularidad de Facebook hace que los anuncios publicitarios lleguen a 93 millones de mexicanos, lo que representa el 92.3% de la población activa en redes sociales mayores de 13 años. Lamentablemente, la popularidad de esta red social también atrae cibercriminales y estafadores que buscan obtener beneficios a expensas de los usuarios desprevenidos. Bajo este panorama, ESET alerta sobre los métodos más comunes que los estafadores utilizan para intentar engañar a los usuarios:
  
-Estafas de phishing: Estas son las más populares en Facebook, cuyo objetivo principal de los ciberdelincuentes es robar información personal que utilizan en otras actividades delictivas, que van desde el robo de identidad hasta la venta de datos en los mercados de la deep web.
- 
-Falsos préstamos: Estas estafas ocurren con bastante frecuencia en la popular red social y son fáciles de detectar. Este tipo de fraude comienza con un estafador que comparte publicaciones o envían mensajes directos a las potenciales víctimas, donde afirman ofrecer préstamos instantáneos a tasas de interés muy bajas.
- 
-Cuentas clonadas: En este escenario la trampa consiste en clonar el perfil para hacerse pasar por alguien más. Otra maniobra pude ser que clonen la cuenta de un usuario e intentar comunicarse con sus contactos; el propósito de esto suele ser llevar adelante alguna forma de fraude conocida, como el pago de una tarifa anticipada por algún servicio o beneficio, así como afirmar que están en complicaciones y necesitan envío de dinero para ayudarlos.
- 
-Estafas a través de Facebook Live: Este proceso implica una transmisión en vivo que generalmente utiliza videos alterados de celebridades. El contenido es una edición de videos que realizó dicha personalidad para llevar a cabo una estafa, a través de mensajes para los seguidores con el propósito de contactarlos y convencerlos de compartir información confidencial o enviar dinero.
- 
-Estafas con concursos:  Funcionan de manera similar que los fraudes de Facebook Live, es decir, atraen a los usuarios con la justificación de poder ganar algún premio con poco o ningún esfuerzo de su parte. Particularmente, se suben posts y se piden reaccionar o poner comentarios, hacen pasar a las posibles víctimas como participantes con la finalidad de contactarlos y solicitar información personal.
- 
-Estafas con criptomonedas: Con el aumento de popularidad en las criptomonedas, han proliferado los engaños relacionados con esta unidad monetaria por medio de diferentes estrategias como el secuestro de redes sociales. El objetivo de estas estafas es el mismo: engañar a los usuarios para obtener información confidencial como información de pago o el acceso a las billeteras de criptomonedas para hacer transferencias.
- 
-Estafas de falsas donaciones: También conocidas como crowdfunding, son la manera en la que los ciberdelincuentes buscan tomar ventaja de la empatía y voluntad de las personas para ayudar a otros, crean organizaciones benéficas falsas. Algunas de las situaciones que usan los cibercriminales son: desastres naturales, accidentes, u otros eventos trágicos que aumentan las posibilidades de que las personas estén dispuestas a donar.
+- **Estafas de phishing:** Estas son las más populares en Facebook, cuyo objetivo principal de los ciberdelincuentes es robar información personal que utilizan en otras actividades delictivas, que van desde el robo de identidad hasta la venta de datos en los mercados de la deep web.
+
+- **Falsos préstamos:** Estas estafas ocurren con bastante frecuencia en la popular red social y son fáciles de detectar. Este tipo de fraude comienza con un estafador que comparte publicaciones o envían mensajes directos a las potenciales víctimas, donde afirman ofrecer préstamos instantáneos a tasas de interés muy bajas. 
+
+- **Cuentas clonadas:** En este escenario la trampa consiste en clonar el perfil para hacerse pasar por alguien más. Otra maniobra pude ser que clonen la cuenta de un usuario e intentar comunicarse con sus contactos; el propósito de esto suele ser llevar adelante alguna forma de fraude conocida, como el pago de una tarifa anticipada por algún servicio o beneficio, así como afirmar que están en complicaciones y necesitan envío de dinero para ayudarlos.
+
+- **Estafas a través de Facebook Live:** Este proceso implica una transmisión en vivo que generalmente utiliza videos alterados de celebridades. El contenido es una edición de videos que realizó dicha personalidad para llevar a cabo una estafa, a través de mensajes para los seguidores con el propósito de contactarlos y convencerlos de compartir información confidencial o enviar dinero.
+
+- **Estafas con concursos:**  Funcionan de manera similar que los fraudes de Facebook Live, es decir, atraen a los usuarios con la justificación de poder ganar algún premio con poco o ningún esfuerzo de su parte. Particularmente, se suben posts y se piden reaccionar o poner comentarios, hacen pasar a las posibles víctimas como participantes con la finalidad de contactarlos y solicitar información personal.
+
+- **Estafas con criptomonedas:** Con el aumento de popularidad en las criptomonedas, han proliferado los engaños relacionados con esta unidad monetaria por medio de diferentes estrategias como el secuestro de redes sociales. El objetivo de estas estafas es el mismo: engañar a los usuarios para obtener información confidencial como información de pago o el acceso a las billeteras de criptomonedas para hacer transferencias.
+
+- **Estafas de falsas donaciones:** También conocidas como crowdfunding, son la manera en la que los ciberdelincuentes buscan tomar ventaja de la empatía y voluntad de las personas para ayudar a otros, crean organizaciones benéficas falsas. Algunas de las situaciones que usan los cibercriminales son:desastres naturales, accidentes, u otros eventos trágicos que aumentan las posibilidades de que las personas estén dispuestas a donar.
+
  
 Facebook, vigila el contenido que aparece en la plataforma, pero los cibercriminales continúan elaborando medios ingeniosos para aprovechar cualquier susceptibilidad para poder difundir y engañar a tantos usuarios sea posible.
  
