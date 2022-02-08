@@ -2,13 +2,29 @@
 layout: posts
 color-schema: red-dark
 date: '2022-02-08 07:55 -0500'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2022'
 title: >-
   Avast protege a más de 66.000 usuarios del troyano bancario Chaes en el cuarto
   trimestre de 2021
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Virus-Troyano-g.jpg
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Virus-Troyano-p.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Seguridad
+week: '6'
 ---
 El troyano que ha atacado fuertemente Brasil roba las credenciales de inicio de sesión, así como el historial, los perfiles de usuario almacenados en el navegador Chrome, así como las credenciales de inicio de sesión bancaria y los detalles de la cuenta al visitar sitios web de banca en línea.
 
@@ -39,7 +55,7 @@ Anh Ho recomienda a los consumidores que utilicen programas antivirus, como Avas
  
 Para los propietarios de sitios web, Anh recomienda utilizar contraseñas fuertes y únicas para proteger el CMS - WordPress y sitios similares utilizados para mantener las páginas web. Además, el investigador de malware recomienda a los propietarios de sitios web que comprueben los registros de software para detectar cualquier actividad sospechosa, como cambios en los archivos, en las bases de datos o intentos de inicio de sesión. Por último, recomienda mantener el software actualizado y utilizar un cortafuegos de aplicaciones web, que puede ayudar a evitar que los visitantes no deseados alteren el código del sitio web. Mantener el software actualizado ayuda a corregir las vulnerabilidades que pueden ser explotadas para obtener acceso, mientras que un cortafuegos filtra el tráfico entre Internet y la aplicación web utilizada para ejecutar el sitio.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Virus-Troyano-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Virus-Troyano-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
