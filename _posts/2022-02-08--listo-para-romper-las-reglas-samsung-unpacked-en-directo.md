@@ -26,9 +26,9 @@ image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Samsung-Unpacked.jpg
 week: '06'
 ---
-- Acuerdo entre Samsung Latinoamérica y el portal de noticias ITNEWS.LAT
+- Acuerdo entre **Samsung Latinoamérica** y el portal de noticias **ITNEWS.LAT**
 
-Como parte de nuestra misión de llevarles las informaciones mas relevantes, este miercoles 09 de febrero de 2022, a 10:00AM EST, nuestro site ITNEWS.LAT se conectará con la transmisión del evento SAMSUNG UNPACKED donde la empresa Coreana hará anuncios de sus nuevos productos de la familia Galaxy.
+Como parte de nuestra misión de llevarles las informaciones mas relevantes, este miercoles 09 de febrero de 2022, a 10:00AM EST, nuestro site **ITNEWS.LAT** se conectará con la transmisión del evento **SAMSUNG UNPACKED** donde la empresa Coreana hará anuncios de sus nuevos productos de la familia Galaxy.
 
 ¿Quieres descubrir la próxima generación de innovación de Samsung Galaxy? Sintoniza el Galaxy Unpacked 2022 para conocer los nuevos dispositivos Galaxy
 
