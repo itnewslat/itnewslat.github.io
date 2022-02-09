@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2022-02-08 07:51 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2022'
 title: ¿Listo para romper las reglas? Samsung Unpacked en directo
