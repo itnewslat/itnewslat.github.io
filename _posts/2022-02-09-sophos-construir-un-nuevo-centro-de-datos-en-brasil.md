@@ -26,7 +26,7 @@ week: '6'
 ---
 La empresa está experimentando una gran demanda en toda América Latina, por lo que se planean inversiones significativas para expandir y abordar de manera integral las regulaciones de datos regionales; señala Oscar Chávez-Arrieta, vicepresidente de Sophos para América Latina.
 
-Santiago, Chile. 8 de febrero de 2022. Sophos, líder mundial en ciberseguridad de última generación, anunció hoy que tiene planes para crear un nuevo centro de datos en São Paulo, Brasil, en el mes de mayo de este año. 
+Sophos, líder mundial en ciberseguridad de última generación, anunció hoy que tiene planes para crear un nuevo centro de datos en São Paulo, Brasil, en el mes de mayo de este año. 
  
 El nuevo centro de datos está planificado para permitir que las organizaciones de la región cumplan con las leyes sobre privacidad de datos de dicho país, mismas que son cada vez más requeridas para sectores como la banca, el gobierno y otros estrictamente regulados. El nuevo inmueble ampliará la base existente de centros de datos de Sophos en todo el mundo, ya que actualmente la firma cuenta con este tipo de sitios en Estados Unidos, Canadá, Irlanda, Alemania, Japón y Australia.
  
