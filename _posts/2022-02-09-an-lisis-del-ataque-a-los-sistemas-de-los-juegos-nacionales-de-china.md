@@ -26,7 +26,6 @@ week: '6'
 ---
 - El análisis muestra que los atacantes pudieron acceder a un sistema que albergaba contenido para los Juegos Nacionales explotando una vulnerabilidad en el servidor web.
 
-
 Avast, líder mundial en seguridad y privacidad digital, ha publicado información sobre un ataque contra un servidor asociado a los Juegos Nacionales de China en septiembre de 2021, antes de que comenzaran los Juegos. Esta información se basa en análisis de Avast un informe disponible públicamente en VirusTotal del equipo de TI de los Juegos Nacionales.
 
 El informe contiene registros de acceso del servidor web y de la base de datos SQL que proporcionaron para investigadores de Avast información parcial sobre el ataque. El equipo de Avast pudo correlacionar este informe con muestras de malware que ellos descubrieron y lograron describir el ataque y determinar el punto inicial de intrusión.
