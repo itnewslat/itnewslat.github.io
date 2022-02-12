@@ -26,7 +26,7 @@ tags:
   - Canales
 week: '6'
 ---
-Dell Technologies (NYSE:DELL) presentó recientemente las actualizaciones y mejoras al Programa para Canales de Dell Technologies para el 2022 que maximizan las ventajas de pertenecer a este programa para todos los socios de todos los niveles y líneas de negocio.
+Dell Technologies presentó recientemente las actualizaciones y mejoras al Programa para Canales de Dell Technologies para el 2022 que maximizan las ventajas de pertenecer a este programa para todos los socios de todos los niveles y líneas de negocio.
 
 Durante el evento de presentación, se hizo hincapié en la nueva visión que Dell Technologies tiene para sus socios:
 
