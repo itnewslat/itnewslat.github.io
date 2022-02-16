@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: ''
+title: Sophos Solutions anuncia a Felipe Villa Murra como nuevo CEO Global
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Felipe-Villa-Murra-g.jpg
 image: >-
@@ -24,13 +24,12 @@ tags:
   - Seguridad
 week: '7'
 ---
-Sophos Solutions anuncia a Felipe Villa Murra como nuevo CEO Global
+- El ejecutivo asumirá el cargo anteriormente ocupado por Mauricio Mosseri, quien estuvo al frente de la compañía desde el 2015 hasta enero de este año.
+ 
+- La multinacional cumplió 15 años y actualmente cuenta con 2.500 trabajadores en cinco países.
 
-El ejecutivo asumirá el cargo anteriormente ocupado por Mauricio Mosseri, quien estuvo al frente de la compañía desde el 2015 hasta enero de este año.
- 
-La multinacional cumplió 15 años y actualmente cuenta con 2.500 trabajadores en cinco países.
- 
-Colombia, 14 de febrero de 2022 – El Directorio de Sophos Solutions S.A.S designó a Felipe Villa Murra como Presidente & CEO de la multinacional tecnológica, a partir del 1 de febrero de 2022. Con la incorporación de Felipe Villa Murra, la compañía busca reforzar su crecimiento y expansión en el sector de servicios de TI enfocados en el sector financiero y bursátil; actualmente, cuenta con presencia en 13 países y oficinas en Colombia, México, Chile, Panamá y EE. UU.
+
+El Directorio de Sophos Solutions S.A.S designó a Felipe Villa Murra como Presidente & CEO de la multinacional tecnológica, a partir del 1 de febrero de 2022. Con la incorporación de Felipe Villa Murra, la compañía busca reforzar su crecimiento y expansión en el sector de servicios de TI enfocados en el sector financiero y bursátil; actualmente, cuenta con presencia en 13 países y oficinas en Colombia, México, Chile, Panamá y EE. UU.
 
 El ejecutivo asumirá el cargo anteriormente ocupado por Mauricio Mosseri, quien estuvo al frente de la compañía desde el 2015 hasta enero de este año. Gracias a su liderazgo, hoy Sophos es una compañía que compite con grandes empresas de tecnología a nivel mundial y ocupa un lugar importante en la medición de clima laboral de Great Place to Work.
 
