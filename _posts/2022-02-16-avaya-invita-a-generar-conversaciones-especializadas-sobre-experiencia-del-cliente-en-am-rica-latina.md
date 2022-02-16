@@ -12,7 +12,7 @@ title: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/experiencia-avaya-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/experiencia-avaya-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/experiencia-avaya-g.jpg
 categories:
   - Venezuela
   - Colombia
