@@ -30,7 +30,7 @@ Testimonio de una labor sin Límites 28 ONG, pertenecientes a nuestra red asisti
 
 “El FIS ha sido para nosotros, un espacio para crecer y fortalecernos como organización, Venezuela sin Límites ha sido un gran apoyo para los proyectos de salud y educación que hemos desarrollado “, comentó Veronica Guruceaga, Directora de Somos Comunidad.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/FVSL-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/FVSL-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
