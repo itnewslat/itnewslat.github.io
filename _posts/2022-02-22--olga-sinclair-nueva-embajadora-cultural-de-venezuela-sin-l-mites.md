@@ -8,7 +8,7 @@ superArticle: false
 year: '2022'
 title: '¡Olga Sinclair, nueva embajadora cultural de Venezuela sin Límites! '
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/FVSL-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/FVSL-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/FVSL-g.jpg
 categories:
