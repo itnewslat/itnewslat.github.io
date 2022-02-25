@@ -48,7 +48,7 @@ Desde Omnitel señalan los cinco retos a los que deben enfrentarse los especiali
 
 1. Habilidades de marketing híbrido.  Sólo el 3 de cada 4 CMOs cree que cuenta con la formación necesaria para alcanzar los objetivos de marketing. La falta de un equipo multidisciplinar es una realidad y en los departamentos de marketing la formación en tecnología y comunicación es una de las principales debilidades que los directores de marketing buscan subsanar con la contratación de talento externo para completar y mejorar sus equipos de marketing y sus resultados.
 
-![]({{site.baseurl}}/https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Reunion-Ejecutivos-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Reunion-Ejecutivos-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
