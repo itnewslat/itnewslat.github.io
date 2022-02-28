@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2022'
 title: >-
-  Coche, el valle y Petare cuentan con mayor capacidad en la red 4G LTE de
+  Coche, el Valle y Petare cuentan con mayor capacidad en la red 4G LTE de
   Digitel 
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Antena-Digitel-g.jpg
