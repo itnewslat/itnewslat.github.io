@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2022-03-04 17:08 -0400'
 published: true
-superNews: false
+superNews: true
 superArticle: true
 year: '2022'
 title: SAP galardona a ABSIDE en su Partner Meeting North 2022
