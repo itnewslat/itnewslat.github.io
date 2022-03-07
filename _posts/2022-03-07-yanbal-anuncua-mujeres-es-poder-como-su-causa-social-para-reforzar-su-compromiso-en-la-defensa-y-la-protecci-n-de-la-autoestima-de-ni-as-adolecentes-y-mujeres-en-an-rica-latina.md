@@ -9,7 +9,7 @@ year: '2022'
 title: >-
   YANBAL anuncia "Mujeres es poder" como su causa social, para reforzar su
   compromiso en la defensa y la protección de la autoestima de niñas,
-  adolecentes y mujeres en anérica latina
+  adolecentes y mujeres en américa latina
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Mujer-trabajando-Laptop-g.jpg
 image: >-
