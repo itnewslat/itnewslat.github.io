@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2022'
 title: >-
-  YANBAL anuncua "Mujeres es poder" como su causa social, para reforzar su
+  YANBAL anuncia "Mujeres es poder" como su causa social, para reforzar su
   compromiso en la defensa y la protección de la autoestima de niñas,
   adolecentes y mujeres en anérica latina
 detail-image: >-
