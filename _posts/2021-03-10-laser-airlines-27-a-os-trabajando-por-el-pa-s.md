@@ -8,9 +8,9 @@ superArticle: false
 year: '2021'
 title: 'Laser Airlines, 27 años trabajando por el país'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/laserp.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Laser-Airlines-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Laserg.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Laser-Airlines-g.jpg
 categories:
   - Venezuela
 tags:
@@ -28,6 +28,15 @@ week: '10'
 <p style="text-align: justify;">Asimismo, todo el personal de la empresa ha sido debidamente entrenado para velar y hacer cumplir las normas de prevención en todas las fases del vuelo, desde chequeo hasta retiro de equipaje, en aras de brindar un viaje tranquilo y confiable.</p>
 <p style="text-align: justify;">“En estos tiempos tan complejos, que nos han marcado con una nueva realidad, y en cada año que se suma a la historia de la empresa, ratificamos nuestro profundo agradecimiento a nuestros trabajadores y, en especial, a la preferencia de los pasajeros, porque ellos son nuestra razón de ser”, comentó René Cortés, vicepresidente Ejecutivo de Laser Airlines.</p>
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/laserp.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Laser-Airlines-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
+
