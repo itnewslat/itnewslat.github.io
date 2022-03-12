@@ -5,7 +5,7 @@ date: '2021-03-10 16:39 -0400'
 published: true
 superNews: false
 superArticle: false
-year: '2021'
+year: '2022'
 title: 'Laser Airlines, 27 años trabajando por el país'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Laser-Airlines-p.jpg
@@ -17,7 +17,6 @@ tags:
   - Actualidad
 week: '10'
 ---
-<p style="text-align: justify;"><strong></strong></p>
 <p style="text-align: justify;"><em>Con operaciones desde el 11 de marzo de 1994, la empresa reúne hoy la mayor flota de aeronaves entre las aerolíneas venezolanas</em></p>
 <p style="text-align: justify;">“Seguimos firmes, aportando al crecimiento de la industria aeronáutica nacional y, por tanto, de la actividad económica del país”. Así lo manifestó René Cortés, vicepresidente Ejecutivo de Laser Airlines, en torno al 27º aniversario de operaciones de la empresa, a celebrarse este 11 de marzo.</p>
 <p style="text-align: justify;">Bajo el lema “La vida es un buen viaje”, la aerolínea se enfoca este nuevo año en continuar optimizando sus servicios y garantizar las mayores medidas de bioseguridad para sus clientes.</p>
@@ -39,4 +38,3 @@ week: '10'
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
