@@ -23,6 +23,8 @@ categories:
 tags:
   - Actualidad
 week: '11'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/mujer-digitalizada-p.jpg
 ---
 - El Consejo Directivo estará conformado por 11 profesionales, de los cuales tres son mujeres.
  
