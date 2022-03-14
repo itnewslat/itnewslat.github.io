@@ -10,7 +10,7 @@ title: ¿Pensando en cambiar de impresora? HP lanza novedades amigables con el p
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/impresora-hp-g-.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/impresora-hp-p-.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/impresora-hp-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -52,7 +52,8 @@ Este modelo imprime textos oscuros y nítidos, y obtiene gráficos de colores in
 
 Una buena impresora permite llevar a cabo tareas desde cualquier lugar. Esta nueva serie de dispositivos no solo brindan confort, sino que también son una inversión que, a largo plazo, resulta mucho más económica. Adquirir estos lanzamientos de la familia HP Smart Tank 700 facilita el teletrabajo, la labor desde la oficina o el hogar y permite crear, junto con los usuarios de HP Inc., un ecosistema mucho más sostenible, soportado por los mejores avances tecnológicos en materia de impresiones. 
 
-![]({{site.baseurl}}/https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/impresora-hp-p-.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/impresora-hp-p.jpg)
+
 <table style="height: 42px;" width="569">
 <tbody>
 <tr>
