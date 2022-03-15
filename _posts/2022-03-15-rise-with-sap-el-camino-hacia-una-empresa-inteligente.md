@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2022-03-15 16:27 -0400'
 published: true
-superNews: false
+superNews: true
 superArticle: false
 year: '2022'
 title: 'Rise with SAP: El camino hacia una empresa inteligente'
