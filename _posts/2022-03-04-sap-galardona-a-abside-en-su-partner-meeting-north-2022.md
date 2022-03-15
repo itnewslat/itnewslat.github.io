@@ -17,8 +17,6 @@ categories:
   - Ecuador
 tags:
   - Actualidad
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Premio-SAP.jpg
 week: '9'
 ---
 - El pasado 3 de marzo tuvo lugar el Partner Meeting 2022 de SAP y ABSIDE recibió reconocimientos por su excelente labor durante el 2021.
