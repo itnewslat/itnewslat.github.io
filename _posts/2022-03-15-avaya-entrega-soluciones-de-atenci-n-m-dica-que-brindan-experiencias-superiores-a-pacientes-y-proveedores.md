@@ -32,7 +32,7 @@ Continuar con la transformación se ha vuelto un asunto no negociable a medida q
  
 Avaya está habilitando soluciones de atención médica aún más conectadas a través de Avaya OneCloud Experience Platform, que incluyen:
  
-	- Soluciones flexibles y rápidas de gestión de pandemias: permiten la administración de vacunas, el rastreo de contactos, las pruebas de COVID-19, el acceso a la información y más.
+- Soluciones flexibles y rápidas de gestión de pandemias: permiten la administración de vacunas, el rastreo de contactos, las pruebas de COVID-19, el acceso a la información y más.
 
 - Mejorar la comunicación con el paciente: los clientes pueden ayudar a los miembros de su equipo de atención a comunicarse sin problemas para que sean más accesibles tanto ellos como los pacientes. Las soluciones de Avaya ayudan a las empresas a estar listas en cualquier momento y en cualquier lugar para colaborar en la atención, brindar apoyo a los pacientes y responder a emergencias al integrar las comunicaciones en los flujos de trabajo, mantener los registros de salud electrónicos actualizados y comunicarse de manera proactiva con los pacientes.
   
