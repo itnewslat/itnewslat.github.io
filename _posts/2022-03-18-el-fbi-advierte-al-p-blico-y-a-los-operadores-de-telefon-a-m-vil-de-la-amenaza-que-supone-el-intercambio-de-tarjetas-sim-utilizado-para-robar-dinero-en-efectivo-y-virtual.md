@@ -53,7 +53,7 @@ Otras formas incluyen el uso de una llave de autenticación física para las cue
 
 Austin Berglas, Global Head of Professional Services. Fue ex-agente especial adjunto a cargo de la rama cibernética de la oficina del FBI en Nueva York.
 
-Por: Austin Berglas, Jefe Global de Servicios Profesionales de BlueVoyant.
+**Por: Austin Berglas**, Jefe Global de Servicios Profesionales de BlueVoyant.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Celular-uso-p.jpg)
 
