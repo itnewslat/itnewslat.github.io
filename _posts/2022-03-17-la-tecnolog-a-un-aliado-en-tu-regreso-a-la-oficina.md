@@ -8,9 +8,9 @@ superArticle: false
 year: '2022'
 title: 'La tecnología, un aliado en tu regreso a la oficina'
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/hombre-con-compu-y-celular-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/hombre-con-pc-y-cel-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/hombre-con-compu-y-celular-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/hombre-con-pc-y-cel-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -41,7 +41,7 @@ Los auriculares True Wireless, no solo tienen esa función, sino que tienen un a
 Gracias a estas opciones, el regreso a la rutina resultará más cómodo y sencillo. Podrán seguir teniendo la conectividad a la que están acostumbrados y podrán sacarle el mayor provecho a sus propios aparatos gracias a Belkin.
 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/hombre-con-compu-y-celular-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/hombre-con-pc-y-cel-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
