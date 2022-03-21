@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: 'Ransomware: la extorosión cibernética que gana terreno en el mundo digital'
+title: 'Ransomware: la extorsión cibernética que gana terreno en el mundo digital'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/RamsomWare-Eset-p.jpg
 detail-image: >-
