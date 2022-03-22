@@ -26,7 +26,7 @@ tags:
   - Actualidad
 week: '12'
 ---
-- Beatriz Rivas Leal, llega a la plataforma de beneficios de bienestar como VP of Corporate Affairs a nivel Global
+- Beatriz Rivas Leal, llega a la plataforma de beneficios de bienestar como VP of Corporate Affairs a nivel Global.
 
 En su proceso de expansión internacional, en plena  apertura de los mercados de México, Brasil y Ecuador, Betterfly -el primer unicornio social de Latinoamérica- suma a sus filas a la Board Member del Women Economic Forum Iberoamérica, Beatriz Rivas Leal. 
 
