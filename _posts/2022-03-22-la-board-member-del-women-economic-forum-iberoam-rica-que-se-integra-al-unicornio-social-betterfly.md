@@ -34,7 +34,7 @@ Rivas, de origen venezolano pero residida en Ciudad de México desde hace casi 1
 
 La diplomada en temas de Mujer y Liderazgo del IESE y de Alta Dirección para Mujeres de Aula Magna, con un MBA en la Universidad Latina de Costa Rica, llega a **Betterfly** en un momento clave para la compañía que, tras convertirse en el primer unicornio social de latinoamérica, busca impactar la vida de 100 millones de personas entregando prevención, protección y propósito a través de su plataforma de beneficios de bienestar. 
 
-En palabras de la VP of People & Culture de la compañía Sol de Cabo, “seguir consolidando nuestro compromiso de congruencia y coherencia social, y de la meta de fortalecer la diversidad, inclusión y equidad de género en el management de Betterfly, estamos muy contentos de sumar a Bea para alcanzar la meta de democratizar el bienestar y generar cada vez mayor impacto social”.
+En palabras de la VP of People & Culture de la compañía Sol de Cabo, “seguir consolidando nuestro compromiso de congruencia y coherencia social, y de la meta de fortalecer la diversidad, inclusión y equidad de género en el management de **Betterfly**, estamos muy contentos de sumar a Bea para alcanzar la meta de democratizar el bienestar y generar cada vez mayor impacto social”.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Beatriz-Rivas-Leal-p.jpg)
 
