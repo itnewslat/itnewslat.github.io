@@ -27,7 +27,6 @@ week: '13'
 - En junio llega una nueva edición de EXMA. el mayor evento de marketing de la región, enfocado en “Figital”, la convergencia de lo digital y físico que atravesamos en la realidad actual. 
 - Expertos de distintas disciplinas analizarán el mundo Figital y brindarán herramientas para actualizar las estrategias de negocio y crecer.
 
-
 La nueva realidad que se está atravesando es una combinación entre dos mundos, el digital y el físico. La convergencia de ambos ha hecho nacer una nueva experiencia, la “Figital”. Para comprender cómo aprovechar lo mejor de cada mundo con las herramientas que tenemos para potenciar una marca y sobre todo, pensando distinto, llega una nueva edición de EXMA Panamá, el mayor evento de marketing de Latinoamérica. 
 
 Los próximos 22 y 23 de junio en Panamá Convention Center, expositores líderes de diversas disciplinas compartirán experiencias y miradas para comprender mejor este mundo figital y dar un impulso en materia de emprendimiento, marketing, negocios y experiencia del cliente, entre otros. 
