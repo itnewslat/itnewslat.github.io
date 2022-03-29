@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2022-03-15 16:27 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2022'
 title: 'Rise with SAP: El camino hacia una empresa inteligente'
@@ -18,8 +18,6 @@ categories:
 week: '11'
 tags:
   - Transformación Digital
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Smart-Company.jpg
 ---
 **Elimina la complejidad de adopción del ERP y adopta la transformación digital de manera ágil y fluida**
 
