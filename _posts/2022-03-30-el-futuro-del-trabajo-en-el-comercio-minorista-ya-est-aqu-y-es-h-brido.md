@@ -25,6 +25,7 @@ tags:
 week: '13'
 ---
 La nueva normalidad para el sector minorista es un enfoque omnicanal que permite a los clientes comprar de forma híbrida entre tiendas físicas y en línea.
+
 Los minoristas se enfrentaron a una increíble incertidumbre en 2020, desde cuarentenas y preocupaciones sanitarias, hasta una agitación económica generalizada. Parece que para la mayoría de los negocios, lo peor pudo haber pasado, pero el daño duradero ha dejado claro que es hora de que la industria minorista haga mayores inversiones en soluciones digitales. 
 
 El comercio electrónico vio un crecimiento sin precedentes durante la pandemia. Según la consultora Statista, el e-commerce alcanzó un valor de 80.500 millones de dólares en 2021, una cifra que se prevé supere los 105.500 millones de dólares para 2025.
