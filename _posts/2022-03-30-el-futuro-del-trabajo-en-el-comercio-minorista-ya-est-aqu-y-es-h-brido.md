@@ -24,10 +24,6 @@ tags:
   - Canales
 week: '13'
 ---
-
-
-Por Raúl Rincón, presidente para América Latina de Twilio
- 
 La nueva normalidad para el sector minorista es un enfoque omnicanal que permite a los clientes comprar de forma híbrida entre tiendas físicas y en línea.
 Los minoristas se enfrentaron a una increíble incertidumbre en 2020, desde cuarentenas y preocupaciones sanitarias, hasta una agitación económica generalizada. Parece que para la mayoría de los negocios, lo peor pudo haber pasado, pero el daño duradero ha dejado claro que es hora de que la industria minorista haga mayores inversiones en soluciones digitales. 
 
