@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: Zendesk tiene un nuevo Director de Tecnologíaben América Latina
+title: Zendesk tiene un nuevo Director de Tecnología en América Latina
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Walter-Hildebrandi-g.jpg
 image: >-
