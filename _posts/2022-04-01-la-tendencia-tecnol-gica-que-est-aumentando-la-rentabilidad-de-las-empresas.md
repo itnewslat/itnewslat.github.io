@@ -6,7 +6,9 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: 'La tendencia tecnológica que está aumentando la rentabilidad de las empresas:'
+title: >-
+  La tendencia tecnológica que está aumentando la rentabilidad de las empresas:
+  full-stack observability
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/laptop-g.jpg
 image: >-
