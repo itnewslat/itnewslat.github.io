@@ -30,16 +30,17 @@ Para participar, los interesados deberán estar en condición de alumno regular 
 
 El jurado, en esta edición, estará conformado por un plantel de referentes del ITBA que evaluará el conocimiento general sobre la temática planteada, la idoneidad para planificar y resolver problemas, la habilidad manual, la economía de esfuerzo y la capacidad expositiva. Los miembros del jurado serán: 
 
-·       Jorge O. Ratto – Dr. en Física.  
-·       Laura De Angelis – Dra. en Química.  
-·       Mónica Orecchia – Ing. Electrónica.  
-·       Giuliana Espósito – Lic. en Biotecnología. 
-·       Vegernie Aude Lupi – Ing. Química. 
-·       Susana Beatriz Fattori – Lic. en Ciencias Químicas. 
-·       María Claudia Degrossi – Dra. en Ciencias Químicas. 
-·       Guillermina Gentile – Dra. en Química. 
-·       Gustavo Affranchino – Ing. Químico.  
-·       Sofía Fraga – Ing. Química. 
+- Jorge O. Ratto – Dr. en Física.  
+- Laura De Angelis – Dra. en Química.  
+- Mónica Orecchia – Ing. Electrónica.  
+- Giuliana Espósito – Lic. en Biotecnología. 
+- Vegernie Aude Lupi – Ing. Química. 
+- Susana Beatriz Fattori – Lic. en Ciencias Químicas. 
+- María Claudia Degrossi – Dra. en Ciencias Químicas. 
+- Guillermina Gentile – Dra. en Química. 
+- Gustavo Affranchino – Ing. Químico.  
+- Sofía Fraga – Ing. Química.
+
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/oatec-p.jpg)
 
