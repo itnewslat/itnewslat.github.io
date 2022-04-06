@@ -26,8 +26,6 @@ week: '14'
 ---
 La crisis sanitaria mundial llegó en medio de un proceso de transformación tecnológica de muchas ciudades, y en varios casos puso una pausa a dichos cambios. Hoy la región enfrenta importantes desafíos, pero también oportunidades.
 
-Por: Daniel Scarafia, Director Regional Hitachi Vantara Latinoamérica
- 
 La pandemia de Covid-19 ha tenido impactos sin precedentes en las personas y la sociedad en su conjunto. El hecho de que esta crisis sanitaria haya ocurrido en medio de una revolución digital no ha pasado desapercibido.
 
 El coronavirus llegó rápidamente a ciudades que se encontraban dentro de un proceso de transformación digital. Muchas de estas metrópolis representan, para dicho proceso de digitalización, una fusión de cultura y comunidades conectadas, y a la vez están a la vanguardia de la innovación, confiando en la tecnología para combatir muchos de sus problemas.
