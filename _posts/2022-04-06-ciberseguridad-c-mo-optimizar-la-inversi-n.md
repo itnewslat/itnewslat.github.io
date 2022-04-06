@@ -6,7 +6,7 @@ published: true
 superNews: true
 superArticle: false
 year: '2022'
-title: 'Ciberseguridad: cómo optimizar la inversión'
+title: 'Ciberseguridad: Cómo optimizar la inversión'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciberseguridad-p.jpg
 detail-image: >-
