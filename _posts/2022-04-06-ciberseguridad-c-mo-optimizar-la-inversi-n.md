@@ -8,9 +8,9 @@ superArticle: false
 year: '2022'
 title: ''
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciberseguridad-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Yecsy-Escalona-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ciberseguridad-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Yecsy-Escalona-g.jpg
 categories:
   - Venezuela
 tags:
@@ -31,7 +31,7 @@ Al costo total de operación se lo puede medir en dólares, pero también en tie
  
 En ciberseguridad, hay que hablar de optimizar el costo total de propiedad para mejorar la eficiencia y los tiempos de detección y respuesta.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ciberseguridad-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Yecsy-Escalona-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
