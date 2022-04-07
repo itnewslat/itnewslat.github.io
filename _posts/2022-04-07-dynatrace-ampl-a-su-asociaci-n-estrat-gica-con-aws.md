@@ -30,8 +30,9 @@ La empresa de inteligencia de software Dynatrace (NYSE: DT) ha anunciado hoy una
 
 Este anuncio se basa en la colaboración estratégica existente entre Dynatrace y AWS, mediante la cual las dos compañías han logrado lo siguiente:
 
-•	La plataforma Dynatrace® es compatible con más de 100 servicios de AWS, incluyendo AWS Lambda y Amazon Elastic Kubernetes Service (EKS).  Ello permite a las organizaciones evaluar automáticamente el rendimiento y la seguridad de todas las aplicaciones, la infraestructura subyacente y la experiencia de todos los usuarios, incluso en los entornos más complejos y heterogéneos.  
-•	Dynatrace ha conseguido muchas competencias como parte del Programa de Competencias de AWS, incluyendo las competencias de Migración y Modernización de AWS, Aprendizaje Automático de AWS en IA Aplicada, Gobierno de AWS, Contenedores de AWS y DevOps de AWS.
+- La plataforma Dynatrace® es compatible con más de 100 servicios de AWS, incluyendo AWS Lambda y Amazon Elastic Kubernetes Service (EKS).  Ello permite a las organizaciones evaluar automáticamente el rendimiento y la seguridad de todas las aplicaciones, la infraestructura subyacente y la experiencia de todos los usuarios, incluso en los entornos más complejos y heterogéneos.  
+- Dynatrace ha conseguido muchas competencias como parte del Programa de Competencias de AWS, incluyendo las competencias de Migración y Modernización de AWS, Aprendizaje Automático de AWS en IA Aplicada, Gobierno de AWS, Contenedores de AWS y DevOps de AWS.
+
 	
 "Nuestra colaboración con Dynatrace permite a nuestros clientes conjuntos acelerar la modernización y alcanzar sus objetivos de transformación digital", dijo Matt Garman, Vicepresidente Senior de Ventas y Mercadeo de AWS.  "A través de nuestro acuerdo multianual, AWS potenciará las soluciones de próxima generación de Dynatrace y las mejoras de sus productos y proporcionará a nuestros clientes conjuntos inteligencia de software para la observabilidad de extremo a extremo a través de sus servicios de AWS. Además, la expansión de nuestro trabajo permitirá a Dynatrace y AWS ofrecer una alineación de productos más ajustada, así como programas más sólidos de mercadeo y venta conjunta para clientes de todo el mundo."   
 
