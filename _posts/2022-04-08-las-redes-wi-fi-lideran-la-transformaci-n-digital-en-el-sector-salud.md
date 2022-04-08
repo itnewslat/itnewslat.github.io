@@ -2,11 +2,27 @@
 layout: posts
 color-schema: red-dark
 date: '2022-04-08 05:17 -0500'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2022'
 title: Las redes Wi-Fi lideran la transformación digital en el sector salud
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Jose-Bonilla-g.jpg
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jose-Bonilla-p.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Transformación Digital
+week: '14'
 ---
 Los hospitales que inviertan en movilidad, IoMT y cloud, ofrecerán más seguridad a los datos de sus clientes y despejarán el camino a mejores servicios de salud.
 
@@ -48,3 +64,15 @@ Por supuesto que cada hospital en transformación digital tendrá que implementa
 Sin duda, esta intersección supone un gran cambio en los procesos actuales de adopción tecnológica. Antes sucedían de forma aislada – como fue la experiencia de CommScope en laboratorios clínicos que generaban ultrasonidos – pero no había medios digitales para entregar esa imagen al paciente o al médico para tenerla disponible en consulta. Hoy existe una infraestructura de telecomunicaciones que permite subir esa imagen a un servidor para que clientes y médicos puedan consultarla y agilizar el intercambio de información para comenzar un tratamiento.
 
 La infraestructura de telecomunicaciones es el sistema cardiovascular de un hospital, y facilita la incorporación de dispositivos del IoMT que pueden utilizarse, por ejemplo, para compartir datos de investigación de enfermedades con otros centros sanitarios para prevenirlas. El personal médico podrá mejorar los servicios y aumentar el seguimiento de la salud de los pacientes con una conectividad generalizada en los hospitales. Este futuro será posible con soluciones de red de grado médico, ideales para aumentar la cobertura Wi-Fi y guiar a los hospitales en la transformación digital.
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jose-Bonilla-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
