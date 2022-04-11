@@ -10,9 +10,9 @@ title: >-
   Bancos pequeños y medianos con la premiada solución de Fiserv que utiliza FICO
   Analytics, se benefician al reducir el fraude
 image: >-
-  https://github.com/itnewslat/assets/blob/master/img/540x320/analisis-bancarios-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/analisis-bancarios-p.jpg
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/analisis-bancarios-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/analisis-bancarios-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -48,7 +48,7 @@ Fiserv ha documentado sus impresionantes resultados:
  
 “La protección contra fraude como servicio es una idea atractiva”, dijo Sibulelo Ncamani, director de Riesgo Operativo y Gobernabilidad en Absa Bank y miembro del jurado de FICO Decisions Awards. “Fiserv ha combinado tres tecnologías para que la suma de esas herramientas sea mayor que la de sus partes individuales. La belleza de la combinación es que se mezcla en una única solución fácil de utilizar para sus clientes”.
  
-![](https://github.com/itnewslat/assets/blob/master/img/540x320/analisis-bancarios-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/analisis-bancarios-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
