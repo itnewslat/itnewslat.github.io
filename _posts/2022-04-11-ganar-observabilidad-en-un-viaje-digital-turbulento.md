@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2022-04-11 11:13 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2022'
@@ -59,4 +59,3 @@ Para conocer más sobre Full Stack Observability de Cisco  (AppDynamics, Thousan
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
