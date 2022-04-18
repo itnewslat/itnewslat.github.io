@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2022-03-29 12:29 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2022'
 title: 'Logística 4.0: Qué es y cuál será su impacto en el siglo 21'
