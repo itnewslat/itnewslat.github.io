@@ -6,7 +6,7 @@ published: true
 superNews: true
 superArticle: false
 year: '2022'
-title: ¿Sabes qué es un ERP inteligente y cómo se diferencia del tradicional?
+title: ''
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Abside-ERP-p.jpg
 detail-image: >-
