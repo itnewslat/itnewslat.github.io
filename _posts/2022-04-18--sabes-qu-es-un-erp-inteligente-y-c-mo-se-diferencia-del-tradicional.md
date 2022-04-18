@@ -23,6 +23,8 @@ image-banner: >-
 ---
 **PARA MAS INFORMACION en [ABSIDE](https://www.absidecorp.com/)**
 
+### ¿Sabes qué es un ERP inteligente y cómo se diferencia del tradicional?
+
 El término ERP se refiere a Enterprise Resource Planning, que significa “sistema de planificación de recursos empresariales”. Hablar de un ERP inteligente es hacer referencia a aplicaciones o suites de ERP que usan el aprendizaje automático y el análisis avanzado. Todo esto, basado en un gran conjunto de datos seleccionados. Los cuales, permiten pronosticar, rastrear, aprender, analizar, predecir, informar y administrar los recursos y procesos comerciales. 
 
 **Relación del ERP con el ERP inteligente: ¿La conoces?**
