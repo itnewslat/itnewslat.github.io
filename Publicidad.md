@@ -14,9 +14,32 @@ La relación de acompañamiento con nuestros clientes, ha permitido que exista u
 
 Adicionalmente, tenemos alianzas comerciales con importantes empresas de distribución de contenido que han permitido una relación Ganar-Ganar:
 
-- **PRWIRE**: Ahora Cision, con sede en Chicago, también es propietaria de las marcas Gorkana Group, PRWeb, Help a Reporter Out (HARO) e iContact, con más de 100.000 en todo el mundo. El contenido de PR Newswire se distribuye a unos 4.500 sitios web de EE. UU., incluidos Yahoo Finance, MarketWatch y Business Journals de Dow Jones & Co., y 550 sistemas de contenido de noticias como Moody's, SmartBriefs, LexisNexis y McGraw-Hill.
-- **SQUID APP**: proporciona noticias provenientes de las mejores y más prestigiosas fuentes de información, siempre propias de la localización seleccionada por los usuarios; blogs, diarios, revistas, etc. Esta característica no solo ofrece un despliegue informativo de mayor amplitud, sino que da a conocer otras fuentes menos conocidas pero consideradas “tendencia” y que poseen gran potencial con crecimiento referencial. Cuando los usuarios abren un artículo, son redirigidos a la web original de la fuente. De esta manera, ofrecemos un servicio fiable a los usuarios y a su vez generamos más tráfico a los editores.
-- **Business Wire**: es una empresa estadounidense que difunde comunicados de prensa de texto completo de miles de empresas y organizaciones en todo el mundo a medios de noticias, mercados financieros, sistemas de divulgación de estados financieros, inversores, sitios web de información, bases de datos, blogueros, redes sociales y otros públicos.
+<table border="1" style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<td style="width: 12.0102%;"><img src="https://prwiresl.com/kychoalr/2020/07/logo_500.png" width="80" height="80" alt="" /></td>
+<td style="width: 87.9898%;">
+<pre><strong>PRWIRE</strong>,Ahora Cision, con sede en Chicago, tambi&eacute;n es propietaria de las marcas Gorkana Group, PRWeb, Help a Reporter Out (HARO) e iContact, con m&aacute;s de 100.000 en todo el mundo. El contenido de PR Newswire se distribuye a unos 4.500 sitios web de EE. UU., incluidos Yahoo Finance, MarketWatch y Business Journals de Dow Jones &amp; Co., y 550 sistemas de contenido de noticias como Moody's, SmartBriefs, LexisNexis y McGraw-Hill.</pre>
+</td>
+</tr>
+<tr>
+<td style="width: 12.0102%;"><img src="https://play-lh.googleusercontent.com/apfvbqC5juQdpdcca68oKOdrYVQreHFS2RGw9cBuDH9InM_6WDfVRTNJrrO_OUVy2g=s360-rw" width="80" height="80" alt="" /></td>
+<td style="width: 87.9898%;">
+<pre><strong>SQUID APP</strong> proporciona noticias provenientes de las mejores y más prestigiosas fuentes de información, siempre propias de la localización seleccionada por los usuarios; blogs, diarios, revistas, etc. Esta característica no solo ofrece un despliegue informativo de mayor amplitud, sino que da a conocer otras fuentes menos conocidas pero consideradas &ldquo;tendencia&rdquo; y que poseen gran potencial con crecimiento referencial. Cuando los usuarios abren un art&iacute;culo, son redirigidos a la web original de la fuente. De esta manera, ofrecemos un servicio fiable a los usuarios y a su vez generamos más tráfico a los editores.</pre>
+</td>
+</tr>
+<tr>
+<td style="width: 12.0102%;"><img src="https://pbs.twimg.com/profile_images/1232443026422648832/n96AwA3-_400x400.jpg" width="80" height="80" alt="" /></td>
+<td style="width: 87.9898%;">
+ <pre> <strong>Business Wire</strong> es una empresa estadounidense que difunde comunicados de prensa de texto completo de miles de empresas y organizaciones en todo el mundo a medios de noticias, mercados financieros, sistemas de divulgaci&oacute;n de estados financieros, inversores, sitios web de informaci&oacute;n, bases de datos, blogueros, redes sociales y otros p&uacute;blicos.</pre>
+ </td>
+</tr>
+<tr>
+<td style="width: 12.0102%;"></td>
+<td style="width: 87.9898%;"></td>
+</tr>
+</tbody>
+</table>
 
 **PRODUCTOS COMERCIALES**
 
