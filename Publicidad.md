@@ -32,6 +32,6 @@ Ponemos a su disposición los siguientes productos
     - **Redes Sociales**               - 4 Post en Twitter – 1 Post Instagram (Mensual)
 
 Si desea tener una propuesta comercial de nuestros servicio enviarnos una solicitud 
-<a href="mailto:info@itnews.lat?bcc=alfonso@itnews.lat&subject=Solicitud%20de%20espacios">Enviar mail completo</a>
+<a href="mailto:info@itnews.lat?bcc=alfonso@itnews.lat&subject=Solicitud%20de%20espacios">Solicitar Cotización</a>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
