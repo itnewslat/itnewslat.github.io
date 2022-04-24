@@ -33,7 +33,7 @@ Ponemos a su disposición los siguientes productos
 
 **METRICAS**
 
-Según el portal Alexa, 
+Según el portal Alexa®, 
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Alexa-Abril.jpg)
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Alexa-Abril-2.jpg)
