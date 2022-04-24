@@ -31,6 +31,17 @@ Ponemos a su disposición los siguientes productos
     - **Locución**	                   - Menciones publicitarias para Radio-PODCAST
     - **Redes Sociales**               - 4 Post en Twitter – 1 Post Instagram (Mensual)
 
+**METRICAS**
+
+Según el portal Alexa, 
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Alexa-Abril.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Alexa-Abril-2.jpg)
+
+**ITNEWS.LAT TRAFFIC WORTH**
+
+- We estimate the website value of itnews.lat is currently at $ 30,934 USD and reaches roughly 4,049 unique users each day that generate 14,125 daily pageviews with a daily revenue (from advertisements, i.e Google AdSense) of $ 14 USD approximately. According to Alexa (the Web Information Company) the Global Traffic Rank is 70,056 (view Alexa traffic graphs), the website belongs to the top 100,000 most popular websites in the world.
+
 Si desea tener una propuesta comercial de nuestros servicio enviarnos una solicitud 
 <a href="mailto:info@itnews.lat?bcc=alfonso@itnews.lat&subject=Solicitud%20de%20espacios">Solicitar Cotización</a>
 
