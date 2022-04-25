@@ -8,7 +8,7 @@ superArticle: false
 year: '2022'
 title: Aplique estos consejos para que su marca incursione en el metaverso
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Andrea-Lievano-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Andrea-Lievano-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Andrea-Lievano-g.jpg
 categories:
