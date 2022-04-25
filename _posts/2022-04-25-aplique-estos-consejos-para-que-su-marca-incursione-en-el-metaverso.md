@@ -60,7 +60,7 @@ Con esta nueva conectividad, un artista o una marca puede hacer un lanzamiento m
 
 “En el metaverso ni el cielo es el límite, se nos va a abrir una nueva manera de hacer marketing, de conectar el mundo real con la virtualidad y aprovechar lo que nos dan estos dos mundos. Hay miles de posibilidades y clientes con los que podemos conectar, y es fundamental para las marcas comenzar a incursionar en lo que será el metaverso pues no importa si se trata de una compañía grande o pequeña; si no son visibles para el consumidor, terminarán siendo olvidados”, explica Andrea Liévano, CEO y fundadora de PRPARATODOS.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x3200/Andrea-Lievano-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Andrea-Lievano-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
