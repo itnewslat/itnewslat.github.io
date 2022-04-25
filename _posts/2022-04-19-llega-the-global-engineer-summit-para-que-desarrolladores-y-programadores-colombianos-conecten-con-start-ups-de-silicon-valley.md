@@ -28,7 +28,7 @@ week: '16'
 ---
 - Por cada 3 vacantes en ingeniería de software solo se encuentra un perfil en EE.UU. lo que ha hecho que las grandes empresas tecnológicas de ese país hayan diversificado casi el 50% de sus ingenieros con talento internacional como el colombiano.
 
-Terminal, compañía que conecta a programadores y desarrolladores latinos, canadienses y polacos con start-ups de tecnología de Silicon Valley para que puedan trabajar en ellos de forma remota, realizará este 4 de mayo la segunda versión del summit “The Globlal Engineer”, en el que estos profesionales se relacionarán con gigantes tecnológicos y aprenderán a optimizar su carrera para trabajar con estos.
+Terminal, compañía que conecta a programadores y desarrolladores latinos, canadienses y polacos con start-ups de tecnología de Silicon Valley para que puedan trabajar en ellos de forma remota, realizará este 4 de mayo la segunda versión del summit “The Global Engineer”, en el que estos profesionales se relacionarán con gigantes tecnológicos y aprenderán a optimizar su carrera para trabajar con estos.
  
 “El evento es una oportunidad única para que los programadores y desarrolladores colombianos conecten con reclutadores, conozcan las vacantes que tenemos y, además, aprendan de la mano de líderes mundiales de ingeniería aspectos clave para desarrollar su carrera y conseguir el trabajo de sus sueños en empresas de rápido crecimiento”, explica Carolina Franco, directora de Marketing de Latinoamérica para Terminal.
  
