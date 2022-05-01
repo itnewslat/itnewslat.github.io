@@ -6,7 +6,7 @@ published: true
 superNews: true
 superArticle: false
 year: '2022'
-title: ''
+title: Untitled
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Yecsy-Escalona-p.jpg
 detail-image: >-
@@ -16,20 +16,24 @@ categories:
 tags:
   - Seguridad
 image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Articulo-Fortinet.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Fortinet-MAYO-1.jpg
 week: '11'
 ---
+# Tres conceptos críticos para una nueva plataforma de seguridad
+
 **Por Yecsy Escalona, gerente regional de Ventas para Fortinet Venezuela, Paraguay, Uruguay y Bolivia.**
 
-A nivel de las tecnologías de ciberseguridad se da un cambio en el consumo. Aunque todavía es algo parcial, cada vez más organizaciones consumen la ciberseguridad como un servicio. Esto se ve en primer lugar en los modelos de la nube, donde el proveedor de la nube suele ofrecer servicios básicos de seguridad.
+Los desafíos actuales requieren nuevas estrategias y sistemas de seguridad que puedan adaptarse dinámicamente junto con las redes que necesitan proteger. Dichas plataformas deben ser capaces de abarcar toda la red y adaptarse a un panorama de amenazas en constante evolución. 
 
-El gran desafío es ver cómo se hace eficiente la seguridad para la prevención, detección y respuesta. Todavía hay compañías que ven a cada borde como un silo separado y tienen distintas estrategias para cada uno, eso habla de una planificación de la seguridad más bien reactiva. Este modo de trabajar, además de ser más complejo, resulta más caro. 
+Se necesita un enfoque que integre todas las funciones de seguridad críticas en una solución unificada que proteja la red y permita un acceso seguro a los datos y a las aplicaciones para los usuarios, independientemente de su ubicación. Para trabajar en entornos de red distribuidos modernos, se debe construir una plataforma de seguridad efectiva en torno a tres conceptos:
 
-Por eso hoy las organizaciones más dinámicas están empezando a mirar el tema de manera integral y eficiente. Allí es donde aparece el concepto de costo total de propiedad, que incluye como factor clave al costo de operación. Lo importante es que el abordaje sea homogéneo y que haya una estrategia integral: esto permitirá tener un mejor nivel de seguridad y a la vez maximizar la eficiencia. 
+1.	Debe poder implementarse desde cualquier lugar: una plataforma de ciberseguridad unificada debe funcionar en redes tradicionales, en entornos de nube y ser desplegable de manera consistente y fácil. Esto incluye el soporte de centros de datos tradicionales o altamente distribuidos, entornos de nube pública, sucursales, oficinas en el hogar y usuarios móviles fuera de la red. 
 
-Al costo total de operación se lo puede medir en dólares, pero también en tiempo de parada ante un incidente o en horas requeridas para superar la brecha. Si consideramos que el capital de una empresa se puede medir por la variable tiempo, entonces una forma de evaluar el ROI en seguridad es tener en cuenta que cuanto más rápido se detecten los incidentes, menor será el impacto de las brechas.
- 
-En ciberseguridad, hay que hablar de optimizar el costo total de propiedad para mejorar la eficiencia y los tiempos de detección y respuesta.
+2.	Debe estar totalmente integrado: las soluciones de seguridad que forman parte de la misma plataforma deben ejecutarse en un sistema operativo común, aprovechar las API abiertas o construirse utilizando estándares comunes. Esto permite que la seguridad responda automáticamente a los cambios de red. Y todo esto debe envolverse en un sistema común de administración y orquestación que extienda la visibilidad y el control en toda la red distribuida.
+
+3.	Debe apoyar la automatización: se requiere una automatización que aproveche la inteligencia artificial y el aprendizaje automático para detectar, investigar y responder a la sofisticación y la velocidad de los ataques actuales. Dicha automatización solo es posible cuando las herramientas de seguridad pueden funcionar como una solución unificada. 
+
+Diseñar una plataforma de este tipo en torno a los tres componentes críticos de implementación, integración y automatización es clave.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Yecsy-Escalona-p.jpg)
 
