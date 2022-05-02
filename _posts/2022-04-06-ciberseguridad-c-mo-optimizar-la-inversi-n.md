@@ -6,7 +6,7 @@ published: true
 superNews: true
 superArticle: false
 year: '2022'
-title: Untitled
+title: ' '
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Yecsy-Escalona-p.jpg
 detail-image: >-
