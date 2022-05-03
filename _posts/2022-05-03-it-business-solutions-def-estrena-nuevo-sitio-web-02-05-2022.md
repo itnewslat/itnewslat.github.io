@@ -54,10 +54,10 @@ Mediante la implementación de Herramientas Digitales como piezas claves para ll
 Las soluciones que ITBS nos presenta en su nuevo site, se adaptan a la necesidad de cada negocio, analizando su entorno y realidades particulares. Son soluciones tecnológicas con un monitoreo permanente, que ayudan al logro de los objetivos organizacionales, con un personal que permanece a su lado en todo el proceso de implementación y puesta en marcha.
  
 <image012.jpg>Los invitamos a visitar el nuevo site www.itbscorp.com  y las redes sociales de ITBS, para que conozcan sus servicios y soluciones tecnológicas digitales, las características y beneficios de sus herramientas y a compartir sus contenidos, pudiendo conectarse y comunicarse con este gran equipo, a través de todas sus redes sociales.
- 
+
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/renovacion-ITBusiness-p.jpg)
  
- <table style="height: 42px;" width="569">
+<table style="height: 42px;" width="569">
 <tbody>
 <tr>
 <td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
