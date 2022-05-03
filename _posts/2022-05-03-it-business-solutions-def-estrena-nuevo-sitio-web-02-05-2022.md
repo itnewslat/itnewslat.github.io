@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: 'IT Business Solutions DEF, estrena nuevo sitio web 02-05-2022'
+title: 'IT Business Solutions DEF, estrena nuevo sitio web'
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/renovacion-ITBusiness-g.jpg
 image: >-
