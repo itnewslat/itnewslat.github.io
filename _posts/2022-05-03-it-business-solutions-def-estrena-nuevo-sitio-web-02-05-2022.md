@@ -55,7 +55,7 @@ Las soluciones que ITBS nos presenta en su nuevo site, se adaptan a la necesidad
  
 <image012.jpg>Los invitamos a visitar el nuevo site www.itbscorp.com  y las redes sociales de ITBS, para que conozcan sus servicios y soluciones tecnológicas digitales, las características y beneficios de sus herramientas y a compartir sus contenidos, pudiendo conectarse y comunicarse con este gran equipo, a través de todas sus redes sociales.
  
- ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/renovacion-ITBusiness-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/renovacion-ITBusiness-p.jpg)
  
  <table style="height: 42px;" width="569">
 <tbody>
