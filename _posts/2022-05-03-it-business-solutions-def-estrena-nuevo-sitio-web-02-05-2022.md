@@ -28,17 +28,15 @@ A partir de hoy, la empresa venezolana de tecnología, IT Business Solutions, DE
  
 Luego de un período de ajustes de estrategias y de imagen, ITBS inicia una nueva etapa en los medios digitales, ajustada a los cambios que, tanto por la pandemia como por la realidad país, han venido dándose en la sociedad y en el día a día.
  
-Fundada en 2006, IT BUSINESS SOLUTIONS DEF, C.A., es una organización venezolana, sólida, dedicada a brindar soluciones tecnológicas de administración digital. Orientada a potenciar las plataformas de sus Clientes, optimizando sus herramientas para que éstas logren productividad y resultados positivos, a través de implementaciones exitosas que mejoren el rendimiento de su inversión.
+Fundada en 2006, [IT BUSINESS SOLUTIONS DEF, C.A.](https://itbscorp.com/), es una organización venezolana, sólida, dedicada a brindar soluciones tecnológicas de administración digital. Orientada a potenciar las plataformas de sus Clientes, optimizando sus herramientas para que éstas logren productividad y resultados positivos, a través de implementaciones exitosas que mejoren el rendimiento de su inversión.
  
-ITBS ha conquistado nuevos aliados comerciales desde España con AuraQuantic, desde República Dominicana con Mediatrix, desde Colombia con eSoft, desde EE. UU. con Serviceaide, expandiendo de esta manera, su catálogo de soluciones que optimizan la forma de operar de las empresas que adquieren sus servicios y productos. Las soluciones de cada uno, pueden encontrarlas en los descargables desde su página web.
- 
+**ITBS** ha conquistado nuevos aliados comerciales desde España con AuraQuantic, desde República Dominicana con Mediatrix, desde Colombia con eSoft, desde EE. UU. con Serviceaide, expandiendo de esta manera, su catálogo de soluciones que optimizan la forma de operar de las empresas que adquieren sus servicios y productos. Las soluciones de cada uno, pueden encontrarlas en los descargables desde su página web.
 
-La nueva página www.itbscorp.com, ofrece servicios, áreas de gestión con las soluciones tecnológicas digitales más sus cursos de capacitación tecnológica. Se podrá descargar el catálogo de todas sus soluciones, más los portafolios de los productos de cada aliado comercial con sus respectivas áreas de atención.
+La nueva página [www.itbscorp.com](https://itbscorp.com/), ofrece servicios, áreas de gestión con las soluciones tecnológicas digitales más sus cursos de capacitación tecnológica. Se podrá descargar el catálogo de todas sus soluciones, más los portafolios de los productos de cada aliado comercial con sus respectivas áreas de atención.
  
-ITBS nos muestra un site muy completo, sencillo de navegar, interactivo y con contenido que aporta información precisa a nuestros clientes y una imagen más fresca, más minimalista, sin abandonar su identidad. Todo ello, va unido a nuevos contenidos y enfoques en sus redes sociales, cuyo espacios y mensajes estarán dirigidos al segmento y personalidad de cada una de ellas.
+**ITBS** nos muestra un site muy completo, sencillo de navegar, interactivo y con contenido que aporta información precisa a nuestros clientes y una imagen más fresca, más minimalista, sin abandonar su identidad. Todo ello, va unido a nuevos contenidos y enfoques en sus redes sociales, cuyo espacios y mensajes estarán dirigidos al segmento y personalidad de cada una de ellas.
  
-<image011.jpg>En ese sentido, ITBS nos muestra unos medios digitales humanizados porque entiende que el éxito lo construyen sus integrantes, su capital humano profesional, con valores y principios que la hacen una familia.
- 
+En ese sentido, **ITBS** nos muestra unos medios digitales humanizados porque entiende que el éxito lo construyen sus integrantes, su capital humano profesional, con valores y principios que la hacen una familia.
  
 **¿Que define a ITBS?**
 
@@ -51,9 +49,9 @@ ITBS nos muestra un site muy completo, sencillo de navegar, interactivo y con co
 
 Mediante la implementación de Herramientas Digitales como piezas claves para llevar las relaciones comerciales a otro nivel, logra que las organizaciones gestionen y ejecuten sus procesos de negocio, de la manera más efectiva.
  
-Las soluciones que ITBS nos presenta en su nuevo site, se adaptan a la necesidad de cada negocio, analizando su entorno y realidades particulares. Son soluciones tecnológicas con un monitoreo permanente, que ayudan al logro de los objetivos organizacionales, con un personal que permanece a su lado en todo el proceso de implementación y puesta en marcha.
+Las soluciones que **ITBS** nos presenta en su nuevo site, se adaptan a la necesidad de cada negocio, analizando su entorno y realidades particulares. Son soluciones tecnológicas con un monitoreo permanente, que ayudan al logro de los objetivos organizacionales, con un personal que permanece a su lado en todo el proceso de implementación y puesta en marcha.
  
-<image012.jpg>Los invitamos a visitar el nuevo site www.itbscorp.com  y las redes sociales de ITBS, para que conozcan sus servicios y soluciones tecnológicas digitales, las características y beneficios de sus herramientas y a compartir sus contenidos, pudiendo conectarse y comunicarse con este gran equipo, a través de todas sus redes sociales.
+Los invitamos a visitar el nuevo site [itbscorp.com](https://itbscorp.com/)  y las redes sociales de **ITBS**, para que conozcan sus servicios y soluciones tecnológicas digitales, las características y beneficios de sus herramientas y a compartir sus contenidos, pudiendo conectarse y comunicarse con este gran equipo, a través de todas sus redes sociales.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/renovacion-ITBusiness-p.jpg)
  
