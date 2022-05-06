@@ -10,7 +10,7 @@ title: 'Telefónica Hispanoamérica presenta estudio '
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Telefonica-evento-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Telefonica-evento-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/telefonica-evento-p.jpg
 categories:
   - Venezuela
   - Colombia
