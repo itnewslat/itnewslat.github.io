@@ -26,7 +26,6 @@ week: '18'
 ---
 - El Índice Mastercard de Mujeres Emprendedoras 2021 revela los desafíos que todavía subsisten en el emprendimiento femenino y los aspectos que urge abordar para impulsar la contribución de la mujer a una recuperación sostenible e inclusiva.
 
-
 Por quinto año consecutivo, Mastercard presenta los resultados del Índice Mastercard de Mujeres Emprendedoras, un estudio que refleja la situación del emprendimiento femenino en el mundo. En su más reciente entrega, el MIWE (Mastercard Index of Women Entrepreneurs) muestra los progresos y desafíos que enfrentaron las mujeres de negocios en 65 economías del mundo durante 2021. El Índice incluye también un análisis más puntual sobre el tema en 10 economías centrales y un anexo dedicado a relevar el impacto que tuvo COVID en las mujeres de negocios.
 
 A pesar de que las mujeres se vieron desproporcionadamente afectadas en lo laboral por la pandemia (64% versus 52% de los hombres), el Índice demuestra que son resilientes y optimistas emprendedoras. Aunque 2021 arroja una disminución de la actividad emprendedora en general, en América Latina el porcentaje de mujeres en edad laboral que decidieron emprender aumentó significativamente, sobre todo en Colombia (9.3% vs 8.4% para hombres) y Uruguay (7.5% vs 4.0% para hombres).
