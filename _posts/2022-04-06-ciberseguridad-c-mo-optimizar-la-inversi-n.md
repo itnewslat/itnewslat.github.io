@@ -16,24 +16,22 @@ categories:
 tags:
   - Seguridad
 image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Fortinet-MAYO-1.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/fortinet-cloud-security.jpg
 week: '11'
 ---
-# Tres conceptos críticos para una nueva plataforma de seguridad
+# Claves para desarrollar una estrategia de seguridad en la nube
 
 **Por Yecsy Escalona, gerente regional de Ventas para Fortinet Venezuela, Paraguay, Uruguay y Bolivia.**
 
-Los desafíos actuales requieren nuevas estrategias y sistemas de seguridad que puedan adaptarse dinámicamente junto con las redes que necesitan proteger. Dichas plataformas deben ser capaces de abarcar toda la red y adaptarse a un panorama de amenazas en constante evolución. 
+El objetivo al desarrollar una estrategia de seguridad en la nube es unificar las soluciones de seguridad implementadas en infraestructuras, aplicaciones y conexiones para que la visibilidad y el control se puedan administrar de manera centralizada en una sola plataforma. Una estrategia integral debe permitir el monitoreo y la respuesta en tres niveles diferentes dentro del entorno de la nube:
 
-Se necesita un enfoque que integre todas las funciones de seguridad críticas en una solución unificada que proteja la red y permita un acceso seguro a los datos y a las aplicaciones para los usuarios, independientemente de su ubicación. Para trabajar en entornos de red distribuidos modernos, se debe construir una plataforma de seguridad efectiva en torno a tres conceptos:
+1.	**Seguridad de la plataforma**: esto se puede dividir en cuatro áreas principales de preocupación: seguridad del software como servicio (SaaS), visibilidad y control de la infraestructura, cumplimiento, y administración y análisis de la seguridad.
 
-1.	Debe poder implementarse desde cualquier lugar: una plataforma de ciberseguridad unificada debe funcionar en redes tradicionales, en entornos de nube y ser desplegable de manera consistente y fácil. Esto incluye el soporte de centros de datos tradicionales o altamente distribuidos, entornos de nube pública, sucursales, oficinas en el hogar y usuarios móviles fuera de la red. 
+2.	**Seguridad de las aplicaciones**: las aplicaciones basadas en la nube son vulnerables a las amenazas. Según un informe de Verizon, el 43 % de todas las fugas de datos se deben a brechas en aplicaciones web.
 
-2.	Debe estar totalmente integrado: las soluciones de seguridad que forman parte de la misma plataforma deben ejecutarse en un sistema operativo común, aprovechar las API abiertas o construirse utilizando estándares comunes. Esto permite que la seguridad responda automáticamente a los cambios de red. Y todo esto debe envolverse en un sistema común de administración y orquestación que extienda la visibilidad y el control en toda la red distribuida.
+3.	**Seguridad de la red**: la pieza final a considerar en cualquier estrategia de seguridad en la nube es la protección de la conectividad entre los centros de datos y las nubes.
 
-3.	Debe apoyar la automatización: se requiere una automatización que aproveche la inteligencia artificial y el aprendizaje automático para detectar, investigar y responder a la sofisticación y la velocidad de los ataques actuales. Dicha automatización solo es posible cuando las herramientas de seguridad pueden funcionar como una solución unificada. 
-
-Diseñar una plataforma de este tipo en torno a los tres componentes críticos de implementación, integración y automatización es clave.
+La gestión de seguridad en la nube centralizada ayuda a unificar entornos dispares, proporciona visibilidad y permite la aplicación de políticas de seguridad coherentes sin obstaculizar el trabajo de quienes utilizan estos entornos. La seguridad integral de la red también permite el acceso remoto seguro para trabajar desde cualquier lugar.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Yecsy-Escalona-p.jpg)
 
