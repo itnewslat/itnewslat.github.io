@@ -25,7 +25,6 @@ tags:
 week: '20'
 ---
 - Se trata de un modelo colaborativo e inteligente que permite apalancarse en datos para construir negocios dinámicos, resilientes y flexibles.
-
  
 Las economías en red en la nube es una tendencia que ya se está convirtiendo en una realidad: cadenas de suministro fragmentadas que comienzan a funcionar de manera unificada, colaborativa e inteligente sumado a empresas que disponen de datos en tiempo real para adaptarse a los constantes cambios del mercado, preparan sus organizaciones para el futuro y desarrollan resiliencia frente a las disrupciones globales. Todo mientras mantienen la flexibilidad para transformar sus modelos comerciales y se apoyan en la sostenibilidad como un pilar clave del negocio. Las empresas latinoamericanas no están exentas de este desafío: algunas pautas indican que están avanzando en la dirección correcta.
  
