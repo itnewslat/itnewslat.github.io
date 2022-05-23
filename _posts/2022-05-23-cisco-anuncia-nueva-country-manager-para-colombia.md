@@ -8,9 +8,9 @@ superArticle: false
 year: '2022'
 title: Cisco anuncia nueva Country Manager para Colombia
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/sandra-eslava-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Sandra-Eslava-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/sandra-eslava-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sandra-Eslava-p.jpg
 categories:
   - Colombia
 tags:
@@ -31,7 +31,7 @@ Para Cisco, Colombia es un país líder en innovación digital en Latinoamérica
 
 Sandra Eslava es Ingeniera Electrónica de la Universidad Pontificia Bolivariana, en Bucaramanga, y cuenta con una Especialización en Control de Procesos de la misma Universidad. 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/sandra-eslava-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sandra-Eslava-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
