@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: iez países africanos a los que exportar tecnología española
+title: Diez países africanos a los que exportar tecnología española
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Technology-g.jpg
 image: >-
@@ -44,15 +44,15 @@ Diez países africanos a los que exportar tecnología española
 Durante la jornada se analizaron las ventajas, oportunidades y riesgos de diez países de África donde las pymes españolas deberían poner el foco:
 
 **1. Marruecos.** La cercanía y amplia presencia de compañías españolas convierten al país en un destino interesante para la primera experiencia en África, con interesantes oportunidades en outsourcing TIC, aeronáutica, agri food y las industrias de farma, automoción y textil.
-**1. Sudáfrica.** Es la segunda economía africana y concentra el 75% de empresas del continente, aunque está teniendo crecimiento más lento, pero con mayor diversificación y sofisticación. La facilidad para iniciar negocios le convierte en un país muy interesante para acceder a otros países colindantes.
-**1. Costa de Marfil.** Actúa como hub, con un crecimiento constante de entre el 9% y 10% anual en la última década. Su ventaja es la existencia de una clase media que supone el 35% de la población que demanda consumo, construcción.... y el gobierno está dando muchas facilidades para las inversiones extranjeras, lo que ha facilitado el establecimiento de varias fábricas europeas de consumo y alimentación.
-**1. Senegal.** Está muy de moda, aunque es un país más pequeño (15 millones de personas), que es política y económicamente muy estable, de ahí que haya muchos proyectos de industria en perspectiva, favorecidas por las ayudas a las inversiones foráneas.
-**1. Ghana.** Es conocida por su estabilidad y madurez política constante. Tiene una moneda propia que no tiene paridad fija con el euro, por lo que existe mucha oscilación que hay que tener en cuenta.
-**1. Nigeria.** Se prevé que en dos años llegue a los 1.000 millones de personas con alto nivel de consumo industrial. Pero es un país difícil por sus trabas burocráticas, por lo que igual es mejor empezar en otros países subsaharianos con mayor facilidad de entrada y dejar Nigeria para un segundo paso.
-**1. Camerún.** Lo interesante es que es la puerta de entrada a todo el mercado de África central. A nivel de desarrollo está por debajo de los países mencionados antes, pero es un país mucho más virgen que esos países lo que abre oportunidades de todo tipo.
-**1. Gabón.** Gracias al petróleo tiene alta capacidad de consumo, aunque hay poca industria desarrollada que no esté relacionada con el petróleo.
-**1. Kenia.** Hay oportunidades para la digitalización, el turismo e infraestructuras sostenibles, en un mercado que pese a la pandemia ha seguido creciendo.
-**1. Tanzania.** Existe una interesante oportunidad en el ámbito de la construcción ya que se estima un déficit de 3 millones de viviendas. También se están construyendo varios hospitales y están demandando innovación para el mercado sanitario.
+**2. Sudáfrica.** Es la segunda economía africana y concentra el 75% de empresas del continente, aunque está teniendo crecimiento más lento, pero con mayor diversificación y sofisticación. La facilidad para iniciar negocios le convierte en un país muy interesante para acceder a otros países colindantes.
+**3. Costa de Marfil.** Actúa como hub, con un crecimiento constante de entre el 9% y 10% anual en la última década. Su ventaja es la existencia de una clase media que supone el 35% de la población que demanda consumo, construcción.... y el gobierno está dando muchas facilidades para las inversiones extranjeras, lo que ha facilitado el establecimiento de varias fábricas europeas de consumo y alimentación.
+**4. Senegal.** Está muy de moda, aunque es un país más pequeño (15 millones de personas), que es política y económicamente muy estable, de ahí que haya muchos proyectos de industria en perspectiva, favorecidas por las ayudas a las inversiones foráneas.
+**5. Ghana.** Es conocida por su estabilidad y madurez política constante. Tiene una moneda propia que no tiene paridad fija con el euro, por lo que existe mucha oscilación que hay que tener en cuenta.
+**6. Nigeria.** Se prevé que en dos años llegue a los 1.000 millones de personas con alto nivel de consumo industrial. Pero es un país difícil por sus trabas burocráticas, por lo que igual es mejor empezar en otros países subsaharianos con mayor facilidad de entrada y dejar Nigeria para un segundo paso.
+**7. Camerún.** Lo interesante es que es la puerta de entrada a todo el mercado de África central. A nivel de desarrollo está por debajo de los países mencionados antes, pero es un país mucho más virgen que esos países lo que abre oportunidades de todo tipo.
+**8. Gabón.** Gracias al petróleo tiene alta capacidad de consumo, aunque hay poca industria desarrollada que no esté relacionada con el petróleo.
+**9. Kenia.** Hay oportunidades para la digitalización, el turismo e infraestructuras sostenibles, en un mercado que pese a la pandemia ha seguido creciendo.
+**10. Tanzania.** Existe una interesante oportunidad en el ámbito de la construcción ya que se estima un déficit de 3 millones de viviendas. También se están construyendo varios hospitales y están demandando innovación para el mercado sanitario.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Technology-p.jpg)
 
