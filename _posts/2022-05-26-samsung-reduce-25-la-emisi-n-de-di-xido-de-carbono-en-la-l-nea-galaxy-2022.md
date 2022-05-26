@@ -10,7 +10,7 @@ title: Samsung reduce 25% la emisión de dióxido de carbono en la línea Galaxy
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/galaxy-s22-g-.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/galaxy-s22-p-.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/galaxy-s22-p.jpg
 categories:
   - Venezuela
   - Colombia
