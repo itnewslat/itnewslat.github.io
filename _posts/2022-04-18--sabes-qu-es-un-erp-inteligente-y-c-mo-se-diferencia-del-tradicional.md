@@ -3,10 +3,10 @@ layout: posts
 color-schema: red-dark
 date: '2022-05-02 01:50 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2022'
-title: ''
+title: Untitled
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Abside-ERP-p.jpg
 detail-image: >-
