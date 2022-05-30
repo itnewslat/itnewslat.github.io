@@ -68,13 +68,10 @@ Para las empresas que logran cambiar de un régimen on premise para modalidades 
 - **Perfomance**: Y es que, el hardware y las nuevas arquitecturas de las nubes públicas extraen el mejor desempeño de las aplicaciones SAP Cloud.
 - **Elasticidad**: El conjunto nube con SAP Cloud permite una máxima flexibilidad de uso.
 
-<center>
-<b>Recorra el camino más confiable y sin complicaciones hacia la nube de SAP de la mano de ABSIDE
-Aproveche la nube como estrategia para transformar su negocio
-  
-Soluciones seguras, económicas y de rápida implementación para su organización.
-El mejor momento para el cambio es ahoray </b>
-</center>
+<center><b>Recorra el camino más confiable y sin complicaciones hacia la nube de SAP de la mano de ABSIDE</b></center>
+<center><b>Aproveche la nube como estrategia para transformar su negocio</b></center> 
+<center><b>Soluciones seguras, económicas y de rápida implementación para su organización.</b></center>
+<center><b>>El mejor momento para el cambio es ahora</b></center>
 
 [**Contacte con nosotros**](mailto://info@absidecorp.com)
 
