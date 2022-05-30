@@ -71,7 +71,7 @@ Para las empresas que logran cambiar de un régimen on premise para modalidades 
 <center><b>Recorra el camino más confiable y sin complicaciones hacia la nube de SAP de la mano de ABSIDE</b></center>
 <center><b>Aproveche la nube como estrategia para transformar su negocio</b></center> 
 <center><b>Soluciones seguras, económicas y de rápida implementación para su organización.</b></center>
-<center><b>>El mejor momento para el cambio es ahora</b></center>
+<center><b>El mejor momento para el cambio es ahora</b></center>
 
 [**Contacte con nosotros**](mailto://info@absidecorp.com)
 
