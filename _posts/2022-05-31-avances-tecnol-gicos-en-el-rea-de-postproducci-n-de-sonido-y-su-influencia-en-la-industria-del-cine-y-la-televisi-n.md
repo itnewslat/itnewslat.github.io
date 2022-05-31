@@ -29,13 +29,11 @@ Por último pero no menos importante, los desarrollos tecnológicos tanto en el 
 
 En conclusión, la tecnología ha jugado un papel fundamental en la postproducción de sonido. Es cierto que la ha beneficiado en aspectos como el acelerar los tiempos en los que se llevan a cabo sus procesos, tener más libertad al momento de editar, contar con una mayor cantidad de herramientas que facilitan el trabajo, obtener una mejor calidad de audio, disponer de un mayor espacio de almacenamiento y velocidad de procesamiento, entre otros. Sin embargo, el beneficio más grande que la tecnología le ha dado a la postproducción de sonido ha sido la oportunidad de dejar de ser ese elemento invisible que ha sido durante años, y los avances tecnológicos en áreas como el sonido envolvente y la restauración de audio han sido los principales responsables de este gran logro. A medida que sigan desarrollándose éstas y otras tecnologías, el sonido tendrá mayor oportunidad de llegar a ser, en el mundo del cine y la televisión, un elemento tan valorado como lo es y lo ha sido durante años la imagen.
 
-Nota
-1. **Audio Inmersivo/Audio Envolvente**: Es una tecnología que le permite al oyente percibir el sonido en tres
-1. dimensiones.
+Nota 
+1. **Audio Inmersivo/Audio Envolvente**: Es una tecnología que le permite al oyente percibir el sonido en tres dimensiones.
 1. **Sweet Spot**: se refiere al punto de foco en un espacio rodeado por altavoces en el que el oyente percibe la mezcla de una manera óptima
 1. **Quality Control**: consiste en una revisión de los materiales entregados para una película o serie donde se reportan un conjunto de problemas que no cumplen con los estándares de calidad requeridos para el medio donde será distribuido el proyecto
 1. **ADR**: es el proceso en la etapa de postproducción de sonido en el cual los actores van a un estudio a re-grabar frases de diálogo que presentan problemas técnicos o que se quieren cambiar por parte de dirección.
-
 
 _Escrito por **Rebeca Lindenfeld**, Ingeniera de Sonido venezolana especializada en la edición de sonido para cine y televisión. Ha trabajado para grandes compañías como The Walt Disney Company y Deluxe y participado en proyectos como “Veneno” de HBO Max, “Fuimos Canciones” y “El Desorden Que Dejas” de Netflix, “Madres Paralelas” de Pedro Almodovar, entre otros. Junto con su experiencia en la postproducción de sonido, Rebeca ha sido parte de estudios y experimentos en el área de audio inmersivo, especialmente en lo que es la externalización de audio binaural a través de audífonos._
 
