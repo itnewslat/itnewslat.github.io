@@ -37,7 +37,7 @@ Nota
 1. **ADR**: es el proceso en la etapa de postproducción de sonido en el cual los actores van a un estudio a re-grabar frases de diálogo que presentan problemas técnicos o que se quieren cambiar por parte de dirección.
 
 
-### Escrito por _Rebeca Lindenfeld_, Ingeniera de Sonido venezolana especializada en la edición de sonido para cine y televisión. Ha trabajado para grandes compañías como The Walt Disney Company y Deluxe y participado en proyectos como “Veneno” de HBO Max, “Fuimos Canciones” y “El Desorden Que Dejas” de Netflix, “Madres Paralelas” de Pedro Almodovar, entre otros. Junto con su experiencia en la postproducción de sonido, Rebeca ha sido parte de estudios y experimentos en el área de audio inmersivo, especialmente en lo que es la externalización de audio binaural a través de audífonos.
+_Escrito por **Rebeca Lindenfeld**, Ingeniera de Sonido venezolana especializada en la edición de sonido para cine y televisión. Ha trabajado para grandes compañías como The Walt Disney Company y Deluxe y participado en proyectos como “Veneno” de HBO Max, “Fuimos Canciones” y “El Desorden Que Dejas” de Netflix, “Madres Paralelas” de Pedro Almodovar, entre otros. Junto con su experiencia en la postproducción de sonido, Rebeca ha sido parte de estudios y experimentos en el área de audio inmersivo, especialmente en lo que es la externalización de audio binaural a través de audífonos._
 
 
 
