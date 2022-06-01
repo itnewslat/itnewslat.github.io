@@ -6,7 +6,9 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: ''
+title: >-
+  wherEX, la plataforma digital que garantiza transparencia en las compras
+  empresariales
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/WherEX-g.jpg
 image: >-
@@ -24,8 +26,6 @@ tags:
   - Economía Digital
 week: '22'
 ---
-
-wherEX, la plataforma digital que garantiza transparencia en las compras empresariales
 La tecnología con IA y Data Analytics hace posible prevenir la corrupción al garantizar la libre competencia, fomentar la tensión competitiva y generar trazabilidad frente a decisiones de compra.
 La transformación digital a un nivel medio, de grandes empresas en Colombia es del 56,5 % según el estudio del índice de Madurez Digital 2021.
 De acuerdo con el Índice de Percepción de la Corrupción (IPC) 2021 Colombia tiene pérdidas cercanas a los $50 billones al año por irregularidades en las finanzas.
