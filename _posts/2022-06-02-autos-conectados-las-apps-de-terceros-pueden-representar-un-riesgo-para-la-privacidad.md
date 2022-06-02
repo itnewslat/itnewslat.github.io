@@ -28,7 +28,6 @@ week: '22'
 ---
 - Informe de Kaspersky revela que populares apps móviles para carros conectados utilizan los datos de usuarios sin su consentimiento
 
-
 Las aplicaciones móviles para vehículos conectados incluyen diversas funciones para facilitar la vida de los automovilistas, pero también pueden ser una fuente de riesgo. Los expertos de Kaspersky analizaron 69 de las aplicaciones más populares producidas por terceros y definieron las principales amenazas que los conductores pueden enfrentar al usarlas. Más de la mitad (58%) de estas aplicaciones utiliza las credenciales de los propietarios sin consentimiento y una de cada cinco no tiene información de contacto, lo que hace que sea imposible informar de algún problema. Estos y otros descubrimientos se dan a conocer en el nuevo informe Kaspersky Connected Apps.
 
 Las aplicaciones para automóviles permiten a los usuarios controlar a distancia sus vehículos poniendo o quitando el seguro de las puertas, ajustando el control del clima, arrancando y apagando el motor, entre otras cosas. Aunque la mayoría de los fabricantes de automóviles tienen aplicaciones legítimas para los automóviles que fabrican, las aplicaciones de terceros también son muy populares entre los usuarios, ya que pueden ofrecer características únicas que aún no han sido introducidas por el fabricante del vehículo.
