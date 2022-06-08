@@ -34,7 +34,7 @@ Conscientes de esto, Aprendamos y Human to Human Hub, marcas fundadas por Guille
 
 “El porcentaje de generadores de contenido en Hispanoamérica es bajo, por lo que se evidencia una gran oportunidad de posicionamiento, creación de comunidad y generación de autoridad para los usuarios que generan contenido de valor de manera constante y consistente”, asegura González Pimiento, quien enfatiza que gracias a este análisis las empresas y personas tendrán las herramientas necesarias para ser más visibles en LinkedIn.
 
-**Multimedia y encuestas: la punta de lanza para el engagement **
+**Multimedia y encuestas: la punta de lanza para el engagement**
 
 El estudio, que analizó 2.007 publicaciones de 200 perfiles con el modo Creador de contenido activo en LinkedIn, en Colombia, España, México, Perú, Argentina, Estados Unidos, Ecuador, Chile, Venezuela, El Salvador, Panamá, Uruguay y Canadá, reflejó que el éxito de esta red social está basado en las imágenes, los videos y el texto.
 
