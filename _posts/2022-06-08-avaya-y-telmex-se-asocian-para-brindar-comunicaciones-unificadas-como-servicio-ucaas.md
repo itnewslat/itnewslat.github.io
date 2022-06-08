@@ -10,9 +10,9 @@ title: >-
   Avaya y TELMEX se Asocian para Brindar Comunicaciones Unificadas como Servicio
   (UCaaS)
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/avaya-engage-latam-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cloud-Security-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/avaya-engage-latam-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cloud-Security-p.jpg
 categories:
   - Mexico
 tags:
@@ -33,7 +33,7 @@ Galib Karim, vicepresidente senior global, Avaya Latinoamérica, afirma, “La a
 
 El servicio basado en la nube, flexible y simple, puede ser habilitadi en tan solo unas pocas horas. Asimismo, permite realizar las modificaciones y personalizaciones necesarias en tiempo real, construyendo una de las mejores experiencias para los usuarios y atendiendo al cliente en tiempo real acorde a sus necesidades.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/avaya-engage-latam-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cloud-Security-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
