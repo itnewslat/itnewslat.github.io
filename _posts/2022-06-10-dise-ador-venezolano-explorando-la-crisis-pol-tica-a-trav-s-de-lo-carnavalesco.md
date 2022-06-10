@@ -6,7 +6,9 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: Diseñador venezolano explorando la crisis política a través de lo carnavalesco
+title: >-
+  Diseñadora Venezolana explorando la crisis política a través de lo
+  carnavalesco
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Victoria-Ruiz-p.jpg
 detail-image: >-
