@@ -25,8 +25,8 @@ tags:
 week: '24'
 ---
 Las plataformas para gestionar la experiencia de los clientes son cada vez más utilizadas por todo tipo de organizaciones. Sin embargo, aún existen algunas creencias falsas que solo frenan su adopción y ponen en riesgo los negocios de muchas organizaciones.
- 
- Santiago de Querétaro, México. 9 de junio de 2022. - Los sistemas para gestionar las relaciones con los clientes (CRM, por su sigla en inglés) se han posicionado como una de las herramientas claves para el crecimiento de cualquier compañía. Estas plataformas integran funciones y aplicaciones que permiten desde organizar los datos clave de cada comprador, hasta conectar actividades de ventas, marketing y asistencia al cliente, optimizando sus procesos, políticas y personas en una sola plataforma.
+
+Los sistemas para gestionar las relaciones con los clientes (CRM, por su sigla en inglés) se han posicionado como una de las herramientas claves para el crecimiento de cualquier compañía. Estas plataformas integran funciones y aplicaciones que permiten desde organizar los datos clave de cada comprador, hasta conectar actividades de ventas, marketing y asistencia al cliente, optimizando sus procesos, políticas y personas en una sola plataforma.
  
 En el caso de México, los CRM son ficha clave para los procesos de transformación digital que actualmente realiza la mayoría de empresas locales. Justamente, un estudio sobre el Desarrollo Digital de las Pequeñas Empresas realizado por la consultora IDC, arrojó que la digitalización de los procesos de negocio en compañías mexicanas podría aportar hasta 65 millones de dólares al producto interno bruto del país de cara a los próximos 3 años.
  
