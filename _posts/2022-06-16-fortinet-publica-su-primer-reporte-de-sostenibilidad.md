@@ -27,7 +27,6 @@ week: '24'
 Barbara Maigret, directora Global de Sostenibilidad y RSE de Fortinet
 “En Fortinet, entendemos la importancia de hacer que la sostenibilidad sea parte integral de nuestro modelo de negocios. 2021 fue el año para definir nuestra estrategia y planificar el trayecto de la compañía a mediano y largo plazo. Con nuestro primer informe de sostenibilidad, nuestro objetivo es aumentar la transparencia sobre el progreso hasta la fecha y permitir que nuestros grupos de interés, incluidos clientes, socios, empleados, proveedores, accionistas y comunidades, comprendan mejor nuestro enfoque de responsabilidad social corporativa, liderando con ambición hacia un mundo más sostenible y una internet más segura.”
  
-Resumen de noticias
 Fortinet®, líder mundial en soluciones de ciberseguridad amplias, integradas y automatizadas, anunció hoy su primer Reporte de Sostenibilidad, que detalla el marco estratégico de sostenibilidad, junto con las iniciativas y las métricas clave de rendimiento de la empresa. La compañía planea compartir el progreso anualmente.
  
 Luego de una evaluación de materialidad realizada en 2021 para identificar y priorizar los tópicos ambientales, sociales y de gobierno corporativo (ESG) que son más importantes para el negocio de Fortinet y sus partes interesadas, la compañía definió las siguientes cuatro áreas principales de impacto:
