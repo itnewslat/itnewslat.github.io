@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2022-05-26 08:16 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2022'
 title: Ventajas para tu empresa a la hora de migrar servicios a la nube con SAP Cloud
@@ -17,8 +17,6 @@ categories:
   - Ecuador
 tags:
   - Transformación Digital
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Articulo-ABSIDE-Mayo.jpg
 week: '21'
 ---
 **Palabra clave: migrar servicios a la nube**
