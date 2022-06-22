@@ -50,14 +50,14 @@ La generación millennial está enfocada en aumentar su capacidad intelectual, p
 
 Hoy en día se ha visto que el salario emocional prima por encima del económico, pero, ¿qué es realmente un salario emocional?  días libres, licencias remuneradas, planes de diversión, eventos de bienestar, son algunos ejemplos de los beneficios emocionales que buscan en las empresas. Por ello, multinacionales han optado por generar ofertas de valor que impulse a captar el mejor talento y sobre todo que garantice el sostenimiento del mismo en la compañía, permitiendo una estabilidad laboral plena. 
 
-**5.	Responsabilidad social, empresarial y ambiental **
+**5.	Responsabilidad social, empresarial y ambiental**
 
 La responsabilidad de las empresas va mucho más allá de tener campañas ambientales dentro de la compañía, pues en ellas está el garantizar un espacio para el pleno desarrollo social y personal de los colaboradores. 
 
 Mediante el mejoramiento continuo, empresas como Impresistem, han implementado 
 programas de desarrollo alineados a la responsabilidad social, empresarial y ambiental, esto desde los resultados del levantamiento de información para indagar sobre los  gustos, intereses, condiciones y demás datos que serán la base para continuar creando planes de bienestar que beneficien de manera transversal a todos nuestros colaboradores.
 
-**Impresistem, el mejor lugar para trabajar**
+**6.   Impresistem, el mejor lugar para trabajar**
 
 Con el desarrollo de líderes y colaboradores, se busca que la productividad se mantenga alineada con los valores y competencias corporativas de la compañía. Por eso, es que la  carta de presentación de Impresistem, el mayorista tecnológico con más de 32 años de trayectoria en el país, se basa en el clima laboral alineado a los objetivos estratégicos de la compañía y enfocado en fortalecer una cultura organizacional donde primen los valores corporativos: Integridad, Responsabilidad y Respeto.
 
