@@ -2,11 +2,27 @@
 layout: posts
 color-schema: red-dark
 date: '2022-06-23 05:35 -0500'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2022'
 title: 5 amenazas corporativas importantes que no son ransomware
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ramsomware-g.jpg
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ramsomware-p.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Seguridad
+week: '25'
 ---
 ESET Latinoamérica, compañía líder en detección proactiva de amenazas, advierte que si bien el ransomware es una de las amenazas informáticas qué más preocupación genera a las empresas y organizaciones a nivel global, está lejos de ser la única.
  
@@ -37,7 +53,7 @@ Las estafas del tipo Business Email Compromise (BEC), que en español significa 
 
 También comenzaron a reportarse ataques de deep fake y deep voice, en los cuales los atacantes utilizan software que se apoya en inteligencia artificial para suplantar a través de la imagen y/o la voz a personas reales.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ramsomware-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ramsomware-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
