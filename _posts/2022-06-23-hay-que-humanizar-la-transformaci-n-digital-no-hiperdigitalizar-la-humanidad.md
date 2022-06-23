@@ -8,7 +8,7 @@ superArticle: true
 year: '2022'
 title: 'HAY QUE HUMANIZAR LA TRANSFORMACIÓN DIGITAL,  NO HIPERDIGITALIZAR LA HUMANIDAD'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Banner-Sybase-Largo.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Humanizar-Tecnologia-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/banner
   itnews1200x450-octubre SYBVEN.gif
