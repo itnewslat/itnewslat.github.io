@@ -18,9 +18,13 @@ tags:
 week: '27'
 ---
 Pídelo, surge como una iniciativa de Moore GSF y Alalza Inversiones. Es una plataforma integrada a través de la tecnología de educación financiera, logística comercial y microcréditos privados para emprendedores. La primera de su tipo en el país. Está conformada por gente talentosa y trabajadora, que busca transformar emprendimientos en negocios exitosos, a los cuales se unen aliados estratégicos como Pago Chin Chin y Ordéname. Su lanzamiento oficial se realizó en la Bolsa de Valores de Caracas. 
+
 “Esta idea la venimos cocinando a fuego lento desde hace unos años. Y desde el punto de vista operativo contó con un piloto en el Barrios José Félix Ribas de Petare, donde a través de la fundación CIMA, otorgamos 500 microcréditos a emprendedores de la zona, con una tasa de morosidad de 1,2%” comenta Óscar Doval, presidente del grupo. 
+
 “Tras los 500 créditos que otorgamos en la fase piloto, nos dimos cuenta que para poder escalar la iniciativa deberíamos tener habilitadores tecnológicos, así como alianzas estratégicas con socios de primera línea” agrega Daniel Beconsky CEO de Pídelo.
+
 Se procede a constituir Alalza C.A., hoy empresa emisora en el mercado de valores, tiene el objetivo de aportar al desarrollo económico del país a través del desarrollo del Sector de Préstamos Privados. Está regulado por la Superintendencia Nacional de Valores (SUNAVAL)  que exige a sus entes regulados, el adoptar estándares mundiales de gobierno corporativo, así como mejores prácticas de cumplimiento, control y auditoría, para proteger tanto a los inversionistas, como a los sujetos de crédito. 
+
 Se diseña Pídelo, una plataforma para la educación microfinanciera, admisión, análisis de riesgo y documentación de préstamos y gracias a la alianza estratégica con Pagos Chinchin, que cuenta con un App de primera línea, autorizada como Fintech por la Sudeban, para la liquidación y recaudación de los préstamos.
 
 **En esta etapa, las líneas de financiamiento estarán enfocadas en:**
