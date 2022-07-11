@@ -29,7 +29,7 @@ week: '28'
 - La mayoría de los líderes de TI encuestados en el mundo considera que los cambios tecnológicos y las inversiones implementadas durante la pandemia han llegado para quedarse.
 - El 66% de los líderes en Colombia opina que su estrategia tecnológica empresarial se ha vuelto más agresiva y ambiciosa como clave de la transformación digital.
 
-Nuevos hallazgos de una encuesta anual de tomadores de decisiones tecnológicas, por Equinix, Inc.  (Nasdaq: EQIX), sugieren que el movimiento hacia un mundo menos conectado es impensable en los planes de los lideres digitales de todas las industrias y geografías. A pesar de las preocupaciones de una posible recesión inminente y las conversaciones en el Foro Económico Mundial en Davos sobre el fin de la globalización, las empresas parecen seguir siendo optimistas sobre sus planes para una mayor expansión global.
+Nuevos hallazgos de una encuesta anual de tomadores de decisiones tecnológicas, por Equinix, Inc. (Nasdaq: EQIX), sugieren que el movimiento hacia un mundo menos conectado es impensable en los planes de los lideres digitales de todas las industrias y geografías. A pesar de las preocupaciones de una posible recesión inminente y las conversaciones en el Foro Económico Mundial en Davos sobre el fin de la globalización, las empresas parecen seguir siendo optimistas sobre sus planes para una mayor expansión global.
 
 Luego de encuestar a 2.900 tomadores de decisiones de TI de diversas empresas de las regiones de América, Asia-Pacífico y EMEA (Europa, Oriente Medio y África), el estudio revela los siguientes aspectos relevantes sobre Colombia:
 
@@ -55,11 +55,9 @@ Muchas compañías consideran la sostenibilidad como un factor clave para foment
 
 Al preguntarles a los líderes colombianos en TI sobre la relevancia de la sostenibilidad dentro de sus organizaciones, el 78% comentó que reducir la huella ambiental es una prioridad para la estrategia tecnológica y el 73% afirmó tener un plan de gestión frente a posibles impactos ambientales ante el creciente uso de datos.
 
-Para ampliar la información sobre la Encuesta Global de Tendencias Tecnológicas o descargar una copia, visite: [Encuesta Global de Tendencias Tecnológicas Equinix 2022]
+Para ampliar la información sobre la Encuesta Global de Tendencias Tecnológicas o descargar una copia, visite: [Encuesta Global de Tendencias Tecnológicas Equinix 2022](https://www.equinix.com/content/dam/eqxcorp/en_us/documents/resources/infopapers/ip_2022_global_tech_trends_and_strategies_en.pdf)
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/TransformacionDigital-p.jpg)
-
-(https://www.equinix.com/content/dam/eqxcorp/en_us/documents/resources/infopapers/ip_2022_global_tech_trends_and_strategies_en.pdf)
 
 <table style="height: 42px;" width="569">
 <tbody>
@@ -70,4 +68,3 @@ Para ampliar la información sobre la Encuesta Global de Tendencias Tecnológica
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
