@@ -7,8 +7,8 @@ superNews: false
 superArticle: false
 year: '2022'
 title: 'El camino 4D: la revolución del Big Data en América Latina'
-image: 'https://github.com/itnewslat/assets/blob/master/img/540x320/Big-Data-p.jpg'
-detail-image: 'https://github.com/itnewslat/assets/blob/master/img/1024x680/Big-Data-g.jpg'
+image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Big-Data-p.jpg'
+detail-image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Big-Data-g.jpg'
 categories:
   - Venezuela
   - Colombia
@@ -49,7 +49,7 @@ Así las cosas y teniendo en cuenta que, en el 2020 la capacidad mundial de alma
 
 “ Todos tenemos acceso a la analítica avanzada desde que tengan datos y método para usarlos en pro del negocio. Las herramientas son accesibles, el código abierto es una opción y los problemas están todos por resolver”, concluye Víctor Hoyos, gerente Comercial y Operativo en CALA Analytics, consultora que ayuda a las organizaciones a sacar el máximo provecho de sus datos a través de la analítica y que en sus 30 años de trayectoria se ha convertido en el socio analítico preferido por las compañías con las que trabaja.
 
-![](https://github.com/itnewslat/assets/blob/master/img/1024x680/Big-Data-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Big-Data-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
