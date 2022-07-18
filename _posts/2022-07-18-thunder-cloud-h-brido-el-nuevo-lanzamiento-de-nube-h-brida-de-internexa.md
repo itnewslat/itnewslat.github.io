@@ -40,3 +40,14 @@ Reconociendo la cantidad de opciones de tecnologías nube, sus diferencias y las
 
 Con esta solución tecnológica InterNexa espera llegar a sus clientes del sector corporativo a nivel regional incluyendo Colombia, Perú, Brasil, Argentina y Chile, impactando de manera positiva el rendimiento de sus negocios y mejorando en un 32-50% la eficiencia en la gestión de los datos, en un lapso de 5 años, llevando con esto a las empresas un escalón más alto en transformación de su negocio.
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Juan-Camilo-Ruiz-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
