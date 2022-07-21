@@ -28,6 +28,9 @@ week: '29'
 ---
 <a href="https://bit.ly/3xqoHtI"><img class="aligncenter" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner-Sybase.jpg" alt="Mas información sobre SYBVEN, Aquí" width="284" height="120" /></a>
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/SYBVEN-SAP-p.jpg)
+
+
 El evento Sybven - SAP Innovation Day, fue el punto de encuentro, en el exclusivo restaurante Moreno, en Caracas, en el que Sybven, de la mano de SAP, se acercó a sus clientes, aliados de negocios y prensa especializada, para compartir, intercambiar ideas, alinear nuevas y mejores prácticas en pro de la humanización y transformación de los negocios en un desayuno con aroma a Venezuela. 
 
 “El reto es humanizar mediante la tecnología, la hiperautomatización influye en la calidad de vida humana. La estrategia es lograr una conexión digital emocional que supere una visita física a una tienda o a un punto de venta”, comentó Magdalena De Luca, líder de la Célula Visión Global y Estratégica y CEO de Sybven.
