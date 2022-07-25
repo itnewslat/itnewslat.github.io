@@ -19,7 +19,7 @@ tags:
   - Economía Digital
 week: '30'
 ---
-- Xpo.Crypto™ se realizará del 6 y 11 de septiembre de 2022 en Medellín, Colombia. 
+- Xpo.Crypto™ se realizará del 9 y 10 de septiembre de 2022 en Medellín, Colombia. 
 - Inversionistas, entusiastas, emprendedores de crypto y blockchain de todo el mundo se reunirán por primera vez en Colombia en una expoferia con una gran agenda y espacios de neetworking.
 
 Por primera vez, toda la industria del blockchain y crypto tiene una cita imperdible en Colombia con Xpo.Crypto™, la primera expoferia para inversionistas, entusiastas, emprendedores de crypto y blockchain de todo el mundo que convergerán Medellín para tomar parte en conferencias, panel interactivo, discusiones, entrenamientos emocionantes y mucho más.
@@ -32,7 +32,7 @@ Esta expoferia reunirá más de 100 importantes referentes nacionales e internac
 
 Se tendrá además una semana de eventos integrados llamado VIP Week, que reúne a los participantes del ecosistema de blockchain más grande a nivel internacional en espacios de networking y entretenimiento que promuevan las alianzas estratégicas y la socialización.
 
-Para asistir se pueden adquirir pases para todo el día en la página https://xpocrypto.io/ y de acuerdo a los accesos y experiencias que se quieran disfrutar. La  cita es en el City Hall El Rodeo, un espacio que fusiona los elementos de una expo convencional con la presentación de shows, del 6 al 11 de septiembre en la capital antioqueña de Colombia.
+Para asistir se pueden adquirir pases para todo el día en la página https://xpocrypto.io/ y de acuerdo a los accesos y experiencias que se quieran disfrutar. La  cita es en el City Hall El Rodeo, un espacio que fusiona los elementos de una expo convencional con la presentación de shows, del 9 al 10 de septiembre en la capital antioqueña de Colombia.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/manejo-de-cripto-p.jpg)
 
