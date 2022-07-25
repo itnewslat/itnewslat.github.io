@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: 'están evolucionando: ¿cómo evolucionamos nuestra protección?'
+title: 'Están evolucionando: ¿cómo evolucionamos nuestra protección?'
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/laptop-cel-y-libreta-g.jpg
 image: >-
