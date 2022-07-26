@@ -26,10 +26,6 @@ tags:
   - Transformación Digital
 week: '30'
 ---
-
- 
-Por: Peter Panfil, Vicepresidente de Potencia Global en Vertiv
- 
 El crecimiento y la velocidad definen el panorama a medida que las organizaciones están cada vez más decididas a hacer del 2022 un año de avances en la construcción de nuevos centros de datos. Este afán por la construcción de centros de datos más grandes y más rápidos no solo sirve para recuperar el tiempo perdido durante la pandemia, sino también para adaptarse al crecimiento exponencial de las iniciativas de transformación digital, las cuales apoyan nuestros estilos de vida pospandémicos, desde el teletrabajo hasta las cadenas de suministro automatizadas y la telesalud. Además, el aumento en los servicios de streaming, las redes sociales y los videojuegos en línea ha llevado a una mayor demanda de capacidad en la nube.
  
 La construcción de un centro de datos estandarizado
@@ -53,6 +49,8 @@ Con la adquisición del Grupo E+I Engineering, Vertiv logró ampliar su portafol
 Esta adquisición no solo ayudó a Vertiv a desarrollar soluciones más personalizadas para sus clientes, sino que también apoya el esfuerzo de la industria por una mayor integración al hacer frente a muchas de las barreras y preocupaciones relacionadas con la construcción de centros de datos en el panorama actual. Por ejemplo, enviar estas soluciones precableadas y montadas reduce la necesidad de más contratistas eléctricos en el sitio y crea un entorno operativo más seguro para los contratistas instaladores.
 Ya no es necesario que otras empresas subcontraten la fabricación; esto reduce los tiempos de implementación y mejora las capacidades generales de integración, así como la calidad de los productos. Además, con las capacidades modulares adicionales, los constructores de centros de datos cuentan con más opciones para distribuir la potencia en el rack y la oportunidad de hacer cambios en la distribución y ampliaciones en el futuro.
 ¿Siente curiosidad su organización por los beneficios de incorporar sistemas integrados de infraestructura? Contáctenos para conocer más.
+
+**autor** Peter Panfil, Vicepresidente de Potencia Global en Vertiv
  
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/data-center-p.jpg)
 
