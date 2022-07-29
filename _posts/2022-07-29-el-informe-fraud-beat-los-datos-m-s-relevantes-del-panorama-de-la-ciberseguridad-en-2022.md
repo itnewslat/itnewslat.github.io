@@ -27,7 +27,6 @@ tags:
 week: '30'
 ---
 - El 38% de las instituciones cree que los esquemas de cibercrimen de hoy en día evolucionan demasiado rápido para mantener el ritmo de los delincuentes.
-
  
 Appgate, compañía de acceso seguro que ofrece soluciones de ciberseguridad para personas, dispositivos y sistemas, presentó su informe Fraud Beat 2022, una recopilación de las cifras, propias y de la industria, más relevantes de la ciberseguridad a nivel mundial, su impacto y estrategias para combatir el fraude.
 
