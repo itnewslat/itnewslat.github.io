@@ -50,7 +50,7 @@ La transformación digital ha provocado que la superficie de ataque de una empre
  
 Es un hecho que los líderes de seguridad deben mejorar su estrategia y procedimientos de gestión de riesgos, no solo para evitar costosos ataques de ransomware e interrupciones en los flujos de trabajo, sino también para cumplir con los nuevos mandatos que demanda la seguridad de las nuevas infraestructuras en la nube. 
  
-**AWS & Trend Micro, una alianza con responsabilidad compartida **
+**AWS & Trend Micro, una alianza con responsabilidad compartida**
  
 Las organizaciones que se someten a proyectos de transformación en la nube pueden enfrentar una serie de desafíos operacionales y consideraciones regulatorias que deben ser abordadas, es por ello que Trend Micro planea continuar trasladando gran parte de sus cargas de trabajo internas a AWS, considerando los beneficios de costos y la flexibilidad de la plataforma como aspectos de gran relevancia para las empresas. Como socio, se puede esperar ver a Trend Micro continuar innovando y transformando el espacio de la seguridad como servicio en compañía de AWS marca que está a la vanguardia y que constantemente supera los límites como el proveedor más importante y grande de servicios en la nube. 
 
