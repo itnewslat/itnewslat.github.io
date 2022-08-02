@@ -27,13 +27,12 @@ MinTIC la entidad más representativa de Colombia en temas de seguridad, innovac
  
 Cabe destacar, que la pandemia empujó a más empresas a acelerar su transformación digital, pero también extendió las superficies de ataque y las expuso a nuevas amenazas. Según la Cámara Colombiana de Informática y Telecomunicaciones (CCIT), en el 2021 se registraron cerca de 49.000 denuncias por distintos delitos cibernéticos, lo que equivale a un incremento del 21% respecto al 2020. 
  
-**En la anterior cifra se reflejan otros datos preocupantes como:**
+En la anterior cifra se reflejan otros datos preocupantes como:
+- 458 casos de Violación de Datos Personales 45% más que el 2020
+- 926 denuncias - Acceso abusivo a sistemas informáticos 18% más respecto a 2020
+- 000 denuncias en 2021 hurto por medios informáticos, 3% más que el 2020
+- 654 casos de suplantación de sitios web incremento del 3% más respecto al año 2020
 
-- 458 casos de Violación de Datos Personales 45% más que el 2020.
-- 926 denuncias - Acceso abusivo a sistemas informáticos 18% más respecto a 2020.
-- 000 denuncias en 2021 hurto por medios informáticos, 3% más que el 2020.
-- 654 casos de suplantación de sitios web incremento del 3% más respecto al año 2020.
--
 De igual manera, en el marco de Cloud Security Talks se presentaron temas como el aumento significativo en los ataques informáticos, trabajo en casa y teletrabajo, incremento en ventas online, uso masivo de las plataformas y sistemas de pago digitales como medio de compra e innovación para engaño o robo, resaltando algunas interesantes estadísticas presentada por el DANE en el 2020 relacionadas con el teletrabajo:
 
 - El 93% de los encuestados quisieran trabajar algunos días remotamente después de la pandemia.
