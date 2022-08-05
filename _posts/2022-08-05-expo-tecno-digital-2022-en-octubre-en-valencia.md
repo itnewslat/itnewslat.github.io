@@ -42,15 +42,6 @@ Todos los Expositores Comerciales de la EXPO TecnoDigital 2022 recibirán un Pla
 
 Agrego Sr. Roosvelt, que existe oportunidad de que empresas y profesionales de Maracaibo puedan asistir gracias a la activación de un vuelo chárter gracias a la alianza estratégica con la aerolínea Turpial Airlines, “ he recibido llamadas de nuestros hermanos del Zulia, que me han dicho su interés de participar y si se les soluciona la conectividad aérea, vendrán” comento el presidente del comité organizador. 
 
-La primera edición de EXPO TECNO DIGITAL 2022 ya tiene fecha, los días 28-29-30 de octubre en el Centro de Convenciones del World Trade Center Hotel Hesperia, Valencia Estado Carabobo. 
-
-El pasado 2 de agosto se anunció a los medios de comunicación en rueda de prensa que la Expo Tecno Digital 2022 impulsara las tecnologías aplicadas por las empresas que hacen vida en nuestro país con la posibilidad de visitas de marcas internacionales gracias al interés de Embajadas y a la disponibilidad de conexión aérea que esta experimentando Venezuela. 
-Este evento incluye una agenda de charlas magistrales, conversatorios y conferencias con expositores de nacionales e internacionales, investigadores, desarrolladores, docentes universitarios y especialistas de compañías que están desarrollando avances tecnológicos en diversas áreas de software, comunicaciones, sistemas productivos y afines. Con entrada gratuita, mediante a registro previo.
-
-Los espacios de stand ya están a la venta en su primera etapa a precios verdaderamente accesibles hasta para startups, profesionales de libre ejercicio y emprendedores digitales.
-
-En la EXPO TecnoDigital se podrán mostrar los avances tecnológicos, la innovación, el conocimiento, las industrias creativas, inteligencia artificial, los avances en sistemas de seguridad para el hogar y la industria, lo más innovador de la era digital, la proyecciones a las ciudades tecnológicas o Smart cities, y lo más avanzado en tecnología digital.
-
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/expo-tecnodigital-p.jpg)
 
 <table style="height: 42px;" width="569">
