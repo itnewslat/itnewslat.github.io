@@ -17,10 +17,10 @@ tags:
   - Actualidad
 week: '33'
 ---
-Pablo Salcedo, se une al equipo de Adobe Colombia como gerente comercial para fortalecer el ecosistema de experiencias que brindan las empresas a los usuarios en el país.
-· El 75 % de las empresas del Fortune 100 utilizan Adobe Experience Cloud para gestionar la experiencia de usuario de sus clientes.
- 
-Bogotá, Colombia a 11 de agosto de 2022.-  Adobe Experience Cloud, líder mundial en soluciones de marketing y medios digitales, anunció el nombramiento de Pablo Salcedo como nuevo gerente comercial en Colombia. Su gestión estará centrada en posicionar a Adobe en el país como líder en soluciones digitales para gestionar las experiencias de los consumidores y apoyar a las organizaciones en su proceso de transformación tecnológica.
+- Pablo Salcedo, se une al equipo de Adobe Colombia como gerente comercial para fortalecer el ecosistema de experiencias que brindan las empresas a los usuarios en el país.
+- El 75 % de las empresas del Fortune 100 utilizan Adobe Experience Cloud para gestionar la experiencia de usuario de sus clientes.
+
+Adobe Experience Cloud, líder mundial en soluciones de marketing y medios digitales, anunció el nombramiento de Pablo Salcedo como nuevo gerente comercial en Colombia. Su gestión estará centrada en posicionar a Adobe en el país como líder en soluciones digitales para gestionar las experiencias de los consumidores y apoyar a las organizaciones en su proceso de transformación tecnológica.
  
 “Actualmente el 75% de las empresas Fortune 100 utilizan Adobe Experience Cloud para gestionar las experiencias digitales de sus clientes. Me emociona tener la oportunidad de ayudar a las empresas del sector financiero Colombiano a seguir en la transformación de sus modelos de negocio hacia el mundo digital, qué es lo que piden los consumidores y el mercado”, señaló Salcedo.
 
