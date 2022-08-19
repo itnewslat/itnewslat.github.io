@@ -14,14 +14,7 @@ detail-image: >-
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Banca-Digitalp.jpg
 categories:
-  - Venezuela
-  - Colombia
-  - Argentina
-  - Perú
-  - Ecuador
   - Chile
-  - Panama
-  - Mexico
 tags:
   - Economía Digital
 week: '33'
