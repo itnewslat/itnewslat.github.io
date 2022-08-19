@@ -28,7 +28,7 @@ week: '33'
 ---
 El estudio sobre riesgo y ciberseguridad realizado por Tata Consultancy Services a 600 Gerentes de Seguridad destaca los problemas más preocupantes a los que se enfrentan las grandes empresas de Europa y Norteamérica 
 
-Bogotá, Colombia.  Agosto 17 de 2022: Tata Consultancy Services (TCS) (BSE: 532540, NSE: TCS) reveló los resultados de su  Estudio de Riesgo y Ciberseguridad donde indica que los ejecutivos de ciberseguridad pueden no estar dando suficiente prioridad a las amenazas de las vulnerabilidades dentro de la cadena de valor, más allá de los límites inmediatos de sus propias organizaciones. 
+Tata Consultancy Services (TCS) (BSE: 532540, NSE: TCS) reveló los resultados de su  Estudio de Riesgo y Ciberseguridad donde indica que los ejecutivos de ciberseguridad pueden no estar dando suficiente prioridad a las amenazas de las vulnerabilidades dentro de la cadena de valor, más allá de los límites inmediatos de sus propias organizaciones. 
 
 Cuando se les pidió que clasificaran dónde verán las empresas el mayor número de ciberataques de aquí a 2025, el último lugar lo ocuparon los socios del ecosistema (10º). En un momento en el que las empresas apuestan cada vez más por medios digitales para sus estrategias de crecimiento, la encuesta de TCS demuestra que solo el 16% de los directores de riesgos (CRO) y los de seguridad de la información (CISO) clasificaron los ecosistemas digitales como una preocupación a la hora de evaluar los objetivos cibernéticos previstos, y solo el 14 % enumeró los riesgos de dichos ecosistemas como la principal prioridad para sus organizaciones.  
 
