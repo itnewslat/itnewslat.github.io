@@ -7,9 +7,10 @@ superNews: false
 superArticle: false
 year: '2022'
 title: Cisco Webex Contact Center revoluciona la experiencia del cliente en la nube
-detail-image: 'https://github.com/itnewslat/assets/blob/master/img/1024x680/Cisco-g.jpg'
-image: >-
+detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cisco-p.jpg
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cisco-g.jpg
 categories:
   - Venezuela
   - Colombia
