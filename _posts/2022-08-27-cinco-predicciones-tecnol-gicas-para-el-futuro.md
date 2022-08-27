@@ -54,4 +54,4 @@ La transformación hacia modelos de todo como servicio (XaaS) constituirá un ca
 </tbody>
 </table>
 
-<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
