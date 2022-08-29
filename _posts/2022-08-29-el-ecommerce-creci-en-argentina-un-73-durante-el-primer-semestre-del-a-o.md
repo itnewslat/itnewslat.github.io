@@ -22,10 +22,8 @@ week: '35'
 - Se conocieron los ganadores de los los eCommerce Award’s Argentina 2022
 
 Se llevó a cabo la jornada presencial del eCommerce Day Argentina Blended [Professional] Experience, una iniciativa regional de eCommerce Institute y coorganizado localmente por la Cámara Argentina de Comercio Electrónico
-
  
 Se dieron cita más de 3.0000 asistentes presenciales, que pudieron interactuar con más de 100 destacados expertos de la industria digital y participar de plenarias, talleres, espacios de networking y actividades especiales, en la vuelta de la presencialidad del evento.
-
  
 Durante el eCommerce Day Argentina Blended [Professional] Experience se llevó a cabo una rueda de prensa, en donde la Cámara Argentina de Comercio Electrónico presentó el estudio sobre eCommerce en Argentina en el primer semestre 2022, confeccionado por Kantar TNS. Entre los datos más relevantes, se destaca que en comparación con MID 2021:
  
@@ -63,7 +61,6 @@ A continuación, los ganadores de cada categoría:
 - •	Mejor iniciativa Mobile en eCommerce: Ta+Da www.tada.com.ar 
 - •	Triple Impacto en el Ecosistema Digital: Natura www.naturacosmeticos.com.ar 
 - •	Women: AHK www.ahkargentina.com.ar
-
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ecommerce-p.jpg)
 
