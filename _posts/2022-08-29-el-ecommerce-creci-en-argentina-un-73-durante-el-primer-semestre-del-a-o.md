@@ -10,7 +10,7 @@ title: El eCommerce creció en Argentina un 73% durante el primer semestre del a
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ecommerce-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ecommerce-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Evento-ec-p.jpg
 categories:
   - Argentina
 tags:
@@ -62,7 +62,7 @@ A continuación, los ganadores de cada categoría:
 - •	Triple Impacto en el Ecosistema Digital: Natura www.naturacosmeticos.com.ar 
 - •	Women: AHK www.ahkargentina.com.ar
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ecommerce-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Evento-ec-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
