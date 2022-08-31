@@ -22,7 +22,7 @@ week: '35'
 - Los interesados en participar deben estar pendientes a partir de este miércoles 31 de agosto a la cuenta oficial de Instagram de la Aerolínea, seguir los pasos y contestar correctamente las preguntas en la página web del concurso.
 - Semanalmente, la Aerolínea premiará a las primeras 25 personas que contesten en el menor tiempo, la mayor cantidad de respuestas correctas dentro de las 24 horas establecidas, serán los ganadores.
 
-Copa Airlines {NYSE: CPA}, subsidiaria de Copa Holdings, S.A. y miembro de la red global de aerolíneas Star Alliance, celebra junto a sus pasajeros y seguidores su 75 aniversario, poniendo a su disposición el concurso regional “75 años que celebrar, 75 ganadores que elegir”. Cada ganador(a) obtendrá dos boletos ida y vuelta (uno para él y otro para su acompañante) para viajar a cualquiera de los destinos operados por la Aerolínea. 
+Copa Airlines, subsidiaria de Copa Holdings, S.A. y miembro de la red global de aerolíneas Star Alliance, celebra junto a sus pasajeros y seguidores su 75 aniversario, poniendo a su disposición el concurso regional “75 años que celebrar, 75 ganadores que elegir”. Cada ganador(a) obtendrá dos boletos ida y vuelta (uno para él y otro para su acompañante) para viajar a cualquiera de los destinos operados por la Aerolínea. 
 
 “Celebramos este 75 aniversario por lo alto junto a quienes han confiado en nosotros a lo largo de estos años. Queremos que disfruten de un viaje lleno de experiencias memorables al destino de sus sueños y de un servicio de clase mundial, gracias a la conexión que Copa Airlines ofrece a través del Hub de las Américas® en Ciudad de Panamá”, comentó Marco Ocando, director sénior de mercadeo, comunicaciones y programa de viajero frecuente de Copa Airlines.
 
