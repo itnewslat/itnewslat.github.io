@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: DIGITEL instala mator capacidad 4G LTE en táchira
+title: DIGITEL instala mayor capacidad 4G LTE en táchira
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Antenas-4G-g.jpg
 image: >-
