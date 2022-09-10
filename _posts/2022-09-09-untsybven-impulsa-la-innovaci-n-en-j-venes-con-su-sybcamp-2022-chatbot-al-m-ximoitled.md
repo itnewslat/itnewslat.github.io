@@ -7,8 +7,8 @@ superNews: false
 superArticle: false
 year: '2022'
 title: >-
-  UntSYBVEN impulsa la innovación en jóvenes con su sybcamp 2022: chatbot al
-  máximoitled
+  SYBVEN impulsa la innovación en jóvenes con su sybcamp 2022: chatbot al
+  máximo
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/sybven-jovenes-g.jpg
 image: >-
