@@ -26,7 +26,7 @@ week: '37'
 ---
 En el evento, la empresa abordará las tendencias y tecnologías para diversos segmentos, como la industria, las redes de energía inteligentes y el software
 
-Colombia, Septiembre de 2022 - Schneider Electric, líder global en transformación digital y gestión y automatización de la energía, anuncia su Innovation Summit World Tour 2022, un evento que abordará las tendencias y tecnologías para construir un mundo más resiliente y sostenible. 
+Schneider Electric, líder global en transformación digital y gestión y automatización de la energía, anuncia su Innovation Summit World Tour 2022, un evento que abordará las tendencias y tecnologías para construir un mundo más resiliente y sostenible. 
 
 Con el lanzamiento oficial el 22 de septiembre, la edición seguirá un formato diferente al de las anteriores. En esta ocasión, los paneles de conversaciones entre los invitados -profesionales y especialistas de distintos segmentos- se celebrarán y difundirán durante seis meses. A partir de septiembre de este año y hasta marzo de 2023, se debatirá sobre el escenario global de diversos sectores. Algunas de estas sesiones tendrán un "apartado" para Sudamérica.
 
