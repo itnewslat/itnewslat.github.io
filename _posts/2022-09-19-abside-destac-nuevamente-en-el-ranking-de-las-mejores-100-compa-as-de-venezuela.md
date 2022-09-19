@@ -44,12 +44,14 @@ ABSIDE es una empresa regional fundada en el 2011 por exmiembros SAP. Cuenta con
 De cara al futuro, ABSIDE promete mantener e incrementar los niveles de eficiencia, potenciando la innovación y las soluciones estratégicas para sus clientes.
 
 Más información en:
-Linkedin: **ABSIDE**
-YouTube: **absidecorp**
-Instagram: **@abside_corp**
-Facebook: **Abside**
-Twitter: **@absidecorp**
-Sitio web: [www.absidecorp.com](http://www.absidecorp.com)
+
+- Linkedin: **ABSIDE**
+- YouTube: **absidecorp**
+- Instagram: **@abside_corp**
+- Facebook: **Abside**
+- Twitter: **@absidecorp**
+- Sitio web: [www.absidecorp.com](http://www.absidecorp.com)
+
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Abside-100-p.jpg)
 
