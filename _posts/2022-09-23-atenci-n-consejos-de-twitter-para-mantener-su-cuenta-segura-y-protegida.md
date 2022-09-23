@@ -39,30 +39,30 @@ Para empezar, Twitter nunca te pedirá tu contraseña y únicamente te enviará 
 
 **¿Qué hacer si recibes un Mensaje Directo sospechoso?**
 
-- Repórtalo, porque va en contra de las Reglas de Twitter. Puedes reportar mensajes directos tocando y manteniendo presionado el mensaje en tu teléfono o haciendo clic en los 3 puntos junto al mensaje en la web.
+- [**Repórtalo**](https://help.twitter.com/es/safety-and-security/report-twitter-impersonation), porque va en contra de las Reglas de Twitter. Puedes reportar mensajes directos tocando y manteniendo presionado el mensaje en tu teléfono o haciendo clic en los 3 puntos junto al mensaje en la web.
 - No descargues ningún archivo adjunto, ni hagas clic en ningún enlace, y elimínalo de tu bandeja de entrada inmediatamente.
 - No compartas tu información de inicio de sesión fuera de los formularios oficiales de Twitter, incluida tu contraseña o código de inicio de sesión único.
-- Actualiza tu configuración para administrar quién puede enviarte mensajes privados. Recuerda que desde tu configuración; tú tienes el control y puedes optar por no aceptar Mensajes Directos de cualquier persona que no sigas.
-- Puedes encontrar más información sobre phishing aquí y más sobre la gestión de Mensajes Directos en este Hilo de @TwitterSeguro. 
+- Actualiza tu [**configuración**](https://help.twitter.com/es/using-twitter/direct-messages#video) para administrar quién puede enviarte mensajes privados. Recuerda que desde tu configuración; tú tienes el control y puedes optar por no aceptar Mensajes Directos de cualquier persona que no sigas.
+- Puedes encontrar más información sobre phishing [**aquí**](https://help.twitter.com/es/safety-and-security/fake-twitter-emails) y más sobre la gestión de Mensajes Directos en este [**Hilo de @TwitterSeguro**](https://twitter.com/twitterseguro/status/1494750982043058187). 
 
 **Si crees que tu cuenta pudo haber estado comprometida por un estafador, ¿cómo puedes mantenerla segura?**
 
-Cambia tu contraseña y usa una contraseña segura (al menos 10 caracteres, idealmente generada aleatoriamente y almacenada en un administrador de contraseñas).
-Agrega autenticación de dos factores a tu cuenta si aún no la tiene; esto ayudará a garantizar que tu seas la única persona que puede iniciar sesión en tu cuenta.
-Puedes leer más en esta publicación de blog. 
+[**Cambia tu contraseña**](https://help.twitter.com/es/safety-and-security/account-security-tips) y usa una contraseña segura (al menos 10 caracteres, idealmente generada aleatoriamente y almacenada en un administrador de contraseñas).
+[**Agrega autenticación de dos factores**](https://help.twitter.com/es/managing-your-account/two-factor-authentication) a tu cuenta si aún no la tiene; esto ayudará a garantizar que tu seas la única persona que puede iniciar sesión en tu cuenta.
+Puedes leer más en esta publicación de [**blog**](https://blog.twitter.com/en_sea/topics/events/2019/account-secure). 
 
 **Algunas buenas prácticas generales para mantener tu cuenta segura:**
 
-- Elige una contraseña segura que sea única para tu cuenta de Twitter.
-- Asegúrate de activar la autenticación de dos factores para obtener una capa adicional de seguridad.
+- Elige una [**contraseña**](https://help.twitter.com/es/safety-and-security/account-security-tips) segura que sea única para tu cuenta de Twitter.
+- Asegúrate de [**activar la autenticación de dos factores**](https://help.twitter.com/es/managing-your-account/two-factor-authentication) para obtener una capa adicional de seguridad.
  
   - Esto requiere que uses un código o clave de seguridad con tu contraseña para iniciar sesión y ayuda a garantizar que solo tú puedas acceder a tu cuenta. 
   - El uso de una clave de seguridad es la forma más sólida de proteger tu cuenta de estafadores y ataques de phishing.
 
-Siempre asegúrate de estar en twitter.com antes de ingresar tu información de inicio de sesión.
+Siempre asegúrate de estar en [**twitter.com**](https://twitter.com/) antes de ingresar tu información de inicio de sesión.
 Nunca compartas tu nombre de usuario, contraseña o contraseña de un solo uso con nadie, especialmente con aquellos que prometen cosas como la verificación, ayudarte a ganar dinero o ganar seguidores.
 Mantén el software de tu computador y el navegador actualizados con las últimas versiones.
-Más información sobre cómo responder si tu cuenta ha sido comprometida.
+Más información sobre cómo [**responder si tu cuenta ha sido comprometida**](https://help.twitter.com/es/safety-and-security/twitter-account-compromised).
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Twitter-Seguridad-p.jpg)
 
