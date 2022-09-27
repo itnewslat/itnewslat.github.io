@@ -12,7 +12,7 @@ title: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Comercio-Electronico-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Comercio-Electronicop.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Comercio-Electronico-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -67,5 +67,3 @@ A pocos meses de la fecha más importante del año, vale la pena que los negocio
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
-
