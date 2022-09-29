@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: 'UntitledCuatro consejos para lograr un proceso de venta segura '
+title: 'Cuatro consejos para lograr un proceso de venta segura'
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/laptop-g.jpg
 image: >-
