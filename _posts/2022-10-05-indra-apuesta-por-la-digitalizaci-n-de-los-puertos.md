@@ -26,9 +26,8 @@ week: '40'
 ---
 Luis Pérez Madariaga, responsable de Desarrollo de Negocio de Puertos de Indra, expuso en Trans-Port 2022, cómo el contexto actual contribuye a ampliar la zona de influencia de los puertos con servicios transversales y nuevos modelos de negocio apoyados en la tecnología
 
-·         Las soluciones tecnológicas de Indra ayudan en la operación de más de 70 puertos alrededor del mundo y en Chile se han utilizado en el Puerto de Valparaíso, incrementando su eficiencia y rentabilidad
-
-·         La compañía trabaja en el desarrollo de la Ventanilla Única Marítima (VUMAR), impulsada por el Ministerio de Transportes y Telecomunicaciones de Chile.
+- Las soluciones tecnológicas de Indra ayudan en la operación de más de 70 puertos alrededor del mundo y en Chile se han utilizado en el Puerto de Valparaíso, incrementando su eficiencia y rentabilidad
+- La compañía trabaja en el desarrollo de la Ventanilla Única Marítima (VUMAR), impulsada por el Ministerio de Transportes y Telecomunicaciones de Chile.
 
 Indra, una compañía líder global de ingeniería tecnológica para los sectores aeroespacial, de defensa y movilidad, ha señalado los avances que la digitalización de los puertos puede suponer en cuanto a la eficiencia y sostenibilidad del sector en Trans-Port 2022, VIII Congreso y Exhibición de la Industria Marítimo-Portuaria para Latinoamérica, que finalizó el pasado 29 de septiembre y tuvo como foco principal la innovación en torno a esta industria. La compañía ha puesto en valor el grado de digitalización que tienen los puertos de Chile, al que ha contribuido también con su tecnología.
  
