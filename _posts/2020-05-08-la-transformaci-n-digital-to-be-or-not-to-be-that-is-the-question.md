@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2020-05-08 12:19 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2020'
 title: 'La Transformación Digital, “to be, or not to be, that is the question”'
 image: >-
