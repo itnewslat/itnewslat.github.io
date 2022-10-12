@@ -26,7 +26,6 @@ week: '41'
 ---
 - Tribal Credit lanzará un programa de recompensas empresariales impulsado por blockchain
 
-
 Tribal Credit está lanzando su programa piloto Boomerang Rewards, el primer esquema de recompensas impulsado por blockchain para empresas en mercados emergentes
  
 Tribal Credit, compañía que ofrece soluciones financieras digitales 360° para empresas en mercados emergentes, anunció hoy el programa piloto de Boomerang Rewards, el primer programa de recompensas basado en blockchain. A través de Boomerang Rewards,  los clientes de Tribal Credit pueden ganar grandes recompensas por sus gastos empresariales realizados con sus tarjetas de crédito corporativas Visa Tribal.
