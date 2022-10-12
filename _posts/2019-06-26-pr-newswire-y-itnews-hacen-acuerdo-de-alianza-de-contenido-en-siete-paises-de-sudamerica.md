@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-09-17 09:37 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2019'
 title: >-
   PR Newswire y ITNEWS hacen acuerdo de alianza de contenido en siete paises de
