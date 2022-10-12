@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-08-13 08:58 -0500'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 title: 8va Conferencia de Analistas de Seguridad
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/KL-Panama.jpg
