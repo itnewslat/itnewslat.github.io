@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2022-07-21 12:19 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2022'
 title: 'SAP Innovation Day: reencuentro tecnológico con sabor venezolano'
 image: >-
