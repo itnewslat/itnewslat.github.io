@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2020-04-21 11:20 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2020'
 title: El Profesor de “La Casa de Papel” y su gestión empresarial
 image: >-
