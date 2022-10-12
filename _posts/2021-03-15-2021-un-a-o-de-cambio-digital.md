@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2021-03-15 12:53 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2021'
 title: '2021, UN AÑO DE CAMBIO DIGITAL'
 week: '11'
