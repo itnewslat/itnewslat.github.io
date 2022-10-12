@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2020-11-09 18:33 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2020'
 title: '4ta Revolución Industrial: El Triunfo de las Plataformas Digitales'
 image: >-
