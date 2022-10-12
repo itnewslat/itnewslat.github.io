@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-12-04 09:31 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2018'
 title: ¡Que no te engañen!
 week: '49'
