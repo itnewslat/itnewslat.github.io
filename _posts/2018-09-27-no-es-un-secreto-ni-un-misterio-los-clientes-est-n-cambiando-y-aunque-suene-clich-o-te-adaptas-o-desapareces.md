@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-09-27 17:56 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 title: "No es un secreto ni un misterio, los clientes están cambiando y aunque suene “cliché” o te adaptas\_o desapareces"
 categories:
   - Venezuela
