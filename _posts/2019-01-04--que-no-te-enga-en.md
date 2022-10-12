@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2019-01-04 15:48 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2019'
 title: ¡Que no te engañen!
 image: >-
