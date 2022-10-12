@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-10-08 19:52 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 title: ' ¿Para qué me ofrecen una tarjeta de crédito, si al aplicar a ella, me la niegan?'
 categories:
   - Venezuela
