@@ -10,7 +10,7 @@ title: Tecnologías avanzadas de embalaje de semiconductores en los centros de d
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Conexiones-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Conexiones--p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Conexiones-p.jpg
 categories:
   - Venezuela
   - Colombia
