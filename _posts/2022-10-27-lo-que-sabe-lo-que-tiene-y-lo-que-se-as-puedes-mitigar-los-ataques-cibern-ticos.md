@@ -37,6 +37,7 @@ Se trata de crear condiciones para que los usuarios puedan ingresar a los sistem
 
 
 Cada persona debe justificar su acceso a los activos digitales de la empresa, pues es claro que las organizaciones no deben confiar en nada que esté fuera ni dentro del perímetro de su red porque puede representar una amenaza de seguridad. Así, es posible reducir la posibilidad de daños en una época en donde 41 % de las empresas en América Latina alertan sobre un incremento en ciberataques, según el estudio Índice de Gestión de Acceso 2022 de Thales.
+
 Los riesgos están presentes en el día a día, pero también existen soluciones para mitigar con éxito las nuevas vulnerabilidades en los entornos corporativos y evitar millonarias pérdidas. Proteger los datos y la reputación de las empresas con herramientas de ciberseguridad, hoy no tiene discusión.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sergio-Muniz-p.jpg)
