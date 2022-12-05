@@ -7,8 +7,8 @@ superNews: false
 superArticle: false
 year: '2022'
 title: >-
-  UntitlJaguar TCS Racing presenta el I-TYPE 6, el auto de carreras totalmente
-  eléctrico más avanzado de la historiaed
+  Jaguar TCS Racing presenta el I-TYPE 6, el auto de carreras totalmente
+  eléctrico más avanzado de la historia
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/_I-TYPE-6-g.jpg
 image: >-
