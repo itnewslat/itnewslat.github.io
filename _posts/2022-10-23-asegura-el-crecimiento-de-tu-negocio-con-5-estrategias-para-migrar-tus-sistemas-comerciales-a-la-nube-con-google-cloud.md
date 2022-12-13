@@ -19,8 +19,6 @@ categories:
   - Ecuador
 tags:
   - Transformación Digital
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Abside-Cloud.jpg
 week: '43'
 ---
 Palabra clave: **Google Cloud**
