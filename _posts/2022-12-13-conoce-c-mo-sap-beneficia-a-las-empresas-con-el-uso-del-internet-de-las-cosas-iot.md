@@ -45,12 +45,12 @@ Estamos a disposición para acompañar a tu empresa a recorrer este camino, cont
 
 Más información en: 
 
-Sitio web: www.absidecorp.com
-Twitter **@absidecorp**
-YouTube: **ABSIDE**
-Instagram: **@abside_corp**
-Facebook: **@AbsideCorp**
-Linkedin: **ABSIDE**
+- Sitio web: www.absidecorp.com
+- Twitter **@absidecorp**
+- YouTube: **ABSIDE**
+- Instagram: **@abside_corp**
+- Facebook: **@AbsideCorp**
+- Linkedin: **ABSIDE**
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ABSIDE-IOT-p.jpg)
 
@@ -63,10 +63,3 @@ Linkedin: **ABSIDE**
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
-
-
-
-
-
-
