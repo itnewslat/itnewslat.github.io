@@ -24,7 +24,8 @@ tags:
   - Actualidad
 week: '51'
 ---
-Mejoras en la privacidad
+**Mejoras en la privacidad**
+
 - Además del cifrado de extremo a extremo predeterminado que mantiene todas las conversaciones privadas, este año, WhatsApp introdujo nuevas capas de protección.
 - Ocultar tu estado en línea: Ahora puedes controlar quién ve tu última conexión y si estás en línea desde la configuración de privacidad. Aquí, te indicamos cómo. 
 - Abandonar grupos en silencio: En lugar de notificar al grupo completo cuando te vas, ahora solo se notifica a los administradores.
