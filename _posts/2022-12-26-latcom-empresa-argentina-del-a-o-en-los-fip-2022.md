@@ -25,7 +25,7 @@ El FIP, certamen líder a nivel mundial, analiza y premia las mejores ideas cont
 
 “Estamos muy contentos con estos fantásticos resultados en los prestigiosos premios FIP en los que resultamos mejor Empresa del Año con campañas desarrolladas para grandes clientes como Chanel N°5 y Rappi, para los que venimos trabajando desde hace ya varios años.  Hemos recorrido un intenso 2022 y llegamos al cierre del año con resultados muy positivos. Estos premios nos confirman que vamos por el camino que nos hemos planteado desde un inicio, siempre apostando por el talento, la calidad, la innovación y la creatividad logrando campañas de calidad. Una especial mención a todos nuestros colaboradores con los que formamos un equipo que sin duda es el motor de todos nuestros logros”, comenta Valentín Bueno, CEO de Latcom.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/latcom-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Latcom-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
