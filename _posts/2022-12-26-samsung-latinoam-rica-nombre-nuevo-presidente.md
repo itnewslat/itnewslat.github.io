@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2022'
-title: Samsung Latinoamérica nombre nuevo presidente
+title: Samsung Latinoamérica nombra nuevo presidente
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sang-Jik-Lee-p.jpg
 detail-image: >-
