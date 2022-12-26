@@ -1,0 +1,111 @@
+---
+layout: posts
+color-schema: red-dark
+date: '2022-12-26 10:54 -0400'
+published: true
+superNews: false
+superArticle: false
+year: '2022'
+title: AWS anuncia seis nuevas capacidades de Amazon SageMaker
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/AWS-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/AWS-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Transformación Digital
+week: '52'
+---
+**La nueva capacidad de preparación de datos en los blocs de notas de Amazon SageMaker Studio ayuda a los clientes a visualmente inspeccionar y solucionar problemas de calidad de datos con unos pocos clics**
+
+Durante el AWS re: Invent, Amazon Web Services, Inc. (AWS), una empresa de Amazon.com, Inc. (NASDAQ: AMZN), anunció ocho nuevas capacidades para Amazon SageMaker, su servicio de Machine learning (ML) end to end.
+
+Los desarrolladores, científicos de datos y analistas de negocios utilizan Amazon SageMaker para crear, entrenar e implementar modelos de ML de forma rápida y sencilla mediante el uso de infraestructura, herramientas y flujos de trabajo completamente administrados. A medida que los clientes continúan innovando con ML, están creando más modelos que nunca y necesitan capacidades avanzadas para administrar de manera eficiente el desarrollo, el uso y el rendimiento de estos modelos. El anuncio de la compañía incluye nuevas capacidades de gobernanza de Amazon SageMaker que permiten la visibilidad del rendimiento del modelo a lo largo del ciclo de vida del ML.
+
+Las nuevas capacidades de Amazon SageMaker Studio Notebook, por ejemplo, brindan una experiencia de bloc de notas mejorada que permite a los clientes inspeccionar y abordar problemas de calidad de datos con solo unos pocos clics, facilitar la colaboración en tiempo real entre los equipos de ciencia de datos y acelerar el proceso de pasar de la experimentación a la producción al convertir código del bloc de notas en trabajos automatizados.
+
+“Hoy, decenas de miles de clientes de todos los tamaños y de todas las industrias confían en Amazon SageMaker. Los clientes de AWS crean millones de modelos con miles de millones de parámetros y generan billones de predicciones por mes. Muchos clientes están utilizando ML a una escala que no se conocía hace solo unos años”, dice Bratin Saha, vicepresidente de Inteligencia Artificial y Machine Learning de AWS. “Las nuevas capacidades de Amazon SageMaker anunciadas hoy facilitan aún más que los equipos agilicen el desarrollo y la implementación end to end de los modelos de ML. Desde herramientas de gobernanza especialmente diseñadas hasta una experiencia de bloc de notas de próxima generación y pruebas de modelos simplificadas hasta soporte mejorado para datos geoespaciales, estamos mejorando Amazon SageMaker para ayudar a los clientes a aprovechar el ML a escala”.
+
+La nube permitió el acceso a ML para más usuarios, pero hasta hace unos años, el proceso de creación, entrenamiento e implementación de modelos seguía siendo minucioso y tedioso, y requería una iteración continua por parte de pequeños equipos de científicos de datos durante semanas o meses antes de llegar a un modelo listo para producción. Amazon SageMaker se lanzó hace cinco años para abordar estos desafíos y, desde entonces, AWS ha agregado más de 250 funciones y capacidades nuevas para facilitar a los clientes el uso de ML en sus negocios.
+
+En la actualidad, algunos clientes emplean a cientos de profesionales que utilizan Amazon SageMaker para realizar predicciones que ayudan a resolver los desafíos más difíciles y así mejorar la experiencia del cliente, optimizar los procesos comerciales y acelerar el desarrollo de nuevos productos y servicios. A medida que ha aumentado la adopción de ML, también lo han hecho los tipos de datos que los clientes quieren usar, así como los niveles de control, automatización y calidad que los clientes necesitan para respaldar el uso responsable del ML. Estas nuevas capacidades, se basan en la historia de innovación de Amazon SageMaker para apoyar a profesionales de todos los niveles de habilidad alrededor del mundo.
+
+**Nuevas capacidades de gobernanza de ML en Amazon SageMaker**
+
+Amazon SageMaker ofrece nuevas capacidades que ayudan a los clientes a escalar más fácilmente la gobernanza a lo largo del ciclo de vida del modelo de ML. A medida que aumenta la cantidad de modelos y usuarios dentro de una organización, se vuelve más difícil establecer controles de acceso con privilegios mínimos y establecer procesos de gobernanza para documentar la información del modelo (por ejemplo, conjuntos de datos de entrada, información del entorno de entrenamiento, descripción del uso del modelo y calificación de riesgo). Una vez que se implementan los modelos, los clientes también deben monitorear el sesgo y la desviación de características para garantizar que funcionen como se espera.
+
+● **Amazon SageMaker Role Manager facilita el control del acceso y los permiso**s: Los controles de acceso de usuario adecuados son la piedra angular de la gobernanza y respaldan la privacidad de los datos, evitan fugas de información y garantizan que los profesionales puedan acceder a las herramientas que necesitan para hacer su trabajo. La implementación de estos controles se vuelve cada vez más compleja a medida que los equipos de científicos de datos aumentan a decenas o incluso cientos de personas.
+
+Los administradores de ML, personas que crean y monitorean los sistemas de ML de una organización, deben equilibrar el impulso para optimizar el desarrollo mientras controlan el acceso a tareas, recursos y datos dentro de los flujos de trabajo de ML. Hoy en día, los administradores crean hojas de cálculo o usan listas ad hoc para navegar por las políticas de acceso necesarias para docenas de actividades diferentes (preparación y entrenamiento) y funciones (ingeniero de ML y científico de datos).
+
+El mantenimiento de estas herramientas es manual y puede tomar semanas determinar las tareas específicas que los nuevos usuarios necesitarán para hacer su trabajo de manera efectiva. Amazon SageMaker Role Manager facilita a los administradores el control del acceso y la definición de permisos para los usuarios. De esta manera, los administradores pueden seleccionar y editar plantillas prediseñadas basados en las distintas funciones y responsabilidades de los usuarios. Luego, la herramienta crea automáticamente las políticas de acceso con los permisos necesarios en cuestión de minutos, lo que reduce el tiempo y el esfuerzo para incorporar y administrar usuarios.
+
+● **Amazon SageMaker Model Cards simplifica la recopilación de información del modelo**: Hoy en día, la mayoría de los profesionales confían en herramientas como correo electrónico, hojas de cálculo y archivos de texto para documentar los requisitos comerciales, las decisiones clave y las observaciones durante el desarrollo y la evaluación del modelo. Los profesionales necesitan esta información para respaldar los flujos de trabajo de aprobación, el registro, las auditorías, las consultas de los clientes y el seguimiento, pero puede llevar meses recopilar estos detalles para cada modelo. Algunos profesionales intentan resolver esto mediante la creación de sistemas complejos de mantenimiento de registros, que son manuales, requieren mucho tiempo y son propensos a errores.
+
+Amazon SageMaker Model Cards brinda un único lugar para almacenar información del modelo en la consola de AWS, lo que simplifica la documentación a lo largo del ciclo de vida. La nueva capacidad completa automáticamente los detalles del entrenamiento, como conjuntos de datos de entrada, entorno de entrenamiento y sus resultados, directamente en Amazon SageMaker Model Cards. Los profesionales también pueden incluir información adicional utilizando un cuestionario autoguiado para documentar la información del modelo (objetivos de desempeño o calificación de riesgo), los resultados del entrenamiento y la evaluación (medidas de sesgo o precisión) y registrar las observaciones para futuras referencias a fin de mejorar aún más la gobernanza y apoyar el uso responsable de ML.
+
+● **Amazon SageMaker Model Dashboard proporciona una interfaz central para realizar el seguimiento de los modelos de ML**: Una vez que un modelo se ha implementado en producción, los profesionales desean realizar el seguimiento de su modelo a lo largo del tiempo para comprender cómo funciona y detectar posibles problemas. Esta tarea normalmente se realiza de forma individual para cada modelo, pero a medida que las organizaciones comienzan a implementar miles de modelos, esto se vuelve cada vez más complejo y requiere más tiempo y recursos. Amazon SageMaker Model Dashboard proporciona una descripción general completa de los modelos y puntos de enlace implementados, lo que permite a los profesionales realizar el seguimiento de los recursos y modelar el comportamiento en un solo lugar. Desde el dashboard, los clientes también pueden usar integraciones con Amazon SageMaker Model Monitor (capacidad de monitoreo de desvío de datos y modelos de AWS) y Amazon SageMaker Clarify (capacidad de detección de sesgo de ML de AWS). Esta visibilidad end to end del comportamiento y el rendimiento del modelo proporciona la información necesaria para optimizar los procesos de gobernanza de ML y solucionar rápidamente los problemas de los modelos.
+
+**Notebooks de próxima generación**
+
+Amazon SageMaker Studio Notebook brinda a los profesionales una experiencia de bloc de notas completamente administrada desde la exploración de datos hasta la implementación. A medida que los equipos crecen en tamaño y complejidad, es posible que docenas de profesionales necesiten desarrollar modelos en colaboración utilizando blocs de notas. AWS continúa ofreciendo la mejor experiencia de bloc de notas para los usuarios con el lanzamiento de tres nuevas funciones que ayudan a los clientes a coordinar y automatizar el código de su bloc de notas.
+
+● **Preparación de datos simplificada**: Los profesionales quieren explorar conjuntos de datos directamente en blocs de notas para detectar y corregir posibles problemas de calidad (información faltante, valores extremos, conjuntos de datos sesgados) mientras preparan los datos para entrenamiento. Los profesionales pueden pasar meses escribiendo código repetitivo para visualizar y examinar diferentes partes de su conjunto de datos para identificar y solucionar problemas. Amazon SageMaker Studio Notebook ahora ofrece una capacidad de preparación de datos integrada que permite a los profesionales revisar visualmente las características de los datos y solucionar los problemas de calidad con solo unos pocos clics, todo directamente en el entorno de su bloc de notas. Cuando los usuarios muestran un marco de datos (una representación tabular de datos) en su bloc de notas, Amazon SageMaker Studio Notebook genera automáticamente gráficos para ayudar a los usuarios a identificar problemas de calidad y sugiere transformaciones para ayudar a solucionar problemas comunes. Una vez que el profesional selecciona una transformación de datos, Amazon SageMaker Studio Notebook genera el código correspondiente dentro del bloc de notas para que pueda aplicarse repetidamente cada vez que se ejecuta el bloc de notas.
+
+● **Colaboración acelerada entre los equipos de ciencia de datos**: Una vez que se han preparado los datos, los profesionales están listos para comenzar a desarrollar un modelo, un proceso iterativo que puede requerir que los compañeros de equipo colaboren en un solo bloc de notas. Hoy en día, los equipos deben intercambiar blocs de notas y otros activos (modelos y conjuntos de datos) por correo electrónico o aplicaciones de chat para trabajar juntos en tiempo real, lo que genera fatiga en la comunicación, ciclos de feedback retrasados y problemas de control de versiones. Amazon SageMaker ahora brinda a los equipos un espacio de trabajo donde pueden leer, editar y ejecutar blocs de notas juntos en tiempo real para optimizar la colaboración y la comunicación. Así, los compañeros de equipo pueden revisar juntos los resultados para comprender de inmediato cómo funciona un modelo sin pasar información de un lado a otro.
+
+Con soporte integrado para servicios como BitBucket y AWS CodeCommit, los equipos pueden administrar fácilmente diferentes versiones del bloc de notas y comparar cambios a lo largo del tiempo. Los recursos afiliados, como experimentos y modelos de ML, también se guardan automáticamente para ayudar a los equipos a mantenerse organizados.
+
+● **Conversión automática de código del bloc de notas a trabajos listos para producción**: Cuando los profesionales quieren mover un modelo de ML terminado a producción, generalmente copian fragmentos de código del bloc de notas en un script, empaquetan el script con todas sus dependencias en un contenedor y programan el contenedor para que se ejecute. Para que este trabajo se realice repetidamente según un cronograma, deben instalar, configurar y administrar un pipeline de integración y entrega continua (CI/CD) para automatizar sus implementaciones, lo cual puede llevar semanas configurar toda la infraestructura necesaria, quitándole tiempo valioso a las actividades principales de desarrollo de ML.
+
+● Amazon SageMaker Studio Notebook ahora permite a los profesionales seleccionar un bloc de notas y automatizarlo como un trabajo que puede ejecutarse en un entorno de producción. Una vez que se selecciona un bloc de notas, Amazon SageMaker Studio Notebook toma una instantánea de todo el bloc de notas, empaqueta sus dependencias en un contenedor, construye la infraestructura, ejecuta el bloc de notas como un trabajo automatizado en un cronograma establecido por el profesional y desaprovisiona la infraestructura en el momento que se termina el trabajo, lo que reduce el tiempo que se tarda en mover un bloc de notas a producción de semanas a horas.
+
+Para comenzar a utilizar la próxima generación de bloc de notas Amazon SageMaker Studio y estas nuevas capacidades, visite aws.amazon.com/sagemaker/studio/notebooks.
+
+**Validación automatizada de nuevos modelos mediante solicitudes de inferencia en tiempo real**
+
+Los profesionales prueban y validan cada modelo antes de implementarlo en producción para verificar el rendimiento e identificar errores que podrían afectar negativamente al negocio. Por lo general, utilizan datos de solicitudes de inferencia históricas para probar el rendimiento de un nuevo modelo, pero estos datos a veces no tienen en cuenta las solicitudes de inferencia actuales del mundo real. Por ejemplo, los datos históricos de un modelo ML para planificar la ruta más rápida pueden no tener en cuenta un accidente o un cierre repentino de la carretera que altere significativamente el flujo de tráfico. Para abordar este problema, los profesionales enrutan una copia de las solicitudes de inferencia que está yendo a un modelo de producción al nuevo modelo que quieren probar. Puede llevar semanas construir esta infraestructura de prueba, duplicar las solicitudes de inferencia y comparar el rendimiento de los modelos en métricas clave (latencia y rendimiento). Si bien esto brinda a los profesionales una mayor confianza en el rendimiento del modelo, el costo y la complejidad de implementar estas soluciones para cientos o miles de modelos lo hacen inescalable.
+
+Amazon SageMaker Inference ahora ofrece una capacidad para que a los profesionales les resulte más fácil comparar el rendimiento de nuevos modelos con los modelos de producción, utilizando los mismos datos de solicitud de inferencia del mundo real en tiempo real. De esta forma, pueden escalar fácilmente sus pruebas a miles de nuevos modelos simultáneamente, sin construir su propia infraestructura de pruebas.
+
+Para comenzar, un cliente selecciona el modelo de producción con el que desea realizar la prueba y Amazon SageMaker Inference implementa el nuevo modelo en un entorno de hosting con exactamente las mismas condiciones. Amazon SageMaker enruta una copia de las solicitudes de inferencia recibidas por el modelo de producción al nuevo modelo y crea un dashboard para mostrar las diferencias de rendimiento en las métricas clave, de modo que los clientes puedan ver cómo difiere cada modelo en
+
+tiempo real. Una vez que el cliente valida el rendimiento del nuevo modelo y está seguro de que no tiene errores potenciales, puede implementarlo.
+
+Para obtener más información sobre Amazon SageMaker Inference, visite aws.amazon.com/sagemaker/deploy.
+
+Las nuevas capacidades geoespaciales de Amazon SageMaker facilitan a los clientes la realización de predicciones usando datos de localización y de satélites
+
+Hoy en día, la mayoría de los datos capturados tienen información geoespacial (coordenadas de ubicación, mapas meteorológicos y datos de tráfico), pero solo una pequeña cantidad se usa para propósitos de ML porque es difícil trabajar con conjuntos de datos geoespaciales y, a menudo, pueden tener un tamaño de petabytes y abarcar ciudades enteras o cientos de acres de tierra.
+
+Para comenzar a construir un modelo geoespacial, los clientes suelen aumentar sus datos propios mediante la adquisición de fuentes de datos de terceros, como imágenes satelitales o datos de mapas. Los profesionales deben combinar estos datos, prepararlos para entrenamiento y luego escribir código para dividir los conjuntos de datos en subconjuntos manejables debido al enorme tamaño de los datos geoespaciales. Una vez que los clientes están listos para implementar sus modelos entrenados, deben escribir más código para recombinar múltiples conjuntos de datos para correlacionar los datos y las predicciones del modelo ML. De esta forma, extraen predicciones de un modelo terminado y los profesionales deben pasar días usando herramientas de visualización de código abierto. Todo el proceso, desde el enriquecimiento de datos hasta la visualización, puede llevar meses, lo que dificulta que los clientes aprovechen los datos geoespaciales y generen predicciones de ML oportunas.
+
+Amazon SageMaker ahora acelera y simplifica la generación de predicciones geoespaciales con ML al permitir que los clientes enriquezcan sus conjuntos de datos, entrenen modelos geoespaciales y visualicen los resultados en horas en lugar de meses. Con solo unos pocos clics o mediante una API, los clientes pueden usar Amazon SageMaker para acceder a una variedad de fuentes de datos geoespaciales de AWS (como Amazon Location Service), proveedores externos de confianza (como Planet Labs) y conjuntos de datos de código abierto (como los datos abiertos de Amazon).
+
+Una vez que un profesional ha seleccionado los conjuntos de datos que desea utilizar, puede aprovechar los operadores integrados para combinar estos conjuntos de datos con sus propios datos. Para acelerar el desarrollo de modelos, Amazon SageMaker brinda acceso automáticamente a modelos de aprendizaje profundo previamente entrenados para casos de uso, como aumentar el rendimiento de los cultivos con agricultura de precisión, monitorear áreas después de desastres naturales y mejorar la planificación urbana. Después del entrenamiento, la herramienta de visualización integrada muestra datos en un mapa para descubrir nuevas predicciones. Para obtener más información sobre las nuevas capacidades geoespaciales de Amazon SageMaker, visite aws.amazon.com/sagemaker/geoespacial.
+
+**Algunos de los clientes de la compañía que ya están implementando las nuevas capacidades son**:
+
+HERE Technologies, una plataforma líder de tecnología y datos de localización que ayuda a los clientes a crear mapas personalizados y experiencias de localización basadas en datos de alta precisión. “Nuestros clientes necesitan contexto en tiempo real a medida que toman decisiones comerciales aprovechando insights de patrones y tendencias espaciales”, dijo Giovanni Lanfranchi, director de productos y tecnología de HERE Technologies. “Confiamos en el ML para automatizar la ingesta de datos basados en la localización de diversas fuentes para enriquecerlos con contexto y acelerar el análisis. Las nuevas capacidades de prueba de Amazon SageMaker nos permitieron probar de manera más rigurosa y proactiva los modelos de ML en producción y evitar un impacto adverso en el cliente y cualquier posible interrupción debido a un error en los modelos implementados. Esto es fundamental, ya que nuestros clientes confían en nosotros para brindarles información oportuna basada en datos de ubicación en tiempo real que cambian cada minuto”.
+
+Intuit es una plataforma de tecnología financiera global que atiende a más de 100 millones de clientes en todo el mundo ayudándolos a ser más prósperos con TurboTax, Credit Karma, QuickBooks y Mailchimp. “Estamos liberando el poder de los datos para transformar el mundo de las finanzas de autónomos y pequeñas empresas en nuestra plataforma”, comentó Brett Hollman, director de ingeniería y desarrollo de productos de Intuit. “Para mejorar aún más la eficiencia de los equipos y llevar productos impulsados por IA con rapidez, hemos trabajado en estrecha colaboración con AWS en el diseño de las nuevas capacidades de colaboración basadas en equipos de SageMaker Studio Notebooks. Estamos entusiasmados de optimizar la comunicación y la colaboración para permitir que nuestros equipos escalen el desarrollo de ML con Amazon SageMaker Studio”.
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/AWS-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
