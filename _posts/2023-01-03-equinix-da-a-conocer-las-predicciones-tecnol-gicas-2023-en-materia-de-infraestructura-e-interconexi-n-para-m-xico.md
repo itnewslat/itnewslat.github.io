@@ -52,4 +52,15 @@ Este enfoque continúa evolucionando y veremos más de su desarrollo en 2023, co
 
 “Definitivamente, en 2023 las empresas mexicanas continuarán modernizando su infraestructura tanto para optimizar su operación y procesos como atender las necesidades de digitalización de sus clientes. Equinix seguirá trabajando en convertirse en ese aliado tecnológico que buscan las organizaciones para la optimización de su infraestructura y agilizar la interconexión de los diferentes sistemas al ecosistema digital de servicios global para que continúen creciendo y lleguen a otros mercados”, dijo Amet Novillo, Director General de Equinix México.  
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Amet-Novillo-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>![image](https://user-images.githubusercontent.com/22596138/210412090-fc6fb3cd-d8ef-471e-9cf6-74b77fe2cd96.png)
 
