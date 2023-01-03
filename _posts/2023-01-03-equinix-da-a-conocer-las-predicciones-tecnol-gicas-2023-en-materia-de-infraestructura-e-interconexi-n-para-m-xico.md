@@ -62,5 +62,4 @@ Este enfoque continúa evolucionando y veremos más de su desarrollo en 2023, co
 </tbody>
 </table>
 
-<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>![image](https://user-images.githubusercontent.com/22596138/210412090-fc6fb3cd-d8ef-471e-9cf6-74b77fe2cd96.png)
-
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
