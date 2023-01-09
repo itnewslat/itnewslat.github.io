@@ -8,9 +8,9 @@ superArticle: false
 year: '2023'
 title: 'Tendencias tecnológicas 2023: de la orientación al cliente a ESG'
 image: >-
-  https://github.com/itnewslat/assets/blob/master/img/540x320/Jose-Augusto-Gabizo-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jose-Augusto-Gabizo-p.jpg
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/Jose-Augusto-Gabizo-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Jose-Augusto-Gabizo-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -85,7 +85,7 @@ Las organizaciones globales son cada vez más conscientes de la necesidad de ali
 
 Al final de esta reflexión, es posible ver que las tendencias están todas interrelacionadas y conectadas como facilitadoras e impulsoras de negocios y mercados, teniendo al cliente como punto focal de la estrategia. Es importante estar al día sobre los nuevos desarrollos y usos de las tecnologías y, sobre todo, monitorear las demandas y evolución del mercado.
 
-![](https://github.com/itnewslat/assets/blob/master/img/540x320/Jose-Augusto-Gabizo-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Jose-Augusto-Gabizo-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
