@@ -25,7 +25,9 @@ tags:
 week: '02'
 ---
 El Spyware, los ataques disruptivos y dialers, son algunas de las modalidades de ataque organizacional que tienen como finalidad robar datos y extorsionar compañías. 
+
 Frente a los desafíos de seguridad que enfrentan las organizaciones, Prosegur Research comparte un mapa de las principales tipologías delictivas que amenazan a la industria moderna.
+
 Bogotá, 10 de enero de 2023 - A raíz de la transformación digital y el acelerado ritmo de la digitalización, las organizaciones se enfrentan a nuevos desafíos que potencialmente pueden afectar su operación, poniendo en riesgo su información, confianza y hasta su supervivencia. 
  
 En respuesta a un escenario dinámico y marcado por amenazas organizacionales físicas y digitales, Prosegur, empresa líder global en servicios de seguridad, y Prosegur Research crearon un mapa con las principales tipologías delictivas cometidas en las organizaciones, permitiendo explorar las realidades a las que se enfrentan el entorno. 
