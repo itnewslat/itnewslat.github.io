@@ -32,13 +32,7 @@ Después de ver The Last of Us, muchos espectadores sin duda querrán jugar este
  
 Los ciberdelincuentes se aprovechan constantemente del desconocimiento del público. Los investigadores de Kaspersky encontraron un sitio que ofrece descargar The Last of Us Parte 2 en PC. Los usuarios que no sepan que esta versión del juego aún no está disponible para computadores descargarán un archivo malicioso en lugar del juego real. Éste puede esconderse en la máquina del usuario sin ser detectado durante años (no sabrás que algo va mal porque puede que no cause ningún daño visible, simplemente hará su trabajo silenciosamente).
 
-Los ciberdelincuentes ofrecen descargar "The Last of Us Parte 2", cuyo lanzamiento para PC aún no se ha anunciado.
-
-
 Los expertos de la compañía también descubrieron un sitio de phishing que ofrece un código de activación para el videojuego. Para descargar el archivo con el código, se pide a los usuarios que elijan uno de los "regalos" que recibirán junto con el juego: por ejemplo, una PlayStation 5 nueva o una tarjeta de regalo de Roblox de 100 dólares. Sin embargo, después se les pide que introduzcan sus credenciales y los datos de su tarjeta bancaria para pagar una comisión. Al dar su información, los cibercriminales robarán su dinero y utilizarán sus datos personales en otras estafas.
-
-Junto con el código del juego, se pide a los usuarios que elijan entre una lista de tentadores regalos para cualquier jugador.
-
 
 "The Last of Us será un auténtico boom a inicios de este año, teniendo en cuenta el tiempo que millones de fans llevan esperando la serie. Curiosamente, ahora, en lugar de ofrecer un acceso previo a la serie, los ciberdelincuentes han elegido un camino diferente y están distribuyendo archivos maliciosos aparentando ser un videojuego. Esto demuestra que los jugadores, especialmente los nuevos, que aún no saben lo suficiente sobre ciberseguridad a la hora de jugar, se encuentran entre el principal público objetivo de los criminales, a quienes se les ocurrirán más formas de explotarlos. Mantente alerta y comprueba si tu ansiado juego está disponible en la plataforma ofrecida, descarga juegos solo de tiendas de aplicaciones oficiales y no olvides utilizar una solución de seguridad de confianza", comenta Olga Svistunova, experta en seguridad de Kaspersky.
  
