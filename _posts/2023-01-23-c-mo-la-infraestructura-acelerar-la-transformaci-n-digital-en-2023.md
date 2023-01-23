@@ -24,7 +24,6 @@ tags:
   - Transformación Digital
 week: '04'
 ---
-
 Los proyectos de infraestructura digital permitirán casos de uso transformadores a escala global.
 
 El comienzo de un nuevo año es el momento perfecto para hacer una pausa y considerar qué sigue para la transformación digital. Los líderes de la industria lo han estado discutiendo durante años, pero estamos viendo algunas cifras de inversión sorprendentes que muestran cuánto se acelerará la economía digital en los próximos años. 
