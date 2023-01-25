@@ -12,14 +12,7 @@ detail-image: >-
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ecommers-celular-p.jpg
 categories:
-  - Venezuela
   - Colombia
-  - Argentina
-  - Perú
-  - Ecuador
-  - Chile
-  - Panama
-  - Mexico
 tags:
   - Economía Digital
 week: '04'
