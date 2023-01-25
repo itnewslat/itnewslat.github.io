@@ -26,7 +26,7 @@ tags:
   - Transformación Digital
 week: '04'
 ---
-STP Consultores,  Partner Platinum de Dell Technologies en Venezuela, arrancó el 2023 con la mirada puesta en las recomendaciones de Gartner
+STP Consultores, Partner Platinum de Dell Technologies en Venezuela, arrancó el 2023 con la mirada puesta en las recomendaciones de Gartner
 
 STP Consultores,  Partner Platinum de Dell Technologies en Venezuela, arrancó el 2023 con la mirada puesta en las recomendaciones de Gartner, organizando  su primer seminario del año con el tema “El Impacto de la Inteligencia Artificial en la Empresa”
 
@@ -38,7 +38,7 @@ En su intervención el Dr. Enrique Rodríguez, expresó que STP Consultores ha v
 
 Asimismo,  ofreció un análisis sobre el ¿dónde estamos? en materia de IA pospandemia, haciendo énfasis en que la respuesta es que “estamos cerca de la guerra de las galaxias”  pues ya hemos visto “cómo robots pueden ser asistentes virtuales, cómo se logra estudiar el cáncer y detectarlo, la fusión nuclear que puede generar luz, entre muchos otros ejemplos”, dijo el experto.
 
-Por su parte Enrique Montes, enfocó su ponencia en los graves problemas de extorsión que están viviendo las corporaciones con data center vulnerables, bien por la no renovación de licenciamientos;  o por la impericia del personal al abrir vínculos capaces de extraer la data de estas instituciones, empresas o gobierno, entre otros, dejando la puerta abierta a un modus operandi que actúa rápidamente cobrando para devolver la data y que exige rescate en criptomonedas, sin ser este pago una garantía de la devolución de esta data o la totalidad de la misma.
+Por su parte Enrique Montes, enfocó su ponencia en os graves problemas de extorsión que están viviendo las corporaciones con data center vulnerables, bien por la no renovación de licenciamientos;  o por la impericia del personal al abrir vínculos capaces de extraer la data de estas instituciones, empresas o gobierno, entre otros, dejando la puerta abierta a un modus operandi que actúa rápidamente cobrando para devolver la data y que exige rescate en criptomonedas, sin ser este pago una garantía de la devolución de esta data o la totalidad de la misma.
 
 En ese orden destacó que STP Consultores, como  Partner Platinum de Dell Technologies ya está en condiciones de brindar la protección necesaria a través de la implementación del “Power Protect Cyber Recovery Solution” , que ofrece un ambiente de respaldo basado en Resiliencia Cibernética donde solo en tres pasos se puede activar una bóveda de seguridad que permite el respaldo seguro e intacto de la data que se sincroniza de forma espontánea y frecuente desde la fuente principal.
 
