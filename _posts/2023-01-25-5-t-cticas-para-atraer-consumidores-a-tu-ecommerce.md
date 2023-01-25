@@ -29,19 +29,19 @@ Para Ecomsur, mejor agencia de Ecommerce en Colombia, existen procesos y táctic
 
 En ese sentido, algunas tácticas para que un Ecommerce sea exitoso en el 2023, de acuerdo con el experto son: 
  
-**1) Implementar CRM como matriz**
+**1 Implementar CRM como matriz**
 Un Customer Relationship Management, es la herramienta que ayuda a una marca a gestionar de manera óptima la relación con sus clientes, pues permite el registro de datos de quienes visitan el Ecommerce, compran y buscan el contacto directo con una marca (chatbots, SMS, email, etc). Una vez que se analizan dicho datos un CRM se conoce el comportamiento del consumidor lo que ayuda a la generación de estrategias más centradas en el cliente.
 
-**2) Personalización para un acercamiento con el cliente**
+**2 Personalización para un acercamiento con el cliente**
 El consumidor es cada vez más exigente que puede buscar cosas en su día a día y que le gusta saber que su marca lo reconoce como uno solo, en este sentido una táctica ideal comprende la personalización en las estrategias de marketing que se implementen. Por ejemplo: una comunicación en el aniversario de la primera fecha de compra o el cumpleaños del consumidor siempre es bien valorada y logra una relación más estrecha con quien recibe los mensajes. 
 
-**3) Optimización del sitio para aumentar tasa de conversión**
+**3 Optimización del sitio para aumentar tasa de conversión**
 La tasa de conversión es uno de los indicadores más importantes para evaluar un ecommerce y para optimizarla existen diferentes acciones dentro de un sitio web que incentivarán la compra en los visitantes, tales como: usar call to actions, ofrecer garantía, eliminar distractores, simplificar el proceso de compra y crear un sentido de urgencia, entre otros. 
 
-**4) Transformar SAC por CX**
+**4 Transformar SAC por CX**
 Un Servicio de Atención a Clientes siempre es vital, sin embargo la manera en la que se conocía a éste como hasta hace unos años ha quedado obsoleta frente a la era digital; por ello, más allá de un SAC, las marcas deben considerar el Customer Experience, es decir, enfocarse en un servicio al cliente bueno sin importar por el medio en que contacte a la marca (correo, RRSS, chatbot, etc.) la agilidad en este proceso ya se para resolver dudas, reclamos y dar seguimiento a una compra, es clave. 
 
-**5) Accesibilidad para todos los consumidores**
+**5 Accesibilidad para todos los consumidores**
 Pocas marcas lo toman con la relevancia que se requiere, perdiendo de vista que la tecnología puede ayudar a personas con dislexia, discapacidad audiovisual, gente sin audición, personas mayores, entre otros. Estos potenciales compradores tomarán preferencia por aquellas marcas que brinden alternativas que se adapten a sus necesidades, ya sea por medio de los portales web que tienen información clara y estructurada de una manera optimizada, como con aquellos que cuentan con canales de contacto suficientes o que ofrezcan una experiencia de navegación pensada para ellos. Además, cuando una marca es empática en este sentido, adquiere un valor agregado para todo el público meta. 
 
 En síntesis, el Ecommerce implica diseñar una estrategia integral que vaya desde lo macro con conceptos como Fullcommerce y la Omnicanalidad, hasta lo micro con acciones que piensen hasta en las mínimas exigencias que puede requerir un consumidor en una rutina de vida constantemente cambiante. 
