@@ -2,11 +2,27 @@
 layout: posts
 color-schema: red-dark
 date: '2023-01-25 06:37 -0500'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2023'
 title: Appgate anuncia a Leo Taddeo como nuevo CEO de la compañía
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Leo-Taddeo-g.jpg
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Leo-Taddeo-p.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Actualidad
+week: '04'
 ---
 La amplia y especializada experiencia del ejecutivo en el sector de la ciberseguridad, lo convierte en una persona especialmente cualificada para dirigir estrategias de crecimiento visionarias que continúen impulsando el liderazgo de Appgate.
 
@@ -20,3 +36,14 @@ Taddeo se licenció en Física Aplicada en 1987 por el Instituto Politécnico Re
 
 “La amplia y especializada experiencia de Leo en el sector de la ciberseguridad lo convierte en una persona especialmente cualificada para dirigir estrategias de crecimiento visionarias que seguirán impulsando el reconocido liderazgo de Appgate en el mercado de los servicios de acceso Zero Trust, prevención del fraude y asesoramiento sobre amenazas. A título personal, he trabajado con Leo durante muchos años y confío en su capacidad para dirigir Appgate hacia su próximo capítulo de éxito”, afirmó Manny Medina, presidente ejecutivo de Appgate
 
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Leo-Taddeo-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
