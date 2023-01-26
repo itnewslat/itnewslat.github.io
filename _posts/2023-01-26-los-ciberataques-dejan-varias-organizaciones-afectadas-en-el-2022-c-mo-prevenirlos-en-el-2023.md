@@ -30,7 +30,7 @@ Durante el 2022 se incrementó en un 133% el secuestro de datos según Lumu Tech
 
 Más de 30 empresas en Colombia fueron víctimas de ciberataques durante ese mismo año.
 
-Colombia, enero de 2023. Durante el 2022, según Lumu Technologies, hubo un incremento del 133% en el número de instituciones afectadas por ransomware (secuestros de datos) en Colombia, en comparación al año anterior. Además, fueron más de 30 empresas las que confirmaron haber sufrido ciberataques. 
+Durante el 2022, según Lumu Technologies, hubo un incremento del 133% en el número de instituciones afectadas por ransomware (secuestros de datos) en Colombia, en comparación al año anterior. Además, fueron más de 30 empresas las que confirmaron haber sufrido ciberataques. 
 
 Frente a este preocupante panorama, Infobip, plataforma de comunicaciones en la nube, explica que los ciberataques afectan a empresas de todos los sectores, a través de una amplia gama de delitos, ejecutados por modalidades como: 
 
