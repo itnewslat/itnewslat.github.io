@@ -10,9 +10,9 @@ title: >-
   Tendencias digitales empresariales para 2023 en Colombia: Meta realidades, IoT
   y marketing automatizado 
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/IDtechex-resaerch-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/tendencias-youtubeh-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/IDtechex-resaerch-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/tendencias-youtube-p.jpg
 categories:
   - Colombia
 tags:
@@ -45,7 +45,7 @@ El comercio electrónico  cada vez toma más fuerza y su crecimiento es acelerad
 
 En este sentido, SM Digital está lista para ayudar a las empresas a adaptarse y aprovechar al máximo estas tendencias digitales en Colombia. De acuerdo con su gerente general, el evento "Tendencias Digitales" será una oportunidad única para obtener información valiosa  llevar los negocios al siguiente nivel gracias a la vinculación de las herramientas tecnológicas en todos los procesos. 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/IDtechex-resaerch-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/tendencias-youtube-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
