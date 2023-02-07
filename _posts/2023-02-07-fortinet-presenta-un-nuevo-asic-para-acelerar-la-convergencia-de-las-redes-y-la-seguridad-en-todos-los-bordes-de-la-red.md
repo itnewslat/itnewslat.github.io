@@ -31,8 +31,6 @@ El sistema de quinta generación ofrece en un chip (SoC5) niveles incomparables 
 Ken Xie, Fundador, presidente de la Junta, y CEO en Fortinet
 “Con la introducción de FortiSP5, Fortinet una vez más establece récords en la industria en términos de rendimiento, costo y eficiencia energética. Como el único proveedor de ciberseguridad que aprovecha los ASIC especialmente diseñados (una inversión de más de 20 años en innovación), Fortinet ofrece la potencia informática segura que respaldará la próxima generación de infraestructura de seguridad”.
  
-
- 
 Innovación sin precedente en rendimiento de chip personalizado
 Con un diseño específico de aplicación y procesadores multinúcleo integrados para acelerar la convergencia de las funciones de red y seguridad, FortiSP5 ofrece:
 
