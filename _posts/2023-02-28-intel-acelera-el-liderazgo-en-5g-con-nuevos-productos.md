@@ -26,14 +26,6 @@ week: 09
 ---
 En el MWC 2023, Intel muestra el apoyo de los principales operadores, OEM e ISV para el nuevo silicio y software
 
-**PUNTOS DESTACADOS**
-
-- La empresa presenta los procesadores Intel® Xeon® Scalable de 4ª generación con Intel vRAN Boost, que brindan el doble de capacidad que la generación anterior dentro de la misma envoltura de energía1 y hasta un 20% más de ahorro de energía2 con aceleración integrada, lo que satisface las demandas críticas de rendimiento, dimensionamiento y eficiencia energética.
-- Elaborado en colaboración con SK Telecom, Intel anunció Intel® Infrastructure Power Manager para el software de referencia 5G, que brinda un ahorro promedio de energía para CPU del 30% en run-time3.
-- Intel anunció un rendimiento innovador al demostrar el primer rendimiento de carga de trabajo de la función de plano de usuario (UPF) 5G de 1 terabit por segundo4 (Tbps) de la industria en los procesadores Intel Xeon Scalable de 4ª generación.
-- Para ayudar aún más a los operadores de redes a brindar servicios innovadores en sus plataformas en los bordes de las redes, Intel presentó Intel® Converged Edge Media Platform.
-- Para soluciones programables de red y nube, Intel continuó expandiendo la familia Intel Agilex® 7 de FPGAs y dispositivos estructurados eASIC.
-
 Durante más de una década, Intel y sus socios han tenido la misión de virtualizar redes en todo el mundo, desde sus núcleos hasta RANs (Redes de Acceso por Radio) y bordes, moviéndolas de hardware de función fija a plataformas definidas por software, programables, haciéndolas más ágiles, menos complejas y de menor costo.
 
 Ahora, los operadores buscan superar el próximo obstáculo y ofrecer funcionalidades nativas de la nube para automatizar, administrar y responder a una combinación cada vez más diversa de datos y servicios, asegurando que las organizaciones tengan la inteligencia que necesitan en los bordes de sus operaciones.
