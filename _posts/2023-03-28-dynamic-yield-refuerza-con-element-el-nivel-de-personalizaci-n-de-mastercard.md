@@ -26,7 +26,7 @@ week: '13'
 ---
 Los modelos predictivos de Mastercard y los datos agregados de gasto aumentan la personalización en los canales digitales para los clientes con Experience OS
 
-Purchase, NY, marzo 2023.- Dynamic Yield ha lanzado Element, un conjunto exclusivo de aplicaciones y extensiones de Mastercard, integradas en el sistema operativo Experience OS, de Dynamic Yield.
+Dynamic Yield ha lanzado Element, un conjunto exclusivo de aplicaciones y extensiones de Mastercard, integradas en el sistema operativo Experience OS, de Dynamic Yield.
 
 A medida que crece la demanda de personalización por parte del consumidor, las marcas deben adaptar su estrategia para ofrecer experiencias únicas. Los modelos predictivos propios de Mastercard, así como los datos de gasto, permitirán a sus clientes (empresas de retail, servicios financieros y otros sectores) ofrecer mayor personalización a través de todos los canales digitales.
 
