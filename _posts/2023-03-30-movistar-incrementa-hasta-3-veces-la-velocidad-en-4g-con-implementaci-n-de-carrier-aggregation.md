@@ -10,9 +10,9 @@ title: >-
   Movistar incrementa hasta 3 veces la velocidad en 4G+ con implementación de
   Carrier Aggregation
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/MovistarARGg.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/telefonica-ccs-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/MovistarARGp.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/telefonica-ccs-p.jpg
 categories:
   - Venezuela
 tags:
@@ -31,7 +31,7 @@ Para verificar si el dispositivo móvil soporta agregación de portadoras, el us
 
 La empresa de telecomunicaciones continua su ruta de actualización tecnológica, ejecutando acciones para reforzar la conectividad de sus clientes.  Actualmente, cuenta con más de 90% de sus mercados con cobertura 4G.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/MovistarARGp.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/telefonica-ccs-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
