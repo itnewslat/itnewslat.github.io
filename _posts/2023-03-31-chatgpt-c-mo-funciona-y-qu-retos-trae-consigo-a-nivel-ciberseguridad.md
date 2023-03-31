@@ -24,8 +24,6 @@ tags:
   - Actualidad
 week: '13'
 ---
-ChatGPT, cómo funciona y qué retos trae consigo a nivel 
-
 Estas últimas semanas hemos oído hablar mucho sobre el ChatGPT o su reciente nueva versión GPT-4 y cómo este chat basado en inteligencia artificial puede llegar a trasformar la manera en la que nos comunicamos con los buscadores tradicionales, creamos textos, enviamos mensajes etc. La forma en la que opera está basada en un modelo de lenguaje con más de 175 millones de parámetros, entrenado con grandes cantidades de texto para realizar tareas relacionadas con el lenguaje, desde la traducción hasta la generación de texto, utilizando algoritmos de inteligencia artificial (IA) como Procesamiento de Lenguaje Natural #NPL, entre otros.
  
 Esto convierte a ChatGPT en una IA generativa, capaz de replicar la forma de pensar de una persona, creando así contenido, y si bien está tecnología desarrollada por la empresa Open AI, puede traducirse en un sinfín de beneficios, trae consigo importantes retos a nivel seguridad, igual que cualquier tecnología emergente que opere en el ciberespacio.
