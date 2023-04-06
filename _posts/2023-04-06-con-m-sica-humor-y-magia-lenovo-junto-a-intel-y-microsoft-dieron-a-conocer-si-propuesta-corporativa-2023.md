@@ -21,7 +21,6 @@ week: '14'
 ---
 - Se trata de los equipos ThinkCentre Neo, ThinkStation P360 y Portafolio ThinkBook, que apuntan a aumentar la productividad y creatividad de los colaboradores de empresas corporativas, aportando lo último en tecnología, seguridad y trabajo híbrido.
 
-
 Con una fiesta donde los asistentes pudieron disfrutar de música en vivo, magia, humor, juegos y variadas opciones gastronómicas, Lenovo junto a sus partners Intel y Microsoft, lanzaron los equipos ThinkCentre Neo y ThinkStation P360, junto con la exhibición del Portafolio ThinkBook.
 
 El evento, bautizado como Private Fest 2023, se realizó al aire libre en la explanada del domo del Parque Araucano y contó con cientos de asistentes que conocieron en vivo las características y beneficios de estos nuevos productos. Todo en un ambiente festivo, muy diferente a las formales y frías presentaciones de tecnología que se suelen realizar.
