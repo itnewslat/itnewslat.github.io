@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2023-02-13 19:50 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2023'
 title: >-
