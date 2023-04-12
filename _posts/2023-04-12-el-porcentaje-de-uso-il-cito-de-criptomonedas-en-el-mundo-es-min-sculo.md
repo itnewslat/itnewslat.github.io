@@ -7,8 +7,10 @@ superNews: false
 superArticle: false
 year: '2023'
 title: El porcentaje de uso ilícito de criptomonedas en el mundo es minúsculo
-detail-image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/?-g.jpg'
-image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/?-p.jpg'
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/%3F-g.jpg
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/%3F-p.jpg
 categories:
   - Venezuela
   - Colombia
@@ -38,7 +40,7 @@ Un informe de la empresa de inteligencia de mercado Chainalysis, una de las más
  
 Se trata de una pequeña porción de las actividades ilícitas registradas en el mundo, que pueden alcanzar los 2.000 millones de dólares al año, según estimaciones de la Oficina de las Naciones Unidas contra la Droga y el Delito (ONUDD). Gran parte de estas operaciones de blanqueo de dinero tienen lugar a través de canales fiduciarios, las monedas emitidas por los países. 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/?-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/%3F-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
