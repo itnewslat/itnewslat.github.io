@@ -11,8 +11,8 @@ url: http://www.logintel.com.ve/
 #     url: http://www.logintel.com.ve/
    
 sideBar-publicity:
-#  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/CIBERESPACIO-300x300-JUNIO.gif
-#    url: http://blog.banesco.com/acciones-sencillas-aportan-la-sostenibilidad/ 
+	- image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/pauta12023banesco1730.gif
+	url: https://www.banesco.com/somos-banesco/responsabilidad-social/presupuesto-participativo 
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner_4GEllaCambio_ciberespacio.jpg
     url: https://www.digitel.com.ve/
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner_Logintel.png
