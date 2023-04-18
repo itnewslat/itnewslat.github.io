@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2023'
-title: 'ficiencia energética en data centers, una necesidad organizacional'
+title: 'Eficiencia energética en data centers, una necesidad organizacional'
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Juan-Jose-Calderon-g.jpg
 image: >-
