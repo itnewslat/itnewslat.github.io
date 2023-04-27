@@ -26,8 +26,7 @@ week: '17'
 ---
 - Según Statista recientemente la cantidad de aplicaciones disponibles en Google Play Store se colocó en 2,67 millones de aplicaciones.
 
-
-Abril 2023. Las aplicaciones móviles son una tendencia que no para de crecer desde sus primeras apariciones a finales de los 90. Según Statista recientemente la cantidad de aplicaciones disponibles en Google Play Store se colocó en 2,67 millones de aplicaciones, logrando de esta manera que las profesiones en esta área de la tecnología aumentarán, creando más oportunidades en Colombia y en el mundo. 
+Las aplicaciones móviles son una tendencia que no para de crecer desde sus primeras apariciones a finales de los 90. Según Statista recientemente la cantidad de aplicaciones disponibles en Google Play Store se colocó en 2,67 millones de aplicaciones, logrando de esta manera que las profesiones en esta área de la tecnología aumentarán, creando más oportunidades en Colombia y en el mundo. 
 
 La variación de las aplicaciones ha generado todo tipo de soluciones para diferentes escenarios, ya sea entretenimiento, creación de contenido, interacción entre individuos, creación de estilos de vida saludables, etc. ¿Pero todas las aplicaciones contribuyen realmente en un 100% a la sostenibilidad? De acuerdo con BBVA, si las 'apps' son masivas, universales y ayudan a hacer casi de todo, no podían quedar al margen de la sostenibilidad como gran preocupación social. Éstas ayudan a ahorrar energía y agua, reducir el desperdicio de alimentos, fomentar el reciclaje o desplazarse con menos emisiones contaminantes. 
 
