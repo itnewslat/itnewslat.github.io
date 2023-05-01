@@ -26,7 +26,7 @@ tags:
   - Seguridad
 week: '18'
 ---
-Latinoamérica -incluido Chile- viven un incremento de usuarios bancarios sin precedentes, fenómeno impulsado por la pandemia, y este avance ha llamado la atención de los estafadores. Incluso se estima que la quinta parte de los ingresos en línea en la región se pierden debido al fraude. La amenaza no consiste solo en hackeos masivos a algunos bancos -como ha ocurrido en Chile en varias ocasiones- sino que también a usuarios particulares.
+viven un incremento de usuarios bancarios sin precedentes, fenómeno impulsado por la pandemia, y este avance ha llamado la atención de los estafadores. Incluso se estima que la quinta parte de los ingresos en línea en la región se pierden debido al fraude. La amenaza no consiste solo en hackeos masivos a algunos bancos -como ha ocurrido en Chile en varias ocasiones- sino que también a usuarios particulares.
  
 En ese contexto, ha germinado con fuerza una nueva práctica, conocida como “deepfake”. Se trata de un registro de video, visual o de audio que ha sido distorsionado, manipulado o creado sintéticamente utilizando técnicas de aprendizaje profundo para representar a un individuo diciendo o haciendo algo que no dijo o hizo.
  
