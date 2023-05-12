@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2023-05-12 16:14 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2023'
@@ -59,4 +59,3 @@ Las innovaciones tecnológicas surgen, se desarrollan y pueden – o no – camb
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
