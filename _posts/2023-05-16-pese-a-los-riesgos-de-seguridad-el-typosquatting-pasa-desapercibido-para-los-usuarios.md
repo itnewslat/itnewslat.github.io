@@ -9,8 +9,10 @@ year: '2023'
 title: >-
   Pese a los riesgos de seguridad el typosquatting pasa desapercibido para los
   usuarios 
-image: 'https://github.com/itnewslat/assets/blob/master/img/540x320/Internet-p.jpg'
-detail-image: 'https://github.com/itnewslat/assets/blob/master/img/1024x680/Internet-g.jpg'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Internet-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Internet-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -48,7 +50,7 @@ Prada recomienda tres técnicas válidas para protegernos de este tipo de ataque
 2.	**Además**, se debe potenciar la concienciación de los usuarios para que reconozcan este tipo de trampas, sepan identificar dominios falsos y cómo actuar ante ellos. 
 3.	**Por último**, se pueden utilizar contramedidas para detectar orígenes que utilicen este tipo de ataques, como tecnología anti-spoofing o correo electrónico seguro.
 
-![](https://github.com/itnewslat/assets/blob/master/img/540x320/Internet-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Internet-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
