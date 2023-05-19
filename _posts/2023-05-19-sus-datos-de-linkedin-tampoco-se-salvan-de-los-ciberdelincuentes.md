@@ -26,7 +26,7 @@ tags:
 ---
 Trend Micro analizó la plataforma LinkedIn y cómo los ciberdelincuentes abusan de ella para victimizar a los usuarios y las empresas, y cómo monetizan la información.
  
-image005.pngLinkedIn se considera la plataforma más grande que brinda información a profesionales y empresas con aproximadamente 875 millones de usuarios en más de 200 países. Este enfoque en la información relacionada con el trabajo es una de las razones por las que los ciberdelincuentes se sienten atraídos por el sitio. 
+LinkedIn se considera la plataforma más grande que brinda información a profesionales y empresas con aproximadamente 875 millones de usuarios en más de 200 países. Este enfoque en la información relacionada con el trabajo es una de las razones por las que los ciberdelincuentes se sienten atraídos por el sitio. 
  
 El grupo de amenazas persistentes avanzadas (APT) Lazarus ha utilizado LinkedIn para operaciones de ciberdelincuencia y espionaje, apuntando a usuarios de macOS que buscan trabajo en la industria de las criptomonedas. En 2021, los actores de amenazas de Nobelium atacaron a los usuarios con una brecha de seguridad de día cero en Safari. A través de los mensajes de LinkedIn, una campaña de spear-phishing denominada Ducktail se dirigió a los profesionales de marketing y recursos humanos para permitir que el grupo se hiciera cargo de las cuentas de Facebook Business y abusara de la función de anuncios para implementaciones de publicidad maliciosa.
  
