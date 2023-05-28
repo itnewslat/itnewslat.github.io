@@ -18,7 +18,9 @@ tags:
 week: '21'
 ---
 El acto inaugural de este segundo DOC, con el que la compañía refuerza sus capacidades globales de operación en Cloud y Ciberseguridad, ha contado con la presencia, entre otros, de José Cerdán, CEO de Telefónica Tech; Alfonso Gómez, CEO de Telefónica Hispam; María Jesús Almazor, CEO de Ciberseguridad y Cloud de Telefónica Tech; y Fabián Hernández, CEO de Telefónica Colombia.
+
 El nuevo centro contará a final de año con más de 100 expertos altamente cualificados y con más de 300 en tres años, que trabajarán en coordinación con el equipo global de operaciones de Telefónica Tech.
+
 Telefónica Tech ha inaugurado hoy en la sede de Bogotá un nuevo Centro de Operaciones Digitales (DOC), que se suma al creado el año pasado en Madrid, para complementar sus capacidades de operaciones de Ciberseguridad y Cloud globales.
 
 José Cerdán, CEO de Telefónica Tech; Alfonso Gómez, CEO de Telefónica Hispam: María Jesús Almazor, CEO de Ciberseguridad y Cloud de Telefónica Tech; y Fabián Hernández, CEO de Telefónica Colombia, han sido algunos de los directivos de la compañía que han asistido al acto inaugural. La presentación ha contado, además, con la presencia de Mauricio Lizcano Arango, ministro de las Tecnologías de la Información y las Comunicaciones del Gobierno de Colombia, y con más de 40 representantes de instituciones y empresas locales.
