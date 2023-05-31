@@ -42,6 +42,7 @@ Desde las primeras apariciones conocidas de AceCryptor en 2016, muchos autores d
 Debido al alto volumen de muestras en los últimos años, la investigación se centró en muestras detectadas durante 2021 y 2022. Las detecciones de AceCryptor se distribuyeron de manera bastante uniforme a lo largo de estos dos años, algo lógico considerando que es un malware utilizado por una gran cantidad de actores de amenazas que no sincronizan sus campañas.
  
 <a href="https://www.welivesecurity.com/la-es/2023/05/30/acecryptor-cifrador-utilizado-varios-desarrolladores-malware/"><img class="aligncenter" src="https://www.welivesecurity.com/wp-content/uploads/2023/05/figure_1_AceCrypter_Events-1024x491.png" alt="Figura 1. Detecciones de AceCryptor durante 2021 y 2022" width="540" height="259" /></a>
+.
 **Figura 1. Detecciones de AceCryptor durante 2021 y 2022**
 
 Después de analizar programas maliciosos empaquetados por AceCryptor, ESET encontró más de 200 nombres de detección diferentes. Es importante aclarar que para una misma familia de malware pueden existir varios nombres de detección correspondientes a variantes individuales debido a actualizaciones o cambios en la ofuscación.
@@ -51,6 +52,7 @@ Después de analizar programas maliciosos empaquetados por AceCryptor, ESET enco
 Considerando la variedad de malware que utiliza AceCryptor y la diversidad de intereses de los diferentes autores de malware, su actividad se observa en todo el mundo. Durante 2021 y 2022, la telemetría de ESET registró más de 240.000 detección para este malware, lo que equivale a más de 10.000 detecciones cada mes. 
 
 <a href="https://www.welivesecurity.com/la-es/2023/05/30/acecryptor-cifrador-utilizado-varios-desarrolladores-malware/"><img class="aligncenter" src="https://www.welivesecurity.com/wp-content/uploads/2023/05/figure_4_AceCrypter_map.png" alt="Figura 2. Mapa de calor de los países en los que se registró más actividad de AceCryptor según la telemetría de ESET durante 2021 y 2022. Varios países de América Latina con Perú, Brasil y México encabezando las detecciones de la región" width="540" height="278" /></a>
+.
 **Figura 2. Mapa de calor de los países en los que se registró más actividad de AceCryptor según la telemetría de ESET durante 2021 y 2022. Varios países de América Latina con Perú, Brasil y México encabezando las detecciones de la región**
 
 Durante 2021 y 2022, los productos de ESET detectaron y bloquearon variantes de malware empaquetadas por AceCryptor en las computadoras de más de 80.000 clientes. También descubrieron más de 80.000 muestras únicas de AceCryptor. “La cantidad de hashes únicos existentes son una muestra del tiempo que los autores de AceCryptor dedican a mejorar los mecanismos de ofuscación y de detección.”, asegura el investigador. 
