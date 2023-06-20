@@ -26,7 +26,7 @@ week: '25'
 ---
 **Para 2026, se espera que las inversiones en nube híbrida aumenten al 28.8% (IDC Latinoamérica).**
  
-Gracias a sus características, los beneficios de la nube híbrida son tan tangibles en las empresas, que los niveles de adopción están alcanzando niveles extraordinarios. En efecto, el hecho de que las organizaciones tengan máxima flexibilidad para acompañar el crecimiento del negocio, agilidad para asimilar los cambios que se producen a gran velocidad y resiliencia para garantizar la continuidad del negocio hace que, a esta altura, más del 90% de las empresas estén considerando mantener o aumentar su gasto y el uso de la nube, según el informe Cloud Report 2023 de Flexera.
+Gracias a sus características, los beneficios de la nube híbrida son tan tangibles en las empresas, que los niveles de adopción están alcanzando niveles extraordinarios. En efecto, el hecho de que las organizaciones tengan máxima flexibilidad para acompañar el crecimiento del negocio, agilidad para asimilar los cambios que se producen a gran velocidad y resiliencia para garantizar la continuidad del negocio hace que, a esta altura, más del 90% de las empresas estén considerando mantener o aumentar su gasto y el uso de la nube, según el informe **Cloud Report 2023 de Flexera**.
  
 Migrar a la nube ya no es una opción; es el camino para que las empresas puedan apoyarse en una infraestructura siempre moderna y con las últimas tecnologías para innovar, generar nuevas experiencias para el cliente o, incluso, anticipar las demandas del mercado. Sin embargo, si no se dan los pasos correctos, o incluso, si no se conoce cómo funciona la nube híbrida en el momento oportuno, la migración puede resultar costosa y compleja.
  
