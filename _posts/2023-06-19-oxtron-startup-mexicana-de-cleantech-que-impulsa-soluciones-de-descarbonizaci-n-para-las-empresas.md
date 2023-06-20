@@ -19,7 +19,6 @@ tags:
   - Actualidad
 week: '25'
 ---
-
 - México estableció como meta de mitigación de emisiones de GEI la reducción de las mismas en 22% a 2030 en el caso “no condicionado” y en 36% en el caso “condicionado”.
 - De no hacer nada, para 2030 se proyecta que las emisiones de GEI de México llegarán a 991 millones de toneladas de CO2e, 23% más que en 2020.
 - Oxtron descarboniza la cadena de valor mediante un sistema de captura modular de emisiones inevitables para generar nuevas materias primas, en conjunto con un SaaS de inventarios de emisiones de GEI.
