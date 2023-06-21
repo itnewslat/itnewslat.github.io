@@ -44,6 +44,7 @@ A continuación, compartimos cinco claves para realizar esta transición sin dol
  
 La nube híbrida genera importantes ventajas para las organizaciones. Para poder aprovecharlas, en Cirion brindamos un conjunto de soluciones para migrar a la nube de manera segura, con el máximo desempeño y con los mejores niveles de seguridad, escalabilidad y conectividad.
 
+
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Gabriel-del-Campo-g.jpg)
  
 <table style="height: 42px;" width="569">
