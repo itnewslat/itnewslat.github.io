@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2023-05-17 09:29 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2023'
 title: Conoce 5 beneficios de la aplicación de Big Data en las soluciones de Google
@@ -17,8 +17,6 @@ categories:
   - Ecuador
 tags:
   - Transformación Digital
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Articulo-Abside-Mayo-23-l.jpg
 week: '20'
 ---
 Los consumidores se ven inundados cada día de anuncios de productos y servicios. El número de opciones y el abanico de posibilidades que ofrece el mercado puede resultar agotador; es demasiada información que muchas veces no es procesada y se pierde. Entonces ¿Cómo hacer que los consumidores se detengan y presten atención? A medida que las marcas se esfuerzan por responder a esta pregunta, surgen soluciones y muchas se están sumergiendo en los beneficios de la aplicación de Big data. 
@@ -72,6 +70,3 @@ Cierta y evidentemente hay beneficios de la aplicación de Big Data en las soluc
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
-
-
