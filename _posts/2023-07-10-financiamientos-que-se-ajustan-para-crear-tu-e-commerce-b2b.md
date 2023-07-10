@@ -25,6 +25,7 @@ tags:
 week: '28'
 ---
 **Financiamiento Ecommerce B2B**
+
 El regreso a una nueva normalidad, aceleró de manera significativa los avances tecnológicos, sus usos y aplicaciones; pero sobre todo, incentivó nuevos aprendizajes que se han convertido en la punta de lanza para nuevas formas de hacer negocio y lograr que las empresas se mantengan exitosas. Un claro ejemplo de ello, es el crecimiento de las pequeñas y medianas empresas (PyMEs); que si bien existían antes de la pandemia, han tomado fuerza, y un factor clave para ello ha sido la disponibilidad de fuentes de financiamiento en áreas como el e-commerce.
 
 Cifras de la Centro de Comercio Internacional de la ONU revelan que la pandemia habría afectado a más del 60% las microempresas y al 57% de las PyMEs. Por otra parte, el CEPAL (Comisión Económica para América Latina y el Caribe) afirmó que 2.7 millones de empresas en América Latina habrían cerrado, en su mayoría PyMEs.
