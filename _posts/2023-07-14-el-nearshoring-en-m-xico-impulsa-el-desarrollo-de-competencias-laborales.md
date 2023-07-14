@@ -17,8 +17,6 @@ tags:
   - Actualidad
 week: '28'
 ---
-**Tecmilenio**
-
 El nearshoring, también conocido como subcontratación cercana, es una estrategia empresarial que implica trasladar las operaciones de logística, comerciales y de desarrollo de software a países cercanos geográficamente, en lugar de optar por la subcontratación en ubicaciones más alejadas. Este escenario representa una considerable oportunidad laboral, pero para ello, es necesario el desarrollo de competencias laborales.
 
 México ha emergido como un destino popular, especialmente para empresas de Estados Unidos y Canadá, debido a su ubicación geográfica favorable, costos competitivos y una fuerza laboral altamente capacitada. El nearshoring contribuye al desarrollo económico y a la creación de empleo en el país de destino.
