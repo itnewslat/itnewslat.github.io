@@ -28,8 +28,6 @@ week: '30'
 ---
 - Desde la automatización hasta los datos en tiempo real, la inteligencia artificial en logística  permite a las empresas obtener una ventaja competitiva en una industria en rápida evolución.
 
-**QUINCUS**
-
 A medida que la industria de la logística se vuelve cada vez más compleja y competitiva, las empresas deben comprender los beneficios y desafíos de la automatización, y cómo introducirla de manera estratégica en sus procesos logísticos.
 
 En el entorno empresarial acelerado de hoy en día, las empresas buscan constantemente formas de aumentar la eficiencia y la productividad, al mismo tiempo que reducen los costos y abordan los problemas de sostenibilidad.
