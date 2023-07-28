@@ -10,7 +10,7 @@ title: 'Monedas digitales: evolución y regulación en Colombia y Latinoamérica
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Sindy-Granada-g.jpg
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sindy-Granada--p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Sindy-Granada-p.jpg
 categories:
   - Colombia
 tags:
