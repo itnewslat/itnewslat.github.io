@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2023-07-03 12:54 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2023'
 title: Industria 4.0 se convierte en prioridad estratégica de las empresas
