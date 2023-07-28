@@ -17,14 +17,9 @@ tags:
   - Economía Digital
 week: '30'
 ---
-- Colombia avanza hacia un proyecto de Ley que busca regular el uso de estas
-- 81 países ya adelantaron estudios para la implementación de una moneda digital propia.
+- Colombia avanza hacia un proyecto de Ley que busca regular el uso de estas 81 países ya adelantaron estudios para la implementación de una moneda digital propia.
+
 - Colombia vive una explosión de nuevos bancos: 20% más en dos años
-
- 
-
-*Por Sindy Granada, Country Manager de Lyra Colombia.
-
 
 Los negocios digitales continúan creciendo y ganando participación sobre la economía del país. Según el informe trimestral de comercio electrónico presentado recientemente por la Cámara Colombiana de Comercio Electrónico, el total de ventas en línea, incluyendo ventas minoristas y de servicios, para el primer trimestre de 2023, fue aproximadamente de COP 15,1 billones, lo que se traduce en un aumento del 24,1 % respecto al primer trimestre de 2022 y de un 83,2 % respecto al mismo trimestre de 2021 y en cuanto a los medios de pago, Débito a cuenta bancaria descendió hasta 37,5 % en el primer trimestre de 2023. En contraposición, las tarjetas aumentaron su participación llegando a 56,5 %. Esta tendencia se debe a un incremento en la adopción de dispositivos inteligentes incluyendo “wearables”, como métodos de pago y acceso a transacciones digitales para la adquisición de productos y servicios.
 
