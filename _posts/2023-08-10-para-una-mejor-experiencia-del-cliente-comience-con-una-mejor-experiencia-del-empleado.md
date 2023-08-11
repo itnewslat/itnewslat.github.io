@@ -10,7 +10,7 @@ title: >-
   Para una mejor experiencia del cliente, comience con una mejor experiencia del
   empleado
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x340/Experiencia-cliente-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Experiencia-cliente-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Experiencia-cliente-g.jpg
 categories:
@@ -67,7 +67,7 @@ Las empresas necesitan grandes talentos que les ayuden a sacar el máximo partid
 
 La relación entre la experiencia del cliente (CX) y la experiencia del empleado (EX) es realmente cíclica. Cuando se invierte en la segunda, la primera resulta mucho más fácil. Además, el uso de tecnologías avanzadas como la IA puede ayudarle a mejorar ambas simultáneamente.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x340/Experiencia-cliente-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Experiencia-cliente-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
