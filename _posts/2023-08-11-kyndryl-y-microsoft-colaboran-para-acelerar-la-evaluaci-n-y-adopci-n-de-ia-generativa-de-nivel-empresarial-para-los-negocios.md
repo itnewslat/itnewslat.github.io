@@ -10,7 +10,7 @@ title: >-
   Kyndryl y Microsoft colaboran para acelerar la evaluación y adopción de IA
   generativa de nivel empresarial para los negocios
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Apoyo-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/apoyo-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Apoyo-g.jpg
 categories:
@@ -56,7 +56,7 @@ La asociación estratégica con Microsoft fue la primera alianza estratégica gl
 
 Kyndryl está excepcionalmente calificado para ofrecer a los clientes una perspectiva de primera mano sobre las implementaciones de IA, ya que continuamente prueba, innova, mejora y se convierte en expertos en IA y otras tecnologías antes de que se integren en los negocios de los clientes. Por ejemplo, después de convertirse en una empresa independiente, Kyndryl se embarcó en su propio viaje de transformación tecnológica y ha integrado la IA en todas sus operaciones, en Kyndryl Bridge y a través de sus herramientas de productividad de la fuerza laboral. La compañía planea continuar desarrollando nuevos casos de uso para implementar IA generativa internamente y para sus clientes en todas las industrias. 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Apoyo-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/apoyo-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
