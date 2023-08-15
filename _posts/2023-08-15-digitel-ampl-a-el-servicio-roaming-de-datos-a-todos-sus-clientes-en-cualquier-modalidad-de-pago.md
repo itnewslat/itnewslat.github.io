@@ -10,7 +10,7 @@ title: >-
   Digitel amplía el servicio Roaming de Datos a todos sus clientes en cualquier
   modalidad de pago
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/Torre-Digitel-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Torre-Digitel-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Torre-Digitel-g.jpg
 categories:
@@ -33,7 +33,7 @@ El Roaming de Datos de Digitel permite el acceso a WhatsApp, correo electrónico
 
 Los precios del servicio y los países en los que está disponible se encuentran en la página web digitel.com.ve, mientras que los clientes que deseen información o realizar alguna gestión de su línea estando en roaming deberán escribir al WhatsApp 0412Digitel (3444835) al Telegram Digitel412 o en el chat de digitel.com.ve
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/Torre-Digitel-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Torre-Digitel-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
@@ -44,4 +44,3 @@ Los precios del servicio y los países en los que está disponible se encuentran
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
