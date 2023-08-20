@@ -25,7 +25,7 @@ En el mundo empresarial de ritmo acelerado, la búsqueda constante de métodos q
 
 Esta solución, al ser un software de Busines Process Management (BPM) tiene como misión identificar, modelar, monitorizar, mejorar y gobernar los procesos de una organización con el fin de obtener una visión clara y valiosa de cuáles son los procesos que mejorar. Al lograr esta transparencia, se puede estandarizar las actividades, identificar tareas que se puedan automatizar para ahorrar dinero y abordar rápidamente los problemas que surgen en tiempo real, así como identificar dónde se producen bloqueos en los flujos de trabajo y detectar puntos problemáticos para garantizar la calidad general del proceso.
 
-SAP Signavio,  ya disponible de la mano de ABSIDE,  también tiene la capacidad de integrarse con la digitalización y la inteligencia artificial (AI), asimismo cuenta con una gran ventaja que la diferencia de las otras soluciones de su mismo tipo, esta es, que presenta una suite que integra diferentes módulos de trabajo, mismas que abarcan todas las necesidades de todas las áreas de la empresa, generando un sistema orgánico, colaborativo, intuitivo y fácil de comprender.
+**SAP Signavio**,  ya disponible de la mano de **ABSIDE**,  también tiene la capacidad de integrarse con la digitalización y la inteligencia artificial (AI), asimismo cuenta con una gran ventaja que la diferencia de las otras soluciones de su mismo tipo, esta es, que presenta una suite que integra diferentes módulos de trabajo, mismas que abarcan todas las necesidades de todas las áreas de la empresa, generando un sistema orgánico, colaborativo, intuitivo y fácil de comprender.
 
 Los módulos que componen esta plataforma encajan en 4 tipos:
 
