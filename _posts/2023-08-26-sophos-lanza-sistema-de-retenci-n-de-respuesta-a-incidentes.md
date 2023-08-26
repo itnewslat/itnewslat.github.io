@@ -8,7 +8,7 @@ superArticle: false
 year: '2023'
 title: Sophos lanza sistema de retención de respuesta a incidentes
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/trabajador-en-pantalla-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/trabajador-en-pantalla-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/trabajador-en-pantalla-g.jpg
 categories:
@@ -39,7 +39,7 @@ El retenedor de respuesta a incidentes de Sophos está disponible en tres nivele
 
 “El sistema de retención de respuesta a incidentes de Sophos es la herramienta perfecta para que los socios ayuden a los clientes a adoptar un enfoque proactivo para mejorar sus defensas cibernéticas, y nos permitirá responder más rápidamente y tomar las medidas inmediatas necesarias en el peor de los escenarios de ataque cuando cada minuto cuenta.”, dijo Jonny Scott, gerente de alianzas de proveedores de Phoenix Software. “El precio de coste fijo de Sophos Incident Response es genial, especialmente teniendo en cuenta que cada escenario de ataque es diferente y lo rápido que pueden acumularse los costes. La gran variedad de recursos incluidos con el contrato de retención, desde el análisis de vulnerabilidades para parchear y prevenir infracciones, hasta tener un equipo de expertos en espera las 24 horas del día, los 7 días de la semana, listos para luchar cara a cara con los adversarios, lo convierten en una necesidad absoluta”.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/trabajador-en-pantalla-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/trabajador-en-pantalla-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
