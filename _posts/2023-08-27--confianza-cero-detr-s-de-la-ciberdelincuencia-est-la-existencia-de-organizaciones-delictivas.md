@@ -28,7 +28,7 @@ week: '34'
 ---
 - “Esa impulsividad y esa confianza mediante la ingeniería social es lo que permite que muchos ataques y amenazas, al final, se conviertan en un incidente informático”. Jordi Ferrer, profesor de EAE Business School Barcelona.   
 
-Chile, agosto 2023. El podcast Bussiness Maters de EAE Business School Barcelona fue el espacio sonoro propicio para hablar sobre Ciberseguridad.  En su entrega: Cómo proteger nuestra información de los riesgos en línea, Jordi Ferrer, profesor de EAE Barcelona y abogado experto en el ámbito digital, dio a conocer sus impresiones sobre cómo están en el tema los usuarios particulares y las empresas.   
+El podcast Bussiness Maters de EAE Business School Barcelona fue el espacio sonoro propicio para hablar sobre Ciberseguridad.  En su entrega: Cómo proteger nuestra información de los riesgos en línea, Jordi Ferrer, profesor de EAE Barcelona y abogado experto en el ámbito digital, dio a conocer sus impresiones sobre cómo están en el tema los usuarios particulares y las empresas.   
 
 “Necesitan mejorar. No solo el ámbito del usuario, especialmente también en el de las empresas. Las empresas están más receptivas a un ataque cibernético, están expuestas”, menciona al iniciar el podcast Jordi. Con esta afirmación el profesor de EAE sugiere que aún hay muchas falencias en dimensionar la magnitud del riesgo y procurar acciones que contrarresten el daño.
 
