@@ -28,8 +28,7 @@ week: '35'
 
 - Aprovecha la IA Davis de la plataforma Dynatrace para permitir la detección de amenazas y la respuesta a incidentes en tiempo real
 
-
-Dynatrace (NYSE: DT), líder en observación y seguridad unificadas, ha anunciado hoy la introducción de Security Analytics, una nueva solución de la plataforma Dynatrace® diseñada para ayudar a las organizaciones a defenderse mejor contra las amenazas a sus entornos híbridos y multicloud.  Dynatrace® Security Analytics aprovecha Davis® AI, que combina técnicas de IA predictiva y causal para proporcionar a los analistas de seguridad las respuestas precisas y el contexto de datos que necesitan para priorizar e investigar amenazas y vulnerabilidades. A finales de este año, Security Analytics también incluirá capacidades de IA generativa como parte de la expansión prevista de Dynatrace para proporcionar una oferta de IA hipermodal a través de Davis. 
+Dynatrace, líder en observación y seguridad unificadas, ha anunciado hoy la introducción de Security Analytics, una nueva solución de la plataforma Dynatrace® diseñada para ayudar a las organizaciones a defenderse mejor contra las amenazas a sus entornos híbridos y multicloud.  Dynatrace® Security Analytics aprovecha Davis® AI, que combina técnicas de IA predictiva y causal para proporcionar a los analistas de seguridad las respuestas precisas y el contexto de datos que necesitan para priorizar e investigar amenazas y vulnerabilidades. A finales de este año, Security Analytics también incluirá capacidades de IA generativa como parte de la expansión prevista de Dynatrace para proporcionar una oferta de IA hipermodal a través de Davis. 
 
 Además, Security Analytics aprovecha ahora Dynatrace® AutomationEngine para crear automatizaciones y flujos de trabajo que los analistas pueden utilizar para evaluar el impacto de un ataque, encontrar los indicadores de compromiso (IOC) o activar automáticamente una respuesta. La combinación de la IA hipermodal de Davis, las respuestas precisas con contexto y la automatización inteligente permite a los analistas de seguridad defenderse de las ciber amenazas emergentes de forma proactiva. También refuerza la defensa de la ciberseguridad de su organización y la postura general de seguridad.
 
@@ -48,14 +47,6 @@ Dynatrace ha sido clasificada recientemente como número 1 en el Caso de Uso de 
 Steve Tack, SVP de Gestión de Producto de Dynatrace, ha declarado: "En el panorama actual de amenazas en rápida evolución, las organizaciones se enfrentan a un riesgo sin precedentes de ciberataques que pueden causar estragos en sus operaciones y en la confianza de sus clientes. Con Dynatrace Security Analytics, los analistas pueden investigar y verificar rápidamente lo sucedido y aprovechar la capacidad de observación y los datos de seguridad en pleno contexto para analizar y tomar medidas proactivas para reforzar las defensas. La combinación de estos nuevos análisis de seguridad con otras capacidades de seguridad de aplicaciones de nuestra plataforma permite a nuestros clientes ofrecer con éxito la transformación digital con la confianza de que sus entornos híbridos y multicloud están bien protegidos."
 
 Dynatrace Security Analytics está disponible para los clientes desde hoy. Para obtener información adicional, visite el sitio web o el blog de Dynatrace.
-
-**Responsabilidad de Gartner**
-
-Gartner, Critical Capabilities for Application Performance Monitoring and Observability, Mrudula Bangera, Padraig Byrne, Matt Crossley, Gregg Siegfried, 10 de julio de 2023
-
-GARTNER es una marca registrada y una marca de servicio de Gartner, Inc. y/o sus filiales en EE.UU. e internacionalmente, y MAGIC QUADRANT es una marca registrada de Gartner, Inc. y/o sus filiales y se utilizan aquí con permiso. Todos los derechos reservados.
-
-Gartner no respalda a ningún proveedor, producto o servicio descrito en sus publicaciones de investigación, y no aconseja a los usuarios de tecnología que seleccionen únicamente a aquellos proveedores con las calificaciones más altas u otra designación. Las publicaciones de investigación de Gartner consisten en las opiniones de la organización de investigación de Gartner y no deben interpretarse como declaraciones de hecho. Gartner renuncia a toda garantía, expresa o implícita, con respecto a esta investigación, incluyendo cualquier garantía de comerciabilidad o idoneidad para un propósito particular.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Analisis-p.jpg)
 
