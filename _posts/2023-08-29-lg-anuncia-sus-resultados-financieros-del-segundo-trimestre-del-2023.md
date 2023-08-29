@@ -61,3 +61,15 @@ En particular, en términos de rentabilidad, es positivo que la compañía esté
 Finalmente, LG Business Solutions Company registró ingresos mejorados del segundo trimestre de 1.33 trillones de wones coreanos (USD $1 billón), con un beneficio operativo de 2.6 billones de wones coreanos (USD $2 millones). Tanto los ingresos como el beneficio operativo disminuyeron ligeramente respecto al mismo período del año pasado debido a la persistente disminución de la demanda de productos de tecnología de la información.
 
 A partir del tercer trimestre, se espera que la demanda de productos de tecnología de la información muestre una recuperación gradual en comparación con la primera mitad del año. En este contexto, LG planea expandir activamente las ventas de monitores y computadoras portátiles equipadas con funciones de juego y pantallas OLED. En el negocio de pantallas comerciales, la compañía buscará oportunidades de crecimiento adicionales con soluciones personalizadas para diversos mercados verticales, desde hospitalidad y atención médica hasta educación, comercio minorista y corporativo.
+
+![]({{site.baseurl}}/https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/LG-fabrica-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
