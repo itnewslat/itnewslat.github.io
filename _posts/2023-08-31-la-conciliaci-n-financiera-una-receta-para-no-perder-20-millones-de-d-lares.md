@@ -8,7 +8,7 @@ superArticle: false
 year: '2023'
 title: 'La conciliación financiera: una receta para no perder 20 millones de dólares'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/analisis-bancarios-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/analisis-bancarios-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/analisis-bancarios-g.jpg
 categories:
@@ -52,7 +52,7 @@ Para resolver este desafío, desde Simetrik empoderamos a los equipos de FinOps 
 
 Las empresas pueden, y deben, tener la capacidad de detectar discrepancias entre fuentes de información financiera de manera rápida y oportuna, y mantener un control óptimo y completo que les permita prevenir, y si fuera el caso, manejar adecuadamente cualquier situación de riesgo. De eso se trata la conciliación financiera: de cómo no perder 20 millones de dólares de su compañía. 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/analisis-bancarios-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/analisis-bancarios-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
