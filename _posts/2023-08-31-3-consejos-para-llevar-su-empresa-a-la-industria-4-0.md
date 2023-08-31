@@ -2,11 +2,27 @@
 layout: posts
 color-schema: red-dark
 date: '2023-08-31 16:15 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2023'
 title: 3 Consejos para llevar su empresa a la industria 4.0
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Industria-p.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Transformación Digital
+week: '35'
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Industria-g.jpg
 ---
 - Las herramientas actuales van más allá de aplicaciones en La Nube, es el momento de aprovechar más las soluciones de IoT y el software como servicio, afirma experto de Schneider Electric.
 
@@ -35,7 +51,7 @@ Como dato curioso, las industrias que más resultan utilizar los planes de servi
 
 La compañía recientemente realizó el lanzamiento de EcoStruxure Asset Advisor para la Distribución Eléctrica, el software que cuenta con diferentes planes de servicios que abordarán los problemas dentro de los equipos de distribución eléctrica y buscan mitigar el riesgo de fallas. Estos servicios basados en la nube y alojados en Azure cuentan con el respaldo de expertos para brindar recomendaciones prácticas y soporte opcional en el sitio de las empresas en Ecuador, Venezuela y Colombia.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Industria-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Industria-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
