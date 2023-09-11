@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2018-04-15 08:16 -0400'
-published: true
+published: false
 superNews: false
 superArticle: true
 title: ¿Sabe usted cómo aprovechar el CyberLunes?
@@ -14,6 +14,7 @@ categories:
   - Colombia
 tags:
   - Economía Digital
+year: '2018'
 ---
 **Según Cámara Colombiana de Comercio Electrónico, las transacciones digitales en el país aumentaron un 24% durante el año pasado.**
 
