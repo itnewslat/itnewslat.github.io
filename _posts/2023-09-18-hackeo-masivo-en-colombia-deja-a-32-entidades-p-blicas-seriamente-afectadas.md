@@ -8,7 +8,7 @@ superArticle: false
 year: '2023'
 title: Hackeo masivo en Colombia deja a 32 entidades públicas seriamente afectadas
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/ciberataque-23-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ciberataque-23-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ciberataque-23-g.jpg
 categories:
@@ -76,7 +76,7 @@ Cuando al CIO (Director de Sistemas de Información) se le hace este tipo de pre
 
 La respuesta del CIO debe poder vincular su preparación para el ransomware y la extorsión y con las cuales mitigaría las áreas de riesgo que pueden ser blanco fácil de los hackers”, puntualiza Rabih Bou Orm, Systems Engineer Manager en Palo Alto Networks.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540X320/ciberataque-23-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ciberataque-23-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
