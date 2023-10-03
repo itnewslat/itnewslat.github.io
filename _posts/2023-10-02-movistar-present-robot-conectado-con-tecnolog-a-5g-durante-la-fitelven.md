@@ -31,7 +31,9 @@ Asimismo, se hicieron demos de Sensorize, un servicio que permite a las empresas
 
 Otro de los espacios estuvo dedicado a las iniciativas ESG (Medioambiente, Social y de Gobierno Corporativo) y de inclusión digital de la compañía actividades dee ducación, impresión 3D, realidad virtual y aumentada gestionada por Fundación Telefónica Movistar.
 
-Fitelven estará abierta al público hasta el sábado 30 de junio. Para mayor información está disponible el perfil oficial @Fitelven en Instagram o la página web https://fitelven.com.ve/
+Fitelven estará abierta al público hasta el sábado **30 de septiembre**. 
+
+Para mayor información está disponible el perfil oficial @Fitelven en Instagram o la página web https://fitelven.com.ve/
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Willbot-p.jpg)
 
