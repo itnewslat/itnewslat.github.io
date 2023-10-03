@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2023'
-title: ''
+title: Ataque de la “mano fantasma” acecha a usuarios de la banca móvil
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-usuario-p.jpg
 detail-image: >-
