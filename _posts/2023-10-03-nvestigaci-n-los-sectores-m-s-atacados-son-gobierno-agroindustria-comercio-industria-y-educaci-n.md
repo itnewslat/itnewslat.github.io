@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2023'
 title: >-
-  nvestigación los sectores más atacados son gobierno, agroindustria, comercio
+  Investigación los sectores más atacados son gobierno, agroindustria, comercio
   industria y educación.
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ataque-Hacker-P.jpg
