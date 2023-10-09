@@ -45,8 +45,7 @@ El Cirion Forum 2023 se realiza en 7 ciudades de Latinoamérica:
 - Quito y 
 - Caracas;
 
-
-con una asistencia combinada superior a 4.000 ejecutivos y tomadores de decisiones de la región. Aunque se trata de un evento académico gratuito y abierto al público, debido a la alta demanda de años anteriores, se estableció un sistema de registro, disponible en [Cirion Forum Venezuela | Registro.](https://www.weareadmit.com/skybox/eventos/cirion-forum/venezuela/)
+Con una asistencia combinada superior a 4.000 ejecutivos y tomadores de decisiones de la región. Aunque se trata de un evento académico gratuito y abierto al público, debido a la alta demanda de años anteriores, se estableció un sistema de registro, disponible en [Cirion Forum Venezuela - Registro.](https://www.weareadmit.com/skybox/eventos/cirion-forum/venezuela/)
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cirion-Forum-p.jpg)
  
