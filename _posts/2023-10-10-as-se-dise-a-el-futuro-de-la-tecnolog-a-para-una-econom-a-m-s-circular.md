@@ -6,67 +6,38 @@ published: true
 superNews: false
 superArticle: false
 year: '2023'
-title: Así se diseña el futuro de la tecnología para una economía más circular
+title: ESS Solutions sigue creciendo como líder en soluciones tecnológicas
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/tecnologia-en-bandeja-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ESS-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/tecnologia-en-bandeja-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ESS-g.jpg
 categories:
   - Venezuela
-  - Colombia
-  - Argentina
-  - Perú
-  - Ecuador
-  - Chile
-  - Panama
-  - Mexico
-tags:
-  - Transformación Digital
 week: '41'
+tags:
+  - Canales
 ---
-Diseño Circular Brinda una Segunda Vida a los Residuos Electrónicos
+Del 27 al 30 de septiembre se realizó la primera Feria Internacional de Telecomunicaciones de Venezuela (FitelVen), que contó con más de 100 expositores, entre empresas, operadores y pymes nacionales e internacionales, que mostraron al público los avances y las tendencias del sector tecnológico mundial.
 
-Por: **Nick Abbatiello**, Senior Distinguished Engineer, Experience Innovation Design Group
+El evento, que se llevó a cabo en el Poliedro de Caracas, tuvo como objetivo posicionar a Venezuela como país productivo de la industria tecnológica y propiciar el acercamiento entre empresarios públicos y privados para potenciar los niveles de servicio de telecomunicaciones prestados en el país.
 
-Siempre me sorprenden las estadísticas sobre los residuos electrónicos (e-waste) y lo poco que se comprende este crítico problema ambiental. Un estudio reciente sobre la Generación Z y los Millennials encontró que 60% de los adultos no saben qué es el e-waste y el 57% no tienen conciencia del impacto de estos elementos en la contaminación del medio ambiente.
+Entre los expositores que se destacaron por su trayectoria, calidad y profesionalismo se encuentra ESS Solutions, una compañía que nace en Venezuela comprometida con la transformación de las empresas a través de la tecnología adaptada a sus necesidades. ESS Solutions ofrece una gama de servicios y productos tecnológicos que proporcionan herramientas capaces de agilizar y hacer más efectivos todos los procesos operativos de sus clientes.
 
-El e-waste son todos los dispositivos con enchufe, batería o cable, es decir, los aparatos electrónicos que han llegado al final de su vida útil. En los países de América Latina, solamente se recicla un pequeño porcentaje, apenas el 2.7%, de los residuos electrónicos. La mayoría de estos desechos terminan en vertederos, lo que tiene un impacto negativo en la sostenibilidad del planeta.
+La presencia de ESS Solutions en FitelVen 2023 reafirma su compromiso con la innovación y la calidad en el sector tecnológico venezolano, que se expande con excelencia hacia el resto del mundo, al brindar acompañamiento experto y propuestas de valor, orientadas a proyectos de inversión en infraestructura, desarrollo, implementación y mantenimiento de nuevas tecnologías que garantizan la maximización de la productividad y la minimización de costos y tiempos de respuestas, para garantizar una ejecución más eficiente y efectiva del negocio.
 
-Según datos de Statista, en 2021, Brasil fue el país que más generó residuos electrónicos en América Latina y el Caribe con una generación de e-waste de más de 2,26 millones de toneladas métricas, seguido por México con una generación de basura tecnológica de aproximadamente 1,29 millones de toneladas.
+Marc Pinzón Director y socio de la compañía señaló que "Participar en este evento significa un logro importante para ESS Solutions, todo nuestro equipo profesional se siente orgulloso de la trayectoria de la empresa y tener la oportunidad de mostrar en un evento de talla internacional nuestras soluciones tecnológicas que apoyan la transformación de nuestros clientes. Por su parte Johan Rosales, Director y socio agregó que: "Gracias al respaldo de nuestros clientes hemos construido la solidez que actualmente tenemos y la inspiración de seguir creciendo para afianzar nuestro compromiso con cada uno: Tu transformación es nuestro compromiso".
 
-Cada año, conmemoramos el Día Internacional de los Residuos Electrónicos el 14 de octubre, para concienciar sobre este creciente problema del e-waste y promover una gestión responsable de los residuos electrónicos.
+De esta manera ESS se posiciona como una empresa líder y vanguardista del sector tecnológico venezolano que garantiza la continuidad operativa y la transformación digital de los negocios de sus clientes a nivel mundial, con un portafolio de soluciones que abarca
 
-A menudo hablamos de los problemas ambientales asociados con esta creciente corriente de desechos, pero cuando pienso en el e-waste, veo una gran oportunidad. Como ingenieros en diseño de productos, mi equipo hace que nuestra tecnología sea más sostenible al incorporar materiales con emisiones de carbono reducidas, como la como fibra de carbono reciclada, o nuestro aluminio producido con energía hidroeléctrica renovable. En Dell, dedicamos mucho tiempo y esfuerzo en elegir los materiales y procesos de fabricación sostenibles. De esta forma, logramos a reducir el flujo de e-waste y volvemos "al futuro" y al diseñar tecnologías que prolongan la vida del producto y nos permiten acceder fácilmente a sus componentes y así reciclarlos.
+desde infraestructura, seguridad, virtualización y respaldo, hasta acompañamiento y gerencia, adaptadas a las necesidades de cada cliente.
 
-**Nuestro Compromiso con la Circularidad**
+Nelson Padrón, Gerente General de la empresa concluyó diciendo que "ESS Solutions es una empresa que ha sabido adaptarse a los cambios y retos del mercado tecnológico, ofreciendo soluciones de calidad a nuestros clientes. Participar en este evento nos permitió demostrar nuestra capacidad y experiencia en el sector, así como establecer alianzas estratégicas con otros actores importantes".
 
-En Dell, estamos comprometidos con extender el uso de los materiales y componentes el mayor tiempo posible, y nuestros objetivos para 2030 abarcan todo el ciclo de vida de nuestros productos, desde el diseño hasta la fabricación, pasando por su envío y recuperación:
+La Feria FitelVen fue un evento que marcó un hito en la historia de las telecomunicaciones en Venezuela al mostrar el potencial y el talento nacional que existe en el país. Para más información sobre ESS Solutions, visite su página web www.ess-solutionsca.com o su cuenta de Instagram @esssolutions.
 
-- Por cada tonelada métrica de producto que nuestros clientes compran, reutilizaremos o reciclaremos una tonelada métrica.
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ESS-p.jpg)
 
-- El 100% de nuestro embalaje está hecho con materiales reciclados o renovables o reutilizados.
-
-- Más de la mitad del contenido de nuestros productos estará hecho de materiales reciclados, renovables o con emisiones de carbono reducidas.
-
-**Diseñando para el Final desde el Principio**
-
-Cuando diseñamos productos, debemos diseñar pensando en la circularidad. Impulsar una economía circular reducirá directamente las emisiones de gases de efecto invernadero asociadas con la producción de nuevos materiales.
-
-Por ello, trabajamos para incorporar materiales más sostenibles en nuestra tecnología, pero también optimizamos los materiales que usamos. Reducimos la cantidad de materiales siempre que sea posible y nos aseguramos de no usar nada que no sea absolutamente necesario o que dificulte el reciclaje del dispositivo al final de su vida útil.
-
-Y diseñamos nuestros productos para asegurar que los materiales sean más fáciles de recolectar para su reutilización y reciclaje.
-
-**La Oportunidad en el E-Waste**
-
-Nuestros servicios de recuperación y reciclaje apoyan la reducción de residuos electrónicos y también proporcionan un flujo valioso de materiales que pueden ser reutilizados o reciclados para nuevos productos. Desde 2007, Dell ha recuperado más de 2.5 mil millones de libras de productos electrónicos usados. Si un producto llega al final de su vida útil y no es posible repararlo o reutilizarlo, empleamos estrategias de circuito cerrado, cuando es posible, para crear nuevos productos reciclando materiales seleccionados de tecnología en desuso. En 2014, fuimos pioneros en el uso de plásticos de circuito cerrado procedentes de tecnología recuperada, y también utilizamos imanes de tierras raras y aluminio de circuito cerrado.
-
-En resumen, para cumplir nuestros objetivos y aumentar los materiales sostenibles y reciclados de nuestra tecnología, necesitamos que más productos sean recuperados para que podamos recolectar más materiales. Todos podemos ayudar vaciando nuestros armarios y gabinetes y devolviendo los aparatos electrónicos viejos. Dell facilita y asegura el retorno y reciclaje de productos electrónicos y accesorios al final de su vida útil. Además de reducir el e-waste, también prolongamos la vida de los materiales que pueden ser utilizados en nuevos productos.
-
-Hemos logrado avances significativos, pero aún tenemos mucho trabajo por delante para alcanzar nuestros objetivos, y todos nosotros debemos trabajar juntos para impulsar una economía más circular.
-
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/tecnologia-en-bandeja-p.jpg)
-
-<table style="height: 42px;" width="569">
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/><table style="height: 42px;" width="569">
 <tbody>
 <tr>
 <td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
