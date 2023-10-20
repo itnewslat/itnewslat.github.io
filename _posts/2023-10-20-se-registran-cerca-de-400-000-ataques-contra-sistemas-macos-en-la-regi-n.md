@@ -8,7 +8,7 @@ superArticle: false
 year: '2023'
 title: 'Se registran cerca de 400,000 ataques contra sistemas macOS en la región'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/MacOS-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/MacOS-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/MacOS-g.jpg
 categories:
@@ -43,7 +43,7 @@ Lo que más llamó la atención de los expertos fue la lista de países más afe
 "Lamentablemente, los propietarios de dispositivos Apple no tienen la costumbre de actualizar el sistema operativo ni los programas instalados, lo que los convierte en blanco fácil de los ciberdelincuentes. Lo único que impide que se registre una explosión de ataques a esta plataforma es la cantidad limitada de estos equipos en la región”, afirma Fabio Assolini, director del Equipo Global de Investigación y Análisis de Kaspersky para América Latina. “Por otro lado, aquellos que utilizan Windows y no realizan las actualizaciones de software necesarias es como quien va a la batalla sin armadura. Es increíble que 1 de cada 4 dispositivos en la región aún utilice un sistema obsoleto".
 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/1540x320/MacOS-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/MacOS-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
