@@ -8,9 +8,9 @@ superArticle: false
 year: '2023'
 title: Los ecosistemas abiertos mantienen el "multi" en multicloud
 image: >-
-  https://github.com/itnewslat/assets/blob/master/img/540x320/Alvaro-Camarena-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Alvaro-Camarena-p.jpg
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/Alvaro-Camarena-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Alvaro-Camarena-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -54,7 +54,7 @@ Ahí es donde entran en juego los ecosistemas abiertos. Permiten la interoperabi
 
 Ninguna empresa o innovador por sí solo cumplirá la promesa de la tecnología. Ni deberían hacerlo. Eso es lo que hace que la industria tecnológica sea tan increíblemente vibrante: una innovación incesante que amplía los límites de las posibilidades para resolver los mayores retos del mundo.
 
-![](https://github.com/itnewslat/assets/blob/master/img/540x320/Alvaro-Camarena-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Alvaro-Camarena-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
