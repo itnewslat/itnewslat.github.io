@@ -3,12 +3,10 @@ layout: posts
 color-schema: red-dark
 date: '2023-09-11 21:32 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2023'
 title: Las soluciones tecnológicas y su impacto significativo en recursos humanos
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/Abside-Recursos-Humanos-L.jpg
 categories:
   - Venezuela
   - Colombia
