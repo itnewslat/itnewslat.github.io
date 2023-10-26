@@ -18,7 +18,7 @@ categories:
 tags:
   - Actualidad
 image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/ABSIDE-CXE-L.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/ABSIDE-CXE-L.jpg
 week: '43'
 ---
 En un mundo empresarial en constante evolución, la clave del éxito radica en la capacidad de ofrecer experiencias excepcionales a los clientes. Para alcanzar este objetivo, las marcas deben trascender las prácticas tradicionales de gestión de relaciones con el cliente (CRM) y adoptar un enfoque más moderno centrado en la Experiencia del Cliente (CX). Las soluciones de SAP Customer Experience se han convertido en aliadas fundamentales para lograr este cambio, permitiendo la integración en tiempo real de señales y datos empresariales en áreas cruciales como el comercio, marketing, ventas y atención al cliente.
