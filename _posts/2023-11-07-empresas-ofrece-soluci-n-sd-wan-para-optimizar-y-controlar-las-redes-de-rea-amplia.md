@@ -7,8 +7,8 @@ superNews: false
 superArticle: false
 year: '2023'
 title: >-
-  Empresas ofrece solución SD-WAN para optimizar y controlar las redes de área
-  amplia
+  Movistar Empresas ofrece solución SD-WAN para optimizar y controlar las redes
+  de área amplia
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Usuario-Teclado-p.jpg
 detail-image: >-
