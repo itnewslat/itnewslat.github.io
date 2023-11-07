@@ -35,7 +35,7 @@ Por su parte, **_Carlos Blanco_**, CEO de [ABSIDE](https://www.absidecorp.com/),
 
 Por su parte, **_Jesús Diez_**, Data Center, Cloud, Transformación Digital Senior Manager de [Cirion Technologies](https://www.ciriontechnologies.com/es-ve/), se enfocó en el tema crucial de la ciberseguridad en el ámbito bancario. Su presentación brindó información valiosa sobre cómo proteger y fortalecer las infraestructuras financieras en un mundo digital. “Venezuela registró 10.000 millones de intentos de ciberataques en el primer semestre 2023, lo que lo convierte en el tercer país con mayor cantidad de ataques en LATAM” afirmó.
 
-ABSIDE expresa su profundo agradecimiento a **ITNewsLat** por esta oportunidad de colaboración y a todos los asistentes por su participación activa en el evento. La sinergia entre las empresas patrocinadoras y los expertos e invitados resultó en una experiencia enriquecedora y fructífera para la comunidad b
+[ABSIDE](https://www.absidecorp.com/) expresa su profundo agradecimiento a **ITNewsLat** por esta oportunidad de colaboración y a todos los asistentes por su participación activa en el evento. La sinergia entre las empresas patrocinadoras y los expertos e invitados resultó en una experiencia enriquecedora y fructífera para la comunidad bancaria.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Evento-Banca-p.jpg)
 
