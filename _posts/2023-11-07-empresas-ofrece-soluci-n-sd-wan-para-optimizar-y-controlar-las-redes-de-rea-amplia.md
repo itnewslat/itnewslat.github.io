@@ -2,13 +2,22 @@
 layout: posts
 color-schema: red-dark
 date: '2023-11-07 15:34 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2023'
 title: >-
   Empresas ofrece solución SD-WAN para optimizar y controlar las redes de área
   amplia
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Usuario-Teclado-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Usuario-Teclado-g.jpg
+categories:
+  - Venezuela
+tags:
+  - Movilidad
+week: '45'
 ---
 Tal y como se presentó en la Feria Internacional de Telecomunucaciones (Fitelven), Movistar Empresas incorpora a su catálogo de productos y servicios la solución SD-WAN (acrónimo de Software Defined Wide Area Network) una evolución de la conectividad de red WAN que mejora la gestión, reduce la latencia, proporciona mayor seguridad y aumenta la productividad de los negocios.
 
