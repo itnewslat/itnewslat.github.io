@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2023-10-25 21:06 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2023'
 title: El 33% de la empresas en crecimiento buscan mejorar la experiencia del cliente
