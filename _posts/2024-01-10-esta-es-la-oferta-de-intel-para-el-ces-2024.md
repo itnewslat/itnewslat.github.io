@@ -128,7 +128,7 @@ Los sistemas portátiles equipados con el procesador Intel Core U Serie 1 llegar
 
 5- Desempeño de subprocesos múltiples en Autodesk 3ds Max Toon Shader Arnold Carga de trabajo de renderización de Intel® Core™ procesador i7 de 14ª Generación 14700 en comparación con la generación anterior. Consulte www.intel.com/performanceindex para obtener más información. Los resultados pueden variar.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Procesador-INTEL-p.jp)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Procesador-INTEL-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
