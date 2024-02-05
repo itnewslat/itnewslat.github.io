@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-01-03 08:28 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: 'Tendencias tecnológicas para 2024: Una visión hacia el futuro con SAP y ABSIDE'
