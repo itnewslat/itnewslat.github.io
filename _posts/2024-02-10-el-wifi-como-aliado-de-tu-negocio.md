@@ -19,7 +19,7 @@ week: '06'
 ---
 **¡El WiFi ya no es sólo para acceder a Internet!**
 
-por: **Aquiles Rodríguez, CEO Heros Technologies**
+por: **Aquiles Rodríguez, CEO Heros Technology**
 
 **MoveWifi** es la manera de descubrir cómo tu plaza, parque, club, restaurant, concierto, estadio, posada, hotel, centro comercial, evento pueden aprovechar el poder del marketing a través del WiFi, el WiFi se ha convertido en un ingrediente imprescindible para el éxito de tu negocio. 
 
