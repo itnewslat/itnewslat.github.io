@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-02-05 09:58 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: Desata el poder de los datos con ABSIDE y Google Cortex
