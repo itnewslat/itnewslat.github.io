@@ -10,7 +10,7 @@ title: >-
   Datos alternativos son la clave para el acceso a financiamiento en
   Latinoamérica
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/dinero-seguro-p-.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/dinero-seguro-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/dinero-seguro-g-.jpg
 categories:
@@ -44,7 +44,7 @@ Cuando ya la decisión de riesgo está tomada y las instituciones han hecho lo n
 
 “Todas las personas atraviesan por diferentes momentos económicos, algunos más solventes que otros, y es importante contar con las herramientas de visibilidad y decisión necesarias para saber lo que requiere el cliente en un momento particular para no caer en incumplimiento, y así seguir en un proceso virtuoso tanto para él como para quien le da el financiamiento. Todo esto en un contexto donde la hiperpersonalización de los productos es una necesidad recurrente tanto desde la perspectiva del usuario, como de la institución financiera. Los datos alternativos acá también son fundamentales, ya que entregan un panorama mucho más completo del usuario y qué necesita la entidad para ofrecerle lo que realmente necesita” concluyó José Luis Vargas, vicepresidente ejecutivo de Provenir para Latinoamérica.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/dinero-seguro-p-.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/dinero-seguro-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
