@@ -8,9 +8,9 @@ superArticle: false
 year: '2024'
 title: ¿Cómo comunicarse con los clientes en caso de un posible fraude?
 image: >-
-  https://github.com/itnewslat/assets/blob/master/img/540x320/Cliente-preocupado-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cliente-preocupado-p.jpg
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/Cliente-preocupado-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cliente-preocupado-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -65,3 +65,15 @@ Este enfoque educa a los clientes, les permite tomar decisiones y les ofrece un 
 **Equilibrar la facilidad de uso con una fricción razonable**
 
 Cuando se les pregunta qué es lo que más buscan al abrir una cuenta financiera, el 61% de los consumidores a nivel mundial seleccionan la "facilidad de uso" entre sus tres consideraciones principales, junto con una buena protección contra el fraude y un buen valor. Equilibrar la facilidad de uso y una buena protección contra el fraude siempre es un desafío central para los equipos de gestión de fraudes. Las comunicaciones claras entregadas en el momento adecuado y a través del canal correcto son absolutamente necesarias para obtener y mantener una combinación óptima de simplicidad y fricción razonable.
+
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Cliente-preocupado-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
