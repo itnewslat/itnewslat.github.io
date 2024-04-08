@@ -6,7 +6,9 @@ published: true
 superNews: false
 superArticle: false
 year: '2024'
-title: ''
+title: >-
+  Estudio de Cisco revela que pocas empresas están preparadas para defenderse en
+  el contexto actual de amenazas en rápida evolución
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/ciberseguridad-empresarial-p.jpg
 detail-image: >-
@@ -24,17 +26,13 @@ tags:
   - Seguridad
 week: '15'
 ---
-Estudio de Cisco revela que pocas empresas están preparadas para defenderse en el contexto actual de amenazas en rápida evolución
-
-Sumario de noticias:
-
 ● Sólo el 3% de las organizaciones a nivel mundial tienen el nivel desarrollado de preparación necesario para ser resistentes a los riesgos de ciberseguridad actuales.
 
 ● La preparación es fundamental, ya que el 73% de los encuestados afirma que es probable que un incidente de ciberseguridad perturbe su actividad en los próximos 12 a 24 meses.
 
 ● Las empresas están tomando medidas para hacer frente a esta situación, ya que el 97% de ellas espera aumentar sus presupuestos de ciberseguridad en los próximos 12 meses.
 
-Bogotá, Colombia abril de 2024 — Sólo el 3% de las empresas de todo el mundo tiene el nivel de preparación “desarrollado” necesario para ser resistentes frente a los riesgos de ciberseguridad modernos, según el Índice de Preparación para la Ciberseguridad 2024 de Cisco (NASDAQ: CSCO). Publicado hoy, el Índice destaca que la preparación ha disminuido significativamente desde hace un año, cuando el 15% de las empresas se clasificaron como preparadas.
+Sólo el 3% de las empresas de todo el mundo tiene el nivel de preparación “desarrollado” necesario para ser resistentes frente a los riesgos de ciberseguridad modernos, según el Índice de Preparación para la Ciberseguridad 2024 de Cisco (NASDAQ: CSCO). Publicado hoy, el Índice destaca que la preparación ha disminuido significativamente desde hace un año, cuando el 15% de las empresas se clasificaron como preparadas.
 
 El Índice Cisco de Preparación para la Ciberseguridad 2024 se ejecutó en un período definido por la hiperconectividad y un panorama de amenazas en rápida evolución. Hoy en día, las empresas siguen siendo el blanco de una variedad de técnicas que van desde el phishing y el ransomware hasta los ataques a la cadena de suministro y de ingeniería social. Y aunque están construyendo defensas contra estos ataques, siguen luchando para defenderse de ellos, ralentizadas por sus propias posturas de seguridad excesivamente complejas que están dominadas por múltiples soluciones puntuales.
 
