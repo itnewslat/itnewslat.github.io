@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-04-08 15:28 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: 'La Transformación Digital con SAP S/4HANA Cloud, Edición Pública'
@@ -82,4 +82,3 @@ Como líderes regionales en soluciones SAP, en ABSIDE no solo ofrecemos solucion
 </tr>
 </tbody>
 </table>
-
