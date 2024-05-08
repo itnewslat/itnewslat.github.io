@@ -10,7 +10,7 @@ title: >-
   Globant y Formula 1 anuncian un partnership de varios años para potenciar las
   experiencias digitales de F1
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/master/img/5400x320/RB-F1-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/RB-F1-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/RB-F1-g.jpg
 categories:
@@ -44,7 +44,7 @@ Jonny Haworth, Director Commercial Partnerships en Formula 1, dijo: "Esta emocio
 
 Pete Samara, Director de Strategic Technical Ventures en Formula 1, dijo: "En un deporte con la innovación en su corazón, esta nueva asociación apoyará a F1 en su impulso por transformar los sistemas clave de tecnología de la información para brindar un mejor servicio a nuestra apasionada base de fans y a nuestras partes interesadas dedicadas. Juntos utilizaremos la excelencia técnica de Globant y nuestro compromiso combinado de empujar los límites para llevar la experiencia digital de F1 en eventos a una nueva era
 
-![](https://raw.githubusercontent.com/itnewslat/assets/master/img/5400x320/RB-F1-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/RB-F1-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
