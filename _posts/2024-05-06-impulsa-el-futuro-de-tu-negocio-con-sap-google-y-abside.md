@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-05-06 18:50 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: 'Impulsa el Futuro de tu Negocio con SAP, Google y ABSIDE'
