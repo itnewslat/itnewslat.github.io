@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2024-06-17 10:22 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2024'
