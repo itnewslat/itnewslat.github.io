@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-05-30 12:31 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: Automatización Inteligente
@@ -109,4 +109,3 @@ Anímate y contacta a cualquiera de nuestro team de expertos y te acompañaremos
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
