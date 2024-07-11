@@ -62,7 +62,7 @@ La creatividad también va más allá de FlexWindow. FlexCam continúa ofreciend
 
 Los nuevos sensores gran angular de 50 MP y ultra gran angular de 12 MP brindan una experiencia de cámara mejorada con detalles claros y nítidos en las imágenes. El nuevo sensor de 50MP admite zoom óptico de 2x para fotografías sin ruido, al tiempo que ofrece zoom con IA para una experiencia de disparo avanzada con un zoom de hasta 10x. Nightography, mejorada con video HDR, le permite captar videos más brillantes, incluso con poca luz, y va más allá al asociarse también con aplicaciones sociales populares. La función de captura nocturna ahora está disponible en la aplicación de Instagram, por lo que puede tomar fotos increíbles por la noche y enviarlas por mensaje o compartirlas directamente desde la aplicación.
 
-### Puede conseguir mas información de los modelos **[Fold](https://www.samsung.com/mx/smartphones/galaxy-z-fold6/specs/)** y **[Flip](https://www.samsung.com/mx/smartphones/galaxy-z-flip6/)** en SAMSUNG
+**Puede conseguir mas información de los modelos** **[Fold](https://www.samsung.com/mx/smartphones/galaxy-z-fold6/specs/)** y **[Flip](https://www.samsung.com/mx/smartphones/galaxy-z-flip6/)** en SAMSUNG
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Galaxy-2024-p.jpg)
 
