@@ -1,4 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-{{ content }}
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- @todo: fill with your company info or remove -->
+  <meta name="{{ site.description }}" content="">
+  <meta name="author" content="{{ site.author }}">
+
+  <!-- Bootstrap v4.0.0 CSS via CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
+
+  <!-- Theme style -->
+  <link href="/assets/css/theme-style.min.css" rel="stylesheet">
+
+  <!-- Orange colour scheme -->
+  <link href="/assets/css/colour-red-dark.min.css" rel="stylesheet">
+
+
+  <!-- Your custom override -->
+  <link href="/assets/css/custom-style.css" rel="stylesheet">
+
+
+
+  <!-- Optional: ICON SETS -->
+  <!-- Iconset: Font Awesome 5.0.4 via CDN -->
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <!-- Iconset: flag icons - http://lipis.github.io/flag-icon-css/ -->
+  <link href="assets/plugins/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+  <!-- Iconset: ionicons - http://ionicons.com/ -->
+  <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <!-- Iconset: Linearicons - https://linearicons.com/free -->
+  <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
+
+
+  <!-- Le fav and touch icons - @todo: fill with your icons or remove, try https://realfavicongenerator.net -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicons/manifest.json">
+  <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+  <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- Google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Rambla:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+
+  <!--Plugin: Retina.js (high def image replacement) - @see: http://retinajs.com/-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script> -->
+</head>
+
+
+<body class="page page-index-coming-soon-newsletter navbar-layout-default">
+  <!-- @plugin: page loading indicator, delete to remove loader -->
+  <div class="page-loader" data-toggle="page-loader"></div>
+  {%  for element in site.data.index.content %}
+    <div class="text-center px-3 " data-bg-img="{{ element.background }}" data-css='{}' data-toggle="full-height">
+
+      <div class="text-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 overlay overlay-gradient overlay-op-6 bg-img blazy-bg animated animated-done b-loaded" data-animate="fadeIn" data-animate-delay="0.2" style="animation-delay: 0.2s; background-image: url({{element.img-map}})"></div>
+          <div class="col-lg-4 py-6 animated animated-done" data-animate="fadeIn" data-animate-delay="0.4" style="animation-delay: 0.4s;">
+            <h2 class="display-4 text-slab text-white text-uppercase mt-0 mb-3">
+              <img class="img-fluid"  src="{{ site.logo_red | prepend:site.image_url }}" alt="">
+            </h2>
+            <div class="float-md-right ml-md-auto">
+              {% for item in element.rrss %}
+                <a href="{{ item.href }}" target="_blank" class="btn btn-sm btn-icon btn-dark btn-rounded"><i class="fab {{ item.icon }}"></i></a>
+              {% endfor %}
+            </div>
+            <hr class="my-4 hr-white op-1">
+            <div class="row" style="color: #31383d;">
+              {{ element.description }}<br><br>
+              {% for option in site.data.header.headers %}
+              <div class="col-md-12">
+                <a href="{{ option.href }}" style="color: #31383d;"><h3>{{option.element}}</h3>
+                </a>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+
+<!--jQuery 3.2.1 via CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Popper 1.12.9 via CDN, needed for Bootstrap Tooltips & Popovers -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Bootstrap v4.0.0 JS via CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+<!-- JS plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 To disable this and load plugin assets manually simple add data-plugins-manual=true to the body tag -->
+
+
+<!-- custom.js -->
+<script src="assets/js/custom.js"></script>
+<!--Custom scripts & AppStrap API integration -->
+<script src="assets/js/custom-script.js"></script>
+<!--AppStrap scripts mainly used to trigger libraries/plugins -->
+<script src="assets/js/script.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117276592-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117276592-1');
+</script>
+
+</body>
 </html>
