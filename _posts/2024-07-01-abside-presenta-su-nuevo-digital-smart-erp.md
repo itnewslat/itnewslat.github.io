@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-07-01 15:55 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: ABSIDE presenta su nuevo Digital Smart ERP
