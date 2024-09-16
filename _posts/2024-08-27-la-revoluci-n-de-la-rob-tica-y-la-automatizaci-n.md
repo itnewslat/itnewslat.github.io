@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-08-27 09:33 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: La Revolución de la Robótica y la Automatización
