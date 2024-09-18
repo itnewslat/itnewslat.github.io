@@ -21,7 +21,7 @@ image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1200x450/ebusiness-l.jpg
 week: '37'
 ---
-- **Así lo refleja el Ranking Top 100 Companies 2023 de Business Venezuela**
+- **Así lo refleja el Ranking Top 100 Companies 2024 de Business Venezuela**
 
 
 **[ABSIDE](https://absidecorp.com/)**, líder regional en soluciones tecnológicas SAP y Google, se enorgullece en anunciar que ha sido destacada en el prestigioso Ranking Top 100 Companies, publicado recientemente por la revista Business Venezuela, con el respaldo de la Cámara Venezolano-Americana de Comercio e Industria ( VenAmCham).
