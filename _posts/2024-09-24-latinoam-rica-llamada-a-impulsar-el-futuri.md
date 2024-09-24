@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2024'
-title: 'Latinoamérica, llamada a impulsar el futuri'
+title: 'Latinoamérica, llamada a impulsar el futuro'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Daniel-Torras-p.jpg
 detail-image: >-
