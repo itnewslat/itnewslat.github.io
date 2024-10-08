@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-09-16 18:12 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: ABSIDE alcanza el 3er lugar en la categoría de TI
