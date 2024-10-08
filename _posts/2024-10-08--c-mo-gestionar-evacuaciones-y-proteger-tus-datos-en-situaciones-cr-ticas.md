@@ -8,7 +8,7 @@ superArticle: false
 year: '2024'
 title: ¿Cómo gestionar evacuaciones y proteger tus datos en situaciones críticas?
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Security-Woman-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Security-Woman-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Security-Woman-g.jpg
 categories:
