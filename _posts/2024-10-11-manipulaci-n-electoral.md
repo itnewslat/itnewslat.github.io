@@ -49,3 +49,15 @@ No obstante, la regulación por sí sola no es suficiente. Las herramientas de I
 La IA es un riesgo latente en la preparación y desarrollo de los procesos electorales, y sus implicaciones para la democracia son profundas. Desde la creación de deepfakes hasta la manipulación masiva de la opinión pública, las herramientas impulsadas por IA, detrás de las cuales operan personas con intenciones maliciosas, presentan amenazas sin precedentes para la integridad de los procesos electorales.
 
 Sin embargo, como señala Israel Gutiérrez, “la clave está en aprovechar las mismas herramientas para fortalecer la ciberseguridad y garantizar que los votantes puedan confiar en la información que reciben”. La batalla entre quienes usan la IA para subvertir la democracia y aquellos que buscan protegerla apenas está comenzando, y su desenlace dependerá de la capacidad de los gobiernos y las instituciones para responder eficazmente a esta nueva realidad.
+
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Voto-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
