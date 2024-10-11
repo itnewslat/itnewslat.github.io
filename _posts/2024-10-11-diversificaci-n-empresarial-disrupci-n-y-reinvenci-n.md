@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2024-10-11 09:09 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
 year: '2018'
@@ -20,6 +20,8 @@ categories:
   - Chile
   - Panama
   - Mexico
+tags:
+  - Canales
 ---
 Existe una cita célebre del reconocido químico Antoine Lavoisier que dice: “En la naturaleza nada se crea, nada se pierde, todo se transforma”. Así, esta premisa ha movido y sigue moviendo a muchas empresas en un intento de reinventarse y salir de dificultades e incluso de ampliar sus negocios y dominios. Si reescribiéramos esa frase hoy, desde un punto de vista moderno, tendríamos algo como: “en el mundo empresarial, todo se recrea y se transforma; o se pierde”.
 
