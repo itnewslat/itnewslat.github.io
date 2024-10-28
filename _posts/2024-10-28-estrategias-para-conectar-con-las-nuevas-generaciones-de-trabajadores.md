@@ -8,7 +8,7 @@ superArticle: false
 year: '2'
 title: Estrategias para conectar con las nuevas generaciones de trabajadores
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540X320/generacion-z-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/generacion-z-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/generacion-z-g.jpg
 categories:
