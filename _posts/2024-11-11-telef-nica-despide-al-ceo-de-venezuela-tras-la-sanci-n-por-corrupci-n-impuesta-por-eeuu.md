@@ -7,8 +7,8 @@ superNews: false
 superArticle: false
 year: '2024'
 title: >-
-  Telefónica despide al CEO de Venezuela tras la sanción por corrupción impuesta
-  por EEUU
+  Telefónica despide al ex-CEO de Venezuela tras la sanción por corrupción
+  impuesta por EEUU
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Pedro-Cortez-g.jpg
 image: >-
