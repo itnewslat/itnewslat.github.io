@@ -44,7 +44,7 @@ El primer ejecutivo de Telefónica en Latinoamérica en esos momentos era Eduard
 
 Este departamento, esencial en la lucha contra la corrupción, dependía del área de Auditoría y ahora de la Dirección General de Compliance. Fuentes próximas a Telefónica admiten el daño provocado por esta sanción, no solo por el importe, el mayor de la historia de una empresa española en EEUU, sino también por el castigo reputacional. Especialmente porque no es la primera vez que el grupo debe pactar una sanción con la Securities Exchange Commission (SEC), el regulador bursátil de Estados Unidos. Aunque en esa ocasión, el importe fue muy inferior. Telefónica tuvo que pagar 4 millones de dólares por regalar entradas para el Mundial de Brasil de 2014 a funcionarios brasileños. 
 
-Telefónica tuvo que pagar 4 millones de dólares por regalar entradas para el Mundial de Brasil de 2014 a funcionarios brasileños La multinacional española, que encargó la investigación interna a Pablo de Carvajal, secretario del consejo de administración, ayudado por Miguel Sánchez San Venancio, máximo responsable de Seguridad, se ha comprometido con las autoridades americanas a colaborar en cualquier pesquisa posterior y a cumplir a rajatabla con la normativa contra la corrupción y el blanqueo de capitales. 
+La multinacional española, que encargó la investigación interna a Pablo de Carvajal, secretario del consejo de administración, ayudado por Miguel Sánchez San Venancio, máximo responsable de Seguridad, se ha comprometido con las autoridades americanas a colaborar en cualquier pesquisa posterior y a cumplir a rajatabla con la normativa contra la corrupción y el blanqueo de capitales. 
 
 Telefónica declinó dar su versión sobre esta información.
 
