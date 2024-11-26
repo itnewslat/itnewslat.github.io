@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-11-06 15:46 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: El Papel de la IA en la Eficiencia Operativa de las Empresas de tecnología
