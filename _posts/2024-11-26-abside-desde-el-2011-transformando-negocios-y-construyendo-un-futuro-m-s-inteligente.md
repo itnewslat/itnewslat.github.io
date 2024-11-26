@@ -35,7 +35,7 @@ Por otro lado, en un inicio, el portafolio de ABSIDE estaba centrado en solucion
 
 La innovación siempre ha sido un pilar fundamental de ABSIDE. Sin embargo, a lo largo de estos años hemos intensificado esfuerzos en este ámbito. **Esto se refleja en la incorporación de nuevas tecnologías emergentes como la Inteligencia Artificial, Robótica, el Machine Learning y el Big Data en nuestras soluciones.**
 
-<img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Carlos1.jpg" alt="" width="167" height="250" align="left"/> Por otro lado, nacimos como una empresa nacional y hoy día somos regionales. Esta expansión geográfica nos ha permitido acceder a nuevos mercados y fortalecer nuestra posición como un jugador clave en el sector tecnológico.
+<img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Carlos3.jpg" alt="" width="167" height="250" align="left"/> Por otro lado, nacimos como una empresa nacional y hoy día somos regionales. Esta expansión geográfica nos ha permitido acceder a nuevos mercados y fortalecer nuestra posición como un jugador clave en el sector tecnológico.
 
 Con el tiempo, hemos adoptado una visión más holística de la transformación digital, ayudando a las empresas a transformar sus procesos, cultura y modelos de negocio de manera integral.
 
