@@ -11,8 +11,8 @@ publicity-1:
 #     url: http://www.logintel.com.ve/
    
 sideBar-publicity:
-  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banesco-PFM-banner-300x300.gif
-    url: https://www.banesco.com/somos-banesco/responsabilidad-social/programa-de-formacion-de-microempresarios
+  - image: https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg
+    url: https://itnews.lat/Historico.html
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/Banner_4GEllaCambio_ciberespacio.jpg
     url: https://www.digitel.com.ve/
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITNEWS_Banner_ESR.png
