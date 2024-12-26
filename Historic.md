@@ -1,3 +1,5 @@
+{% include venezuela/header.html %}
+
 <html lang="es"> 
   <head> <meta charset="UTF-8"> 
     <title>Calendario Anual 2025</title> 
@@ -67,23 +69,23 @@
           <!-- Genera las semanas --> 
           <div class="week"> 
             <h3>Semana 6</h3> 
-            <p>Enero 03 al 09 (Semana 06)</p> 
+            <p>Febrero 03 al 09 (Semana 06)</p> 
           </div> 
           <div class="week"> 
           	<h3>Semana 7</h3> 
-          	<p>Enero 10 al 16 (Semana 07)</p> 
+          	<p>Febrero 10 al 16 (Semana 07)</p> 
           </div> 
           <div class="week"> 
           	<h3>Semana 8</h3> 
-          	<p>Enero 17 al 23 (Semana 08)</p> 
+          	<p>Febrero 17 al 23 (Semana 08)</p> 
           </div>
           <div class="week"> 
           	<h3>Semana 9</h3> 
-          	<p>Enero 24 al 02 (Semana 09)</p> 
+          	<p>Febrero 24 al 02 (Semana 09)</p> 
           </div>
           <div class="week"> 
           	<h3>Semana 5</h3> 
-          	<p>Enero 27 al 02 (Semana 05)</p> 
+          	<p>Febrero 27 al 02 (Semana 10)</p> 
           </div>
           <!-- Añadir más semanas según necesidad --> </div> 
       </div> 
