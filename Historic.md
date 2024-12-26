@@ -12,7 +12,7 @@
       .month { 
         border: 1px solid #ccc; 
         margin: 5px; 
-        width: calc(100% / 3 - 10px); 
+        width: calc(100% / 3 - 50px); 
       } 
       .month h2 { text-align: center;
       } 
