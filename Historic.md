@@ -43,18 +43,49 @@
             <p>Enero 01 al 05 (Semana 01)</p> 
           </div> 
           <div class="week"> 
-          <h3>Semana 2</h3> 
-          <p>Enero 06 al 13 (Semana 02)</p> 
+          	<h3>Semana 2</h3> 
+          	<p>Enero 06 al 13 (Semana 02)</p> 
           </div> 
           <div class="week"> 
-          <h3>Semana 3</h3> 
-          <p>Enero 13 al 21 (Semana 03)</p> 
+          	<h3>Semana 3</h3> 
+          	<p>Enero 13 al 21 (Semana 03)</p> 
           </div>
           <div class="week"> 
-          <h3>Semana 4</h3> 
-          <p>Enero 20 al 06 (Semana 04)</p> 
+          	<h3>Semana 4</h3> 
+          	<p>Enero 20 al 26 (Semana 04)</p> 
+          </div>
+          <div class="week"> 
+          	<h3>Semana 5</h3> 
+          	<p>Enero 27 al 02 (Semana 05)</p> 
           </div>
           <!-- Añadir más semanas según necesidad --> </div> 
       </div> 
       <!-- Añadir más meses según necesidad --> </div> 
+ <div class="month"> 
+        <h2>Febrero</h2> 
+        <div class="weeks"> 
+          <!-- Genera las semanas --> 
+          <div class="week"> 
+            <h3>Semana 6</h3> 
+            <p>Enero 03 al 09 (Semana 06)</p> 
+          </div> 
+          <div class="week"> 
+          	<h3>Semana 7</h3> 
+          	<p>Enero 10 al 16 (Semana 07)</p> 
+          </div> 
+          <div class="week"> 
+          	<h3>Semana 8</h3> 
+          	<p>Enero 17 al 23 (Semana 08)</p> 
+          </div>
+          <div class="week"> 
+          	<h3>Semana 9</h3> 
+          	<p>Enero 24 al 02 (Semana 09)</p> 
+          </div>
+          <div class="week"> 
+          	<h3>Semana 5</h3> 
+          	<p>Enero 27 al 02 (Semana 05)</p> 
+          </div>
+          <!-- Añadir más semanas según necesidad --> </div> 
+      </div> 
+ 
   </body>
