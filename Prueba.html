@@ -34,21 +34,22 @@ published: true
         margin: 2px; width: calc(100% / 4 - 4px); 
         padding: 5px; 
       } 
-      .week h3 { font-size: 14px; 
+      .week h3 { font-size: 20px; 
       } 
-      .week p { font-size: 12px; 
+      .week p { font-size: 16px; 
       } 
     </style> 
   </head> 
   <body> 
+    <center>
     <h1>Calendario Anual 2025</h1> 
-    <div class="calendar"> 
+    <div class="calendar" > 
       <!-- Genera los meses --> 
       <div class="month"> 
         <h2>Enero</h2> 
         <div class="weeks"> 
           <!-- Genera las semanas --> 
-          <div class="week"> 
+          <div class="week" > 
             <h3>Semana 1</h3> 
             <p>Enero 01 al 05 (Semana 01)</p> 
           </div> 
@@ -97,5 +98,6 @@ published: true
           </div>
           <!-- Añadir más semanas según necesidad --> </div> 
       </div> 
- 
+ </center>
   </body>
+  {% include posts/footer.html %}
