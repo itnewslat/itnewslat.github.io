@@ -1,4 +1,3 @@
-<!DOCTYPE html> 
 <html lang="es"> 
   <head> <meta charset="UTF-8"> 
     <title>Calendario Anual 2025</title> 
@@ -15,7 +14,8 @@
       } 
       .month h2 { text-align: center;
       } 
-      .weeks { display: flex; 
+      .weeks { 
+        display: flex; 
         flex-wrap: 
           wrap;
       } 
@@ -40,10 +40,21 @@
           <!-- Genera las semanas --> 
           <div class="week"> 
             <h3>Semana 1</h3> 
-            <p>Aquí puedes añadir el histórico de noticias...</p> 
-          </div> <div class="week"> 
+            <p>Enero 01 al 05 (Semana 01)</p> 
+          </div> 
+          <div class="week"> 
           <h3>Semana 2</h3> 
-          <p>Aquí puedes añadir el histórico de noticias...</p> </div> 
-          <!-- Añadir más semanas según necesidad --> </div> </div> 
+          <p>Enero 06 al 13 (Semana 02)</p> 
+          </div> 
+          <div class="week"> 
+          <h3>Semana 3</h3> 
+          <p>Enero 13 al 21 (Semana 03)</p> 
+          </div>
+          <div class="week"> 
+          <h3>Semana 4</h3> 
+          <p>Enero 20 al 06 (Semana 04)</p> 
+          </div>
+          <!-- Añadir más semanas según necesidad --> </div> 
+      </div> 
       <!-- Añadir más meses según necesidad --> </div> 
   </body>
