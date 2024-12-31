@@ -30,10 +30,8 @@ moreNews:
         href: /Socios.html
       - title: Publicidad
         href: "https://bit.ly/3rPtTXs"
-      - title: Business Wire
-        href: "/businesswire.html"
-    moreNews: /prwire.html
-    moreNews-title: Más noticias sobre tecnología
+    moreNews: /businesswire.html
+    moreNews-title: Business Wire
 
 
 title: Itnews.lat
