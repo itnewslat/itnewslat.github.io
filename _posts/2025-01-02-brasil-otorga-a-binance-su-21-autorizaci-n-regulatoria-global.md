@@ -22,7 +22,7 @@ categories:
   - Mexico
 tags:
   - Economía Digital
-week: '01'
+week: '1'
 ---
 
 **El Banco Central de Brasil aprobó la adquisición, por parte de Binance, de un corredor de bolsa con licencia en el país más poblado de América Latina**
