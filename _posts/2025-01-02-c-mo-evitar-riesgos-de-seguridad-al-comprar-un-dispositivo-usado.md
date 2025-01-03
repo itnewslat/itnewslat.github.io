@@ -22,7 +22,7 @@ categories:
   - Mexico
 tags:
   - Seguridad
-week: '01'
+week: '1'
 ---
 **ESET Latinoamérica advierte que comprar un teléfono de segunda mano puede tener riesgos y aconseja qué considerar antes de adquirirlo y cómo prepararlo para un uso seguro.******
 
