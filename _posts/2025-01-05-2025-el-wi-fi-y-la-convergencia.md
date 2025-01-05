@@ -2,9 +2,9 @@
 layout: posts
 color-schema: red-dark
 date: '2025-01-05 15:55 -0400'
-published: false
-superNews: true
-superArticle: false
+published: true
+superNews: false
+superArticle: true
 year: '2025'
 title: '2025: El Wi-Fi y la Convergencia'
 image: >-
