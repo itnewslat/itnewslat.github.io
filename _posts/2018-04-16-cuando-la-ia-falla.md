@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2018-04-16 22:55 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 title: Cuando la IA falla
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/540x320/Ankur-p.jpg
@@ -14,6 +14,7 @@ detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Ankur-g.jpg
 categories:
   - Perú
+year: '2018'
 ---
 
 Cómo pueden trabajar juntas la inteligencia humana y la inteligencia artificial para crear un mundo mejor
