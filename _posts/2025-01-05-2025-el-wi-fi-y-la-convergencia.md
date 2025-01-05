@@ -26,6 +26,9 @@ image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Aquiles-Rodriguez-p.jpg
 week: '02'
 ---
+por **Aquiles Rodriguez**
+**CEO @ Heros Technology fundador de MoveWireless**
+
 Hoy más que nunca, la tecnología Wi-Fi se ha convertido en el eje central de la conectividad en Venezuela y el mundo. Millones de dispositivos dependen de ella, y su despliegue sostiene innumerables servicios digitales que impulsan la vida moderna. Desde entornos residenciales y empresariales hasta espacios públicos,  ha marcado en su evolución una una diferencia crucial. Sin embargo, también enfrenta desafíos importantes que nos obligan a proyectar su futuro con una visión clara y tangible.
 
 **El estado actual del Wi-Fi**
@@ -69,6 +72,8 @@ El Wi-Fi se mantiene como una tecnología clave para la conectividad, evoluciona
 A medida que las demandas de conectividad aumentan y los dispositivos se multiplican, el Wi-Fi y su coexistencia con redes móviles como 4G/5G se consolidan como elementos fundamentales para los despliegues tecnológicos del futuro. El éxito dependerá de encontrar el equilibrio entre monetización y accesibilidad, garantizando así una conectividad inclusiva y eficiente.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Aquiles-Rodriguez-p.jpg)
+por **Aquiles Rodriguez**
+**CEO @ Heros Technology fundador de MoveWireless**
 
 <table style="height: 42px;" width="569">
 <tbody>
