@@ -18,6 +18,8 @@ categories:
 week: '03'
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/ABSIDE-25-01-l.jpg
+tags:
+  - Actualidad
 ---
 Mantenerse a la vanguardia requiere algo más que innovación y dedicación. Las empresas más exitosas han descubierto que un factor clave en su camino hacia el éxito es la implementación de soluciones de Smart ERP (Enterprise Resource Planning). Pero, ¿qué hace que estas soluciones sean tan vitales y cómo pueden transformar la forma en que opera una empresa? En este artículo, exploraremos la importancia del Smart ERP y cómo ABSIDE, líder regional en soluciones y servicios Google y SAP, está revolucionando el panorama empresarial.
 
