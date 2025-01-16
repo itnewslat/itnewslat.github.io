@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2024-11-26 07:17 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2024'
 title: >-
@@ -20,8 +20,6 @@ categories:
 tags:
   - Actualidad
 week: '48'
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/Aniv-Abside-l.jpg
 ---
 **Carlos Blanco, CEO de ABSIDE celebra un nuevo aniversario reafirmando su compromiso con la Transformación Digital, innovando y creciendo junto a sus clientes.**
 
