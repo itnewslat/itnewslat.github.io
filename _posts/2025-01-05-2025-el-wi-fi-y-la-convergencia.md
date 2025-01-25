@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2025-01-05 15:55 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2025'
 title: '2025: El Wi-Fi y la Convergencia'
 image: >-
@@ -22,8 +22,6 @@ categories:
   - Mexico
 tags:
   - Movilidad
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Aquiles-Rodriguez-p.jpg
 week: '02'
 ---
 por **Aquiles Rodriguez**
