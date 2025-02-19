@@ -4,11 +4,9 @@ color-schema: red-dark
 date: '2025-01-25 19:11 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2025'
 title: La Clave para una Conectividad sin Límites en Venezuela
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Ejecutivo-Wifi-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Ejecutivo-Wifi-g.jpg
 image: >-
