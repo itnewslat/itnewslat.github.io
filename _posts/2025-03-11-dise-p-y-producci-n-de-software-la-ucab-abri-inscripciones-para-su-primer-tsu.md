@@ -7,7 +7,7 @@ superNews: false
 superArticle: false
 year: '2025'
 title: >-
-  Diseñp y producción de software: La UCAB abrió inscripciones para su primer
+  Diseño y producción de software: La UCAB abrió inscripciones para su primer
   TSU
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/UCAB-p.jpg
