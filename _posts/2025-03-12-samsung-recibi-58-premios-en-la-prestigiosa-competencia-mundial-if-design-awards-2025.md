@@ -26,8 +26,8 @@ tags:
   - Actualidad
 week: '12'
 ---
-**La compañía obtuvo dos galardones de oro por diseños que ofrecen experiencias personalizadas para diferentes estilos de vida. **
-**Recibió 58 trofeos, entre ellos uno de oro para Ballie, robot basado en IA que actúa como asistente en el hogar**
+- **La compañía obtuvo dos galardones de oro por diseños que ofrecen experiencias personalizadas para diferentes estilos de vida.**
+- **Recibió 58 trofeos, entre ellos uno de oro para Ballie, robot basado en IA que actúa como asistente en el hogar**
 
 Samsung Electronics Co., Ltd. recibió un total de 58 premios en los International Forum (iF) Design Awards 2025, una prestigiosa competencia internacional de diseño alemana. Entre los honores se incluyó un premio de oro para Ballie de Samsung y el diseño de paquete conceptual avanzado para pequeños proyectores portátiles, BOJAGI.
 
