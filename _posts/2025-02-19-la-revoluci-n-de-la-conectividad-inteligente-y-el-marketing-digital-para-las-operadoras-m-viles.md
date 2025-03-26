@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2025-02-19 17:39 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2025'
 title: >-
   La Revolución de la Conectividad Inteligente y el Marketing Digital para las
