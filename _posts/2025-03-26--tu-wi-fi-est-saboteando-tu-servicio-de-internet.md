@@ -74,7 +74,7 @@ Por: **Aquiles Rodriguez**, CEO de HerosTech / MoveWireless
 
     **Comparativa de velocidades Wi-Fi:**
 
-    <table>
+    <table border="2">
         <thead>
             <tr>
                 <th>Estándar Wi-Fi</th>
