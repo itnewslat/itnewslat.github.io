@@ -2,7 +2,7 @@
 layout: posts
 color-schema: red-dark
 date: '2025-03-18 12:48 -0400'
-published: true
+published: false
 superNews: true
 superArticle: false
 year: '2025'
@@ -57,7 +57,7 @@ Acerca de ABSIDE:
 ABSIDE es una empresa regional fundada en 2011, líder en soluciones tecnológicas y transformación digital, especializada en soluciones SAP y Google. Con oficinas en Caracas, Quito, Santo Domingo, Puerto Rico y Miami, ABSIDE ofrece servicios de consultoría, implementación, soporte y mantenimiento para sistemas SAP y Google. Con un equipo de expertos altamente calificados y una amplia experiencia en el mercado, ABSIDE se compromete a ofrecer soluciones innovadoras y personalizadas que ayuden a las empresas a alcanzar sus objetivos de negocio. Para mayor información visite: www.abside.com
 
 
-ara mayor información visite www.absidecorp.com
+Para mayor información visite www.absidecorp.com
 
 Más información en: 
 - Sitio web: [www.absidecorp.com](https://absidecorp.com/) 
@@ -76,4 +76,3 @@ Más información en:
 </tr>
 </tbody>
 </table>
-
