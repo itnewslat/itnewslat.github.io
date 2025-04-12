@@ -49,7 +49,7 @@ ABSIDE es una empresa regional fundada en 2011, líder en soluciones tecnológic
 Para mayor información visite www.absidecorp.com
 
 Más información en: 
-- Sitio web: [www.absidecorp.com](https://absidecorp.com/) 
+- Sitio web: [www.abside.com](https://abside.com/) 
 - Twitter [@absidecorp](https://twitter.com/absidecorp) 
 - YouTube: [ABSIDE](https://www.youtube.com/channel/UCbWqhlxlMXwjdajMh9AP8bQ) 
 - Instagram: [@abside_corp](https://www.instagram.com/abside_corp/) 
