@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2025-04-10 07:10 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2025'
 title: ABSIDE Transforma el Futuro del Retail
