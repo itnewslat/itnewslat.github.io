@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2025-04-25 07:25 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2025'
 title: ¿Por qué tu vieja Wii aún se conecta?
 image: >-
