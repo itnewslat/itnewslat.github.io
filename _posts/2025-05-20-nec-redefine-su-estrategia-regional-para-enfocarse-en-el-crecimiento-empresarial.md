@@ -10,9 +10,9 @@ title: >-
   NEC redefine su estrategia regional para enfocarse en el crecimiento
   empresarial.
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/ejecutivos-it-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Alejandro-Ramirez-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/ejecutivos-it-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Alejandro-Ramirez-g.jpg
 categories:
   - Mexico
 tags:
@@ -33,7 +33,7 @@ Según Alejandro Ramírez, presidente de NEC en México, la decisión por el cam
 
 De acuerdo con Ramírez, México ocupa actualmente la 34ª posición en el ranking de la OCDE (Organización para la Cooperación y el Desarrollo Económicos), lo que exige que el país tome medidas efectivas para cambiar este escenario, comenzando por la mejora de los índices de productividad en las corporaciones, algo que puede lograrse con la ayuda de la transformación digital. “Hay un mercado muy amplio en el cual nos estamos enfocando. Por ejemplo, hay actualmente alrededor de 500 parques industriales en México entre los más importantes, lo que requiere una red más estructurada, con soluciones basadas en inteligencia artificial, IoT, entre otras tecnologías, además de más ancho de banda y menos latencia. Esto nos permitirá ayudar al país a crecer”, afirmó Ramírez.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/ejecutivos-it-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Alejandro-Ramirez-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
