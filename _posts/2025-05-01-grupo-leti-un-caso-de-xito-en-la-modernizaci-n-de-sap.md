@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2025-05-01 11:44 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2025'
 title: 'Grupo Leti: un caso de éxito en la modernización de SAP'
