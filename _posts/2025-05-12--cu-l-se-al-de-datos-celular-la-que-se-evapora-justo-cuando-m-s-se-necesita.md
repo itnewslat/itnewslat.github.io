@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2025-05-12 20:30 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2025'
 title: ¿Cuál señal de datos celular? La que se evapora justo cuando más se necesita.
 image: >-
