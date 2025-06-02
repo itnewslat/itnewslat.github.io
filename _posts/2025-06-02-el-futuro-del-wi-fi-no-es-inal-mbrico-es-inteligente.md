@@ -64,7 +64,7 @@ Hablemos de cómo transformar tu red en algo mucho más que simple Wi-Fi. Conver
 
 La próxima ola tecnológica ya ha comenzado su avance. Y esta vez, su llegada no estará marcada por la presencia de cables.
 
-**No dudes en escribirme a aquiles@movewireless.net o envíame un mensaje directo a través de LinkedIn.**
+**No dudes en escribirme a Aquiles.Rodriguez@heros-technology.com o envíame un mensaje directo a través de LinkedIn.**
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Usando-WIFI-p.jpg)
 
