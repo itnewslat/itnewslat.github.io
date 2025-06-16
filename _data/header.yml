@@ -25,9 +25,9 @@ headers:
     flag: flag-icon-it
 
 
-global-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/ban-TNEWSLAT-abside2020-728X90px-new.gif'
+global-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90-ItNewsLa_BASES-2025.gif'
 
-header-url: https://www.absidecorp.com/'
+header-url: https://www.abside.com/'
 
 publicity-1:
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner3.png
