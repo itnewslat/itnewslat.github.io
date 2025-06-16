@@ -19,7 +19,7 @@ week: '26'
 ---
 A nuestra mano llegó el **TECNO CAMON 40 PRO** con la intensión de evaluarlo el TECNO CAMON 40 PRO tomando en cuenta el equilibrio entre características, rendimiento y, crucialmente, el valor que aporta en su segmento de precio. Hemos tenido la oportunidad de examinar de cerca este dispositivo, y a continuación, les presentamos nuestras conclusiones.
 
-**Nota**: La distribución para el mercado venezolano corresponde a **TECNOTROPOLIS**, es un distribuidor clave para TECNO Mobile en Venezuela desde 2022. Esto significa que ellos son uno de los principales encargados de importar, comercializar y poner a disposición los productos de TECNO (teléfonos inteligentes, tablets, etc.) en el mercado venezolano. Ha creado alianzas importantes con los distintos retail, logrando el posicionamiento y abriéndose paso con diferentes marcas globales.
+**Nota**: La distribución para el mercado venezolano corresponde a **TECNOTROPOLIS**, es un distribuidor clave para TECNO Mobile en Venezuela desde 2022. Esto significa que ellos son uno de los principales encargados de importar, comercializar y poner a disposición los productos de TECNO en el mercado venezolano. Ha creado alianzas importantes con los distintos retail, logrando el posicionamiento y abriéndose paso con diferentes marcas globales.
 
 **Diseño y Experiencia de Usuario**:
 
