@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2025'
-title: ULiberty Networks fortalece la conectividad en México y Perú
+title: Liberty Networks fortalece la conectividad en México y Perú
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Cable-Submarino-p.jpg
 detail-image: >-
@@ -18,9 +18,9 @@ tags:
   - Movilidad
 week: '26'
 ---
-El sistema de cable submarino MANTA complementará la expansión de la red, mejorando la conectividad entre Estados Unidos, México, Centro y Sur América 
+**El sistema de cable submarino MANTA complementará la expansión de la red, mejorando la conectividad entre Estados Unidos, México, Centro y Sur América**
 
-iberty Networks, proveedor líder de conectividad empresarial e infraestructura digital en América Latina y el Caribe, amplió la cobertura de su red con la activación de dos nuevos Puntos de Presencia (PoP) regionales en México y el fortalecimiento de su PoP en Perú. Los nuevos y mejorados PoPs, ubicados en Campeche y Chetumal (México), y Lima (Perú), apoyan la estrategia de crecimiento regional de la compañía y fortalecen la conectividad a través de la Península de Yucatán en México y Sur América.
+Liberty Networks, proveedor líder de conectividad empresarial e infraestructura digital en América Latina y el Caribe, amplió la cobertura de su red con la activación de dos nuevos Puntos de Presencia (PoP) regionales en México y el fortalecimiento de su PoP en Perú. Los nuevos y mejorados PoPs, ubicados en Campeche y Chetumal (México), y Lima (Perú), apoyan la estrategia de crecimiento regional de la compañía y fortalecen la conectividad a través de la Península de Yucatán en México y Sur América.
 
 Este esfuerzo de crecimiento marca un hito importante en la estrategia regional de Liberty Networks, reforzando su compromiso de ingresar nuevos mercados y ofrecer conectividad confiable y de alto rendimiento en zonas de rápido crecimiento y con baja cobertura. MANTA, el sistema de cable submarino de la compañía, complementará el despliegue de los PoPs y la expansión de la red terrestre, además, está diseñado para optimizar el flujo de tráfico regional mediante la entrega de rutas de baja latencia que interconectan los principales centros de datos en las Américas.
 
