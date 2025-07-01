@@ -62,7 +62,8 @@ La productividad y colaboración son factores críticos de éxito en la era digi
 Con presencia en Venezuela, Colombia, Puerto Rico, República Dominicana y Ecuador, ABSIDE se posiciona como el partner líder de Google Cloud en la región, combinando tecnología de vanguardia con consultoría estratégica y un equipo certificado que acompaña de inicio a fin.
 
 "Nos eligen por nuestro conocimiento técnico, pero nos recomiendan por nuestro acompañamiento cercano y nuestra capacidad de generar resultados", concluye Johnny Molina.
-Transforma tu negocio hoy
+
+**Transforma tu negocio hoy**
 
 Si tu meta es optimizar costos, incrementar productividad, acelerar decisiones y habilitar inteligencia artificial en tu operación, ABSIDE y Google Cloud son la combinación estratégica para liderar tu mercado con tecnología y visión de negocio.
 
