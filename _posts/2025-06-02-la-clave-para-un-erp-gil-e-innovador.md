@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2025-06-02 09:40 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2025'
 title: La clave para un ERP ágil e innovador
