@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2025-07-02 07:00 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2025'
 title: >-
   Más Allá de la Conexión: El Wi-Fi como Motor de Negocio y Transformación
