@@ -38,10 +38,14 @@ Vivimos en una era donde la conectividad debe ser automática, segura y continua
 
 El problema no es solo técnico, es estratégico. Mientras las redes móviles han evolucionado hacia 5G con autenticación basada en SIM y roaming global sin fricción, el Wi-Fi sigue anclado en un modelo manual, aislado y sin integración con el ecosistema digital moderno.
 
-1. **La Pesadilla de la Conexión Manual**
+- **La Pesadilla de la Conexión Manual**
+
   Seleccionar redes, introducir contraseñas y aceptar términos cada vez que te mueves entre zonas Wi-Fi es una pérdida de tiempo que afecta la escalabilidad del Wi-Fi como herramienta de offload móvil. Sin detección automática ni políticas SIM-aware, el Wi-Fi tradicional no puede competir con la simplicidad de la conectividad celular.
-2. **Portales Cautivos: El Avance Intermedio del Wi-Fi Tradicional**
+  
+- **Portales Cautivos: El Avance Intermedio del Wi-Fi Tradicional**
+
   Los portales cautivos fueron, en su momento, una innovación útil. Hoy representan una etapa intermedia en la evolución del Wi-Fi: permiten cierta personalización, capturan datos y abren caminos a la monetización básica. Sin embargo, están lejos de ser una solución definitiva.
+  
 	**Lo que aportan actualmente**:
 		- Identificación básica del usuario (correo, redes sociales, SMS)
 		- Monetización directa (publicidad, venta de acceso, patrocinios)
@@ -57,21 +61,22 @@ El problema no es solo técnico, es estratégico. Mientras las redes móviles ha
 
   La evolución real exige eliminar fricciones y habilitar conexiones automáticas, seguras y sin pasos manuales. Esto implica adoptar arquitecturas donde el reconocimiento del usuario, la autenticación transparente y la continuidad del servicio estén integrados desde el diseño. Solo así el Wi-Fi podrá operar con estándares comparables a los de la conectividad móvil moderna.
   
-3.  **Autenticación Fragmentada**
+- **Autenticación Fragmentada**
 
   Cada red Wi-Fi actúa como una isla. La falta de integración con sistemas del operador (HSS, OCS, AAA) impide aplicar políticas de calidad de servicio, facturación o reconocimiento del tipo de suscriptor. Esto limita la capacidad del Wi-Fi para operar como una extensión real de la red móvil.
   
-4. **Roaming Cero = Productividad Cero**
+- **Roaming Cero = Productividad Cero**
 
   Sin protocolos de handover ni continuidad de sesión, el Wi-Fi tradicional no soporta movilidad real. Esto impacta gravemente la productividad en entornos corporativos, educativos y de transporte, donde los usuarios necesitan moverse sin interrupciones de conexión.
   
-5. **Seguridad Comprometida**
+- **Seguridad Comprometida**
 
   Antes de que el usuario valide el portal cautivo, los datos circulan sin cifrado. Esta “ventana de exposición” representa un riesgo considerable en redes públicas. El nuevo estándar debe garantizar cifrado extremo a extremo desde el primer paquete.
   
-6. **Ausencia de Federación**
+- **Ausencia de Federación**
 
   Sin federación, no hay roaming global. Cada red Wi-Fi requiere autenticación independiente. Esta limitación frena la visión de conectividad continua a nivel internacional, como ya ocurre en redes móviles.
+
 
 <table>
         <thead>
