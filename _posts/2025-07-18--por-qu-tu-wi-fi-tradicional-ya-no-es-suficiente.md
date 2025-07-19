@@ -26,8 +26,6 @@ week: '30'
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Ejecutivo-Wifi-p.jpg
 ---
-<!DOCTYPE html>
-<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -213,7 +211,8 @@ image-banner: >-
         </div>
     </div>
 </body>
-</html>
+
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Usando-Wifi-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
