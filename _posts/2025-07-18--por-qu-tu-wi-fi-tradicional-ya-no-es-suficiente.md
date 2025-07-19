@@ -120,6 +120,7 @@ El problema no es solo técnico, es estratégico. Mientras las redes móviles ha
         </tbody>
     </table>
 
+
 **Caso de Estudio: Starbucks y un Portal Cautivo alternativo**
 
 La alianza entre Starbucks y Google alterno el portal cautivo, con una integración de autenticación automática y mejoró drásticamente la experiencia del usuario. ¿El resultado? Mayor permanencia, más consumo y fidelización real. Es una prueba concreta del impacto que tiene eliminar la fricción en la conectividad.
@@ -150,10 +151,11 @@ El modelo incluye:
 Además, se están preparando despliegues regionales que conecten múltiples países bajo un esquema federado, carrier-neutral y con impacto directo en la experiencia del usuario y en los ingresos de los operadores.
 
 **¿Quieres transformar tu Wi-Fi en una plataforma inteligente?**
-**Aquiles Rodriguez**
-CEO MoveWireless
-Email: info@move-wireless.com
-WhatsApp: +58 412-6662763
+- **Aquiles Rodriguez**
+- CEO MoveWireless
+- Email: info@move-wireless.com
+- WhatsApp: +58 412-6662763
+
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Usando-Wifi-p.jpg)
 
