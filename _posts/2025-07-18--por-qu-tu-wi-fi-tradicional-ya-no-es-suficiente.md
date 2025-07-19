@@ -46,12 +46,13 @@ El problema no es solo técnico, es estratégico. Mientras las redes móviles ha
 
   Los portales cautivos fueron, en su momento, una innovación útil. Hoy representan una etapa intermedia en la evolución del Wi-Fi: permiten cierta personalización, capturan datos y abren caminos a la monetización básica. Sin embargo, están lejos de ser una solución definitiva.
   
-	**Lo que aportan actualmente**:
+	- **Lo que aportan actualmente**:
 		- Identificación básica del usuario (correo, redes sociales, SMS)
 		- Monetización directa (publicidad, venta de acceso, patrocinios)
 		- Control de uso visible para el operador
 		- Cierta personalización de la experiencia
-	**Pero siguen siendo una tecnología con límites claros**:
+        
+	- **Pero siguen siendo una tecnología con límites claros**:
 		- Requieren intervención del usuario (abrir navegador, aceptar términos)
 		- Interrumpen aplicaciones móviles en tiempo real
 		- Expuestos a brechas de seguridad, especialmente en la fase inicial de conexión
