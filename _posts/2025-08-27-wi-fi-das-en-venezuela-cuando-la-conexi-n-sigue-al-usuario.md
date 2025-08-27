@@ -28,7 +28,6 @@ week: '35'
 ---
 Artículo redactado por**Aquiles Rodríguez, CEO de HerosTech / MoveWireless**.
 
-
 En un país donde estar conectado no es un lujo sino casi una forma de supervivencia digital, la conectividad móvil vive bajo presión. Las soluciones viejas, como el DAS tradicional (Distributed Antenna System), eran efectivas pero carísimas, lentas de instalar y amarradas a un solo operador. En cristiano: buena idea, pero poco práctica y nada escalable.
 
 Hoy, Venezuela empieza a transitar un camino distinto, de la mano de MoveWireless: Wi-Fi DAS con AutoConnect y Seamless Connect, una arquitectura pensada con calidad de operador que combina lo mejor del DAS clásico con la flexibilidad de las redes Wi-Fi modernas. Básicamente, un internet que se comporta como red móvil, pero que se despliega y mantiene como un Wi-Fi.
@@ -38,9 +37,9 @@ Hoy, Venezuela empieza a transitar un camino distinto, de la mano de MoveWireles
 Un Wi-Fi DAS no es “poner routers y rezar”. Es una red de Access Points de clase operador, distribuidos estratégicamente en sitios como centros comerciales, estadios o centros deportivos, hospitales, alcaldías y gobernaciones. El resultado es que la conexión no depende de la suerte, ni de moverte a la esquina con señal: la cobertura está en todas partes y te sigue a donde vas, como un perrito fiel que no te suelta.
 Tres piezas clave que lo hacen posible
 
-1.	Wi-Fi 5/6/6E y pronto Wi-Fi 7: soporta cientos de usuarios al mismo tiempo con baja latencia. Dicho de otra forma, es como pasar de una avenida de dos canales a una autopista de ocho: más tráfico, menos tranca.
-2.	Move AutoConnect (Hotspot 2.0): conecta y autentica automáticamente a los usuarios sin contraseñas eternas ni portales incómodos. Funciona como el Bluetooth del carro: entras y se enlaza solo.
-3.	Move Seamless Connect (Offload): enlaza el Wi-Fi con el núcleo de las operadoras móviles, permitiendo aplicar políticas de calidad, seguridad y hasta cobrar el tráfico. Para el usuario, es invisible: su celular cree que sigue navegando en 4G/LTE o 5G.
+1.	**Wi-Fi 5/6/6E y pronto Wi-Fi 7**: soporta cientos de usuarios al mismo tiempo con baja latencia. Dicho de otra forma, es como pasar de una avenida de dos canales a una autopista de ocho: más tráfico, menos tranca.
+2.	**Move AutoConnect (Hotspot 2.0)**: conecta y autentica automáticamente a los usuarios sin contraseñas eternas ni portales incómodos. Funciona como el Bluetooth del carro: entras y se enlaza solo.
+3.	**Move Seamless Connect (Offload)**: enlaza el Wi-Fi con el núcleo de las operadoras móviles, permitiendo aplicar políticas de calidad, seguridad y hasta cobrar el tráfico. Para el usuario, es invisible: su celular cree que sigue navegando en 4G/LTE o 5G.
 
 **Menos costos, más escalabilidad**
 
