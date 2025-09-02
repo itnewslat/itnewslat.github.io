@@ -26,10 +26,10 @@ week: '36'
 ---
 **Cómo la fórmula de un canal de YouTube está desbloqueando el lenguaje en niños autistas.**
 
-    <div class="imagen-con-texto">
-        <img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Federica-Tovar.jpg" alt="Federica Tovar" class="imagen-flotante">
-        <p>En mayo de 2023, Federica Tovar llegó a la división Familiar de ZATV con un reto enorme por delante. Los canales del área estaban atravesando un momento complicado que impactaba de forma directa en el rendimiento de los canales y en la satisfacción y conexión de la audiencia.</p>
-    </div>
+<div class="imagen-con-texto">
+<img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Federica-Tovar.jpg" alt="Federica Tovar" class="imagen-flotante">
+<p>En mayo de 2023, Federica Tovar llegó a la división Familiar de ZATV con un reto enorme por delante. Los canales del área estaban atravesando un momento complicado que impactaba de forma directa en el rendimiento de los canales y en la satisfacción y conexión de la audiencia.</p>
+</div>
 
 A pesar de que en aquel entonces no estaba del todo familiarizada con el universo de contenido infantil en YouTube, los ejecutivos de la compañía confiaron en su trayectoria en consultoría y su experiencia personal como persona neurodivergente y  le dieron la oportunidad de tomar las riendas. Esa confianza le permitió aprender sobre la marcha hasta convertirse en especialista en contenido educativo para niños. 
 
