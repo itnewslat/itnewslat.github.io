@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2025-08-06 22:02 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2025'
 title: Estrategia y Valor Tangible para Empresas
@@ -18,8 +18,6 @@ categories:
 tags:
   - Transformación Digital
 week: '32'
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/Carlos-Blanco-IA-l.jpg
 ---
 **Abside Lidera la Transformación con IA**
 
