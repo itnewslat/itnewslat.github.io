@@ -51,3 +51,14 @@ La personalización inteligente y las interfaces innovadoras como los videojuego
 
 De acuerdo con Dentsu lo humano no va a desaparecer y seguirá siendo el centro de cualquier estrategia de negocios y marketing, sin embargo, no se puede desestimar el papel que la IA tendrá, impulsado por lo humano, especialmente en temas de costos y conectar de forma transparente con las personas.  
 
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Diana-Triana-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
