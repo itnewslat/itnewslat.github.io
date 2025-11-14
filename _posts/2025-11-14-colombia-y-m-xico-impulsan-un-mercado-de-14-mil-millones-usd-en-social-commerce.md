@@ -10,9 +10,9 @@ title: >-
   Colombia y México impulsan un mercado de 14 mil millones USD en social
   commerce
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Dolares-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Social-Commerce-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Dolares-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Social-Commerce-g.jpg
 categories:
   - Colombia
   - Mexico
@@ -50,7 +50,7 @@ El eCommerce Institute LATAM proyecta que el comercio electrónico total en Amé
 
 “La innovación latinoamericana ya no se exporta en talento, sino en modelos que funcionan globalmente”, concluye Sebastián Castellanos Duque. “México y Colombia están demostrando que la creatividad y la tecnología pueden coexistir con propósito y generar valor real.”
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Dolares-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Social-Commerce-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
