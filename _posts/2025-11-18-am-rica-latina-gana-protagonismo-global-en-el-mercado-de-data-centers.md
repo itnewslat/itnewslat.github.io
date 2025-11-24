@@ -48,35 +48,6 @@ El estudio concluye que la demanda global de hyperscalers (Microsoft, Google, AW
 
 **Indicadores clave**
 
-<title>Centros de Datos en LATAM</title>
-    <style>
-        /* Estilos CSS básicos para mejorar la visualización de la tabla */
-        table {
-            width: 70%;
-            border-collapse: collapse; /* Combina los bordes de las celdas */
-            margin: 20px 0;
-            font-family: Arial, sans-serif;
-        }
-
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-
-        th {
-            background-color: #f2f2f2; /* Fondo para los encabezados */
-            color: #333;
-            font-weight: bold;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f9f9f9; /* Rayas alternas para mejor lectura */
-        }
-    </style>
-</head>
-<body>
-
     <h1>Capacidad de Centros de Datos por Ciudad (LATAM)</h1>
 
     <table>
