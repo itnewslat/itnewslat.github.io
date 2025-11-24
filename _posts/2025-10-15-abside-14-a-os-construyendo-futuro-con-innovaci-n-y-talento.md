@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2025-10-15 17:48 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2025'
 title: 'ABSIDE: 14 años construyendo futuro con innovación y talento'
