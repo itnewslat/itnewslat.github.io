@@ -14,6 +14,12 @@ detail-image: >-
 week: '48'
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/Gemini-l.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Ecuador
+tags:
+  - Transformación Digital
 ---
 **y Abside la pone al alcance en la región**
 
