@@ -8,9 +8,9 @@ superArticle: false
 year: '2025'
 title: Salcar lanza Smart TV’s con la mejor relación precio-valor del mercado
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Salcar-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Salcar-43-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Salcar-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Salcar-43-g.jpg
 categories:
   - Venezuela
 tags:
@@ -39,7 +39,7 @@ Para distribuidores y retailers, los TVs Salcar representan una oportunidad de e
 
 Sobre Grupo Salcar de Venezuela es una empresa venezolana con más de 50 años de trayectoria en el segmento de electrodomésticos, hogar y cocina. Su marca propia Salcar destaca por su calidad y durabilidad en todas las categorías en donde se desempeña: congeladores, aires acondicionados, televisores, electrodomésticos menores y artículos del hogar.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Salcar-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Salcar-43-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
