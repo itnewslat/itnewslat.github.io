@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2025'
-title: ''
+title: 'Abside recertifica gestión bajo la norma ISO 9001:2025'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/ABSIDE-SAE-p.jpg
 detail-image: >-
