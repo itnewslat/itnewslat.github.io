@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: 'CES: Samsung presenta ‘Su compañero para una vida con IA’ (Y'
+title: 'CES: Samsung presenta ‘Su compañero para una vida con IA'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/CES-Samsung-26-p.jpg
 detail-image: >-
