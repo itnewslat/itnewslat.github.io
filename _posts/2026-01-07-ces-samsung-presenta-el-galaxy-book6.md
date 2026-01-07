@@ -2,11 +2,27 @@
 layout: posts
 color-schema: red-dark
 date: '2026-01-07 16:39 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2026'
 title: 'CES: Samsung presenta el Galaxy Book6'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Galaxy-Book6-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Galaxy-Book6-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Actualidad
+week: '02'
 ---
 **Rendimiento superior y productividad con IA en un diseño renovado y sofisticado, pensado para la perfección.**
 
@@ -86,5 +102,16 @@ Seguridad avanzada respaldada por la calidad y el cuidado de Samsung
 
 **Disponibilidad**
 
-Galaxy Book6 Ultra, Galaxy Book6 Pro y Galaxy Book6 estarán disponibles en color gris o plateado en mercados seleccionados a partir de finales de enero de 2026. Adicionalmente, Galaxy Book6 Enterprise Edition, con funciones optimizadas para entornos de TI administrados, estará disponible en determinados mercados a partir de abril de 2026. Para más información sobre la serie Galaxy Book6, se puede visitar Samsung Global Newsroom o www.samsung.com/co
+Galaxy Book6 Ultra, Galaxy Book6 Pro y Galaxy Book6 estarán disponibles en color gris o plateado en mercados seleccionados a partir de finales de enero de 2026. Adicionalmente, Galaxy Book6 Enterprise Edition, con funciones optimizadas para entornos de TI administrados, estará disponible en determinados mercados a partir de abril de 2026. 
 
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Galaxy-Book6-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> y en la aplicación <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
