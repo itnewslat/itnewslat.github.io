@@ -2,14 +2,28 @@
 layout: posts
 color-schema: red-dark
 date: '2026-01-08 09:34 -0400'
-published: false
+published: true
 superNews: false
 superArticle: false
-year: '2018'
+year: '2026'
 title: 'CES: ¿Podemos confiar en la IA? '
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Samsung-First-p.jpg
+detail-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Samsung-First-g.jpg
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Actualidad
+week: '02'
 ---
-
-
 **El debate sobre seguridad y privacidad que marcó CES 2026**
 - Un grupo de expertos debatió las implicaciones y cómo construir confianza en la era de la IA en la serie Samsung Tech Forum en CES 2026
 
@@ -34,7 +48,7 @@ El panel también analizó cómo, a medida que las inteligencias se distribuyen 
 
 A medida que la IA se vuelve cada vez más invisible, el panel concluyó que las tecnologías que ganen la confianza a largo plazo serán aquellas que prioricen la seguridad, la transparencia y opciones significativas para el usuario desde el inicio.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Samsung-First-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Samsung-First-p.jpg)
 
 **Acerca de la imagen (Sentados de izquierda a derecha)**
 - Shin Baik, Director del Grupo del Centro de Plataformas de IA de Samsung
