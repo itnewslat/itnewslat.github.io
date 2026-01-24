@@ -10,9 +10,9 @@ title: >-
   ABSIDE alcanza el nivel Premier de Google para liderar la próxima ola de
   innovación
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Google-Cloud-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Equipo-Abside-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Google-Cloud-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Equipo-Abside-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -31,7 +31,7 @@ Esta distinción asegura a los líderes empresariales que cuentan con un aliado 
 
 Acerca de ABSIDE: Fundada en 2011, ABSIDE es la consultora regional líder en soluciones empresariales y el único Premier Partner de Google en su categoría en el mercado local. Con un portafolio que integra SAP, Google Cloud e Inteligencia Artificial, la empresa ha sido reconocida internacionalmente por su excelencia en innovación y soporte. Para más información, visite www.abside.com.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Google-Cloud-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Equipo-Abside-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
