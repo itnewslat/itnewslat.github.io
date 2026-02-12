@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2025-11-28 10:47 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2025'
 title: 'Gemini 3: la nueva generación de IA de Google ya transforma el presente'
