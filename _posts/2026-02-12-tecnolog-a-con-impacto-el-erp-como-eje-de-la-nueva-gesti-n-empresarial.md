@@ -17,7 +17,7 @@ categories:
 tags:
   - Transformación Digital
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/CBlanco-ERP-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/CBlanco-ERP-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/CBlanco-ERP-g.jpg
 ---
@@ -95,6 +95,7 @@ Más información en:
 - Linkedin: [ABSIDE](https://www.linkedin.com/company/abside/posts/?feedView=all)
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/CBlanco-ERP-p.jpg)
+
 
 <table style="height: 42px;" width="569">
 <tbody>
