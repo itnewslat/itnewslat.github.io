@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2026-02-12 16:01 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2026'
 title: 'Tecnología con impacto: el ERP como eje de la nueva gestión empresarial'
@@ -106,4 +106,3 @@ Más información en:
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
