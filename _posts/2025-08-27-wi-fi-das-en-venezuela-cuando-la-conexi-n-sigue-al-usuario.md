@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2025-08-27 12:13 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2025'
 title: 'Wi-Fi DAS en Venezuela: Cuando la Conexión Sigue al Usuario'
 image: >-
@@ -22,8 +22,6 @@ categories:
   - Mexico
 tags:
   - Movilidad
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/WIFI-DAS-p.jpg
 week: '35'
 ---
 Artículo redactado por**Aquiles Rodríguez, CEO de HerosTech / MoveWireless**.
