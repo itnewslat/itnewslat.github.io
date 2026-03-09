@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2026-03-09 11:58 -0400'
 published: true
 superNews: false
-superArticle: false
+superArticle: true
 year: '2026'
 title: 'Autenticación multifactorial: una defensa simple que sigue siendo crítica'
 image: >-
@@ -23,7 +23,11 @@ categories:
 tags:
   - Seguridad
 week: '11'
+image-banner: >-
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Rafael-Nunez-g.jpg
 ---
+Por: **RAFAEL NUÑEZ, Director en @MASQUESEGURIDAD**
+
 En ciberseguridad solemos hablar de inteligencia artificial, ataques APT o amenazas sofisticadas. Sin embargo, una de las defensas más efectivas sigue siendo una tecnología que existe desde hace décadas: la autenticación multifactorial (MFA).
 
 El concepto es sencillo pero poderoso. La identidad digital no debe depender de un solo elemento. Para validar a un usuario se combinan tres dimensiones fundamentales: lo que eres, lo que tienes y lo que sabes. Lo que eres puede ser biometría, como huella o reconocimiento facial. Lo que tienes suele ser un dispositivo o token. Y lo que sabes puede ser una contraseña o una frase de acceso.
