@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2026-03-09 11:58 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2026'
 title: 'Autenticación multifactorial: una defensa simple que sigue siendo crítica'
 image: >-
