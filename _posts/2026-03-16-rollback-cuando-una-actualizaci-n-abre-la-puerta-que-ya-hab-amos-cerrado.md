@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2026-03-16 14:13 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2026'
 title: 'Rollback: cuando una actualización abre la puerta que ya habíamos cerrado'
 image: >-
@@ -23,8 +23,6 @@ categories:
 tags:
   - Seguridad
 week: '12'
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Rollback-g.jpg
 ---
 **Por: Rafael Núñez Aponte, CEO @MasQueSeguridad**
 
