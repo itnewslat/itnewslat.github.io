@@ -23,6 +23,8 @@ tags:
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Judas-g.jpg
 week: '14'
+image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Judas-p.jpg
 ---
 Por: **Rafael Núñez Aponte, CEO @MasQueSeguridad** 
 
@@ -47,6 +49,7 @@ Pero en el mundo digital, hay que entender algo más incómodo: el ciberdelincue
 Y por eso, en estas fechas donde se habla de recogimiento y conciencia, quizás la mejor reflexión no es solo espiritual. También es operativa. Porque en ciberseguridad, bajar la guardia no es descanso.
 
 Es exposición.
+
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Judas-p.jpg)
 
