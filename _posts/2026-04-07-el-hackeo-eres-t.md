@@ -14,6 +14,17 @@ detail-image: >-
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Hakeo-g.jpg
 week: '15'
+categories:
+  - Venezuela
+  - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
+tags:
+  - Seguridad
 ---
 **¿Cómo la ingeniería social se convirtió en el arma más rentable del cibercrimen?**
 
