@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2026-03-30 22:05 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2026'
 title: Judas también está en línea en Semana Santa
 detail-image: >-
@@ -20,8 +20,6 @@ categories:
   - Mexico
 tags:
   - Seguridad
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Judas-g.jpg
 week: '14'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Judas-p.jpg
