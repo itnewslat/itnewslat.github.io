@@ -11,7 +11,7 @@ publicity-1:
 #     url: http://www.logintel.com.ve/
    
 sideBar-publicity:
-  - image: https://github.com/itnewslat/assets/blob/master/img/300x300/DIGITEL-600.png
+  - image: https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/DIGITEL-600.png
     url:  https://digitel.com.ve/internet-fijo-inalambrico-5g-fwa?utm_source=google&utm_medium=display&utm_campaign=senales-5g 
   - image: https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg
     url: https://itnews.lat/Historico.html
