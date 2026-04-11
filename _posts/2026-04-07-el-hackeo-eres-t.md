@@ -30,7 +30,7 @@ tags:
 
 Por: **Rafael Nuñez Aponte, Director de Mas Que Seguridad**
 
-Hay un ladrón que ya no rompe puertas ni ventanas. Toca el timbre, sonríe y le abrimos.
+Hay un ladrón que ya no rompe puertas ni ventanas. **Toca el timbre, sonríe y le abrimos.**
 
 El más reciente informe del FBI, el Internet Crime Report 2025 del Internet Crime Complaint Center (IC3), confirma algo que llevo años repitiendo casi como advertencia incómoda: la ingeniería social no solo sigue vigente, sino que hoy es el arma más efectiva del cibercrimen. Las pérdidas alcanzaron cifras históricas, y no por ataques técnicos complejos, sino por decisiones humanas manipuladas en el momento justo  .
 
