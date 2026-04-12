@@ -7,8 +7,10 @@ publicity-1:
     url: https://itnews.lat/businesswire.html
 
 sideBar-publicity:
-https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/DIGITEL-600.png
-    url:  https://digitel.com.ve/internet-fijo-inalambrico-5g-fwa?utm_source=google&utm_medium=display&utm_campaign=senales-5g 
+https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg
+    url: https://itnews.lat/Historico.html
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
+    url: http://www.ciberespacio.com.ve/
   - image: https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg
     url: https://itnews.lat/Historico.html
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
