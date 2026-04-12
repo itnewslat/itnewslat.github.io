@@ -1,13 +1,22 @@
-header-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Disponible-publicidad.jpg'
+eader-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90-ItNewsLa_2026-GIFF.gif'
 
-header-url: https://itnews.lat/ 
-
-publicity-1:
+header-url: https://www.abside.com/
+ 
+publicity-1: 
+  - image: https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/gif-zonas-wow.gif
+    url: https://wow.com.ve/unete  
+   
+# sideBar-publicity:
+#   - image:
+#     url: http://www.logintel.com.ve/
+   
+sideBar-publicity:
+  - image: https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/DIGITEL-600.png
+    url:  https://digitel.com.ve/internet-fijo-inalambrico-5g-fwa?utm_source=google&utm_medium=display&utm_campaign=senales-5g 
+  - image: https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg
+    url: https://itnews.lat/Historico.html
+  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITNEWS_Banner_ESR.png
+    url: https://www.eset.com/latam/security-report/?utm_campaign=leads&utm_source=html&utm_medium=email&utm_term=esr-2023 
   - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg
     url: https://itnews.lat/businesswire.html
 
-sideBar-publicity:
-https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg
-    url: https://itnews.lat/Historico.html
-  - image: https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg
-    url: http://www.ciberespacio.com.ve/
