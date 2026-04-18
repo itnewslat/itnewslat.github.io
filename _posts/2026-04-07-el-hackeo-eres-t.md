@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2026-04-07 10:41 -0400'
 published: true
 superNews: false
-superArticle: true
+superArticle: false
 year: '2026'
 title: El hackeo eres tú
 image: >-
