@@ -8,9 +8,9 @@ superArticle: false
 year: '2026'
 title: HONOR Magic8 Lite llega a Venezuela
 image: >-
-  https://github.com/itnewslat/assets/blob/master/img/540x320/Honor-Magic-8-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Honor-Magic-8-p.jpg
 detail-image: >-
-  https://github.com/itnewslat/assets/blob/master/img/1024x680/Honor-Magic-8-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Honor-Magic-8-g.jpg
 categories:
   - Venezuela
 tags:
@@ -36,7 +36,7 @@ Fotografía e Inteligencia Artificial, el dispositivo potencia la creatividad a 
 
 El HONOR Magic8 Lite, está disponible desde hoy en la tienda Honor ubicada en Centro Comercial Sambil de Valencia, y tiendas aliadas en todo el territorio nacional. El precio delanzamiento será a partir de los USD $350 y puede ser adquirido con una inversión inicial de 10% en aplicaciones como Krece, Weppa, QuickOffer y Cashea en alianza con Al Giorno Tecnología.
 
-![](https://github.com/itnewslat/assets/blob/master/img/540x320/Honor-Magic-8-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Honor-Magic-8-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
