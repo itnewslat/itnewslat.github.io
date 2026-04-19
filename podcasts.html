@@ -1,22 +1,21 @@
-  {% include venezuela/header.html %}
-    <div id="content" class="p-0 bg-white">
-      <div class="container py-4 py-lg-5">
-        <h3 class="text-uppercase text-letter-spacing-sm my-0 text-primary font-weight-bold">
-            Nuestro Podcast
-        </h3>
-      </div>
-      <div class="container">
+---
+{% include venezuela/header.html %}
+<html lang="es"> 
+  <head> <meta charset="UTF-8"> 
+    <title>Nuestro Podcast</title> 
+  </head> 
+  <body> 
+    <center>
+    <h1>CIBERESPACIO</h1> 
+    </center>
+    <div class="container">
         <div class="row">
           <div class="col-lg-9">
               <div id="" class="blog-roll blog-grid">
                   <iframe src="https://podcasters.spotify.com/pod/show/somos-itnews-lat" style="height: 150vh; width:100%"></iframe>
               </div>
           </div>
-          <div class="col-lg-3 mb-4 mb-lg-2">
-            {% include venezuela/side-bar.html %}
-          </div>
-        </div>
-      </div>
-    </div>
-{% include posts/footer.html %}
-
+    <div>
+          {% include posts/footer.html %}
+    </div     
+  </body>
