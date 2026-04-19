@@ -25,11 +25,12 @@ Este dispositivo marca un hito histórico en la industria al ostentar el título
 
 Una ingeniería diseñada para lo imposible, el HONOR Magic8 Lite no solo promete durabilidad, la certifica a niveles nunca vistos en la telefonía móvil. Su reconocimiento por parte de Guinness World Records se complementa con innovaciones técnicas que lo posicionan como el líder en resistencia del segmento:
 
-- Certificación IP69K: A diferencia de los estándares convencionales, el Magic8 Lite cuenta con certificación IP69K, lo que garantiza resistencia total no solo a inmersiones, sino a chorros de agua a alta presión y temperaturas extremas.
-- Estructura blindada de 6 capas: Equipado con tecnología de amortiguación de cuarta generación, el dispositivo está diseñado para absorber impactos y sobrevivir a caídas cotidianas de hasta 2.5 metros sobre superficies duras.
-- Pantalla de ultra-visibilidad: Integra un panel con brillo pico de 6000 nits, permitiendo unavisualización impecable bajo la luz solar directa, protegida por un cristal templado de alta resistencia. 
+- **Certificación IP69K**: A diferencia de los estándares convencionales, el Magic8 Lite cuenta con certificación IP69K, lo que garantiza resistencia total no solo a inmersiones, sino a chorros de agua a alta presión y temperaturas extremas.
+- **Estructura blindada de 6 capas**: Equipado con tecnología de amortiguación de cuarta generación, el dispositivo está diseñado para absorber impactos y sobrevivir a caídas cotidianas de hasta 2.5 metros sobre superficies duras.
+- **Pantalla de ultra-visibilidad**: Integra un panel con brillo pico de 6000 nits, permitiendo unavisualización impecable bajo la luz solar directa, protegida por un cristal templado de alta resistencia. 
 
 Autonomía revolucionaria de hasta 3 días, para el usuario venezolano, la conectividad ininterrumpida es vital, este smartphone incorpora una batería de 8300 mAh con tecnología de silicio-carbono. Esta capacidad permite hasta tres días de uso continuo con una sola carga y ofrece la versatilidad de carga reversible alámbrica de 7.5W, funcionando como una fuente de energía para otros dispositivos en situaciones de emergencia.
+
 Fotografía e Inteligencia Artificial, el dispositivo potencia la creatividad a través de su sistema de Cámara AI de 108MP, que incluye funciones avanzadas de edición como el Borrador AI y la capacidad de realizar fotografía subacuática. Todo esto es impulsado por el procesador Snapdragon 6 Gen 4, asegurando un rendimiento fluido tanto en productividad como en entretenimiento.
 
 **Disponibilidad y Puntos de Venta**
