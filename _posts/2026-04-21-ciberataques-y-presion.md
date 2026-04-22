@@ -8,9 +8,9 @@ superArticle: false
 year: '2026'
 title: IA, ciberataques y presión permanente
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/servicio-nube-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/estres-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/servicio-nube-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/estres-g.jpg
 categories:
   - Colombia
 tags:
@@ -47,7 +47,7 @@ A eso se suma el apoyo social. En entornos laborales de alta exigencia, contar c
 
 Más allá del bienestar individual, la discusión empieza a adquirir relevancia estratégica para las organizaciones. En un escenario donde Colombia fortalece su soberanía digital, reduce tiempos de respuesta ante incidentes y acelera su posicionamiento en inteligencia artificial, la sostenibilidad de los equipos también se vuelve parte de la conversación tecnológica. En otras palabras, la tecnología avanza, pero también sube la presión sobre las personas que la sostienen. Y en ese escenario, gestionar el estrés ya no es solo un asunto de bienestar: empieza a convertirse en una condición para trabajar de forma sostenible en el corazón de la transformación digital.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/servicio-nube-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/estres-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
