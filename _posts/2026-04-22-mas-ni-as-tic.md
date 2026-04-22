@@ -1,12 +1,12 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2026-04-22 10:30 -0400'
+date: '2026-04-22 10:50 -0400'
 published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: Más niñas en TIC: una oportunidad para transformar el futuro
+title: Más niñas en TIC una oportunidad para transformar el futuro
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Girl-Child-p.jpg
 detail-image: >-
