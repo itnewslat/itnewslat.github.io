@@ -22,9 +22,9 @@ categories:
   - Mexico
 tags:
   - Canales
-week: '17'
+week: '19'
 ---
-**brechas de madurez y el imperativo de la automatización**
+**es liderar con propósito en tiempo real**
 
 Hay reconocimientos que no llegan para inflar el ego. Llegan para recordarte la responsabilidad. Fui incluida entre las 20 personas más influyentes de LinkedIn en Venezuela, según el ranking internacional de Favikon, ocupando la posición #12 entre creadores de contenido profesional.
 
