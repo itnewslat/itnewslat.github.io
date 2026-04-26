@@ -39,15 +39,15 @@ Asimismo, la iniciativa contó con el respaldo de importantes aliados estratégi
 
 La Hoja de Ruta encuentra un entorno favorable en la evolución institucional y normativa de los principales ecosistemas de IA en la región.
 
-Chile se consolida como líder regional al ocupar el primer lugar en el Índice Latinoamericano de Inteligencia Artificial (ILIA) 2025, con 70,56 puntos sobre 100, respaldado por una infraestructura digital robusta, altos niveles de conectividad y una política pública consolidada.
+- Chile se consolida como líder regional al ocupar el primer lugar en el Índice Latinoamericano de Inteligencia Artificial (ILIA) 2025, con 70,56 puntos sobre 100, respaldado por una infraestructura digital robusta, altos niveles de conectividad y una política pública consolidada.
 
-Con 96,5 % de hogares conectados a internet, el país ha alcanzado niveles avanzados de adopción empresarial: 80 % de las grandes empresas ya utiliza IA y cerca del 70 % de las MiPymes está en proceso de incorporación, aunque persisten desafíos en capacitación y uso estratégico.
+- Con 96,5 % de hogares conectados a internet, el país ha alcanzado niveles avanzados de adopción empresarial: 80 % de las grandes empresas ya utiliza IA y cerca del 70 % de las MiPymes está en proceso de incorporación, aunque persisten desafíos en capacitación y uso estratégico.
 
-Colombia, por su parte, ha fortalecido significativamente su marco institucional con la expedición del CONPES 4144 de 2025, que establece la Política Nacional de Inteligencia Artificial con seis ejes estratégicos y una hoja de implementación hasta 2030.
+- Colombia, por su parte, ha fortalecido significativamente su marco institucional con la expedición del CONPES 4144 de 2025, que establece la Política Nacional de Inteligencia Artificial con seis ejes estratégicos y una hoja de implementación hasta 2030.
 
-En Perú, la adopción avanza sobre una arquitectura regulatoria compuesta por la Ley N.º 31814, su reglamento de 2025 y la Estrategia Nacional de Inteligencia Artificial 2021–2026, priorizando transparencia, supervisión humana y protección de derechos.
+- En Perú, la adopción avanza sobre una arquitectura regulatoria compuesta por la Ley N.º 31814, su reglamento de 2025 y la Estrategia Nacional de Inteligencia Artificial 2021–2026, priorizando transparencia, supervisión humana y protección de derechos.
 
-Esta convergencia de marcos nacionales permite avanzar hacia una visión regional de gobernanza y competitividad, que se ampliará con la incorporación de diálogos adicionales en más países en la región.
+- Esta convergencia de marcos nacionales permite avanzar hacia una visión regional de gobernanza y competitividad, que se ampliará con la incorporación de diálogos adicionales en más países en la región.
 
 **La hoja de ruta como mecanismo de solución regional**
 
