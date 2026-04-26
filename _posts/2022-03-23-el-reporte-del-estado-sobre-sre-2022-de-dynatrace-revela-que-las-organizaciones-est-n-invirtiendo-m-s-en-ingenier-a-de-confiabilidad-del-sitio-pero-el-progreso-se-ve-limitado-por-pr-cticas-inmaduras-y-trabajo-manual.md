@@ -7,9 +7,7 @@ superNews: false
 superArticle: false
 year: '2022'
 title: >-
-  El Reporte del estado sobre SRE 2022 de Dynatrace revela que las
-  organizaciones están invirtiendo más en ingeniería de confiabilidad del sitio,
-  pero el progreso se ve limitado por prácticas inmaduras y trabajo manual 
+  El Reporte del estado sobre SRE 2022 de Dynatrace
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Cabeza-IA-g.jpg
 image: >-
