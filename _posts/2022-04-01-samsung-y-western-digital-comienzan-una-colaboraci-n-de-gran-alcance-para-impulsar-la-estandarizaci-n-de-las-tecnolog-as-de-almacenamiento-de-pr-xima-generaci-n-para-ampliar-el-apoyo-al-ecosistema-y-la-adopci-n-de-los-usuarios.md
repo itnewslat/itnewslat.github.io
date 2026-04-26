@@ -7,9 +7,7 @@ superNews: false
 superArticle: false
 year: '2022'
 title: >-
-  Samsung y Western Digital comienzan una colaboración de gran alcance para
-  impulsar la estandarización de las tecnologías de almacenamiento de próxima
-  generación para ampliar el apoyo al ecosistema y la adopción de los usuarios
+  Samsung y Western Digital comienzan una colaboración
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/master/img/1024x680/Almacenamiento-datos-g.jpg
 image: >-
