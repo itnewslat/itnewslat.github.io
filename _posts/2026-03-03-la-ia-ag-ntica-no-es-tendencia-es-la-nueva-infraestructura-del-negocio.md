@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2026-03-03 15:53 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2026'
 title: 'La IA agéntica no es tendencia: es la nueva infraestructura del negocio'
