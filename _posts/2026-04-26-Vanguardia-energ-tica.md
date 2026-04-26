@@ -33,13 +33,13 @@ Durante su intervención en el foro, Francisco Tamayo, Vicepresidente de Negocio
 
 La propuesta presentada en CANAEMTE integra las fortalezas de cuatro líderes del mercado venezolano para cubrir, de manera integral, cada etapa del ciclo de vida del dato:
 
-Conectividad y capilaridad (Inter): Pedro Vivas, Vicepresidente Comercial de Inter, resaltó la acelerada expansión de su red de fibra óptica, con especial énfasis en las poblaciones de operación petrolera en el oriente y occidente del país. Esta capilaridad es el valor fundamental que aporta la empresa para garantizar el alcance de la alianza.
+- **Conectividad y capilaridad (Inter)**: Pedro Vivas, Vicepresidente Comercial de Inter, resaltó la acelerada expansión de su red de fibra óptica, con especial énfasis en las poblaciones de operación petrolera en el oriente y occidente del país. Esta capilaridad es el valor fundamental que aporta la empresa para garantizar el alcance de la alianza.
 
-Cobertura y redes privadas (Movilnet): Por su parte, Jair Pineda, VP de Movilnet, destacó la robustez de su red en las zonas de extracción de crudo y gas, poniendo a disposición de la industria sus servicios de Red Privada, esenciales para una comunicación segura y exclusiva.
+- **Cobertura y redes privadas (Movilnet)**: Por su parte, Jair Pineda, VP de Movilnet, destacó la robustez de su red en las zonas de extracción de crudo y gas, poniendo a disposición de la industria sus servicios de Red Privada, esenciales para una comunicación segura y exclusiva.
 
-Sensorización e inteligencia (KEE-AI): César Vásquez, de KEE-AI, enfatizó el rol crítico de la sensorización digital y el uso de Inteligencia Artificial como herramientas para transformar los datos crudos en información de alto valor estratégico para la toma de decisiones.
+- **Sensorización e inteligencia (KEE-AI)**: César Vásquez, de KEE-AI, enfatizó el rol crítico de la sensorización digital y el uso de Inteligencia Artificial como herramientas para transformar los datos crudos en información de alto valor estratégico para la toma de decisiones.
 
-Procesamiento y resguardo: Finalmente, Daycohost habilita la etapa de almacenamiento y análisis avanzado a través de sus Centros de Datos en Caracas y Valencia. Esta infraestructura, certificada internacionalmente, garantiza que la data sea analizada y sintetizada localmente para las empresas operadoras y transnacionales.
+- **Procesamiento y resguardo**: Finalmente, Daycohost habilita la etapa de almacenamiento y análisis avanzado a través de sus Centros de Datos en Caracas y Valencia. Esta infraestructura, certificada internacionalmente, garantiza que la data sea analizada y sintetizada localmente para las empresas operadoras y transnacionales.
 
 Una alianza integral para el sector energético, que es capaz de habilitar soluciones tecnológicas end to end a las empresas operadoras y de servicio.
 
