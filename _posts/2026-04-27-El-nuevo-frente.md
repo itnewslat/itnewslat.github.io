@@ -20,10 +20,10 @@ categories:
   - Chile
   - Panama
   - Mexico
-  tags:
+tags:
   - Seguridad
 image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/RNA-MQD-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/RNA-MQD-g.jpg
 week: '19'
 ---
 Por: **Rafael Núñez, CEO @MasQueSeguridad**
