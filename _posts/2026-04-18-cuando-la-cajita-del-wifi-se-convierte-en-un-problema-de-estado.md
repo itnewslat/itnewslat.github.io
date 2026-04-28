@@ -4,7 +4,7 @@ color-schema: red-dark
 date: '2026-04-18 06:36 -0400'
 published: true
 superNews: false
-superArticle: false
+superArticle: true
 year: '2026'
 title: Cuando la cajita del WiFi se convierte en un problema de Estado
 image: >-
