@@ -1,33 +1,7 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2026-04-28 15:15 -0400'
-published: true
-superNews: false
-superArticle: false
-year: '2026'
-title: El estado de la seguridad nativa en la nube 2026
-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/servicio-nube-p.jpg
-detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/servicio-nube-g.jpg
-categories:
-  - Venezuela
-  - Colombia
-  - Argentina
-  - Perú
-  - Ecuador
-  - Chile
-  - Panama
-  - Mexico
-tags:
-  - Canales
-week: '17'
----
----
-layout: posts
-color-schema: red-dark
-date: '2026-04-21 15:46 -0400'
+date: '2026-04-28 15:20 -0400'
 published: true
 superNews: false
 superArticle: false
