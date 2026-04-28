@@ -27,7 +27,7 @@ image-banner: >-
 week: '19'
 ---
 Por: **Rafael Núñez, CEO @MasQueSeguridad**
----
+
 Mientras el foco global está en conflictos, elecciones y tensiones entre potencias, hay un cambio estructural que está pasando casi desapercibido fuera de círculos técnicos. La guerra ya no se define por quién tiene más hardware. Se define por quién escribe mejor código.
 
 Hoy los sistemas más efectivos, incluso en defensa, no son necesariamente los más costosos, sino los que integran mejor software, datos y capacidad de actualización constante.   Lo que antes era una ventaja operativa, ahora es el núcleo del poder.
