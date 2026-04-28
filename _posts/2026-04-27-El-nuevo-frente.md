@@ -20,6 +20,8 @@ categories:
   - Chile
   - Panama
   - Mexico
+  tags:
+  - Seguridad
 image-banner: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/RNA-MQD-p.jpg
 week: '19'
