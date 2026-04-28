@@ -3,8 +3,8 @@ layout: posts
 color-schema: red-dark
 date: '2026-04-27 19:12 -0400'
 published: true
-superNews: false
-superArticle: true
+superNews: true
+superArticle: false
 year: '2026'
 title: El nuevo frente: cuando el software se convierte en arma
 image: >-
