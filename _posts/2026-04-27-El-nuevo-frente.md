@@ -1,12 +1,12 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2026-04-27 19:12 -0400'
+date: '2026-04-27 20:12 -0400'
 published: true
-superNews: false
-superArticle: true
+superNews: true
+superArticle: false
 year: '2026'
-title: El nuevo frente: cuando el software se convierte en arma
+title: El nuevo frente, cuando el software se convierte en arma
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/RNA-MQD-p.jpg
 detail-image: >-
