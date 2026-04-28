@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: el problema que está frenando la eficiencia financiera en la región
+title: El problema que está frenando la eficiencia financiera en la región
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Pago-Digital-p.jpg
 detail-image: >-
