@@ -24,13 +24,13 @@ tags:
   - Seguridad
 week: '20'
 ---
- Así puedes diversificar para no depender del algoritmo
-
+ Así puedes diversificar para no depender del algoritmo.
+ 
 ●	Aunque las redes sociales han facilitado la construcción de marcas personales, depender exclusivamente de una plataforma puede convertirse en un riesgo que afecta tanto la visibilidad como la estabilidad de los ingresos.
 
 ●	Maite Moreno, docente de EAE Business School, perteneciente a la red de educación superior Planeta Formación y Universidades, explica cómo los creadores que logran consolidar modelos sostenibles son aquellos que entienden su marca como un ecosistema y no solo como contenido.
 
-Chile, abril de 2026 —  Chile es un mercado potente en materia de redes sociales e influencers. A finales de 2025, el país tenía 14,8 millones de identidades de usuarios, un 74,7% de la población consumiendo contenido en redes, según DataReportal. Y teniendo en cuenta que las redes sociales ya no son lugares para interactuar con amigos y familiares, sino verdaderas plataformas de entretenimiento y comercio.
+Chile es un mercado potente en materia de redes sociales e influencers. A finales de 2025, el país tenía 14,8 millones de identidades de usuarios, un 74,7% de la población consumiendo contenido en redes, según DataReportal. Y teniendo en cuenta que las redes sociales ya no son lugares para interactuar con amigos y familiares, sino verdaderas plataformas de entretenimiento y comercio.
 Por eso, pensar en diversificar los ingresos a partir de una marca personal no es nada descabellado, pero conforme siguen creciendo las redes, la competencia es cada vez más ardua y la atención de la audiencia se disgrega mucho más. Y las views no bastan. La creciente competencia y la fragmentación de la atención hacen cada vez más difícil consolidar un modelo de ingresos estable basado únicamente en visualizaciones o alcance orgánico.
 Entonces, aunque la marca personal está en tendencia, al final no se puede depender exclusivamente del algoritmo, porque nada del entorno digital está bajo el control del creador. Un cambio en la plataforma, una caída en el alcance o incluso la pérdida de una cuenta pueden afectar de forma inmediata la conexión con la comunidad y, en muchos casos, los ingresos asociados a esa visibilidad, y no hay nada que un creador pueda hacer para evitarlo.
 «Depender de una sola red social supone un riesgo porque la visibilidad, el acceso a la audiencia y parte de la capacidad de monetización dependen de decisiones externas» explica Maite Moreno, profesora de EAE Business School. «Por eso, una marca personal madura necesita desarrollar activos propios y una propuesta de valor que trascienda la plataforma». 
