@@ -12,7 +12,14 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Inteligencia-Artificial-Teclado-g.jpgg
 categories:
+  - Venezuela
   - Colombia
+  - Argentina
+  - Perú
+  - Ecuador
+  - Chile
+  - Panama
+  - Mexico
 tags:
   - Seguridad
 week: '20'
@@ -56,8 +63,6 @@ Según BCG, la adopción de agentes de IA requerirá más que nuevas herramienta
 Los bancos que avancen más rápido en esta transformación podrán mejorar su productividad, reducir tiempos de decisión y ofrecer experiencias financieras más personalizadas, generando ventajas competitivas difíciles de replicar.
 
 Para América Latina, donde aún existe una oportunidad significativa para ampliar la inclusión financiera, la IA agéntica podría convertirse en un habilitador clave para construir una banca más eficiente, accesible y centrada en el cliente.
-
-
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Inteligencia-Artificial-Teclado-p.jpg)
 

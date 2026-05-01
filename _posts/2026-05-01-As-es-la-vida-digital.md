@@ -8,9 +8,9 @@ superArticle: false
 year: '2026'
 title: Así es hoy la vida digital de los colombianos
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Chica-con-celular-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/celular-en-la-tarde-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Chica-con-celular-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/celular-en-la-tarde-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -61,8 +61,7 @@ En este contexto, el riesgo deja de ser un escenario hipotético y se vuelve tan
 -	Evita fraudes y llamadas sospechosas: herramientas como Who Calls permiten identificar en tiempo real números desconocidos o potencialmente fraudulentos, ayudándote a prevenir estafas, intentos de ingeniería social y llamadas de spam antes de contestar.
 
 
-
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Chica-con-celular-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/celular-en-la-tarde-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
