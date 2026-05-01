@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: Así es hoy la vida digital de los colombianos
+title: ¿Tienes una marca personal en redes?
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Chica-con-celular-p.jpg
 detail-image: >-
@@ -24,43 +24,37 @@ tags:
   - Seguridad
 week: '20'
 ---
-**Pagos, contraseñas y datos personales en el celular**
+ **Así puedes diversificar para no depender del algoritmo**
 
-Kaspersky alerta que el 43% de las personas en el país comparte contraseñas, y el 86% deja sesiones abiertas, facilitando fraudes y accesos no autorizados en un entorno donde la vida digital se comparte cada vez más en familia.
+-	Aunque las redes sociales han facilitado la construcción de marcas personales, depender exclusivamente de una plataforma puede convertirse en un riesgo que afecta tanto la visibilidad como la estabilidad de los ingresos.
 
-Según el estudio Lenguaje Digital de Kaspersky, la creciente concentración de la vida digital en los celulares está aumentando los riesgos de ciberseguridad en los hogares colombianos: el 43% de los usuarios comparte contraseñas y el 86% deja sesiones abiertas en sus dispositivos móviles, prácticas que pueden permitir que un solo acceso comprometido derive en fraude financiero, suplantación de identidad o pérdida de cuentas.
+-	Maite Moreno, docente de EAE Business School, perteneciente a la red de educación superior Planeta Formación y Universidades, explica cómo los creadores que logran consolidar modelos sostenibles son aquellos que entienden su marca como un ecosistema y no solo como contenido.
 
-Hoy, el celular se ha convertido en el principal punto de acceso a la vida digital de las personas en el país. En un solo dispositivo conviven aplicaciones bancarias, correos electrónicos, redes sociales, documentos personales y fotografías, lo que implica que ya no se ataca un dispositivo aislado, sino todo un ecosistema digital conectado.
+Chile es un mercado potente en materia de redes sociales e influencers. A finales de 2025, el país tenía 14,8 millones de identidades de usuarios, un 74,7% de la población consumiendo contenido en redes, según DataReportal. Y teniendo en cuenta que las redes sociales ya no son lugares para interactuar con amigos y familiares, sino verdaderas plataformas de entretenimiento y comercio.
 
-El riesgo no solo está en la cantidad de información, sino en cómo está interconectada. El correo electrónico, por ejemplo, funciona como mecanismo de recuperación de múltiples cuentas. Esto significa que, si un atacante logra acceder a él, puede restablecer contraseñas y tomar control de otros servicios en cuestión de minutos, escalando el impacto del ataque.
+Por eso, pensar en diversificar los ingresos a partir de una marca personal no es nada descabellado, pero conforme siguen creciendo las redes, la competencia es cada vez más ardua y la atención de la audiencia se disgrega mucho más. Y las views no bastan. La creciente competencia y la fragmentación de la atención hacen cada vez más difícil consolidar un modelo de ingresos estable basado únicamente en visualizaciones o alcance orgánico.
 
-A esto se suma una baja higiene digital: en Colombia, el 22% de los usuarios no cambia sus contraseñas hace más de un año y el 3% nunca lo ha hecho, según cifras de Kaspersky. Además, el 26% ha desactivado su solución de seguridad para descargar aplicaciones, lo que facilita que amenazas ingresen al dispositivo sin ser detectadas.
+Entonces, aunque la marca personal está en tendencia, al final no se puede depender exclusivamente del algoritmo, porque nada del entorno digital está bajo el control del creador. Un cambio en la plataforma, una caída en el alcance o incluso la pérdida de una cuenta pueden afectar de forma inmediata la conexión con la comunidad y, en muchos casos, los ingresos asociados a esa visibilidad, y no hay nada que un creador pueda hacer para evitarlo.
 
-En paralelo, los ciberdelincuentes han cambiado su enfoque. Hoy no necesitan vulnerar sistemas complejos, sino que se centran en manipular a las personas a través de ingeniería social. Utilizan mensajes que imitan situaciones cotidianas, como notificaciones bancarias, entregas de paquetes o alertas de pagos, que llegan por SMS, WhatsApp o correo electrónico. Estos ataques buscan generar urgencia o confianza para que el usuario actúe sin verificar la información. Con el uso de inteligencia artificial, además, los mensajes son cada vez más creíbles, con mejor redacción, diseño y personalización, lo que dificulta su detección.
+«Depender de una sola red social supone un riesgo porque la visibilidad, el acceso a la audiencia y parte de la capacidad de monetización dependen de decisiones externas» explica Maite Moreno, profesora de EAE Business School. «Por eso, una marca personal madura necesita desarrollar activos propios y una propuesta de valor que trascienda la plataforma». 
 
-El impacto de estos riesgos ya no es individual, sino familiar. La digitalización ha integrado a todos los miembros del hogar en un mismo entorno: en América Latina, el 99% de las personas mantiene contacto digital con su familia y el 68% realiza pagos desde el celular, lo que demuestra que la vida cotidiana depende cada vez más de estos dispositivos. En la práctica, esto implica que los celulares concentran accesos compartidos o información de varias personas, por lo que un solo acceso indebido puede afectar simultáneamente la privacidad, las cuentas y las finanzas de todo el hogar.
+Ante la dificultad de vivir netamente de las visualizaciones, muchos influenciadores nuevos se han replanteado la manera en que se construyen las marcas personales, migrando hacia la creación de estructuras que permitan sostener esa relación en el tiempo, sin depender exclusivamente de plataformas digitales.
 
-En este escenario, niños y adultos mayores son los más vulnerables. En Colombia, uno de cada seis niños pasa más de cuatro horas al día en línea, combinando estudio, entretenimiento y redes sociales, muchas veces sin supervisión constante y con menor capacidad para identificar engaños. A esto se suma que los adultos mayores suelen confiar más en mensajes o llamadas fraudulentas. Así, un simple error, como hacer clic en un enlace o compartir un dato, puede convertirse en un problema que impacta a toda la familia.
+Según explica Maite Moreno, diversificar implica ir más allá del solo contenido y crear un ecosistema que genere ingresos alternos. Pueden ser productos digitales como cursos, ebooks, mentorías, consultorías o incluso eventos presenciales o virtuales. O también construir canales propios, como newsletters, comunidades cerradas, donde la relación con la audiencia exista fuera del algoritmo. Y, por supuesto, las colaboraciones con otras marcas, o incluso que creen su marca de productos propia.
 
-Aunque existe una mayor conciencia, la protección sigue siendo fragmentada. El 72% de los usuarios afirma haber cambiado sus contraseñas recientemente, pero el 15% no sabe cómo verificar si una página web es segura y el 25% ha ingresado sus datos personales en múltiples sitios, aumentando su exposición. Además, el 38% de los colombianos no cuenta con una solución de ciberseguridad instalada y el 18% no sabe que existen herramientas para proteger su información, lo que evidencia una brecha entre el uso intensivo de la tecnología y las medidas de protección adoptadas.
+«Diversificar no consiste solo en generar nuevas fuentes de ingreso, sino en construir un modelo de marca más sólido, coherente y sostenible en el tiempo» recomienda la experta. «Es importante tener en cuenta que diversificar no es “hacer de todo”, sino evaluar qué comunica la marca personal, qué espera la audiencia de esta y ampliar estratégicamente un abanico de nuevos productos o servicios derivados que generen valor y den continuidad al mensaje del creador».
 
-En este contexto, el riesgo deja de ser un escenario hipotético y se vuelve tangible. Un acceso indebido no solo compromete una cuenta puntual, sino que puede traducirse rápidamente en dinero perdido, cuentas bloqueadas o información personal expuesta. Para los usuarios, esto implica enfrentar situaciones como no poder acceder a su banca, ver comprometidas sus redes sociales o incluso perder el control de sus datos, con impactos que van más allá de lo digital y afectan su día a día.
+Para diversificar, debe hacerse en el momento correcto, para que los seguidores no lo perciban como oportunismo. Hay que leer a la audiencia y saber cuándo manifiesta una necesidad que se pueda suplir. Si el producto o servicio tiene sentido dentro del contenido que ya se comparte, no se percibe como invasivo, sino como una extensión natural. Y, por supuesto, debe ser coherente con la experiencia y valores de la marca personal.
 
-“Hoy, la vida digital de las familias en Colombia está completamente integrada en un solo dispositivo, pero la seguridad no ha evolucionado al mismo ritmo. El celular se convirtió en el punto de acceso a todo: comunicación, finanzas, trabajo y entretenimiento. Por eso, un descuido puede tener un impacto mucho mayor al que las personas imaginan. La ciberseguridad ya no es un tema individual, es una responsabilidad compartida en el hogar, y el reto está en adoptar hábitos y herramientas que permitan proteger tu vida digital de manera integral”, afirma Carolina Mojica, Gerente de Productos para el Consumidor para NOLA y SOLA en Kaspersky.
+«Esto es un tema de prueba y error», señala la docente de EAE Business School. «Diversificar una marca personal implica escuchar a la audiencia, probar formatos e ir ajustando la oferta en función de lo que realmente aporta valor. No hay fórmulas mágicas».
 
--	No compartas tus contraseñas, ni siquiera con familiares: aunque parezca algo de confianza, hacerlo puede permitir que otras personas entren a tus cuentas sin que te des cuenta. Cada cuenta debería tener su propia clave y solo tú deberías conocerla.
+Sin embargo, hay algunos errores que se pueden evitar. Uno de los errores más frecuentes no es solo monetizar demasiado pronto, sino hacerlo sin una propuesta de valor clara o sin coherencia entre el posicionamiento de la marca, la expectativa de la audiencia y la oferta final. Otro fallo común es replicar modelos de otros creadores sin analizar si realmente encajan con su perfil o con su audiencia. Y, por último, la sobrecarga.
 
--	Cierra siempre tus sesiones en el celular: dejar abiertas aplicaciones como el correo, redes sociales o el banco es como dejar la puerta de tu casa abierta. Cualquiera con acceso al dispositivo podría entrar sin necesidad de contraseña.
+La experta advierte que lanzar múltiples productos o servicios al mismo tiempo, sin una estructura ni una estrategia clara, lo que termina diluyendo la marca. Eso sí, tener activos propios es altamente necesario, porque así como no se puede depender solo del algoritmo, tampoco se puede de las colaboraciones pagadas, porque es otro asunto que escapa del control.
 
--	Desconfía de mensajes que te presionen a actuar rápido: si recibes un mensaje que dice “urgente” o te pide hacer clic en un enlace, tómate un momento antes de reaccionar. Muchas estafas funcionan porque las personas actúan sin verificar.
+Las dinámicas de las redes sociales son netamente comerciales y las audiencias han asumido el papel de consumidores, así que no hay que subestimarlas. Eso sí, debe haber un equilibrio en la proporción y la intención. 
 
--	Evita usar redes Wi-Fi públicas: conectarte a redes abiertas en lugares como cafés o aeropuertos puede exponer tu información. Si vas a hacer pagos o revisar tu banco, es mejor usar tus datos móviles o una red segura.
-
--	Protege tu vida digital y la de tu familia con herramientas de seguridad: así como te cuidas tú, también es importante proteger a niños y adultos mayores, que pueden ser más vulnerables. Soluciones como Kaspersky Premium ayudan a cuidar tus contraseñas, tu información y tus transacciones, mientras que Kaspersky Safe Kids te permite acompañar el uso digital de los niños y ayudarles a navegar de forma segura.
-
--	Evita fraudes y llamadas sospechosas: herramientas como Who Calls permiten identificar en tiempo real números desconocidos o potencialmente fraudulentos, ayudándote a prevenir estafas, intentos de ingeniería social y llamadas de spam antes de contestar.
-
-
+«Si la mayor parte del contenido educa, inspira o entretiene, la audiencia entiende que también habrá momentos de oferta», agrega Maite Moreno. «El problema surge cuando la comunicación se vuelve exclusivamente comercial. Ahí se diluye el valor agregado de la marca personal».
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Chica-con-celular-p.jpg)
 
