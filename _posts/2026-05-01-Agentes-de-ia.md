@@ -10,7 +10,7 @@ title: ¿Cómo los agentes de IA transformarán la relación entre bancos y clie
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Inteligencia-Artificial-Teclado-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Inteligencia-Artificial-Teclado-g.jpgg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Inteligencia-Artificial-Teclado-g.jpg
 categories:
   - Venezuela
   - Colombia
