@@ -1,7 +1,7 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2026-05-01 17:22 -0400'
+date: '2026-05-06 17:22 -0400'
 published: true
 superNews: false
 superArticle: false
@@ -37,6 +37,7 @@ Ubicado en Quilicura, SAN2 representa la evolución de la plataforma de Data Cen
 “Este Data Center está diseñado para responder a la nueva ola de demanda impulsada por la inteligencia artificial: no solo ofrece mayor potencia instalada, sino también escalabilidad y las condiciones técnicas necesarias para crecer junto con los proyectos de nuestros clientes”, señaló Francisco Fuentes, Country Sales Director, Data Centers de Cirion en Chile. “Asimismo, incorpora un enfoque integral de sostenibilidad, operando con energía 100% renovable y altos estándares de eficiencia energética y uso responsable del agua, lo que permite acompañar este crecimiento de manera responsable con el entorno”.
 
 Con este reconocimiento, Cirion reafirma su compromiso con el desarrollo de Data Centers diseñados bajo estándares internacionales y continúa avanzando en su plan de certificaciones en infraestructura, sostenibilidad, seguridad de la información, continuidad, resiliencia y calidad, consolidando una operación alineada con las mejores prácticas globales. Todo ello se traduce en una infraestructura certificada, pensada para acompañar la evolución de los negocios.
+
  
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Cirion-Chile-p.jpg)
 
