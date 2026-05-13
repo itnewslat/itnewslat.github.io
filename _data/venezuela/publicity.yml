@@ -11,7 +11,7 @@ publicity-1:
 #     url: http://www.logintel.com.ve/
    
 sideBar-publicity:
-  - image: hhttps://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Digitel300x600.gif
+  - image: https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Digitel300x600.gif
     url:  https://www.digitel.com.ve?utm_source=WebAds&utm_medium=noticias&utm_campaign=5G 
   - image: https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg
     url: https://itnews.lat/Historico.html
