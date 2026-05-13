@@ -1,27 +1,6 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2026-05-06 17:42 -0400'
-published: true
-superNews: false
-superArticle: false
-year: '2026'
-title: Bancaribe lanza Shark Bank
-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/shark-bank-p.jpg
-detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/shark-bank-g.jpg
-categories:
-  - Venezuela
-tags:
-  - Actualidad
-week: '21'
----
-**Un acelerador para integrar startups al sistema financiero**
-
----
-layout: posts
-color-schema: red-dark
 date: '2026-05-13 16:20 -0400'
 published: true
 superNews: false
