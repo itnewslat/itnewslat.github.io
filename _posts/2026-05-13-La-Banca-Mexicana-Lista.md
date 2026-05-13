@@ -58,5 +58,3 @@ Mientras la transformación digital acelera el crecimiento de pagos electrónico
 </table>
 
 <img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
-
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/shark-bank-p.jpg)
