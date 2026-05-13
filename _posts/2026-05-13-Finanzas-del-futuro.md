@@ -1,7 +1,7 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2026-05-13 16:30 -0400'
+date: '2026-05-13 17:20 -0400'
 published: true
 superNews: false
 superArticle: false
@@ -13,12 +13,6 @@ detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/BDVCoin-g.jpg
 categories:
   - Venezuela
-  - Colombia
-  - Argentina
-  - Perú
-  - Ecuador
-  - Chile
-  - México
 tags:
   - Economía Digital
 week: '20'
