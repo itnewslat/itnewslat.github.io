@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: BDV: Finanzas del futuro: una mirada disruptiva en la economía global
+title: BDV Finanzas del futuro, una mirada disruptiva en la economía global
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/BDVCoin-p.jpg
 detail-image: >-
