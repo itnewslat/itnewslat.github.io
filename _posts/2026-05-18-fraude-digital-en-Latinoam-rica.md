@@ -24,7 +24,7 @@ tags:
   - Seguridad
 week: '21'
 ---
-**según el Informe Bad Bot de Thales**
+**El informe Fraud Beat 2026 de AppGate**
  
 -	El reporte expone cómo el phishing, el uso indebido de marcas y las redes sociales están impulsando una cadena de fraude más sofisticada, con crecimientos de hasta 228% en algunos países de la región.
 
