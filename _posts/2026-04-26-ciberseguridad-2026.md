@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2026-04-26 13:52 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2026'
 title: 'De la defensa reactiva a la resiliencia que impulsa negocios'
