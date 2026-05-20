@@ -8,7 +8,7 @@ superArticle: false
 year: '2026'
 title: 'El riesgo invisible de la inacción'
 image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/anselli-Salazar-l.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/Yanselli-Salazar-l.jpg
 week: '10'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Yanselli-Salazar-p.jpg
