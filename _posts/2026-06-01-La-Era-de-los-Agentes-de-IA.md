@@ -54,7 +54,7 @@ Más información en:
 - **Facebook**: [@AbsideCorp](https://www.facebook.com/AbsideCorp/) 
 - **Linkedin**: [ABSIDE](https://www.linkedin.com/company/abside/posts/?feedView=all)
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Agente-IA-p.jpgg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Agente-IA-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
