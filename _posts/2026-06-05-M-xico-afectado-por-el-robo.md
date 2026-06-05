@@ -26,7 +26,7 @@ week: '23'
 ---
 **México en la lista de los países más afectados por el robo de identidad y el ransomware**
 
-- El 83% de las empresas mexicanas sufrió incidentes relacionados con identidades en el último año; la IA y las cuentas automatizadas están acelerando el riesgo
+- El 83% de las empresas mexicanas sufrió incidentes relacionados con identidades en el último año; la IA y las cuentas automatizadas están acelerando el riesgo.
 
 México ya se encuentra entre los países más afectados por brechas de identidad a nivel global. De acuerdo con el nuevo reporte State of Identity Security 2026 de Sophos, el 83.3% de las organizaciones mexicanas sufrió al menos un incidente relacionado con identidades durante el último año, colocándose como el segundo país más afectado del estudio, solo detrás de Suiza.
 
