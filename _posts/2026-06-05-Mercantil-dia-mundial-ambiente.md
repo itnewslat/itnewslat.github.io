@@ -1,7 +1,7 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2026-06-051 08:46 -0400'
+date: '2026-06-05 08:46 -0400'
 published: true
 superNews: false
 superArticle: false
