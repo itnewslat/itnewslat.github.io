@@ -45,7 +45,7 @@ Esta alianza nace con un propósito claro:
 
 Cerrar la brecha entre experimentar con inteligencia artificial y saber gestionarla correctamente, dotando a las organizaciones de las herramientas necesarias para gobernarla con criterio, estructura y visión de negocio.
 
-Tres pilares para datos y una IA bien gobernada
+**Tres pilares para datos y una IA bien gobernada**
 
 La propuesta se estructura en tres líneas de acción:
 
