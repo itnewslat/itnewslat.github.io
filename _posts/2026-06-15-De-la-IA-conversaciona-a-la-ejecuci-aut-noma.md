@@ -1,33 +1,6 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2026-06-09 16:26 -0400'
-published: true
-superNews: false
-superArticle: false
-year: '2026'
-title: ABSIDE presenta la era de la "Empresa Autónoma"
-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/articulo-abside-g.jpg
-detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/articulo-abside-g.jpg
-categories:
-  - Venezuela
-  - Colombia
-  - Ecuador
-  - Peru
-  - Chile
-  - Argentina
-  - Mexico
-tags:
-  - Canales
-week: '24'
----
-**¿Cómo la Inteligencia Artificial nativa está transformando la Gestión del Talento Humano?**
-
----
-layout: posts
-color-schema: red-dark
 date: '2026-06-15 17:26 -0400'
 published: true
 superNews: false
