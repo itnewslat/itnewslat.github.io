@@ -21,7 +21,7 @@ Ante los recientes y complejos acontecimientos que atraviesa el país, Movilnet 
 
 Como parte de este esfuerzo continuo, Movilnet mantiene liberados los servicios de llamadas y mensajería de texto (SMS) a nivel nacional para todos sus clientes, asegurando el contacto directo entre seres queridos en momentos donde cada palabra cuenta.
 
-**Innovación al servicio de la comunidad **
+**Innovación al servicio de la comunidad**
 
 En una acción conjunta nacida de la cooperación estratégica entre su ecosistema Nexos Movilnet, PandoLab y Corporación 3DLINK, se movilizaron dos unidades de radiobases móviles equipadas con tecnología de vanguardia en las zonas de Catia la Mar y Caraballeda, estado La Guaira. Estas estaciones cuentan con soluciones diseñadas para brindar conexión Wi-Fi gratuita a cualquier dispositivo en el área. 
 
