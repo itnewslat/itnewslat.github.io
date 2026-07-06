@@ -49,7 +49,9 @@ Esta diferencia revela un problema de fondo: muchos usuarios todavía entienden 
 
 “Estos datos reflejan que la seguridad digital todavía se percibe, en muchos casos, como una tarea secundaria frente a acciones más visibles o inmediatas. El desafío es que las amenazas no siempre dependen de grandes fallas técnicas, sino de pequeños descuidos acumulados: credenciales débiles, información expuesta o configuraciones que permanecen sin revisión durante mucho tiempo. En América Latina, donde la vida digital está cada vez más integrada a actividades cotidianas como pagos, trabajo, entretenimiento y comunicación, esta brecha puede traducirse en un mayor riesgo de fraude, robo de identidad o acceso no autorizado a cuentas personales. Por eso, la higiene digital debe dejar de verse como una limpieza ocasional y convertirse en una rutina preventiva, tan importante como actualizar un dispositivo o proteger una cuenta bancaria”, asegura Leandro Cuozzo, analista de Seguridad en el Equipo Global de Investigación y Análisis para América Latina en Kaspersky.
 
-Los expertos de Kaspersky subrayan que es crucial no olvidar aquellas prácticas que, aunque no generan resultados instantáneos, pueden proteger los datos y el dinero de los usuarios a largo plazo. Para lograrlo, recomiendan:
+Los expertos de Kaspersky subrayan que es crucial no olvidar aquellas prácticas que, aunque no generan resultados instantáneos, pueden proteger los datos y el dinero de los usuarios a largo plazo. 
+
+Para lograrlo, recomiendan:
 
 - **Automatizar la limpieza del dispositivo con herramientas especializadas**. Utilizar soluciones que ayuden a identificar y eliminar archivos duplicados, archivos de gran tamaño, aplicaciones no utilizadas y otros elementos innecesarios permite reducir el desorden digital y mantener los dispositivos funcionando de forma más estable.
 
