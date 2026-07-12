@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2026-06-01 16:25 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2026'
 title: 'La Era de los Agentes de IA'
@@ -21,7 +21,7 @@ categories:
 tags:
   - Transformación Digital
 ---
-**Cómo Abside y Google Cloud están Redefiniendo la Productividad Empresarial**
+**Cómo Abside y Google Cloud están Redefiniendo la Productividad Empresarial **
 
 : 
 **ANÁLISIS TECNOLÓGICO: TRANSFORMACIÓN DIGITAL**
