@@ -29,7 +29,7 @@ El anuncio llega semanas después de los terremotos que afectaron al país. En e
 
 "Esta inversión es una manera concreta de decirle a Venezuela: creo en ti. Hoy esa convicción cobra todavía más fuerza. Creemos en las familias que siguen adelante, en los comercios que vuelven a abrir sus puertas y en la capacidad del país para reconstruirse. Nuestro compromiso sigue siendo ampliar las posibilidades de quienes apuestan por Venezuela todos los días", afirmó Pedro Vallenilla, cofundador y CEO de Cashea. 
 
-**Una inversión que se queda en Venezuela **
+**Una inversión que se queda en Venezuela**
 
 Una ronda de inversión es una forma de financiamiento mediante la cual una empresa recibe recursos de inversionistas privados para impulsar su crecimiento y desarrollar nuevos productos y servicios. En el caso de Cashea, los US$100 millones provienen de instituciones estadounidenses, firmas globales de inversión e inversionistas latinoamericanos. 
 
