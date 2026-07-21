@@ -9,9 +9,9 @@ year: '2026'
 title: El Phishing como Servicio
 week: '30'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/mano-tu-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/phishing-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/mano-tu-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/phishing-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -58,7 +58,7 @@ Al combinarse con autenticación adaptativa y controles basados en riesgo, las i
 
 El Phishing-as-a-Service ha transformado la economía del fraude, facilitando que los atacantes escalen campañas y suplanten marcas de confianza a un costo mínimo. Para las instituciones financieras de América Latina, esto significa que la defensa contra el fraude ya no puede comenzar en el inicio de sesión.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/mano-tu-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/phishing-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
