@@ -9,9 +9,9 @@ year: '2026'
 title: Cirion, envía actualización de la reparación del cable submarino
 week: '30'
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Johan-Durre-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Buque-Cable-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Johan-Durre-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Buque-Cable-g.jpg
 categories:
   - Venezuela
   - México
@@ -47,7 +47,7 @@ Como ha sido nuestra práctica desde el inicio de esta contingencia, cada actual
 - Cirion Technologies
 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Johan-Durre-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Buque-Cable-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
