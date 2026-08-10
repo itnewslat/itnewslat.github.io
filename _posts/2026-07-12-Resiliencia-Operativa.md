@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2026-07-12 10:15 -0400'
 published: true
-superNews: true
+superNews: False
 superArticle: false
 year: '2026'
 title: Resiliencia Operativa
