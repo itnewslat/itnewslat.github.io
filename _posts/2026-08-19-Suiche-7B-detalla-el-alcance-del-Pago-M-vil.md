@@ -10,7 +10,7 @@ title: Suiche 7B detalla el alcance de la actualización del tarifario del Pago 
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Pago-movil-p.jpg
 detail-image: >-
-  hhttps://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Pago-movil-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Pago-movil-g.jpg
 categories:
   - Venezuela
 tags:
@@ -37,12 +37,9 @@ Para la Corporación Suiche 7B es importante señalar que las cifras contenidas 
 
 Además, agregó: "en un país que no se detiene, la corporación tampoco lo hace. Nuestro compromiso sigue intacto: que tu dinero llegue donde lo necesitas, cuando lo necesitas. Seguimos moviendo al país, operando con los mismos porcentajes de siempre".
 
+**Tarifario Oficial — Operaciones a través del Servicio Pago Móvil Interbancario**
+
 <table class="tarifario-table" style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px; color: #333333; margin: 20px 0;">
-    <caption>
-        <h3 style="margin-bottom: 12px; color: #0f172a; text-align: left; font-size: 16px; font-weight: bold; text-transform: uppercase;">
-            Tarifario Oficial — Operaciones a través del Servicio Pago Móvil Interbancario
-        </h3>
-    </caption>
     <thead>
         <tr style="background-color: #1e293b; color: #ffffff; text-align: left;">
             <th style="padding: 12px 15px; border: 1px solid #cbd5e1; font-weight: 600;">OPERACIÓN Y/O ACTIVIDAD</th>
