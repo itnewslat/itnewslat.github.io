@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: ''
+title: Suiche 7B detalla el alcance de la actualización del tarifario del Pago Móvil
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Pago-movil-p.jpg
 detail-image: >-
@@ -16,7 +16,6 @@ categories:
 tags:
   - Economía Digital
 week: '34'
----
     <style>
         @page {
             size: A4;
