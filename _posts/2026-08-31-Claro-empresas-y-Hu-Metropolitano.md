@@ -17,7 +17,7 @@ tags:
   - Canales
 week: '36'
 ---
--La ins tancia reunió a autoridades, representantes del mundo empresarial, expertos y cerca de 200 pequeñas y medianas empresas. Marca el inicio de una serie de encuentros que se realizarán el último jueves de cada mes hasta noviembre, para acercar tecnología, conocimiento y acompañamiento especializado a las pymes de la Región Metropolitana.
+- La instancia reunió a autoridades, representantes del mundo empresarial, expertos y cerca de 200 pequeñas y medianas empresas. Marca el inicio de una serie de encuentros que se realizarán el último jueves de cada mes hasta noviembre, para acercar tecnología, conocimiento y acompañamiento especializado a las pymes de la Región Metropolitana.
 
 En un escenario donde las pymes enfrentan el desafío de incorporar tecnología para ser más productivas y competitivas, Claro empresas dio inicio al primer Claro empresas Day en el Hub Metropolitano del gobierno de Santiago, programa del Gobierno de Santiago, aprobado por el Consejo Regional Metropolitano y ejecutado por Fundación Chile. La iniciativa busca acercar soluciones tecnológicas y acompañamiento especializado que respondan a las necesidades y realidad de cada empresa.
 
