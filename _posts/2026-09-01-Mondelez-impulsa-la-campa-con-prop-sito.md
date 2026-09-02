@@ -10,7 +10,7 @@ title: Mondelēz Venezuela impulsa la campaña con propósito
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Modelez-p.jpg
 detail-image: >-
-  hhttps://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Modelez-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Modelez-g.jpg
 categories:
   - Venezuela 
 tags:
