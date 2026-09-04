@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: Liberty Networks fortalece su oferta de conectividad empresarial 
+title: ¿Por qué la resiliencia de datos será clave ante la autonomía de la IA?  
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/IA-Agentica-p.jpg
 detail-image: >-
