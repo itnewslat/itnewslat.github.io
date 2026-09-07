@@ -22,7 +22,7 @@ categories:
   - Panamá
 tags:
   - Transformación Digital
-week: '37'
+week: '38'
 ---
 **ANDICOM 2026 dejó dos señales relevantes para el futuro digital del país: empresas tecnológicas europeas anunciaron inversiones cercanas a $8 billones para los próximos cuatro años y el Gobierno puso sobre la mesa la necesidad de ampliar la capacidad energética para atraer centros de datos de gran escala.**
 
