@@ -22,7 +22,7 @@ categories:
   - Panamá
 tags:
   - Actualidad
-week: '37'
+week: '38'
 ---
 **La primera etapa de la IA empresarial estuvo marcada por la experimentación. La siguiente consiste en convertirla en parte de la operación y hacerlo con capacidad para medir sus costos, proteger los datos y gobernar las acciones que puede ejecutar.**
 
