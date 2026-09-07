@@ -52,7 +52,7 @@ El especialista de Vertiv señala como prioridades nacionales acelerar inversion
 
 Junto a la infraestructura energética, la consolidación de marcos regulatorios ágiles (como zonas francas tecnológicas) y la formación de talento especializado en enfriamiento líquido, ingeniería de potencia y mantenimiento crítico serán las variables definitivas para que Colombia lidere la atracción de centros de datos de última generación en el continente.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Vertiv-Centro-de-Datos-g.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Vertiv-Centro-de-Datos-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
