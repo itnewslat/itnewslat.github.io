@@ -41,7 +41,6 @@ Sostenibilidad del sector y del ecosistema digital
 
 La Cámara reiteró que la estabilidad y proporcionalidad regulatorias son esenciales para impulsar la inversión, la innovación y la conectividad. Si bien reconoció los avances en las consultas realizadas, CASETEL las consideró insuficientes dada la complejidad de los cambios, por lo que propuso crear mesas técnicas sectoriales para analizar y construir las propuestas de forma conjunta antes de su aprobación. 
 
-
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Pedro-Marin-p.jpg)
 
 <table style="height: 42px;" width="569">
