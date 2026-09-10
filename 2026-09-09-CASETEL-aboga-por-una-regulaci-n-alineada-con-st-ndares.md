@@ -17,7 +17,7 @@ tags:
   - Actualidad
 week: '38'
 ---
-- **CASETEL aboga por una regulación alineada con estándares y mejores prácticas internacionales para fortalecer el ecosistema digital**
+**CASETEL aboga por una regulación alineada con estándares y mejores prácticas internacionales para fortalecer el ecosistema digital**
 
 La Cámara de Empresas de Servicios de Telecomunicaciones (CASETEL) participó en las audiencias públicas convocadas por la Comisión Nacional de Telecomunicaciones (CONATEL) relacionadas con la revisión de las providencias en materia de Calidad del Servicio de Internet, Puntos de Intercambio de Tráfico (IXP) y Reforma de Atributos, a la que asistieron operadores públicos y privados, comunidad organizada y otros actores interesados. La Cámara, en representación de sus afiliados, presentó observaciones técnicas orientadas a preservar la seguridad jurídica, la competencia efectiva y las condiciones que sostienen la inversión en el sector, y reiteró su disposición de construir junto al ente regulador un marco alineado con las mejores prácticas internacionales. 
 
