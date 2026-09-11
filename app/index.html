@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITNEWS Reader | Portal de Noticias Tecnológicas</title>
+  <meta name="description" content="Aplicación interactiva y lector para explorar las noticias, artículos y tendencias tecnológicas de ITNEWS.LAT">
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Remixicon for sleek modern icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <div class="brand-logo-icon">
+          <i class="ri-radar-fill"></i>
+        </div>
+        <div class="brand-text">
+          <h1>ITNEWS<span>.LAT</span></h1>
+          <span class="brand-tagline">Tech News & Business Intelligence</span>
+        </div>
+      </div>
+
+      <div class="header-controls">
+        <div class="live-status-badge" id="liveStatusBadge">
+          <span class="pulse-dot"></span>
+          <span id="statusText">En línea</span>
+        </div>
+        <button id="themeToggleBtn" class="icon-button" title="Alternar tema claro/oscuro" aria-label="Cambiar tema">
+          <i class="ri-sun-line light-icon"></i>
+          <i class="ri-moon-line dark-icon"></i>
+        </button>
+        <button id="refreshFeedBtn" class="icon-button" title="Actualizar noticias" aria-label="Recargar feed">
+          <i class="ri-refresh-line"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Hero & Search Banner -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <span class="hero-chip"><i class="ri-flashlight-line"></i> Cobertura Regional en Latinoamérica</span>
+      <h2 class="hero-title">El pulso de la tecnología, ciberseguridad e innovación digital</h2>
+      
+      <!-- Search Box -->
+      <div class="search-wrapper">
+        <div class="search-box">
+          <i class="ri-search-2-line search-icon"></i>
+          <input type="text" id="searchInput" placeholder="Buscar por título, empresa, líder o tema..." autocomplete="off">
+          <button id="clearSearchBtn" class="clear-btn" style="display:none;"><i class="ri-close-line"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter & Navigation Bar -->
+  <div class="filters-container">
+    <!-- Country Filters -->
+    <div class="filter-group">
+      <div class="filter-header">
+        <i class="ri-earth-line"></i>
+        <span>Filtrar por País:</span>
+      </div>
+      <div class="chips-scroll" id="countryChips">
+        <button class="chip active" data-filter-type="country" data-value="all">Todos</button>
+        <button class="chip" data-filter-type="country" data-value="Venezuela">🇻🇪 Venezuela</button>
+        <button class="chip" data-filter-type="country" data-value="Colombia">🇨🇴 Colombia</button>
+        <button class="chip" data-filter-type="country" data-value="México">🇲🇽 México</button>
+        <button class="chip" data-filter-type="country" data-value="Panamá">🇵🇦 Panamá</button>
+        <button class="chip" data-filter-type="country" data-value="Chile">🇨🇱 Chile</button>
+        <button class="chip" data-filter-type="country" data-value="Argentina">🇦🇷 Argentina</button>
+        <button class="chip" data-filter-type="country" data-value="Ecuador">🇪🇨 Ecuador</button>
+        <button class="chip" data-filter-type="country" data-value="Perú">🇵🇪 Perú</button>
+      </div>
+    </div>
+
+    <!-- Category / Tag Filters -->
+    <div class="filter-group">
+      <div class="filter-header">
+        <i class="ri-price-tag-3-line"></i>
+        <span>Temáticas Clave:</span>
+      </div>
+      <div class="chips-scroll" id="tagChips">
+        <button class="chip active" data-filter-type="tag" data-value="all">Todas</button>
+        <button class="chip" data-filter-type="tag" data-value="Transformación Digital">Transformación Digital</button>
+        <button class="chip" data-filter-type="tag" data-value="Seguridad">Ciberseguridad</button>
+        <button class="chip" data-filter-type="tag" data-value="Economía Digital">Economía Digital</button>
+        <button class="chip" data-filter-type="tag" data-value="Actualidad">Actualidad</button>
+        <button class="chip" data-filter-type="tag" data-value="Canales">Canales</button>
+        <button class="chip" data-filter-type="tag" data-value="Data Center">Data Centers</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content Feed Area -->
+  <main class="main-container">
+    <!-- Status & Results Count Bar -->
+    <div class="results-bar">
+      <div class="results-info">
+        <span id="resultsCount">Cargando noticias...</span>
+      </div>
+      <div class="results-sort">
+        <label for="sortSelect"><i class="ri-sort-desc"></i> Orden:</label>
+        <select id="sortSelect">
+          <option value="newest">Más recientes primero</option>
+          <option value="oldest">Más antiguos primero</option>
+          <option value="title">Alfabético</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Articles Grid -->
+    <div class="news-grid" id="newsGrid">
+      <!-- Skeleton Loading Cards -->
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+
+    <!-- Empty State Message -->
+    <div class="empty-state" id="emptyState" style="display: none;">
+      <i class="ri-newspaper-line"></i>
+      <h3>No se encontraron publicaciones</h3>
+      <p>Intenta ajustar los filtros de país, etiqueta o los términos de tu búsqueda.</p>
+      <button id="resetFiltersBtn" class="btn btn-primary">Restablecer filtros</button>
+    </div>
+
+    <!-- Load More Pagination -->
+    <div class="pagination-wrapper" id="paginationWrapper" style="display: none;">
+      <button id="loadMoreBtn" class="btn btn-secondary">
+        <span>Cargar más publicaciones</span>
+        <i class="ri-arrow-down-line"></i>
+      </button>
+    </div>
+  </main>
+
+  <!-- Modal Reader View -->
+  <div class="reader-modal-overlay" id="readerModal">
+    <div class="reader-modal">
+      <div class="reader-modal-header">
+        <div class="reader-categories" id="readerCategories"></div>
+        <button class="icon-button close-btn" id="closeReaderBtn" aria-label="Cerrar artículo">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+
+      <div class="reader-body-wrapper">
+        <article class="reader-article">
+          <h2 class="reader-title" id="readerTitle"></h2>
+          
+          <div class="reader-meta">
+            <span class="meta-item"><i class="ri-calendar-line"></i> <span id="readerDate"></span></span>
+            <span class="meta-item" id="readerTagsWrapper"><i class="ri-price-tag-line"></i> <span id="readerTags"></span></span>
+            <a id="readerExternalLink" href="#" target="_blank" rel="noopener noreferrer" class="meta-link">
+              <i class="ri-external-link-line"></i> Abrir en itnews.lat
+            </a>
+          </div>
+
+          <div class="reader-featured-media">
+            <img id="readerImage" src="" alt="" loading="lazy">
+          </div>
+
+          <div class="reader-content" id="readerContent"></div>
+        </article>
+      </div>
+
+      <div class="reader-modal-footer">
+        <button class="btn btn-secondary" id="closeFooterBtn">Cerrar</button>
+        <a id="readerFooterAction" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <span>Ver publicación original</span>
+          <i class="ri-arrow-right-up-line"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <p>© 2026 ITNEWS.LAT — Plataforma de noticias y análisis de tecnología para América Latina.</p>
+      <div class="footer-links">
+        <a href="https://itnews.lat" target="_blank" rel="noopener noreferrer">Portal Oficial</a>
+        <a href="https://twitter.com/itnewslat" target="_blank" rel="noopener noreferrer">@ITNEWSLAT</a>
+        <a href="https://squidapp.co/en/" target="_blank" rel="noopener noreferrer">SQUID App</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
