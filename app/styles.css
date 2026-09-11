@@ -110,42 +110,41 @@ body {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
   cursor: pointer;
   user-select: none;
   text-decoration: none;
 }
 
 .brand-logo-img {
-  height: 28px;
-  max-height: 28px;
-  width: auto;
-  max-width: 140px;
+  width: 300px;
+  height: 75px;
+  max-width: 100%;
   object-fit: contain;
   display: block;
-  filter: drop-shadow(0 1px 6px rgba(225, 29, 72, 0.25));
+  filter: drop-shadow(0 2px 8px rgba(225, 29, 72, 0.2));
   transition: transform var(--transition-smooth), opacity var(--transition-fast);
 }
 
 .brand:hover .brand-logo-img {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .brand-divider {
   width: 1px;
-  height: 20px;
+  height: 38px;
   background: var(--border-medium);
 }
 
 .brand-subtext {
   font-family: var(--font-heading);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: var(--brand-primary);
   background: rgba(225, 29, 72, 0.12);
-  padding: 3px 8px;
+  padding: 4px 10px;
   border-radius: var(--radius-sm);
   border: 1px solid rgba(225, 29, 72, 0.25);
   line-height: 1;
@@ -883,16 +882,21 @@ body {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .app-header {
-    padding: 10px 16px;
+    padding: 12px 16px;
+  }
+  .brand {
+    gap: 10px;
   }
   .brand-logo-img {
-    height: 24px;
-    max-height: 24px;
-    max-width: 115px;
+    width: 200px;
+    height: 50px;
+  }
+  .brand-divider {
+    height: 26px;
   }
   .brand-subtext {
     font-size: 11px;
-    padding: 2px 6px;
+    padding: 3px 6px;
     letter-spacing: 1px;
   }
   .hero-title {

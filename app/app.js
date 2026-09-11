@@ -59,8 +59,8 @@
     'Costa Rica': '🇨🇷 Costa Rica'
   };
 
-  // Init Theme
-  const savedTheme = localStorage.getItem('itnews_theme') || 'dark';
+  // Init Theme - Default to light theme
+  const savedTheme = localStorage.getItem('itnews_theme') || 'light';
   document.documentElement.setAttribute('data-theme', savedTheme);
 
   themeToggleBtn.addEventListener('click', () => {
