@@ -115,6 +115,20 @@ body {
   user-select: none;
 }
 
+.brand-logo-img {
+  height: 40px;
+  width: auto;
+  max-width: 170px;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 0 10px rgba(225, 29, 72, 0.2));
+  transition: transform var(--transition-smooth);
+}
+
+.brand:hover .brand-logo-img {
+  transform: scale(1.04);
+}
+
 .brand-logo-icon {
   width: 42px;
   height: 42px;
