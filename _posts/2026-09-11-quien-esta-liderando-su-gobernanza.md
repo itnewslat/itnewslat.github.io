@@ -12,13 +12,7 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/webinarsz-g.jpg
 categories:
-  - Colombia
-  - Panamá
-  - Ecuador
   - Venezuela
-  - Chile
-  - Perú
-  - Argentina
 tags:
   - Actualidad
 week: '37'
