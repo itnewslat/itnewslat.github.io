@@ -51,7 +51,7 @@ La participación no tiene costo, pero requiere un registro previo obligatorio p
 - **Sybven**: empresa de innovación y servicios tecnológicos enfocada en acompañar a las organizaciones en sus procesos de transformación digital y optimización de modelos operativos.
 - **Zuliatec**: firma especializada en consultoría estratégica y transformación digital, orientada a respaldar a las empresas en su crecimiento, resiliencia e innovación.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/webinarsz-p.jpg)
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/webinarsz-p.jpg" alt="Webinar Gobernanza IA" class="img-fluid" /></p>
 
 <table style="height: 42px;" width="569">
 <tbody>
