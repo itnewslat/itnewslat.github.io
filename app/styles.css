@@ -345,9 +345,15 @@ body {
 .chips-scroll {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
   padding-bottom: 4px;
+}
+
+/* Permitir scroll opcional solo si se especificara, pero por defecto los filtros se adaptan sin desbordar */
+.chips-scroll.nowrap {
+  flex-wrap: nowrap;
+  overflow-x: auto;
   scrollbar-width: thin;
 }
 
@@ -660,18 +666,18 @@ body {
   border-color: var(--border-medium);
 }
 
-/* Reader Modal View */
+/* Reader Modal View - Full Screen */
 .reader-modal-overlay {
   position: fixed;
   inset: 0;
   z-index: 200;
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 0;
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--transition-smooth);
@@ -684,15 +690,16 @@ body {
 
 .reader-modal {
   background: var(--bg-secondary);
-  border: 1px solid var(--border-medium);
-  border-radius: var(--radius-lg);
-  max-width: 860px;
-  width: 100%;
-  max-height: 90vh;
+  border: none;
+  border-radius: 0;
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
-  box-shadow: var(--shadow-lg);
-  transform: scale(0.96) translateY(10px);
+  box-shadow: none;
+  transform: scale(0.99) translateY(8px);
   transition: transform var(--transition-smooth);
 }
 
@@ -738,9 +745,15 @@ body {
   border-radius: var(--radius-full);
 }
 
+.reader-article {
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .reader-title {
   font-family: var(--font-heading);
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 800;
   line-height: 1.25;
   color: var(--text-primary);
@@ -883,23 +896,44 @@ body {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .app-header {
-    padding: 12px 16px;
+    padding: 10px 14px;
+  }
+  .header-container {
+    gap: 8px;
   }
   .brand {
-    gap: 10px;
+    gap: 6px;
+    flex-shrink: 1;
+    min-width: 0;
   }
   .brand-logo-img {
-    width: 200px;
-    height: 45px;
+    width: 145px;
+    max-width: 42vw;
+    height: auto;
     aspect-ratio: 300 / 67;
   }
   .brand-divider {
-    height: 24px;
+    height: 18px;
   }
   .brand-subtext {
+    font-size: 10px;
+    padding: 2px 5px;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+  }
+  .header-controls {
+    gap: 6px;
+    flex-shrink: 0;
+  }
+  .live-status-badge {
+    padding: 4px 8px;
     font-size: 11px;
-    padding: 3px 6px;
-    letter-spacing: 1px;
+    gap: 5px;
+  }
+  .icon-button {
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
   }
   .hero-title {
     font-size: 24px;
@@ -907,21 +941,40 @@ body {
   .filter-group {
     flex-direction: column;
     align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+  }
+  .filter-header {
+    min-width: unset;
+  }
+  .chips-scroll {
+    width: 100%;
   }
   .news-grid {
     grid-template-columns: 1fr;
   }
   .reader-modal {
-    max-height: 95vh;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
   }
   .reader-body-wrapper {
-    padding: 20px;
+    padding: 16px;
   }
   .reader-title {
-    font-size: 22px;
+    font-size: 20px;
   }
   .footer-container {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-logo-img {
+    width: 120px;
+  }
+  .live-status-badge span:not(.pulse-dot) {
+    font-size: 10px;
   }
 }
