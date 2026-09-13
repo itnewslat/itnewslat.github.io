@@ -70,48 +70,223 @@
     localStorage.setItem('itnews_theme', next);
   });
 
-  // Load Data
-  async function loadData() {
-    statusText.textContent = 'Sincronizando...';
+  // Known Latin American country names for category mapping
+  const KNOWN_COUNTRIES = [
+    'Venezuela', 'Colombia', 'México', 'Panamá', 'Chile', 
+    'Argentina', 'Ecuador', 'Perú', 'Brasil', 'Costa Rica'
+  ];
+
+  // Load Data with automatic instant live sync from feed.xml
+  async function loadData(isBackgroundSync = false) {
+    if (!isBackgroundSync) {
+      statusText.textContent = 'Sincronizando...';
+    }
+    let hasUpdated = false;
+
     try {
-      // 1. Cargar el catálogo completo generado localmente
-      const localRes = await fetch('posts_data.json');
-      if (localRes.ok) {
-        allPosts = await localRes.json();
+      // 1. Cargar el catálogo base posts_data.json si aún no hay posts
+      if (allPosts.length === 0) {
+        try {
+          const localRes = await fetch('posts_data.json?t=' + Date.now());
+          if (localRes.ok) {
+            allPosts = await localRes.json();
+            hasUpdated = true;
+          }
+        } catch (err) {
+          console.warn('No se pudo cargar posts_data.json local:', err);
+        }
       }
 
-      // 2. Intentar obtener noticias en vivo desde search.json de itnews.lat
+      // 2. Sincronización en vivo DIRECTA desde feed.xml (con bypass de caché)
       try {
-        const liveRes = await fetch('https://itnews.lat/search.json', { cache: 'no-cache' });
-        if (liveRes.ok) {
-          const livePosts = await liveRes.json();
-          mergeLivePosts(livePosts);
+        const feedUrl = '../feed.xml?t=' + Date.now();
+        const feedRes = await fetch(feedUrl, { cache: 'no-store' });
+        if (feedRes.ok) {
+          const xmlText = await feedRes.text();
+          const countAdded = parseAndMergeFeedXml(xmlText);
+          if (countAdded > 0) {
+            hasUpdated = true;
+            console.log(`[Auto-Sync] feed.xml sincronizado: ${countAdded} artículos actualizados/agregados.`);
+          }
         }
-      } catch (err) {
-        console.warn('Live API search.json fetch fallback to local:', err);
+      } catch (feedErr) {
+        // Intento alternativo con URL absoluta en producción si falla relativa
+        try {
+          const feedRes2 = await fetch('https://itnews.lat/feed.xml?t=' + Date.now(), { cache: 'no-store' });
+          if (feedRes2.ok) {
+            const xmlText2 = await feedRes2.text();
+            const countAdded2 = parseAndMergeFeedXml(xmlText2);
+            if (countAdded2 > 0) hasUpdated = true;
+          }
+        } catch (e) {
+          console.warn('Error sincronizando feed.xml:', e);
+        }
+      }
+
+      // 3. Fallback complementario desde search.json
+      try {
+        const searchRes = await fetch('../search.json?t=' + Date.now(), { cache: 'no-store' });
+        if (searchRes.ok) {
+          const livePosts = await searchRes.json();
+          mergeLiveSearchPosts(livePosts);
+        }
+      } catch (searchErr) {
+        // Silencioso, feed.xml tiene prioridad
       }
 
       statusText.textContent = 'En línea';
-      applyFiltersAndSort();
+      if (hasUpdated || !isBackgroundSync) {
+        applyFiltersAndSort();
+      }
     } catch (error) {
-      console.error('Error cargando noticias:', error);
+      console.error('Error general cargando noticias:', error);
       statusText.textContent = 'Modo Local';
-      newsGrid.innerHTML = `
-        <div class="empty-state" style="grid-column: 1 / -1;">
-          <i class="ri-error-warning-line"></i>
-          <h3>Error al cargar los artículos</h3>
-          <p>No se pudo conectar al repositorio de noticias. Revisa la conexión de red.</p>
-        </div>
-      `;
+      if (allPosts.length === 0) {
+        newsGrid.innerHTML = `
+          <div class="empty-state" style="grid-column: 1 / -1;">
+            <i class="ri-error-warning-line"></i>
+            <h3>Error al cargar los artículos</h3>
+            <p>No se pudo conectar al repositorio de noticias. Revisa la conexión de red.</p>
+          </div>
+        `;
+      }
     }
   }
 
-  // Merge live search posts if any newer
-  function mergeLivePosts(livePosts) {
+  // Parsear feed.xml en vivo e integrar los artículos inmediatamente
+  function parseAndMergeFeedXml(xmlString) {
+    if (!xmlString) return 0;
+    let addedCount = 0;
+
+    try {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlString, 'application/xml');
+      const items = xmlDoc.querySelectorAll('item');
+      if (!items || items.length === 0) return 0;
+
+      const existingMap = new Map();
+      allPosts.forEach((p, idx) => {
+        if (p.url) existingMap.set(p.url.toLowerCase(), idx);
+        if (p.id) existingMap.set(p.id.toLowerCase(), idx);
+      });
+
+      const newItemsList = [];
+
+      items.forEach(item => {
+        const title = item.querySelector('title')?.textContent?.trim() || '';
+        const link = item.querySelector('link')?.textContent?.trim() || '';
+        const pubDateRaw = item.querySelector('pubDate')?.textContent?.trim() || '';
+        const description = item.querySelector('description')?.textContent?.trim() || '';
+        
+        // Extraer categorías y tags
+        const categoryElements = item.querySelectorAll('category');
+        const categories = [];
+        const tags = [];
+
+        categoryElements.forEach(catEl => {
+          const val = catEl.textContent?.trim();
+          if (!val) return;
+          const isCountry = KNOWN_COUNTRIES.some(kc => 
+            kc.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === 
+            val.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+          );
+          if (isCountry) {
+            if (!categories.includes(val)) categories.push(val);
+          } else {
+            if (!tags.includes(val)) tags.push(val);
+          }
+        });
+
+        // Extraer imagen
+        let image = '';
+        let detailImage = '';
+        const mediaContent = item.querySelector('media\\:content, content');
+        const mediaThumbnail = item.querySelector('media\\:thumbnail, thumbnail');
+        
+        if (mediaContent && mediaContent.getAttribute('url')) {
+          image = mediaContent.getAttribute('url');
+        } else if (mediaThumbnail && mediaThumbnail.getAttribute('url')) {
+          image = mediaThumbnail.getAttribute('url');
+        }
+
+        if (image) {
+          detailImage = image.replace('/540x320/', '/1024x680/').replace('-p.jpg', '-g.jpg');
+        } else {
+          image = 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg';
+          detailImage = 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/itnewslat-g.jpg';
+        }
+
+        // Formatear fecha
+        let dateIso = '';
+        if (pubDateRaw) {
+          const parsedD = new Date(pubDateRaw);
+          if (!isNaN(parsedD.getTime())) {
+            const y = parsedD.getFullYear();
+            const m = String(parsedD.getMonth() + 1).padStart(2, '0');
+            const d = String(parsedD.getDate()).padStart(2, '0');
+            const hh = String(parsedD.getHours()).padStart(2, '0');
+            const mm = String(parsedD.getMinutes()).padStart(2, '0');
+            dateIso = `${y}-${m}-${d} ${hh}:${mm} -0400`;
+          }
+        }
+
+        const slug = link.split('/').pop().replace('.html', '');
+        const normUrl = link.toLowerCase();
+
+        // Limpieza de snippet para la tarjeta
+        const cleanSnippet = description
+          .replace(/<table[\s\S]*?<\/table>/gi, '')
+          .replace(/<[^>]+>/g, '')
+          .replace(/[#>*_`]/g, '')
+          .replace(/\s+/g, ' ')
+          .trim();
+        const snippet = cleanSnippet.length > 200 ? cleanSnippet.substring(0, 200) + '...' : cleanSnippet;
+
+        const postObject = {
+          id: slug || title.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+          title: title,
+          date: dateIso || new Date().toISOString(),
+          image: image,
+          detailImage: detailImage,
+          categories: categories.length ? categories : ['Latinoamérica'],
+          tags: tags.length ? tags : ['Actualidad'],
+          url: link,
+          snippet: snippet || 'Consulta la noticia completa en ITNEWS.LAT',
+          body: description
+        };
+
+        if (existingMap.has(normUrl)) {
+          // Actualizar artículo existente si trae contenido fresco
+          const existingIndex = existingMap.get(normUrl);
+          if (allPosts[existingIndex]) {
+            allPosts[existingIndex].title = postObject.title;
+            if (postObject.body) allPosts[existingIndex].body = postObject.body;
+            if (postObject.snippet) allPosts[existingIndex].snippet = postObject.snippet;
+            if (postObject.image) allPosts[existingIndex].image = postObject.image;
+            if (postObject.detailImage) allPosts[existingIndex].detailImage = postObject.detailImage;
+          }
+        } else {
+          // Es un artículo nuevo recién agregado a feed.xml: colocar al principio
+          newItemsList.push(postObject);
+          existingMap.set(normUrl, 0);
+          addedCount++;
+        }
+      });
+
+      if (newItemsList.length > 0) {
+        allPosts.unshift(...newItemsList);
+      }
+    } catch (err) {
+      console.warn('Error procesando XML de feed:', err);
+    }
+
+    return addedCount;
+  }
+
+  // Merge complementario de search.json
+  function mergeLiveSearchPosts(livePosts) {
     if (!Array.isArray(livePosts) || livePosts.length === 0) return;
-    
-    // Map existing URLs
-    const existingUrls = new Set(allPosts.map(p => p.url.toLowerCase()));
+    const existingUrls = new Set(allPosts.map(p => (p.url || '').toLowerCase()));
 
     livePosts.forEach(lp => {
       const url = lp.url.startsWith('http') ? lp.url : `https://itnews.lat${lp.url}`;
@@ -432,4 +607,21 @@
 
   // Initial Execution
   loadData();
+
+  // Sincronización automática periódica (cada 60 segundos) para detectar cambios en feed.xml
+  const SYNC_INTERVAL = 60 * 1000;
+  setInterval(() => {
+    loadData(true);
+  }, SYNC_INTERVAL);
+
+  // Sincronización inmediata cada vez que el usuario vuelve o enfoca la pestaña del navegador
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') {
+      loadData(true);
+    }
+  });
+
+  window.addEventListener('focus', () => {
+    loadData(true);
+  });
 })();
