@@ -197,16 +197,37 @@
           }
         });
 
-        // Extraer imagen
+        // Extraer imagen de forma ultra-robusta (namespaces XML, atributos y búsqueda en description)
         let image = '';
         let detailImage = '';
-        const mediaContent = item.querySelector('media\\:content, content');
-        const mediaThumbnail = item.querySelector('media\\:thumbnail, thumbnail');
         
-        if (mediaContent && mediaContent.getAttribute('url')) {
-          image = mediaContent.getAttribute('url');
-        } else if (mediaThumbnail && mediaThumbnail.getAttribute('url')) {
-          image = mediaThumbnail.getAttribute('url');
+        // 1. Probar atributos directos y con namespace
+        const mediaEls = [
+          item.querySelector('media\\:content'),
+          item.querySelector('content'),
+          item.querySelector('media\\:thumbnail'),
+          item.querySelector('thumbnail'),
+          ...Array.from(item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'content')),
+          ...Array.from(item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'thumbnail')),
+          ...Array.from(item.getElementsByTagName('media:content')),
+          ...Array.from(item.getElementsByTagName('media:thumbnail'))
+        ].filter(Boolean);
+
+        for (const el of mediaEls) {
+          const u = el.getAttribute('url') || el.getAttribute('href');
+          if (u && u.startsWith('http')) {
+            image = u.trim();
+            break;
+          }
+        }
+
+        // 2. Si no vino en etiquetas media, extraer la primera imagen embebida en la descripción
+        if (!image && description) {
+          const imgMatch = description.match(/<img[^>]+src=["'](https?:\/\/[^"']+)["']/i) || 
+                           description.match(/!\[.*?\]\((https?:\/\/[^\)]+)\)/i);
+          if (imgMatch && !imgMatch[1].includes('metricool') && !imgMatch[1].includes('c3po.jpg')) {
+            image = imgMatch[1].trim();
+          }
         }
 
         if (image) {
@@ -570,12 +591,19 @@
 
   function formatMarkdownBody(text) {
     if (!text) return '';
-    // Strip footer widgets
+    // Strip footer widgets and metrics
     let clean = text
       .replace(/<table[\s\S]*?<\/table>/gi, '')
-      .replace(/<img[\s\S]*?metricool[\s\S]*?>/gi, '')
+      .replace(/<img[^>]*metricool[^>]*>/gi, '')
+      .replace(/<img[^>]*c3po\.jpg[^>]*>/gi, '')
       .replace(/!\[.*?\]\((.*?)\)/g, ''); // We feature the detail image at the top
 
+    // Si el contenido ya contiene etiquetas HTML de párrafos generadas por Jekyll en el RSS:
+    if (/<p[\s\S]*?>/i.test(clean) || /<div[\s\S]*?>/i.test(clean)) {
+      return clean;
+    }
+
+    // Si viene en Markdown crudo:
     // Headers
     clean = clean.replace(/^### (.*$)/gim, '<h3>$1</h3>');
     clean = clean.replace(/^## (.*$)/gim, '<h3>$1</h3>');
@@ -595,7 +623,7 @@
     const htmlBlocks = blocks.map(b => {
       b = b.trim();
       if (!b) return '';
-      if (b.startsWith('<h3>') || b.startsWith('<blockquote>') || b.startsWith('<li>')) {
+      if (b.startsWith('<h3>') || b.startsWith('<blockquote>') || b.startsWith('<li>') || b.startsWith('<p>')) {
         if (b.startsWith('<li>')) return `<ul>${b}</ul>`;
         return b;
       }
