@@ -153,6 +153,29 @@
     }
   }
 
+  // Helper para normalizar identificadores o URLs (remover protocolo, dominio, barras y extensión)
+  function getPostSlugKey(post) {
+    if (!post) return '';
+    if (post.id) {
+      const cleanId = String(post.id).toLowerCase().replace(/\.html$/, '').replace(/^\/+/, '').split('/').pop();
+      if (cleanId) return cleanId;
+    }
+    const targetUrl = post.url || '';
+    if (targetUrl) {
+      const clean = targetUrl.toLowerCase()
+        .replace(/^https?:\/\/[^\/]+/, '')
+        .replace(/\.html$/, '')
+        .replace(/^\/+/, '')
+        .split('/')
+        .pop();
+      if (clean) return clean;
+    }
+    if (post.title) {
+      return post.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 50);
+    }
+    return '';
+  }
+
   // Parsear feed.xml en vivo e integrar los artículos inmediatamente
   function parseAndMergeFeedXml(xmlString) {
     if (!xmlString) return 0;
@@ -164,10 +187,15 @@
       const items = xmlDoc.querySelectorAll('item');
       if (!items || items.length === 0) return 0;
 
-      const existingMap = new Map();
+      // Mapear posts existentes por slug/key y URL
+      const existingKeyMap = new Map();
       allPosts.forEach((p, idx) => {
-        if (p.url) existingMap.set(p.url.toLowerCase(), idx);
-        if (p.id) existingMap.set(p.id.toLowerCase(), idx);
+        const key = getPostSlugKey(p);
+        if (key && !existingKeyMap.has(key)) existingKeyMap.set(key, idx);
+        if (p.url) {
+          const norm = p.url.toLowerCase().replace(/^https?:\/\//, '');
+          if (!existingKeyMap.has(norm)) existingKeyMap.set(norm, idx);
+        }
       });
 
       const newItemsList = [];
@@ -201,7 +229,6 @@
         let image = '';
         let detailImage = '';
         
-        // 1. Probar atributos directos y con namespace
         const mediaEls = [
           item.querySelector('media\\:content'),
           item.querySelector('content'),
@@ -221,7 +248,6 @@
           }
         }
 
-        // 2. Si no vino en etiquetas media, extraer la primera imagen embebida en la descripción
         if (!image && description) {
           const imgMatch = description.match(/<img[^>]+src=["'](https?:\/\/[^"']+)["']/i) || 
                            description.match(/!\[.*?\]\((https?:\/\/[^\)]+)\)/i);
@@ -251,8 +277,14 @@
           }
         }
 
-        const slug = link.split('/').pop().replace('.html', '');
-        const normUrl = link.toLowerCase();
+        // Normalizar URL a https://itnews.lat/...
+        let canonicalUrl = link;
+        if (canonicalUrl.startsWith('http://')) {
+          canonicalUrl = canonicalUrl.replace('http://', 'https://');
+        }
+
+        const slug = link.split('/').pop().replace('.html', '').toLowerCase();
+        const normUrlNoProto = link.toLowerCase().replace(/^https?:\/\//, '');
 
         // Limpieza de snippet para la tarjeta
         const cleanSnippet = description
@@ -271,25 +303,32 @@
           detailImage: detailImage,
           categories: categories.length ? categories : ['Latinoamérica'],
           tags: tags.length ? tags : ['Actualidad'],
-          url: link,
+          url: canonicalUrl,
           snippet: snippet || 'Consulta la noticia completa en ITNEWS.LAT',
           body: description
         };
 
-        if (existingMap.has(normUrl)) {
+        const existingKey = existingKeyMap.has(slug) ? slug : (existingKeyMap.has(normUrlNoProto) ? normUrlNoProto : null);
+
+        if (existingKey !== null) {
           // Actualizar artículo existente si trae contenido fresco
-          const existingIndex = existingMap.get(normUrl);
+          const existingIndex = existingKeyMap.get(existingKey);
           if (allPosts[existingIndex]) {
             allPosts[existingIndex].title = postObject.title;
             if (postObject.body) allPosts[existingIndex].body = postObject.body;
             if (postObject.snippet) allPosts[existingIndex].snippet = postObject.snippet;
-            if (postObject.image) allPosts[existingIndex].image = postObject.image;
-            if (postObject.detailImage) allPosts[existingIndex].detailImage = postObject.detailImage;
+            if (postObject.image && !allPosts[existingIndex].image.includes('itnewslat-p.jpg')) {
+              allPosts[existingIndex].image = postObject.image;
+            }
+            if (postObject.detailImage && !allPosts[existingIndex].detailImage.includes('itnewslat-g.jpg')) {
+              allPosts[existingIndex].detailImage = postObject.detailImage;
+            }
           }
         } else {
-          // Es un artículo nuevo recién agregado a feed.xml: colocar al principio
+          // Es un artículo nuevo recién agregado a feed.xml: colocar en lista a agregar
           newItemsList.push(postObject);
-          existingMap.set(normUrl, 0);
+          existingKeyMap.set(slug, -1);
+          existingKeyMap.set(normUrlNoProto, -1);
           addedCount++;
         }
       });
@@ -307,13 +346,17 @@
   // Merge complementario de search.json
   function mergeLiveSearchPosts(livePosts) {
     if (!Array.isArray(livePosts) || livePosts.length === 0) return;
-    const existingUrls = new Set(allPosts.map(p => (p.url || '').toLowerCase()));
+    const existingKeys = new Set(allPosts.map(p => getPostSlugKey(p)).filter(Boolean));
 
     livePosts.forEach(lp => {
-      const url = lp.url.startsWith('http') ? lp.url : `https://itnews.lat${lp.url}`;
-      if (!existingUrls.has(url.toLowerCase())) {
+      let url = lp.url || '';
+      if (url && !url.startsWith('http')) {
+        url = `https://itnews.lat${url.startsWith('/') ? '' : '/'}${url}`;
+      }
+      const slug = url.split('/').pop().replace('.html', '').toLowerCase();
+      if (slug && !existingKeys.has(slug)) {
         allPosts.unshift({
-          id: url.split('/').pop().replace('.html', ''),
+          id: slug,
           title: lp.title || 'Publicación reciente',
           date: lp.date || new Date().toISOString(),
           image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg',
@@ -324,13 +367,23 @@
           snippet: 'Consulta el artículo completo en el portal oficial de ITNEWS.LAT.',
           body: ''
         });
-        existingUrls.add(url.toLowerCase());
+        existingKeys.add(slug);
       }
     });
   }
 
   // Filter & Sort Engine
   function applyFiltersAndSort() {
+    // Deduplicación estricta en allPosts antes de filtrar
+    const seenPostKeys = new Set();
+    allPosts = allPosts.filter(p => {
+      const key = getPostSlugKey(p);
+      if (!key) return true;
+      if (seenPostKeys.has(key)) return false;
+      seenPostKeys.add(key);
+      return true;
+    });
+
     const q = searchQuery.toLowerCase().trim();
 
     filteredPosts = allPosts.filter(post => {
