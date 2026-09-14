@@ -24,7 +24,7 @@ tags:
   - Seguridad
 week: '38'
 ---
-SonicWall Research publica un informe sobre el estado de la ciberseguridad en el sector educativo, mientras los atacantes explotan las redes más abiertas del sector
+**SonicWall Research publica un informe sobre el estado de la ciberseguridad en el sector educativo, mientras los atacantes explotan las redes más abiertas del sector**
 
 - El nuevo informe Education Protect Brief revela 81,879 intentos de intrusión detectados por dispositivo, la mayor intensidad de ataques entre todas las industrias analizadas
 
@@ -34,7 +34,8 @@ Cada año, los ataques parecen más sofisticados. La inteligencia artificial los
 
 “El sector educativo presenta la mayor superficie de ataque de todos los sectores que analizamos, y los datos demuestran que los atacantes lo saben”, señaló Michael Crean, vicepresidente sénior de Servicios Gestionados de SonicWall. “Los endpoints del sector educativo soportan la mayor presión de ataques por dispositivo de todo nuestro conjunto de datos. Las redes abiertas siguen siendo una realidad operativa, y los actores de amenazas están aprovechando activamente esta situación”.
 
-Principales hallazgos del SonicWall Education Protect Brief 2026
+**Principales hallazgos del SonicWall Education Protect Brief 2026**
+
 En el primer semestre de 2026, el sector educativo registró 81,879 ataques IPS por dispositivo, la mayor intensidad de ataques por dispositivo entre todos los sectores monitoreados.
 
 La explotación de VoIP mediante SIPVicious generó 90 millones de ataques combinados, ocupando el primer y segundo lugar en la lista de firmas de ataque del sector educativo y representando el 50.5% de todos los eventos IPS del sector, una concentración a la que no se aproxima ningún otro mercado vertical.
@@ -64,9 +65,6 @@ En conjunto con los 2.5 millones de ataques de MongoBleed dirigidos contra los s
 El modelo Zero Trust aborda directamente el problema estructural: la verificación se aplica de forma continua, en lugar de realizarse una sola vez en el perímetro. De este modo, las credenciales de un estudiante que se graduó hace dos años no conservan silenciosamente el acceso a la red, y un inicio de sesión comprometido solo permite acceder a la aplicación para la que fue autorizado, no a la base de datos de investigación ni a la interfaz de administración de cámaras.
 
 "La mayor intensidad de ataques por dispositivo en cualquier sector que analizamos requiere un modelo de seguridad diseñado específicamente para ello, no una versión improvisada de lo que funcionaba en una red más pequeña y menos abierta", afirmó Crean. "El sector educativo no necesita cerrar sus puertas para ser seguro. Necesita saber quién entra por ellas."
-
-Para obtener más información, visite SonicWall en www.sonicwall.com
-
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Tecnologia-Educacion-p.jpg)
 
