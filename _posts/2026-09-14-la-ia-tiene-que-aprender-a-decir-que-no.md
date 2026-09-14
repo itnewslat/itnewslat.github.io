@@ -8,7 +8,7 @@ superArticle: false
 year: '2026'
 title: "La IA tiene que aprender a decir que no"
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Francisco-Larez-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Francisco-Larez-P.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Francisco-Larez-g.jpg
 categories:
@@ -46,7 +46,7 @@ El problema de muchas herramientas actuales no es solamente que se equivocan, si
 
 Esta tecnología vuelve a la IA más honesta y la obliga a trabajar sobre información verificable en lugar de completar huecos con probabilidades. Eso cambia la relación que tenemos con estas herramientas porque el verdadero avance de la inteligencia artificial se va a dar cuando pueda trabajar a la par con los humanos y eso implica mostrar de manera transparente su ignorancia.
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Francisco-Larez-p.jpg" alt="Francisco Larez, VP de Progress para América Latina y el Caribe" class="img-fluid" /></p>
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Francisco-Larez-P.jpg" alt="Francisco Larez, VP de Progress para América Latina y el Caribe" class="img-fluid" /></p>
 
 <table style="height: 42px;" width="569">
 <tbody>
