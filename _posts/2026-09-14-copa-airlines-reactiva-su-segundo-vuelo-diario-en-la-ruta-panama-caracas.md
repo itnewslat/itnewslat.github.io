@@ -8,7 +8,7 @@ superArticle: false
 year: '2026'
 title: "Copa Airlines reactiva su segundo vuelo diario en la ruta Panamá – Caracas"
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Copa-Max-9.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Copa-Max-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Copa-Max-g.jpg
 categories:
@@ -56,7 +56,7 @@ Los pasajeros ya pueden reservar y adquirir sus boletos para esta nueva ruta y t
 
 Copa Airlines, subsidiaria de Copa Holdings, es una aerolínea líder en pasajeros y carga en América Latina. Desde su inicio en 1947, ha establecido el Hub de las Américas®, en Ciudad de Panamá, como el centro de operaciones líder del continente. Cuenta con una de las flotas más nuevas y modernas de la industria de Boeing 737-800 NG y Boeing 737 MAX9, que presta servicios en países de Norteamérica, Centroamérica, Sudamérica y el Caribe, y ofrece un rendimiento de puntualidad superior al 90%, entre los mejores en la industria mundial. Para más información, visite [www.copa.com](http://www.copa.com/).
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Copa-Max-9.jpg" alt="Copa Airlines reactiva su segundo vuelo diario en la ruta Panamá – Caracas" class="img-fluid" /></p>
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Copa-Max-p.jpg" alt="Copa Airlines reactiva su segundo vuelo diario en la ruta Panamá – Caracas" class="img-fluid" /></p>
 
 <table style="height: 42px;" width="569">
 <tbody>
