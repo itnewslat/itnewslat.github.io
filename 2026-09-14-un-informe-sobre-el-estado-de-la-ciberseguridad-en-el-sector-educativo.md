@@ -1,12 +1,12 @@
 ---
 layout: posts
 color-schema: red-dark
-date: '2026-09-14 15:45 -0400'
+date: '2026-09-14 16:25 -0400'
 published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: un informe sobre el estado de la ciberseguridad en el sector educativo  
+title: Un informe sobre el estado de la ciberseguridad en el sector educativo  
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Tecnologia-Educacion-p.jpg
 detail-image: >-
