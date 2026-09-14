@@ -21,7 +21,7 @@ categories:
   - Argentina
   - Panamá 
 tags:
-  - Economía Digital
+  - Transformación Digital
 week: '38'
 ---
 Por **Francisco Larez, VP de Progress para América Latina y el Caribe.**
@@ -40,7 +40,7 @@ Después aparece el razonamiento, donde la IA interpreta y organiza la informaci
 
 Es parecido a lo que haría una persona responsable en una reunión de trabajo. En lugar de improvisar, abre la carpeta correcta, revisa los documentos y recién ahí contesta. Ese cambio es importante porque introduce algo que durante mucho tiempo faltó en la inteligencia artificial: la capacidad de poner límites.
 
-Con RAG, si el sistema no encuentra información sobre una conferencia en la UNAM, entonces no debería inventarla. Debería responder algo como: “No encontré evidencia suficiente para confirmar esa información”. Una respuesta sencilla, pero mil veces más útil que una inventada. De acuerdo con el AI Hallucination Rate Benchmarks 2026, las herramientas de RAG con buena recuperación tienen una reducción de alucinaciones de entre el 50 y el 80% en consultas fácticas cuando la recuperación es de alta calidad.
+Con RAG, si el sistema no encuentra información sobre una conferencia en la UNAM, entonces no debería inventarla. Debería responder algo como: “No encontré evidencia suficiente para confirmar esa información”. Una respuesta sencilla, pero mil veces más útil que una inventada. De acuerdo con el AI Hallucination Rate Benchmarks 2026, las herramientas de RAG con buena recuperación tienen una reducción de alucinaciones de entre el 50 y el 80% en consultas fácticas cuando la recuperación es de alta calidad. 
 
 El problema de muchas herramientas actuales no es solamente que se equivocan, sino que se equivocan con seguridad y cuanto más natural y sofisticada se vuelve la IA, más difícil resulta detectar cuándo está inventando. RAG intenta cambiar esa dinámica. En vez de apoyarse únicamente en probabilidades estadísticas, obliga al sistema a fundamentar sus respuestas en evidencia concreta. Si no hay evidencia, no debería haber afirmación.
 
