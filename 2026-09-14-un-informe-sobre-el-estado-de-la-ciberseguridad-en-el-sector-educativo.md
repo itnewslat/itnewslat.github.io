@@ -8,9 +8,9 @@ superArticle: false
 year: '2026'
 title: un informe sobre el estado de la ciberseguridad en el sector educativo  
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Francisco-Larez-P.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Tecnologia-Educacion-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Francisco-Larez-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Tecnologia-Educacion-g.jpg
 categories:
   - Venezuela
   - Colombia
@@ -68,7 +68,7 @@ El modelo Zero Trust aborda directamente el problema estructural: la verificaci�
 Para obtener más información, visite SonicWall en www.sonicwall.com
 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Francisco-Larez-P.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Tecnologia-Educacion-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
