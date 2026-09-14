@@ -436,6 +436,35 @@
     renderPosts();
   }
 
+  function renderPostCard(post) {
+    const primaryCountry = (post.categories && post.categories[0]) || 'LatAm';
+    const flagText = COUNTRY_FLAGS[primaryCountry] || primaryCountry;
+    const displayImage = post.image || post.detailImage || 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg';
+    const tagsList = (post.tags || []).slice(0, 2);
+
+    return `
+      <article class="news-card" data-id="${post.id}">
+        <div class="card-media">
+          <img src="${displayImage}" alt="${escapeHtml(post.title)}" loading="lazy" onerror="this.src='https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg'">
+          <span class="card-country-badge">${escapeHtml(flagText)}</span>
+        </div>
+        <div class="card-content">
+          ${tagsList.length ? `
+            <div class="card-tags">
+              ${tagsList.map(t => `<span class="tag-badge">#${escapeHtml(t)}</span>`).join('')}
+            </div>
+          ` : ''}
+          <h3 class="card-title">${escapeHtml(post.title)}</h3>
+          <p class="card-snippet">${escapeHtml(post.snippet)}</p>
+          <div class="card-footer">
+            <span class="card-date"><i class="ri-time-line"></i> ${formatDate(post.date)}</span>
+            <span class="card-read-action">Leer artículo <i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+      </article>
+    `;
+  }
+
   // Render Grid
   function renderPosts() {
     resultsCount.textContent = `${filteredPosts.length} publicaciones encontradas`;
@@ -450,34 +479,45 @@
     emptyState.style.display = 'none';
     const toShow = filteredPosts.slice(0, displayedCount);
 
-    newsGrid.innerHTML = toShow.map(post => {
-      const primaryCountry = (post.categories && post.categories[0]) || 'LatAm';
-      const flagText = COUNTRY_FLAGS[primaryCountry] || primaryCountry;
-      const displayImage = post.image || post.detailImage || 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg';
-      const tagsList = (post.tags || []).slice(0, 2);
+    // Determinar si aplica separador "Lo último" (cuando se ordena por más recientes)
+    let renderedHtml = '';
 
-      return `
-        <article class="news-card" data-id="${post.id}">
-          <div class="card-media">
-            <img src="${displayImage}" alt="${escapeHtml(post.title)}" loading="lazy" onerror="this.src='https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg'">
-            <span class="card-country-badge">${escapeHtml(flagText)}</span>
-          </div>
-          <div class="card-content">
-            ${tagsList.length ? `
-              <div class="card-tags">
-                ${tagsList.map(t => `<span class="tag-badge">#${escapeHtml(t)}</span>`).join('')}
-              </div>
-            ` : ''}
-            <h3 class="card-title">${escapeHtml(post.title)}</h3>
-            <p class="card-snippet">${escapeHtml(post.snippet)}</p>
-            <div class="card-footer">
-              <span class="card-date"><i class="ri-time-line"></i> ${formatDate(post.date)}</span>
-              <span class="card-read-action">Leer artículo <i class="ri-arrow-right-line"></i></span>
+    if (sortBy === 'newest') {
+      // Obtener la fecha del día más reciente presente en los datos
+      const firstPostDate = toShow[0] && toShow[0].date ? toShow[0].date.substring(0, 10) : '';
+      
+      let hasRenderedLatestHeader = false;
+      let hasRenderedPreviousHeader = false;
+
+      toShow.forEach(post => {
+        const postDateOnly = post.date ? post.date.substring(0, 10) : '';
+        const isLatestDay = Boolean(firstPostDate && postDateOnly === firstPostDate);
+
+        if (isLatestDay && !hasRenderedLatestHeader) {
+          renderedHtml += `
+            <div class="feed-section-divider">
+              <span class="feed-section-title"><i class="ri-flashlight-fill"></i> Lo último</span>
+              <span class="feed-section-badge">Noticias de hoy</span>
             </div>
-          </div>
-        </article>
-      `;
-    }).join('');
+          `;
+          hasRenderedLatestHeader = true;
+        } else if (!isLatestDay && !hasRenderedPreviousHeader) {
+          renderedHtml += `
+            <div class="feed-section-divider">
+              <span class="feed-section-title"><i class="ri-history-line"></i> Anteriores</span>
+              <span class="feed-section-badge secondary">Ediciones previas</span>
+            </div>
+          `;
+          hasRenderedPreviousHeader = true;
+        }
+
+        renderedHtml += renderPostCard(post);
+      });
+    } else {
+      renderedHtml = toShow.map(post => renderPostCard(post)).join('');
+    }
+
+    newsGrid.innerHTML = renderedHtml;
 
     // Pagination Button
     if (displayedCount < filteredPosts.length) {
