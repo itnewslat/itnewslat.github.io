@@ -24,7 +24,7 @@ tags:
   - Transformación Digital
 week: '38'
 ---
-Por **Francisco Larez, VP de Progress para América Latina y el Caribe.**
+Por **Francisco Larez, VP de Progress para América Latina y el Caribe**
 
 Hoy usamos la inteligencia artificial para resumir reuniones, responder preguntas y analizar documentos. El problema es que muchas veces asumimos que, si la IA responde con seguridad, entonces debe tener razón.
 
