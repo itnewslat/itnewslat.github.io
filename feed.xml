@@ -27,6 +27,7 @@ published: true
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
+        <superNews>{{ post.superNews }}</superNews>
       </item>
     {% endfor %}
   </channel>

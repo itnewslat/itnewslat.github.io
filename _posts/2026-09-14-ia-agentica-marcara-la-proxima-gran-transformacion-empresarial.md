@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2026-09-14 20:30 -0400'
 published: true
-superNews: false
+superNews: true
 superArticle: false
 year: '2026'
 title: "IA agéntica marcará la próxima gran transformación empresarial"

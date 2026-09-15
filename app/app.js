@@ -295,10 +295,15 @@
           .trim();
         const snippet = cleanSnippet.length > 200 ? cleanSnippet.substring(0, 200) + '...' : cleanSnippet;
 
+        // Extraer bandera superNews
+        const superNewsVal = item.querySelector('superNews')?.textContent?.trim()?.toLowerCase();
+        const isSuperNews = superNewsVal === 'true';
+
         const postObject = {
           id: slug || title.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
           title: title,
           date: dateIso || new Date().toISOString(),
+          superNews: isSuperNews,
           image: image,
           detailImage: detailImage,
           categories: categories.length ? categories : ['Latinoamérica'],
@@ -319,6 +324,9 @@
             if (postObject.snippet) allPosts[existingIndex].snippet = postObject.snippet;
             if (postObject.image && !allPosts[existingIndex].image.includes('itnewslat-p.jpg')) {
               allPosts[existingIndex].image = postObject.image;
+            }
+            if (postObject.superNews !== undefined) {
+              allPosts[existingIndex].superNews = postObject.superNews;
             }
             if (postObject.detailImage && !allPosts[existingIndex].detailImage.includes('itnewslat-g.jpg')) {
               allPosts[existingIndex].detailImage = postObject.detailImage;
@@ -359,6 +367,7 @@
           id: slug,
           title: lp.title || 'Publicación reciente',
           date: lp.date || new Date().toISOString(),
+          superNews: Boolean(lp.superNews),
           image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg',
           detailImage: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/itnewslat-g.jpg',
           categories: lp.category ? [lp.category] : ['Latinoamérica'],
@@ -368,6 +377,9 @@
           body: ''
         });
         existingKeys.add(slug);
+      } else if (slug && lp.superNews !== undefined) {
+        const found = allPosts.find(p => getPostSlugKey(p) === slug);
+        if (found) found.superNews = Boolean(lp.superNews);
       }
     });
   }
@@ -465,6 +477,41 @@
     `;
   }
 
+  function renderSpecialReportCard(post) {
+    const primaryCountry = (post.categories && post.categories[0]) || 'LatAm';
+    const flagText = COUNTRY_FLAGS[primaryCountry] || primaryCountry;
+    // Prefer higher resolution image for the special report
+    const displayImage = post.detailImage || post.image || 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/itnewslat-g.jpg';
+    const tagsList = post.tags || ['Actualidad'];
+
+    return `
+      <article class="news-card special-report-card" data-id="${post.id}">
+        <div class="special-card-media">
+          <img src="${displayImage}" alt="${escapeHtml(post.title)}" loading="lazy" onerror="this.src='https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg'">
+          <span class="card-country-badge">${escapeHtml(flagText)}</span>
+          <span class="special-highlight-badge"><i class="ri-star-fill"></i> Reportaje Especial</span>
+        </div>
+        <div class="special-card-content">
+          <div class="special-card-topbar">
+            <div class="card-tags">
+              ${tagsList.slice(0, 3).map(t => `<span class="tag-badge">#${escapeHtml(t)}</span>`).join('')}
+            </div>
+            <span class="special-card-eyebrow">COBERTURA EXCLUSIVA</span>
+          </div>
+          <h2 class="special-card-title">${escapeHtml(post.title)}</h2>
+          <p class="special-card-snippet">${escapeHtml(post.snippet)}</p>
+          <div class="special-card-footer">
+            <span class="card-date"><i class="ri-time-line"></i> ${formatDate(post.date)}</span>
+            <span class="special-read-btn">
+              <span>Leer reportaje completo</span>
+              <i class="ri-arrow-right-line"></i>
+            </span>
+          </div>
+        </div>
+      </article>
+    `;
+  }
+
   // Render Grid
   function renderPosts() {
     resultsCount.textContent = `${filteredPosts.length} publicaciones encontradas`;
@@ -477,15 +524,35 @@
     }
 
     emptyState.style.display = 'none';
-    const toShow = filteredPosts.slice(0, displayedCount);
 
-    // Determinar si aplica separador "Lo último" (cuando se ordena por más recientes)
+    // Identificar articulos identificados como superNews: true
+    const superNewsList = filteredPosts.filter(p => Boolean(p.superNews));
+    const regularPosts = filteredPosts.filter(p => !p.superNews);
+
     let renderedHtml = '';
 
+    // SECCIÓN REPORTAJE ESPECIAL: antes de la sección LO ÚLTIMO
+    if (superNewsList.length > 0) {
+      renderedHtml += `
+        <div class="feed-section-divider special-section-divider">
+          <span class="feed-section-title special-section-title">
+            <i class="ri-star-smile-fill"></i> REPORTAJE ESPECIAL
+          </span>
+          <span class="feed-section-badge special-section-badge">Destacado</span>
+        </div>
+      `;
+      // Renderizar el/los artículos con superNews: true
+      superNewsList.slice(0, 2).forEach(post => {
+        renderedHtml += renderSpecialReportCard(post);
+      });
+    }
+
+    // Artículos regulares para paginar
+    const toShow = regularPosts.slice(0, displayedCount);
+
+    // Determinar si aplica separador "Lo último" (cuando se ordena por más recientes)
     if (sortBy === 'newest') {
-      // Obtener la fecha del día más reciente presente en los datos
       const firstPostDate = toShow[0] && toShow[0].date ? toShow[0].date.substring(0, 10) : '';
-      
       let hasRenderedLatestHeader = false;
       let hasRenderedPreviousHeader = false;
 
@@ -514,13 +581,13 @@
         renderedHtml += renderPostCard(post);
       });
     } else {
-      renderedHtml = toShow.map(post => renderPostCard(post)).join('');
+      renderedHtml += toShow.map(post => renderPostCard(post)).join('');
     }
 
     newsGrid.innerHTML = renderedHtml;
 
     // Pagination Button
-    if (displayedCount < filteredPosts.length) {
+    if (displayedCount < regularPosts.length) {
       paginationWrapper.style.display = 'flex';
     } else {
       paginationWrapper.style.display = 'none';
