@@ -642,6 +642,9 @@
     // Content Parsing (Markdown to HTML)
     readerContent.innerHTML = formatMarkdownBody(post.body || post.snippet);
 
+    // Actualización dinámica de SEO para la lectura del artículo
+    document.title = `${post.title} | ITNEWS LAT`;
+
     readerModal.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
@@ -649,6 +652,8 @@
   function closeReader() {
     readerModal.classList.remove('active');
     document.body.style.overflow = '';
+    // Restaurar título SEO principal de la app
+    document.title = 'ITNEWS App | Noticias Tecnológicas B2B, Ciberseguridad y Telecomunicaciones en Latinoamérica';
   }
 
   closeReaderBtn.addEventListener('click', closeReader);
@@ -837,9 +842,40 @@
     }
   }
 
+  // Inicialización GEO inteligente por zona horaria del visitante (sin bloquear experiencia)
+  function initGeoLocation() {
+    try {
+      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      let detectedCountry = null;
+
+      if (tz.includes('Caracas')) detectedCountry = 'Venezuela';
+      else if (tz.includes('Bogota')) detectedCountry = 'Colombia';
+      else if (tz.includes('Mexico_City') || tz.includes('Cancun') || tz.includes('Monterrey') || tz.includes('Tijuana')) detectedCountry = 'México';
+      else if (tz.includes('Panama')) detectedCountry = 'Panamá';
+      else if (tz.includes('Santiago')) detectedCountry = 'Chile';
+      else if (tz.includes('Buenos_Aires') || tz.includes('Cordoba') || tz.includes('Rosario')) detectedCountry = 'Argentina';
+      else if (tz.includes('Guayaquil')) detectedCountry = 'Ecuador';
+      else if (tz.includes('Lima')) detectedCountry = 'Perú';
+
+      // Si el visitante proviene de un país cubierto y no tiene filtro manual fijado
+      if (detectedCountry && !sessionStorage.getItem('itnews_geo_hint_shown')) {
+        sessionStorage.setItem('itnews_geo_hint_shown', 'true');
+        const targetChip = countryChips.querySelector(`.chip[data-value="${detectedCountry}"]`);
+        if (targetChip) {
+          // Destacar suavemente el chip del país local
+          targetChip.style.borderColor = 'var(--brand-primary)';
+          targetChip.setAttribute('title', `Detectamos tu región: ${detectedCountry}`);
+        }
+      }
+    } catch (e) {
+      // Silencioso
+    }
+  }
+
   // Initial Execution
   loadData();
   trackAppVisits();
+  initGeoLocation();
 
   // Sincronización automática periódica (cada 60 segundos) para detectar cambios en feed.xml
   const SYNC_INTERVAL = 60 * 1000;

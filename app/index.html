@@ -3,8 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>B2B NEWS TECH |  Noticias Tecnológicas</title>
-  <meta name="description" content="Aplicación interactiva y lector para explorar las noticias, artículos y tendencias tecnológicas de B2B NEWS TECH">
+  <title>ITNEWS App | Noticias Tecnológicas B2B, Ciberseguridad y Telecomunicaciones en Latinoamérica</title>
+  <meta name="description" content="Aplicación interactiva y lector oficial de ITNEWS.LAT para explorar noticias, análisis ejecutivos, ciberseguridad, ERP en la nube y transformación digital en América Latina.">
+  <meta name="keywords" content="tecnología b2b, noticias tecnología américa latina, ciberseguridad, erp en la nube, telecomunicaciones, transformación digital venezuela, colombia, méxico, panamá, chile, argentina, perú, ecuador">
+  <meta name="author" content="ITNEWS LAT">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  
+  <!-- Canonical & Language Alternate (SEO & GEO) -->
+  <link rel="canonical" href="https://itnews.lat/app/">
+  <link rel="alternate" hreflang="es" href="https://itnews.lat/app/">
+  <link rel="alternate" hreflang="es-419" href="https://itnews.lat/app/">
+  <link rel="alternate" hreflang="x-default" href="https://itnews.lat/app/">
+  <meta http-equiv="content-language" content="es-419">
+
+  <!-- Geotagging & Regional SEO (LatAm coverage) -->
+  <meta name="geo.region" content="LatAm">
+  <meta name="geo.placename" content="Latinoamérica">
+  <meta name="geo.position" content="10.4806;-66.9036">
+  <meta name="ICBM" content="10.4806, -66.9036">
+
+  <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ITNEWS.LAT">
+  <meta property="og:url" content="https://itnews.lat/app/">
+  <meta property="og:title" content="ITNEWS App | Portal de Noticias Tecnológicas B2B en Latinoamérica">
+  <meta property="og:description" content="Lector y aplicación interactiva para seguir en tiempo real las novedades tecnológicas, ciberseguridad y economía digital en América Latina.">
+  <meta property="og:image" content="https://itnews.lat/assets/imagenes/logo_large_red.png">
+  <meta property="og:image:alt" content="ITNEWS B2B Tech News Logo">
+  <meta property="og:locale" content="es_LA">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ITNEWSLAT">
+  <meta name="twitter:creator" content="@ITNEWSLAT">
+  <meta name="twitter:url" content="https://itnews.lat/app/">
+  <meta name="twitter:title" content="ITNEWS App | Noticias Tecnológicas B2B en Latinoamérica">
+  <meta name="twitter:description" content="Aplicación interactiva y lector de noticias tecnológicas, ciberseguridad y transformación digital en América Latina.">
+  <meta name="twitter:image" content="https://itnews.lat/assets/imagenes/logo_large_red.png">
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/png" href="https://itnews.lat/assets/imagenes/logo.png">
+  <link rel="apple-touch-icon" href="https://itnews.lat/assets/imagenes/logo.png">
+
   <!-- Google Fonts: Outfit & Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +52,64 @@
   <!-- Remixicon for sleek modern icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD Structured Data Schema (NewsMediaOrganization + WebApplication) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://itnews.lat/#organization",
+        "name": "ITNEWS LAT",
+        "url": "https://itnews.lat/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://itnews.lat/assets/imagenes/logo_large_red.png"
+        },
+        "sameAs": [
+          "https://twitter.com/ITNEWSLAT",
+          "https://squidapp.co/en/"
+        ],
+        "areaServed": [
+          { "@type": "Country", "name": "Venezuela" },
+          { "@type": "Country", "name": "Colombia" },
+          { "@type": "Country", "name": "México" },
+          { "@type": "Country", "name": "Panamá" },
+          { "@type": "Country", "name": "Chile" },
+          { "@type": "Country", "name": "Argentina" },
+          { "@type": "Country", "name": "Ecuador" },
+          { "@type": "Country", "name": "Perú" }
+        ]
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://itnews.lat/app/#webapp",
+        "name": "ITNEWS App Express",
+        "url": "https://itnews.lat/app/",
+        "applicationCategory": "NewsApplication",
+        "operatingSystem": "All",
+        "browserRequirements": "Requires JavaScript. Requires HTML5.",
+        "inLanguage": "es-419",
+        "description": "Lector interactivo y aplicativo de noticias de tecnología empresarial, ciberseguridad y telecomunicaciones para América Latina.",
+        "publisher": {
+          "@id": "https://itnews.lat/#organization"
+        },
+        "spatialCoverage": [
+          { "@type": "Place", "name": "Latinoamérica" },
+          { "@type": "Country", "name": "Venezuela" },
+          { "@type": "Country", "name": "Colombia" },
+          { "@type": "Country", "name": "México" },
+          { "@type": "Country", "name": "Panamá" },
+          { "@type": "Country", "name": "Chile" },
+          { "@type": "Country", "name": "Argentina" },
+          { "@type": "Country", "name": "Ecuador" },
+          { "@type": "Country", "name": "Perú" }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <!-- Header / Navbar -->

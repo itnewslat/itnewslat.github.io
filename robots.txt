@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /app/
+Allow: /feed.xml
+
+# Sitemaps and feeds
+Sitemap: https://itnews.lat/sitemap.xml
