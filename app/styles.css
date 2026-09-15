@@ -1303,59 +1303,76 @@ body {
   line-height: 1.75;
 }
 
-/* Reader In-Article Banners (Top & Bottom) */
+/* Reader In-Article Banners (Top & Bottom) - Centered & Fully Responsive */
 .reader-banner-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
-  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
-}
-
-.reader-banner-wrapper:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reader-banner-top {
-  margin-top: 4px;
+  margin-top: 6px;
   margin-bottom: 24px;
 }
 
 .reader-banner-bottom {
   margin-top: 32px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .reader-banner-link {
-  display: block;
-  width: 100%;
-  max-width: 728px;
-  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+  width: auto;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
   line-height: 0;
+  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
+}
+
+.reader-banner-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
 .reader-banner-img {
-  width: 100%;
-  max-width: 728px;
+  display: block;
+  max-width: 100%;
+  width: auto;
   height: auto;
-  aspect-ratio: 728 / 90;
+  max-height: 90px;
   object-fit: contain;
-  display: inline-block;
-  vertical-align: middle;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
-  .reader-banner-wrapper {
-    margin: 16px 0;
-    box-shadow: none;
+  .reader-banner-top {
+    margin-top: 4px;
+    margin-bottom: 18px;
+  }
+  .reader-banner-bottom {
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .reader-banner-link {
+    width: 100%;
+    max-width: 100%;
     border-radius: var(--radius-sm);
+  }
+  .reader-banner-img {
+    width: 100%;
+    height: auto;
+    max-height: unset;
   }
 }
 
