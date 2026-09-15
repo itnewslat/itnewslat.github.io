@@ -46,6 +46,17 @@
   const readerExternalLink = document.getElementById('readerExternalLink');
   const readerFooterAction = document.getElementById('readerFooterAction');
 
+  // Reader Share Buttons Elements
+  const shareWhatsappBtn = document.getElementById('shareWhatsappBtn');
+  const shareLinkedinBtn = document.getElementById('shareLinkedinBtn');
+  const shareXBtn = document.getElementById('shareXBtn');
+  const shareFacebookBtn = document.getElementById('shareFacebookBtn');
+  const shareInstagramBtn = document.getElementById('shareInstagramBtn');
+  const shareEmailBtn = document.getElementById('shareEmailBtn');
+  const shareCopyBtn = document.getElementById('shareCopyBtn');
+  const shareToast = document.getElementById('shareToast');
+  let currentOpenPost = null;
+
   // Country Flags dictionary
   const COUNTRY_FLAGS = {
     'Venezuela': '🇻🇪 Venezuela',
@@ -642,6 +653,9 @@
     // Content Parsing (Markdown to HTML)
     readerContent.innerHTML = formatMarkdownBody(post.body || post.snippet);
 
+    // Guardar referencia del post actual para compartir
+    currentOpenPost = post;
+
     // Actualización dinámica de SEO para la lectura del artículo
     document.title = `${post.title} | ITNEWS LAT`;
 
@@ -654,6 +668,111 @@
     document.body.style.overflow = '';
     // Restaurar título SEO principal de la app
     document.title = 'ITNEWS App | Noticias Tecnológicas B2B, Ciberseguridad y Telecomunicaciones en Latinoamérica';
+  }
+
+  // Social Sharing Helpers
+  function getShareData() {
+    if (!currentOpenPost) return null;
+    const title = currentOpenPost.title || 'ITNEWS LAT';
+    // Resolver URL completa
+    let url = currentOpenPost.url || window.location.href;
+    if (url.startsWith('/')) {
+      url = 'https://itnews.lat' + url;
+    } else if (!url.startsWith('http')) {
+      url = window.location.origin + '/' + url;
+    }
+    const text = `${title} - ITNEWS LAT`;
+    return { title, url, text };
+  }
+
+  function showShareToast(message) {
+    if (!shareToast) return;
+    shareToast.textContent = message;
+    shareToast.style.display = 'block';
+    setTimeout(() => {
+      shareToast.style.display = 'none';
+    }, 2800);
+  }
+
+  if (shareWhatsappBtn) {
+    shareWhatsappBtn.addEventListener('click', () => {
+      const data = getShareData();
+      if (!data) return;
+      const shareText = encodeURIComponent(`${data.title}\n${data.url}`);
+      window.open(`https://api.whatsapp.com/send?text=${shareText}`, '_blank', 'noopener,noreferrer');
+    });
+  }
+
+  if (shareLinkedinBtn) {
+    shareLinkedinBtn.addEventListener('click', () => {
+      const data = getShareData();
+      if (!data) return;
+      window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(data.url)}`, '_blank', 'noopener,noreferrer');
+    });
+  }
+
+  if (shareXBtn) {
+    shareXBtn.addEventListener('click', () => {
+      const data = getShareData();
+      if (!data) return;
+      const text = encodeURIComponent(data.title);
+      const url = encodeURIComponent(data.url);
+      window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}&via=ITNEWSLAT`, '_blank', 'noopener,noreferrer');
+    });
+  }
+
+  if (shareFacebookBtn) {
+    shareFacebookBtn.addEventListener('click', () => {
+      const data = getShareData();
+      if (!data) return;
+      window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(data.url)}`, '_blank', 'noopener,noreferrer');
+    });
+  }
+
+  if (shareInstagramBtn) {
+    shareInstagramBtn.addEventListener('click', async () => {
+      const data = getShareData();
+      if (!data) return;
+      // Instagram no soporta URL sharing directa en web, copiamos enlace y damos feedback
+      try {
+        await navigator.clipboard.writeText(data.url);
+        showShareToast('¡Enlace copiado! Pégalo en tu historia o mensaje de Instagram 📸');
+      } catch (e) {
+        showShareToast('Copia este enlace: ' + data.url);
+      }
+    });
+  }
+
+  if (shareEmailBtn) {
+    shareEmailBtn.addEventListener('click', () => {
+      const data = getShareData();
+      if (!data) return;
+      const subject = encodeURIComponent(`Noticia: ${data.title}`);
+      const body = encodeURIComponent(`Te comparto esta noticia de ITNEWS LAT:\n\n${data.title}\n\nLéela completa aquí: ${data.url}`);
+      window.location.href = `mailto:?subject=${subject}&body=${body}`;
+    });
+  }
+
+  if (shareCopyBtn) {
+    shareCopyBtn.addEventListener('click', async () => {
+      const data = getShareData();
+      if (!data) return;
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(data.url);
+        } else {
+          const tempInput = document.createElement('input');
+          tempInput.value = data.url;
+          document.body.appendChild(tempInput);
+          tempInput.select();
+          document.execCommand('copy');
+          document.body.removeChild(tempInput);
+        }
+        showShareToast('¡Enlace copiado al portapapeles! 📋');
+      } catch (err) {
+        showShareToast('Enlace: ' + data.url);
+      }
+    });
   }
 
   closeReaderBtn.addEventListener('click', closeReader);

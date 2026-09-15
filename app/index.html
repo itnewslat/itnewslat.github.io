@@ -276,6 +276,42 @@
             <img id="readerImage" src="" alt="" loading="lazy">
           </div>
 
+          <!-- Social Share Bar -->
+          <div class="reader-share-container" id="readerShareContainer">
+            <span class="reader-share-label"><i class="ri-share-forward-line"></i> Compartir:</span>
+            <div class="reader-share-buttons">
+              <button type="button" class="share-btn share-whatsapp" id="shareWhatsappBtn" title="Compartir en WhatsApp" aria-label="Compartir en WhatsApp">
+                <i class="ri-whatsapp-fill"></i>
+                <span>WhatsApp</span>
+              </button>
+              <button type="button" class="share-btn share-linkedin" id="shareLinkedinBtn" title="Compartir en LinkedIn" aria-label="Compartir en LinkedIn">
+                <i class="ri-linkedin-box-fill"></i>
+                <span>LinkedIn</span>
+              </button>
+              <button type="button" class="share-btn share-x" id="shareXBtn" title="Compartir en X (Twitter)" aria-label="Compartir en X">
+                <i class="ri-twitter-x-fill"></i>
+                <span>X</span>
+              </button>
+              <button type="button" class="share-btn share-facebook" id="shareFacebookBtn" title="Compartir en Facebook" aria-label="Compartir en Facebook">
+                <i class="ri-facebook-circle-fill"></i>
+                <span>Facebook</span>
+              </button>
+              <button type="button" class="share-btn share-instagram" id="shareInstagramBtn" title="Copiar enlace para Instagram" aria-label="Compartir en Instagram">
+                <i class="ri-instagram-line"></i>
+                <span>Instagram</span>
+              </button>
+              <button type="button" class="share-btn share-email" id="shareEmailBtn" title="Compartir por Correo Electrónico" aria-label="Enviar por correo">
+                <i class="ri-mail-line"></i>
+                <span>Correo</span>
+              </button>
+              <button type="button" class="share-btn share-copy" id="shareCopyBtn" title="Copiar enlace al portapapeles" aria-label="Copiar enlace">
+                <i class="ri-links-line"></i>
+                <span>Copiar</span>
+              </button>
+            </div>
+            <div class="share-toast" id="shareToast" style="display:none;">¡Enlace copiado al portapapeles!</div>
+          </div>
+
           <div class="reader-content" id="readerContent"></div>
         </article>
       </div>
