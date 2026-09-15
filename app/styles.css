@@ -165,6 +165,32 @@ body {
   gap: 12px;
 }
 
+.visit-counter-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.visit-counter-badge i {
+  color: var(--brand-primary);
+  font-size: 14px;
+}
+
+.visit-counter-badge #visitCount {
+  color: var(--text-primary);
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+
 .live-status-badge {
   display: flex;
   align-items: center;
@@ -1238,6 +1264,14 @@ body {
     padding: 4px 8px;
     font-size: 11px;
     gap: 5px;
+  }
+  .visit-counter-badge {
+    padding: 4px 8px;
+    font-size: 11px;
+    gap: 4px;
+  }
+  .visit-counter-badge .counter-label {
+    display: none;
   }
   .icon-button {
     width: 34px;

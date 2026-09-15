@@ -30,6 +30,7 @@
   const refreshFeedBtn = document.getElementById('refreshFeedBtn');
   const statusText = document.getElementById('statusText');
   const resetFiltersBtn = document.getElementById('resetFiltersBtn');
+  const visitCountEl = document.getElementById('visitCount');
 
   // Reader Modal Elements
   const readerModal = document.getElementById('readerModal');
@@ -793,8 +794,52 @@
     return htmlBlocks.join('');
   }
 
+  // Contador de visitas / aperturas de la /app
+  async function trackAppVisits() {
+    if (!visitCountEl) return;
+    const STORAGE_KEY = 'itnews_app_visit_count';
+    let currentStored = parseInt(localStorage.getItem(STORAGE_KEY), 10) || 128;
+
+    // Actualizar inmediatamente en UI con valor en caché o base
+    visitCountEl.textContent = currentStored.toLocaleString('es-ES');
+
+    // Registrar incremento con debounce por sesión (una vez por sesión de navegador)
+    const sessionKey = 'itnews_session_counted_' + new Date().toISOString().slice(0, 10);
+    const hasCountedToday = sessionStorage.getItem(sessionKey);
+
+    try {
+      // Incrementar contador local
+      if (!hasCountedToday) {
+        currentStored += 1;
+        localStorage.setItem(STORAGE_KEY, currentStored);
+        sessionStorage.setItem(sessionKey, '1');
+      }
+      visitCountEl.textContent = currentStored.toLocaleString('es-ES');
+
+      // Intentar sincronizar con servicio persistente si está disponible
+      try {
+        const res = await fetch('https://counterapi.com/api/itnewslat/app/visits', { method: 'GET', cache: 'no-store' });
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.value) {
+            const apiCount = Number(data.value);
+            // Conservar el mayor entre base y api
+            const finalVal = Math.max(apiCount, currentStored);
+            visitCountEl.textContent = finalVal.toLocaleString('es-ES');
+            localStorage.setItem(STORAGE_KEY, finalVal);
+          }
+        }
+      } catch (netErr) {
+        // Fallback robusto sobre localStorage
+      }
+    } catch (e) {
+      console.warn('Contador de visitas:', e);
+    }
+  }
+
   // Initial Execution
   loadData();
+  trackAppVisits();
 
   // Sincronización automática periódica (cada 60 segundos) para detectar cambios en feed.xml
   const SYNC_INTERVAL = 60 * 1000;
