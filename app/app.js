@@ -328,20 +328,26 @@
         const existingKey = existingKeyMap.has(slug) ? slug : (existingKeyMap.has(normUrlNoProto) ? normUrlNoProto : null);
 
         if (existingKey !== null) {
-          // Actualizar artículo existente si trae contenido fresco
+          // Actualizar artículo existente si trae contenido fresco sin sobreescribir datos ricos existentes
           const existingIndex = existingKeyMap.get(existingKey);
           if (allPosts[existingIndex]) {
             allPosts[existingIndex].title = postObject.title;
-            if (postObject.body) allPosts[existingIndex].body = postObject.body;
+            if (postObject.body && (!allPosts[existingIndex].body || allPosts[existingIndex].body.length < postObject.body.length)) {
+              allPosts[existingIndex].body = postObject.body;
+            }
             if (postObject.snippet) allPosts[existingIndex].snippet = postObject.snippet;
-            if (postObject.image && !allPosts[existingIndex].image.includes('itnewslat-p.jpg')) {
+            if (postObject.image && !postObject.image.includes('itnewslat-p.jpg') && (!allPosts[existingIndex].image || allPosts[existingIndex].image.includes('itnewslat-p.jpg'))) {
               allPosts[existingIndex].image = postObject.image;
             }
             if (postObject.superNews !== undefined) {
               allPosts[existingIndex].superNews = postObject.superNews;
             }
-            if (postObject.detailImage && !allPosts[existingIndex].detailImage.includes('itnewslat-g.jpg')) {
+            if (postObject.detailImage && !postObject.detailImage.includes('itnewslat-g.jpg') && (!allPosts[existingIndex].detailImage || allPosts[existingIndex].detailImage.includes('itnewslat-g.jpg'))) {
               allPosts[existingIndex].detailImage = postObject.detailImage;
+            }
+            // Preservar categorías existentes si ya tiene países definidos
+            if (categories.length > 0 && (!allPosts[existingIndex].categories || allPosts[existingIndex].categories.length === 0 || allPosts[existingIndex].categories.includes('Latinoamérica'))) {
+              allPosts[existingIndex].categories = categories;
             }
           }
         } else {
@@ -374,24 +380,46 @@
         url = `https://itnews.lat${url.startsWith('/') ? '' : '/'}${url}`;
       }
       const slug = url.split('/').pop().replace('.html', '').toLowerCase();
+      
+      // Procesar categorías de search.json (array o string)
+      let parsedCategories = [];
+      if (Array.isArray(lp.categories) && lp.categories.length > 0) {
+        parsedCategories = lp.categories;
+      } else if (lp.category && typeof lp.category === 'string' && lp.category.trim()) {
+        parsedCategories = [lp.category.trim()];
+      }
+
       if (slug && !existingKeys.has(slug)) {
         allPosts.unshift({
           id: slug,
           title: lp.title || 'Publicación reciente',
           date: lp.date || new Date().toISOString(),
           superNews: Boolean(lp.superNews),
-          image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg',
-          detailImage: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/itnewslat-g.jpg',
-          categories: lp.category ? [lp.category] : ['Latinoamérica'],
-          tags: lp.tags ? lp.tags.split(',').map(t => t.trim()) : ['Actualidad'],
+          image: lp.image || 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg',
+          detailImage: lp.detailImage || lp.image || 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/itnewslat-g.jpg',
+          categories: parsedCategories.length ? parsedCategories : ['Latinoamérica'],
+          tags: lp.tags ? (Array.isArray(lp.tags) ? lp.tags : lp.tags.split(',').map(t => t.trim())) : ['Actualidad'],
           url: url,
           snippet: 'Consulta el artículo completo en el portal oficial de ITNEWS.LAT.',
           body: ''
         });
         existingKeys.add(slug);
-      } else if (slug && lp.superNews !== undefined) {
+      } else if (slug) {
         const found = allPosts.find(p => getPostSlugKey(p) === slug);
-        if (found) found.superNews = Boolean(lp.superNews);
+        if (found) {
+          if (lp.superNews !== undefined) {
+            found.superNews = Boolean(lp.superNews);
+          }
+          if (parsedCategories.length > 0 && (!found.categories || found.categories.length === 0 || found.categories.includes('Latinoamérica'))) {
+            found.categories = parsedCategories;
+          }
+          if (lp.image && (!found.image || found.image.includes('itnewslat-p.jpg'))) {
+            found.image = lp.image;
+          }
+          if (lp.detailImage && (!found.detailImage || found.detailImage.includes('itnewslat-g.jpg'))) {
+            found.detailImage = lp.detailImage;
+          }
+        }
       }
     });
   }
@@ -641,6 +669,14 @@
     const modalImage = post.detailImage || post.image || '';
     if (modalImage) {
       readerImage.src = modalImage;
+      readerImage.alt = post.title || 'ITNEWS LAT';
+      readerImage.onerror = function() {
+        if (post.image && this.src !== post.image) {
+          this.src = post.image;
+        } else {
+          this.src = 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/itnewslat-g.jpg';
+        }
+      };
       readerImage.parentElement.style.display = 'block';
     } else {
       readerImage.parentElement.style.display = 'none';
