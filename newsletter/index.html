@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /newsletter/
-title: "Newsletter ITNEWS LAT - Las 10 Últimas Noticias"
+title: "Newsletter ITNEWS LAT - Las 12 Últimas Noticias"
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
@@ -37,25 +37,24 @@ title: "Newsletter ITNEWS LAT - Las 10 Últimas Noticias"
     a {
       text-decoration: none;
     }
-    @media only screen and (max-width: 620px) {
+    @media only screen and (max-width: 660px) {
       .container-table {
         width: 100% !important;
       }
-      .mobile-stack {
+      .col-cell {
         display: block !important;
         width: 100% !important;
         max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding-bottom: 20px !important;
       }
-      .mobile-img-td {
-        padding-bottom: 12px !important;
-      }
-      .mobile-img {
-        width: 100% !important;
-        max-width: 100% !important;
-        height: auto !important;
-      }
-      .mobile-gutter {
+      .col-gutter {
         display: none !important;
+      }
+      .col-img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 200px !important;
       }
     }
   </style>
@@ -63,10 +62,10 @@ title: "Newsletter ITNEWS LAT - Las 10 Últimas Noticias"
 <body style="margin: 0; padding: 20px 0; background-color: #f2f4f7;">
 
   <!-- Barra de acciones rápidas (visible solo en navegador) -->
-  <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="container-table" style="max-width: 600px; margin-bottom: 14px;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="640" class="container-table" style="max-width: 640px; margin-bottom: 14px;">
     <tr>
       <td align="right" style="font-size: 12px; color: #64748b; font-family: Helvetica, Arial, sans-serif; padding: 0 10px;">
-        <button onclick="copiarHtmlNewsletter()" id="btnCopiar" style="cursor: pointer; background-color: #c82333; color: #ffffff; border: none; padding: 6px 14px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 8px;">
+        <button onclick="copiarHtmlNewsletter()" id="btnCopiar" style="cursor: pointer; background-color: #c82333; color: #ffffff; border: none; padding: 7px 16px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 8px;">
           📋 Copiar HTML para correo
         </button>
         <span id="toastMsg" style="display: none; color: #15803d; font-weight: bold; margin-right: 8px;">¡Copiado!</span>
@@ -76,7 +75,7 @@ title: "Newsletter ITNEWS LAT - Las 10 Últimas Noticias"
   </table>
 
   <!-- Contenedor principal del Correo -->
-  <table id="newsletterEmailTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="container-table" bgcolor="#ffffff" style="max-width: 600px; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;">
+  <table id="newsletterEmailTable" align="center" border="0" cellpadding="0" cellspacing="0" width="640" class="container-table" bgcolor="#ffffff" style="max-width: 640px; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;">
     
     <!-- Header: Logo y Fecha -->
     <tr>
@@ -90,7 +89,7 @@ title: "Newsletter ITNEWS LAT - Las 10 Últimas Noticias"
             </td>
             <td valign="middle" align="right" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #64748b; line-height: 16px;">
               <span style="display: inline-block; background-color: #f1f5f9; padding: 4px 10px; border-radius: 20px; font-weight: bold; color: #334155;">
-                Edición Diaria
+                Edición Ejecutiva
               </span>
               <br />
               <span style="font-size: 11px; color: #94a3b8; display: inline-block; margin-top: 4px;">{{ site.time | date: "%d %b, %Y" }}</span>
@@ -104,95 +103,96 @@ title: "Newsletter ITNEWS LAT - Las 10 Últimas Noticias"
     <tr>
       <td bgcolor="#f8fafc" style="padding: 12px 25px; text-align: center; border-bottom: 1px solid #e2e8f0;">
         <a href="https://absidecorp.com/" target="_blank">
-          <img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90.png" alt="ABSIDE - Cloud Partner" width="550" class="mobile-img" style="width: 100%; max-width: 550px; height: auto; display: block; margin: 0 auto; border-radius: 4px;" />
+          <img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90.png" alt="ABSIDE - Cloud Partner" width="590" class="col-img" style="width: 100%; max-width: 590px; height: auto; display: block; margin: 0 auto; border-radius: 4px;" />
         </a>
       </td>
     </tr>
 
     <!-- Titular de Bienvenida -->
     <tr>
-      <td style="padding: 20px 25px 10px 25px;">
+      <td style="padding: 22px 25px 12px 25px;">
         <table border="0" cellpadding="0" cellspacing="0" width="100%">
           <tr>
             <td style="font-family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; color: #0f172a; line-height: 24px;">
-              ⚡ Las 10 noticias tecnológicas más relevantes de América Latina
+              ⚡ Las 12 noticias tecnológicas más destacadas de la región
             </td>
           </tr>
           <tr>
             <td style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #64748b; line-height: 18px; padding-top: 5px;">
-              Resumen ejecutivo preparado por la redacción de <strong style="color: #0f172a;">ITNEWS.LAT</strong> para líderes de TI, negocios y transformación digital.
+              Resumen informativo preparado por la redacción de <strong style="color: #0f172a;">ITNEWS.LAT</strong> para líderes y profesionales del sector tecnológico en América Latina.
             </td>
           </tr>
         </table>
       </td>
     </tr>
 
-    <!-- Lista de las 10 noticias -->
+    <!-- Cuadrícula a 3 Columnas con las 12 Noticias -->
     <tr>
-      <td style="padding: 10px 25px 25px 25px;">
-        
-        {% for post in site.posts limit:10 %}
-        <!-- Noticia Item #{{ forloop.index }} -->
-        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #f1f5f9;">
-          <tr>
-            <!-- Imagen pequeña (160px de ancho) optimizada para correo -->
-            <td class="mobile-stack mobile-img-td" width="160" valign="top" align="left" style="width: 160px; max-width: 160px;">
-              <a href="{{ post.url | prepend: 'https://itnews.lat' }}" target="_blank" style="display: block;">
-                {% if post.image %}
-                  <img src="{{ post.image }}" alt="{{ post.title | escape }}" width="160" height="96" class="mobile-img" style="width: 160px; max-width: 160px; height: 96px; object-fit: cover; border-radius: 6px; display: block; border: 1px solid #e2e8f0;" />
-                {% else %}
-                  <img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg" alt="ITNEWS" width="160" height="96" class="mobile-img" style="width: 160px; max-width: 160px; height: 96px; object-fit: cover; border-radius: 6px; display: block; border: 1px solid #e2e8f0;" />
-                {% endif %}
-              </a>
-            </td>
+      <td style="padding: 8px 20px 20px 20px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          {% for post in site.posts limit:12 %}
+            {% assign modulo = forloop.index0 | modulo: 3 %}
 
-            <!-- Separador horizontal -->
-            <td class="mobile-gutter" width="16" style="width: 16px; font-size: 0; line-height: 0;">&nbsp;</td>
+            {% if modulo == 0 %}
+              <!-- Iniciar nueva fila de 3 columnas -->
+              <tr>
+            {% endif %}
 
-            <!-- Contenido: Etiquetas, Titular, Corto extracto y Botón -->
-            <td class="mobile-stack" valign="top" align="left">
-              <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                <!-- Tag / Categoría y Fecha -->
+            <!-- Columna de Noticia #{{ forloop.index }} -->
+            <td class="col-cell" width="190" valign="top" align="left" style="width: 190px; max-width: 190px; padding-bottom: 22px;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden;">
+                <!-- Imagen pequeña -->
                 <tr>
-                  <td style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold; color: #c82333; text-transform: uppercase; padding-bottom: 4px; line-height: 14px;">
-                    {% if post.tags and post.tags.first %}
-                      #{{ post.tags.first }}
-                    {% elsif post.categories and post.categories.first %}
-                      {{ post.categories.first }}
-                    {% else %}
-                      Actualidad
-                    {% endif %}
-                    <span style="color: #94a3b8; font-weight: normal; margin-left: 6px;">
-                      • {{ post.date | date: "%d/%m/%Y" }}
-                    </span>
-                  </td>
-                </tr>
-
-                <!-- Titular -->
-                <tr>
-                  <td style="padding-bottom: 6px;">
-                    <a href="{{ post.url | prepend: 'https://itnews.lat' }}" target="_blank" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: bold; color: #1e293b; line-height: 20px; text-decoration: none;">
-                      {{ post.title }}
+                  <td align="center" style="line-height: 0; font-size: 0; background-color: #f1f5f9;">
+                    <a href="{{ post.url | prepend: 'https://itnews.lat' }}" target="_blank" style="display: block;">
+                      {% if post.image %}
+                        <img src="{{ post.image }}" alt="{{ post.title | escape }}" width="190" height="106" class="col-img" style="width: 100%; max-width: 190px; height: 106px; object-fit: cover; display: block;" />
+                      {% else %}
+                        <img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg" alt="ITNEWS" width="190" height="106" class="col-img" style="width: 100%; max-width: 190px; height: 106px; object-fit: cover; display: block;" />
+                      {% endif %}
                     </a>
                   </td>
                 </tr>
 
-                <!-- Corto texto de la noticia (extracto limpio) -->
+                <!-- Contenido de la tarjeta -->
                 <tr>
-                  <td style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #475569; line-height: 17px; padding-bottom: 8px;">
-                    {% assign rawSnippet = post.content | strip_html | normalize_whitespace | truncate: 160 %}
-                    {{ rawSnippet }}
-                  </td>
-                </tr>
-
-                <!-- Enlace de lectura -->
-                <tr>
-                  <td>
-                    <table border="0" cellpadding="0" cellspacing="0">
+                  <td style="padding: 10px 10px 12px 10px;">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <!-- Categoría / Tag -->
                       <tr>
-                        <td align="left">
-                          <a href="{{ post.url | prepend: 'https://itnews.lat' }}" target="_blank" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight: bold; color: #c82333; text-decoration: none;">
-                            Leer noticia completa &rarr;
+                        <td style="font-family: Helvetica, Arial, sans-serif; font-size: 10px; font-weight: bold; color: #c82333; text-transform: uppercase; padding-bottom: 4px; line-height: 13px;">
+                          {% if post.tags and post.tags.first %}
+                            #{{ post.tags.first }}
+                          {% elsif post.categories and post.categories.first %}
+                            {{ post.categories.first }}
+                          {% else %}
+                            Actualidad
+                          {% endif %}
+                        </td>
+                      </tr>
+
+                      <!-- Titular -->
+                      <tr>
+                        <td style="padding-bottom: 6px; min-height: 52px;" valign="top">
+                          <a href="{{ post.url | prepend: 'https://itnews.lat' }}" target="_blank" style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; color: #1e293b; line-height: 17px; text-decoration: none; display: block;">
+                            {{ post.title | truncate: 68 }}
+                          </a>
+                        </td>
+                      </tr>
+
+                      <!-- Corto texto de la noticia -->
+                      <tr>
+                        <td style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #64748b; line-height: 15px; padding-bottom: 10px;" valign="top">
+                          {% assign rawSnippet = post.content | strip_html | normalize_whitespace | truncate: 95 %}
+                          {{ rawSnippet }}
+                        </td>
+                      </tr>
+
+                      <!-- Botón / Enlace Leer más -->
+                      <tr>
+                        <td align="left" style="border-top: 1px solid #f1f5f9; padding-top: 8px;">
+                          <a href="{{ post.url | prepend: 'https://itnews.lat' }}" target="_blank" style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold; color: #c82333; text-decoration: none;">
+                            Leer más &rarr;
                           </a>
                         </td>
                       </tr>
@@ -201,10 +201,18 @@ title: "Newsletter ITNEWS LAT - Las 10 Últimas Noticias"
                 </tr>
               </table>
             </td>
-          </tr>
-        </table>
-        {% endfor %}
 
+            {% if modulo != 2 and forloop.last == false %}
+              <!-- Gutter entre columnas (15px) -->
+              <td class="col-gutter" width="15" style="width: 15px; font-size: 0; line-height: 0;">&nbsp;</td>
+            {% endif %}
+
+            {% if modulo == 2 or forloop.last == true %}
+              <!-- Cerrar fila -->
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </table>
       </td>
     </tr>
 
