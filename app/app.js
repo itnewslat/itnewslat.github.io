@@ -403,10 +403,20 @@
     return addedCount;
   }
 
-  // Merge complementario de search.json
+  // Merge complementario de search.json (solo enriquece o añade si no existe)
   function mergeLiveSearchPosts(livePosts) {
     if (!Array.isArray(livePosts) || livePosts.length === 0) return;
-    const existingKeys = new Set(allPosts.map(p => getPostSlugKey(p)).filter(Boolean));
+    
+    // Mapeo completo de keys existentes para evitar duplicados vacíos
+    const existingKeyMap = new Map();
+    allPosts.forEach((p, idx) => {
+      const key = getPostSlugKey(p);
+      if (key && !existingKeyMap.has(key)) existingKeyMap.set(key, idx);
+      if (p.url) {
+        const norm = p.url.toLowerCase().replace(/^https?:\/\//, '').replace(/\.html$/, '');
+        if (!existingKeyMap.has(norm)) existingKeyMap.set(norm, idx);
+      }
+    });
 
     livePosts.forEach(lp => {
       let url = lp.url || '';
@@ -414,6 +424,7 @@
         url = `https://itnews.lat${url.startsWith('/') ? '' : '/'}${url}`;
       }
       const slug = url.split('/').pop().replace('.html', '').toLowerCase();
+      const normUrl = url.toLowerCase().replace(/^https?:\/\//, '').replace(/\.html$/, '');
       
       // Procesar categorías de search.json (array o string)
       let parsedCategories = [];
@@ -423,7 +434,24 @@
         parsedCategories = [lp.category.trim()];
       }
 
-      if (slug && !existingKeys.has(slug)) {
+      const matchIdx = existingKeyMap.has(slug) ? existingKeyMap.get(slug) : (existingKeyMap.has(normUrl) ? existingKeyMap.get(normUrl) : null);
+
+      if (matchIdx !== null && allPosts[matchIdx]) {
+        const found = allPosts[matchIdx];
+        if (lp.superNews !== undefined) {
+          found.superNews = Boolean(lp.superNews);
+        }
+        if (parsedCategories.length > 0 && (!found.categories || found.categories.length === 0 || found.categories.includes('Latinoamérica'))) {
+          found.categories = parsedCategories;
+        }
+        if (lp.image && (!found.image || found.image.includes('itnewslat-p.jpg'))) {
+          found.image = lp.image;
+        }
+        if (lp.detailImage && (!found.detailImage || found.detailImage.includes('itnewslat-g.jpg'))) {
+          found.detailImage = lp.detailImage;
+        }
+      } else if (slug) {
+        // Solo agregar si realmente no existía en allPosts
         allPosts.unshift({
           id: slug,
           title: lp.title || 'Publicación reciente',
@@ -437,23 +465,8 @@
           snippet: 'Consulta el artículo completo en el portal oficial de ITNEWS.LAT.',
           body: ''
         });
-        existingKeys.add(slug);
-      } else if (slug) {
-        const found = allPosts.find(p => getPostSlugKey(p) === slug);
-        if (found) {
-          if (lp.superNews !== undefined) {
-            found.superNews = Boolean(lp.superNews);
-          }
-          if (parsedCategories.length > 0 && (!found.categories || found.categories.length === 0 || found.categories.includes('Latinoamérica'))) {
-            found.categories = parsedCategories;
-          }
-          if (lp.image && (!found.image || found.image.includes('itnewslat-p.jpg'))) {
-            found.image = lp.image;
-          }
-          if (lp.detailImage && (!found.detailImage || found.detailImage.includes('itnewslat-g.jpg'))) {
-            found.detailImage = lp.detailImage;
-          }
-        }
+        existingKeyMap.set(slug, 0);
+        existingKeyMap.set(normUrl, 0);
       }
     });
   }
@@ -669,14 +682,14 @@
     newsGrid.querySelectorAll('.news-card').forEach(card => {
       card.addEventListener('click', () => {
         const id = card.getAttribute('data-id');
-        const post = allPosts.find(p => p.id === id);
+        const post = allPosts.find(p => p.id === id || getPostSlugKey(p) === id);
         if (post) openReader(post);
       });
     });
   }
 
   // Open In-App Reader Modal
-  function openReader(post) {
+  async function openReader(post) {
     readerTitle.textContent = post.title;
     readerDate.textContent = formatDate(post.date);
 
@@ -753,6 +766,32 @@
 
     readerModal.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    // Respaldo de seguridad: si el post no tiene cuerpo completo o es solo el snippet, intentar recuperar en vivo
+    if ((!post.body || post.body.length < 100) && post.url) {
+      try {
+        const articleRes = await fetch(post.url);
+        if (articleRes.ok) {
+          const htmlText = await articleRes.text();
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(htmlText, 'text/html');
+          const contentEl = doc.querySelector('.blog-content') || doc.querySelector('.media-body');
+          if (contentEl) {
+            const mediaImg = contentEl.querySelector('.blog-media');
+            if (mediaImg) mediaImg.remove();
+            const fullHtml = contentEl.innerHTML;
+            if (fullHtml && fullHtml.trim().length > 100) {
+              post.body = fullHtml;
+              if (currentOpenPost === post) {
+                readerContent.innerHTML = formatMarkdownBody(fullHtml);
+              }
+            }
+          }
+        }
+      } catch (err) {
+        console.debug('Nota sin contenido local adicional:', err);
+      }
+    }
   }
 
   function closeReader() {
