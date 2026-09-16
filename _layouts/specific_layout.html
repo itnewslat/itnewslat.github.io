@@ -1,14 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <title>{{ site.title }}</title>
+  <title>ITNEWS.LAT | Noticias de Tecnología, Ciberseguridad y Telecomunicaciones en Latinoamérica</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- @todo: fill with your company info or remove -->
-  <meta name="{{ site.description }}" content="">
-  <meta name="author" content="{{ site.author }}">
+  <!-- SEO Descriptions & Canonical -->
+  <meta name="description" content="ITNEWS.LAT: Portal líder en noticias de tecnología empresarial, análisis B2B, ciberseguridad, nube, ERP y transformación digital en América Latina.">
+  <meta name="keywords" content="tecnología b2b américa latina, noticias ciberseguridad, erp en la nube, telecomunicaciones, transformación digital venezuela, colombia, méxico, panamá, chile, argentina, perú, ecuador">
+  <meta name="author" content="ITNEWS LAT">
+  <link rel="canonical" href="https://itnews.lat/">
+  <link rel="alternate" hreflang="es" href="https://itnews.lat/">
+  <link rel="alternate" hreflang="es-419" href="https://itnews.lat/">
+  <link rel="alternate" hreflang="x-default" href="https://itnews.lat/">
+  <meta http-equiv="content-language" content="es-419">
+
+  <!-- Geotagging & Regional SEO (LatAm Coverage) -->
+  <meta name="geo.region" content="LatAm">
+  <meta name="geo.placename" content="Latinoamérica">
+  <meta name="geo.position" content="10.4806;-66.9036">
+  <meta name="ICBM" content="10.4806, -66.9036">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ITNEWS.LAT">
+  <meta property="og:url" content="https://itnews.lat/">
+  <meta property="og:title" content="ITNEWS.LAT | Portal B2B de Tecnología en Latinoamérica">
+  <meta property="og:description" content="Periodismo y análisis B2B de tecnología empresarial, ciberseguridad, ERP en la nube y transformación digital en América Latina.">
+  <meta property="og:image" content="https://itnews.lat/assets/imagenes/logo_large_red.png">
+  <meta property="og:locale" content="es_LA">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ITNEWSLAT">
+  <meta name="twitter:creator" content="@ITNEWSLAT">
+  <meta name="twitter:url" content="https://itnews.lat/">
+  <meta name="twitter:title" content="ITNEWS.LAT | Noticias de Tecnología en Latinoamérica">
+  <meta name="twitter:description" content="Periodismo y análisis B2B de tecnología empresarial, ciberseguridad y transformación digital en América Latina.">
+  <meta name="twitter:image" content="https://itnews.lat/assets/imagenes/logo_large_red.png">
+
+  <!-- JSON-LD Schema (NewsMediaOrganization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    "@id": "https://itnews.lat/#organization",
+    "name": "ITNEWS LAT",
+    "url": "https://itnews.lat/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://itnews.lat/assets/imagenes/logo_large_red.png"
+    },
+    "sameAs": [
+      "https://twitter.com/ITNEWSLAT",
+      "https://squidapp.co/en/"
+    ],
+    "areaServed": [
+      { "@type": "Country", "name": "Venezuela" },
+      { "@type": "Country", "name": "Colombia" },
+      { "@type": "Country", "name": "México" },
+      { "@type": "Country", "name": "Panamá" },
+      { "@type": "Country", "name": "Chile" },
+      { "@type": "Country", "name": "Argentina" },
+      { "@type": "Country", "name": "Ecuador" },
+      { "@type": "Country", "name": "Perú" }
+    ]
+  }
+  </script>
 
   <!-- Bootstrap v4.0.0 CSS via CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">

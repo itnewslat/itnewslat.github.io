@@ -1,13 +1,132 @@
 <head>
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} | ITNEWS LAT</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- @todo: fill with your company info or remove -->
-  <meta name="description" content="">
-  <meta name="author" content="{{ site.author }}">
-  <meta name="og:image" content="{{ page.image }}">
+  <!-- SEO Descriptions & Canonical -->
+  {% assign rawSnippet = page.content | strip_html | normalize_whitespace | truncate: 160 | escape %}
+  <meta name="description" content="{{ rawSnippet }}">
+  <meta name="author" content="{{ site.author | default: 'ITNEWS LAT' }}">
+  <link rel="canonical" href="https://itnews.lat{{ page.url }}">
+  <link rel="alternate" hreflang="es" href="https://itnews.lat{{ page.url }}">
+  <link rel="alternate" hreflang="es-419" href="https://itnews.lat{{ page.url }}">
+  <link rel="alternate" hreflang="x-default" href="https://itnews.lat{{ page.url }}">
+  <meta http-equiv="content-language" content="es-419">
+
+  <!-- GEO & Regional SEO Metatags -->
+  {% assign firstCountry = page.categories.first | default: 'Latinoamérica' %}
+  {% assign countriesCount = page.categories | size %}
+  {% if countriesCount >= 4 or firstCountry == 'Latinoamérica' %}
+    <meta name="geo.region" content="LatAm">
+    <meta name="geo.placename" content="Latinoamérica">
+    <meta name="geo.position" content="10.4806;-66.9036">
+    <meta name="ICBM" content="10.4806, -66.9036">
+  {% elsif firstCountry == 'Venezuela' %}
+    <meta name="geo.region" content="VE">
+    <meta name="geo.placename" content="Caracas, Venezuela">
+    <meta name="geo.position" content="10.4806;-66.9036">
+    <meta name="ICBM" content="10.4806, -66.9036">
+  {% elsif firstCountry == 'Colombia' %}
+    <meta name="geo.region" content="CO">
+    <meta name="geo.placename" content="Bogotá, Colombia">
+    <meta name="geo.position" content="4.7110;-74.0721">
+    <meta name="ICBM" content="4.7110, -74.0721">
+  {% elsif firstCountry == 'México' or firstCountry == 'Mexico' %}
+    <meta name="geo.region" content="MX">
+    <meta name="geo.placename" content="Ciudad de México, México">
+    <meta name="geo.position" content="19.4326;-99.1332">
+    <meta name="ICBM" content="19.4326, -99.1332">
+  {% elsif firstCountry == 'Chile' %}
+    <meta name="geo.region" content="CL">
+    <meta name="geo.placename" content="Santiago, Chile">
+    <meta name="geo.position" content="-33.4489;-70.6693">
+    <meta name="ICBM" content="-33.4489, -70.6693">
+  {% elsif firstCountry == 'Argentina' %}
+    <meta name="geo.region" content="AR">
+    <meta name="geo.placename" content="Buenos Aires, Argentina">
+    <meta name="geo.position" content="-34.6037;-58.3816">
+    <meta name="ICBM" content="-34.6037, -58.3816">
+  {% elsif firstCountry == 'Perú' or firstCountry == 'Peru' %}
+    <meta name="geo.region" content="PE">
+    <meta name="geo.placename" content="Lima, Perú">
+    <meta name="geo.position" content="-12.0464;-77.0428">
+    <meta name="ICBM" content="-12.0464, -77.0428">
+  {% elsif firstCountry == 'Ecuador' %}
+    <meta name="geo.region" content="EC">
+    <meta name="geo.placename" content="Quito, Ecuador">
+    <meta name="geo.position" content="-0.1807;-78.4678">
+    <meta name="ICBM" content="-0.1807, -78.4678">
+  {% elsif firstCountry == 'Panamá' or firstCountry == 'Panama' %}
+    <meta name="geo.region" content="PA">
+    <meta name="geo.placename" content="Ciudad de Panamá, Panamá">
+    <meta name="geo.position" content="8.9824;-79.5199">
+    <meta name="ICBM" content="8.9824, -79.5199">
+  {% else %}
+    <meta name="geo.region" content="LatAm">
+    <meta name="geo.placename" content="Latinoamérica">
+  {% endif %}
+
+  <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
+  {% assign postImg = page.detail-image | default: page.image | default: 'https://itnews.lat/assets/imagenes/logo_large_red.png' %}
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ITNEWS.LAT">
+  <meta property="og:url" content="https://itnews.lat{{ page.url }}">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ rawSnippet }}">
+  <meta property="og:image" content="{{ postImg }}">
+  <meta property="og:locale" content="es_LA">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% for cat in page.categories %}
+  <meta property="article:section" content="{{ cat }}">
+  {% endfor %}
+  {% for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag }}">
+  {% endfor %}
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ITNEWSLAT">
+  <meta name="twitter:creator" content="@ITNEWSLAT">
+  <meta name="twitter:url" content="https://itnews.lat{{ page.url }}">
+  <meta name="twitter:title" content="{{ page.title | escape }}">
+  <meta name="twitter:description" content="{{ rawSnippet }}">
+  <meta name="twitter:image" content="{{ postImg }}">
+
+  <!-- JSON-LD Structured Data Schema (NewsArticle) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://itnews.lat{{ page.url }}"
+    },
+    "headline": "{{ page.title | escape }}",
+    "image": [
+      "{{ postImg }}"
+    ],
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.date | date_to_xmlschema }}",
+    "inLanguage": "es-419",
+    "author": {
+      "@type": "Organization",
+      "name": "ITNEWS LAT",
+      "url": "https://itnews.lat"
+    },
+    "publisher": {
+      "@type": "NewsMediaOrganization",
+      "name": "ITNEWS LAT",
+      "url": "https://itnews.lat/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://itnews.lat/assets/imagenes/logo_large_red.png"
+      }
+    },
+    "description": "{{ rawSnippet }}",
+    "keywords": "{{ page.tags | join: ', ' | escape }}"
+  }
+  </script>
 
   <!-- Bootstrap v4.0.0 CSS via CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -35,7 +154,7 @@
   <!-- Iconset: flag icons - http://lipis.github.io/flag-icon-css/ -->
   <link href="/assets/plugins/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
   <!-- Iconset: ionicons - http://ionicons.com/ -->
-  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
   <!-- Iconset: Linearicons - https://linearicons.com/free -->
   <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
 
@@ -51,10 +170,10 @@
 
 
   <!-- Google fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Rambla:400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Rambla:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 
   <!--Plugin: Retina.js (high def image replacement) - @see: http://retinajs.com/-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>
