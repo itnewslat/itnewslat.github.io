@@ -18,6 +18,8 @@ logo: logo.png
 # Build settings
 markdown: kramdown
 permalink: /:title.html
+future: true
+timezone: America/Caracas
 
 whitelist: []
 
