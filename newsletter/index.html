@@ -1,0 +1,301 @@
+---
+layout: null
+permalink: /newsletter/
+title: "Newsletter ITNEWS LAT - Las 10 Últimas Noticias"
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITNEWS LAT | Boletín de Noticias B2B</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f2f4f7;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    td {
+      mso-line-height-rule: exactly;
+    }
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      display: block;
+    }
+    a {
+      text-decoration: none;
+    }
+    @media only screen and (max-width: 620px) {
+      .container-table {
+        width: 100% !important;
+      }
+      .mobile-stack {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      .mobile-img-td {
+        padding-bottom: 12px !important;
+      }
+      .mobile-img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+      }
+      .mobile-gutter {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 20px 0; background-color: #f2f4f7;">
+
+  <!-- Barra de acciones rápidas (visible solo en navegador) -->
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="container-table" style="max-width: 600px; margin-bottom: 14px;">
+    <tr>
+      <td align="right" style="font-size: 12px; color: #64748b; font-family: Helvetica, Arial, sans-serif; padding: 0 10px;">
+        <button onclick="copiarHtmlNewsletter()" id="btnCopiar" style="cursor: pointer; background-color: #c82333; color: #ffffff; border: none; padding: 6px 14px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 8px;">
+          📋 Copiar HTML para correo
+        </button>
+        <span id="toastMsg" style="display: none; color: #15803d; font-weight: bold; margin-right: 8px;">¡Copiado!</span>
+        <a href="https://itnews.lat" target="_blank" style="color: #c82333; font-weight: bold; text-decoration: underline;">Ir a ITNEWS.LAT</a>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Contenedor principal del Correo -->
+  <table id="newsletterEmailTable" align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="container-table" bgcolor="#ffffff" style="max-width: 600px; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #e2e8f0;">
+    
+    <!-- Header: Logo y Fecha -->
+    <tr>
+      <td style="padding: 24px 25px 15px 25px; border-bottom: 3px solid #c82333;" bgcolor="#ffffff">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td valign="middle" align="left">
+              <a href="https://itnews.lat" target="_blank">
+                <img src="https://itnews.lat/assets/imagenes/logo_large_red.png" alt="ITNEWS LAT" width="175" style="width: 175px; max-width: 175px; height: auto; display: block;" />
+              </a>
+            </td>
+            <td valign="middle" align="right" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #64748b; line-height: 16px;">
+              <span style="display: inline-block; background-color: #f1f5f9; padding: 4px 10px; border-radius: 20px; font-weight: bold; color: #334155;">
+                Edición Diaria
+              </span>
+              <br />
+              <span style="font-size: 11px; color: #94a3b8; display: inline-block; margin-top: 4px;">{{ site.time | date: "%d %b, %Y" }}</span>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Banner Destacado / Patrocinante -->
+    <tr>
+      <td bgcolor="#f8fafc" style="padding: 12px 25px; text-align: center; border-bottom: 1px solid #e2e8f0;">
+        <a href="https://absidecorp.com/" target="_blank">
+          <img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90.png" alt="ABSIDE - Cloud Partner" width="550" class="mobile-img" style="width: 100%; max-width: 550px; height: auto; display: block; margin: 0 auto; border-radius: 4px;" />
+        </a>
+      </td>
+    </tr>
+
+    <!-- Titular de Bienvenida -->
+    <tr>
+      <td style="padding: 20px 25px 10px 25px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td style="font-family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; color: #0f172a; line-height: 24px;">
+              ⚡ Las 10 noticias tecnológicas más relevantes de América Latina
+            </td>
+          </tr>
+          <tr>
+            <td style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #64748b; line-height: 18px; padding-top: 5px;">
+              Resumen ejecutivo preparado por la redacción de <strong style="color: #0f172a;">ITNEWS.LAT</strong> para líderes de TI, negocios y transformación digital.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Lista de las 10 noticias -->
+    <tr>
+      <td style="padding: 10px 25px 25px 25px;">
+        
+        {% for post in site.posts limit:10 %}
+        <!-- Noticia Item #{{ forloop.index }} -->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #f1f5f9;">
+          <tr>
+            <!-- Imagen pequeña (160px de ancho) optimizada para correo -->
+            <td class="mobile-stack mobile-img-td" width="160" valign="top" align="left" style="width: 160px; max-width: 160px;">
+              <a href="{{ post.url | prepend: 'https://itnews.lat' }}" target="_blank" style="display: block;">
+                {% if post.image %}
+                  <img src="{{ post.image }}" alt="{{ post.title | escape }}" width="160" height="96" class="mobile-img" style="width: 160px; max-width: 160px; height: 96px; object-fit: cover; border-radius: 6px; display: block; border: 1px solid #e2e8f0;" />
+                {% else %}
+                  <img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg" alt="ITNEWS" width="160" height="96" class="mobile-img" style="width: 160px; max-width: 160px; height: 96px; object-fit: cover; border-radius: 6px; display: block; border: 1px solid #e2e8f0;" />
+                {% endif %}
+              </a>
+            </td>
+
+            <!-- Separador horizontal -->
+            <td class="mobile-gutter" width="16" style="width: 16px; font-size: 0; line-height: 0;">&nbsp;</td>
+
+            <!-- Contenido: Etiquetas, Titular, Corto extracto y Botón -->
+            <td class="mobile-stack" valign="top" align="left">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <!-- Tag / Categoría y Fecha -->
+                <tr>
+                  <td style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold; color: #c82333; text-transform: uppercase; padding-bottom: 4px; line-height: 14px;">
+                    {% if post.tags and post.tags.first %}
+                      #{{ post.tags.first }}
+                    {% elsif post.categories and post.categories.first %}
+                      {{ post.categories.first }}
+                    {% else %}
+                      Actualidad
+                    {% endif %}
+                    <span style="color: #94a3b8; font-weight: normal; margin-left: 6px;">
+                      • {{ post.date | date: "%d/%m/%Y" }}
+                    </span>
+                  </td>
+                </tr>
+
+                <!-- Titular -->
+                <tr>
+                  <td style="padding-bottom: 6px;">
+                    <a href="{{ post.url | prepend: 'https://itnews.lat' }}" target="_blank" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: bold; color: #1e293b; line-height: 20px; text-decoration: none;">
+                      {{ post.title }}
+                    </a>
+                  </td>
+                </tr>
+
+                <!-- Corto texto de la noticia (extracto limpio) -->
+                <tr>
+                  <td style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #475569; line-height: 17px; padding-bottom: 8px;">
+                    {% assign rawSnippet = post.content | strip_html | normalize_whitespace | truncate: 160 %}
+                    {{ rawSnippet }}
+                  </td>
+                </tr>
+
+                <!-- Enlace de lectura -->
+                <tr>
+                  <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td align="left">
+                          <a href="{{ post.url | prepend: 'https://itnews.lat' }}" target="_blank" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight: bold; color: #c82333; text-decoration: none;">
+                            Leer noticia completa &rarr;
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        {% endfor %}
+
+      </td>
+    </tr>
+
+    <!-- Sección Publicidad / Contacto -->
+    <tr>
+      <td bgcolor="#0f172a" style="padding: 24px 25px; text-align: center;" align="center">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td align="center" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #f8fafc; font-weight: bold; padding-bottom: 8px;">
+              ¿Deseas difundir tus noticias o eventos corporativos en ITNEWS.LAT?
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #94a3b8; line-height: 18px; padding-bottom: 14px;">
+              Conectamos a las marcas tecnológicas más importantes con la audiencia de tomadores de decisiones en Latinoamérica.
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <a href="https://itnews.lat/Publicidad.html" target="_blank" style="display: inline-block; background-color: #c82333; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight: bold; padding: 9px 20px; border-radius: 4px; text-decoration: none;">
+                Conoce nuestras opciones comerciales
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Footer: Redes Sociales y Copyright -->
+    <tr>
+      <td bgcolor="#f8fafc" style="padding: 20px 25px; text-align: center; border-top: 1px solid #e2e8f0;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td align="center" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #64748b; line-height: 18px; padding-bottom: 10px;">
+              Síguenos en nuestras redes:
+              <a href="https://twitter.com/itnewslat" target="_blank" style="color: #c82333; font-weight: bold; text-decoration: none; margin: 0 6px;">@ITNEWSLAT</a> |
+              <a href="https://facebook.com/itnewslat" target="_blank" style="color: #c82333; font-weight: bold; text-decoration: none; margin: 0 6px;">Facebook</a> |
+              <a href="https://instagram.com/itnewslat" target="_blank" style="color: #c82333; font-weight: bold; text-decoration: none; margin: 0 6px;">Instagram</a> |
+              <a href="https://itnews.lat/app/" target="_blank" style="color: #c82333; font-weight: bold; text-decoration: none; margin: 0 6px;">Lector Web App</a>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #94a3b8; line-height: 15px;">
+              © 2026 ITNEWS.LAT — Todos los derechos reservados.<br />
+              Periodismo y análisis B2B para la industria tecnológica en América Latina.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+  </table>
+
+  <script type="text/javascript">
+    function copiarHtmlNewsletter() {
+      const emailTable = document.getElementById('newsletterEmailTable');
+      if (!emailTable) return;
+      
+      const htmlContent = emailTable.outerHTML;
+      
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(htmlContent).then(() => {
+          mostrarToast();
+        }).catch(() => fallbackCopiar(htmlContent));
+      } else {
+        fallbackCopiar(htmlContent);
+      }
+    }
+
+    function fallbackCopiar(text) {
+      const textArea = document.createElement('textarea');
+      textArea.value = text;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+      mostrarToast();
+    }
+
+    function mostrarToast() {
+      const toast = document.getElementById('toastMsg');
+      const btn = document.getElementById('btnCopiar');
+      if (toast) {
+        toast.style.display = 'inline-block';
+        if (btn) btn.textContent = '✓ ¡Copiado!';
+        setTimeout(() => {
+          toast.style.display = 'none';
+          if (btn) btn.textContent = '📋 Copiar HTML para correo';
+        }, 3000);
+      }
+    }
+  </script>
+</body>
+</html>
