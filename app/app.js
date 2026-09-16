@@ -88,6 +88,40 @@
     'Argentina', 'Ecuador', 'Perú', 'Brasil', 'Costa Rica'
   ];
 
+  // Helper to determine the display country badge text based on active filter and post countries
+  function getDisplayCountryBadge(post) {
+    const categories = post.categories || [];
+    // If a specific country is active in the filter
+    if (currentCountry && currentCountry !== 'all') {
+      const match = categories.find(c => 
+        c.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === 
+        currentCountry.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      );
+      if (match) {
+        return COUNTRY_FLAGS[match] || match;
+      }
+    }
+
+    // When showing all countries (or general view):
+    // Count how many recognized Latin American countries it has
+    const recognizedCount = categories.filter(c => 
+      KNOWN_COUNTRIES.some(k => k.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === c.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))
+    ).length;
+
+    // If it covers 5 or more countries (or all primary ones), display "🌎 Latinoamérica"
+    if (categories.length >= 5 || recognizedCount >= 5) {
+      return '🌎 Latinoamérica';
+    }
+
+    // If it covers specific countries (less than 5), show the primary country or up to 2
+    if (categories.length > 0) {
+      const primary = categories[0];
+      return COUNTRY_FLAGS[primary] || primary;
+    }
+
+    return '🌎 Latinoamérica';
+  }
+
   // Load Data with automatic instant live sync from feed.xml
   async function loadData(isBackgroundSync = false) {
     if (!isBackgroundSync) {
@@ -489,8 +523,7 @@
   }
 
   function renderPostCard(post) {
-    const primaryCountry = (post.categories && post.categories[0]) || 'LatAm';
-    const flagText = COUNTRY_FLAGS[primaryCountry] || primaryCountry;
+    const flagText = getDisplayCountryBadge(post);
     const displayImage = post.image || post.detailImage || 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg';
     const tagsList = (post.tags || []).slice(0, 2);
 
@@ -518,8 +551,7 @@
   }
 
   function renderSpecialReportCard(post) {
-    const primaryCountry = (post.categories && post.categories[0]) || 'LatAm';
-    const flagText = COUNTRY_FLAGS[primaryCountry] || primaryCountry;
+    const flagText = getDisplayCountryBadge(post);
     // Prefer higher resolution image for the special report
     const displayImage = post.detailImage || post.image || 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/itnewslat-g.jpg';
     const tagsList = post.tags || ['Actualidad'];
@@ -650,9 +682,33 @@
 
     // Categories (Countries)
     if (post.categories && post.categories.length) {
-      readerCategories.innerHTML = post.categories.map(c => 
-        `<span class="reader-country-tag">${escapeHtml(COUNTRY_FLAGS[c] || c)}</span>`
-      ).join('');
+      if (currentCountry && currentCountry !== 'all') {
+        // Highlight active filter country
+        const activeMatch = post.categories.find(c => 
+          c.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === 
+          currentCountry.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        );
+        if (activeMatch) {
+          const isRegional = post.categories.length >= 5;
+          readerCategories.innerHTML = `
+            <span class="reader-country-tag active-filter">${escapeHtml(COUNTRY_FLAGS[activeMatch] || activeMatch)}</span>
+            ${isRegional ? `<span class="reader-country-tag secondary">🌎 Cobertura Regional (Latinoamérica)</span>` : ''}
+          `;
+        } else {
+          readerCategories.innerHTML = post.categories.map(c => 
+            `<span class="reader-country-tag">${escapeHtml(COUNTRY_FLAGS[c] || c)}</span>`
+          ).join('');
+        }
+      } else if (post.categories.length >= 5) {
+        readerCategories.innerHTML = `
+          <span class="reader-country-tag">🌎 Latinoamérica (Regional)</span>
+          <span class="reader-country-tag secondary">${post.categories.length} países</span>
+        `;
+      } else {
+        readerCategories.innerHTML = post.categories.map(c => 
+          `<span class="reader-country-tag">${escapeHtml(COUNTRY_FLAGS[c] || c)}</span>`
+        ).join('');
+      }
     } else {
       readerCategories.innerHTML = '';
     }
