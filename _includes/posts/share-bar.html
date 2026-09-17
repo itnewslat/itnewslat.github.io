@@ -1,42 +1,60 @@
-<!-- Social Share Bar ITNEWS.LAT -->
+<!-- Social Share Bar Minimalist & Professional ITNEWS.LAT -->
 {% assign postFullUrl = site.url | default: 'https://itnews.lat' | append: page.url %}
 
-<div class="itnews-post-share">
-  <div class="itnews-post-share-header">
-    <i class="fas fa-share-alt"></i> <span>Compartir esta noticia:</span>
+<div class="itnews-share-box">
+  <div class="itnews-share-caption">
+    <span class="itnews-share-tag"><i class="fas fa-share-alt"></i> Compartir</span>
   </div>
-  <div class="itnews-post-share-buttons">
+  
+  <div class="itnews-share-pills">
+    <!-- WhatsApp -->
     <a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ postFullUrl | url_encode }}" 
        target="_blank" rel="noopener noreferrer" 
-       class="btn-share btn-whatsapp" title="Compartir en WhatsApp">
-      <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
+       class="share-pill share-pill-whatsapp" 
+       title="Compartir en WhatsApp" aria-label="Compartir en WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+      <span>WhatsApp</span>
     </a>
-    
+
+    <!-- LinkedIn -->
     <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ postFullUrl | url_encode }}" 
        target="_blank" rel="noopener noreferrer" 
-       class="btn-share btn-linkedin" title="Compartir en LinkedIn">
-      <i class="fab fa-linkedin-in"></i> <span>LinkedIn</span>
+       class="share-pill share-pill-linkedin" 
+       title="Compartir en LinkedIn" aria-label="Compartir en LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+      <span>LinkedIn</span>
     </a>
-    
+
+    <!-- X / Twitter -->
     <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ postFullUrl | url_encode }}" 
        target="_blank" rel="noopener noreferrer" 
-       class="btn-share btn-x" title="Compartir en X">
-      <i class="fab fa-twitter"></i> <span>X</span>
+       class="share-pill share-pill-x" 
+       title="Compartir en X" aria-label="Compartir en X">
+      <i class="fab fa-twitter"></i>
+      <span>X</span>
     </a>
-    
+
+    <!-- Facebook -->
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ postFullUrl | url_encode }}" 
        target="_blank" rel="noopener noreferrer" 
-       class="btn-share btn-facebook" title="Compartir en Facebook">
-      <i class="fab fa-facebook-f"></i> <span>Facebook</span>
+       class="share-pill share-pill-facebook" 
+       title="Compartir en Facebook" aria-label="Compartir en Facebook">
+      <i class="fab fa-facebook-f"></i>
+      <span>Facebook</span>
     </a>
-    
+
+    <!-- Email -->
     <a href="mailto:?subject={{ page.title | url_encode }}&body=Te%20comparto%20esta%20noticia%20de%20ITNEWS.LAT:%20{{ postFullUrl | url_encode }}" 
-       class="btn-share btn-email" title="Enviar por Correo">
-      <i class="far fa-envelope"></i> <span>Correo</span>
+       class="share-pill share-pill-email" 
+       title="Enviar por Correo" aria-label="Enviar por Correo">
+      <i class="far fa-envelope"></i>
+      <span>Email</span>
     </a>
-    
-    <button type="button" class="btn-share btn-copy" onclick="copyPostShareLink(this)" data-url="{{ postFullUrl }}" title="Copiar enlace">
-      <i class="fas fa-link"></i> <span>Copiar enlace</span>
+
+    <!-- Copiar Enlace -->
+    <button type="button" class="share-pill share-pill-copy" onclick="copyPostShareLink(this)" data-url="{{ postFullUrl }}" title="Copiar enlace" aria-label="Copiar enlace">
+      <i class="fas fa-link"></i>
+      <span class="copy-text">Copiar enlace</span>
     </button>
   </div>
 </div>

@@ -90,127 +90,153 @@
 
 /*
  * --------------------------------------------------
- * 4. Misc
- * Other stuff
- *--------------------------------------------------
+ * 4. Social Share Bar (Editorial B2B Elegance)
+ * --------------------------------------------------
  */
-
-/* Social Share Bar ITNEWS.LAT */
-.itnews-post-share {
-  margin: 35px 0 25px 0;
-  padding: 18px 20px;
-  background: #f8f9fa;
-  border-radius: 12px;
-  border: 1px solid #e9ecef;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-}
-
-.itnews-post-share-header {
+.itnews-share-box {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 14px;
-  font-size: 15px;
-  font-weight: 700;
-  color: #212529;
-}
-
-.itnews-post-share-header i {
-  color: #dc3545;
-  font-size: 16px;
-}
-
-.itnews-post-share-buttons {
-  display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  margin: 22px 0 24px 0;
+  background: #ffffff;
+  border-top: 1px solid #eef0f3;
+  border-bottom: 1px solid #eef0f3;
+  transition: all 0.25s ease;
 }
 
-.btn-share {
+.blog-content > .itnews-share-box:first-of-type {
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+
+.blog-content > .itnews-share-box:last-of-type {
+  margin-top: 36px;
+  margin-bottom: 20px;
+  background: #fbfcfd;
+  border-radius: 8px;
+  border: 1px solid #edf1f5;
+  padding: 16px 20px;
+}
+
+.itnews-share-caption {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.itnews-share-tag {
   display: inline-flex;
   align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #64748b;
+}
+
+.itnews-share-tag i {
+  color: #e62b1e;
+  font-size: 13px;
+}
+
+.itnews-share-pills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
-  padding: 8px 15px;
-  font-size: 13.5px;
+}
+
+.share-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 13px;
+  font-size: 12.5px;
   font-weight: 600;
-  color: #ffffff !important;
+  border-radius: 50px;
   text-decoration: none !important;
-  border-radius: 8px;
-  border: none;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  color: #334155 !important;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  outline: none;
 }
 
-.btn-share:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+.share-pill i {
+  font-size: 14px;
+  transition: transform 0.2s ease;
+}
+
+.share-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.share-pill:hover i {
+  transform: scale(1.1);
+}
+
+/* Hover específico refinado por red */
+.share-pill-whatsapp:hover {
+  background: #25d366;
+  border-color: #25d366;
   color: #ffffff !important;
 }
 
-.btn-share:active {
-  transform: translateY(0);
+.share-pill-linkedin:hover {
+  background: #0077b5;
+  border-color: #0077b5;
+  color: #ffffff !important;
 }
 
-/* Redes Sociales Colores */
-.btn-whatsapp {
-  background-color: #25d366;
-}
-.btn-whatsapp:hover {
-  background-color: #20ba5a;
+.share-pill-x:hover {
+  background: #0f1419;
+  border-color: #0f1419;
+  color: #ffffff !important;
 }
 
-.btn-linkedin {
-  background-color: #0077b5;
-}
-.btn-linkedin:hover {
-  background-color: #006097;
-}
-
-.btn-x {
-  background-color: #111111;
-}
-.btn-x:hover {
-  background-color: #000000;
+.share-pill-facebook:hover {
+  background: #1877f2;
+  border-color: #1877f2;
+  color: #ffffff !important;
 }
 
-.btn-facebook {
-  background-color: #1877f2;
-}
-.btn-facebook:hover {
-  background-color: #1464cc;
-}
-
-.btn-email {
-  background-color: #ea4335;
-}
-.btn-email:hover {
-  background-color: #c53427;
+.share-pill-email:hover {
+  background: #ea4335;
+  border-color: #ea4335;
+  color: #ffffff !important;
 }
 
-.btn-copy {
-  background-color: #495057;
-}
-.btn-copy:hover {
-  background-color: #343a40;
-}
-
-.btn-copy.copied {
-  background-color: #198754 !important;
+.share-pill-copy:hover {
+  background: #1e293b;
+  border-color: #1e293b;
+  color: #ffffff !important;
 }
 
-@media (max-width: 576px) {
-  .itnews-post-share {
-    padding: 14px 12px;
+.share-pill-copy.copied {
+  background: #10b981 !important;
+  border-color: #10b981 !important;
+  color: #ffffff !important;
+}
+
+@media (max-width: 768px) {
+  .itnews-share-box {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 14px;
   }
-  .itnews-post-share-buttons {
-    gap: 8px;
+  .itnews-share-pills {
+    width: 100%;
+    gap: 6px;
   }
-  .btn-share {
-    flex: 1 1 calc(50% - 8px);
-    justify-content: center;
-    padding: 9px 10px;
-    font-size: 13px;
+  .share-pill {
+    padding: 6px 11px;
+    font-size: 12px;
   }
 }

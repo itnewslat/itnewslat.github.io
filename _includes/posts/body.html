@@ -12,15 +12,18 @@
 
       <!--Main content of post-->
       <div class="blog-content">
-        <!-- Social Share Bar (Top) -->
-        {% include posts/share-bar.html %}
-
         <div class="blog-media">
           <img src="{{page.detail-image}}" alt="{{ page.title }}" class="img-fluid" />
         </div>
-        <p>{{ page.content }}</p>
 
-        <!-- Social Share Bar (Bottom) -->
+        <!-- Social Share Bar (Top compact under image) -->
+        {% include posts/share-bar.html %}
+
+        <div class="blog-article-body">
+          <p>{{ page.content }}</p>
+        </div>
+
+        <!-- Social Share Bar (Bottom full) -->
         {% include posts/share-bar.html %}
       </div>
     </div>
