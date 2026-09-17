@@ -51,7 +51,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <!-- Remixicon for sleek modern icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260915_04">
+  <link rel="stylesheet" href="styles.css?v=20260916_01">
 
   <!-- JSON-LD Structured Data Schema (NewsMediaOrganization + WebApplication) -->
   <script type="application/ld+json">
@@ -222,6 +222,60 @@
       </div>
     </div>
 
+    <!-- Newsletter Subscription Banner (Antes de Lo Último) -->
+    <section class="newsletter-card-wrapper" id="newsletterSubscriptionSection">
+      <div class="newsletter-card">
+        <div class="newsletter-card-glow"></div>
+        <div class="newsletter-info">
+          <div class="newsletter-badge">
+            <i class="ri-mail-send-fill"></i>
+            <span>Boletín Ejecutivo B2B</span>
+          </div>
+          <h3 class="newsletter-title">Suscríbete al Boletín de Noticias de ITNEWS.LAT</h3>
+          <p class="newsletter-subtitle">
+            Recibe semanalmente un resumen con las 10 noticias tecnológicas, ciberseguridad y negocios más relevantes de América Latina en tu bandeja de entrada.
+          </p>
+          <div class="newsletter-features">
+            <span><i class="ri-checkbox-circle-fill"></i> Sin spam</span>
+            <span><i class="ri-checkbox-circle-fill"></i> Cobertura regional</span>
+            <span><i class="ri-checkbox-circle-fill"></i> Directo a tu correo</span>
+          </div>
+        </div>
+
+        <form class="newsletter-form" id="newsletterForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="subNombre"><i class="ri-user-line"></i> Nombre *</label>
+              <input type="text" id="subNombre" name="nombre" placeholder="Ej. Carlos" required autocomplete="given-name">
+            </div>
+            <div class="form-group">
+              <label for="subApellido"><i class="ri-user-line"></i> Apellido *</label>
+              <input type="text" id="subApellido" name="apellido" placeholder="Ej. Mendoza" required autocomplete="family-name">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="subEmpresa"><i class="ri-building-line"></i> Empresa *</label>
+              <input type="text" id="subEmpresa" name="empresa" placeholder="Ej. Corporación Tech" required autocomplete="organization">
+            </div>
+            <div class="form-group">
+              <label for="subEmail"><i class="ri-mail-line"></i> Correo electrónico *</label>
+              <input type="email" id="subEmail" name="email" placeholder="carlos@empresa.com" required autocomplete="email">
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-newsletter-submit" id="btnNewsletterSubmit">
+              <span>Suscribirme al Boletín</span>
+              <i class="ri-send-plane-fill"></i>
+            </button>
+          </div>
+
+          <div class="newsletter-feedback" id="newsletterFeedback" style="display: none;"></div>
+        </form>
+      </div>
+    </section>
+
     <!-- Articles Grid -->
     <div class="news-grid" id="newsGrid">
       <!-- Skeleton Loading Cards -->
@@ -352,6 +406,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20260916_01"></script>
+  <script src="app.js?v=20260916_02"></script>
 </body>
 </html>

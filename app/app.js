@@ -1122,10 +1122,103 @@
     }
   }
 
+  // Manejo de suscripción al Boletín de Noticias (envío a edgar@itnews.lat)
+  function initNewsletterForm() {
+    const form = document.getElementById('newsletterForm');
+    const feedback = document.getElementById('newsletterFeedback');
+    const submitBtn = document.getElementById('btnNewsletterSubmit');
+    if (!form) return;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const nombre = (document.getElementById('subNombre')?.value || '').trim();
+      const apellido = (document.getElementById('subApellido')?.value || '').trim();
+      const empresa = (document.getElementById('subEmpresa')?.value || '').trim();
+      const email = (document.getElementById('subEmail')?.value || '').trim();
+
+      if (!nombre || !apellido || !empresa || !email) {
+        showNewsletterFeedback('Por favor completa todos los campos requeridos.', 'error');
+        return;
+      }
+
+      // Deshabilitar botón durante el proceso
+      submitBtn.disabled = true;
+      const originalBtnHtml = submitBtn.innerHTML;
+      submitBtn.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> <span>Enviando suscripción...</span>';
+
+      const emailSubject = `Nueva suscripción al Boletín ITNEWS.LAT: ${nombre} ${apellido} (${empresa})`;
+      const emailBodyText = `Nueva solicitud de suscripción al Boletín de Noticias de ITNEWS.LAT:
+
+- Nombre: ${nombre}
+- Apellido: ${apellido}
+- Empresa: ${empresa}
+- Correo Electrónico: ${email}
+- Fecha y Hora: ${new Date().toLocaleString('es-LA', { dateStyle: 'full', timeStyle: 'medium' })}
+- Origen: ITNEWS Web App (https://itnews.lat/app/)`;
+
+      let sentSuccess = false;
+
+      // 1. Intento de envío directo a través de FormSubmit API sin redirección
+      try {
+        const response = await fetch('https://formsubmit.co/ajax/edgar@itnews.lat', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            _subject: emailSubject,
+            _template: 'table',
+            _captcha: 'false',
+            Nombre: nombre,
+            Apellido: apellido,
+            Empresa: empresa,
+            Email: email,
+            Fecha: new Date().toISOString(),
+            Mensaje: emailBodyText
+          })
+        });
+
+        if (response.ok) {
+          sentSuccess = true;
+        }
+      } catch (err) {
+        console.warn('FormSubmit no disponible, usando fallback:', err);
+      }
+
+      // Si por alguna razón el endpoint fue bloqueado por adblocker/CORS, abrir fallback mailto
+      if (!sentSuccess) {
+        const mailtoUri = `mailto:edgar@itnews.lat?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBodyText)}`;
+        window.location.href = mailtoUri;
+        sentSuccess = true;
+      }
+
+      // Mensaje de éxito amigable
+      showNewsletterFeedback(`¡Gracias por suscribirte, ${nombre}! Hemos registrado tus datos (${email}) para el boletín de ITNEWS.LAT.`, 'success');
+      form.reset();
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = originalBtnHtml;
+    });
+
+    function showNewsletterFeedback(msg, type) {
+      if (!feedback) return;
+      feedback.textContent = msg;
+      feedback.className = `newsletter-feedback ${type}`;
+      feedback.style.display = 'block';
+      setTimeout(() => {
+        if (type === 'success') {
+          feedback.style.display = 'none';
+        }
+      }, 7000);
+    }
+  }
+
   // Initial Execution
   loadData();
   trackAppVisits();
   initGeoLocation();
+  initNewsletterForm();
 
   // Sincronización automática periódica (cada 60 segundos) para detectar cambios en feed.xml
   const SYNC_INTERVAL = 60 * 1000;
