@@ -29,5 +29,44 @@ function goBack() {
   })
 </script>
 {% include globals/google/script-analytics.html %}
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5889ea02f03c8098"></script>
+<script type="text/javascript">
+function copyPostShareLink(btn) {
+  var url = btn.getAttribute('data-url') || window.location.href;
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(function() {
+      showCopyFeedback(btn);
+    }).catch(function() {
+      fallbackCopy(url, btn);
+    });
+  } else {
+    fallbackCopy(url, btn);
+  }
+}
+
+function fallbackCopy(text, btn) {
+  var textArea = document.createElement('textarea');
+  textArea.value = text;
+  textArea.style.position = 'fixed';
+  textArea.style.opacity = '0';
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+  try {
+    document.execCommand('copy');
+    showCopyFeedback(btn);
+  } catch (err) {
+    alert('Enlace: ' + text);
+  }
+  document.body.removeChild(textArea);
+}
+
+function showCopyFeedback(btn) {
+  var originalHtml = btn.innerHTML;
+  btn.innerHTML = '<i class="fas fa-check"></i> <span>¡Copiado!</span>';
+  btn.classList.add('copied');
+  setTimeout(function() {
+    btn.innerHTML = originalHtml;
+    btn.classList.remove('copied');
+  }, 2200);
+}
+</script>

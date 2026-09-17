@@ -1,0 +1,42 @@
+<!-- Social Share Bar ITNEWS.LAT -->
+{% assign postFullUrl = site.url | default: 'https://itnews.lat' | append: page.url %}
+
+<div class="itnews-post-share">
+  <div class="itnews-post-share-header">
+    <i class="fas fa-share-alt"></i> <span>Compartir esta noticia:</span>
+  </div>
+  <div class="itnews-post-share-buttons">
+    <a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ postFullUrl | url_encode }}" 
+       target="_blank" rel="noopener noreferrer" 
+       class="btn-share btn-whatsapp" title="Compartir en WhatsApp">
+      <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
+    </a>
+    
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ postFullUrl | url_encode }}" 
+       target="_blank" rel="noopener noreferrer" 
+       class="btn-share btn-linkedin" title="Compartir en LinkedIn">
+      <i class="fab fa-linkedin-in"></i> <span>LinkedIn</span>
+    </a>
+    
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ postFullUrl | url_encode }}" 
+       target="_blank" rel="noopener noreferrer" 
+       class="btn-share btn-x" title="Compartir en X">
+      <i class="fab fa-twitter"></i> <span>X</span>
+    </a>
+    
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ postFullUrl | url_encode }}" 
+       target="_blank" rel="noopener noreferrer" 
+       class="btn-share btn-facebook" title="Compartir en Facebook">
+      <i class="fab fa-facebook-f"></i> <span>Facebook</span>
+    </a>
+    
+    <a href="mailto:?subject={{ page.title | url_encode }}&body=Te%20comparto%20esta%20noticia%20de%20ITNEWS.LAT:%20{{ postFullUrl | url_encode }}" 
+       class="btn-share btn-email" title="Enviar por Correo">
+      <i class="far fa-envelope"></i> <span>Correo</span>
+    </a>
+    
+    <button type="button" class="btn-share btn-copy" onclick="copyPostShareLink(this)" data-url="{{ postFullUrl }}" title="Copiar enlace">
+      <i class="fas fa-link"></i> <span>Copiar enlace</span>
+    </button>
+  </div>
+</div>

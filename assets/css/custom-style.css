@@ -94,3 +94,123 @@
  * Other stuff
  *--------------------------------------------------
  */
+
+/* Social Share Bar ITNEWS.LAT */
+.itnews-post-share {
+  margin: 35px 0 25px 0;
+  padding: 18px 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.itnews-post-share-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.itnews-post-share-header i {
+  color: #dc3545;
+  font-size: 16px;
+}
+
+.itnews-post-share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-share {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.btn-share:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  color: #ffffff !important;
+}
+
+.btn-share:active {
+  transform: translateY(0);
+}
+
+/* Redes Sociales Colores */
+.btn-whatsapp {
+  background-color: #25d366;
+}
+.btn-whatsapp:hover {
+  background-color: #20ba5a;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+}
+.btn-linkedin:hover {
+  background-color: #006097;
+}
+
+.btn-x {
+  background-color: #111111;
+}
+.btn-x:hover {
+  background-color: #000000;
+}
+
+.btn-facebook {
+  background-color: #1877f2;
+}
+.btn-facebook:hover {
+  background-color: #1464cc;
+}
+
+.btn-email {
+  background-color: #ea4335;
+}
+.btn-email:hover {
+  background-color: #c53427;
+}
+
+.btn-copy {
+  background-color: #495057;
+}
+.btn-copy:hover {
+  background-color: #343a40;
+}
+
+.btn-copy.copied {
+  background-color: #198754 !important;
+}
+
+@media (max-width: 576px) {
+  .itnews-post-share {
+    padding: 14px 12px;
+  }
+  .itnews-post-share-buttons {
+    gap: 8px;
+  }
+  .btn-share {
+    flex: 1 1 calc(50% - 8px);
+    justify-content: center;
+    padding: 9px 10px;
+    font-size: 13px;
+  }
+}
