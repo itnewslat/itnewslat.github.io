@@ -1723,6 +1723,16 @@ body {
   cursor: not-allowed;
 }
 
+.newsletter-disclaimer {
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: #ffffff !important;
+  opacity: 0.95;
+  margin: 4px 0 0 0;
+  text-align: right;
+  font-family: var(--font-body);
+}
+
 .newsletter-feedback {
   padding: 8px 14px;
   border-radius: 6px;
@@ -1765,6 +1775,9 @@ body {
   }
   .btn-newsletter-submit {
     width: 100%;
+  }
+  .newsletter-disclaimer {
+    text-align: center;
   }
 }
 
