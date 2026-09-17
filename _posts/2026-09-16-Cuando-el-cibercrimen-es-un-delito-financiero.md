@@ -17,7 +17,6 @@ tags:
   - Seguridad
 week: '38'
 ---
-
 Por **Adrián Sánchez, experto en cumplimiento, LexisNexis® Risk Solutions**
 
 El cibercrimen adopta muchas formas. Algunas operaciones cibernéticas se llevan a cabo con fines estratégicos, políticos o disruptivos, incluyendo espionaje y ataques a infraestructuras críticas. Otras están diseñadas para generar beneficios financieros mediante ransomware, compromiso de correos electrónicos empresariales, robo de identidad, estafas de inversión, fraude en pagos y otras actividades ilícitas.
