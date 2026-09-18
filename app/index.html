@@ -51,7 +51,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <!-- Remixicon for sleek modern icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260917_01">
+  <link rel="stylesheet" href="styles.css?v=20260917_05">
 
   <!-- JSON-LD Structured Data Schema (NewsMediaOrganization + WebApplication) -->
   <script type="application/ld+json">
@@ -142,7 +142,7 @@
     </div>
   </header>
 
-  <!-- Main Hero & Search Banner -->
+  <!-- Compact Hero & Integrated Search / Filter Bar -->
   <section class="hero-section">
     <div class="hero-content">
       <!-- Sponsor Banner (Abside) -->
@@ -152,58 +152,46 @@
         </a>
       </div>
 
-      <span class="hero-chip"><i class="ri-flashlight-line"></i> Tecnología B2B Regional en Latinoamérica</span>
-      <h2 class="hero-title">El pulso de la tecnología, ciberseguridad e innovación digital</h2>
-      
-      <!-- Search Box -->
-      <div class="search-wrapper">
+      <!-- Integrated Search & Filter Controls Bar -->
+      <div class="search-filter-bar">
         <div class="search-box">
           <i class="ri-search-2-line search-icon"></i>
-          <input type="text" id="searchInput" placeholder="Buscar por título, empresa, líder o tema..." autocomplete="off">
+          <input type="text" id="searchInput" placeholder="Buscar noticias, empresas, líderes..." autocomplete="off">
           <button id="clearSearchBtn" class="clear-btn" style="display:none;"><i class="ri-close-line"></i></button>
+        </div>
+
+        <div class="filter-dropdowns">
+          <div class="select-wrapper">
+            <i class="ri-earth-line select-icon"></i>
+            <select id="countrySelect" aria-label="Filtrar por país">
+              <option value="all">🌍 Todos los países</option>
+              <option value="Venezuela">🇻🇪 Venezuela</option>
+              <option value="Colombia">🇨🇴 Colombia</option>
+              <option value="México">🇲🇽 México</option>
+              <option value="Panamá">🇵🇦 Panamá</option>
+              <option value="Chile">🇨🇱 Chile</option>
+              <option value="Argentina">🇦🇷 Argentina</option>
+              <option value="Ecuador">🇪🇨 Ecuador</option>
+              <option value="Perú">🇵🇪 Perú</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper">
+            <i class="ri-price-tag-3-line select-icon"></i>
+            <select id="tagSelect" aria-label="Filtrar por temática">
+              <option value="all">🏷️ Todas las temáticas</option>
+              <option value="Transformación Digital">Transformación Digital</option>
+              <option value="Seguridad">Ciberseguridad</option>
+              <option value="Economía Digital">Economía Digital</option>
+              <option value="Actualidad">Actualidad</option>
+              <option value="Canales">Canales</option>
+              <option value="Data Center">Data Centers</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Filter & Navigation Bar -->
-  <div class="filters-container">
-    <!-- Country Filters -->
-    <div class="filter-group">
-      <div class="filter-header">
-        <i class="ri-earth-line"></i>
-        <span>Filtrar por País:</span>
-      </div>
-      <div class="chips-scroll" id="countryChips">
-        <button class="chip active" data-filter-type="country" data-value="all">Todos</button>
-        <button class="chip" data-filter-type="country" data-value="Venezuela">🇻🇪 Venezuela</button>
-        <button class="chip" data-filter-type="country" data-value="Colombia">🇨🇴 Colombia</button>
-        <button class="chip" data-filter-type="country" data-value="México">🇲🇽 México</button>
-        <button class="chip" data-filter-type="country" data-value="Panamá">🇵🇦 Panamá</button>
-        <button class="chip" data-filter-type="country" data-value="Chile">🇨🇱 Chile</button>
-        <button class="chip" data-filter-type="country" data-value="Argentina">🇦🇷 Argentina</button>
-        <button class="chip" data-filter-type="country" data-value="Ecuador">🇪🇨 Ecuador</button>
-        <button class="chip" data-filter-type="country" data-value="Perú">🇵🇪 Perú</button>
-      </div>
-    </div>
-
-    <!-- Category / Tag Filters -->
-    <div class="filter-group">
-      <div class="filter-header">
-        <i class="ri-price-tag-3-line"></i>
-        <span>Temáticas Clave:</span>
-      </div>
-      <div class="chips-scroll" id="tagChips">
-        <button class="chip active" data-filter-type="tag" data-value="all">Todas</button>
-        <button class="chip" data-filter-type="tag" data-value="Transformación Digital">Transformación Digital</button>
-        <button class="chip" data-filter-type="tag" data-value="Seguridad">Ciberseguridad</button>
-        <button class="chip" data-filter-type="tag" data-value="Economía Digital">Economía Digital</button>
-        <button class="chip" data-filter-type="tag" data-value="Actualidad">Actualidad</button>
-        <button class="chip" data-filter-type="tag" data-value="Canales">Canales</button>
-        <button class="chip" data-filter-type="tag" data-value="Data Center">Data Centers</button>
-      </div>
-    </div>
-  </div>
 
   <!-- Main Content Feed Area -->
   <main class="main-container">
@@ -212,17 +200,50 @@
       <div class="results-info">
         <span id="resultsCount">Cargando noticias...</span>
       </div>
-      <div class="results-sort">
-        <label for="sortSelect"><i class="ri-sort-desc"></i> Orden:</label>
-        <select id="sortSelect">
-          <option value="newest">Más recientes primero</option>
-          <option value="oldest">Más antiguos primero</option>
-          <option value="title">Alfabético</option>
-        </select>
+      <div class="results-actions">
+        <button id="headerSubscribeBtn" class="btn-subscribe-pill" title="Suscribirse al Boletín">
+          <i class="ri-mail-send-fill"></i>
+          <span>Boletín Semanal</span>
+        </button>
+        <div class="results-sort">
+          <label for="sortSelect"><i class="ri-sort-desc"></i> Orden:</label>
+          <select id="sortSelect">
+            <option value="newest">Más recientes primero</option>
+            <option value="oldest">Más antiguos primero</option>
+            <option value="title">Alfabético</option>
+          </select>
+        </div>
       </div>
     </div>
 
-    <!-- Newsletter Subscription Banner (Compacto y Letras Claras) -->
+    <!-- Articles Grid -->
+    <div class="news-grid" id="newsGrid">
+      <!-- Skeleton Loading Cards -->
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+
+    <!-- Empty State Message -->
+    <div class="empty-state" id="emptyState" style="display: none;">
+      <i class="ri-newspaper-line"></i>
+      <h3>No se encontraron publicaciones</h3>
+      <p>Intenta ajustar los filtros de país, etiqueta o los términos de tu búsqueda.</p>
+      <button id="resetFiltersBtn" class="btn btn-primary">Restablecer filtros</button>
+    </div>
+
+    <!-- Load More Pagination -->
+    <div class="pagination-wrapper" id="paginationWrapper" style="display: none;">
+      <button id="loadMoreBtn" class="btn btn-secondary">
+        <span>Cargar más publicaciones</span>
+        <i class="ri-arrow-down-line"></i>
+      </button>
+    </div>
+
+    <!-- Newsletter Subscription Banner (Ubicación estratégica antes de YouTube) -->
     <section class="newsletter-card-wrapper" id="newsletterSubscriptionSection">
       <div class="newsletter-card">
         <div class="newsletter-info">
@@ -231,7 +252,7 @@
             <h3 class="newsletter-title">Suscríbete al Boletín de ITNEWS.LAT</h3>
           </div>
           <p class="newsletter-subtitle">
-            Recibe semanalmente el resumen con las noticias tecnológicas más destacadas de la región.
+            Recibe semanalmente el resumen con las noticias tecnológicas y empresariales más destacadas de la región.
           </p>
         </div>
 
@@ -270,33 +291,6 @@
         </form>
       </div>
     </section>
-
-    <!-- Articles Grid -->
-    <div class="news-grid" id="newsGrid">
-      <!-- Skeleton Loading Cards -->
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-      <div class="skeleton-card"></div>
-    </div>
-
-    <!-- Empty State Message -->
-    <div class="empty-state" id="emptyState" style="display: none;">
-      <i class="ri-newspaper-line"></i>
-      <h3>No se encontraron publicaciones</h3>
-      <p>Intenta ajustar los filtros de país, etiqueta o los términos de tu búsqueda.</p>
-      <button id="resetFiltersBtn" class="btn btn-primary">Restablecer filtros</button>
-    </div>
-
-    <!-- Load More Pagination -->
-    <div class="pagination-wrapper" id="paginationWrapper" style="display: none;">
-      <button id="loadMoreBtn" class="btn btn-secondary">
-        <span>Cargar más publicaciones</span>
-        <i class="ri-arrow-down-line"></i>
-      </button>
-    </div>
 
     <!-- YouTube Channel Showcase Section (Canal @ITNewslat y Últimos Videos) -->
     <section class="youtube-showcase-section" id="youtubeShowcase">
@@ -475,6 +469,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20260916_02"></script>
+  <script src="app.js?v=20260917_05"></script>
 </body>
 </html>

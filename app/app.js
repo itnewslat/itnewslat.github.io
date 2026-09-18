@@ -23,9 +23,10 @@
   const paginationWrapper = document.getElementById('paginationWrapper');
   const searchInput = document.getElementById('searchInput');
   const clearSearchBtn = document.getElementById('clearSearchBtn');
-  const countryChips = document.getElementById('countryChips');
-  const tagChips = document.getElementById('tagChips');
+  const countrySelect = document.getElementById('countrySelect');
+  const tagSelect = document.getElementById('tagSelect');
   const sortSelect = document.getElementById('sortSelect');
+  const headerSubscribeBtn = document.getElementById('headerSubscribeBtn');
   const themeToggleBtn = document.getElementById('themeToggleBtn');
   const refreshFeedBtn = document.getElementById('refreshFeedBtn');
   const statusText = document.getElementById('statusText');
@@ -597,6 +598,73 @@
     `;
   }
 
+  // Patrocinadores B2B de Venezuela y Regionales
+  const SPONSOR_BANNERS = [
+    {
+      title: 'Digitel - SimplePlus y Soluciones Conectividad',
+      tag: 'Conectividad & Móvil',
+      badge: 'Patrocinante',
+      image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/DG_TIENDA_MEDIOS_ITNEWS.gif',
+      url: 'https://tienda.digitel.com.ve/?utm_source=WebAds&utm_medium=noticias&utm_campaign=digitel-simpleplus',
+      cta: 'Conocer más'
+    },
+    {
+      title: 'Daycohost - Centro Tecnológico & Cloud B2B',
+      tag: 'Cloud & Data Center',
+      badge: 'Aliado Estratégico',
+      image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Banner Daycohost.jpg',
+      url: 'https://daycohost.com/',
+      cta: 'Ver soluciones'
+    },
+    {
+      title: 'ESET Security Report 2024 - Ciberseguridad',
+      tag: 'Ciberseguridad',
+      badge: 'Informe Exclusivo',
+      image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITNEWS_Banner_ESR.png',
+      url: 'https://www.eset.com/latam/security-report/?utm_campaign=leads&utm_source=html&utm_medium=email&utm_term=esr-2023',
+      cta: 'Descargar reporte'
+    },
+    {
+      title: 'WOW Telecom - Red de Fibra Óptica Empresarial',
+      tag: 'Telecomunicaciones',
+      badge: 'Patrocinante',
+      image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/gif-zonas-wow.gif',
+      url: 'https://wow.com.ve/unete',
+      cta: 'Únete a WOW'
+    },
+    {
+      title: 'Business Wire - Distribución de Noticias Globales',
+      tag: 'Comunicaciones B2B',
+      badge: 'Alianza de Medios',
+      image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg',
+      url: 'https://itnews.lat/businesswire.html',
+      cta: 'Conocer alianza'
+    }
+  ];
+
+  function renderSponsorCard(sponsor) {
+    return `
+      <article class="news-card sponsor-card">
+        <a href="${escapeHtml(sponsor.url)}" target="_blank" rel="noopener noreferrer" class="sponsor-card-link" title="${escapeHtml(sponsor.title)}">
+          <div class="card-media sponsor-card-media">
+            <img src="${sponsor.image}" alt="${escapeHtml(sponsor.title)}" loading="lazy" />
+            <span class="sponsor-pill-badge"><i class="ri-shield-star-line"></i> ${escapeHtml(sponsor.badge)}</span>
+          </div>
+          <div class="card-content sponsor-card-content">
+            <div class="card-tags">
+              <span class="tag-badge sponsor-tag">#${escapeHtml(sponsor.tag)}</span>
+            </div>
+            <h3 class="card-title sponsor-title">${escapeHtml(sponsor.title)}</h3>
+            <div class="sponsor-cta-bar">
+              <span>${escapeHtml(sponsor.cta)}</span>
+              <i class="ri-arrow-right-up-line"></i>
+            </div>
+          </div>
+        </a>
+      </article>
+    `;
+  }
+
   // Render Grid
   function renderPosts() {
     resultsCount.textContent = `${filteredPosts.length} publicaciones encontradas`;
@@ -641,7 +709,7 @@
       let hasRenderedLatestHeader = false;
       let hasRenderedPreviousHeader = false;
 
-      toShow.forEach(post => {
+      toShow.forEach((post, index) => {
         const postDateOnly = post.date ? post.date.substring(0, 10) : '';
         const isLatestDay = Boolean(firstPostDate && postDateOnly === firstPostDate);
 
@@ -664,9 +732,21 @@
         }
 
         renderedHtml += renderPostCard(post);
+
+        // Intercalar una tarjeta de patrocinador cada 5 noticias
+        if ((index + 1) % 5 === 0 && SPONSOR_BANNERS.length > 0) {
+          const sponsorIndex = Math.floor((index / 5)) % SPONSOR_BANNERS.length;
+          renderedHtml += renderSponsorCard(SPONSOR_BANNERS[sponsorIndex]);
+        }
       });
     } else {
-      renderedHtml += toShow.map(post => renderPostCard(post)).join('');
+      toShow.forEach((post, index) => {
+        renderedHtml += renderPostCard(post);
+        if ((index + 1) % 5 === 0 && SPONSOR_BANNERS.length > 0) {
+          const sponsorIndex = Math.floor((index / 5)) % SPONSOR_BANNERS.length;
+          renderedHtml += renderSponsorCard(SPONSOR_BANNERS[sponsorIndex]);
+        }
+      });
     }
 
     newsGrid.innerHTML = renderedHtml;
@@ -937,53 +1017,65 @@
     applyFiltersAndSort();
   });
 
-  countryChips.addEventListener('click', (e) => {
-    if (!e.target.classList.contains('chip')) return;
-    countryChips.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-    e.target.classList.add('active');
-    currentCountry = e.target.getAttribute('data-value');
-    applyFiltersAndSort();
-  });
-
-  tagChips.addEventListener('click', (e) => {
-    if (!e.target.classList.contains('chip')) return;
-    tagChips.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-    e.target.classList.add('active');
-    currentTag = e.target.getAttribute('data-value');
-    applyFiltersAndSort();
-  });
-
-  sortSelect.addEventListener('change', (e) => {
-    sortBy = e.target.value;
-    applyFiltersAndSort();
-  });
-
-  refreshFeedBtn.addEventListener('click', () => {
-    refreshFeedBtn.style.transform = 'rotate(360deg)';
-    refreshFeedBtn.style.transition = 'transform 0.5s ease';
-    loadData().then(() => {
-      setTimeout(() => {
-        refreshFeedBtn.style.transform = '';
-        refreshFeedBtn.style.transition = '';
-      }, 500);
+  if (countrySelect) {
+    countrySelect.addEventListener('change', (e) => {
+      currentCountry = e.target.value;
+      applyFiltersAndSort();
     });
-  });
+  }
 
-  resetFiltersBtn.addEventListener('click', () => {
-    currentCountry = 'all';
-    currentTag = 'all';
-    searchQuery = '';
-    searchInput.value = '';
-    clearSearchBtn.style.display = 'none';
+  if (tagSelect) {
+    tagSelect.addEventListener('change', (e) => {
+      currentTag = e.target.value;
+      applyFiltersAndSort();
+    });
+  }
 
-    countryChips.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-    countryChips.querySelector('[data-value="all"]').classList.add('active');
+  if (headerSubscribeBtn) {
+    headerSubscribeBtn.addEventListener('click', () => {
+      const targetSection = document.getElementById('newsletterSubscriptionSection');
+      if (targetSection) {
+        targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const firstInput = targetSection.querySelector('input');
+        if (firstInput) setTimeout(() => firstInput.focus(), 600);
+      }
+    });
+  }
 
-    tagChips.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-    tagChips.querySelector('[data-value="all"]').classList.add('active');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', (e) => {
+      sortBy = e.target.value;
+      applyFiltersAndSort();
+    });
+  }
 
-    applyFiltersAndSort();
-  });
+  if (refreshFeedBtn) {
+    refreshFeedBtn.addEventListener('click', () => {
+      refreshFeedBtn.style.transform = 'rotate(360deg)';
+      refreshFeedBtn.style.transition = 'transform 0.5s ease';
+      loadData().then(() => {
+        setTimeout(() => {
+          refreshFeedBtn.style.transform = '';
+          refreshFeedBtn.style.transition = '';
+        }, 500);
+      });
+    });
+  }
+
+  if (resetFiltersBtn) {
+    resetFiltersBtn.addEventListener('click', () => {
+      currentCountry = 'all';
+      currentTag = 'all';
+      searchQuery = '';
+      if (searchInput) searchInput.value = '';
+      if (clearSearchBtn) clearSearchBtn.style.display = 'none';
+
+      if (countrySelect) countrySelect.value = 'all';
+      if (tagSelect) tagSelect.value = 'all';
+
+      applyFiltersAndSort();
+    });
+  }
 
   // Utilities
   function escapeHtml(str) {
@@ -1110,11 +1202,11 @@
       // Si el visitante proviene de un país cubierto y no tiene filtro manual fijado
       if (detectedCountry && !sessionStorage.getItem('itnews_geo_hint_shown')) {
         sessionStorage.setItem('itnews_geo_hint_shown', 'true');
-        const targetChip = countryChips.querySelector(`.chip[data-value="${detectedCountry}"]`);
-        if (targetChip) {
-          // Destacar suavemente el chip del país local
-          targetChip.style.borderColor = 'var(--brand-primary)';
-          targetChip.setAttribute('title', `Detectamos tu región: ${detectedCountry}`);
+        if (countrySelect) {
+          const option = countrySelect.querySelector(`option[value="${detectedCountry}"]`);
+          if (option) {
+            countrySelect.title = `Detectamos tu región: ${detectedCountry}`;
+          }
         }
       }
     } catch (e) {
