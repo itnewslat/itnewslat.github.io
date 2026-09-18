@@ -598,24 +598,8 @@
     `;
   }
 
-  // Patrocinadores B2B de Venezuela y Regionales
+  // Patrocinadores B2B (300x300: WOW Telecom y ESET)
   const SPONSOR_BANNERS = [
-    {
-      title: 'Digitel - SimplePlus y Soluciones Conectividad',
-      tag: 'Conectividad & Móvil',
-      badge: 'Patrocinante',
-      image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/DG_TIENDA_MEDIOS_ITNEWS.gif',
-      url: 'https://tienda.digitel.com.ve/?utm_source=WebAds&utm_medium=noticias&utm_campaign=digitel-simpleplus',
-      cta: 'Conocer más'
-    },
-    {
-      title: 'Daycohost - Centro Tecnológico & Cloud B2B',
-      tag: 'Cloud & Data Center',
-      badge: 'Aliado Estratégico',
-      image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Banner Daycohost.jpg',
-      url: 'https://daycohost.com/',
-      cta: 'Ver soluciones'
-    },
     {
       title: 'ESET Security Report 2024 - Ciberseguridad',
       tag: 'Ciberseguridad',
@@ -631,14 +615,6 @@
       image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/gif-zonas-wow.gif',
       url: 'https://wow.com.ve/unete',
       cta: 'Únete a WOW'
-    },
-    {
-      title: 'Business Wire - Distribución de Noticias Globales',
-      tag: 'Comunicaciones B2B',
-      badge: 'Alianza de Medios',
-      image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg',
-      url: 'https://itnews.lat/businesswire.html',
-      cta: 'Conocer alianza'
     }
   ];
 
