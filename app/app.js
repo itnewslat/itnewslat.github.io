@@ -598,45 +598,6 @@
     `;
   }
 
-  // Patrocinadores B2B (300x300: WOW Telecom y ESET)
-  const SPONSOR_BANNERS = [
-    {
-      title: 'ESET Security Report 2024 - Ciberseguridad',
-      tag: 'Ciberseguridad',
-      badge: 'Informe Exclusivo',
-      image: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITNEWS_Banner_ESR.png',
-      url: 'https://www.eset.com/latam/security-report/?utm_campaign=leads&utm_source=html&utm_medium=email&utm_term=esr-2023',
-      cta: 'Descargar reporte'
-    },
-    {
-      title: 'WOW Telecom - Red de Fibra Óptica Empresarial',
-      tag: 'Telecomunicaciones',
-      badge: 'Patrocinante',
-      image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/gif-zonas-wow.gif',
-      url: 'https://wow.com.ve/unete',
-      cta: 'Únete a WOW'
-    }
-  ];
-
-  function renderSponsorCard(sponsor) {
-    return `
-      <div class="news-feed-sponsor" title="Publicidad: ${escapeHtml(sponsor.title)}">
-        <a href="${escapeHtml(sponsor.url)}" target="_blank" rel="noopener noreferrer" class="sponsor-clean-link">
-          <div class="sponsor-clean-banner">
-            <span class="sponsor-clean-label">PUBLICIDAD</span>
-            <img src="${sponsor.image}" alt="${escapeHtml(sponsor.title)}" loading="lazy" />
-          </div>
-          <div class="sponsor-clean-info">
-            <span class="sponsor-clean-title">${escapeHtml(sponsor.title)}</span>
-            <span class="sponsor-clean-action">
-              <span>${escapeHtml(sponsor.cta || 'Conocer más')}</span>
-              <i class="ri-arrow-right-up-line"></i>
-            </span>
-          </div>
-        </a>
-      </div>
-    `;
-  }
 
   // Render Grid
   function renderPosts() {
@@ -705,20 +666,10 @@
         }
 
         renderedHtml += renderPostCard(post);
-
-        // Intercalar una tarjeta de patrocinador cada 5 noticias
-        if ((index + 1) % 5 === 0 && SPONSOR_BANNERS.length > 0) {
-          const sponsorIndex = Math.floor((index / 5)) % SPONSOR_BANNERS.length;
-          renderedHtml += renderSponsorCard(SPONSOR_BANNERS[sponsorIndex]);
-        }
       });
     } else {
-      toShow.forEach((post, index) => {
+      toShow.forEach((post) => {
         renderedHtml += renderPostCard(post);
-        if ((index + 1) % 5 === 0 && SPONSOR_BANNERS.length > 0) {
-          const sponsorIndex = Math.floor((index / 5)) % SPONSOR_BANNERS.length;
-          renderedHtml += renderSponsorCard(SPONSOR_BANNERS[sponsorIndex]);
-        }
       });
     }
 
