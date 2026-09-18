@@ -644,24 +644,21 @@
 
   function renderSponsorCard(sponsor) {
     return `
-      <article class="news-card sponsor-card">
-        <a href="${escapeHtml(sponsor.url)}" target="_blank" rel="noopener noreferrer" class="sponsor-card-link" title="${escapeHtml(sponsor.title)}">
-          <div class="card-media sponsor-card-media">
+      <div class="news-feed-sponsor" title="Publicidad: ${escapeHtml(sponsor.title)}">
+        <a href="${escapeHtml(sponsor.url)}" target="_blank" rel="noopener noreferrer" class="sponsor-clean-link">
+          <div class="sponsor-clean-banner">
+            <span class="sponsor-clean-label">PUBLICIDAD</span>
             <img src="${sponsor.image}" alt="${escapeHtml(sponsor.title)}" loading="lazy" />
-            <span class="sponsor-pill-badge"><i class="ri-shield-star-line"></i> ${escapeHtml(sponsor.badge)}</span>
           </div>
-          <div class="card-content sponsor-card-content">
-            <div class="card-tags">
-              <span class="tag-badge sponsor-tag">#${escapeHtml(sponsor.tag)}</span>
-            </div>
-            <h3 class="card-title sponsor-title">${escapeHtml(sponsor.title)}</h3>
-            <div class="sponsor-cta-bar">
-              <span>${escapeHtml(sponsor.cta)}</span>
+          <div class="sponsor-clean-info">
+            <span class="sponsor-clean-title">${escapeHtml(sponsor.title)}</span>
+            <span class="sponsor-clean-action">
+              <span>${escapeHtml(sponsor.cta || 'Conocer más')}</span>
               <i class="ri-arrow-right-up-line"></i>
-            </div>
+            </span>
           </div>
         </a>
-      </article>
+      </div>
     `;
   }
 
