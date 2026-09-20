@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: SAP AI Fest Colombia 2026: IA, datos y aplicaciones impulsan la evolución hacia la empresa autónoma
+title: SAP AI Fest Colombia 2026, IA, datos y aplicaciones impulsan la evolución hacia la empresa autónoma
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/SAP-Colombia-p.jpg
 detail-image: >-
@@ -17,7 +17,6 @@ tags:
   - Tnsformación Digital
 week: '38'
 ---
-
 - SAP AI Fest Colombia reunió alrededor de 1.000 asistentes del sector empresarial y tecnológico para explorar cómo la inteligencia artificial está transformando las operaciones y la toma de decisiones.
 
 - SAP presentó su visión de empresa autónoma y la evolución de su portafolio, con la inteligencia artificial, los datos y las aplicaciones integradas como pilares de esta transformación.
