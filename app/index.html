@@ -314,8 +314,32 @@
         </a>
       </div>
 
-      <div class="youtube-videos-grid">
-        <!-- Video 1 -->
+      <div class="youtube-videos-grid" id="youtubeVideosGrid">
+        <!-- Video 1 (Cargado / Fallback actualizado) -->
+        <div class="youtube-video-card">
+          <div class="video-embed-wrapper">
+            <iframe 
+              src="https://www.youtube-nocookie.com/embed/rygN78ODvbw" 
+              title="ABSIDE nombra director comercial - IT NEWS Latinoamerica" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen 
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="video-card-content">
+            <span class="video-tag"><i class="ri-play-circle-fill"></i> Último Episodio</span>
+            <h4 class="video-title">ABSIDE nombra director comercial</h4>
+            <div class="video-footer">
+              <span class="video-channel"><i class="ri-tv-line"></i> @ITNewslat</span>
+              <a href="https://www.youtube.com/watch?v=rygN78ODvbw" target="_blank" rel="noopener noreferrer" class="video-link" title="Ver en YouTube">
+                <span>Ver en YouTube</span>
+                <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 2 (Cargado / Fallback actualizado) -->
         <div class="youtube-video-card">
           <div class="video-embed-wrapper">
             <iframe 
@@ -327,35 +351,11 @@
             </iframe>
           </div>
           <div class="video-card-content">
-            <span class="video-tag"><i class="ri-play-circle-fill"></i> Último Episodio</span>
+            <span class="video-tag"><i class="ri-play-circle-fill"></i> Episodio Reciente</span>
             <h4 class="video-title">Hablemos de las providencias de Conatel</h4>
             <div class="video-footer">
               <span class="video-channel"><i class="ri-tv-line"></i> @ITNewslat</span>
               <a href="https://www.youtube.com/watch?v=PVnnNdO4EX8" target="_blank" rel="noopener noreferrer" class="video-link" title="Ver en YouTube">
-                <span>Ver en YouTube</span>
-                <i class="ri-external-link-line"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Video 2 -->
-        <div class="youtube-video-card">
-          <div class="video-embed-wrapper">
-            <iframe 
-              src="https://www.youtube-nocookie.com/embed/yO7DUVbbUMk" 
-              title="CASETEL aboga por una regulación alineada con estándares - IT NEWS Latinoamerica" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen 
-              loading="lazy">
-            </iframe>
-          </div>
-          <div class="video-card-content">
-            <span class="video-tag"><i class="ri-play-circle-fill"></i> Episodio Reciente</span>
-            <h4 class="video-title">CASETEL aboga por una regulación alineada con estándares</h4>
-            <div class="video-footer">
-              <span class="video-channel"><i class="ri-tv-line"></i> @ITNewslat</span>
-              <a href="https://www.youtube.com/watch?v=yO7DUVbbUMk" target="_blank" rel="noopener noreferrer" class="video-link" title="Ver en YouTube">
                 <span>Ver en YouTube</span>
                 <i class="ri-external-link-line"></i>
               </a>
@@ -469,6 +469,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20260917_08"></script>
+  <script src="app.js?v=20260920_01"></script>
 </body>
 </html>

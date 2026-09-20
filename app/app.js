@@ -1230,11 +1230,119 @@
     }
   }
 
+  // Carga dinámica de los últimos 2 videos del canal oficial de YouTube (@ITNewslat)
+  async function fetchLatestYouTubeVideos() {
+    const gridEl = document.getElementById('youtubeVideosGrid');
+    if (!gridEl) return;
+
+    const CHANNEL_ID = 'UCgEao3W5gdupDW1nvf9gAgg';
+    const CACHE_KEY = 'itnews_latest_yt_videos';
+    const CACHE_TIME_KEY = 'itnews_latest_yt_videos_time';
+    const ONE_HOUR = 60 * 60 * 1000;
+
+    function renderVideos(videos) {
+      if (!videos || !videos.length) return;
+      const html = videos.slice(0, 2).map((vid, idx) => {
+        const isFirst = idx === 0;
+        const tagText = isFirst ? 'Último Episodio' : 'Episodio Reciente';
+        const videoId = escapeHtml(vid.id);
+        const title = escapeHtml(vid.title);
+        const url = escapeHtml(vid.url || `https://www.youtube.com/watch?v=${videoId}`);
+
+        return `
+          <div class="youtube-video-card">
+            <div class="video-embed-wrapper">
+              <iframe 
+                src="https://www.youtube-nocookie.com/embed/${videoId}" 
+                title="${title} - IT NEWS Latinoamerica" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen 
+                loading="lazy">
+              </iframe>
+            </div>
+            <div class="video-card-content">
+              <span class="video-tag"><i class="ri-play-circle-fill"></i> ${tagText}</span>
+              <h4 class="video-title">${title}</h4>
+              <div class="video-footer">
+                <span class="video-channel"><i class="ri-tv-line"></i> @ITNewslat</span>
+                <a href="${url}" target="_blank" rel="noopener noreferrer" class="video-link" title="Ver en YouTube">
+                  <span>Ver en YouTube</span>
+                  <i class="ri-external-link-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      gridEl.innerHTML = html;
+    }
+
+    // 1. Cargar caché inmediata si existe
+    try {
+      const cached = localStorage.getItem(CACHE_KEY);
+      const cacheTime = localStorage.getItem(CACHE_TIME_KEY);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (Array.isArray(parsed) && parsed.length >= 2) {
+          renderVideos(parsed);
+          // Si la caché tiene menos de 1 hora, no necesitamos consultar de inmediato
+          if (cacheTime && (Date.now() - Number(cacheTime) < ONE_HOUR)) {
+            return;
+          }
+        }
+      }
+    } catch (e) {
+      // Continuar con la petición de red
+    }
+
+    // 2. Consultar en vivo mediante rss2json (compatible con CORS)
+    try {
+      const feedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}`;
+      const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`;
+      
+      const res = await fetch(apiUrl, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+
+      if (data && data.status === 'ok' && Array.isArray(data.items) && data.items.length > 0) {
+        const parsedVideos = data.items.slice(0, 4).map(item => {
+          let id = '';
+          if (item.guid && item.guid.includes('yt:video:')) {
+            id = item.guid.replace('yt:video:', '');
+          } else if (item.link) {
+            const match = item.link.match(/(?:v=|shorts\/|youtu\.be\/)([\w-]+)/);
+            if (match) id = match[1];
+          }
+          return {
+            id: id,
+            title: item.title || 'Video de IT NEWS Latinoamerica',
+            url: item.link || `https://www.youtube.com/watch?v=${id}`,
+            pubDate: item.pubDate || ''
+          };
+        }).filter(v => Boolean(v.id));
+
+        if (parsedVideos.length >= 2) {
+          renderVideos(parsedVideos);
+          try {
+            localStorage.setItem(CACHE_KEY, JSON.stringify(parsedVideos));
+            localStorage.setItem(CACHE_TIME_KEY, Date.now().toString());
+          } catch (storageErr) {
+            // Silencioso
+          }
+        }
+      }
+    } catch (netErr) {
+      console.warn('No se pudo actualizar la lista dinámica de YouTube desde RSS:', netErr);
+    }
+  }
+
   // Initial Execution
   loadData();
   trackAppVisits();
   initGeoLocation();
   initNewsletterForm();
+  fetchLatestYouTubeVideos();
 
   // Sincronización automática periódica (cada 60 segundos) para detectar cambios en feed.xml
   const SYNC_INTERVAL = 60 * 1000;
