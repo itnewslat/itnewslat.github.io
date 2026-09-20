@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-09-20T17:30:00Z",
+  "banners": {
+    "hero_banner": {
+      "id": "hero_banner",
+      "name": "Banner Principal (Cabecera / Hero)",
+      "position": "Tope de la app sobre buscador",
+      "format": "728x90",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/ITNEWSLAT-ABSIDE.gif",
+      "targetUrl": "https://abside.com/",
+      "title": "Abside - Patrocinante Oficial",
+      "active": true
+    },
+    "reader_top": {
+      "id": "reader_top",
+      "name": "Banner Superior del Lector",
+      "position": "Tope interior al abrir noticia",
+      "format": "728x90",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Disponible-publicidad.jpg",
+      "targetUrl": "https://itnews.lat/Publicidad.html",
+      "title": "Espacio Publicitario Disponible ITNEWS",
+      "active": true
+    },
+    "reader_bottom": {
+      "id": "reader_bottom",
+      "name": "Banner Inferior del Lector",
+      "position": "Pie interior al final de la noticia",
+      "format": "728x90",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Publicidad.jpg",
+      "targetUrl": "https://itnews.lat/Publicidad.html",
+      "title": "Publicidad Oficial ITNEWS",
+      "active": true
+    }
+  }
+}

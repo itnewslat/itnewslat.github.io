@@ -1337,12 +1337,96 @@
     }
   }
 
+  // Sincronización y Carga Dinámica de Banners (Gestión Centralizada y Remota)
+  async function loadDynamicBanners() {
+    const BANNERS_CONFIG_KEY = 'itnews_custom_banners';
+    const BANNERS_TIME_KEY = 'itnews_custom_banners_time';
+
+    function applyBannersData(data) {
+      if (!data || !data.banners) return;
+      const b = data.banners;
+
+      // 1. Hero Banner
+      if (b.hero_banner) {
+        const linkEl = document.getElementById('appHeroBannerLink');
+        const imgEl = document.getElementById('appHeroBannerImg');
+        const container = linkEl ? linkEl.closest('.hero-banner-container') : null;
+        if (b.hero_banner.active === false) {
+          if (container) container.style.display = 'none';
+        } else {
+          if (container) container.style.display = 'flex';
+          if (linkEl && b.hero_banner.targetUrl) linkEl.href = b.hero_banner.targetUrl;
+          if (linkEl && b.hero_banner.title) linkEl.title = b.hero_banner.title;
+          if (imgEl && b.hero_banner.imageUrl) imgEl.src = b.hero_banner.imageUrl;
+          if (imgEl && b.hero_banner.title) imgEl.alt = b.hero_banner.title;
+        }
+      }
+
+      // 2. Reader Top Banner
+      if (b.reader_top) {
+        const topLink = document.getElementById('appReaderBannerTopLink');
+        const topImg = document.getElementById('appReaderBannerTopImg');
+        const topWrap = document.getElementById('appReaderBannerTopWrapper');
+        if (b.reader_top.active === false) {
+          if (topWrap) topWrap.style.display = 'none';
+        } else {
+          if (topWrap) topWrap.style.display = 'block';
+          if (topLink && b.reader_top.targetUrl) topLink.href = b.reader_top.targetUrl;
+          if (topLink && b.reader_top.title) topLink.title = b.reader_top.title;
+          if (topImg && b.reader_top.imageUrl) topImg.src = b.reader_top.imageUrl;
+          if (topImg && b.reader_top.title) topImg.alt = b.reader_top.title;
+        }
+      }
+
+      // 3. Reader Bottom Banner
+      if (b.reader_bottom) {
+        const botLink = document.getElementById('appReaderBannerBottomLink');
+        const botImg = document.getElementById('appReaderBannerBottomImg');
+        const botWrap = document.getElementById('appReaderBannerBottomWrapper');
+        if (b.reader_bottom.active === false) {
+          if (botWrap) botWrap.style.display = 'none';
+        } else {
+          if (botWrap) botWrap.style.display = 'block';
+          if (botLink && b.reader_bottom.targetUrl) botLink.href = b.reader_bottom.targetUrl;
+          if (botLink && b.reader_bottom.title) botLink.title = b.reader_bottom.title;
+          if (botImg && b.reader_bottom.imageUrl) botImg.src = b.reader_bottom.imageUrl;
+          if (botImg && b.reader_bottom.title) botImg.alt = b.reader_bottom.title;
+        }
+      }
+    }
+
+    // A. Carga instantánea desde caché local o anulación desde panel administrativo
+    try {
+      const stored = localStorage.getItem(BANNERS_CONFIG_KEY);
+      if (stored) {
+        applyBannersData(JSON.parse(stored));
+      }
+    } catch (e) {}
+
+    // B. Carga desde endpoint remoto configurado o banners.json local
+    try {
+      const remoteEndpoint = localStorage.getItem('itnews_remote_banners_api') || 'banners.json?t=' + Date.now();
+      const res = await fetch(remoteEndpoint, { cache: 'no-store' });
+      if (res.ok) {
+        const data = await res.json();
+        applyBannersData(data);
+        try {
+          localStorage.setItem(BANNERS_CONFIG_KEY, JSON.stringify(data));
+          localStorage.setItem(BANNERS_TIME_KEY, Date.now().toString());
+        } catch (e) {}
+      }
+    } catch (err) {
+      console.debug('Usando configuración actual de banners');
+    }
+  }
+
   // Initial Execution
   loadData();
   trackAppVisits();
   initGeoLocation();
   initNewsletterForm();
   fetchLatestYouTubeVideos();
+  loadDynamicBanners();
 
   // Sincronización automática periódica (cada 60 segundos) para detectar cambios en feed.xml
   const SYNC_INTERVAL = 60 * 1000;

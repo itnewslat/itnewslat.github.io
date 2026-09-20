@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ITNEWS | Panel Confidencial de Banners</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #0a0d14;
+      --bg-card: #121722;
+      --bg-input: #1a2232;
+      --border-color: #263347;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --brand: #e62b1e;
+      --brand-hover: #cc2216;
+      --success: #10b981;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Auth Overlay */
+    .auth-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 13, 20, 0.95);
+      backdrop-filter: blur(12px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 20px;
+    }
+
+    .auth-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 32px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    .auth-icon {
+      width: 56px;
+      height: 56px;
+      background: rgba(230, 43, 30, 0.12);
+      border: 1px solid rgba(230, 43, 30, 0.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      color: var(--brand);
+      margin: 0 auto 16px;
+    }
+
+    .auth-card h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .auth-card p {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      text-align: left;
+      margin-bottom: 18px;
+    }
+
+    .form-group label {
+      font-size: 12px;
+      font-weight: 600;
+      color: #cbd5e1;
+    }
+
+    .form-group input, .form-group textarea {
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: #ffffff;
+      font-size: 13.5px;
+      font-family: inherit;
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    .form-group input:focus, .form-group textarea:focus {
+      border-color: var(--brand);
+      box-shadow: 0 0 0 3px rgba(230, 43, 30, 0.25);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 11px 20px;
+      border-radius: 8px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+      width: 100%;
+    }
+
+    .btn-primary {
+      background: var(--brand);
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: var(--brand-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #202b3d;
+      color: #e2e8f0;
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-secondary:hover {
+      background: #2a374e;
+    }
+
+    .auth-error {
+      color: #ef4444;
+      font-size: 12px;
+      margin-top: 10px;
+      display: none;
+    }
+
+    /* Main Admin Panel */
+    .admin-header {
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border-color);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .admin-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .admin-brand img {
+      height: 32px;
+      width: auto;
+    }
+
+    .admin-brand span {
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-muted);
+      border-left: 1px solid var(--border-color);
+      padding-left: 12px;
+    }
+
+    .admin-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .admin-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      width: 100%;
+    }
+
+    .panel-intro {
+      margin-bottom: 28px;
+    }
+
+    .panel-intro h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .panel-intro p {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    .banners-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-bottom: 30px;
+    }
+
+    .banner-edit-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .banner-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 14px;
+    }
+
+    .banner-title-info h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .banner-title-info span {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .toggle-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .banner-inputs-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    @media (max-width: 768px) {
+      .banner-inputs-grid { grid-template-columns: 1fr; }
+    }
+
+    .banner-preview-box {
+      background: #000;
+      border: 1px dashed var(--border-color);
+      border-radius: 8px;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100px;
+    }
+
+    .banner-preview-box img {
+      max-width: 100%;
+      height: auto;
+      max-height: 90px;
+      object-fit: contain;
+    }
+
+    .admin-actions-bar {
+      position: sticky;
+      bottom: 20px;
+      background: rgba(18, 23, 34, 0.95);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .status-msg {
+      font-size: 13.5px;
+      font-weight: 600;
+    }
+
+    .status-msg.success { color: var(--success); }
+    .status-msg.error { color: #ef4444; }
+
+    .modal-export {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      backdrop-filter: blur(6px);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-export-content {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      max-width: 650px;
+      width: 100%;
+    }
+
+    .modal-export-content textarea {
+      width: 100%;
+      height: 220px;
+      background: #0d1117;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: #4ade80;
+      font-family: monospace;
+      padding: 12px;
+      font-size: 12px;
+      margin: 14px 0;
+      resize: vertical;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Modal de Autenticación Confidencial -->
+  <div class="auth-overlay" id="authOverlay">
+    <div class="auth-card">
+      <div class="auth-icon"><i class="ri-lock-password-line"></i></div>
+      <h2>Acceso Administrativo</h2>
+      <p>Gestión Confidencial de Banners y Publicidad ITNEWS</p>
+      
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="adminKeyInput">Contraseña Maestra</label>
+          <input type="password" id="adminKeyInput" placeholder="Introduce tu clave de acceso" autocomplete="current-password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          <i class="ri-login-box-line"></i> Ingresar al Panel
+        </button>
+        <div class="auth-error" id="authError">Contraseña incorrecta. Acceso restringido.</div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="admin-header">
+    <div class="admin-brand">
+      <img src="https://itnews.lat/assets/imagenes/logo_large_red.png" alt="ITNEWS">
+      <span>Ad Manager Confidencial</span>
+    </div>
+    <div class="admin-controls">
+      <a href="./" target="_blank" class="btn btn-secondary" style="width: auto; padding: 8px 14px; font-size: 13px;">
+        <i class="ri-external-link-line"></i> Ver /app en vivo
+      </a>
+      <button id="logoutBtn" class="btn btn-secondary" style="width: auto; padding: 8px 14px; font-size: 13px;">
+        <i class="ri-logout-box-r-line"></i> Salir
+      </button>
+    </div>
+  </header>
+
+  <!-- Panel Container -->
+  <main class="admin-container">
+    <div class="panel-intro">
+      <h1>Control de Banners y Enlaces (/app)</h1>
+      <p>Modifica aquí los enlaces a los que apuntan los banners, las imágenes activas y la visibilidad de cada anuncio en tiempo real.</p>
+    </div>
+
+    <div class="banners-grid" id="bannersEditorList">
+      <!-- Se inyecta dinámicamente -->
+    </div>
+
+    <!-- Barra de Acciones y Guardado -->
+    <div class="admin-actions-bar">
+      <div>
+        <span class="status-msg" id="statusMessage"></span>
+      </div>
+      <div style="display: flex; gap: 12px;">
+        <button id="exportJsonBtn" class="btn btn-secondary" style="width: auto;">
+          <i class="ri-file-code-line"></i> Exportar banners.json
+        </button>
+        <button id="saveBannersBtn" class="btn btn-primary" style="width: auto;">
+          <i class="ri-save-3-line"></i> Guardar y Aplicar Cambios
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal Exportar JSON -->
+  <div class="modal-export" id="modalExport">
+    <div class="modal-export-content">
+      <h3 style="font-family: 'Outfit'; margin-bottom: 6px;"><i class="ri-code-s-slash-line"></i> Código JSON Generado</h3>
+      <p style="font-size: 13px; color: var(--text-muted);">
+        Para que los cambios sean permanentes en GitHub para todos los usuarios a nivel mundial, copia este bloque y pégalo en el archivo <code>app/banners.json</code> del repositorio.
+      </p>
+      <textarea id="jsonOutput" readonly></textarea>
+      <div style="display: flex; justify-content: flex-end; gap: 10px;">
+        <button id="copyJsonBtn" class="btn btn-primary" style="width: auto;">
+          <i class="ri-file-copy-line"></i> Copiar al Portapapeles
+        </button>
+        <button id="closeModalBtn" class="btn btn-secondary" style="width: auto;">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      // Clave maestra configurada (puedes cambiarla cuando desees)
+      const MASTER_PASSWORD_HASH = 'itnews2026admin';
+      const AUTH_STORAGE_KEY = 'itnews_admin_auth_token';
+      const BANNERS_STORAGE_KEY = 'itnews_custom_banners';
+
+      let currentBannersData = {
+        version: "1.0",
+        updatedAt: new Date().toISOString(),
+        banners: {}
+      };
+
+      // Elementos DOM
+      const authOverlay = document.getElementById('authOverlay');
+      const loginForm = document.getElementById('loginForm');
+      const adminKeyInput = document.getElementById('adminKeyInput');
+      const authError = document.getElementById('authError');
+      const logoutBtn = document.getElementById('logoutBtn');
+      const bannersEditorList = document.getElementById('bannersEditorList');
+      const saveBannersBtn = document.getElementById('saveBannersBtn');
+      const exportJsonBtn = document.getElementById('exportJsonBtn');
+      const statusMessage = document.getElementById('statusMessage');
+      const modalExport = document.getElementById('modalExport');
+      const jsonOutput = document.getElementById('jsonOutput');
+      const copyJsonBtn = document.getElementById('copyJsonBtn');
+      const closeModalBtn = document.getElementById('closeModalBtn');
+
+      // 1. Verificación de Autenticación
+      function checkAuth() {
+        const isAuth = sessionStorage.getItem(AUTH_STORAGE_KEY) === 'true';
+        if (isAuth) {
+          authOverlay.style.display = 'none';
+          loadBannersConfig();
+        } else {
+          authOverlay.style.display = 'flex';
+          adminKeyInput.focus();
+        }
+      }
+
+      loginForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const entered = adminKeyInput.value.trim();
+        if (entered === MASTER_PASSWORD_HASH) {
+          sessionStorage.setItem(AUTH_STORAGE_KEY, 'true');
+          authError.style.display = 'none';
+          authOverlay.style.display = 'none';
+          loadBannersConfig();
+        } else {
+          authError.style.display = 'block';
+          adminKeyInput.value = '';
+          adminKeyInput.focus();
+        }
+      });
+
+      logoutBtn.addEventListener('click', () => {
+        sessionStorage.removeItem(AUTH_STORAGE_KEY);
+        window.location.reload();
+      });
+
+      // 2. Carga de Banners
+      async function loadBannersConfig() {
+        try {
+          const stored = localStorage.getItem(BANNERS_STORAGE_KEY);
+          if (stored) {
+            currentBannersData = JSON.parse(stored);
+          } else {
+            const res = await fetch('banners.json?t=' + Date.now());
+            if (res.ok) {
+              currentBannersData = await res.json();
+            }
+          }
+        } catch (e) {
+          console.warn('Error cargando banners, usando valores predeterminados');
+        }
+        renderBannersEditor();
+      }
+
+      // 3. Renderizar campos de edición
+      function renderBannersEditor() {
+        bannersEditorList.innerHTML = '';
+        const banners = currentBannersData.banners || {};
+
+        Object.keys(banners).forEach(key => {
+          const item = banners[key];
+          const card = document.createElement('div');
+          card.className = 'banner-edit-card';
+          card.innerHTML = `
+            <div class="banner-card-top">
+              <div class="banner-title-info">
+                <h3>${escapeHtml(item.name || key)}</h3>
+                <span>Posición: ${escapeHtml(item.position || '')} • Formato: ${escapeHtml(item.format || '728x90')}</span>
+              </div>
+              <label class="toggle-wrap">
+                <input type="checkbox" id="active_${key}" ${item.active !== false ? 'checked' : ''}>
+                <span>Banner Activo</span>
+              </label>
+            </div>
+
+            <div class="banner-inputs-grid">
+              <div class="form-group">
+                <label for="url_${key}"><i class="ri-external-link-line"></i> Dirección de Enlace al hacer Clic (Target URL)</label>
+                <input type="url" id="url_${key}" value="${escapeHtml(item.targetUrl || '')}" placeholder="https://ejemplo.com/campaña" required>
+              </div>
+
+              <div class="form-group">
+                <label for="img_${key}"><i class="ri-image-line"></i> Dirección de la Imagen o GIF (Image URL)</label>
+                <input type="url" id="img_${key}" value="${escapeHtml(item.imageUrl || '')}" placeholder="https://.../banner.gif" required>
+              </div>
+
+              <div class="form-group" style="grid-column: 1 / -1;">
+                <label for="title_${key}"><i class="ri-text"></i> Título Comercial / Texto Alternativo</label>
+                <input type="text" id="title_${key}" value="${escapeHtml(item.title || '')}" placeholder="Nombre del patrocinador o campaña">
+              </div>
+            </div>
+
+            <div>
+              <label style="font-size: 11px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">VISTA PREVIA:</label>
+              <div class="banner-preview-box">
+                <img id="prev_${key}" src="${escapeHtml(item.imageUrl || '')}" alt="${escapeHtml(item.title || '')}" onerror="this.alt='Imagen no disponible'">
+              </div>
+            </div>
+          `;
+
+          bannersEditorList.appendChild(card);
+
+          // Actualizar vista previa en vivo
+          const imgInput = card.querySelector(`#img_${key}`);
+          const prevImg = card.querySelector(`#prev_${key}`);
+          imgInput.addEventListener('input', () => {
+            prevImg.src = imgInput.value.trim();
+          });
+        });
+      }
+
+      // 4. Guardar Banners
+      saveBannersBtn.addEventListener('click', () => {
+        const banners = currentBannersData.banners || {};
+
+        Object.keys(banners).forEach(key => {
+          const urlInput = document.getElementById(`url_${key}`);
+          const imgInput = document.getElementById(`img_${key}`);
+          const titleInput = document.getElementById(`title_${key}`);
+          const activeCheck = document.getElementById(`active_${key}`);
+
+          if (urlInput) banners[key].targetUrl = urlInput.value.trim();
+          if (imgInput) banners[key].imageUrl = imgInput.value.trim();
+          if (titleInput) banners[key].title = titleInput.value.trim();
+          if (activeCheck) banners[key].active = activeCheck.checked;
+        });
+
+        currentBannersData.updatedAt = new Date().toISOString();
+
+        // Guardar en almacenamiento de la app
+        localStorage.setItem(BANNERS_STORAGE_KEY, JSON.stringify(currentBannersData));
+
+        statusMessage.textContent = '¡Cambios aplicados de inmediato en esta app!';
+        statusMessage.className = 'status-msg success';
+
+        setTimeout(() => {
+          statusMessage.textContent = '';
+        }, 5000);
+      });
+
+      // 5. Exportar JSON
+      exportJsonBtn.addEventListener('click', () => {
+        // Asegurar que capture los últimos cambios antes de exportar
+        saveBannersBtn.click();
+        const jsonFormatted = JSON.stringify(currentBannersData, null, 2);
+        jsonOutput.value = jsonFormatted;
+        modalExport.style.display = 'flex';
+      });
+
+      copyJsonBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(jsonOutput.value);
+        copyJsonBtn.innerHTML = '<i class="ri-check-line"></i> ¡Copiado!';
+        setTimeout(() => {
+          copyJsonBtn.innerHTML = '<i class="ri-file-copy-line"></i> Copiar al Portapapeles';
+        }, 3000);
+      });
+
+      closeModalBtn.addEventListener('click', () => {
+        modalExport.style.display = 'none';
+      });
+
+      function escapeHtml(str) {
+        if (!str) return '';
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#039;');
+      }
+
+      checkAuth();
+    })();
+  </script>
+</body>
+</html>
