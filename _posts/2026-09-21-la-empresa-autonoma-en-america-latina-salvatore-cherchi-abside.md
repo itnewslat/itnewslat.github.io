@@ -8,7 +8,7 @@ superArticle: false
 year: '2026'
 title: "La Empresa Autónoma en América Latina: Rentabilidad, Datos Limpios y el Factor Humano en la Era de la IA"
 image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/Salvatore-Cherchi-i.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/Salvatore-Cherchi-l.jpg
 week: '39'
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Salvatore-Cherchi-p.jpg
