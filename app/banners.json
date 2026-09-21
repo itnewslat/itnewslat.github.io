@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-21T16:25:47.035Z",
+  "updatedAt": "2026-09-21T17:27:37.631Z",
   "banners": {
     "hero_banner": {
       "id": "hero_banner",
@@ -27,9 +27,9 @@
       "name": "Banner Inferior del Lector",
       "position": "Pie interior al final de la noticia",
       "format": "728x90",
-      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Disponible-publicidad.jpg",
-      "targetUrl": "https://itnews.lat/Publicidad.html",
-      "title": "",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-youtubea.jpg",
+      "targetUrl": "www.youtube.com/@ITNewslat",
+      "title": "Canal de Youtube",
       "active": true
     }
   }
