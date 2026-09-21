@@ -28,7 +28,7 @@
       "position": "Pie interior al final de la noticia",
       "format": "728x90",
       "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-youtubea.jpg",
-      "targetUrl": "www.youtube.com/@ITNewslat",
+      "targetUrl": "https://www.youtube.com/@ITNewslat",
       "title": "Canal de Youtube",
       "active": true
     }
