@@ -1209,6 +1209,16 @@
         });
       }
 
+      // Helper para asegurar que enlaces externos lleven protocolo https://
+      function sanitizeTargetUrl(url) {
+        if (!url) return '';
+        const trimmed = url.trim();
+        if (/^[a-zA-Z][a-zA-Z\d+\-.]*?:/.test(trimmed) || trimmed.startsWith('//') || trimmed.startsWith('/') || trimmed.startsWith('#')) {
+          return trimmed;
+        }
+        return `https://${trimmed}`;
+      }
+
       // Save input values to memory
       function saveInputsToMemory() {
         if (currentMode === 'countries' && countriesData && countriesData.countries) {
@@ -1216,18 +1226,18 @@
           if (c) {
             const hUrl = document.getElementById('url_country_header');
             const hImg = document.getElementById('img_country_header');
-            if (hUrl) c.header.url = hUrl.value.trim();
+            if (hUrl) c.header.url = sanitizeTargetUrl(hUrl.value);
             if (hImg) c.header.image = hImg.value.trim();
 
             const p1Url = document.getElementById('url_country_p1');
             const p1Img = document.getElementById('img_country_p1');
-            if (p1Url) c.publicity1.url = p1Url.value.trim();
+            if (p1Url) c.publicity1.url = sanitizeTargetUrl(p1Url.value);
             if (p1Img) c.publicity1.image = p1Img.value.trim();
 
             (c.sidebars || []).forEach((sb, idx) => {
               const u = document.getElementById(`url_country_sb_${idx}`);
               const i = document.getElementById(`img_country_sb_${idx}`);
-              if (u) sb.url = u.value.trim();
+              if (u) sb.url = sanitizeTargetUrl(u.value);
               if (i) sb.image = i.value.trim();
             });
           }
@@ -1238,7 +1248,7 @@
             const i = document.getElementById(`app_img_${key}`);
             const t = document.getElementById(`app_title_${key}`);
             const a = document.getElementById(`app_active_${key}`);
-            if (u) b[key].targetUrl = u.value.trim();
+            if (u) b[key].targetUrl = sanitizeTargetUrl(u.value);
             if (i) b[key].imageUrl = i.value.trim();
             if (t) b[key].title = t.value.trim();
             if (a) b[key].active = a.checked;

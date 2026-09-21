@@ -1342,6 +1342,15 @@
     const BANNERS_CONFIG_KEY = 'itnews_custom_banners';
     const BANNERS_TIME_KEY = 'itnews_custom_banners_time';
 
+    function sanitizeBannerUrl(url) {
+      if (!url) return '#';
+      const trimmed = url.trim();
+      if (/^[a-zA-Z][a-zA-Z\d+\-.]*?:/.test(trimmed) || trimmed.startsWith('//') || trimmed.startsWith('/') || trimmed.startsWith('#')) {
+        return trimmed;
+      }
+      return `https://${trimmed}`;
+    }
+
     function applyBannersData(data) {
       if (!data || !data.banners) return;
       const b = data.banners;
@@ -1355,7 +1364,7 @@
           if (container) container.style.display = 'none';
         } else {
           if (container) container.style.display = 'flex';
-          if (linkEl && b.hero_banner.targetUrl) linkEl.href = b.hero_banner.targetUrl;
+          if (linkEl && b.hero_banner.targetUrl) linkEl.href = sanitizeBannerUrl(b.hero_banner.targetUrl);
           if (linkEl && b.hero_banner.title) linkEl.title = b.hero_banner.title;
           if (imgEl && b.hero_banner.imageUrl) imgEl.src = b.hero_banner.imageUrl;
           if (imgEl && b.hero_banner.title) imgEl.alt = b.hero_banner.title;
@@ -1371,7 +1380,7 @@
           if (topWrap) topWrap.style.display = 'none';
         } else {
           if (topWrap) topWrap.style.display = 'block';
-          if (topLink && b.reader_top.targetUrl) topLink.href = b.reader_top.targetUrl;
+          if (topLink && b.reader_top.targetUrl) topLink.href = sanitizeBannerUrl(b.reader_top.targetUrl);
           if (topLink && b.reader_top.title) topLink.title = b.reader_top.title;
           if (topImg && b.reader_top.imageUrl) topImg.src = b.reader_top.imageUrl;
           if (topImg && b.reader_top.title) topImg.alt = b.reader_top.title;
@@ -1387,7 +1396,7 @@
           if (botWrap) botWrap.style.display = 'none';
         } else {
           if (botWrap) botWrap.style.display = 'block';
-          if (botLink && b.reader_bottom.targetUrl) botLink.href = b.reader_bottom.targetUrl;
+          if (botLink && b.reader_bottom.targetUrl) botLink.href = sanitizeBannerUrl(b.reader_bottom.targetUrl);
           if (botLink && b.reader_bottom.title) botLink.title = b.reader_bottom.title;
           if (botImg && b.reader_bottom.imageUrl) botImg.src = b.reader_bottom.imageUrl;
           if (botImg && b.reader_bottom.title) botImg.alt = b.reader_bottom.title;
