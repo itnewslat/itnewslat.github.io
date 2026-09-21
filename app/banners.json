@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-21T16:12:14.776Z",
+  "updatedAt": "2026-09-21T16:25:47.035Z",
   "banners": {
     "hero_banner": {
       "id": "hero_banner",
@@ -17,9 +17,9 @@
       "name": "Banner Superior del Lector",
       "position": "Tope interior al abrir noticia",
       "format": "728x90",
-      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Disponible-publicidad.jpg",
-      "targetUrl": "https://itnews.lat/Publicidad.html",
-      "title": "Espacio Publicitario Disponible ITNEWS",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-wow-new.gif",
+      "targetUrl": "https://wow.com.ve",
+      "title": "WOW Internet que sorprende",
       "active": true
     },
     "reader_bottom": {
@@ -27,10 +27,10 @@
       "name": "Banner Inferior del Lector",
       "position": "Pie interior al final de la noticia",
       "format": "728x90",
-      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Publicidad.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Disponible-publicidad.jpg",
       "targetUrl": "https://itnews.lat/Publicidad.html",
-      "title": "Publicidad Oficial ITNEWS",
-      "active": false
+      "title": "",
+      "active": true
     }
   }
 }
