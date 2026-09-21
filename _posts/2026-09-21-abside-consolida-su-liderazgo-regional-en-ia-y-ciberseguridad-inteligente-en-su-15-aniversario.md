@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: "ABSIDE consolida su liderazgo regional en IA y Ciberseguridad Inteligente en su 15° aniversario con productos propios de alto impacto"
+title: "ABSIDE consolida su liderazgo regional en IA y Ciberseguridad Inteligente en su 15° aniversario"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Carlos-Blanco-15-p.jpg
 detail-image: >-
