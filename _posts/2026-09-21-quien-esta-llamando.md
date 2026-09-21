@@ -14,7 +14,7 @@ detail-image: >-
 categories:
   - Colombia
 tags:
-  - Actualidad
+  - Seguridad
 week: '39'
 ---
 
@@ -38,13 +38,13 @@ Recibir o incluso responder una llamada silenciosa no significa que una persona 
 
 Para reducir los riesgos asociados a este tipo de llamadas, los expertos de Kaspersky recomiendan:
 
-- Evita contestar llamadas de números ocultos o desconocidos; tampoco devuelvas inmediatamente una llamada por curiosidad. Lo más recomendable es que esperes a que, quien llama sea el primero en hablar y colgar si solo se escucha silencio.
+- **Evita contestar llamadas de números ocultos o desconocidos**; tampoco devuelvas inmediatamente una llamada por curiosidad. Lo más recomendable es que esperes a que, quien llama sea el primero en hablar y colgar si solo se escucha silencio.
 
-- Bloquea los números sospechosos. Si recibes una llamada silenciosa o identificas un intento de engaño, bloquea el número para evitar futuros contactos. Los ciberdelincuentes pueden realizar varios intentos antes de conseguir que una persona interactúe con ellos, por lo que cortar ese canal de comunicación ayuda a reducir las oportunidades de fraude.
+- **Bloquea los números sospechosos**. Si recibes una llamada silenciosa o identificas un intento de engaño, bloquea el número para evitar futuros contactos. Los ciberdelincuentes pueden realizar varios intentos antes de conseguir que una persona interactúe con ellos, por lo que cortar ese canal de comunicación ayuda a reducir las oportunidades de fraude.
 
-- Recuerda que las llamadas de estafa siempre apelan al sentido de urgencia, mantén la calma y cuelga inmediatamente si te presionan para tomar decisiones rápidas o urgentes. Los estafadores aprovechan las emociones para influir en la decisión de sus víctimas.
+- **Recuerda que las llamadas de estafa siempre apelan al sentido de urgencia**, mantén la calma y cuelga inmediatamente si te presionan para tomar decisiones rápidas o urgentes. Los estafadores aprovechan las emociones para influir en la decisión de sus víctimas.
 
-- Utiliza una aplicación de identificación de llamadas en tu teléfono que pueda alertarte sobre intentos de spam y estafas, como Kaspersky Who Calls. La nueva actualización permite que los usuarios de iOS reciban información en tiempo real sobre las llamadas recibidas —no sólo desde la base de datos offline descargada—. La función está disponible en el plan premium y para dispositivos Android.
+- **Utiliza una aplicación de identificación de llamadas en tu teléfono que pueda alertarte sobre intentos de spam y estafas**, como Kaspersky Who Calls. La nueva actualización permite que los usuarios de iOS reciban información en tiempo real sobre las llamadas recibidas —no sólo desde la base de datos offline descargada—. La función está disponible en el plan premium y para dispositivos Android.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Quien-p.jpg)
 
