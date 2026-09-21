@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2026-09-06 16:30 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2026'
 title: "De la Reacción a la Anticipación: ¿Por qué tu ERP Tradicional ya no es Suficiente en la Era de la IA?"
