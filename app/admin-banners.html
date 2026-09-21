@@ -625,6 +625,29 @@
 
   <!-- Panel Container -->
   <main class="admin-container">
+
+    <!-- Barra Global de Configuración de GitHub Token para Auto-Commit -->
+    <div class="token-bar" style="margin-bottom: 20px;">
+      <div style="flex: 1; min-width: 260px;">
+        <div style="font-size: 13.5px; font-weight: 700; color: #fff; margin-bottom: 4px; display: flex; align-items: center; gap: 8px;">
+          <i class="ri-github-fill" style="font-size: 18px;"></i> Sincronización Automática con GitHub (Auto-Commit & Push)
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted);">
+          Al presionar <strong>"Guardar Cambios"</strong> se realizará el commit directo a <code>master</code> de <code>itnewslat.github.io</code> y <code>assets</code>. Tu Personal Access Token (PAT) se guarda solo en tu navegador.
+        </div>
+      </div>
+      <div style="display: flex; gap: 8px; align-items: center; width: 100%; max-width: 440px;">
+        <div style="position: relative; flex: 1;">
+          <input type="password" id="ghTokenInputGlobal" placeholder="github_pat_... o ghp_..." style="width: 100%; padding: 8px 36px 8px 12px; font-size: 12.5px; font-family: monospace; background: var(--bg-input); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; outline: none;">
+          <button type="button" id="toggleTokenEyeGlobal" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 15px;">
+            <i class="ri-eye-line" id="toggleTokenIconGlobal"></i>
+          </button>
+        </div>
+        <button id="saveGhTokenBtnGlobal" class="btn btn-secondary" style="padding: 8px 14px; font-size: 12px;">
+          <i class="ri-save-line"></i> Guardar Token
+        </button>
+      </div>
+    </div>
     
     <!-- Selector de Modo: Web Multipaís vs App vs Subir Imágenes -->
     <div class="mode-nav-bar">
@@ -1223,8 +1246,77 @@
         }
       }
 
-      // 7. Save All Button
-      saveAllBtn.addEventListener('click', () => {
+      // Función para convertir texto UTF-8 a Base64 de forma segura
+      function utf8ToBase64(str) {
+        return window.btoa(unescape(encodeURIComponent(str)));
+      }
+
+      // Generar YAML para un país
+      function generateCountryYaml(c) {
+        let yaml = `header-publicity: '${c.header?.image || ''}'\n\n`;
+        yaml += `header-url: ${c.header?.url || ''}\n\n`;
+        yaml += `publicity-1:\n`;
+        yaml += `  - image: ${c.publicity1?.image || ''}\n`;
+        yaml += `    url: ${c.publicity1?.url || ''}\n\n`;
+        yaml += `sideBar-publicity:\n`;
+        (c.sidebars || []).forEach(sb => {
+          yaml += `  - image: ${sb.image || ''}\n`;
+          yaml += `    url: ${sb.url || ''}\n`;
+        });
+        return yaml;
+      }
+
+      // Función para obtener el token actual guardado
+      function getActiveGhToken() {
+        return localStorage.getItem(GH_STORAGE_TOKEN_KEY) || (ghTokenInput ? ghTokenInput.value.trim() : '');
+      }
+
+      // Función genérica para hacer commit/push de un archivo a un repositorio GitHub
+      async function commitTextFileToGithub(owner, repo, branch, filePath, fileContent, commitMsg, token) {
+        const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`;
+        let sha = null;
+        try {
+          const checkRes = await fetch(apiUrl, {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Accept': 'application/vnd.github.v3+json'
+            }
+          });
+          if (checkRes.ok) {
+            const fileJson = await checkRes.json();
+            sha = fileJson.sha;
+          }
+        } catch (e) {
+          console.log('Archivo nuevo o no encontrado sha:', e);
+        }
+
+        const bodyPayload = {
+          message: commitMsg,
+          content: utf8ToBase64(fileContent),
+          branch: branch
+        };
+        if (sha) bodyPayload.sha = sha;
+
+        const res = await fetch(apiUrl, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(bodyPayload)
+        });
+
+        if (!res.ok) {
+          const errData = await res.json().catch(() => ({}));
+          throw new Error(errData.message || `Error HTTP ${res.status}`);
+        }
+
+        return await res.json();
+      }
+
+      // 7. Save All Button con Auto-Commit a GitHub
+      saveAllBtn.addEventListener('click', async () => {
         saveInputsToMemory();
 
         if (countriesData) {
@@ -1237,9 +1329,87 @@
           localStorage.setItem(APP_BANNERS_KEY, JSON.stringify(appBannersData));
         }
 
-        statusMessage.textContent = '¡Cambios guardados con éxito en el panel!';
-        statusMessage.className = 'status-msg success';
-        setTimeout(() => { statusMessage.textContent = ''; }, 5000);
+        const token = getActiveGhToken();
+
+        // Si no hay token configurado, solo guardar en local y avisar
+        if (!token) {
+          statusMessage.textContent = '¡Cambios guardados localmente! (Para auto-commit a GitHub ingresa tu Token arriba)';
+          statusMessage.className = 'status-msg success';
+          setTimeout(() => { statusMessage.textContent = ''; }, 6000);
+          return;
+        }
+
+        // Si hay token, iniciar Auto-Commit directo en GitHub
+        saveAllBtn.disabled = true;
+        const originalBtnHtml = saveAllBtn.innerHTML;
+        saveAllBtn.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Guardando y haciendo Commit en GitHub...';
+        statusMessage.textContent = 'Sincronizando con repositorio GitHub itnewslat.github.io...';
+        statusMessage.className = 'status-msg';
+
+        try {
+          const REPO_OWNER = 'itnewslat';
+          const REPO_NAME = 'itnewslat.github.io';
+          const REPO_BRANCH = 'master';
+
+          if (currentMode === 'app') {
+            // Commit a app/banners.json
+            const jsonContent = JSON.stringify(appBannersData, null, 2);
+            await commitTextFileToGithub(
+              REPO_OWNER,
+              REPO_NAME,
+              REPO_BRANCH,
+              'app/banners.json',
+              jsonContent,
+              `Actualizar banners en app/banners.json vía Panel Admin (${new Date().toLocaleString()})`,
+              token
+            );
+            statusMessage.textContent = '¡Banners de la /app guardados y publicados automáticamente en GitHub!';
+            statusMessage.className = 'status-msg success';
+          } else if (currentMode === 'countries') {
+            // Commit al YAML del país actual y a app/countries-banners.json
+            const c = countriesData.countries[activeCountryKey];
+            const countryYaml = generateCountryYaml(c);
+            
+            // 1. Commit YAML de país (_data/[pais]/publicity.yml)
+            await commitTextFileToGithub(
+              REPO_OWNER,
+              REPO_NAME,
+              REPO_BRANCH,
+              c.folder,
+              countryYaml,
+              `Actualizar banners para ${c.name} (${c.folder}) vía Panel Admin`,
+              token
+            );
+
+            // 2. Commit a app/countries-banners.json para mantener sincronía
+            const countriesJson = JSON.stringify(countriesData, null, 2);
+            await commitTextFileToGithub(
+              REPO_OWNER,
+              REPO_NAME,
+              REPO_BRANCH,
+              'app/countries-banners.json',
+              countriesJson,
+              `Actualizar catálogo de países en app/countries-banners.json vía Panel Admin`,
+              token
+            );
+
+            statusMessage.textContent = `¡Banners de ${c.name} guardados y subidos con éxito a GitHub!`;
+            statusMessage.className = 'status-msg success';
+          } else {
+            statusMessage.textContent = '¡Cambios guardados con éxito!';
+            statusMessage.className = 'status-msg success';
+          }
+
+          setTimeout(() => { statusMessage.textContent = ''; }, 7000);
+        } catch (err) {
+          console.error(err);
+          statusMessage.textContent = `Guardado localmente, pero falló GitHub: ${err.message}`;
+          statusMessage.className = 'status-msg error';
+          alert(`Los cambios se guardaron en tu navegador, pero ocurrió un error al hacer commit en GitHub:\n${err.message}\n\nVerifica que el Token de GitHub tenga permisos 'repo' o 'contents:write' sobre itnewslat.github.io.`);
+        } finally {
+          saveAllBtn.disabled = false;
+          saveAllBtn.innerHTML = originalBtnHtml;
+        }
       });
 
       // 8. Export Code
@@ -1330,20 +1500,39 @@
       let largeImageData = null; // { base64, filename, mimeType }
       let smallImageData = null; // { base64, filename, mimeType }
 
+      const ghTokenInputGlobal = document.getElementById('ghTokenInputGlobal');
+      const toggleTokenEyeGlobal = document.getElementById('toggleTokenEyeGlobal');
+      const toggleTokenIconGlobal = document.getElementById('toggleTokenIconGlobal');
+      const saveGhTokenBtnGlobal = document.getElementById('saveGhTokenBtnGlobal');
+
       // Cargar Token de GitHub almacenado
       function initGhToken() {
         const savedToken = localStorage.getItem(GH_STORAGE_TOKEN_KEY) || '';
-        ghTokenInput.value = savedToken;
+        if (ghTokenInput) ghTokenInput.value = savedToken;
+        if (ghTokenInputGlobal) ghTokenInputGlobal.value = savedToken;
+      }
+
+      function handleSaveToken(token, btn) {
+        localStorage.setItem(GH_STORAGE_TOKEN_KEY, token);
+        if (ghTokenInput) ghTokenInput.value = token;
+        if (ghTokenInputGlobal) ghTokenInputGlobal.value = token;
+        if (btn) {
+          btn.innerHTML = '<i class="ri-check-line"></i> ¡Guardado!';
+          setTimeout(() => {
+            btn.innerHTML = '<i class="ri-save-line"></i> Guardar Token';
+          }, 2500);
+        }
       }
 
       saveGhTokenBtn.addEventListener('click', () => {
-        const token = ghTokenInput.value.trim();
-        localStorage.setItem(GH_STORAGE_TOKEN_KEY, token);
-        saveGhTokenBtn.innerHTML = '<i class="ri-check-line"></i> ¡Guardado!';
-        setTimeout(() => {
-          saveGhTokenBtn.innerHTML = '<i class="ri-save-line"></i> Guardar Token';
-        }, 2500);
+        handleSaveToken(ghTokenInput.value.trim(), saveGhTokenBtn);
       });
+
+      if (saveGhTokenBtnGlobal) {
+        saveGhTokenBtnGlobal.addEventListener('click', () => {
+          handleSaveToken(ghTokenInputGlobal.value.trim(), saveGhTokenBtnGlobal);
+        });
+      }
 
       toggleTokenEye.addEventListener('click', () => {
         if (ghTokenInput.type === 'password') {
@@ -1354,6 +1543,18 @@
           toggleTokenIcon.className = 'ri-eye-line';
         }
       });
+
+      if (toggleTokenEyeGlobal) {
+        toggleTokenEyeGlobal.addEventListener('click', () => {
+          if (ghTokenInputGlobal.type === 'password') {
+            ghTokenInputGlobal.type = 'text';
+            toggleTokenIconGlobal.className = 'ri-eye-off-line';
+          } else {
+            ghTokenInputGlobal.type = 'password';
+            toggleTokenIconGlobal.className = 'ri-eye-line';
+          }
+        });
+      }
 
       // Drag and drop handlers
       function setupDropzone(zone, input, onFile) {
