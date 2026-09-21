@@ -8,9 +8,9 @@ superArticle: false
 year: '2026'
 title: La ciberseguridad también se juega en los lugares que solemos olvidar
 image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Fiat-Abarth-p.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Brother-p.jpg
 detail-image: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Fiat-Abarth-g.jpg
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Brother-g.jpg
 categories:
   - Colombia
 tags:
@@ -19,7 +19,6 @@ week: '39'
 ---
 
 Por **Carlos Andrés Velásquez, Sr. Manager Regional Sales Latin America & Caribbean de Brother**.
-
 
 Durante años, hablar de ciberseguridad empresarial significaba hablar de firewalls, contraseñas, antivirus y protección de servidores. Hoy esa mirada resulta insuficiente. La transformación digital, el trabajo híbrido y la creciente interconexión de los dispositivos han ampliado considerablemente la superficie que las organizaciones necesitan proteger.
 
