@@ -17,7 +17,7 @@ tags:
   - Actualidad
 week: '39'
 ---
-La deportividad y el alto rendimiento que transforman la experiencia de manejo
+**La deportividad y el alto rendimiento que transforman la experiencia de manejo**
  
 FIAT apuesta por ofrecer una diversidad de vehículos capaces de responder a distintos gustos dentro del mercado venezolano: desde conductores que priorizan la eficiencia, hasta quienes buscan espacio familiar o quienes prefieren sentir la carretera de una forma diferente, con más carácter y adrenalina.
 
