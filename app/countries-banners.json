@@ -1,0 +1,230 @@
+{
+  "version": "2.0",
+  "updatedAt": "2026-09-20T21:00:00Z",
+  "countries": {
+    "venezuela": {
+      "name": "Venezuela",
+      "flag": "🇻🇪",
+      "folder": "_data/venezuela/publicity.yml",
+      "header": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/ITNEWSLAT-ABSIDE.gif",
+        "url": "https://www.abside.com/"
+      },
+      "publicity1": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/gif-zonas-wow.gif",
+        "url": "https://wow.com.ve/unete"
+      },
+      "sidebars": [
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/DG_TIENDA_MEDIOS_ITNEWS.gif",
+          "url": "https://tienda.digitel.com.ve/?utm_source=WebAds&utm_medium=noticias&utm_campaign=digitel-simpleplus"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Banner Daycohost.jpg",
+          "url": "https://daycohost.com/"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITNEWS_Banner_ESR.png",
+          "url": "https://www.eset.com/latam/security-report/?utm_campaign=leads&utm_source=html&utm_medium=email&utm_term=esr-2023"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg",
+          "url": "https://itnews.lat/businesswire.html"
+        }
+      ]
+    },
+    "colombia": {
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "folder": "_data/colombia/publicity.yml",
+      "header": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90-ItNewsLa_2026-GIFF.gif",
+        "url": "https://www.abside.com/"
+      },
+      "publicity1": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg",
+        "url": "https://itnews.lat/businesswire.html"
+      },
+      "sidebars": [
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITBSparaITNEWSLAT_300x300.jpg",
+          "url": "https://itbscorp.com/"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg",
+          "url": "https://itnews.lat/Historico.html"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg",
+          "url": "http://www.ciberespacio.com.ve/"
+        }
+      ]
+    },
+    "mexico": {
+      "name": "México",
+      "flag": "🇲🇽",
+      "folder": "_data/mexico/publicity.yml",
+      "header": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Disponible-publicidad.jpg",
+        "url": "https://itnews.lat/"
+      },
+      "publicity1": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg",
+        "url": "https://itnews.lat/businesswire.html"
+      },
+      "sidebars": [
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITBS para COLOMBIA.png",
+          "url": "https://itbscorp.com/"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg",
+          "url": "https://itnews.lat/Historico.html"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg",
+          "url": "http://www.ciberespacio.com.ve/"
+        }
+      ]
+    },
+    "panama": {
+      "name": "Panamá",
+      "flag": "🇵🇦",
+      "folder": "_data/panama/publicity.yml",
+      "header": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90-ItNewsLa_2026-GIFF.gif",
+        "url": "https://www.abside.com/"
+      },
+      "publicity1": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/gif-zonas-wow.gif",
+        "url": "https://wow.com.ve/unete"
+      },
+      "sidebars": [
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/DIGITEL-600.png",
+          "url": "https://digitel.com.ve/internet-fijo-inalambrico-5g-fwa?utm_source=google&utm_medium=display&utm_campaign=senales-5g"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg",
+          "url": "https://itnews.lat/Historico.html"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITNEWS_Banner_ESR.png",
+          "url": "https://www.eset.com/latam/security-report/?utm_campaign=leads&utm_source=html&utm_medium=email&utm_term=esr-2023"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg",
+          "url": "https://itnews.lat/businesswire.html"
+        }
+      ]
+    },
+    "chile": {
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "folder": "_data/chile/publicity.yml",
+      "header": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Disponible-publicidad.jpg",
+        "url": "https://itnews.lat/"
+      },
+      "publicity1": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg",
+        "url": "https://itnews.lat/businesswire.html"
+      },
+      "sidebars": [
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITBS para COLOMBIA.png",
+          "url": "https://itbscorp.com/"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg",
+          "url": "https://itnews.lat/Historico.html"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg",
+          "url": "http://www.ciberespacio.com.ve/"
+        }
+      ]
+    },
+    "peru": {
+      "name": "Perú",
+      "flag": "🇵🇪",
+      "folder": "_data/peru/publicity.yml",
+      "header": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Disponible-publicidad.jpg",
+        "url": "https://itnews.lat/"
+      },
+      "publicity1": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg",
+        "url": "https://itnews.lat/businesswire.html"
+      },
+      "sidebars": [
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/DIGITEL-600.png",
+          "url": "https://digitel.com.ve/internet-fijo-inalambrico-5g-fwa?utm_source=google&utm_medium=display&utm_campaign=senales-5g"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg",
+          "url": "https://itnews.lat/Historico.html"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg",
+          "url": "http://www.ciberespacio.com.ve/"
+        }
+      ]
+    },
+    "argentina": {
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "folder": "_data/argentina/publicity.yml",
+      "header": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Disponible-publicidad.jpg",
+        "url": "https://itnews.lat/"
+      },
+      "publicity1": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg",
+        "url": "https://itnews.lat/businesswire.html"
+      },
+      "sidebars": [
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/DIGITEL-600.png",
+          "url": "https://digitel.com.ve/internet-fijo-inalambrico-5g-fwa?utm_source=google&utm_medium=display&utm_campaign=senales-5g"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg",
+          "url": "https://itnews.lat/Historico.html"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg",
+          "url": "http://www.ciberespacio.com.ve/"
+        }
+      ]
+    },
+    "ecuador": {
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "folder": "_data/ecuador/publicity.yml",
+      "header": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90-ItNewsLa_2026-GIFF.gif",
+        "url": "https://www.abside.com/"
+      },
+      "publicity1": {
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/BW.jpg",
+        "url": "https://itnews.lat/businesswire.html"
+      },
+      "sidebars": [
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/ITBS para COLOMBIA.png",
+          "url": "https://itbscorp.com/"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg",
+          "url": "https://itnews.lat/Historico.html"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/banner300x300.jpg",
+          "url": "http://www.ciberespacio.com.ve/"
+        }
+      ]
+    }
+  }
+}

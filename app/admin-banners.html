@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
-  <title>ITNEWS | Panel Confidencial de Banners</title>
+  <title>ITNEWS | Ad Manager Multipaís & App</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +15,7 @@
     :root {
       --bg-dark: #0a0d14;
       --bg-card: #121722;
+      --bg-elevated: #182030;
       --bg-input: #1a2232;
       --border-color: #263347;
       --text-main: #f8fafc;
@@ -22,6 +23,7 @@
       --brand: #e62b1e;
       --brand-hover: #cc2216;
       --success: #10b981;
+      --accent: #38bdf8;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -90,7 +92,7 @@
       flex-direction: column;
       gap: 6px;
       text-align: left;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
     }
 
     .form-group label {
@@ -99,7 +101,7 @@
       color: #cbd5e1;
     }
 
-    .form-group input, .form-group textarea {
+    .form-group input, .form-group textarea, .form-group select {
       background: var(--bg-input);
       border: 1px solid var(--border-color);
       border-radius: 8px;
@@ -111,7 +113,7 @@
       transition: all 0.2s;
     }
 
-    .form-group input:focus, .form-group textarea:focus {
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
       border-color: var(--brand);
       box-shadow: 0 0 0 3px rgba(230, 43, 30, 0.25);
     }
@@ -121,20 +123,20 @@
       align-items: center;
       justify-content: center;
       gap: 8px;
-      padding: 11px 20px;
+      padding: 10px 18px;
       border-radius: 8px;
       font-family: 'Outfit', sans-serif;
-      font-size: 14px;
+      font-size: 13.5px;
       font-weight: 700;
       cursor: pointer;
       border: none;
       transition: all 0.2s;
-      width: 100%;
+      text-decoration: none !important;
     }
 
     .btn-primary {
       background: var(--brand);
-      color: #fff;
+      color: #fff !important;
     }
 
     .btn-primary:hover {
@@ -144,12 +146,25 @@
 
     .btn-secondary {
       background: #202b3d;
-      color: #e2e8f0;
+      color: #e2e8f0 !important;
       border: 1px solid var(--border-color);
     }
 
     .btn-secondary:hover {
       background: #2a374e;
+    }
+
+    .btn-danger-outline {
+      background: transparent;
+      color: #f87171 !important;
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+
+    .btn-danger-outline:hover {
+      background: rgba(239, 68, 68, 0.15);
+      border-color: #ef4444;
     }
 
     .auth-error {
@@ -163,10 +178,12 @@
     .admin-header {
       background: var(--bg-card);
       border-bottom: 1px solid var(--border-color);
-      padding: 16px 24px;
+      padding: 14px 24px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
     }
 
     .admin-brand {
@@ -192,36 +209,139 @@
     .admin-controls {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
     }
 
     .admin-container {
-      max-width: 1100px;
+      max-width: 1160px;
       margin: 0 auto;
-      padding: 30px 20px;
+      padding: 24px 20px 80px;
       width: 100%;
     }
 
-    .panel-intro {
-      margin-bottom: 28px;
+    /* Module Navigation Tabs (Web Multipaís vs App) */
+    .mode-nav-bar {
+      display: flex;
+      gap: 10px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      padding: 6px;
+      border-radius: 12px;
+      margin-bottom: 24px;
     }
 
-    .panel-intro h1 {
-      font-family: 'Outfit', sans-serif;
-      font-size: 26px;
-      font-weight: 800;
-      margin-bottom: 6px;
-    }
-
-    .panel-intro p {
+    .mode-tab-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 16px;
+      background: transparent;
+      border: none;
+      border-radius: 8px;
       color: var(--text-muted);
+      font-family: 'Outfit', sans-serif;
       font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .mode-tab-btn:hover {
+      color: var(--text-main);
+      background: var(--bg-elevated);
+    }
+
+    .mode-tab-btn.active {
+      background: var(--brand);
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(230, 43, 30, 0.35);
+    }
+
+    /* Country Selector Strip */
+    .countries-strip-container {
+      margin-bottom: 24px;
+    }
+
+    .countries-strip-label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .countries-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .country-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      color: var(--text-main);
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .country-pill:hover {
+      border-color: var(--brand);
+      background: var(--bg-elevated);
+      transform: translateY(-1px);
+    }
+
+    .country-pill.active {
+      background: rgba(230, 43, 30, 0.15);
+      border-color: var(--brand);
+      color: #ff6b5e;
+      box-shadow: 0 0 0 2px rgba(230, 43, 30, 0.25);
+    }
+
+    .section-header-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin-bottom: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .section-header-box h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .section-header-box p {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 2px;
     }
 
     .banners-grid {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 24px;
+      gap: 22px;
       margin-bottom: 30px;
     }
 
@@ -229,10 +349,10 @@
       background: var(--bg-card);
       border: 1px solid var(--border-color);
       border-radius: 12px;
-      padding: 24px;
+      padding: 22px;
       display: flex;
       flex-direction: column;
-      gap: 18px;
+      gap: 16px;
     }
 
     .banner-card-top {
@@ -240,12 +360,12 @@
       align-items: center;
       justify-content: space-between;
       border-bottom: 1px solid var(--border-color);
-      padding-bottom: 14px;
+      padding-bottom: 12px;
     }
 
     .banner-title-info h3 {
       font-family: 'Outfit', sans-serif;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 700;
     }
 
@@ -265,7 +385,7 @@
     .banner-inputs-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 16px;
+      gap: 14px;
     }
 
     @media (max-width: 768px) {
@@ -286,22 +406,26 @@
     .banner-preview-box img {
       max-width: 100%;
       height: auto;
-      max-height: 90px;
+      max-height: 120px;
       object-fit: contain;
     }
 
+    /* Fixed Actions Bar */
     .admin-actions-bar {
       position: sticky;
       bottom: 20px;
-      background: rgba(18, 23, 34, 0.95);
-      backdrop-filter: blur(10px);
+      background: rgba(18, 23, 34, 0.96);
+      backdrop-filter: blur(12px);
       border: 1px solid var(--border-color);
       border-radius: 12px;
-      padding: 16px 24px;
+      padding: 14px 22px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      z-index: 100;
+      gap: 14px;
+      flex-wrap: wrap;
     }
 
     .status-msg {
@@ -312,12 +436,13 @@
     .status-msg.success { color: var(--success); }
     .status-msg.error { color: #ef4444; }
 
+    /* Modal Export */
     .modal-export {
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.8);
-      backdrop-filter: blur(6px);
+      background: rgba(0,0,0,0.85);
+      backdrop-filter: blur(8px);
       z-index: 2000;
       align-items: center;
       justify-content: center;
@@ -329,20 +454,20 @@
       border: 1px solid var(--border-color);
       border-radius: 12px;
       padding: 24px;
-      max-width: 650px;
+      max-width: 700px;
       width: 100%;
     }
 
     .modal-export-content textarea {
       width: 100%;
-      height: 220px;
+      height: 240px;
       background: #0d1117;
       border: 1px solid var(--border-color);
       border-radius: 6px;
       color: #4ade80;
       font-family: monospace;
       padding: 12px;
-      font-size: 12px;
+      font-size: 12.5px;
       margin: 14px 0;
       resize: vertical;
     }
@@ -353,16 +478,16 @@
   <!-- Modal de Autenticación Confidencial -->
   <div class="auth-overlay" id="authOverlay">
     <div class="auth-card">
-      <div class="auth-icon"><i class="ri-lock-password-line"></i></div>
+      <div class="auth-icon"><i class="ri-shield-keyhole-line"></i></div>
       <h2>Acceso Administrativo</h2>
-      <p>Gestión Confidencial de Banners y Publicidad ITNEWS</p>
+      <p>Gestión Confidencial de Publicidad y Banners ITNEWS</p>
       
       <form id="loginForm">
         <div class="form-group">
           <label for="adminKeyInput">Contraseña Maestra</label>
           <input type="password" id="adminKeyInput" placeholder="Introduce tu clave de acceso" autocomplete="current-password" required>
         </div>
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" class="btn btn-primary" style="width: 100%;">
           <i class="ri-login-box-line"></i> Ingresar al Panel
         </button>
         <div class="auth-error" id="authError">Contraseña incorrecta. Acceso restringido.</div>
@@ -374,13 +499,16 @@
   <header class="admin-header">
     <div class="admin-brand">
       <img src="https://itnews.lat/assets/imagenes/logo_large_red.png" alt="ITNEWS">
-      <span>Ad Manager Confidencial</span>
+      <span>Ad Manager Regional</span>
     </div>
     <div class="admin-controls">
-      <a href="./" target="_blank" class="btn btn-secondary" style="width: auto; padding: 8px 14px; font-size: 13px;">
-        <i class="ri-external-link-line"></i> Ver /app en vivo
+      <a href="https://itnews.lat" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="font-size: 13px;">
+        <i class="ri-global-line"></i> Portal Web
       </a>
-      <button id="logoutBtn" class="btn btn-secondary" style="width: auto; padding: 8px 14px; font-size: 13px;">
+      <a href="./" target="_blank" class="btn btn-secondary" style="font-size: 13px;">
+        <i class="ri-smartphone-line"></i> /app en vivo
+      </a>
+      <button id="logoutBtn" class="btn btn-secondary" style="font-size: 13px;">
         <i class="ri-logout-box-r-line"></i> Salir
       </button>
     </div>
@@ -388,60 +516,103 @@
 
   <!-- Panel Container -->
   <main class="admin-container">
-    <div class="panel-intro">
-      <h1>Control de Banners y Enlaces (/app)</h1>
-      <p>Modifica aquí los enlaces a los que apuntan los banners, las imágenes activas y la visibilidad de cada anuncio en tiempo real.</p>
+    
+    <!-- Selector de Modo: Web Multipaís vs App -->
+    <div class="mode-nav-bar">
+      <button id="tabModeCountries" class="mode-tab-btn active">
+        <i class="ri-earth-line"></i> 1. Portal Web (8 Países: Tope y Laterales)
+      </button>
+      <button id="tabModeApp" class="mode-tab-btn">
+        <i class="ri-smartphone-line"></i> 2. Banners de la /app
+      </button>
     </div>
 
-    <div class="banners-grid" id="bannersEditorList">
-      <!-- Se inyecta dinámicamente -->
+    <!-- VISTA 1: PAÍSES (WEB itnews.lat) -->
+    <div id="viewCountriesSection">
+      <div class="countries-strip-container">
+        <div class="countries-strip-label"><i class="ri-map-pin-line"></i> Selecciona el país a gestionar:</div>
+        <div class="countries-pills" id="countriesPillsList">
+          <!-- Inyectado dinámicamente -->
+        </div>
+      </div>
+
+      <div class="section-header-box">
+        <div>
+          <h2 id="currentCountryTitle"><span id="countryFlag">🇻🇪</span> Banners de Venezuela</h2>
+          <p id="currentCountryPath">Archivo destino: <code>_data/venezuela/publicity.yml</code></p>
+        </div>
+        <div>
+          <button id="addSidebarBtn" class="btn btn-secondary" style="font-size: 12.5px;">
+            <i class="ri-add-line"></i> Agregar Banner Lateral
+          </button>
+        </div>
+      </div>
+
+      <div class="banners-grid" id="countryBannersList">
+        <!-- Inyectado dinámicamente -->
+      </div>
     </div>
 
-    <!-- Barra de Acciones y Guardado -->
+    <!-- VISTA 2: APP (/app) -->
+    <div id="viewAppSection" style="display: none;">
+      <div class="section-header-box">
+        <div>
+          <h2><i class="ri-smartphone-line"></i> Banners de la /app</h2>
+          <p>Control de publicidad en la versión web interactiva (/app)</p>
+        </div>
+      </div>
+
+      <div class="banners-grid" id="appBannersList">
+        <!-- Inyectado dinámicamente -->
+      </div>
+    </div>
+
+    <!-- Barra Inferior de Acciones -->
     <div class="admin-actions-bar">
       <div>
         <span class="status-msg" id="statusMessage"></span>
       </div>
-      <div style="display: flex; gap: 12px;">
-        <button id="exportJsonBtn" class="btn btn-secondary" style="width: auto;">
-          <i class="ri-file-code-line"></i> Exportar banners.json
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <button id="exportCodeBtn" class="btn btn-secondary">
+          <i class="ri-file-code-line"></i> Exportar Código
         </button>
-        <button id="saveBannersBtn" class="btn btn-primary" style="width: auto;">
-          <i class="ri-save-3-line"></i> Guardar y Aplicar Cambios
+        <button id="saveAllBtn" class="btn btn-primary">
+          <i class="ri-save-3-line"></i> Guardar Cambios
         </button>
       </div>
     </div>
+
   </main>
 
-  <!-- Modal Exportar JSON -->
+  <!-- Modal Exportar Código -->
   <div class="modal-export" id="modalExport">
     <div class="modal-export-content">
-      <h3 style="font-family: 'Outfit'; margin-bottom: 6px;"><i class="ri-code-s-slash-line"></i> Código JSON Generado</h3>
-      <p style="font-size: 13px; color: var(--text-muted);">
-        Para que los cambios sean permanentes en GitHub para todos los usuarios a nivel mundial, copia este bloque y pégalo en el archivo <code>app/banners.json</code> del repositorio.
+      <h3 style="font-family: 'Outfit'; margin-bottom: 6px;" id="modalExportTitle"><i class="ri-code-s-slash-line"></i> Código Generado</h3>
+      <p style="font-size: 13px; color: var(--text-muted);" id="modalExportDesc">
+        Copia este código y guárdalo en el archivo correspondiente para aplicar los cambios a nivel mundial.
       </p>
-      <textarea id="jsonOutput" readonly></textarea>
+      <textarea id="outputCodeArea" readonly></textarea>
       <div style="display: flex; justify-content: flex-end; gap: 10px;">
-        <button id="copyJsonBtn" class="btn btn-primary" style="width: auto;">
+        <button id="copyCodeBtn" class="btn btn-primary">
           <i class="ri-file-copy-line"></i> Copiar al Portapapeles
         </button>
-        <button id="closeModalBtn" class="btn btn-secondary" style="width: auto;">Cerrar</button>
+        <button id="closeModalBtn" class="btn btn-secondary">Cerrar</button>
       </div>
     </div>
   </div>
 
   <script>
     (function() {
-      // Clave maestra configurada (puedes cambiarla cuando desees)
       const MASTER_PASSWORD_HASH = 'itnews2026admin';
       const AUTH_STORAGE_KEY = 'itnews_admin_auth_token';
-      const BANNERS_STORAGE_KEY = 'itnews_custom_banners';
+      const COUNTRIES_STORAGE_KEY = 'itnews_countries_banners_data';
+      const APP_BANNERS_KEY = 'itnews_custom_banners';
 
-      let currentBannersData = {
-        version: "1.0",
-        updatedAt: new Date().toISOString(),
-        banners: {}
-      };
+      let currentMode = 'countries'; // 'countries' | 'app'
+      let activeCountryKey = 'venezuela';
+
+      let countriesData = null;
+      let appBannersData = null;
 
       // Elementos DOM
       const authOverlay = document.getElementById('authOverlay');
@@ -449,21 +620,36 @@
       const adminKeyInput = document.getElementById('adminKeyInput');
       const authError = document.getElementById('authError');
       const logoutBtn = document.getElementById('logoutBtn');
-      const bannersEditorList = document.getElementById('bannersEditorList');
-      const saveBannersBtn = document.getElementById('saveBannersBtn');
-      const exportJsonBtn = document.getElementById('exportJsonBtn');
+
+      const tabModeCountries = document.getElementById('tabModeCountries');
+      const tabModeApp = document.getElementById('tabModeApp');
+      const viewCountriesSection = document.getElementById('viewCountriesSection');
+      const viewAppSection = document.getElementById('viewAppSection');
+
+      const countriesPillsList = document.getElementById('countriesPillsList');
+      const currentCountryTitle = document.getElementById('currentCountryTitle');
+      const currentCountryPath = document.getElementById('currentCountryPath');
+      const countryBannersList = document.getElementById('countryBannersList');
+      const addSidebarBtn = document.getElementById('addSidebarBtn');
+
+      const appBannersList = document.getElementById('appBannersList');
+      const saveAllBtn = document.getElementById('saveAllBtn');
+      const exportCodeBtn = document.getElementById('exportCodeBtn');
       const statusMessage = document.getElementById('statusMessage');
+
       const modalExport = document.getElementById('modalExport');
-      const jsonOutput = document.getElementById('jsonOutput');
-      const copyJsonBtn = document.getElementById('copyJsonBtn');
+      const modalExportTitle = document.getElementById('modalExportTitle');
+      const modalExportDesc = document.getElementById('modalExportDesc');
+      const outputCodeArea = document.getElementById('outputCodeArea');
+      const copyCodeBtn = document.getElementById('copyCodeBtn');
       const closeModalBtn = document.getElementById('closeModalBtn');
 
-      // 1. Verificación de Autenticación
+      // 1. Auth Check
       function checkAuth() {
         const isAuth = sessionStorage.getItem(AUTH_STORAGE_KEY) === 'true';
         if (isAuth) {
           authOverlay.style.display = 'none';
-          loadBannersConfig();
+          loadData();
         } else {
           authOverlay.style.display = 'flex';
           adminKeyInput.focus();
@@ -472,12 +658,10 @@
 
       loginForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const entered = adminKeyInput.value.trim();
-        if (entered === MASTER_PASSWORD_HASH) {
+        if (adminKeyInput.value.trim() === MASTER_PASSWORD_HASH) {
           sessionStorage.setItem(AUTH_STORAGE_KEY, 'true');
-          authError.style.display = 'none';
           authOverlay.style.display = 'none';
-          loadBannersConfig();
+          loadData();
         } else {
           authError.style.display = 'block';
           adminKeyInput.value = '';
@@ -490,124 +674,330 @@
         window.location.reload();
       });
 
-      // 2. Carga de Banners
-      async function loadBannersConfig() {
+      // 2. Data Loading
+      async function loadData() {
+        // Cargar países
         try {
-          const stored = localStorage.getItem(BANNERS_STORAGE_KEY);
-          if (stored) {
-            currentBannersData = JSON.parse(stored);
+          const storedC = localStorage.getItem(COUNTRIES_STORAGE_KEY);
+          if (storedC) {
+            countriesData = JSON.parse(storedC);
           } else {
-            const res = await fetch('banners.json?t=' + Date.now());
-            if (res.ok) {
-              currentBannersData = await res.json();
-            }
+            const resC = await fetch('countries-banners.json?t=' + Date.now());
+            if (resC.ok) countriesData = await resC.json();
           }
         } catch (e) {
-          console.warn('Error cargando banners, usando valores predeterminados');
+          console.warn('Error al cargar países:', e);
         }
-        renderBannersEditor();
+
+        // Cargar app
+        try {
+          const storedA = localStorage.getItem(APP_BANNERS_KEY);
+          if (storedA) {
+            appBannersData = JSON.parse(storedA);
+          } else {
+            const resA = await fetch('banners.json?t=' + Date.now());
+            if (resA.ok) appBannersData = await resA.json();
+          }
+        } catch (e) {
+          console.warn('Error al cargar app banners:', e);
+        }
+
+        renderCountryPills();
+        renderCountryView();
+        renderAppView();
       }
 
-      // 3. Renderizar campos de edición
-      function renderBannersEditor() {
-        bannersEditorList.innerHTML = '';
-        const banners = currentBannersData.banners || {};
+      // 3. Tab Switching
+      tabModeCountries.addEventListener('click', () => {
+        currentMode = 'countries';
+        tabModeCountries.classList.add('active');
+        tabModeApp.classList.remove('active');
+        viewCountriesSection.style.display = 'block';
+        viewAppSection.style.display = 'none';
+      });
 
-        Object.keys(banners).forEach(key => {
-          const item = banners[key];
+      tabModeApp.addEventListener('click', () => {
+        currentMode = 'app';
+        tabModeApp.classList.add('active');
+        tabModeCountries.classList.remove('active');
+        viewAppSection.style.display = 'block';
+        viewCountriesSection.style.display = 'none';
+      });
+
+      // 4. Render Country Pills
+      function renderCountryPills() {
+        if (!countriesData || !countriesData.countries) return;
+        countriesPillsList.innerHTML = '';
+        const list = countriesData.countries;
+
+        Object.keys(list).forEach(key => {
+          const c = list[key];
+          const pill = document.createElement('button');
+          pill.className = `country-pill ${key === activeCountryKey ? 'active' : ''}`;
+          pill.innerHTML = `<span>${c.flag}</span> <span>${escapeHtml(c.name)}</span>`;
+          pill.addEventListener('click', () => {
+            saveInputsToMemory();
+            activeCountryKey = key;
+            renderCountryPills();
+            renderCountryView();
+          });
+          countriesPillsList.appendChild(pill);
+        });
+      }
+
+      // 5. Render Country Banners View
+      function renderCountryView() {
+        if (!countriesData || !countriesData.countries) return;
+        const c = countriesData.countries[activeCountryKey];
+        if (!c) return;
+
+        currentCountryTitle.innerHTML = `<span>${c.flag}</span> Banners de ${escapeHtml(c.name)}`;
+        currentCountryPath.innerHTML = `Archivo destino en portal: <code>${escapeHtml(c.folder)}</code>`;
+
+        countryBannersList.innerHTML = '';
+
+        // Header Banner (728x90)
+        countryBannersList.appendChild(createBannerCard({
+          title: `Banner de Tope (728x90) - ${c.name}`,
+          desc: 'Se muestra en el encabezado superior de la edición de este país.',
+          fieldId: 'country_header',
+          imageUrl: c.header?.image || '',
+          targetUrl: c.header?.url || ''
+        }));
+
+        // Publicity 1 (300x300)
+        countryBannersList.appendChild(createBannerCard({
+          title: `Primer Banner Lateral (300x300) - ${c.name}`,
+          desc: 'Primer anuncio ubicado en la barra lateral derecha.',
+          fieldId: 'country_p1',
+          imageUrl: c.publicity1?.image || '',
+          targetUrl: c.publicity1?.url || ''
+        }));
+
+        // Sidebars List
+        const sidebars = c.sidebars || [];
+        sidebars.forEach((sb, idx) => {
+          const card = createBannerCard({
+            title: `Banner Lateral #${idx + 1} (300x300)`,
+            desc: `Anuncio adicional en la barra lateral de ${c.name}.`,
+            fieldId: `country_sb_${idx}`,
+            imageUrl: sb.image || '',
+            targetUrl: sb.url || '',
+            canDelete: true,
+            onDelete: () => {
+              c.sidebars.splice(idx, 1);
+              renderCountryView();
+            }
+          });
+          countryBannersList.appendChild(card);
+        });
+      }
+
+      // Helper to generate banner card DOM
+      function createBannerCard({ title, desc, fieldId, imageUrl, targetUrl, canDelete, onDelete }) {
+        const card = document.createElement('div');
+        card.className = 'banner-edit-card';
+        card.innerHTML = `
+          <div class="banner-card-top">
+            <div class="banner-title-info">
+              <h3>${escapeHtml(title)}</h3>
+              <span>${escapeHtml(desc)}</span>
+            </div>
+            ${canDelete ? `<button type="button" class="btn btn-danger-outline delete-btn"><i class="ri-delete-bin-line"></i> Eliminar</button>` : ''}
+          </div>
+
+          <div class="banner-inputs-grid">
+            <div class="form-group">
+              <label for="url_${fieldId}"><i class="ri-external-link-line"></i> Enlace de Destino (Target URL):</label>
+              <input type="url" id="url_${fieldId}" value="${escapeHtml(targetUrl)}" placeholder="https://ejemplo.com/anuncio" required>
+            </div>
+
+            <div class="form-group">
+              <label for="img_${fieldId}"><i class="ri-image-line"></i> URL de Imagen o GIF:</label>
+              <input type="url" id="img_${fieldId}" value="${escapeHtml(imageUrl)}" placeholder="https://.../banner.gif" required>
+            </div>
+          </div>
+
+          <div>
+            <label style="font-size: 11px; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 6px;">VISTA PREVIA:</label>
+            <div class="banner-preview-box">
+              <img id="prev_${fieldId}" src="${escapeHtml(imageUrl)}" alt="Preview" onerror="this.alt='Sin vista previa'">
+            </div>
+          </div>
+        `;
+
+        const imgInput = card.querySelector(`#img_${fieldId}`);
+        const prevImg = card.querySelector(`#prev_${fieldId}`);
+        imgInput.addEventListener('input', () => {
+          prevImg.src = imgInput.value.trim();
+        });
+
+        if (canDelete && onDelete) {
+          card.querySelector('.delete-btn').addEventListener('click', onDelete);
+        }
+
+        return card;
+      }
+
+      // Add new sidebar banner
+      addSidebarBtn.addEventListener('click', () => {
+        if (!countriesData || !countriesData.countries) return;
+        const c = countriesData.countries[activeCountryKey];
+        if (!c) return;
+        if (!c.sidebars) c.sidebars = [];
+        c.sidebars.push({
+          image: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/300x300/Historico.jpg',
+          url: 'https://itnews.lat/'
+        });
+        renderCountryView();
+      });
+
+      // 6. Render App Banners View
+      function renderAppView() {
+        if (!appBannersData || !appBannersData.banners) return;
+        appBannersList.innerHTML = '';
+        const b = appBannersData.banners;
+
+        Object.keys(b).forEach(key => {
+          const item = b[key];
           const card = document.createElement('div');
           card.className = 'banner-edit-card';
           card.innerHTML = `
             <div class="banner-card-top">
               <div class="banner-title-info">
                 <h3>${escapeHtml(item.name || key)}</h3>
-                <span>Posición: ${escapeHtml(item.position || '')} • Formato: ${escapeHtml(item.format || '728x90')}</span>
+                <span>${escapeHtml(item.position || '')} • Formato: ${escapeHtml(item.format || '728x90')}</span>
               </div>
               <label class="toggle-wrap">
-                <input type="checkbox" id="active_${key}" ${item.active !== false ? 'checked' : ''}>
-                <span>Banner Activo</span>
+                <input type="checkbox" id="app_active_${key}" ${item.active !== false ? 'checked' : ''}>
+                <span>Activo en /app</span>
               </label>
             </div>
 
             <div class="banner-inputs-grid">
               <div class="form-group">
-                <label for="url_${key}"><i class="ri-external-link-line"></i> Dirección de Enlace al hacer Clic (Target URL)</label>
-                <input type="url" id="url_${key}" value="${escapeHtml(item.targetUrl || '')}" placeholder="https://ejemplo.com/campaña" required>
+                <label for="app_url_${key}"><i class="ri-external-link-line"></i> Enlace de Destino:</label>
+                <input type="url" id="app_url_${key}" value="${escapeHtml(item.targetUrl || '')}" placeholder="https://..." required>
               </div>
-
               <div class="form-group">
-                <label for="img_${key}"><i class="ri-image-line"></i> Dirección de la Imagen o GIF (Image URL)</label>
-                <input type="url" id="img_${key}" value="${escapeHtml(item.imageUrl || '')}" placeholder="https://.../banner.gif" required>
+                <label for="app_img_${key}"><i class="ri-image-line"></i> URL de Imagen:</label>
+                <input type="url" id="app_img_${key}" value="${escapeHtml(item.imageUrl || '')}" placeholder="https://..." required>
               </div>
-
               <div class="form-group" style="grid-column: 1 / -1;">
-                <label for="title_${key}"><i class="ri-text"></i> Título Comercial / Texto Alternativo</label>
-                <input type="text" id="title_${key}" value="${escapeHtml(item.title || '')}" placeholder="Nombre del patrocinador o campaña">
+                <label for="app_title_${key}"><i class="ri-text"></i> Título Comercial:</label>
+                <input type="text" id="app_title_${key}" value="${escapeHtml(item.title || '')}" placeholder="Nombre del anunciante">
               </div>
             </div>
 
             <div>
-              <label style="font-size: 11px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">VISTA PREVIA:</label>
+              <label style="font-size: 11px; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 6px;">VISTA PREVIA:</label>
               <div class="banner-preview-box">
-                <img id="prev_${key}" src="${escapeHtml(item.imageUrl || '')}" alt="${escapeHtml(item.title || '')}" onerror="this.alt='Imagen no disponible'">
+                <img id="app_prev_${key}" src="${escapeHtml(item.imageUrl || '')}" alt="Preview" onerror="this.alt='Sin vista previa'">
               </div>
             </div>
           `;
 
-          bannersEditorList.appendChild(card);
-
-          // Actualizar vista previa en vivo
-          const imgInput = card.querySelector(`#img_${key}`);
-          const prevImg = card.querySelector(`#prev_${key}`);
+          const imgInput = card.querySelector(`#app_img_${key}`);
+          const prevImg = card.querySelector(`#app_prev_${key}`);
           imgInput.addEventListener('input', () => {
             prevImg.src = imgInput.value.trim();
           });
+
+          appBannersList.appendChild(card);
         });
       }
 
-      // 4. Guardar Banners
-      saveBannersBtn.addEventListener('click', () => {
-        const banners = currentBannersData.banners || {};
+      // Save input values to memory
+      function saveInputsToMemory() {
+        if (currentMode === 'countries' && countriesData && countriesData.countries) {
+          const c = countriesData.countries[activeCountryKey];
+          if (c) {
+            const hUrl = document.getElementById('url_country_header');
+            const hImg = document.getElementById('img_country_header');
+            if (hUrl) c.header.url = hUrl.value.trim();
+            if (hImg) c.header.image = hImg.value.trim();
 
-        Object.keys(banners).forEach(key => {
-          const urlInput = document.getElementById(`url_${key}`);
-          const imgInput = document.getElementById(`img_${key}`);
-          const titleInput = document.getElementById(`title_${key}`);
-          const activeCheck = document.getElementById(`active_${key}`);
+            const p1Url = document.getElementById('url_country_p1');
+            const p1Img = document.getElementById('img_country_p1');
+            if (p1Url) c.publicity1.url = p1Url.value.trim();
+            if (p1Img) c.publicity1.image = p1Img.value.trim();
 
-          if (urlInput) banners[key].targetUrl = urlInput.value.trim();
-          if (imgInput) banners[key].imageUrl = imgInput.value.trim();
-          if (titleInput) banners[key].title = titleInput.value.trim();
-          if (activeCheck) banners[key].active = activeCheck.checked;
-        });
+            (c.sidebars || []).forEach((sb, idx) => {
+              const u = document.getElementById(`url_country_sb_${idx}`);
+              const i = document.getElementById(`img_country_sb_${idx}`);
+              if (u) sb.url = u.value.trim();
+              if (i) sb.image = i.value.trim();
+            });
+          }
+        } else if (currentMode === 'app' && appBannersData && appBannersData.banners) {
+          const b = appBannersData.banners;
+          Object.keys(b).forEach(key => {
+            const u = document.getElementById(`app_url_${key}`);
+            const i = document.getElementById(`app_img_${key}`);
+            const t = document.getElementById(`app_title_${key}`);
+            const a = document.getElementById(`app_active_${key}`);
+            if (u) b[key].targetUrl = u.value.trim();
+            if (i) b[key].imageUrl = i.value.trim();
+            if (t) b[key].title = t.value.trim();
+            if (a) b[key].active = a.checked;
+          });
+        }
+      }
 
-        currentBannersData.updatedAt = new Date().toISOString();
+      // 7. Save All Button
+      saveAllBtn.addEventListener('click', () => {
+        saveInputsToMemory();
 
-        // Guardar en almacenamiento de la app
-        localStorage.setItem(BANNERS_STORAGE_KEY, JSON.stringify(currentBannersData));
+        if (countriesData) {
+          countriesData.updatedAt = new Date().toISOString();
+          localStorage.setItem(COUNTRIES_STORAGE_KEY, JSON.stringify(countriesData));
+        }
 
-        statusMessage.textContent = '¡Cambios aplicados de inmediato en esta app!';
+        if (appBannersData) {
+          appBannersData.updatedAt = new Date().toISOString();
+          localStorage.setItem(APP_BANNERS_KEY, JSON.stringify(appBannersData));
+        }
+
+        statusMessage.textContent = '¡Cambios guardados con éxito en el panel!';
         statusMessage.className = 'status-msg success';
-
-        setTimeout(() => {
-          statusMessage.textContent = '';
-        }, 5000);
+        setTimeout(() => { statusMessage.textContent = ''; }, 5000);
       });
 
-      // 5. Exportar JSON
-      exportJsonBtn.addEventListener('click', () => {
-        // Asegurar que capture los últimos cambios antes de exportar
-        saveBannersBtn.click();
-        const jsonFormatted = JSON.stringify(currentBannersData, null, 2);
-        jsonOutput.value = jsonFormatted;
+      // 8. Export Code
+      exportCodeBtn.addEventListener('click', () => {
+        saveAllBtn.click();
+
+        if (currentMode === 'countries') {
+          const c = countriesData.countries[activeCountryKey];
+          modalExportTitle.innerHTML = `<i class="ri-file-code-line"></i> Código YAML para ${c.name} (${c.folder})`;
+          modalExportDesc.innerHTML = `Para aplicar estos cambios en el portal web, copia este código YAML y reemplázalo en el archivo <code>${c.folder}</code>:`;
+
+          let yaml = `header-publicity: '${c.header?.image || ''}'\n\n`;
+          yaml += `header-url: ${c.header?.url || ''}\n\n`;
+          yaml += `publicity-1:\n`;
+          yaml += `  - image: ${c.publicity1?.image || ''}\n`;
+          yaml += `    url: ${c.publicity1?.url || ''}\n\n`;
+          yaml += `sideBar-publicity:\n`;
+          (c.sidebars || []).forEach(sb => {
+            yaml += `  - image: ${sb.image || ''}\n`;
+            yaml += `    url: ${sb.url || ''}\n`;
+          });
+
+          outputCodeArea.value = yaml;
+        } else {
+          modalExportTitle.innerHTML = `<i class="ri-file-code-line"></i> Código JSON para la /app (banners.json)`;
+          modalExportDesc.innerHTML = `Para hacer permanentes los cambios en la /app, copia este código JSON y pégalo en <code>app/banners.json</code>:`;
+          outputCodeArea.value = JSON.stringify(appBannersData, null, 2);
+        }
+
         modalExport.style.display = 'flex';
       });
 
-      copyJsonBtn.addEventListener('click', () => {
-        navigator.clipboard.writeText(jsonOutput.value);
-        copyJsonBtn.innerHTML = '<i class="ri-check-line"></i> ¡Copiado!';
+      copyCodeBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(outputCodeArea.value);
+        copyCodeBtn.innerHTML = '<i class="ri-check-line"></i> ¡Copiado!';
         setTimeout(() => {
-          copyJsonBtn.innerHTML = '<i class="ri-file-copy-line"></i> Copiar al Portapapeles';
+          copyCodeBtn.innerHTML = '<i class="ri-file-copy-line"></i> Copiar al Portapapeles';
         }, 3000);
       });
 
