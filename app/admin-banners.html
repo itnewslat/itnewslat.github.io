@@ -471,6 +471,115 @@
       margin: 14px 0;
       resize: vertical;
     }
+
+    /* Uploader GitHub Styles */
+    .uploader-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+
+    @media (max-width: 900px) {
+      .uploader-grid { grid-template-columns: 1fr; }
+    }
+
+    .uploader-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .dropzone-box {
+      border: 2px dashed var(--border-color);
+      border-radius: 10px;
+      padding: 28px 16px;
+      text-align: center;
+      background: rgba(26, 34, 50, 0.4);
+      cursor: pointer;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+
+    .dropzone-box:hover, .dropzone-box.dragover {
+      border-color: var(--brand);
+      background: rgba(230, 43, 30, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .dropzone-box i {
+      font-size: 40px;
+      color: var(--brand);
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+
+    .preview-canvas-box {
+      background: #000;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+      min-height: 140px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .preview-canvas-box img {
+      max-width: 100%;
+      max-height: 160px;
+      border-radius: 4px;
+      object-fit: contain;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    .token-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .badge-size {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: #1e293b;
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    .url-result-box {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 12px;
+      font-family: monospace;
+      font-size: 12.5px;
+      color: #58a6ff;
+      word-break: break-all;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
   </style>
 </head>
 <body>
@@ -517,13 +626,16 @@
   <!-- Panel Container -->
   <main class="admin-container">
     
-    <!-- Selector de Modo: Web Multipaís vs App -->
+    <!-- Selector de Modo: Web Multipaís vs App vs Subir Imágenes -->
     <div class="mode-nav-bar">
       <button id="tabModeCountries" class="mode-tab-btn active">
-        <i class="ri-earth-line"></i> 1. Portal Web (8 Países: Tope y Laterales)
+        <i class="ri-earth-line"></i> 1. Portal Web (8 Países)
       </button>
       <button id="tabModeApp" class="mode-tab-btn">
         <i class="ri-smartphone-line"></i> 2. Banners de la /app
+      </button>
+      <button id="tabModeUpload" class="mode-tab-btn">
+        <i class="ri-upload-cloud-2-line"></i> 3. Subir Imágenes a GitHub
       </button>
     </div>
 
@@ -564,6 +676,157 @@
 
       <div class="banners-grid" id="appBannersList">
         <!-- Inyectado dinámicamente -->
+      </div>
+    </div>
+
+    <!-- VISTA 3: SUBIR IMÁGENES A GITHUB (1024x680 y 540x320) -->
+    <div id="viewUploadSection" style="display: none;">
+      <!-- Barra de Configuración de GitHub Token -->
+      <div class="token-bar">
+        <div style="flex: 1; min-width: 260px;">
+          <div style="font-size: 13.5px; font-weight: 700; color: #fff; margin-bottom: 4px; display: flex; align-items: center; gap: 8px;">
+            <i class="ri-github-fill" style="font-size: 18px;"></i> Conexión con GitHub (Repositorio: <code>itnewslat/assets</code>)
+          </div>
+          <div style="font-size: 12px; color: var(--text-muted);">
+            Se requiere un Personal Access Token (PAT) con permisos de escritura (repo o contents:write). Se almacena local y seguro en tu navegador.
+          </div>
+        </div>
+        <div style="display: flex; gap: 8px; align-items: center; width: 100%; max-width: 440px;">
+          <div style="position: relative; flex: 1;">
+            <input type="password" id="ghTokenInput" placeholder="github_pat_... o ghp_..." style="width: 100%; padding: 8px 36px 8px 12px; font-size: 12.5px; font-family: monospace; background: var(--bg-input); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; outline: none;">
+            <button type="button" id="toggleTokenEye" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 15px;">
+              <i class="ri-eye-line" id="toggleTokenIcon"></i>
+            </button>
+          </div>
+          <button id="saveGhTokenBtn" class="btn btn-secondary" style="padding: 8px 14px; font-size: 12px;">
+            <i class="ri-save-line"></i> Guardar Token
+          </button>
+        </div>
+      </div>
+
+      <!-- Control de Nombre Base -->
+      <div class="uploader-card" style="margin-bottom: 20px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <h3 style="font-family: 'Outfit'; font-size: 16px; font-weight: 700;">Nombre del Archivo en GitHub</h3>
+            <p style="font-size: 12.5px; color: var(--text-muted);">Se asignará automáticamente al subir o puedes escribir el nombre deseado (ej. <code>William-Leon</code>).</p>
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px; max-width: 380px; width: 100%;">
+            <input type="text" id="targetBaseFilename" placeholder="ej: nombre-de-la-noticia" style="flex: 1; padding: 8px 12px; font-size: 13px; background: var(--bg-input); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; outline: none;">
+            <span style="font-size: 12px; color: var(--text-muted); font-weight: 600;">.jpg</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grilla de Imágenes: Grande (1024x680) y Pequeña (540x320) -->
+      <div class="uploader-grid">
+        <!-- Tarjeta 1: Grande 1024x680 -->
+        <div class="uploader-card">
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <div>
+              <h3 style="font-family: 'Outfit'; font-size: 16px; font-weight: 700;">Imagen Grande (Detalle)</h3>
+              <span class="badge-size"><i class="ri-aspect-ratio-line"></i> 1024 x 680 px</span>
+            </div>
+            <span style="font-size: 11px; color: var(--text-muted);">Destino: <code>img/1024x680/</code></span>
+          </div>
+
+          <div class="dropzone-box" id="dropzoneLarge">
+            <i class="ri-image-add-line"></i>
+            <div style="font-weight: 600; font-size: 13.5px; margin-bottom: 4px;">Selecciona o arrastra la imagen</div>
+            <div style="font-size: 12px; color: var(--text-muted);">Si es de otro tamaño, se adaptará y redimensionará a 1024x680</div>
+            <input type="file" id="fileLargeInput" accept="image/*" style="position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;">
+          </div>
+
+          <div class="preview-canvas-box" id="previewLargeBox">
+            <span style="color: var(--text-muted); font-size: 12px;">Sin imagen cargada</span>
+          </div>
+
+          <div style="display: flex; gap: 8px; justify-content: space-between; align-items: center;">
+            <span id="largeFileInfo" style="font-size: 11.5px; color: var(--text-muted);"></span>
+            <button id="btnAutoGenerateSmall" class="btn btn-secondary" style="font-size: 11.5px; padding: 6px 10px; display: none;">
+              <i class="ri-magic-line"></i> Usar esta para generar Pequeña (540x320)
+            </button>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2: Pequeña 540x320 -->
+        <div class="uploader-card">
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <div>
+              <h3 style="font-family: 'Outfit'; font-size: 16px; font-weight: 700;">Imagen Pequeña (Principal)</h3>
+              <span class="badge-size"><i class="ri-aspect-ratio-line"></i> 540 x 320 px</span>
+            </div>
+            <span style="font-size: 11px; color: var(--text-muted);">Destino: <code>img/540x320/</code></span>
+          </div>
+
+          <div class="dropzone-box" id="dropzoneSmall">
+            <i class="ri-image-add-line"></i>
+            <div style="font-weight: 600; font-size: 13.5px; margin-bottom: 4px;">Selecciona o arrastra la imagen</div>
+            <div style="font-size: 12px; color: var(--text-muted);">Se adaptará y redimensionará a 540x320</div>
+            <input type="file" id="fileSmallInput" accept="image/*" style="position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;">
+          </div>
+
+          <div class="preview-canvas-box" id="previewSmallBox">
+            <span style="color: var(--text-muted); font-size: 12px;">Sin imagen cargada</span>
+          </div>
+
+          <div style="display: flex; gap: 8px; justify-content: space-between; align-items: center;">
+            <span id="smallFileInfo" style="font-size: 11.5px; color: var(--text-muted);"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botón de Subida Central -->
+      <div style="text-align: center; margin-bottom: 24px;">
+        <button id="btnUploadToGitHub" class="btn btn-primary" style="padding: 13px 36px; font-size: 15px; box-shadow: 0 4px 20px rgba(230, 43, 30, 0.4);">
+          <i class="ri-cloud-upload-line" style="font-size: 20px;"></i> Subir Ambas Imágenes a GitHub Ahora
+        </button>
+        <div id="uploadProgressText" style="margin-top: 10px; font-size: 13px; font-weight: 600;"></div>
+      </div>
+
+      <!-- Resultados y URLs Generadas -->
+      <div class="uploader-card" id="uploadResultsCard" style="display: none;">
+        <h3 style="font-family: 'Outfit'; font-size: 16px; font-weight: 700; color: #4ade80;">
+          <i class="ri-checkbox-circle-line"></i> ¡Imágenes subidas exitosamente al repositorio!
+        </h3>
+        
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div>
+            <label style="font-size: 12px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; display: block;">
+              URL Imagen Grande (1024x680):
+            </label>
+            <div class="url-result-box">
+              <span id="resUrlLarge">https://raw.githubusercontent.com/...</span>
+              <button class="btn btn-secondary" style="padding: 4px 10px; font-size: 11px;" onclick="navigator.clipboard.writeText(document.getElementById('resUrlLarge').textContent)">
+                <i class="ri-file-copy-line"></i> Copiar
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <label style="font-size: 12px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; display: block;">
+              URL Imagen Pequeña (540x320):
+            </label>
+            <div class="url-result-box">
+              <span id="resUrlSmall">https://raw.githubusercontent.com/...</span>
+              <button class="btn btn-secondary" style="padding: 4px 10px; font-size: 11px;" onclick="navigator.clipboard.writeText(document.getElementById('resUrlSmall').textContent)">
+                <i class="ri-file-copy-line"></i> Copiar
+              </button>
+            </div>
+          </div>
+
+          <div style="margin-top: 8px;">
+            <label style="font-size: 12px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; display: block;">
+              Bloque Markdown / YAML para el Post de Jekyll:
+            </label>
+            <div style="position: relative;">
+              <textarea id="resPostYamlBlock" style="width: 100%; height: 110px; background: #0d1117; border: 1px solid #30363d; border-radius: 8px; color: #4ade80; font-family: monospace; font-size: 12px; padding: 12px;" readonly></textarea>
+              <button class="btn btn-primary" id="btnCopyYamlBlock" style="position: absolute; right: 12px; top: 12px; padding: 5px 12px; font-size: 11.5px;">
+                <i class="ri-file-copy-line"></i> Copiar Bloque Post
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -623,8 +886,10 @@
 
       const tabModeCountries = document.getElementById('tabModeCountries');
       const tabModeApp = document.getElementById('tabModeApp');
+      const tabModeUpload = document.getElementById('tabModeUpload');
       const viewCountriesSection = document.getElementById('viewCountriesSection');
       const viewAppSection = document.getElementById('viewAppSection');
+      const viewUploadSection = document.getElementById('viewUploadSection');
 
       const countriesPillsList = document.getElementById('countriesPillsList');
       const currentCountryTitle = document.getElementById('currentCountryTitle');
@@ -712,16 +977,30 @@
         currentMode = 'countries';
         tabModeCountries.classList.add('active');
         tabModeApp.classList.remove('active');
+        tabModeUpload.classList.remove('active');
         viewCountriesSection.style.display = 'block';
         viewAppSection.style.display = 'none';
+        viewUploadSection.style.display = 'none';
       });
 
       tabModeApp.addEventListener('click', () => {
         currentMode = 'app';
         tabModeApp.classList.add('active');
         tabModeCountries.classList.remove('active');
+        tabModeUpload.classList.remove('active');
         viewAppSection.style.display = 'block';
         viewCountriesSection.style.display = 'none';
+        viewUploadSection.style.display = 'none';
+      });
+
+      tabModeUpload.addEventListener('click', () => {
+        currentMode = 'upload';
+        tabModeUpload.classList.add('active');
+        tabModeCountries.classList.remove('active');
+        tabModeApp.classList.remove('active');
+        viewUploadSection.style.display = 'block';
+        viewCountriesSection.style.display = 'none';
+        viewAppSection.style.display = 'none';
       });
 
       // 4. Render Country Pills
@@ -1014,6 +1293,320 @@
           .replace(/"/g, '&quot;')
           .replace(/'/g, '&#039;');
       }
+
+      // ==========================================
+      // 9. MÓDULO DE SUBIDA A GITHUB (1024x680 & 540x320)
+      // ==========================================
+      const GH_STORAGE_TOKEN_KEY = 'itnews_gh_pat_token';
+      const GH_REPO_OWNER = 'itnewslat';
+      const GH_REPO_NAME = 'assets';
+      const GH_BRANCH = 'master';
+
+      const ghTokenInput = document.getElementById('ghTokenInput');
+      const toggleTokenEye = document.getElementById('toggleTokenEye');
+      const toggleTokenIcon = document.getElementById('toggleTokenIcon');
+      const saveGhTokenBtn = document.getElementById('saveGhTokenBtn');
+
+      const targetBaseFilename = document.getElementById('targetBaseFilename');
+      const dropzoneLarge = document.getElementById('dropzoneLarge');
+      const fileLargeInput = document.getElementById('fileLargeInput');
+      const previewLargeBox = document.getElementById('previewLargeBox');
+      const largeFileInfo = document.getElementById('largeFileInfo');
+      const btnAutoGenerateSmall = document.getElementById('btnAutoGenerateSmall');
+
+      const dropzoneSmall = document.getElementById('dropzoneSmall');
+      const fileSmallInput = document.getElementById('fileSmallInput');
+      const previewSmallBox = document.getElementById('previewSmallBox');
+      const smallFileInfo = document.getElementById('smallFileInfo');
+
+      const btnUploadToGitHub = document.getElementById('btnUploadToGitHub');
+      const uploadProgressText = document.getElementById('uploadProgressText');
+      const uploadResultsCard = document.getElementById('uploadResultsCard');
+      const resUrlLarge = document.getElementById('resUrlLarge');
+      const resUrlSmall = document.getElementById('resUrlSmall');
+      const resPostYamlBlock = document.getElementById('resPostYamlBlock');
+      const btnCopyYamlBlock = document.getElementById('btnCopyYamlBlock');
+
+      let largeImageData = null; // { base64, filename, mimeType }
+      let smallImageData = null; // { base64, filename, mimeType }
+
+      // Cargar Token de GitHub almacenado
+      function initGhToken() {
+        const savedToken = localStorage.getItem(GH_STORAGE_TOKEN_KEY) || '';
+        ghTokenInput.value = savedToken;
+      }
+
+      saveGhTokenBtn.addEventListener('click', () => {
+        const token = ghTokenInput.value.trim();
+        localStorage.setItem(GH_STORAGE_TOKEN_KEY, token);
+        saveGhTokenBtn.innerHTML = '<i class="ri-check-line"></i> ¡Guardado!';
+        setTimeout(() => {
+          saveGhTokenBtn.innerHTML = '<i class="ri-save-line"></i> Guardar Token';
+        }, 2500);
+      });
+
+      toggleTokenEye.addEventListener('click', () => {
+        if (ghTokenInput.type === 'password') {
+          ghTokenInput.type = 'text';
+          toggleTokenIcon.className = 'ri-eye-off-line';
+        } else {
+          ghTokenInput.type = 'password';
+          toggleTokenIcon.className = 'ri-eye-line';
+        }
+      });
+
+      // Drag and drop handlers
+      function setupDropzone(zone, input, onFile) {
+        zone.addEventListener('dragover', (e) => {
+          e.preventDefault();
+          zone.classList.add('dragover');
+        });
+        zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
+        zone.addEventListener('drop', (e) => {
+          e.preventDefault();
+          zone.classList.remove('dragover');
+          if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+            onFile(e.dataTransfer.files[0]);
+          }
+        });
+        input.addEventListener('change', (e) => {
+          if (e.target.files && e.target.files[0]) {
+            onFile(e.target.files[0]);
+          }
+        });
+      }
+
+      // Redimensionar o adaptar a lienzo exacto usando Canvas
+      function processAndResizeImage(file, targetWidth, targetHeight, callback) {
+        const reader = new FileReader();
+        reader.onload = function(event) {
+          const img = new Image();
+          img.onload = function() {
+            const canvas = document.createElement('canvas');
+            canvas.width = targetWidth;
+            canvas.height = targetHeight;
+            const ctx = canvas.getContext('2d');
+
+            // Fondo negro o suave de relleno si no coincide aspect ratio
+            ctx.fillStyle = '#000000';
+            ctx.fillRect(0, 0, targetWidth, targetHeight);
+
+            // Cover/Fit manteniendo aspect ratio
+            const scale = Math.max(targetWidth / img.width, targetHeight / img.height);
+            const w = img.width * scale;
+            const h = img.height * scale;
+            const x = (targetWidth - w) / 2;
+            const y = (targetHeight - h) / 2;
+
+            ctx.drawImage(img, x, y, w, h);
+            const base64DataUrl = canvas.toDataURL('image/jpeg', 0.92);
+            const base64Content = base64DataUrl.split(',')[1];
+
+            callback({
+              dataUrl: base64DataUrl,
+              base64: base64Content,
+              width: targetWidth,
+              height: targetHeight,
+              originalName: file.name
+            });
+          };
+          img.src = event.target.result;
+        };
+        reader.readAsDataURL(file);
+      }
+
+      // Procesar Imagen Grande (1024x680)
+      setupDropzone(dropzoneLarge, fileLargeInput, (file) => {
+        // Asignar nombre sugerido al nombre base si está vacío
+        if (!targetBaseFilename.value.trim()) {
+          const cleanName = file.name
+            .replace(/\.[^/.]+$/, '')
+            .replace(/[-_]?[gpGP]$/, '')
+            .trim();
+          targetBaseFilename.value = cleanName;
+        }
+
+        processAndResizeImage(file, 1024, 680, (result) => {
+          largeImageData = result;
+          previewLargeBox.innerHTML = `
+            <img src="${result.dataUrl}" alt="1024x680">
+            <span style="font-size: 11.5px; color: #4ade80;">Lista (1024x680 px)</span>
+          `;
+          largeFileInfo.textContent = `${file.name} (${Math.round(file.size / 1024)} KB)`;
+          btnAutoGenerateSmall.style.display = 'inline-flex';
+        });
+      });
+
+      // Botón para generar pequeña automáticamente desde la grande
+      btnAutoGenerateSmall.addEventListener('click', () => {
+        if (!largeImageData) return;
+        const img = new Image();
+        img.onload = function() {
+          const canvas = document.createElement('canvas');
+          canvas.width = 540;
+          canvas.height = 320;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0, 540, 320);
+
+          const base64DataUrl = canvas.toDataURL('image/jpeg', 0.92);
+          const base64Content = base64DataUrl.split(',')[1];
+
+          smallImageData = {
+            dataUrl: base64DataUrl,
+            base64: base64Content,
+            width: 540,
+            height: 320,
+            originalName: largeImageData.originalName
+          };
+
+          previewSmallBox.innerHTML = `
+            <img src="${base64DataUrl}" alt="540x320">
+            <span style="font-size: 11.5px; color: #4ade80;">Generada automáticamente (540x320 px)</span>
+          `;
+          smallFileInfo.textContent = `Derivada de ${largeImageData.originalName}`;
+        };
+        img.src = largeImageData.dataUrl;
+      });
+
+      // Procesar Imagen Pequeña (540x320) individual
+      setupDropzone(dropzoneSmall, fileSmallInput, (file) => {
+        if (!targetBaseFilename.value.trim()) {
+          const cleanName = file.name
+            .replace(/\.[^/.]+$/, '')
+            .replace(/[-_]?[gpGP]$/, '')
+            .trim();
+          targetBaseFilename.value = cleanName;
+        }
+
+        processAndResizeImage(file, 540, 320, (result) => {
+          smallImageData = result;
+          previewSmallBox.innerHTML = `
+            <img src="${result.dataUrl}" alt="540x320">
+            <span style="font-size: 11.5px; color: #4ade80;">Lista (540x320 px)</span>
+          `;
+          smallFileInfo.textContent = `${file.name} (${Math.round(file.size / 1024)} KB)`;
+        });
+      });
+
+      // Función para subir un archivo a GitHub vía REST API
+      async function uploadFileToGithub(path, base64Content, token) {
+        const apiUrl = `https://api.github.com/repos/${GH_REPO_OWNER}/${GH_REPO_NAME}/contents/${path}`;
+
+        // 1. Verificar si el archivo ya existe para obtener su SHA (evita error 422)
+        let sha = null;
+        try {
+          const checkRes = await fetch(apiUrl, {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Accept': 'application/vnd.github.v3+json'
+            }
+          });
+          if (checkRes.ok) {
+            const fileJson = await checkRes.json();
+            sha = fileJson.sha;
+          }
+        } catch (e) {
+          console.log('Archivo nuevo, no existe SHA previo');
+        }
+
+        // 2. Hacer el PUT para crear o actualizar el commit
+        const bodyPayload = {
+          message: `Upload ${path} via Admin Banners Panel`,
+          content: base64Content,
+          branch: GH_BRANCH
+        };
+        if (sha) bodyPayload.sha = sha;
+
+        const res = await fetch(apiUrl, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(bodyPayload)
+        });
+
+        if (!res.ok) {
+          const errData = await res.json().catch(() => ({}));
+          throw new Error(errData.message || `Error HTTP ${res.status}`);
+        }
+
+        return await res.json();
+      }
+
+      // Manejador del botón Subir a GitHub
+      btnUploadToGitHub.addEventListener('click', async () => {
+        const token = ghTokenInput.value.trim();
+        if (!token) {
+          alert('Por favor ingresa tu Personal Access Token (PAT) de GitHub en la barra superior.');
+          ghTokenInput.focus();
+          return;
+        }
+
+        const baseName = (targetBaseFilename.value.trim() || 'noticia-imagen').replace(/\.[^/.]+$/, '');
+        if (!largeImageData || !smallImageData) {
+          alert('Por favor carga tanto la imagen Grande (1024x680) como la Pequeña (540x320). Puedes usar el botón mágico para generar la pequeña a partir de la grande.');
+          return;
+        }
+
+        const largeFileName = `${baseName}-g.jpg`;
+        const smallFileName = `${baseName}-p.jpg`;
+
+        const pathLarge = `img/1024x680/${largeFileName}`;
+        const pathSmall = `img/540x320/${smallFileName}`;
+
+        btnUploadToGitHub.disabled = true;
+        btnUploadToGitHub.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Subiendo imágenes a GitHub...';
+        uploadProgressText.style.color = 'var(--accent)';
+        uploadProgressText.textContent = '1/2 Subiendo imagen grande (1024x680)...';
+
+        try {
+          // Subir grande
+          await uploadFileToGithub(pathLarge, largeImageData.base64, token);
+
+          // Subir pequeña
+          uploadProgressText.textContent = '2/2 Subiendo imagen pequeña (540x320)...';
+          await uploadFileToGithub(pathSmall, smallImageData.base64, token);
+
+          uploadProgressText.style.color = 'var(--success)';
+          uploadProgressText.textContent = '¡Ambas imágenes subidas con éxito a GitHub!';
+
+          // Construir URLs raw definitivas
+          const rawLargeUrl = `https://raw.githubusercontent.com/${GH_REPO_OWNER}/${GH_REPO_NAME}/refs/heads/${GH_BRANCH}/${pathLarge}`;
+          const rawSmallUrl = `https://raw.githubusercontent.com/${GH_REPO_OWNER}/${GH_REPO_NAME}/refs/heads/${GH_BRANCH}/${pathSmall}`;
+
+          resUrlLarge.textContent = rawLargeUrl;
+          resUrlSmall.textContent = rawSmallUrl;
+
+          // Bloque YAML para el Post Jekyll
+          const yamlBlock = `image: >-\n  ${rawSmallUrl}\ndetail-image: >-\n  ${rawLargeUrl}`;
+          resPostYamlBlock.value = yamlBlock;
+
+          uploadResultsCard.style.display = 'block';
+          uploadResultsCard.scrollIntoView({ behavior: 'smooth' });
+
+        } catch (error) {
+          console.error(error);
+          uploadProgressText.style.color = '#ef4444';
+          uploadProgressText.textContent = `Error al subir: ${error.message}`;
+          alert(`Hubo un error al subir a GitHub: ${error.message}\nVerifica que el Token tenga permisos de escritura en itnewslat/assets.`);
+        } finally {
+          btnUploadToGitHub.disabled = false;
+          btnUploadToGitHub.innerHTML = '<i class="ri-cloud-upload-line" style="font-size: 20px;"></i> Subir Ambas Imágenes a GitHub Ahora';
+        }
+      });
+
+      // Copiar bloque YAML
+      btnCopyYamlBlock.addEventListener('click', () => {
+        navigator.clipboard.writeText(resPostYamlBlock.value);
+        btnCopyYamlBlock.innerHTML = '<i class="ri-check-line"></i> ¡Copiado!';
+        setTimeout(() => {
+          btnCopyYamlBlock.innerHTML = '<i class="ri-file-copy-line"></i> Copiar Bloque Post';
+        }, 3000);
+      });
+
+      initGhToken();
 
       checkAuth();
     })();
