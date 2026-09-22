@@ -764,11 +764,16 @@
             <span style="color: var(--text-muted); font-size: 12px;">Sin imagen cargada</span>
           </div>
 
-          <div style="display: flex; gap: 8px; justify-content: space-between; align-items: center;">
+          <div style="display: flex; gap: 8px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
             <span id="largeFileInfo" style="font-size: 11.5px; color: var(--text-muted);"></span>
-            <button id="btnAutoGenerateSmall" class="btn btn-secondary" style="font-size: 11.5px; padding: 6px 10px; display: none;">
-              <i class="ri-magic-line"></i> Usar esta para generar Pequeña (540x320)
-            </button>
+            <div style="display: flex; gap: 6px; align-items: center;">
+              <button id="btnRemoveLarge" class="btn btn-secondary" style="font-size: 11px; padding: 5px 8px; display: none; color: #f87171;" title="Quitar imagen grande">
+                <i class="ri-delete-bin-line"></i> Quitar
+              </button>
+              <button id="btnAutoGenerateSmall" class="btn btn-secondary" style="font-size: 11.5px; padding: 6px 10px; display: none;">
+                <i class="ri-magic-line"></i> Usar esta para generar Pequeña (540x320)
+              </button>
+            </div>
           </div>
         </div>
 
@@ -793,25 +798,36 @@
             <span style="color: var(--text-muted); font-size: 12px;">Sin imagen cargada</span>
           </div>
 
-          <div style="display: flex; gap: 8px; justify-content: space-between; align-items: center;">
+          <div style="display: flex; gap: 8px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
             <span id="smallFileInfo" style="font-size: 11.5px; color: var(--text-muted);"></span>
+            <button id="btnRemoveSmall" class="btn btn-secondary" style="font-size: 11px; padding: 5px 8px; display: none; color: #f87171;" title="Quitar imagen pequeña">
+              <i class="ri-delete-bin-line"></i> Quitar
+            </button>
           </div>
         </div>
       </div>
 
-      <!-- Botón de Subida Central -->
-      <div style="text-align: center; margin-bottom: 24px;">
-        <button id="btnUploadToGitHub" class="btn btn-primary" style="padding: 13px 36px; font-size: 15px; box-shadow: 0 4px 20px rgba(230, 43, 30, 0.4);">
+      <!-- Botones de Acción de Carga -->
+      <div style="display: flex; justify-content: center; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 24px;">
+        <button id="btnUploadToGitHub" class="btn btn-primary" style="padding: 13px 32px; font-size: 15px; box-shadow: 0 4px 20px rgba(230, 43, 30, 0.4);">
           <i class="ri-cloud-upload-line" style="font-size: 20px;"></i> Subir Ambas Imágenes a GitHub Ahora
         </button>
-        <div id="uploadProgressText" style="margin-top: 10px; font-size: 13px; font-weight: 600;"></div>
+        <button id="btnClearUploadForm" class="btn btn-secondary" style="padding: 13px 24px; font-size: 14px; background: rgba(255,255,255,0.06); border: 1px solid var(--border-color);">
+          <i class="ri-refresh-line" style="font-size: 18px; color: var(--accent);"></i> Limpiar / Nueva Carga
+        </button>
       </div>
+      <div id="uploadProgressText" style="text-align: center; margin-top: -12px; margin-bottom: 20px; font-size: 13px; font-weight: 600;"></div>
 
       <!-- Resultados y URLs Generadas -->
       <div class="uploader-card" id="uploadResultsCard" style="display: none;">
-        <h3 style="font-family: 'Outfit'; font-size: 16px; font-weight: 700; color: #4ade80;">
-          <i class="ri-checkbox-circle-line"></i> ¡Imágenes subidas exitosamente al repositorio!
-        </h3>
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;">
+          <h3 style="font-family: 'Outfit'; font-size: 16px; font-weight: 700; color: #4ade80; margin: 0;">
+            <i class="ri-checkbox-circle-line"></i> ¡Imágenes subidas exitosamente al repositorio!
+          </h3>
+          <button id="btnNewUploadAfterSuccess" class="btn btn-secondary" style="font-size: 12px; padding: 6px 14px; border: 1px solid #4ade80; color: #4ade80;">
+            <i class="ri-add-circle-line"></i> Cargar Nuevas Imágenes
+          </button>
+        </div>
         
         <div style="display: flex; flex-direction: column; gap: 12px;">
           <div>
@@ -1493,13 +1509,17 @@
       const previewLargeBox = document.getElementById('previewLargeBox');
       const largeFileInfo = document.getElementById('largeFileInfo');
       const btnAutoGenerateSmall = document.getElementById('btnAutoGenerateSmall');
+      const btnRemoveLarge = document.getElementById('btnRemoveLarge');
 
       const dropzoneSmall = document.getElementById('dropzoneSmall');
       const fileSmallInput = document.getElementById('fileSmallInput');
       const previewSmallBox = document.getElementById('previewSmallBox');
       const smallFileInfo = document.getElementById('smallFileInfo');
+      const btnRemoveSmall = document.getElementById('btnRemoveSmall');
 
       const btnUploadToGitHub = document.getElementById('btnUploadToGitHub');
+      const btnClearUploadForm = document.getElementById('btnClearUploadForm');
+      const btnNewUploadAfterSuccess = document.getElementById('btnNewUploadAfterSuccess');
       const uploadProgressText = document.getElementById('uploadProgressText');
       const uploadResultsCard = document.getElementById('uploadResultsCard');
       const resUrlLarge = document.getElementById('resUrlLarge');
@@ -1509,6 +1529,42 @@
 
       let largeImageData = null; // { base64, filename, mimeType }
       let smallImageData = null; // { base64, filename, mimeType }
+
+      // Limpiar solo imagen grande
+      function clearLargeImage() {
+        largeImageData = null;
+        if (fileLargeInput) fileLargeInput.value = '';
+        if (previewLargeBox) {
+          previewLargeBox.innerHTML = '<span style="color: var(--text-muted); font-size: 12px;">Sin imagen cargada</span>';
+        }
+        if (largeFileInfo) largeFileInfo.textContent = '';
+        if (btnAutoGenerateSmall) btnAutoGenerateSmall.style.display = 'none';
+        if (btnRemoveLarge) btnRemoveLarge.style.display = 'none';
+      }
+
+      // Limpiar solo imagen pequeña
+      function clearSmallImage() {
+        smallImageData = null;
+        if (fileSmallInput) fileSmallInput.value = '';
+        if (previewSmallBox) {
+          previewSmallBox.innerHTML = '<span style="color: var(--text-muted); font-size: 12px;">Sin imagen cargada</span>';
+        }
+        if (smallFileInfo) smallFileInfo.textContent = '';
+        if (btnRemoveSmall) btnRemoveSmall.style.display = 'none';
+      }
+
+      // Función para reiniciar y limpiar todo el uploader de imágenes
+      function resetImageUploader() {
+        clearLargeImage();
+        clearSmallImage();
+
+        if (targetBaseFilename) targetBaseFilename.value = '';
+        if (uploadProgressText) uploadProgressText.textContent = '';
+        if (uploadResultsCard) uploadResultsCard.style.display = 'none';
+        if (resUrlLarge) resUrlLarge.textContent = 'https://raw.githubusercontent.com/...';
+        if (resUrlSmall) resUrlSmall.textContent = 'https://raw.githubusercontent.com/...';
+        if (resPostYamlBlock) resPostYamlBlock.value = '';
+      }
 
       const ghTokenInputGlobal = document.getElementById('ghTokenInputGlobal');
       const toggleTokenEyeGlobal = document.getElementById('toggleTokenEyeGlobal');
@@ -1645,6 +1701,7 @@
           `;
           largeFileInfo.textContent = `${file.name} (${Math.round(file.size / 1024)} KB)`;
           btnAutoGenerateSmall.style.display = 'inline-flex';
+          btnRemoveLarge.style.display = 'inline-flex';
         });
       });
 
@@ -1675,6 +1732,7 @@
             <span style="font-size: 11.5px; color: #4ade80;">Generada automáticamente (540x320 px)</span>
           `;
           smallFileInfo.textContent = `Derivada de ${largeImageData.originalName}`;
+          btnRemoveSmall.style.display = 'inline-flex';
         };
         img.src = largeImageData.dataUrl;
       });
@@ -1696,8 +1754,17 @@
             <span style="font-size: 11.5px; color: #4ade80;">Lista (540x320 px)</span>
           `;
           smallFileInfo.textContent = `${file.name} (${Math.round(file.size / 1024)} KB)`;
+          btnRemoveSmall.style.display = 'inline-flex';
         });
       });
+
+      // Listeners para quitar individualmente
+      if (btnRemoveLarge) {
+        btnRemoveLarge.addEventListener('click', clearLargeImage);
+      }
+      if (btnRemoveSmall) {
+        btnRemoveSmall.addEventListener('click', clearSmallImage);
+      }
 
       // Función para subir un archivo a GitHub vía REST API
       async function uploadFileToGithub(path, base64Content, token) {
@@ -1816,6 +1883,28 @@
           btnCopyYamlBlock.innerHTML = '<i class="ri-file-copy-line"></i> Copiar Bloque Post';
         }, 3000);
       });
+
+      // Botón Limpiar / Nueva Carga
+      if (btnClearUploadForm) {
+        btnClearUploadForm.addEventListener('click', () => {
+          if (largeImageData || smallImageData || targetBaseFilename.value) {
+            if (confirm('¿Deseas limpiar todos los campos e imágenes cargadas para empezar una nueva carga?')) {
+              resetImageUploader();
+            }
+          } else {
+            resetImageUploader();
+          }
+        });
+      }
+
+      // Botón Cargar Nuevas Imágenes (tras éxito)
+      if (btnNewUploadAfterSuccess) {
+        btnNewUploadAfterSuccess.addEventListener('click', () => {
+          resetImageUploader();
+          window.scrollTo({ top: targetBaseFilename.offsetTop - 120, behavior: 'smooth' });
+          targetBaseFilename.focus();
+        });
+      }
 
       initGhToken();
 
