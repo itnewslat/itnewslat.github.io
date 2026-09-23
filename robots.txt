@@ -5,3 +5,4 @@ Allow: /feed.xml
 
 # Sitemaps and feeds
 Sitemap: https://itnews.lat/sitemap.xml
+Sitemap: https://itnews.lat/news-sitemap.xml
