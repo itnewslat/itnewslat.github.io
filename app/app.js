@@ -1429,6 +1429,53 @@
     }
   }
 
+  // Inicialización de PWA (Service Worker e Instalación)
+  function initPwaFeatures() {
+    // 1. Registrar Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').then((reg) => {
+          console.log('ITNEWS PWA ServiceWorker registrado con éxito:', reg.scope);
+        }).catch((err) => {
+          console.warn('Fallo al registrar ServiceWorker PWA:', err);
+        });
+      });
+    }
+
+    // 2. Manejo de instalación en móvil/escritorio (beforeinstallprompt)
+    const installBtn = document.getElementById('installPwaBtn');
+    let deferredPrompt = null;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (installBtn) {
+        installBtn.style.display = 'inline-flex';
+        installBtn.classList.add('pulse-attention');
+      }
+    });
+
+    if (installBtn) {
+      installBtn.addEventListener('click', async () => {
+        if (!deferredPrompt) {
+          alert('Para instalar ITNEWS Express:\n• En Android/Chrome: Menú (⋮) > "Instalar aplicación"\n• En iPhone/Safari: Compartir (↑) > "Agregar a pantalla de inicio"');
+          return;
+        }
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        if (outcome === 'accepted') {
+          installBtn.style.display = 'none';
+        }
+        deferredPrompt = null;
+      });
+    }
+
+    window.addEventListener('appinstalled', () => {
+      if (installBtn) installBtn.style.display = 'none';
+      console.log('¡ITNEWS Express instalado exitosamente!');
+    });
+  }
+
   // Initial Execution
   loadData();
   trackAppVisits();
@@ -1436,6 +1483,7 @@
   initNewsletterForm();
   fetchLatestYouTubeVideos();
   loadDynamicBanners();
+  initPwaFeatures();
 
   // Sincronización automática periódica (cada 60 segundos) para detectar cambios en feed.xml
   const SYNC_INTERVAL = 60 * 1000;

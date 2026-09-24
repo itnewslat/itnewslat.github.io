@@ -41,6 +41,14 @@
   <meta name="twitter:description" content="Aplicación interactiva y lector de noticias tecnológicas, ciberseguridad y transformación digital en América Latina.">
   <meta name="twitter:image" content="https://itnews.lat/assets/imagenes/logo_large_red.png">
 
+  <!-- PWA Manifest & App Config -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#e62b1e">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="ITNEWS">
+
   <!-- Favicon & Icons -->
   <link rel="icon" type="image/png" href="https://itnews.lat/assets/imagenes/logo.png">
   <link rel="apple-touch-icon" href="https://itnews.lat/assets/imagenes/logo.png">
@@ -110,6 +118,18 @@
     ]
   }
   </script>
+
+  <!-- Google Analytics Tracking (Global Site Tag) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117276592-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-117276592-1', {
+      'page_title': 'ITNEWS App Express',
+      'page_path': '/app/'
+    });
+  </script>
 </head>
 <body>
   <!-- Header / Navbar -->
@@ -131,6 +151,9 @@
           <span class="pulse-dot"></span>
           <span id="statusText">En línea</span>
         </div>
+        <button id="installPwaBtn" class="icon-button" title="Instalar Aplicación en tu dispositivo" aria-label="Instalar App" style="display:none; color: var(--accent);">
+          <i class="ri-download-2-line"></i>
+        </button>
         <button id="themeToggleBtn" class="icon-button" title="Alternar tema claro/oscuro" aria-label="Cambiar tema">
           <i class="ri-sun-line light-icon"></i>
           <i class="ri-moon-line dark-icon"></i>
