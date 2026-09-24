@@ -492,6 +492,69 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20260920_02"></script>
+  <!-- Banner Flotante Minimalista de Instalación PWA (Móvil y Escritorio) -->
+  <div id="pwaFloatingBanner" class="pwa-floating-pill" style="display: none;">
+    <div class="pwa-pill-icon">
+      <img src="https://itnews.lat/assets/imagenes/logo.png" alt="ITNEWS" width="28" height="28">
+    </div>
+    <div class="pwa-pill-text">
+      <strong>Instalar ITNEWS Express</strong>
+      <span>Acceso rápido desde tu pantalla de inicio o escritorio</span>
+    </div>
+    <div class="pwa-pill-actions">
+      <button id="pwaPillInstallBtn" class="btn-pwa-action">
+        <i class="ri-download-2-line"></i>
+        <span>Instalar</span>
+      </button>
+      <button id="pwaPillCloseBtn" class="btn-pwa-dismiss" title="No volver a mostrar" aria-label="Cerrar">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Modal explicativo visual exclusivo para iPhone / iOS Safari -->
+  <div id="iosInstallModal" class="ios-modal-backdrop" style="display: none;">
+    <div class="ios-modal-card">
+      <div class="ios-modal-header">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <img src="https://itnews.lat/assets/imagenes/logo.png" alt="ITNEWS" width="36" height="36" style="border-radius:8px;">
+          <div>
+            <h4 style="margin:0; font-size:15px; font-weight:700;">Instalar en tu iPhone</h4>
+            <span style="font-size:12px; color:var(--text-muted);">ITNEWS Express</span>
+          </div>
+        </div>
+        <button id="closeIosModalBtn" class="icon-button" style="width:30px; height:30px; font-size:16px;">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+      <div class="ios-modal-steps">
+        <div class="ios-step">
+          <div class="step-num">1</div>
+          <div class="step-info">
+            Toca el botón <strong>Compartir</strong> en la barra inferior de Safari:
+            <div class="step-icon-preview"><i class="ri-share-box-line"></i> (Cuadro con flecha arriba)</div>
+          </div>
+        </div>
+        <div class="ios-step">
+          <div class="step-num">2</div>
+          <div class="step-info">
+            Baja en el menú y selecciona:
+            <div class="step-icon-preview"><i class="ri-add-box-line"></i> <strong>"Agregar a pantalla de inicio"</strong></div>
+          </div>
+        </div>
+        <div class="ios-step">
+          <div class="step-num">3</div>
+          <div class="step-info">
+            Toca <strong>"Agregar"</strong> arriba a la derecha. ¡Listo!
+          </div>
+        </div>
+      </div>
+      <button id="btnGotItIos" class="btn btn-primary" style="width:100%; margin-top:14px; font-size:13.5px; padding:9px;">
+        Entendido
+      </button>
+    </div>
+  </div>
+
+  <script src="app.js?v=20260924_02"></script>
 </body>
 </html>

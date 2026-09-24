@@ -1429,7 +1429,7 @@
     }
   }
 
-  // Inicialización de PWA (Service Worker e Instalación)
+  // Inicialización de PWA (Service Worker, Banner Flotante e Instalación)
   function initPwaFeatures() {
     // 1. Registrar Service Worker
     if ('serviceWorker' in navigator) {
@@ -1442,36 +1442,85 @@
       });
     }
 
-    // 2. Manejo de instalación en móvil/escritorio (beforeinstallprompt)
-    const installBtn = document.getElementById('installPwaBtn');
+    const DISMISS_KEY = 'itnews_pwa_dismissed_v1';
+    const isDismissed = localStorage.getItem(DISMISS_KEY) === 'true';
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+
+    // Si ya está instalada o el usuario la cerró expresamente, no mostrar cápsula flotante
+    if (isStandalone) return;
+
+    const installHeaderBtn = document.getElementById('installPwaBtn');
+    const floatingBanner = document.getElementById('pwaFloatingBanner');
+    const pillInstallBtn = document.getElementById('pwaPillInstallBtn');
+    const pillCloseBtn = document.getElementById('pwaPillCloseBtn');
+
+    const iosModal = document.getElementById('iosInstallModal');
+    const closeIosBtn = document.getElementById('closeIosModalBtn');
+    const btnGotItIos = document.getElementById('btnGotItIos');
+
+    const isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     let deferredPrompt = null;
 
+    // Mostrar cápsula flotante con retardo sutil para no interrumpir
+    function showFloatingPill() {
+      if (!isDismissed && floatingBanner) {
+        setTimeout(() => {
+          floatingBanner.style.display = 'flex';
+        }, 1500);
+      }
+    }
+
+    // Evento de navegadores compatibles (Android Chrome/Edge, Windows, Mac, Linux)
     window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault();
       deferredPrompt = e;
-      if (installBtn) {
-        installBtn.style.display = 'inline-flex';
-        installBtn.classList.add('pulse-attention');
+      if (installHeaderBtn) {
+        installHeaderBtn.style.display = 'inline-flex';
+        installHeaderBtn.classList.add('pulse-attention');
       }
+      showFloatingPill();
     });
 
-    if (installBtn) {
-      installBtn.addEventListener('click', async () => {
-        if (!deferredPrompt) {
-          alert('Para instalar ITNEWS Express:\n• En Android/Chrome: Menú (⋮) > "Instalar aplicación"\n• En iPhone/Safari: Compartir (↑) > "Agregar a pantalla de inicio"');
-          return;
-        }
+    // En iOS Safari no existe beforeinstallprompt, mostrar banner tras unos segundos si no se descartó
+    if (isIos && !isDismissed) {
+      showFloatingPill();
+    }
+
+    // Acción de instalación unificada
+    async function triggerInstallFlow() {
+      if (deferredPrompt) {
         deferredPrompt.prompt();
         const { outcome } = await deferredPrompt.userChoice;
         if (outcome === 'accepted') {
-          installBtn.style.display = 'none';
+          if (floatingBanner) floatingBanner.style.display = 'none';
+          if (installHeaderBtn) installHeaderBtn.style.display = 'none';
         }
         deferredPrompt = null;
+      } else if (isIos) {
+        if (iosModal) iosModal.style.display = 'flex';
+      } else {
+        alert('Para instalar ITNEWS Express:\n• En Google Chrome/Edge: Presiona el icono de instalar en la barra de direcciones o Menú (⋮) > "Instalar aplicación"\n• En móvil: Menú (⋮) > "Agregar a pantalla principal"');
+      }
+    }
+
+    if (installHeaderBtn) installHeaderBtn.addEventListener('click', triggerInstallFlow);
+    if (pillInstallBtn) pillInstallBtn.addEventListener('click', triggerInstallFlow);
+
+    // Botón de descartar cápsula flotante
+    if (pillCloseBtn) {
+      pillCloseBtn.addEventListener('click', () => {
+        if (floatingBanner) floatingBanner.style.display = 'none';
+        localStorage.setItem(DISMISS_KEY, 'true');
       });
     }
 
+    // Cerrar modal iOS
+    if (closeIosBtn) closeIosBtn.addEventListener('click', () => { iosModal.style.display = 'none'; });
+    if (btnGotItIos) btnGotItIos.addEventListener('click', () => { iosModal.style.display = 'none'; });
+
     window.addEventListener('appinstalled', () => {
-      if (installBtn) installBtn.style.display = 'none';
+      if (floatingBanner) floatingBanner.style.display = 'none';
+      if (installHeaderBtn) installHeaderBtn.style.display = 'none';
       console.log('¡ITNEWS Express instalado exitosamente!');
     });
   }
