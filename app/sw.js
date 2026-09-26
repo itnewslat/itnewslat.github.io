@@ -1,12 +1,12 @@
 // Service Worker ligero para ITNEWS Express PWA
-const CACHE_NAME = 'itnews-pwa-v1';
+const CACHE_NAME = 'itnews-pwa-v3';
 const STATIC_ASSETS = [
   '/app/',
   '/app/index.html',
   '/app/styles.css',
   '/app/app.js',
   '/app/manifest.json',
-  'https://itnews.lat/assets/imagenes/logo.png',
+  'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/mosca-g.jpg',
   'https://itnews.lat/assets/imagenes/logo_large_red.png'
 ];
 
