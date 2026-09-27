@@ -89,10 +89,10 @@ title: "Newsletter ITNEWS LAT - Las 12 Últimas Noticias"
             </td>
             <td valign="middle" align="right" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #64748b; line-height: 16px;">
               <span style="display: inline-block; background-color: #f1f5f9; padding: 4px 10px; border-radius: 20px; font-weight: bold; color: #334155;">
-                Edición Ejecutiva
+                Edición Ejecutiva &bull; Semana {{ site.time | date: "%V" }}
               </span>
               <br />
-              <span style="font-size: 11px; color: #94a3b8; display: inline-block; margin-top: 4px;">{{ site.time | date: "%d %b, %Y" }}</span>
+              <span style="font-size: 11px; color: #94a3b8; display: inline-block; margin-top: 4px;">{{ site.time | date: "%d de %B, %Y" | replace: "January", "Enero" | replace: "February", "Febrero" | replace: "March", "Marzo" | replace: "April", "Abril" | replace: "May", "Mayo" | replace: "June", "Junio" | replace: "July", "Julio" | replace: "August", "Agosto" | replace: "September", "Septiembre" | replace: "October", "Octubre" | replace: "November", "Noviembre" | replace: "December", "Diciembre" }}</span>
             </td>
           </tr>
         </table>

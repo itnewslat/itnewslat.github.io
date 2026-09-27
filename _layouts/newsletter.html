@@ -73,9 +73,14 @@
 												<tr>
 													<td width="100%" align="center" style="font-size: 28px; line-height: 34px; font-family:helvetica, Arial, sans-serif; color:#000000;">
 														Boletin <strong>Semanal</strong>
+														{% if page.week %}
+														<div style="font-size: 16px; font-weight: normal; color: #64748b; margin-top: 6px;">
+															Semana {{ page.week }}{% if page.year %} de {{ page.year }}{% endif %}{% if page.date %} &bull; {{ page.date | date: "%d/%m/%Y" }}{% endif %}
+														</div>
+														{% endif %}
 													</td>
 													<center>
-													<a href="https://Absidecorp.com/"><img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90.png" alt="Company Logo" style="display: block;height:4vw"/></a>
+													<a href="https://Absidecorp.com/"><img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90.png" alt="Company Logo" style="display: block;height:4vw; margin-top: 12px;"/></a>
 													</center>
 												</tr>
 												<!-- Space -->
