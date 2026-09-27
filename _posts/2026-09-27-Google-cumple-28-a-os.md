@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: Google cumple 28 años: buscar ya no significa lo mismo
+title: Google cumple 28 años - buscar ya no significa lo mismo
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Freddy-Peede-p.jpg
 detail-image: >-
