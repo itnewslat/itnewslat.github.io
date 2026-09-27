@@ -569,9 +569,114 @@ title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
       font-size: 11px;
       font-family: 'JetBrains Mono', monospace;
     }
+
+    /* Login Screen Modal */
+    .login-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(circle at center, #1e293b 0%, #0b0f19 100%);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .login-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 36px 30px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+
+    .login-logo {
+      height: 44px;
+      margin-bottom: 20px;
+    }
+
+    .login-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .login-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      line-height: 1.4;
+    }
+
+    .login-input-wrap {
+      position: relative;
+      margin-bottom: 16px;
+    }
+
+    .login-input-wrap input {
+      width: 100%;
+      padding: 13px 16px 13px 42px;
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      color: #fff;
+      font-size: 14px;
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    .login-input-wrap input:focus {
+      border-color: var(--accent-red);
+      box-shadow: 0 0 0 3px rgba(200, 35, 51, 0.2);
+    }
+
+    .login-input-wrap i {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+    }
+
+    .login-error {
+      color: #f87171;
+      font-size: 12px;
+      margin-bottom: 14px;
+      display: none;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
+
+  <!-- PANTALLA DE ACCESO RESTRINGIDO (LOGIN) -->
+  <div class="login-overlay" id="loginOverlay">
+    <div class="login-card">
+      <img class="login-logo" src="https://itnews.lat/assets/imagenes/logo_large_red.png" alt="ITNEWS.LAT">
+      <h2 class="login-title"><i class="fas fa-lock" style="color: var(--accent-red); font-size: 18px; margin-right: 6px;"></i> Acceso Privado</h2>
+      <p class="login-desc">Introduce la clave de acceso de redacción para utilizar el Panel de Difusión en Redes Sociales.</p>
+      
+      <form onsubmit="handleLoginSubmit(event)">
+        <div class="login-input-wrap">
+          <i class="fas fa-key"></i>
+          <input type="password" id="loginPasswordInput" placeholder="Contraseña de acceso..." autocomplete="current-password" autofocus>
+        </div>
+        <div class="login-error" id="loginErrorMsg">
+          <i class="fas fa-exclamation-triangle"></i> Clave incorrecta. Inténtalo de nuevo.
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 13px; font-size: 14px;">
+          <i class="fas fa-sign-in-alt"></i> Desbloquear Panel
+        </button>
+      </form>
+    </div>
+  </div>
 
   <header>
     <div class="brand-wrap">
@@ -582,13 +687,16 @@ title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
         <span class="badge-hub"><i class="fas fa-satellite-dish"></i> Social Dispatcher</span>
       </div>
     </div>
-    <div class="header-links">
+    <div class="header-links" style="display: flex; align-items: center;">
       <a href="/newsletter/" target="_blank"><i class="far fa-newspaper"></i> Newsletter</a>
       <a href="/" target="_blank" style="margin-left: 16px;"><i class="fas fa-home"></i> Ir a Portada</a>
+      <button onclick="logoutPanel()" style="margin-left: 20px; background: transparent; border: 1px solid var(--border-color); color: #f87171; font-size: 11px; padding: 5px 10px; border-radius: 6px; cursor: pointer; display: flex; align-items: center; gap: 5px;">
+        <i class="fas fa-sign-out-alt"></i> Salir
+      </button>
     </div>
   </header>
 
-  <main class="container">
+  <main class="container" id="mainContainer" style="filter: blur(8px); pointer-events: none; transition: filter 0.3s ease;">
     
     <!-- COLUMNA 1: Selector y Buscador de Notas -->
     <section class="panel-col">
@@ -1089,8 +1197,82 @@ title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
       return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
 
-    // Inicializar
-    window.addEventListener('DOMContentLoaded', loadPosts);
+    // Hash SHA-256 de la clave 'D1nam1c0'
+    const AUTH_HASH = 'e94e8219d322496bf3f65be03e1679d13ae8473cc025f59de73970bef52d9a27';
+    const AUTH_STORAGE_KEY = 'itnews_social_panel_auth';
+
+    async function sha256(message) {
+      const msgBuffer = new TextEncoder().encode(message);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    async function checkAuthSession() {
+      const savedHash = localStorage.getItem(AUTH_STORAGE_KEY);
+      if (savedHash === AUTH_HASH) {
+        unlockPanel();
+      } else {
+        lockPanel();
+      }
+    }
+
+    async function handleLoginSubmit(e) {
+      if (e) e.preventDefault();
+      const input = document.getElementById('loginPasswordInput');
+      const errorMsg = document.getElementById('loginErrorMsg');
+      const val = input.value.trim();
+
+      if (!val) {
+        errorMsg.style.display = 'block';
+        return;
+      }
+
+      const inputHash = await sha256(val);
+      if (inputHash === AUTH_HASH) {
+        localStorage.setItem(AUTH_STORAGE_KEY, AUTH_HASH);
+        errorMsg.style.display = 'none';
+        unlockPanel();
+        showToast('¡Bienvenido al Panel de Redes!');
+      } else {
+        errorMsg.style.display = 'block';
+        input.value = '';
+        input.focus();
+      }
+    }
+
+    function unlockPanel() {
+      const overlay = document.getElementById('loginOverlay');
+      const main = document.getElementById('mainContainer');
+      if (overlay) overlay.style.display = 'none';
+      if (main) {
+        main.style.filter = 'none';
+        main.style.pointerEvents = 'auto';
+      }
+      loadPosts();
+    }
+
+    function lockPanel() {
+      const overlay = document.getElementById('loginOverlay');
+      const main = document.getElementById('mainContainer');
+      if (overlay) overlay.style.display = 'flex';
+      if (main) {
+        main.style.filter = 'blur(8px)';
+        main.style.pointerEvents = 'none';
+      }
+      const input = document.getElementById('loginPasswordInput');
+      if (input) setTimeout(() => input.focus(), 200);
+    }
+
+    function logoutPanel() {
+      if (confirm('¿Deseas cerrar la sesión del panel de redes?')) {
+        localStorage.removeItem(AUTH_STORAGE_KEY);
+        lockPanel();
+      }
+    }
+
+    // Inicializar comprobación de autenticación
+    window.addEventListener('DOMContentLoaded', checkAuthSession);
   </script>
 </body>
 </html>
