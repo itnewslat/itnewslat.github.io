@@ -7,10 +7,28 @@
   <!-- SEO Descriptions & Canonical -->
   {% assign rawSnippet = page.content | strip_html | normalize_whitespace | truncate: 160 | escape %}
   <meta name="description" content="{{ rawSnippet }}">
-  <meta name="author" content="{{ site.author | default: 'ITNEWS LAT' }}">
+  <meta name="author" content="{{ page.author | default: 'Edgar C. Rincón M.' }}">
   <link rel="canonical" href="https://itnews.lat{{ page.url }}">
   <link rel="alternate" hreflang="es" href="https://itnews.lat{{ page.url }}">
   <link rel="alternate" hreflang="es-419" href="https://itnews.lat{{ page.url }}">
+  {% assign postCountry = page.categories.first | default: 'Latinoamérica' %}
+  {% if postCountry == 'Venezuela' %}
+    <link rel="alternate" hreflang="es-VE" href="https://itnews.lat{{ page.url }}">
+  {% elsif postCountry == 'Colombia' %}
+    <link rel="alternate" hreflang="es-CO" href="https://itnews.lat{{ page.url }}">
+  {% elsif postCountry == 'México' or postCountry == 'Mexico' %}
+    <link rel="alternate" hreflang="es-MX" href="https://itnews.lat{{ page.url }}">
+  {% elsif postCountry == 'Panamá' or postCountry == 'Panama' %}
+    <link rel="alternate" hreflang="es-PA" href="https://itnews.lat{{ page.url }}">
+  {% elsif postCountry == 'Chile' %}
+    <link rel="alternate" hreflang="es-CL" href="https://itnews.lat{{ page.url }}">
+  {% elsif postCountry == 'Perú' or postCountry == 'Peru' %}
+    <link rel="alternate" hreflang="es-PE" href="https://itnews.lat{{ page.url }}">
+  {% elsif postCountry == 'Argentina' %}
+    <link rel="alternate" hreflang="es-AR" href="https://itnews.lat{{ page.url }}">
+  {% elsif postCountry == 'Ecuador' %}
+    <link rel="alternate" hreflang="es-EC" href="https://itnews.lat{{ page.url }}">
+  {% endif %}
   <link rel="alternate" hreflang="x-default" href="https://itnews.lat{{ page.url }}">
   <meta http-equiv="content-language" content="es-419">
 
@@ -96,46 +114,101 @@
   <meta name="twitter:description" content="{{ rawSnippet }}">
   <meta name="twitter:image" content="{{ postImg }}">
 
-  <!-- JSON-LD Structured Data Schema (NewsArticle optimizado para Google Discover & Google News) -->
+  <!-- Schema.org JSON-LD (@graph: NewsArticle/TechArticle + BreadcrumbList + Person Author + NewsMediaOrganization) -->
+  {% assign authorName = page.author | default: "Edgar C. Rincón M." %}
+  {% assign regionalSection = page.categories.first | default: "Tecnología" %}
+  {% assign regionalSlug = regionalSection | replace: ' ', '-' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://itnews.lat{{ page.url }}"
-    },
-    "headline": "{{ page.title | escape }}",
-    "image": [
-      "{{ postImg }}",
-      "{{ postSmallImg }}"
-    ],
-    "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "dateModified": "{{ page.date | date_to_xmlschema }}",
-    "inLanguage": "es-419",
-    "author": {
-      "@type": "Organization",
-      "name": "Redacción ITNEWS LAT",
-      "url": "https://itnews.lat"
-    },
-    "publisher": {
-      "@type": "NewsMediaOrganization",
-      "name": "ITNEWS LAT",
-      "url": "https://itnews.lat/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://itnews.lat/assets/imagenes/logo_large_red.png",
-        "width": 600,
-        "height": 60
+    "@graph": [
+      {
+        "@type": ["NewsArticle", "TechArticle"],
+        "@id": "https://itnews.lat{{ page.url }}#article",
+        "isPartOf": {
+          "@type": "WebPage",
+          "@id": "https://itnews.lat{{ page.url }}"
+        },
+        "headline": {{ page.title | jsonify }},
+        "description": {{ rawSnippet | jsonify }},
+        "image": [
+          "{{ postImg }}",
+          "{{ postSmallImg }}"
+        ],
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "dateModified": "{{ page.date | date_to_xmlschema }}",
+        "inLanguage": "es-419",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://itnews.lat{{ page.url }}"
+        },
+        "articleSection": {{ regionalSection | jsonify }},
+        "keywords": {{ page.tags | join: ', ' | jsonify }},
+        "author": {
+          "@id": "https://itnews.lat/about.html#author"
+        },
+        "publisher": {
+          "@id": "https://itnews.lat/#organization"
+        }
       },
-      "sameAs": [
-        "https://twitter.com/ITNEWSLAT",
-        "https://www.youtube.com/@ITNewslat"
-      ]
-    },
-    "description": "{{ rawSnippet }}",
-    "articleSection": "{{ page.categories | first | default: 'Tecnología' }}",
-    "keywords": "{{ page.tags | join: ', ' | escape }}"
+      {
+        "@type": "Person",
+        "@id": "https://itnews.lat/about.html#author",
+        "name": {{ authorName | jsonify }},
+        "jobTitle": "Director & Periodista de Tecnología B2B",
+        "description": "Periodista y editor de tecnología y telecomunicaciones con más de 25 años de trayectoria cubriendo la transformación digital, ciberseguridad y tendencias empresariales en América Latina.",
+        "url": "https://itnews.lat/about.html",
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/itn.jpg",
+        "sameAs": [
+          "https://www.linkedin.com/in/edgar-c-rincon-m/",
+          "https://twitter.com/ITNEWSLAT"
+        ],
+        "worksFor": {
+          "@id": "https://itnews.lat/#organization"
+        }
+      },
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://itnews.lat/#organization",
+        "name": "ITNEWS.LAT",
+        "url": "https://itnews.lat/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://itnews.lat/assets/imagenes/logo_large_red.png",
+          "width": 600,
+          "height": 60
+        },
+        "sameAs": [
+          "https://twitter.com/ITNEWSLAT",
+          "https://www.youtube.com/@ITNewslat",
+          "https://www.linkedin.com/company/itnewslat"
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://itnews.lat{{ page.url }}#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Portada",
+            "item": "https://itnews.lat/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ regionalSection | jsonify }},
+            "item": "https://itnews.lat/{{ regionalSlug }}/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ page.title | jsonify }},
+            "item": "https://itnews.lat{{ page.url }}"
+          }
+        ]
+      }
+    ]
   }
   </script>
 

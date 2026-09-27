@@ -10,6 +10,22 @@
         {{ page.title }}
       </h1>
 
+      <!-- Author Byline & E-E-A-T Credibility Indicator -->
+      {% assign authorName = page.author | default: "Edgar C. Rincón M." %}
+      <div class="article-byline-bar">
+        <span class="byline-author">
+          <i class="fas fa-user-edit"></i> Por <a href="/about.html" rel="author" class="author-link">{{ authorName }}</a>
+        </span>
+        <span class="byline-separator">&middot;</span>
+        <span class="byline-role">Director & Editor de Tecnología B2B</span>
+        <span class="byline-separator">&middot;</span>
+        <span class="byline-date"><i class="far fa-calendar-alt"></i> {{ page.date | date: "%d/%m/%Y" }}</span>
+        {% if page.categories.first %}
+        <span class="byline-separator">&middot;</span>
+        <span class="byline-country"><i class="fas fa-globe-americas"></i> {{ page.categories.first }}</span>
+        {% endif %}
+      </div>
+
       <!--Main content of post-->
       <div class="blog-content">
         <div class="blog-media">
@@ -19,8 +35,61 @@
         <!-- Social Share Bar (Top compact under image) -->
         {% include posts/share-bar.html %}
 
+        <!-- GEO Direct-to-Answer Layout: Key Takeaways Block (SSR / Generative Engine Optimization) -->
+        <section class="geo-takeaways" aria-label="Puntos Clave">
+          <div class="geo-takeaways-header">
+            <span class="geo-takeaways-icon"><i class="fas fa-bolt"></i></span>
+            <h3 class="geo-takeaways-title">Puntos Clave</h3>
+          </div>
+          <ul class="geo-takeaways-list">
+            {% if page.takeaways %}
+              {% for item in page.takeaways %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            {% elsif page.puntos_clave %}
+              {% for item in page.puntos_clave %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            {% else %}
+              <!-- Automated SSR Lead Takeaways extracted for generative search crawlers -->
+              {% assign cleanContent = page.content | strip_html | normalize_whitespace %}
+              {% assign sentences = cleanContent | split: '. ' %}
+              {% if sentences[0] %}
+                <li><strong>Resumen ejecutivo:</strong> {{ sentences[0] | strip }}.</li>
+              {% endif %}
+              {% if sentences[1] %}
+                <li><strong>Impacto en el sector:</strong> {{ sentences[1] | strip }}.</li>
+              {% endif %}
+              {% if sentences[2] %}
+                <li><strong>Relevancia regional:</strong> {{ sentences[2] | strip }}.</li>
+              {% endif %}
+            {% endif %}
+          </ul>
+        </section>
+
         <div class="blog-article-body">
           <p>{{ page.content }}</p>
+        </div>
+
+        <!-- E-E-A-T Author Card -->
+        <div class="author-bio-card">
+          <div class="author-avatar">
+            <img src="https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/itn.jpg" alt="{{ authorName }}" class="rounded-circle img-fluid">
+          </div>
+          <div class="author-info">
+            <div class="author-header">
+              <h4 class="author-name"><a href="/about.html">{{ authorName }}</a></h4>
+              <span class="author-badge"><i class="fas fa-check-circle text-primary"></i> Editor Verificado</span>
+            </div>
+            <p class="author-desc">
+              Periodista y especialista en tecnología y telecomunicaciones con más de 25 años de trayectoria cubriendo la actualidad empresarial, economía digital y tendencias CxO en Latinoamérica.
+            </p>
+            <div class="author-links">
+              <a href="https://www.linkedin.com/in/edgar-c-rincon-m/" target="_blank" rel="noopener noreferrer" class="author-social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+              <a href="https://twitter.com/ITNEWSLAT" target="_blank" rel="noopener noreferrer" class="author-social-link"><i class="fab fa-twitter"></i> Twitter/X</a>
+              <a href="/about.html" class="author-social-link"><i class="fas fa-id-card"></i> Perfil Completo</a>
+            </div>
+          </div>
         </div>
 
         <!-- Social Share Bar (Bottom full) -->

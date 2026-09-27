@@ -4,20 +4,83 @@ color-schema: red-dark
 ---
 
   {% include venezuela/header.html %}
-  <div id="about" class="">
-          <div class="container py-6 animated animated-done" data-animate="fadeIn">
-            <h2 class="display-4 font-weight-bold mb-3 text-letter-spacing-xs">
-              About
-            </h2>
-            <div class="row">
-              <div class="col-lg-4 order-lg-2">
-                <img src="{{ page.perfil-image }}" alt="Me" class="img-fluid rounded-circle op-7 border-white border-w-5 w-30 w-lg-80 mt-lg-4-neg d-none d-lg-block">
-              </div>
-              <div class="col-lg-8">
-                {{ content }}
-              </div>
-            </div>
-            <hr class="op-3 mt-6 mb-0">
+  <div id="about" class="bg-white">
+    <div class="container py-5 animated animated-done" data-animate="fadeIn">
+      <div class="row align-items-center mb-5 pb-4 border-bottom">
+        <div class="col-md-3 text-center mb-4 mb-md-0">
+          <img src="{{ page.perfil-image | default: 'https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/itn.jpg' }}" alt="Edgar C. Rincón M." class="img-fluid rounded-circle shadow-sm" style="max-width: 190px; border: 4px solid #f1f5f9;">
+        </div>
+        <div class="col-md-9">
+          <div class="d-flex align-items-center flex-wrap mb-2">
+            <h1 class="h2 font-weight-bold mb-0 mr-3 text-dark">Edgar C. Rincón M.</h1>
+            <span class="badge badge-pill badge-primary py-2 px-3"><i class="fas fa-check-circle"></i> Editor en Jefe &middot; Periodista de Tecnología</span>
           </div>
+          <p class="lead text-muted mb-3 font-size-md">
+            Director Editorial de <strong>ITNEWS.LAT</strong> | Cobertura B2B para Latinoamérica en Transformación Digital, Telecomunicaciones y Ciberseguridad.
+          </p>
+          <div class="d-flex flex-wrap gap-2 text-secondary mb-3" style="font-size: 0.9rem;">
+            <span class="mr-3"><i class="fas fa-history text-danger mr-1"></i> +25 años de trayectoria periodística</span>
+            <span class="mr-3"><i class="fas fa-globe-americas text-danger mr-1"></i> 8 ediciones regionales</span>
+            <span><i class="fas fa-newspaper text-danger mr-1"></i> Partner oficial PR Newswire & SQUID</span>
+          </div>
+          <div class="d-flex flex-wrap mt-2">
+            <a href="https://www.linkedin.com/in/edgar-c-rincon-m/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary mr-2 mb-2">
+              <i class="fab fa-linkedin mr-1"></i> Perfil LinkedIn
+            </a>
+            <a href="https://twitter.com/ITNEWSLAT" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-dark mr-2 mb-2">
+              <i class="fab fa-twitter mr-1"></i> @ITNEWSLAT
+            </a>
+            <a href="mailto:noticias@itnews.lat" class="btn btn-sm btn-outline-danger mr-2 mb-2">
+              <i class="fas fa-envelope mr-1"></i> noticias@itnews.lat
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="editorial-statement">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+      <hr class="op-3 mt-5 mb-0">
+    </div>
   </div>
+
+  <!-- Schema.org Person & ProfilePage Structured Data for GEO & Google Knowledge Graph -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "https://itnews.lat/about.html#author",
+      "name": "Edgar C. Rincón M.",
+      "jobTitle": "Director & Periodista de Tecnología B2B",
+      "worksFor": {
+        "@type": "NewsMediaOrganization",
+        "name": "ITNEWS.LAT",
+        "url": "https://itnews.lat/"
+      },
+      "url": "https://itnews.lat/about.html",
+      "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/300x300/itn.jpg",
+      "description": "Periodista y editor de tecnología y telecomunicaciones con más de 25 años de trayectoria cubriendo la transformación digital, ciberseguridad y tendencias empresariales en América Latina.",
+      "sameAs": [
+        "https://www.linkedin.com/in/edgar-c-rincon-m/",
+        "https://twitter.com/ITNEWSLAT",
+        "https://www.youtube.com/@ITNewslat"
+      ],
+      "knowsAbout": [
+        "Tecnología B2B",
+        "Ciberseguridad",
+        "Telecomunicaciones",
+        "Economía Digital",
+        "Transformación Digital",
+        "Inteligencia Artificial"
+      ]
+    }
+  }
+  </script>
   {% include posts/footer.html %}
+
