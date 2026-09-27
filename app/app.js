@@ -46,6 +46,10 @@
   const readerContent = document.getElementById('readerContent');
   const readerExternalLink = document.getElementById('readerExternalLink');
   const readerFooterAction = document.getElementById('readerFooterAction');
+  const readerAuthorName = document.getElementById('readerAuthorName');
+  const readerAuthorBioName = document.getElementById('readerAuthorBioName');
+  const readerGeoTakeaways = document.getElementById('readerGeoTakeaways');
+  const readerTakeawaysList = document.getElementById('readerTakeawaysList');
 
   // Reader Share Buttons Elements
   const shareWhatsappBtn = document.getElementById('shareWhatsappBtn');
@@ -759,14 +763,23 @@
     readerExternalLink.href = post.url;
     readerFooterAction.href = post.url;
 
+    // Author E-E-A-T
+    const authorDisplayName = post.author || 'Edgar C. Rincón M.';
+    if (readerAuthorName) readerAuthorName.textContent = authorDisplayName;
+    if (readerAuthorBioName) readerAuthorBioName.textContent = authorDisplayName;
+
+    // Generative Engine Optimization (GEO): Render Key Takeaways
+    renderReaderTakeaways(post);
+
     // Content Parsing (Markdown to HTML)
     readerContent.innerHTML = formatMarkdownBody(post.body || post.snippet);
 
     // Guardar referencia del post actual para compartir
     currentOpenPost = post;
 
-    // Actualización dinámica de SEO para la lectura del artículo
+    // Actualización dinámica de SEO y Schema.org para la lectura del artículo
     document.title = `${post.title} | ITNEWS LAT`;
+    updateArticleStructuredData(post);
 
     readerModal.classList.add('active');
     document.body.style.overflow = 'hidden';
@@ -803,6 +816,113 @@
     document.body.style.overflow = '';
     // Restaurar título SEO principal de la app
     document.title = 'ITNEWS App | Noticias Tecnológicas B2B, Ciberseguridad y Telecomunicaciones en Latinoamérica';
+    removeArticleStructuredData();
+  }
+
+  // Helper para renderizar los Puntos Clave (GEO - Generative Engine Optimization)
+  function renderReaderTakeaways(post) {
+    if (!readerGeoTakeaways || !readerTakeawaysList) return;
+
+    let items = [];
+    if (Array.isArray(post.takeaways) && post.takeaways.length) {
+      items = post.takeaways;
+    } else if (Array.isArray(post.puntos_clave) && post.puntos_clave.length) {
+      items = post.puntos_clave;
+    } else {
+      // Extracción heurística directa desde el cuerpo o extracto del artículo
+      const raw = (post.body || post.snippet || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+      const sentences = raw.split(/\.\s+/).filter(s => s && s.trim().length > 25);
+      if (sentences.length > 0) {
+        if (sentences[0]) items.push(`<strong>Resumen ejecutivo:</strong> ${sentences[0].trim()}.`);
+        if (sentences[1]) items.push(`<strong>Impacto en el sector:</strong> ${sentences[1].trim()}.`);
+        if (sentences[2]) items.push(`<strong>Relevancia regional:</strong> ${sentences[2].trim()}.`);
+      }
+    }
+
+    if (items.length > 0) {
+      readerTakeawaysList.innerHTML = items.map(it => `<li>${it}</li>`).join('');
+      readerGeoTakeaways.style.display = 'block';
+    } else {
+      readerGeoTakeaways.style.display = 'none';
+    }
+  }
+
+  // Inyección dinámica de Schema.org JSON-LD para el artículo leído
+  function updateArticleStructuredData(post) {
+    removeArticleStructuredData();
+
+    const postImg = post.detailImage || post.image || 'https://itnews.lat/assets/imagenes/logo_large_red.png';
+    const postSmallImg = post.image || postImg;
+    const authorName = post.author || 'Edgar C. Rincón M.';
+    const primaryCountry = (post.categories && post.categories.length) ? post.categories[0] : 'Tecnología';
+    const canonicalUrl = post.url ? (post.url.startsWith('http') ? post.url : `https://itnews.lat${post.url}`) : window.location.href;
+
+    const schemaData = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["NewsArticle", "TechArticle"],
+          "@id": `${canonicalUrl}#article`,
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": canonicalUrl
+          },
+          "headline": post.title || 'Noticia ITNEWS LAT',
+          "description": (post.snippet || '').slice(0, 160),
+          "image": [postImg, postSmallImg],
+          "datePublished": post.date || new Date().toISOString(),
+          "dateModified": post.date || new Date().toISOString(),
+          "inLanguage": "es-419",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": canonicalUrl
+          },
+          "articleSection": primaryCountry,
+          "keywords": (post.tags || []).join(', '),
+          "author": {
+            "@id": "https://itnews.lat/about.html#author"
+          },
+          "publisher": {
+            "@id": "https://itnews.lat/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": `${canonicalUrl}#breadcrumb`,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Portada",
+              "item": "https://itnews.lat/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "App Reader",
+              "item": "https://itnews.lat/app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": post.title || 'Artículo',
+              "item": canonicalUrl
+            }
+          ]
+        }
+      ]
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'dynamicArticleSchema';
+    script.textContent = JSON.stringify(schemaData);
+    document.head.appendChild(script);
+  }
+
+  function removeArticleStructuredData() {
+    const existing = document.getElementById('dynamicArticleSchema');
+    if (existing) existing.remove();
   }
 
   // Social Sharing Helpers

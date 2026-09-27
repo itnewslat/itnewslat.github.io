@@ -2305,3 +2305,223 @@ body {
   }
 }
 
+/* ==========================================================================
+   E-E-A-T & Authorship Byline Styling (Reader Modal)
+   ========================================================================== */
+.reader-byline-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 16px 0;
+  padding: 8px 14px;
+  background: var(--bg-secondary);
+  border-left: 3px solid var(--brand-primary);
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.reader-byline-bar a.author-link {
+  color: var(--text-primary);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.reader-byline-bar a.author-link:hover {
+  color: var(--brand-primary);
+}
+
+.reader-byline-bar .byline-role {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.reader-byline-bar .byline-separator {
+  color: var(--border-medium);
+}
+
+/* ==========================================================================
+   GEO (Generative Engine Optimization) - Key Takeaways / Puntos Clave
+   ========================================================================== */
+.geo-takeaways {
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  border-left: 4px solid var(--accent-emerald);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin: 20px 0 24px 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.geo-takeaways-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.geo-takeaways-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: var(--accent-emerald);
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 0.95rem;
+}
+
+.geo-takeaways-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--accent-emerald);
+  letter-spacing: -0.2px;
+}
+
+[data-theme="light"] .geo-takeaways-title {
+  color: #166534;
+}
+
+.geo-takeaways-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.geo-takeaways-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+}
+
+.geo-takeaways-list li:last-child {
+  margin-bottom: 0;
+}
+
+.geo-takeaways-list li::before {
+  content: "\ea53"; /* remixicon check-line */
+  font-family: "remixicon";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  color: var(--accent-emerald);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   E-E-A-T Author Bio Card (Reader Modal Bottom)
+   ========================================================================== */
+.author-bio-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  margin: 28px 0 22px 0;
+}
+
+.author-bio-card .author-avatar img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border: 2px solid var(--border-medium);
+  border-radius: 50%;
+  box-shadow: var(--shadow-sm);
+}
+
+.author-bio-card .author-info {
+  flex: 1;
+}
+
+.author-bio-card .author-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.author-bio-card .author-name {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+
+.author-bio-card .author-name a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.author-bio-card .author-name a:hover {
+  color: var(--brand-primary);
+}
+
+.author-bio-card .author-badge {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  border: 1px solid var(--border-subtle);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.author-bio-card .author-desc {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.author-bio-card .author-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.author-bio-card .author-social-link {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: color var(--transition-fast);
+}
+
+.author-bio-card .author-social-link:hover {
+  color: var(--brand-primary);
+}
+
+@media (max-width: 576px) {
+  .author-bio-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .author-bio-card .author-header {
+    justify-content: center;
+  }
+  .author-bio-card .author-links {
+    justify-content: center;
+  }
+}
+
+
