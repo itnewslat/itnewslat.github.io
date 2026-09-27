@@ -343,8 +343,8 @@ title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
     /* Platform Toggles */
     .platform-selector {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 8px;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
       margin-bottom: 18px;
     }
 
@@ -352,7 +352,7 @@ title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
       background: var(--bg-card);
       border: 1px solid var(--border-color);
       border-radius: 8px;
-      padding: 10px 6px;
+      padding: 10px 4px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -381,6 +381,11 @@ title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
     .platform-btn.active.linkedin {
       background: #004182;
       border-color: #0a66c2;
+      color: #fff;
+    }
+    .platform-btn.active.instagram {
+      background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      border-color: #e1306c;
       color: #fff;
     }
     .platform-btn.active.facebook {
@@ -735,6 +740,10 @@ title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
             <i class="fa-brands fa-linkedin-in"></i>
             <span>LinkedIn</span>
           </div>
+          <div class="platform-btn instagram" onclick="setPlatform('instagram')">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+          </div>
           <div class="platform-btn facebook" onclick="setPlatform('facebook')">
             <i class="fa-brands fa-facebook-f"></i>
             <span>Facebook</span>
@@ -1011,6 +1020,7 @@ title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
       const labels = {
         x: 'X (Twitter)',
         linkedin: 'LinkedIn',
+        instagram: 'Instagram',
         facebook: 'Facebook',
         whatsapp: 'WhatsApp'
       };
@@ -1116,6 +1126,10 @@ title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
         // Copiar texto enriquecido para pegar en el post de linkedin
         navigator.clipboard.writeText(postBody);
         showToast('Enlace abierto. ¡Texto y hashtags copiados para pegar en LinkedIn!');
+      } else if (currentPlatform === 'instagram') {
+        navigator.clipboard.writeText(postBody);
+        intentUrl = `https://www.instagram.com/`;
+        showToast('Instagram abierto. ¡Texto y hashtags copiados para tu publicación!');
       } else if (currentPlatform === 'facebook') {
         intentUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
       } else if (currentPlatform === 'whatsapp') {
