@@ -1,0 +1,1096 @@
+---
+layout: null
+permalink: /panel-redes/
+title: "Panel de Difusión en Redes Sociales | ITNEWS.LAT"
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de Difusión en Redes Sociales | ITNEWS.LAT</title>
+  <meta name="robots" content="noindex, nofollow">
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    :root {
+      --bg-main: #0b0f19;
+      --bg-surface: #111827;
+      --bg-card: #1f2937;
+      --bg-input: #151d2f;
+      --border-color: #374151;
+      --border-focus: #dc2626;
+      --text-main: #f9fafb;
+      --text-muted: #9ca3af;
+      --accent-red: #c82333;
+      --accent-red-hover: #b01c2b;
+      --accent-blue: #2563eb;
+      --accent-green: #10b981;
+      --accent-purple: #8b5cf6;
+      --shadow-sm: 0 2px 4px rgba(0,0,0,0.3);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+      --shadow-lg: 0 8px 24px rgba(0,0,0,0.5);
+      --radius: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: var(--bg-surface);
+      border-bottom: 1px solid var(--border-color);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .brand-logo {
+      height: 38px;
+    }
+
+    .brand-title-badge {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .badge-hub {
+      background: linear-gradient(135deg, #c82333, #dc2626);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .header-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      transition: color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .header-links a:hover {
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 340px 1fr 420px;
+      gap: 24px;
+      flex: 1;
+    }
+
+    @media (max-width: 1200px) {
+      .container {
+        grid-template-columns: 320px 1fr;
+      }
+      .panel-preview-col {
+        grid-column: span 2;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+      .panel-preview-col {
+        grid-column: span 1;
+      }
+    }
+
+    /* Column Cards */
+    .panel-col {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #fff;
+    }
+
+    .card-title i {
+      color: var(--accent-red);
+    }
+
+    /* Search and Post List */
+    .search-box {
+      position: relative;
+      margin-bottom: 14px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 10px 14px 10px 38px;
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      color: #fff;
+      font-size: 13px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-box input:focus {
+      border-color: var(--border-focus);
+    }
+
+    .search-box i {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    .post-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      max-height: 600px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .post-list::-webkit-scrollbar {
+      width: 5px;
+    }
+    .post-list::-webkit-scrollbar-thumb {
+      background: var(--border-color);
+      border-radius: 4px;
+    }
+
+    .post-item {
+      display: flex;
+      gap: 12px;
+      padding: 10px;
+      background: var(--bg-card);
+      border: 1px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .post-item:hover {
+      background: #283548;
+      border-color: #4b5563;
+    }
+
+    .post-item.active {
+      border-color: var(--accent-red);
+      background: #2d1d24;
+    }
+
+    .post-item-thumb {
+      width: 60px;
+      height: 48px;
+      border-radius: 4px;
+      object-fit: cover;
+      flex-shrink: 0;
+      background: #374151;
+    }
+
+    .post-item-info {
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .post-item-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: #e5e7eb;
+      line-height: 1.35;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .post-item-date {
+      font-size: 10px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Editor Form */
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #d1d5db;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .label-hint {
+      font-size: 11px;
+      font-weight: normal;
+      color: var(--text-muted);
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 10px 12px;
+      background-color: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      color: #fff;
+      font-family: inherit;
+      font-size: 13px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-control:focus {
+      border-color: var(--border-focus);
+    }
+
+    textarea.form-control {
+      resize: vertical;
+      line-height: 1.5;
+    }
+
+    /* Quick Hashtag / Account Badges */
+    .chip-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .chip {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: #d1d5db;
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s ease;
+    }
+
+    .chip:hover {
+      border-color: #6b7280;
+      color: #fff;
+    }
+
+    .chip.selected {
+      background: rgba(200, 35, 51, 0.25);
+      border-color: var(--accent-red);
+      color: #fca5a5;
+      font-weight: 600;
+    }
+
+    /* Platform Toggles */
+    .platform-selector {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .platform-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 11px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .platform-btn i {
+      font-size: 18px;
+    }
+
+    .platform-btn:hover {
+      border-color: #6b7280;
+      color: #fff;
+    }
+
+    .platform-btn.active.x {
+      background: #000;
+      border-color: #555;
+      color: #fff;
+    }
+    .platform-btn.active.linkedin {
+      background: #004182;
+      border-color: #0a66c2;
+      color: #fff;
+    }
+    .platform-btn.active.facebook {
+      background: #1877f2;
+      border-color: #3b82f6;
+      color: #fff;
+    }
+    .platform-btn.active.whatsapp {
+      background: #075e54;
+      border-color: #25d366;
+      color: #fff;
+    }
+
+    /* Actions buttons */
+    .btn-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .btn {
+      padding: 11px 16px;
+      border-radius: 8px;
+      border: none;
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background-color: var(--accent-red);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background-color: var(--accent-red-hover);
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      border: 1px solid var(--border-color);
+      color: #e5e7eb;
+    }
+    .btn-outline:hover {
+      background-color: var(--bg-card);
+      border-color: #6b7280;
+    }
+
+    .btn-webhook {
+      background: linear-gradient(135deg, #4f46e5, #7c3aed);
+      color: #fff;
+      grid-column: span 2;
+    }
+    .btn-webhook:hover {
+      filter: brightness(1.1);
+    }
+
+    /* Preview Card (Social Simulation) */
+    .preview-card-wrap {
+      background: #18191a;
+      border-radius: 12px;
+      border: 1px solid #3a3b3c;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+
+    .preview-author {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+    }
+
+    .preview-author-avatar {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: #c82333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    .preview-author-name {
+      font-size: 13px;
+      font-weight: 700;
+      color: #e4e6eb;
+    }
+
+    .preview-author-meta {
+      font-size: 11px;
+      color: #b0b3b8;
+    }
+
+    .preview-text {
+      padding: 0 16px 14px 16px;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #e4e6eb;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .preview-link-box {
+      border-top: 1px solid #3a3b3c;
+      background: #242526;
+      cursor: pointer;
+    }
+
+    .preview-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      background: #3a3b3c;
+    }
+
+    .preview-link-info {
+      padding: 12px 14px;
+    }
+
+    .preview-link-domain {
+      font-size: 10px;
+      color: #b0b3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 2px;
+    }
+
+    .preview-link-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #e4e6eb;
+      line-height: 1.3;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* Webhook Settings Modal / Card */
+    .webhook-config-box {
+      background: var(--bg-card);
+      border: 1px dashed var(--border-color);
+      border-radius: 8px;
+      padding: 14px;
+      margin-top: 16px;
+      display: none;
+    }
+
+    .webhook-config-box.open {
+      display: block;
+    }
+
+    .toast-popup {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #10b981;
+      color: #fff;
+      font-weight: 600;
+      font-size: 13px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: var(--shadow-lg);
+      display: none;
+      align-items: center;
+      gap: 8px;
+      z-index: 100;
+    }
+
+    .badge-counter {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 11px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand-wrap">
+      <a href="https://itnews.lat">
+        <img class="brand-logo" src="https://itnews.lat/assets/imagenes/logo_large_red.png" alt="ITNEWS.LAT">
+      </a>
+      <div class="brand-title-badge">
+        <span class="badge-hub"><i class="fas fa-satellite-dish"></i> Social Dispatcher</span>
+      </div>
+    </div>
+    <div class="header-links">
+      <a href="/newsletter/" target="_blank"><i class="far fa-newspaper"></i> Newsletter</a>
+      <a href="/" target="_blank" style="margin-left: 16px;"><i class="fas fa-home"></i> Ir a Portada</a>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- COLUMNA 1: Selector y Buscador de Notas -->
+    <section class="panel-col">
+      <div class="card">
+        <div class="card-title">
+          <i class="fas fa-list-ul"></i>
+          <span>Seleccionar Nota</span>
+        </div>
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" id="postSearchInput" placeholder="Buscar por título o categoría..." onkeyup="filterPostList()">
+        </div>
+        <div class="post-list" id="postListContainer">
+          <div style="text-align: center; color: var(--text-muted); padding: 20px; font-size: 12px;">
+            <i class="fas fa-spinner fa-spin"></i> Cargando notas recientes...
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLUMNA 2: Configuración del Mensaje, Hashtags y Cuentas -->
+    <section class="panel-col">
+      <div class="card">
+        <div class="card-title">
+          <i class="fas fa-edit"></i>
+          <span>Editor de Publicación</span>
+        </div>
+
+        <!-- Plataforma activa para visualización -->
+        <div class="platform-selector">
+          <div class="platform-btn active x" onclick="setPlatform('x')">
+            <i class="fa-brands fa-x-twitter"></i>
+            <span>X (Twitter)</span>
+          </div>
+          <div class="platform-btn linkedin" onclick="setPlatform('linkedin')">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </div>
+          <div class="platform-btn facebook" onclick="setPlatform('facebook')">
+            <i class="fa-brands fa-facebook-f"></i>
+            <span>Facebook</span>
+          </div>
+          <div class="platform-btn whatsapp" onclick="setPlatform('whatsapp')">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp</span>
+          </div>
+        </div>
+
+        <!-- Titular / Encabezado -->
+        <div class="form-group">
+          <label class="form-label">
+            <span>Titular de la Nota</span>
+            <span class="badge-counter" id="titleCharCount">0</span>
+          </label>
+          <input type="text" id="inputTitle" class="form-control" placeholder="Titular de la noticia..." oninput="updateSocialPreview()">
+        </div>
+
+        <!-- Comentario / Copy para la publicación -->
+        <div class="form-group">
+          <label class="form-label">
+            <span>Comentario / Copy para Redes</span>
+            <span class="label-hint">Perspectiva, llamada a la acción o lead</span>
+          </label>
+          <textarea id="inputComment" class="form-control" rows="3" placeholder="Ej: Importante análisis para líderes de tecnología en América Latina. ¿Qué opinas de esta tendencia?" oninput="updateSocialPreview()"></textarea>
+        </div>
+
+        <!-- Hashtags -->
+        <div class="form-group">
+          <label class="form-label">
+            <span>Hashtags</span>
+            <span class="label-hint">Haz clic para agregar / quitar</span>
+          </label>
+          <input type="text" id="inputHashtags" class="form-control" placeholder="#Tecnologia #Innovacion #AmericaLatina" oninput="updateSocialPreview()">
+          <div class="chip-container" id="hashtagChips">
+            <span class="chip" onclick="toggleTag('#Tecnologia')">#Tecnologia</span>
+            <span class="chip" onclick="toggleTag('#TransformacionDigital')">#TransformacionDigital</span>
+            <span class="chip" onclick="toggleTag('#Ciberseguridad')">#Ciberseguridad</span>
+            <span class="chip" onclick="toggleTag('#InteligenciaArtificial')">#InteligenciaArtificial</span>
+            <span class="chip" onclick="toggleTag('#Telecomunicaciones')">#Telecomunicaciones</span>
+            <span class="chip" onclick="toggleTag('#Fintech')">#Fintech</span>
+            <span class="chip" onclick="toggleTag('#Cloud')">#Cloud</span>
+            <span class="chip" onclick="toggleTag('#B2B')">#B2B</span>
+            <span class="chip" onclick="toggleTag('#AmericaLatina')">#AmericaLatina</span>
+          </div>
+        </div>
+
+        <!-- Cuentas y Menciones -->
+        <div class="form-group">
+          <label class="form-label">
+            <span>Cuentas a Mencionar / Autores</span>
+            <span class="label-hint">Menciones directas</span>
+          </label>
+          <input type="text" id="inputAccounts" class="form-control" placeholder="@ITNewsLat @absidecorp" oninput="updateSocialPreview()">
+          <div class="chip-container">
+            <span class="chip" onclick="toggleAccount('@ITNewsLat')">@ITNewsLat</span>
+            <span class="chip" onclick="toggleAccount('@absidecorp')">@absidecorp</span>
+            <span class="chip" onclick="toggleAccount('@Google')">@Google</span>
+            <span class="chip" onclick="toggleAccount('@Microsoft')">@Microsoft</span>
+          </div>
+        </div>
+
+        <!-- Enlace de la nota -->
+        <div class="form-group">
+          <label class="form-label">
+            <span>Enlace de la Nota</span>
+          </label>
+          <input type="url" id="inputUrl" class="form-control" placeholder="https://itnews.lat/..." oninput="updateSocialPreview()">
+        </div>
+
+        <!-- Imagen Destacada -->
+        <div class="form-group">
+          <label class="form-label">
+            <span>URL Imagen Destacada</span>
+            <a href="#" id="btnDownloadImg" target="_blank" class="label-hint" style="color: #60a5fa; text-decoration: underline;"><i class="fas fa-external-link-alt"></i> Abrir imagen</a>
+          </label>
+          <input type="url" id="inputImg" class="form-control" placeholder="https://..." oninput="updateSocialPreview()">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- COLUMNA 3: Vista Previa y Botones de Lanzamiento -->
+    <section class="panel-col panel-preview-col">
+      <div class="card">
+        <div class="card-title">
+          <i class="fas fa-eye"></i>
+          <span>Previsualización del Post</span>
+          <span style="margin-left: auto; font-size: 11px; color: var(--text-muted);" id="previewPlatformLabel">X / Twitter</span>
+        </div>
+
+        <!-- Tarjeta de simulación -->
+        <div class="preview-card-wrap">
+          <div class="preview-author">
+            <div class="preview-author-avatar">ITN</div>
+            <div>
+              <div class="preview-author-name">ITNEWS LAT</div>
+              <div class="preview-author-meta">@ITNewsLat &bull; Ahora</div>
+            </div>
+          </div>
+          <div class="preview-text" id="previewText">
+            Selecciona una nota para componer el post...
+          </div>
+          <div class="preview-link-box" id="previewLinkBox" onclick="openPostUrl()">
+            <img id="previewImgEl" class="preview-img" src="https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Banner-Resumen.jpg" alt="Preview">
+            <div class="preview-link-info">
+              <div class="preview-link-domain">ITNEWS.LAT</div>
+              <div class="preview-link-title" id="previewLinkTitle">Titular de la Noticia</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botones de Acción -->
+        <div class="btn-row">
+          <button class="btn btn-primary" onclick="launchActivePlatform()">
+            <i class="fas fa-paper-plane"></i> <span id="btnPublishLabel">Abrir en X</span>
+          </button>
+          <button class="btn btn-outline" onclick="copyFullPostText()">
+            <i class="far fa-copy"></i> Copiar Post
+          </button>
+        </div>
+
+        <!-- Botón Integración Webhook (Zapier/Make/N8N) -->
+        <div class="btn-row">
+          <button class="btn btn-webhook" onclick="toggleWebhookConfig()">
+            <i class="fas fa-bolt"></i> Publicar vía Webhook / Make / Zapier
+          </button>
+        </div>
+
+        <!-- Configuración de Webhook (Desplegable) -->
+        <div class="webhook-config-box" id="webhookBox">
+          <div style="font-size: 12px; font-weight: 700; color: #a5b4fc; margin-bottom: 8px;">
+            <i class="fas fa-network-wired"></i> Disparo automático vía Webhook (1 Clic)
+          </div>
+          <p style="font-size: 11px; color: var(--text-muted); line-height: 1.4; margin-bottom: 10px;">
+            Conecta tu URL de Webhook de <strong>Make.com</strong>, <strong>Zapier</strong> o <strong>N8N</strong>. Al pulsar enviar, se emitirá un JSON con el titular, imagen, link, hashtags y cuentas para publicación multi-cuenta simultánea.
+          </p>
+          <input type="url" id="webhookUrlInput" class="form-control" placeholder="https://hook.eu1.make.com/tu-webhook" style="font-size: 12px; margin-bottom: 8px;">
+          <div style="display: flex; gap: 8px;">
+            <button class="btn btn-primary" style="flex: 1; padding: 8px 12px; font-size: 12px; background: #6366f1;" onclick="sendWebhookTrigger()">
+              <i class="fas fa-cloud-upload-alt"></i> Disparar Webhook
+            </button>
+            <button class="btn btn-outline" style="padding: 8px 12px; font-size: 12px;" onclick="saveWebhookUrl()">
+              Guardar URL
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <div class="toast-popup" id="toast">
+    <i class="fas fa-check-circle"></i> <span id="toastText">¡Copiado con éxito!</span>
+  </div>
+
+  <script>
+    let allPosts = [];
+    let currentPlatform = 'x';
+
+    // Cargar posts desde /search.json
+    async function loadPosts() {
+      try {
+        const response = await fetch('/search.json');
+        if (!response.ok) throw new Error('No se pudo cargar search.json');
+        allPosts = await response.json();
+        renderPostList(allPosts);
+
+        // Si viene un parámetro ?url= o ?title= en la URL, preseleccionarlo
+        const params = new URLSearchParams(window.location.search);
+        const targetUrl = params.get('url');
+        if (targetUrl) {
+          const matched = allPosts.find(p => p.url === targetUrl || targetUrl.includes(p.url));
+          if (matched) {
+            selectPost(matched);
+            return;
+          }
+        }
+
+        // Si no hay parámetro, seleccionar el primer post reciente
+        if (allPosts.length > 0) {
+          selectPost(allPosts[0]);
+        }
+      } catch (err) {
+        console.error(err);
+        document.getElementById('postListContainer').innerHTML = `
+          <div style="padding: 15px; color: #f87171; font-size: 12px; text-align: center;">
+            Error al cargar notas: ${err.message}
+          </div>
+        `;
+      }
+    }
+
+    function renderPostList(posts) {
+      const container = document.getElementById('postListContainer');
+      if (posts.length === 0) {
+        container.innerHTML = '<div style="color: var(--text-muted); font-size: 12px; padding: 15px;">No se encontraron notas.</div>';
+        return;
+      }
+
+      container.innerHTML = posts.map((post, idx) => `
+        <div class="post-item ${idx === 0 ? 'active' : ''}" onclick="selectPostByIndex(${idx}, this)">
+          <img src="${post.detailImage || post.image || 'https://itnews.lat/assets/imagenes/logo_large_red.png'}" class="post-item-thumb" onerror="this.src='https://itnews.lat/assets/imagenes/logo_large_red.png'">
+          <div class="post-item-info">
+            <div class="post-item-title">${escapeHtml(post.title)}</div>
+            <div class="post-item-date">${post.date ? post.date.substring(0, 10) : ''} &bull; ${post.categories && post.categories[0] ? post.categories[0] : 'ITNEWS'}</div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function selectPostByIndex(idx, el) {
+      document.querySelectorAll('.post-item').forEach(item => item.classList.remove('active'));
+      if (el) el.classList.add('active');
+      selectPost(allPosts[idx]);
+    }
+
+    function selectPost(post) {
+      if (!post) return;
+
+      const fullUrl = post.url.startsWith('http') ? post.url : `https://itnews.lat${post.url}`;
+      const img = post.detailImage || post.image || '';
+
+      document.getElementById('inputTitle').value = post.title || '';
+      document.getElementById('inputUrl').value = fullUrl;
+      document.getElementById('inputImg').value = img;
+      document.getElementById('btnDownloadImg').href = img || fullUrl;
+
+      // Generar hashtags iniciales automáticos según categorías y tags
+      let initialTags = ['#Tecnologia', '#AmericaLatina', '#ITNEWS'];
+      if (post.categories && post.categories.length > 0) {
+        post.categories.forEach(cat => {
+          const cleanCat = cat.replace(/\s+/g, '');
+          if (!initialTags.includes('#' + cleanCat)) {
+            initialTags.push('#' + cleanCat);
+          }
+        });
+      }
+      if (post.tags) {
+        const rawTags = post.tags.split(',');
+        rawTags.forEach(t => {
+          const cleanTag = t.trim().replace(/\s+/g, '');
+          if (cleanTag && !initialTags.includes('#' + cleanTag)) {
+            initialTags.push('#' + cleanTag);
+          }
+        });
+      }
+
+      document.getElementById('inputHashtags').value = initialTags.slice(0, 5).join(' ');
+      document.getElementById('inputAccounts').value = '@ITNewsLat';
+      document.getElementById('inputComment').value = 'Consulta la nota completa y todos los detalles en nuestro portal de noticias B2B:';
+
+      highlightActiveChips();
+      updateSocialPreview();
+    }
+
+    function filterPostList() {
+      const q = document.getElementById('postSearchInput').value.toLowerCase();
+      const filtered = allPosts.filter(p => 
+        (p.title && p.title.toLowerCase().includes(q)) || 
+        (p.tags && p.tags.toLowerCase().includes(q)) ||
+        (p.category && p.category.toLowerCase().includes(q))
+      );
+      renderPostList(filtered);
+    }
+
+    function setPlatform(platform) {
+      currentPlatform = platform;
+      document.querySelectorAll('.platform-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelector(`.platform-btn.${platform}`).classList.add('active');
+
+      const labels = {
+        x: 'X (Twitter)',
+        linkedin: 'LinkedIn',
+        facebook: 'Facebook',
+        whatsapp: 'WhatsApp'
+      };
+
+      document.getElementById('previewPlatformLabel').textContent = labels[platform];
+      document.getElementById('btnPublishLabel').textContent = `Abrir en ${labels[platform]}`;
+      updateSocialPreview();
+    }
+
+    function toggleTag(tag) {
+      const input = document.getElementById('inputHashtags');
+      let tags = input.value.split(/\s+/).filter(Boolean);
+      if (tags.includes(tag)) {
+        tags = tags.filter(t => t !== tag);
+      } else {
+        tags.push(tag);
+      }
+      input.value = tags.join(' ');
+      highlightActiveChips();
+      updateSocialPreview();
+    }
+
+    function toggleAccount(acc) {
+      const input = document.getElementById('inputAccounts');
+      let accounts = input.value.split(/\s+/).filter(Boolean);
+      if (accounts.includes(acc)) {
+        accounts = accounts.filter(a => a !== acc);
+      } else {
+        accounts.push(acc);
+      }
+      input.value = accounts.join(' ');
+      updateSocialPreview();
+    }
+
+    function highlightActiveChips() {
+      const currentTags = document.getElementById('inputHashtags').value.split(/\s+/);
+      document.querySelectorAll('#hashtagChips .chip').forEach(chip => {
+        if (currentTags.includes(chip.textContent.trim())) {
+          chip.classList.add('selected');
+        } else {
+          chip.classList.remove('selected');
+        }
+      });
+    }
+
+    function buildPostContent() {
+      const title = document.getElementById('inputTitle').value.trim();
+      const comment = document.getElementById('inputComment').value.trim();
+      const accounts = document.getElementById('inputAccounts').value.trim();
+      const hashtags = document.getElementById('inputHashtags').value.trim();
+      const url = document.getElementById('inputUrl').value.trim();
+
+      let parts = [];
+      if (title) parts.push(`📢 ${title}`);
+      if (comment) parts.push(comment);
+      if (accounts) parts.push(accounts);
+      if (hashtags) parts.push(hashtags);
+      if (url) parts.push(`👉 Lee la nota completa: ${url}`);
+
+      return parts.join('\n\n');
+    }
+
+    function updateSocialPreview() {
+      const title = document.getElementById('inputTitle').value.trim();
+      const fullPost = buildPostContent();
+      const imgUrl = document.getElementById('inputImg').value.trim();
+
+      document.getElementById('previewText').textContent = fullPost;
+      document.getElementById('previewLinkTitle').textContent = title || 'Titular de la Noticia';
+      
+      const imgEl = document.getElementById('previewImgEl');
+      if (imgUrl) {
+        imgEl.src = imgUrl;
+        imgEl.style.display = 'block';
+      } else {
+        imgEl.style.display = 'none';
+      }
+
+      document.getElementById('titleCharCount').textContent = title.length + ' car.';
+    }
+
+    function openPostUrl() {
+      const url = document.getElementById('inputUrl').value.trim();
+      if (url) window.open(url, '_blank');
+    }
+
+    function launchActivePlatform() {
+      const title = document.getElementById('inputTitle').value.trim();
+      const url = document.getElementById('inputUrl').value.trim();
+      const comment = document.getElementById('inputComment').value.trim();
+      const hashtags = document.getElementById('inputHashtags').value.replace(/#/g, '').replace(/\s+/g, ',');
+      const accounts = document.getElementById('inputAccounts').value.trim();
+
+      const postBody = buildPostContent();
+
+      let intentUrl = '';
+
+      if (currentPlatform === 'x') {
+        const textForX = `${title}\n\n${comment} ${accounts}`;
+        intentUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(textForX)}&url=${encodeURIComponent(url)}&hashtags=${encodeURIComponent(hashtags)}`;
+      } else if (currentPlatform === 'linkedin') {
+        intentUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
+        // Copiar texto enriquecido para pegar en el post de linkedin
+        navigator.clipboard.writeText(postBody);
+        showToast('Enlace abierto. ¡Texto y hashtags copiados para pegar en LinkedIn!');
+      } else if (currentPlatform === 'facebook') {
+        intentUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+      } else if (currentPlatform === 'whatsapp') {
+        intentUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(postBody)}`;
+      }
+
+      if (intentUrl) {
+        window.open(intentUrl, '_blank', 'width=650,height=600');
+      }
+    }
+
+    function copyFullPostText() {
+      const text = buildPostContent();
+      navigator.clipboard.writeText(text).then(() => {
+        showToast('¡Texto del post copiado al portapapeles!');
+      });
+    }
+
+    function toggleWebhookConfig() {
+      const box = document.getElementById('webhookBox');
+      box.classList.toggle('open');
+      const saved = localStorage.getItem('itnews_webhook_url');
+      if (saved) document.getElementById('webhookUrlInput').value = saved;
+    }
+
+    function saveWebhookUrl() {
+      const url = document.getElementById('webhookUrlInput').value.trim();
+      if (url) {
+        localStorage.setItem('itnews_webhook_url', url);
+        showToast('URL de Webhook guardada localmente.');
+      }
+    }
+
+    async function sendWebhookTrigger() {
+      const webhookUrl = document.getElementById('webhookUrlInput').value.trim();
+      if (!webhookUrl) {
+        alert('Por favor introduce tu URL de Webhook de Make o Zapier.');
+        return;
+      }
+
+      saveWebhookUrl();
+
+      const payload = {
+        title: document.getElementById('inputTitle').value.trim(),
+        comment: document.getElementById('inputComment').value.trim(),
+        hashtags: document.getElementById('inputHashtags').value.trim(),
+        accounts: document.getElementById('inputAccounts').value.trim(),
+        url: document.getElementById('inputUrl').value.trim(),
+        image: document.getElementById('inputImg').value.trim(),
+        full_text: buildPostContent(),
+        timestamp: new Date().toISOString()
+      };
+
+      try {
+        showToast('Enviando datos al Webhook...');
+        const response = await fetch(webhookUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+          mode: 'no-cors'
+        });
+        showToast('¡Disparado con éxito al Webhook!');
+      } catch (err) {
+        alert('Error al emitir webhook: ' + err.message);
+      }
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toastText').textContent = msg;
+      toast.style.display = 'flex';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 3500);
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    // Inicializar
+    window.addEventListener('DOMContentLoaded', loadPosts);
+  </script>
+</body>
+</html>
