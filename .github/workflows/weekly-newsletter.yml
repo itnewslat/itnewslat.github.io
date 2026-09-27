@@ -1,0 +1,43 @@
+name: Publicacion Semanal del Newsletter
+
+on:
+  schedule:
+    # Todos los lunes a las 11:00 UTC (07:00 AM hora de Caracas / -04:00 UTC)
+    - cron: '0 11 * * 1'
+  workflow_dispatch: # Permite ejecución manual con un botón en cualquier momento
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish-newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generar edicion semanal de newsletter
+        run: |
+          node scripts/generate-newsletter.js
+
+      - name: Verificar cambios y hacer Commit & Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if [ -n "$(git status --porcelain _newsletters)" ]; then
+            git add _newsletters/
+            git commit -m "chore(newsletter): publicar edicion semanal automatica [skip ci]"
+            git push origin master
+            echo "Newsletter semanal publicado con éxito."
+          else
+            echo "No hay cambios nuevos en el newsletter para esta semana."
+          fi
