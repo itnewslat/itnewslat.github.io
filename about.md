@@ -20,7 +20,7 @@ published: true
 <p style="text-align: justify;"><strong>Audiencia</strong></p>
 
 <ul style="list-style-type: disc;">
-	<li style="text-align: justify;">Nuestra formación de más de 25 años atendiendo la fuente de tecnología, nos ha permitido tener una visión clara del mercado latinoamericano, es así como atendemos prioritariamente 8 países apoyados por mas 80 agencias de comunicaciones de la región, que comparten sus noticias con nosotros. Adicionalmente, somos partner de <strong>PRWIRE</strong> medio de difusión de informaciones mundial y de <strong>SQUIDD</strong>, aplicación para móviles preinstalado en alguna de las principales marcas de celulares.</li>
+	<li style="text-align: justify;">Nuestra formación de más de 30 años atendiendo la fuente de tecnología, nos ha permitido tener una visión clara del mercado latinoamericano, es así como atendemos prioritariamente 8 países apoyados por mas 80 agencias de comunicaciones de la región, que comparten sus noticias con nosotros. Adicionalmente, somos partner de <strong>PRWIRE</strong> medio de difusión de informaciones mundial y de <strong>SQUIDD</strong>, aplicación para móviles preinstalado en alguna de las principales marcas de celulares.</li>
 </ul>
 <p style="text-align: justify;"><strong>Cobertura</strong></p>
 
