@@ -67,7 +67,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <!-- Remixicon for sleek modern icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260927_01">
+  <link rel="stylesheet" href="styles.css?v=20260928_01">
 
   <!-- JSON-LD Structured Data Schema (@graph: NewsMediaOrganization + Person + WebApplication + BreadcrumbList) -->
   <script type="application/ld+json">
@@ -224,42 +224,12 @@
         </a>
       </div>
 
-      <!-- Integrated Search & Filter Controls Bar -->
+      <!-- Integrated Search Bar (Single Line) -->
       <div class="search-filter-bar">
         <div class="search-box">
           <i class="ri-search-2-line search-icon"></i>
           <input type="text" id="searchInput" placeholder="Buscar noticias, empresas, líderes..." autocomplete="off">
           <button id="clearSearchBtn" class="clear-btn" style="display:none;"><i class="ri-close-line"></i></button>
-        </div>
-
-        <div class="filter-dropdowns">
-          <div class="select-wrapper">
-            <i class="ri-earth-line select-icon"></i>
-            <select id="countrySelect" aria-label="Filtrar por país">
-              <option value="all">🌍 Todos los países</option>
-              <option value="Venezuela">🇻🇪 Venezuela</option>
-              <option value="Colombia">🇨🇴 Colombia</option>
-              <option value="México">🇲🇽 México</option>
-              <option value="Panamá">🇵🇦 Panamá</option>
-              <option value="Chile">🇨🇱 Chile</option>
-              <option value="Argentina">🇦🇷 Argentina</option>
-              <option value="Ecuador">🇪🇨 Ecuador</option>
-              <option value="Perú">🇵🇪 Perú</option>
-            </select>
-          </div>
-
-          <div class="select-wrapper">
-            <i class="ri-price-tag-3-line select-icon"></i>
-            <select id="tagSelect" aria-label="Filtrar por temática">
-              <option value="all">🏷️ Todas las temáticas</option>
-              <option value="Transformación Digital">Transformación Digital</option>
-              <option value="Seguridad">Ciberseguridad</option>
-              <option value="Economía Digital">Economía Digital</option>
-              <option value="Actualidad">Actualidad</option>
-              <option value="Canales">Canales</option>
-              <option value="Data Center">Data Centers</option>
-            </select>
-          </div>
         </div>
       </div>
     </div>
@@ -267,11 +237,42 @@
 
   <!-- Main Content Feed Area -->
   <main class="main-container">
-    <!-- Status & Results Count Bar -->
+    <!-- Status, Filters & Results Count Bar -->
     <div class="results-bar">
       <div class="results-info">
         <span id="resultsCount">Cargando noticias...</span>
       </div>
+
+      <div class="filter-dropdowns">
+        <div class="select-wrapper">
+          <i class="ri-earth-line select-icon"></i>
+          <select id="countrySelect" aria-label="Filtrar por país">
+            <option value="all">🌍 Todos los países</option>
+            <option value="Venezuela">🇻🇪 Venezuela</option>
+            <option value="Colombia">🇨🇴 Colombia</option>
+            <option value="México">🇲🇽 México</option>
+            <option value="Panamá">🇵🇦 Panamá</option>
+            <option value="Chile">🇨🇱 Chile</option>
+            <option value="Argentina">🇦🇷 Argentina</option>
+            <option value="Ecuador">🇪🇨 Ecuador</option>
+            <option value="Perú">🇵🇪 Perú</option>
+          </select>
+        </div>
+
+        <div class="select-wrapper">
+          <i class="ri-price-tag-3-line select-icon"></i>
+          <select id="tagSelect" aria-label="Filtrar por temática">
+            <option value="all">🏷️ Todas las temáticas</option>
+            <option value="Transformación Digital">Transformación Digital</option>
+            <option value="Seguridad">Ciberseguridad</option>
+            <option value="Economía Digital">Economía Digital</option>
+            <option value="Actualidad">Actualidad</option>
+            <option value="Canales">Canales</option>
+            <option value="Data Center">Data Centers</option>
+          </select>
+        </div>
+      </div>
+
       <div class="results-actions">
         <button id="headerSubscribeBtn" class="btn-subscribe-pill" title="Suscribirse al Boletín">
           <i class="ri-mail-send-fill"></i>
