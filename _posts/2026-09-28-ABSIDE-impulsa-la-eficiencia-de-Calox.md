@@ -12,7 +12,7 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Emilio-Rosamilia-g.jpg
 categories:
-  - Chile
+  - Venezuela
 tags:
   - Seguridad
 week: '40'
