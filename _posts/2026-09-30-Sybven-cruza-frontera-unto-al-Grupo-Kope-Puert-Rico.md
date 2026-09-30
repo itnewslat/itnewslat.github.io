@@ -90,7 +90,7 @@ Ese es, en esencia, el verdadero propósito de la evolución digital: ayudar a l
 Y cuando el legado, la estrategia, la tecnología y el talento humano avanzan en una misma dirección, el futuro deja de ser una promesa para convertirse en una realidad que se construye todos los días.
 
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/bitcoin-teclado-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/MDL-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
