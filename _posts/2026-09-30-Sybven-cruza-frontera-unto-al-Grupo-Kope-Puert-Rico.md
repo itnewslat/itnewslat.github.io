@@ -12,9 +12,16 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/MDL-g.jpg
 categories:
+  - Venezuela
   - Colombia
+  - México
+  - Panamá
+  - Argentina
+  - Chile
+  - Ecuador
+  - Perú
 tags:
-  - Economía Digital
+  - Canales
 week: '40'
 ---
 - con un nuevo caso de éxito en RETAIL impulsado por SAP S/4HANA Cloud Private Edition
