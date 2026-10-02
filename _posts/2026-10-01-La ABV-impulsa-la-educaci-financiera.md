@@ -55,7 +55,7 @@ Sobre estas actividades, el Presidente Ejecutivo de la Asociación Bancaria de V
 
 Se espera que las actividades de este mes puedan replicarse y expandirse en instituciones educativas de todos los niveles, y a otras regiones del país, impulsando una educación financiera temprana y ofreciendo programas que fomenten la actualización e innovación continua.
 
-![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/FITELVEN-26-p.jpg)
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/AVB-educacion-p.jpg)
 
 <table style="height: 42px;" width="569">
 <tbody>
