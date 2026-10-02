@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: ECOSISTEMA FITELVE
+title: ECOSISTEMA FITELVEN
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/FITELVEN-26-p.jpg
 detail-image: >-
@@ -17,7 +17,7 @@ tags:
   - Actualidad
 week: '40'
 ---
--**_LA PLATAFORMA QUE UNE FERIA, ACADEMIA E INNOVACIÓN EN VENEZUELA_** 
+- **_LA PLATAFORMA QUE UNE FERIA, ACADEMIA E INNOVACIÓN EN VENEZUELA_** 
 
 **Bajo un nuevo concepto integral que opera los 365 días del año, la tradicional gran vitrina tecnológica del país se expande al integrar formalmente espacios de formación técnica especializada, a través de la Academia y la aceleración de negocios B2B mediante el Tech Hub**
 
