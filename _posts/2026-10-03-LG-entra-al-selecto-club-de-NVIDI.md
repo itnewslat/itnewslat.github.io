@@ -47,7 +47,7 @@ La evolución de la inteligencia artificial está intrínsecamente ligada al con
 <table style="height: 42px;" width="569">
 <tbody>
 <tr>
-<td style="text-align: justify;"><sub><strong>Somos ITNEWS.LAT, y nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es">@ITNEWSLAT</a> o INSTAGRAM <a href="https://www.instagram.com/itnewslat/">@ITNEWSLAT</a>y en las aplicaciones como <a href="https://itnews.lat/app">nuestra APP</a> y <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+<td style="text-align: justify;"><sub><strong>Somos ITNEWS.LAT, y nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es"> @ITNEWSLAT</a> o INSTAGRAM <a href="https://www.instagram.com/itnewslat/">@ITNEWSLAT</a> y en las aplicaciones como <a href="https://itnews.lat/app">nuestra APP</a> y <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
 </tr>
 </tbody>
 </table>
