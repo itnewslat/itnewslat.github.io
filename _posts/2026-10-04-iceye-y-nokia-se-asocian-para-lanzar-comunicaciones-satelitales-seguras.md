@@ -41,3 +41,15 @@ Rafal Modrzewski, director ejecutivo y cofundador de ICEYE, afirmó: “Junto co
 Justin Hotard, presidente y director ejecutivo de Nokia, afirmó: “Las operaciones soberanas dependen de la capacidad de detectar, decidir y actuar en tiempo real. La IA física lo hace posible, pero solo con una conectividad segura y resiliente por tierra, mar, aire y espacio. Al combinar las redes de confianza de Nokia con las capacidades soberanas desde el espacio ya demostradas de ICEYE, ofreceremos una capacidad de comunicaciones satelitales que complementará las redes terrestres existentes y dará a las naciones la conciencia situacional, la conectividad y el control que necesitan para operar con confianza en entornos disputados y en todos los dominios.”
 
 Modrzewski y Hotard subirán al escenario del Helsinki Security Forum el 2 de octubre para una sesión titulada «Cómo salvar la soberanía tecnológica de Europa».
+
+![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Nokia-comm-p.jpg)
+
+<table style="height: 42px;" width="569">
+<tbody>
+<tr>
+<td style="text-align: justify;"><sub><strong>Somos ITNEWS.LAT, y nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es"> @ITNEWSLAT</a> o INSTAGRAM <a href="https://www.instagram.com/itnewslat/">@ITNEWSLAT</a> y en las aplicaciones como <a href="https://itnews.lat/app">nuestra APP</a> y <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>
