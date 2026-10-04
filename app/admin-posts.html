@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ITNEWS | Gestor y Publicador de Notas</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #0a0d14;
+      --bg-card: #121722;
+      --bg-elevated: #182030;
+      --bg-input: #1a2232;
+      --border-color: #263347;
+      --border-focus: #3b82f6;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --brand: #e62b1e;
+      --brand-hover: #cc2216;
+      --success: #10b981;
+      --accent: #38bdf8;
+      --warning: #f59e0b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Auth Overlay */
+    .auth-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 13, 20, 0.96);
+      backdrop-filter: blur(14px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 20px;
+    }
+
+    .auth-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 36px;
+      width: 100%;
+      max-width: 430px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+      text-align: center;
+    }
+
+    .auth-icon {
+      width: 60px;
+      height: 60px;
+      background: rgba(230, 43, 30, 0.12);
+      border: 1px solid rgba(230, 43, 30, 0.35);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 18px;
+      color: var(--brand);
+      font-size: 28px;
+    }
+
+    .auth-card h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+
+    .auth-card p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    .auth-form {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .auth-input-group {
+      position: relative;
+    }
+
+    .auth-input {
+      width: 100%;
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 12px 16px;
+      color: #fff;
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .auth-input:focus {
+      border-color: var(--brand);
+      box-shadow: 0 0 0 3px rgba(230, 43, 30, 0.18);
+    }
+
+    .auth-btn {
+      background: var(--brand);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 20px;
+      font-weight: 600;
+      font-size: 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.2s;
+    }
+
+    .auth-btn:hover {
+      background: var(--brand-hover);
+    }
+
+    /* Header */
+    .admin-header {
+      background: rgba(18, 23, 34, 0.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 14px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .admin-brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .admin-brand img {
+      height: 28px;
+    }
+
+    .admin-brand .brand-badge {
+      background: rgba(230, 43, 30, 0.15);
+      color: #fca5a5;
+      border: 1px solid rgba(230, 43, 30, 0.3);
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .admin-nav-links {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-btn {
+      background: var(--bg-elevated);
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 7px 14px;
+      font-size: 12.5px;
+      font-weight: 500;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .nav-btn:hover {
+      color: #fff;
+      border-color: #3e506d;
+    }
+
+    .nav-btn.active {
+      background: rgba(230, 43, 30, 0.15);
+      border-color: rgba(230, 43, 30, 0.4);
+      color: #fff;
+    }
+
+    /* Main Container */
+    .admin-container {
+      max-width: 1200px;
+      width: 100%;
+      margin: 24px auto;
+      padding: 0 20px;
+      flex: 1;
+    }
+
+    /* Token Bar */
+    .token-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .token-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .token-info i {
+      font-size: 22px;
+      color: #fff;
+    }
+
+    .token-inputs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 1;
+      max-width: 500px;
+    }
+
+    .token-input-wrap {
+      position: relative;
+      flex: 1;
+    }
+
+    .token-input {
+      width: 100%;
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 8px 36px 8px 12px;
+      color: #fff;
+      font-size: 12.5px;
+      font-family: 'JetBrains Mono', monospace;
+      outline: none;
+    }
+
+    .token-input:focus {
+      border-color: var(--border-focus);
+    }
+
+    .token-eye-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .btn-token-save {
+      background: var(--bg-elevated);
+      color: #fff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-token-save:hover {
+      background: #232e42;
+    }
+
+    /* Grid Layout */
+    .editor-grid {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 24px;
+      align-items: start;
+    }
+
+    @media (max-width: 980px) {
+      .editor-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Card Panels */
+    .panel-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    .panel-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .panel-title i {
+      color: var(--brand);
+      font-size: 19px;
+    }
+
+    /* Form Fields */
+    .form-group {
+      margin-bottom: 18px;
+    }
+
+    .form-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 7px;
+      letter-spacing: 0.3px;
+    }
+
+    .form-label span.req {
+      color: var(--brand);
+    }
+
+    .form-hint {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-top: 5px;
+      line-height: 1.4;
+    }
+
+    .input-text, .input-select, .textarea-custom {
+      width: 100%;
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: #fff;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .input-text:focus, .input-select:focus, .textarea-custom:focus {
+      border-color: var(--border-focus);
+    }
+
+    .textarea-custom {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      resize: vertical;
+      min-height: 280px;
+    }
+
+    /* Slug Preview */
+    .slug-preview-box {
+      background: var(--bg-dark);
+      border: 1px dashed var(--border-color);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--accent);
+      word-break: break-all;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    /* Date and Time Group */
+    .datetime-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .btn-now {
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: var(--accent);
+      border-radius: 6px;
+      padding: 4px 8px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-left: 6px;
+    }
+
+    .btn-now:hover {
+      background: rgba(56, 189, 248, 0.2);
+    }
+
+    /* Multi-select Pills / Chips */
+    .chips-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 12.5px;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s ease;
+    }
+
+    .chip-item:hover {
+      border-color: #3b4d66;
+    }
+
+    .chip-item.selected {
+      background: rgba(230, 43, 30, 0.18);
+      border-color: var(--brand);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .chip-item i {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .chip-item.selected i {
+      color: var(--brand);
+    }
+
+    .chip-actions {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .btn-chip-action {
+      background: none;
+      border: none;
+      color: var(--accent);
+      font-size: 11.5px;
+      cursor: pointer;
+      text-decoration: underline;
+      padding: 0;
+    }
+
+    /* Single Select Tags */
+    .tag-chip-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 12.5px;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s ease;
+    }
+
+    .tag-chip-item:hover {
+      border-color: #3b4d66;
+    }
+
+    .tag-chip-item.selected {
+      background: rgba(56, 189, 248, 0.16);
+      border-color: var(--accent);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* Toggles / Switches */
+    .switch-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .switch-row:last-child {
+      border-bottom: none;
+    }
+
+    .switch-info {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-main);
+    }
+
+    .switch-subtext {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 44px;
+      height: 24px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      inset: 0;
+      background-color: var(--bg-input);
+      border: 1px solid var(--border-color);
+      transition: .3s;
+      border-radius: 24px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 3px;
+      bottom: 3px;
+      background-color: #fff;
+      transition: .3s;
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: var(--brand);
+      border-color: var(--brand);
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(20px);
+    }
+
+    /* Image Preview */
+    .img-preview-box {
+      width: 100%;
+      height: 170px;
+      background: var(--bg-dark);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      position: relative;
+    }
+
+    .img-preview-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .img-preview-placeholder {
+      color: var(--text-muted);
+      font-size: 12.5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .img-preview-placeholder i {
+      font-size: 26px;
+      opacity: 0.6;
+    }
+
+    /* Markdown Quick Buttons */
+    .md-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-color);
+      border-bottom: none;
+      border-radius: 8px 8px 0 0;
+      padding: 8px 10px;
+    }
+
+    .md-btn {
+      background: none;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      border-radius: 4px;
+      padding: 4px 8px;
+      font-size: 13px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .md-btn:hover {
+      background: var(--bg-card);
+      color: #fff;
+      border-color: var(--border-color);
+    }
+
+    .textarea-with-toolbar {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    /* Primary Actions */
+    .action-bar {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .btn-publish {
+      width: 100%;
+      background: var(--brand);
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 15px 20px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: background 0.2s, transform 0.1s;
+      box-shadow: 0 10px 20px -5px rgba(230, 43, 30, 0.4);
+    }
+
+    .btn-publish:hover {
+      background: var(--brand-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-publish:disabled {
+      background: #4a5568;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+
+    .btn-preview-yaml {
+      width: 100%;
+      background: var(--bg-elevated);
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+
+    .btn-preview-yaml:hover {
+      color: #fff;
+      border-color: #3b4d66;
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 13, 20, 0.85);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 20px;
+    }
+
+    .modal-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 28px;
+      width: 100%;
+      max-width: 720px;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7);
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .modal-header h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 18px;
+      color: #fff;
+    }
+
+    .modal-body {
+      flex: 1;
+      overflow-y: auto;
+      margin-bottom: 18px;
+    }
+
+    .code-preview {
+      background: var(--bg-dark);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: #e2e8f0;
+      white-space: pre-wrap;
+      word-break: break-all;
+      user-select: all;
+    }
+
+    .modal-footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    /* Notification / Toast */
+    .toast-box {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 14px 20px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 2000;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      font-size: 13.5px;
+    }
+
+    .toast-box.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .toast-box.success {
+      border-color: rgba(16, 185, 129, 0.4);
+      background: #064e3b;
+      color: #d1fae5;
+    }
+
+    .toast-box.error {
+      border-color: rgba(230, 43, 30, 0.4);
+      background: #7f1d1d;
+      color: #fee2e2;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Auth Overlay -->
+  <div id="authOverlay" class="auth-overlay">
+    <div class="auth-card">
+      <div class="auth-icon">
+        <i class="ri-article-line"></i>
+      </div>
+      <h2>Panel de Redacción ITNEWS</h2>
+      <p>Introduce la clave de acceso para publicar y gestionar notas informativas en ITNEWS.LAT</p>
+      <form id="authForm" class="auth-form" onsubmit="return false;">
+        <div class="auth-input-group">
+          <input type="password" id="adminKeyInput" class="auth-input" placeholder="Clave de acceso" autocomplete="current-password" required>
+        </div>
+        <button type="submit" id="authSubmitBtn" class="auth-btn">
+          <i class="ri-lock-unlock-line"></i> Ingresar al Panel
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="admin-header">
+    <div class="admin-brand">
+      <img src="https://itnews.lat/assets/imagenes/logo_large_red.png" alt="ITNEWS LAT">
+      <span class="brand-badge">Gestor de Notas</span>
+    </div>
+    <div class="admin-nav-links">
+      <a href="/app/admin-banners.html" class="nav-btn">
+        <i class="ri-image-line"></i> Banners & Assets
+      </a>
+      <a href="https://itnews.lat/" target="_blank" class="nav-btn">
+        <i class="ri-external-link-line"></i> Ver Portal Web
+      </a>
+    </div>
+  </header>
+
+  <!-- Container -->
+  <main class="admin-container">
+
+    <!-- GitHub Token Bar -->
+    <div class="token-bar">
+      <div class="token-info">
+        <i class="ri-github-fill"></i>
+        <div>
+          <strong style="color: #fff; font-size: 13.5px;">GitHub Personal Access Token (PAT)</strong>
+          <p style="font-size: 11.5px; color: var(--text-muted); margin-top: 2px;">
+            Permite publicar en <code>_posts/</code> de <code>itnewslat/itnewslat.github.io</code>. Se guarda de forma local en tu navegador.
+          </p>
+        </div>
+      </div>
+      <div class="token-inputs">
+        <div class="token-input-wrap">
+          <input type="password" id="ghTokenInput" class="token-input" placeholder="github_pat_... o ghp_...">
+          <button type="button" id="toggleTokenEye" class="token-eye-btn">
+            <i class="ri-eye-line" id="toggleTokenIcon"></i>
+          </button>
+        </div>
+        <button type="button" id="saveGhTokenBtn" class="btn-token-save">
+          <i class="ri-save-line"></i> Guardar
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Grid Form -->
+    <div class="editor-grid">
+
+      <!-- Left Column: Post Content -->
+      <div class="left-col">
+
+        <!-- Title and Slug -->
+        <div class="panel-card">
+          <div class="panel-title">
+            <span><i class="ri-edit-line"></i> Título y Archivo</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="postTitle">Título de la Nota <span class="req">*</span></label>
+            <input type="text" id="postTitle" class="input-text" placeholder="Ej. ABSIDE presenta soluciones de inteligencia artificial para la banca..." required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Ruta y Nombre de Archivo Automático (Sanitizado en <code>_posts/</code>)</label>
+            <div id="slugPreview" class="slug-preview-box">
+              <i class="ri-file-text-line"></i> _posts/YYYY-MM-DD-titulo-de-la-nota.md
+            </div>
+            <p class="form-hint">
+              <i class="ri-shield-check-line" style="color: var(--success);"></i> Protección activa: se eliminan automáticamente caracteres conflictivos (como ?, acentos, comillas o espacios) y siempre se guarda en <code>_posts/</code>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Article Body -->
+        <div class="panel-card">
+          <div class="panel-title">
+            <span><i class="ri-file-list-3-line"></i> Contenido de la Nota</span>
+            <span style="font-size: 11.5px; font-weight: 500; color: var(--text-muted);">Soporta Markdown & HTML</span>
+          </div>
+
+          <div class="md-toolbar">
+            <button type="button" class="md-btn" onclick="insertMd('**', '**', 'Texto en negrita')"><i class="ri-bold"></i> Negrita</button>
+            <button type="button" class="md-btn" onclick="insertMd('*', '*', 'Texto en cursiva')"><i class="ri-italic"></i> Cursiva</button>
+            <button type="button" class="md-btn" onclick="insertMd('### ', '', 'Subtítulo')"><i class="ri-h-2"></i> Subtítulo</button>
+            <button type="button" class="md-btn" onclick="insertMd('- ', '', 'Elemento de lista')"><i class="ri-list-unordered"></i> Lista</button>
+            <button type="button" class="md-btn" onclick="insertMd('[', '](https://url.com)', 'Texto del enlace')"><i class="ri-link"></i> Enlace</button>
+            <button type="button" class="md-btn" onclick="insertMd('![](', ')', 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/imagen.jpg')"><i class="ri-image-add-line"></i> Imagen</button>
+            <button type="button" class="md-btn" onclick="insertMd('> ', '', 'Cita o destacado')"><i class="ri-double-quotes-l"></i> Cita</button>
+          </div>
+
+          <textarea id="postContent" class="textarea-custom textarea-with-toolbar" placeholder="Escribe o pega aquí el contenido de la nota de prensa o artículo...
+
+Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Metadata & Settings -->
+      <div class="right-col">
+
+        <!-- Date & Time & Week -->
+        <div class="panel-card">
+          <div class="panel-title">
+            <span><i class="ri-calendar-event-line"></i> Fecha y Cronología</span>
+          </div>
+
+          <div class="form-group">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 7px;">
+              <label class="form-label" style="margin-bottom: 0;">Fecha y Hora de Publicación <span class="req">*</span></label>
+              <button type="button" id="btnSetNow" class="btn-now"><i class="ri-time-line"></i> Ahora mismo</button>
+            </div>
+            <div class="datetime-row">
+              <input type="date" id="postDate" class="input-text">
+              <input type="time" id="postTime" class="input-text">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Zona Horaria</label>
+            <input type="text" id="postTimezone" class="input-text" value="-0400" readonly style="font-family: 'JetBrains Mono', monospace; opacity: 0.85;">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Semana del Año (ISO 8601)</label>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <input type="text" id="postWeek" class="input-text" readonly style="font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent); max-width: 100px;">
+              <span style="font-size: 11.5px; color: var(--text-muted);">Calculada automáticamente de la fecha</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Multi-select Countries -->
+        <div class="panel-card">
+          <div class="panel-title">
+            <span><i class="ri-global-line"></i> Ediciones por País</span>
+          </div>
+
+          <div class="chip-actions">
+            <button type="button" id="btnSelectAllCountries" class="btn-chip-action">Seleccionar todos</button>
+            <span style="color: var(--border-color);">|</span>
+            <button type="button" id="btnClearCountries" class="btn-chip-action">Limpiar</button>
+          </div>
+
+          <div id="countriesChipGrid" class="chips-grid">
+            <div class="chip-item" data-val="Venezuela"><i class="ri-checkbox-blank-circle-line"></i> Venezuela</div>
+            <div class="chip-item" data-val="Colombia"><i class="ri-checkbox-blank-circle-line"></i> Colombia</div>
+            <div class="chip-item" data-val="México"><i class="ri-checkbox-blank-circle-line"></i> México</div>
+            <div class="chip-item" data-val="Panamá"><i class="ri-checkbox-blank-circle-line"></i> Panamá</div>
+            <div class="chip-item" data-val="Chile"><i class="ri-checkbox-blank-circle-line"></i> Chile</div>
+            <div class="chip-item" data-val="Argentina"><i class="ri-checkbox-blank-circle-line"></i> Argentina</div>
+            <div class="chip-item" data-val="Perú"><i class="ri-checkbox-blank-circle-line"></i> Perú</div>
+            <div class="chip-item" data-val="Ecuador"><i class="ri-checkbox-blank-circle-line"></i> Ecuador</div>
+          </div>
+          <p class="form-hint">La nota se mostrará en los portales correspondientes a cada país seleccionado.</p>
+        </div>
+
+        <!-- Tag / Category Tag -->
+        <div class="panel-card">
+          <div class="panel-title">
+            <span><i class="ri-price-tag-3-line"></i> Categoría Temática (Tag)</span>
+          </div>
+
+          <div id="tagsChipGrid" class="chips-grid">
+            <div class="tag-chip-item selected" data-val="Actualidad">Actualidad</div>
+            <div class="tag-chip-item" data-val="Canales">Canales</div>
+            <div class="tag-chip-item" data-val="Economía Digital">Economía Digital</div>
+            <div class="tag-chip-item" data-val="Seguridad">Seguridad</div>
+            <div class="tag-chip-item" data-val="Transformación Digital">Transformación Digital</div>
+            <div class="tag-chip-item" data-val="Movilidad">Movilidad</div>
+          </div>
+        </div>
+
+        <!-- Images -->
+        <div class="panel-card">
+          <div class="panel-title">
+            <span><i class="ri-image-2-line"></i> Imágenes de Portada</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="imgThumbnail">Imagen Miniatura (540x320) <span class="req">*</span></label>
+            <input type="url" id="imgThumbnail" class="input-text" placeholder="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/...jpg">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="imgDetail">Imagen Detalle (1024x680)</label>
+            <input type="url" id="imgDetail" class="input-text" placeholder="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/...jpg">
+          </div>
+
+          <div class="img-preview-box" id="previewBox">
+            <div class="img-preview-placeholder" id="previewPlaceholder">
+              <i class="ri-image-line"></i>
+              <span>Vista previa de imagen</span>
+            </div>
+            <img id="previewImg" src="" alt="Vista previa" style="display: none;">
+          </div>
+        </div>
+
+        <!-- Highlight Switches & Options -->
+        <div class="panel-card">
+          <div class="panel-title">
+            <span><i class="ri-toggle-line"></i> Opciones de Visualización</span>
+          </div>
+
+          <div class="switch-row">
+            <div>
+              <div class="switch-info">Publicar Inmediatamente</div>
+              <div class="switch-subtext">published: true</div>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="switchPublished" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="switch-row">
+            <div>
+              <div class="switch-info">Super Noticia</div>
+              <div class="switch-subtext">superNews: true (Destacado superior)</div>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="switchSuperNews">
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="switch-row">
+            <div>
+              <div class="switch-info">Super Artículo</div>
+              <div class="switch-subtext">superArticle: true</div>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="switchSuperArticle">
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Publish Buttons -->
+        <div class="action-bar">
+          <button type="button" id="btnPublishNote" class="btn-publish">
+            <i class="ri-send-plane-fill"></i> Publicar Nota en ITNEWS.LAT
+          </button>
+          <button type="button" id="btnPreviewYaml" class="btn-preview-yaml">
+            <i class="ri-code-s-slash-line"></i> Previsualizar Código Markdown/Jekyll
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Modal YAML Preview -->
+  <div id="modalPreview" class="modal-overlay" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modalPreviewTitle"><i class="ri-file-code-line"></i> Código del Archivo Jekyll</h3>
+        <button type="button" onclick="closeModalPreview()" style="background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer;">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre id="codePreviewBlock" class="code-preview"></pre>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="btnCopyCode" class="nav-btn">
+          <i class="ri-file-copy-line"></i> Copiar Código
+        </button>
+        <button type="button" onclick="closeModalPreview()" class="nav-btn" style="background: var(--brand); color: #fff; border-color: var(--brand);">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toastBox" class="toast-box">
+    <i id="toastIcon" class="ri-checkbox-circle-fill" style="font-size: 20px;"></i>
+    <span id="toastMsg">Mensaje</span>
+  </div>
+
+  <script>
+    (function() {
+      // Configuración Maestra
+      const MASTER_PASSWORD_HASH = 'itnews2026admin';
+      const AUTH_STORAGE_KEY = 'itnews_admanager_auth_token';
+      const GH_STORAGE_TOKEN_KEY = 'itnews_gh_pat_token';
+      const REPO_OWNER = 'itnewslat';
+      const REPO_NAME = 'itnewslat.github.io';
+      const REPO_BRANCH = 'master';
+
+      // Elementos DOM
+      const authOverlay = document.getElementById('authOverlay');
+      const authForm = document.getElementById('authForm');
+      const adminKeyInput = document.getElementById('adminKeyInput');
+      const authSubmitBtn = document.getElementById('authSubmitBtn');
+
+      const ghTokenInput = document.getElementById('ghTokenInput');
+      const toggleTokenEye = document.getElementById('toggleTokenEye');
+      const toggleTokenIcon = document.getElementById('toggleTokenIcon');
+      const saveGhTokenBtn = document.getElementById('saveGhTokenBtn');
+
+      const postTitle = document.getElementById('postTitle');
+      const slugPreview = document.getElementById('slugPreview');
+      const postContent = document.getElementById('postContent');
+      const postDate = document.getElementById('postDate');
+      const postTime = document.getElementById('postTime');
+      const postTimezone = document.getElementById('postTimezone');
+      const postWeek = document.getElementById('postWeek');
+      const btnSetNow = document.getElementById('btnSetNow');
+
+      const countriesChipGrid = document.getElementById('countriesChipGrid');
+      const btnSelectAllCountries = document.getElementById('btnSelectAllCountries');
+      const btnClearCountries = document.getElementById('btnClearCountries');
+
+      const tagsChipGrid = document.getElementById('tagsChipGrid');
+
+      const imgThumbnail = document.getElementById('imgThumbnail');
+      const imgDetail = document.getElementById('imgDetail');
+      const previewImg = document.getElementById('previewImg');
+      const previewPlaceholder = document.getElementById('previewPlaceholder');
+
+      const switchPublished = document.getElementById('switchPublished');
+      const switchSuperNews = document.getElementById('switchSuperNews');
+      const switchSuperArticle = document.getElementById('switchSuperArticle');
+
+      const btnPublishNote = document.getElementById('btnPublishNote');
+      const btnPreviewYaml = document.getElementById('btnPreviewYaml');
+      const modalPreview = document.getElementById('modalPreview');
+      const codePreviewBlock = document.getElementById('codePreviewBlock');
+      const btnCopyCode = document.getElementById('btnCopyCode');
+
+      const toastBox = document.getElementById('toastBox');
+      const toastIcon = document.getElementById('toastIcon');
+      const toastMsg = document.getElementById('toastMsg');
+
+      // 1. Autenticación
+      function checkAuth() {
+        const token = localStorage.getItem(AUTH_STORAGE_KEY);
+        if (token === MASTER_PASSWORD_HASH) {
+          authOverlay.style.display = 'none';
+        } else {
+          authOverlay.style.display = 'flex';
+          setTimeout(() => adminKeyInput.focus(), 150);
+        }
+      }
+
+      authForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        if (adminKeyInput.value.trim() === MASTER_PASSWORD_HASH) {
+          localStorage.setItem(AUTH_STORAGE_KEY, MASTER_PASSWORD_HASH);
+          authOverlay.style.display = 'none';
+          showToast('Sesión iniciada con éxito', 'success');
+        } else {
+          alert('Clave de acceso incorrecta. Inténtalo de nuevo.');
+          adminKeyInput.value = '';
+          adminKeyInput.focus();
+        }
+      });
+
+      // 2. Token de GitHub
+      function initGhToken() {
+        const saved = localStorage.getItem(GH_STORAGE_TOKEN_KEY) || '';
+        ghTokenInput.value = saved;
+      }
+
+      saveGhTokenBtn.addEventListener('click', () => {
+        const val = ghTokenInput.value.trim();
+        localStorage.setItem(GH_STORAGE_TOKEN_KEY, val);
+        saveGhTokenBtn.innerHTML = '<i class="ri-check-line"></i> Guardado';
+        setTimeout(() => {
+          saveGhTokenBtn.innerHTML = '<i class="ri-save-line"></i> Guardar';
+        }, 2000);
+        showToast('Token de GitHub guardado en tu navegador', 'success');
+      });
+
+      toggleTokenEye.addEventListener('click', () => {
+        if (ghTokenInput.type === 'password') {
+          ghTokenInput.type = 'text';
+          toggleTokenIcon.className = 'ri-eye-off-line';
+        } else {
+          ghTokenInput.type = 'password';
+          toggleTokenIcon.className = 'ri-eye-line';
+        }
+      });
+
+      // 3. Cálculo de Fecha, Hora y Semana ISO 8601
+      function getISOWeekNumber(d) {
+        const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+        const dayNum = date.getUTCDay() || 7;
+        date.setUTCDate(date.getUTCDate() + 4 - dayNum);
+        const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
+        return Math.ceil((((date - yearStart) / 86400000) + 1) / 7);
+      }
+
+      function setCurrentDateTime() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        const hours = String(now.getHours()).padStart(2, '0');
+        const mins = String(now.getMinutes()).padStart(2, '0');
+
+        postDate.value = `${year}-${month}-${day}`;
+        postTime.value = `${hours}:${mins}`;
+        updateWeek();
+        updateSlug();
+      }
+
+      function updateWeek() {
+        if (!postDate.value) return;
+        const [y, m, d] = postDate.value.split('-').map(Number);
+        const dateObj = new Date(y, m - 1, d);
+        const weekNum = getISOWeekNumber(dateObj);
+        postWeek.value = String(weekNum).padStart(2, '0');
+      }
+
+      postDate.addEventListener('change', () => {
+        updateWeek();
+        updateSlug();
+      });
+
+      btnSetNow.addEventListener('click', () => {
+        setCurrentDateTime();
+        showToast('Fecha y hora sincronizadas al momento actual', 'success');
+      });
+
+      // 4. Sanitización del Slug y Nombre de Archivo
+      function sanitizeSlug(title) {
+        if (!title) return 'titulo-de-la-nota';
+        return title
+          .toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Quita acentos y tildes
+          .replace(/[^\w\s-]/g, '')                          // Quita caracteres raros (?, !, @, #, etc.)
+          .trim()
+          .replace(/\s+/g, '-')                              // Reemplaza espacios con guiones
+          .replace(/-+/g, '-');                              // Evita guiones dobles
+      }
+
+      function getFileName() {
+        const dateStr = postDate.value || '2026-10-04';
+        const rawTitle = postTitle.value.trim();
+        const slug = sanitizeSlug(rawTitle);
+        return `${dateStr}-${slug}.md`;
+      }
+
+      function updateSlug() {
+        const fname = getFileName();
+        slugPreview.innerHTML = `<i class="ri-file-text-line"></i> _posts/${fname}`;
+      }
+
+      postTitle.addEventListener('input', updateSlug);
+
+      // 5. Manejador de Países (Multi-selección)
+      countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
+        chip.addEventListener('click', () => {
+          chip.classList.toggle('selected');
+          const icon = chip.querySelector('i');
+          if (chip.classList.contains('selected')) {
+            icon.className = 'ri-checkbox-circle-fill';
+          } else {
+            icon.className = 'ri-checkbox-blank-circle-line';
+          }
+        });
+      });
+
+      btnSelectAllCountries.addEventListener('click', () => {
+        countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
+          chip.classList.add('selected');
+          chip.querySelector('i').className = 'ri-checkbox-circle-fill';
+        });
+      });
+
+      btnClearCountries.addEventListener('click', () => {
+        countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
+          chip.classList.remove('selected');
+          chip.querySelector('i').className = 'ri-checkbox-blank-circle-line';
+        });
+      });
+
+      function getSelectedCountries() {
+        const selected = [];
+        countriesChipGrid.querySelectorAll('.chip-item.selected').forEach(chip => {
+          selected.push(chip.getAttribute('data-val'));
+        });
+        return selected;
+      }
+
+      // 6. Manejador de Tags (Categoría única o múltiple)
+      tagsChipGrid.querySelectorAll('.tag-chip-item').forEach(tag => {
+        tag.addEventListener('click', () => {
+          tagsChipGrid.querySelectorAll('.tag-chip-item').forEach(t => t.classList.remove('selected'));
+          tag.classList.add('selected');
+        });
+      });
+
+      function getSelectedTag() {
+        const active = tagsChipGrid.querySelector('.tag-chip-item.selected');
+        return active ? active.getAttribute('data-val') : 'Actualidad';
+      }
+
+      // 7. Preview de Imagen
+      function updateImagePreview() {
+        const url = imgThumbnail.value.trim() || imgDetail.value.trim();
+        if (url) {
+          previewImg.src = url;
+          previewImg.style.display = 'block';
+          previewPlaceholder.style.display = 'none';
+        } else {
+          previewImg.src = '';
+          previewImg.style.display = 'none';
+          previewPlaceholder.style.display = 'flex';
+        }
+      }
+
+      imgThumbnail.addEventListener('input', () => {
+        updateImagePreview();
+        // Si la de detalle está vacía y se pega una 540x320, sugerir automáticamente la 1024x680
+        if (!imgDetail.value && imgThumbnail.value.includes('540x320')) {
+          imgDetail.value = imgThumbnail.value.replace('540x320', '1024x680');
+        }
+      });
+      imgDetail.addEventListener('input', updateImagePreview);
+
+      // 8. Generador de Documento Markdown / Frontmatter
+      function generatePostContent() {
+        const title = postTitle.value.trim();
+        const dateStr = postDate.value || '2026-10-04';
+        const timeStr = postTime.value || '09:00';
+        const tzStr = postTimezone.value || '-0400';
+        const fullDate = `${dateStr} ${timeStr} ${tzStr}`;
+        const year = dateStr.split('-')[0] || '2026';
+        const week = postWeek.value || '40';
+
+        const thumb = imgThumbnail.value.trim();
+        const detail = imgDetail.value.trim() || thumb;
+
+        const countries = getSelectedCountries();
+        const tag = getSelectedTag();
+
+        const isPublished = switchPublished.checked;
+        const isSuperNews = switchSuperNews.checked;
+        const isSuperArticle = switchSuperArticle.checked;
+
+        const body = postContent.value.trim();
+
+        let yaml = `---\n`;
+        yaml += `layout: posts\n`;
+        yaml += `color-schema: red-dark\n`;
+        yaml += `date: '${fullDate}'\n`;
+        yaml += `published: ${isPublished}\n`;
+        yaml += `superNews: ${isSuperNews}\n`;
+        yaml += `superArticle: ${isSuperArticle}\n`;
+        yaml += `year: '${year}'\n`;
+        yaml += `title: "${title.replace(/"/g, '\\"')}"\n`;
+        yaml += `image: >-\n  ${thumb}\n`;
+        yaml += `detail-image: >-\n  ${detail}\n`;
+
+        yaml += `categories:\n`;
+        if (countries.length === 0) {
+          yaml += `    - Venezuela\n`;
+        } else {
+          countries.forEach(c => {
+            yaml += `    - ${c}\n`;
+          });
+        }
+
+        yaml += `tags:\n`;
+        yaml += `  - ${tag}\n`;
+        yaml += `week: '${week}'\n`;
+        yaml += `---\n`;
+        yaml += `${body}\n`;
+
+        return yaml;
+      }
+
+      // 9. Markdown Toolbar helper
+      window.insertMd = function(prefix, suffix, placeholder) {
+        const start = postContent.selectionStart;
+        const end = postContent.selectionEnd;
+        const text = postContent.value;
+        const sel = text.substring(start, end) || placeholder;
+        const replacement = prefix + sel + suffix;
+        postContent.value = text.substring(0, start) + replacement + text.substring(end);
+        postContent.focus();
+        postContent.setSelectionRange(start + prefix.length, start + prefix.length + sel.length);
+      };
+
+      // 10. Previsualización y Copia
+      btnPreviewYaml.addEventListener('click', () => {
+        const content = generatePostContent();
+        codePreviewBlock.textContent = content;
+        modalPreview.style.display = 'flex';
+      });
+
+      window.closeModalPreview = function() {
+        modalPreview.style.display = 'none';
+      };
+
+      btnCopyCode.addEventListener('click', () => {
+        navigator.clipboard.writeText(codePreviewBlock.textContent);
+        btnCopyCode.innerHTML = '<i class="ri-check-line"></i> ¡Copiado!';
+        setTimeout(() => {
+          btnCopyCode.innerHTML = '<i class="ri-file-copy-line"></i> Copiar Código';
+        }, 2000);
+      });
+
+      // 11. Helper Base64 UTF-8
+      function utf8ToBase64(str) {
+        return window.btoa(unescape(encodeURIComponent(str)));
+      }
+
+      // 12. Publicar en GitHub (_posts/)
+      btnPublishNote.addEventListener('click', async () => {
+        // Validaciones
+        if (!postTitle.value.trim()) {
+          alert('Por favor, ingresa el título de la nota.');
+          postTitle.focus();
+          return;
+        }
+
+        if (!postDate.value) {
+          alert('Por favor, selecciona una fecha.');
+          postDate.focus();
+          return;
+        }
+
+        if (!imgThumbnail.value.trim()) {
+          alert('Por favor, introduce la URL de la imagen miniatura (540x320).');
+          imgThumbnail.focus();
+          return;
+        }
+
+        const countries = getSelectedCountries();
+        if (countries.length === 0) {
+          if (!confirm('No has seleccionado ningún país para esta nota. ¿Deseas asignarla por defecto a Venezuela?')) {
+            return;
+          }
+          const ve = countriesChipGrid.querySelector('[data-val="Venezuela"]');
+          if (ve) {
+            ve.classList.add('selected');
+            ve.querySelector('i').className = 'ri-checkbox-circle-fill';
+          }
+        }
+
+        const token = localStorage.getItem(GH_STORAGE_TOKEN_KEY) || ghTokenInput.value.trim();
+        if (!token) {
+          alert('Debes ingresar tu Personal Access Token (PAT) de GitHub en la barra superior para poder publicar.');
+          ghTokenInput.focus();
+          return;
+        }
+
+        const fileName = getFileName();
+        const targetPath = `_posts/${fileName}`;
+        const fileContent = generatePostContent();
+        const commitMsg = `Publicar nota: ${postTitle.value.trim()} va Panel de Redaccin ITNEWS`;
+
+        if (!confirm(`¿Confirmas la publicación de esta nota en ITNEWS.LAT?\n\nArchivo de destino: ${targetPath}\nEdiciones: ${getSelectedCountries().join(', ')}`)) {
+          return;
+        }
+
+        btnPublishNote.disabled = true;
+        btnPublishNote.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Publicando en GitHub...';
+
+        try {
+          const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${targetPath}`;
+
+          // Verificar si ya existe (sha)
+          let sha = null;
+          try {
+            const checkRes = await fetch(apiUrl, {
+              headers: {
+                'Authorization': `Bearer ${token}`,
+                'Accept': 'application/vnd.github.v3+json'
+              }
+            });
+            if (checkRes.ok) {
+              const fileData = await checkRes.json();
+              sha = fileData.sha;
+            }
+          } catch (e) {
+            console.log('Archivo nuevo');
+          }
+
+          const payload = {
+            message: commitMsg,
+            content: utf8ToBase64(fileContent),
+            branch: REPO_BRANCH
+          };
+          if (sha) payload.sha = sha;
+
+          const res = await fetch(apiUrl, {
+            method: 'PUT',
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
+          });
+
+          if (!res.ok) {
+            const errData = await res.json();
+            throw new Error(errData.message || `Error HTTP ${res.status}`);
+          }
+
+          showToast('¡Nota publicada con éxito en ITNEWS.LAT!', 'success');
+          alert(`¡Nota publicada con éxito!\n\nSe ha creado el archivo:\n${targetPath}\n\nGitHub Pages comenzará la compilación automáticamente.`);
+
+        } catch (err) {
+          console.error(err);
+          showToast(`Error al publicar: ${err.message}`, 'error');
+          alert(`Ocurrió un error al subir el archivo a GitHub:\n${err.message}\n\nVerifica que tu token tenga permisos 'repo' o 'contents:write' sobre ${REPO_OWNER}/${REPO_NAME}.`);
+        } finally {
+          btnPublishNote.disabled = false;
+          btnPublishNote.innerHTML = '<i class="ri-send-plane-fill"></i> Publicar Nota en ITNEWS.LAT';
+        }
+      });
+
+      // 13. Toast
+      function showToast(msg, type = 'success') {
+        toastMsg.textContent = msg;
+        toastBox.className = `toast-box ${type} show`;
+        if (type === 'success') {
+          toastIcon.className = 'ri-checkbox-circle-fill';
+        } else {
+          toastIcon.className = 'ri-error-warning-fill';
+        }
+        setTimeout(() => {
+          toastBox.classList.remove('show');
+        }, 4500);
+      }
+
+      // Inicialización
+      initGhToken();
+      setCurrentDateTime();
+      checkAuth();
+    })();
+  </script>
+</body>
+</html>
