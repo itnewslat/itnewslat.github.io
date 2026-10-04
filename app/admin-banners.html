@@ -1911,6 +1911,11 @@
 
       initGhToken();
 
+      // Permitir abrir directamente la pestaña de Subir Imágenes desde la URL (#upload)
+      if (window.location.hash === '#upload' || window.location.search.includes('tab=upload')) {
+        if (tabModeUpload) tabModeUpload.click();
+      }
+
       checkAuth();
     })();
   </script>

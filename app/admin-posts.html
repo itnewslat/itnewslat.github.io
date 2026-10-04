@@ -846,6 +846,9 @@
       <span class="brand-badge">Gestor de Notas</span>
     </div>
     <div class="admin-nav-links">
+      <a href="/app/admin-banners.html#upload" target="_blank" class="nav-btn" style="border-color: rgba(56, 189, 248, 0.4); color: var(--accent);">
+        <i class="ri-upload-cloud-2-line"></i> Subir Imágenes (Nueva Ventana)
+      </a>
       <a href="/app/admin-banners.html" class="nav-btn">
         <i class="ri-image-line"></i> Banners & Assets
       </a>
@@ -1013,6 +1016,9 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         <div class="panel-card">
           <div class="panel-title">
             <span><i class="ri-image-2-line"></i> Imágenes de Portada</span>
+            <a href="admin-banners.html#upload" target="_blank" class="nav-btn" style="padding: 4px 10px; font-size: 11.5px; border-color: rgba(56, 189, 248, 0.4); color: var(--accent);">
+              <i class="ri-upload-cloud-2-line"></i> Subir a GitHub (Nueva ventana)
+            </a>
           </div>
 
           <div class="form-group">
@@ -1032,6 +1038,9 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
             </div>
             <img id="previewImg" src="" alt="Vista previa" style="display: none;">
           </div>
+          <p class="form-hint" style="margin-top: 8px;">
+            <i class="ri-information-line" style="color: var(--accent);"></i> La imagen miniatura (540x320) también se inserta automáticamente al final del artículo junto con el pie de página oficial de ITNEWS.LAT y el píxel de seguimiento.
+          </p>
         </div>
 
         <!-- Highlight Switches & Options -->
@@ -1081,6 +1090,9 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           </button>
           <button type="button" id="btnPreviewYaml" class="btn-preview-yaml">
             <i class="ri-code-s-slash-line"></i> Previsualizar Código Markdown/Jekyll
+          </button>
+          <button type="button" id="btnClearForm" class="btn-preview-yaml" style="color: #ef4444; border-color: rgba(239, 68, 68, 0.3);">
+            <i class="ri-delete-bin-line"></i> Limpiar Formulario / Nueva Nota
           </button>
         </div>
 
@@ -1382,7 +1394,26 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         const isSuperNews = switchSuperNews.checked;
         const isSuperArticle = switchSuperArticle.checked;
 
-        const body = postContent.value.trim();
+        const rawBody = postContent.value.trim();
+
+        // Footer estándar obligatorio de ITNEWS.LAT
+        // 1. Imagen miniatura (540x320)
+        // 2. Tabla informativa de redes sociales y app
+        // 3. Píxel de medición Metricool
+        let fullBody = rawBody;
+        const hasFooter = rawBody.includes('Somos ITNEWS.LAT');
+
+        if (!hasFooter) {
+          if (thumb && !rawBody.includes(thumb)) {
+            fullBody += `\n\n![](${thumb})\n\n`;
+          } else {
+            fullBody += `\n\n`;
+          }
+
+          fullBody += `<table style="height: 42px;" width="569">\n<tbody>\n<tr>\n<td style="text-align: justify;"><sub><strong>Somos ITNEWS.LAT, y nuestras noticias también son publicadas a través de nuestra cuenta en Twitter <a href="https://twitter.com/itnewslat?lang=es"> @ITNEWSLAT</a> o INSTAGRAM <a href="https://www.instagram.com/itnewslat/">@ITNEWSLAT</a> y en las aplicaciones como <a href="https://itnews.lat/app">nuestra APP</a> y <a href="https://squidapp.co/en/">SQUID</a></strong></sub></td>\n</tr>\n</tbody>\n</table>\n\n<img src="https://tracker.metricool.com/c3po.jpg?hash=56f88a41e39ab42c063cc51676587a04"/>\n`;
+        } else {
+          fullBody += `\n`;
+        }
 
         let yaml = `---\n`;
         yaml += `layout: posts\n`;
@@ -1409,7 +1440,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         yaml += `  - ${tag}\n`;
         yaml += `week: '${week}'\n`;
         yaml += `---\n`;
-        yaml += `${body}\n`;
+        yaml += `${fullBody}`;
 
         return yaml;
       }
@@ -1544,6 +1575,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
             throw new Error(errData.message || `Error HTTP ${res.status}`);
           }
 
+          clearDraft();
           showToast('¡Nota publicada con éxito en ITNEWS.LAT!', 'success');
           alert(`¡Nota publicada con éxito!\n\nSe ha creado el archivo:\n${targetPath}\n\nGitHub Pages comenzará la compilación automáticamente.`);
 
@@ -1571,9 +1603,125 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         }, 4500);
       }
 
+      // 14. Auto-Guardado y Recuperación de Borrador (Evita perder datos al salir o recargar)
+      const DRAFT_STORAGE_KEY = 'itnews_post_editor_draft';
+
+      function saveDraft() {
+        const draft = {
+          title: postTitle.value,
+          content: postContent.value,
+          date: postDate.value,
+          time: postTime.value,
+          week: postWeek.value,
+          imgThumbnail: imgThumbnail.value,
+          imgDetail: imgDetail.value,
+          countries: getSelectedCountries(),
+          tag: getSelectedTag(),
+          published: switchPublished.checked,
+          superNews: switchSuperNews.checked,
+          superArticle: switchSuperArticle.checked
+        };
+        localStorage.setItem(DRAFT_STORAGE_KEY, JSON.stringify(draft));
+      }
+
+      function restoreDraft() {
+        try {
+          const raw = localStorage.getItem(DRAFT_STORAGE_KEY);
+          if (!raw) return;
+          const draft = JSON.parse(raw);
+          if (draft.title) postTitle.value = draft.title;
+          if (draft.content) postContent.value = draft.content;
+          if (draft.date) postDate.value = draft.date;
+          if (draft.time) postTime.value = draft.time;
+          if (draft.week) postWeek.value = draft.week;
+          if (draft.imgThumbnail) imgThumbnail.value = draft.imgThumbnail;
+          if (draft.imgDetail) imgDetail.value = draft.imgDetail;
+
+          if (Array.isArray(draft.countries) && draft.countries.length > 0) {
+            countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
+              const val = chip.getAttribute('data-val');
+              const selected = draft.countries.includes(val);
+              chip.classList.toggle('selected', selected);
+              chip.querySelector('i').className = selected ? 'ri-checkbox-circle-fill' : 'ri-checkbox-blank-circle-line';
+            });
+          }
+
+          if (draft.tag) {
+            tagsChipGrid.querySelectorAll('.tag-chip-item').forEach(t => {
+              t.classList.toggle('selected', t.getAttribute('data-val') === draft.tag);
+            });
+          }
+
+          if (typeof draft.published === 'boolean') switchPublished.checked = draft.published;
+          if (typeof draft.superNews === 'boolean') switchSuperNews.checked = draft.superNews;
+          if (typeof draft.superArticle === 'boolean') switchSuperArticle.checked = draft.superArticle;
+
+          updateSlug();
+          updateImagePreview();
+        } catch (e) {
+          console.warn('Error al restaurar borrador:', e);
+        }
+      }
+
+      function clearDraft() {
+        localStorage.removeItem(DRAFT_STORAGE_KEY);
+      }
+
+      function resetForm() {
+        clearDraft();
+        postTitle.value = '';
+        postContent.value = '';
+        imgThumbnail.value = '';
+        imgDetail.value = '';
+        switchPublished.checked = true;
+        switchSuperNews.checked = false;
+        switchSuperArticle.checked = false;
+
+        // Reset países a Venezuela por defecto
+        countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
+          const isVe = chip.getAttribute('data-val') === 'Venezuela';
+          chip.classList.toggle('selected', isVe);
+          chip.querySelector('i').className = isVe ? 'ri-checkbox-circle-fill' : 'ri-checkbox-blank-circle-line';
+        });
+
+        // Reset tag a Actualidad
+        tagsChipGrid.querySelectorAll('.tag-chip-item').forEach(t => {
+          t.classList.toggle('selected', t.getAttribute('data-val') === 'Actualidad');
+        });
+
+        setCurrentDateTime();
+        updateSlug();
+        updateImagePreview();
+        showToast('Formulario restablecido para una nueva nota', 'success');
+      }
+
+      const btnClearForm = document.getElementById('btnClearForm');
+      if (btnClearForm) {
+        btnClearForm.addEventListener('click', () => {
+          if (postTitle.value || postContent.value || imgThumbnail.value) {
+            if (confirm('¿Deseas limpiar todos los campos para redactar una nueva nota? Se borrará el borrador actual.')) {
+              resetForm();
+            }
+          } else {
+            resetForm();
+          }
+        });
+      }
+
+      // Escuchadores de autoguardado en tiempo real
+      [postTitle, postContent, postDate, postTime, imgThumbnail, imgDetail].forEach(el => {
+        el.addEventListener('input', saveDraft);
+      });
+      [switchPublished, switchSuperNews, switchSuperArticle].forEach(el => {
+        el.addEventListener('change', saveDraft);
+      });
+      countriesChipGrid.addEventListener('click', () => setTimeout(saveDraft, 50));
+      tagsChipGrid.addEventListener('click', () => setTimeout(saveDraft, 50));
+
       // Inicialización
       initGhToken();
       setCurrentDateTime();
+      restoreDraft();
       checkAuth();
     })();
   </script>
