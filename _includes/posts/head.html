@@ -118,6 +118,7 @@
   {% assign authorName = page.author | default: "Edgar C. Rincón M." %}
   {% assign regionalSection = page.categories.first | default: "Tecnología" %}
   {% assign regionalSlug = regionalSection | replace: ' ', '-' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' %}
+  {% assign pageTitle = page.title | default: page.name | default: "Noticias ITNEWS" %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -129,7 +130,7 @@
           "@type": "WebPage",
           "@id": "https://itnews.lat{{ page.url }}"
         },
-        "headline": {{ page.title | jsonify }},
+        "headline": {{ pageTitle | jsonify }},
         "description": {{ rawSnippet | jsonify }},
         "image": [
           "{{ postImg }}",
@@ -203,7 +204,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": {{ page.title | jsonify }},
+            "name": {{ pageTitle | jsonify }},
             "item": "https://itnews.lat{{ page.url }}"
           }
         ]
