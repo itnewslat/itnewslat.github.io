@@ -410,6 +410,49 @@
       object-fit: contain;
     }
 
+    /* Analytics / CTR Stats Strip */
+    .banner-stats-strip {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      background: rgba(26, 34, 50, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 10px 14px;
+    }
+
+    .stat-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #cbd5e1;
+    }
+
+    .stat-pill strong {
+      font-family: 'Outfit', sans-serif;
+      font-size: 13.5px;
+      color: #fff;
+    }
+
+    .stat-pill.ctr strong {
+      color: #10b981;
+      font-weight: 800;
+    }
+
+    .utm-preview-box {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-family: monospace;
+      font-size: 11.5px;
+      color: #58a6ff;
+      word-break: break-all;
+      margin-top: 4px;
+    }
+
     /* Fixed Actions Bar */
     .admin-actions-bar {
       position: sticky;
@@ -1116,6 +1159,38 @@
 
       // Helper to generate banner card DOM
       function createBannerCard({ title, desc, fieldId, imageUrl, targetUrl, canDelete, onDelete }) {
+        const allCountryStats = (function() {
+          try { return JSON.parse(localStorage.getItem('itnews_banners_stats')) || {}; } catch(e) { return {}; }
+        })();
+        const st = allCountryStats[fieldId] || { views: 0, clicks: 0 };
+        const views = st.views || 0;
+        const clicks = st.clicks || 0;
+        const ctr = views > 0 ? ((clicks / views) * 100).toFixed(2) : '0.00';
+
+        function computeCountryUtm(url, fid, tName) {
+          if (!url) return '';
+          let trimmed = url.trim();
+          if (!/^[a-zA-Z][a-zA-Z\d+\-.]*?:/.test(trimmed) && !trimmed.startsWith('//') && !trimmed.startsWith('/') && !trimmed.startsWith('#')) {
+            trimmed = `https://${trimmed}`;
+          }
+          if (trimmed.startsWith('http://') || trimmed.startsWith('https://')) {
+            try {
+              const urlObj = new URL(trimmed);
+              if (!urlObj.searchParams.has('utm_source')) {
+                urlObj.searchParams.set('utm_source', 'itnews_portal');
+                urlObj.searchParams.set('utm_medium', 'banner');
+                const cleanC = (tName || 'patrocinante').toLowerCase().replace(/[^a-z0-9_-]/gi, '_');
+                urlObj.searchParams.set('utm_campaign', cleanC);
+                if (fid) urlObj.searchParams.set('utm_content', fid);
+                return urlObj.toString();
+              }
+            } catch (e) {}
+          }
+          return trimmed;
+        }
+
+        const autoUtm = computeCountryUtm(targetUrl, fieldId, title);
+
         const card = document.createElement('div');
         card.className = 'banner-edit-card';
         card.innerHTML = `
@@ -1127,10 +1202,24 @@
             ${canDelete ? `<button type="button" class="btn btn-danger-outline delete-btn"><i class="ri-delete-bin-line"></i> Eliminar</button>` : ''}
           </div>
 
+          <!-- Estadísticas en Tiempo Real de Impresiones, Clics y CTR -->
+          <div class="banner-stats-strip">
+            <div class="stat-pill"><i class="ri-eye-line" style="color:#38bdf8;"></i> Vistas: <strong>${views.toLocaleString()}</strong></div>
+            <div class="stat-pill"><i class="ri-cursor-line" style="color:#f59e0b;"></i> Clics: <strong>${clicks.toLocaleString()}</strong></div>
+            <div class="stat-pill ctr"><i class="ri-pie-chart-line"></i> CTR: <strong>${ctr}%</strong></div>
+            <button type="button" class="btn btn-secondary reset-country-stat-btn" data-key="${fieldId}" style="margin-left: auto; padding: 4px 10px; font-size: 11px;">
+              <i class="ri-restart-line"></i> Reiniciar Estadísticas
+            </button>
+          </div>
+
           <div class="banner-inputs-grid">
             <div class="form-group">
               <label for="url_${fieldId}"><i class="ri-external-link-line"></i> Enlace de Destino (Target URL):</label>
               <input type="url" id="url_${fieldId}" value="${escapeHtml(targetUrl)}" placeholder="https://ejemplo.com/anuncio" required>
+              <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">
+                <i class="ri-magic-line" style="color: #10b981;"></i> Auto-tracking UTM generado:
+              </div>
+              <div class="utm-preview-box" id="utm_preview_${fieldId}">${escapeHtml(autoUtm || 'Introduce una URL para ver los parámetros UTM')}</div>
             </div>
 
             <div class="form-group">
@@ -1146,6 +1235,23 @@
             </div>
           </div>
         `;
+
+        const urlInput = card.querySelector(`#url_${fieldId}`);
+        const utmPreview = card.querySelector(`#utm_preview_${fieldId}`);
+        urlInput.addEventListener('input', () => {
+          utmPreview.textContent = computeCountryUtm(urlInput.value, fieldId, title) || 'Introduce una URL para ver los parámetros UTM';
+        });
+
+        const resetBtn = card.querySelector('.reset-country-stat-btn');
+        resetBtn.addEventListener('click', () => {
+          if (confirm(`¿Reiniciar a 0 las visitas y clics de "${title}"?`)) {
+            let currentStats = {};
+            try { currentStats = JSON.parse(localStorage.getItem('itnews_banners_stats')) || {}; } catch(e) {}
+            currentStats[fieldId] = { views: 0, clicks: 0, lastClick: null, lastView: null };
+            localStorage.setItem('itnews_banners_stats', JSON.stringify(currentStats));
+            renderCountryView();
+          }
+        });
 
         const imgInput = card.querySelector(`#img_${fieldId}`);
         const prevImg = card.querySelector(`#prev_${fieldId}`);
@@ -1179,8 +1285,40 @@
         appBannersList.innerHTML = '';
         const b = appBannersData.banners;
 
+        const allAppStats = (function() {
+          try { return JSON.parse(localStorage.getItem('itnews_banners_stats')) || {}; } catch(e) { return {}; }
+        })();
+
+        function computeItnewsUtm(url, bannerKey, bannerTitle) {
+          if (!url) return '';
+          let trimmed = url.trim();
+          if (!/^[a-zA-Z][a-zA-Z\d+\-.]*?:/.test(trimmed) && !trimmed.startsWith('//') && !trimmed.startsWith('/') && !trimmed.startsWith('#')) {
+            trimmed = `https://${trimmed}`;
+          }
+          if (trimmed.startsWith('http://') || trimmed.startsWith('https://')) {
+            try {
+              const urlObj = new URL(trimmed);
+              if (!urlObj.searchParams.has('utm_source')) {
+                urlObj.searchParams.set('utm_source', 'itnews_app');
+                urlObj.searchParams.set('utm_medium', 'banner_728x90');
+                const cleanCampaign = (bannerTitle || 'patrocinante_app').toLowerCase().replace(/[^a-z0-9_-]/gi, '_');
+                urlObj.searchParams.set('utm_campaign', cleanCampaign);
+                if (bannerKey) urlObj.searchParams.set('utm_content', bannerKey);
+                return urlObj.toString();
+              }
+            } catch (e) {}
+          }
+          return trimmed;
+        }
+
         Object.keys(b).forEach(key => {
           const item = b[key];
+          const st = allAppStats[key] || { views: 0, clicks: 0 };
+          const views = st.views || 0;
+          const clicks = st.clicks || 0;
+          const ctr = views > 0 ? ((clicks / views) * 100).toFixed(2) : '0.00';
+          const autoUtm = computeItnewsUtm(item.targetUrl, key, item.title);
+
           const card = document.createElement('div');
           card.className = 'banner-edit-card';
           card.innerHTML = `
@@ -1195,10 +1333,24 @@
               </label>
             </div>
 
+            <!-- Estadísticas en Tiempo Real de Impresiones, Clics y CTR -->
+            <div class="banner-stats-strip">
+              <div class="stat-pill"><i class="ri-eye-line" style="color:#38bdf8;"></i> Vistas: <strong>${views.toLocaleString()}</strong></div>
+              <div class="stat-pill"><i class="ri-cursor-line" style="color:#f59e0b;"></i> Clics: <strong>${clicks.toLocaleString()}</strong></div>
+              <div class="stat-pill ctr"><i class="ri-pie-chart-line"></i> CTR: <strong>${ctr}%</strong></div>
+              <button type="button" class="btn btn-secondary reset-app-stat-btn" data-key="${key}" style="margin-left: auto; padding: 4px 10px; font-size: 11px;">
+                <i class="ri-restart-line"></i> Reiniciar Estadísticas
+              </button>
+            </div>
+
             <div class="banner-inputs-grid">
               <div class="form-group">
                 <label for="app_url_${key}"><i class="ri-external-link-line"></i> Enlace de Destino:</label>
                 <input type="url" id="app_url_${key}" value="${escapeHtml(item.targetUrl || '')}" placeholder="https://..." required>
+                <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">
+                  <i class="ri-magic-line" style="color: #10b981;"></i> Auto-tracking UTM generado para Google Analytics:
+                </div>
+                <div class="utm-preview-box" id="app_utm_preview_${key}">${escapeHtml(autoUtm || 'Introduce una URL para ver los parámetros UTM')}</div>
               </div>
               <div class="form-group">
                 <label for="app_img_${key}"><i class="ri-image-line"></i> URL de Imagen:</label>
@@ -1222,6 +1374,26 @@
           const prevImg = card.querySelector(`#app_prev_${key}`);
           imgInput.addEventListener('input', () => {
             prevImg.src = imgInput.value.trim();
+          });
+
+          const urlInput = card.querySelector(`#app_url_${key}`);
+          const titleInput = card.querySelector(`#app_title_${key}`);
+          const utmPreview = card.querySelector(`#app_utm_preview_${key}`);
+          function updateAppUtmPreview() {
+            utmPreview.textContent = computeItnewsUtm(urlInput.value, key, titleInput.value) || 'Introduce una URL para ver los parámetros UTM';
+          }
+          urlInput.addEventListener('input', updateAppUtmPreview);
+          titleInput.addEventListener('input', updateAppUtmPreview);
+
+          const resetBtn = card.querySelector('.reset-app-stat-btn');
+          resetBtn.addEventListener('click', () => {
+            if (confirm(`¿Reiniciar a 0 las visitas y clics de "${item.name || key}" en ITNEWS App?`)) {
+              let currentStats = {};
+              try { currentStats = JSON.parse(localStorage.getItem('itnews_banners_stats')) || {}; } catch(e) {}
+              currentStats[key] = { views: 0, clicks: 0, lastClick: null, lastView: null };
+              localStorage.setItem('itnews_banners_stats', JSON.stringify(currentStats));
+              renderAppView();
+            }
           });
 
           appBannersList.appendChild(card);
