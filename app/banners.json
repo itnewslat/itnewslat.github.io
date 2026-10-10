@@ -1,15 +1,35 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-10-10T18:18:00.000Z",
+  "updatedAt": "2026-10-10T22:32:09.185Z",
   "banners": {
     "hero_banner": {
       "id": "hero_banner",
-      "name": "Banner 1 - Antes de 'Lo Último' (Cabecera / Hero)",
-      "position": "Tope del feed antes de las publicaciones de hoy",
+      "name": "Banner Principal (Cabecera / Hero)",
+      "position": "Tope de la app sobre buscador",
       "format": "728x90",
       "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/ITNEWSLAT-ABSIDE.gif",
       "targetUrl": "https://abside.com/",
       "title": "Abside - Patrocinante Oficial",
+      "active": true
+    },
+    "reader_top": {
+      "id": "reader_top",
+      "name": "Banner Superior del Lector",
+      "position": "Tope interior al abrir noticia",
+      "format": "728x90",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-wow-new.gif",
+      "targetUrl": "https://wow.com.ve",
+      "title": "WOW Internet que sorprende",
+      "active": true
+    },
+    "reader_bottom": {
+      "id": "reader_bottom",
+      "name": "Banner Inferior del Lector",
+      "position": "Pie interior al final de la noticia",
+      "format": "728x90",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-youtubea.jpg",
+      "targetUrl": "https://www.youtube.com/@ITNewslat",
+      "title": "Canal de Youtube",
       "active": true
     },
     "banner_before_previous": {
@@ -40,26 +60,6 @@
       "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Disponible-publicidad.jpg",
       "targetUrl": "https://itnews.lat/Publicidad.html",
       "title": "Publicidad y Patrocinios ITNEWS",
-      "active": true
-    },
-    "reader_top": {
-      "id": "reader_top",
-      "name": "Banner Superior del Lector",
-      "position": "Tope interior al abrir noticia",
-      "format": "728x90",
-      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-wow-new.gif",
-      "targetUrl": "https://wow.com.ve",
-      "title": "WOW Internet que sorprende",
-      "active": true
-    },
-    "reader_bottom": {
-      "id": "reader_bottom",
-      "name": "Banner Inferior del Lector",
-      "position": "Pie interior al final de la noticia",
-      "format": "728x90",
-      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Publicidad.jpg",
-      "targetUrl": "https://itnews.lat/Publicidad.html",
-      "title": "Publicidad ITNEWS",
       "active": true
     }
   }
