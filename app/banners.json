@@ -1,15 +1,45 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-21T17:27:37.631Z",
+  "updatedAt": "2026-10-10T18:18:00.000Z",
   "banners": {
     "hero_banner": {
       "id": "hero_banner",
-      "name": "Banner Principal (Cabecera / Hero)",
-      "position": "Tope de la app sobre buscador",
+      "name": "Banner 1 - Antes de 'Lo Último' (Cabecera / Hero)",
+      "position": "Tope del feed antes de las publicaciones de hoy",
       "format": "728x90",
       "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/ITNEWSLAT-ABSIDE.gif",
       "targetUrl": "https://abside.com/",
       "title": "Abside - Patrocinante Oficial",
+      "active": true
+    },
+    "banner_before_previous": {
+      "id": "banner_before_previous",
+      "name": "Banner 2 - Antes de 'Anteriores'",
+      "position": "Intermedio del feed antes de las ediciones previas",
+      "format": "728x90",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-wow-new.gif",
+      "targetUrl": "https://wow.com.ve",
+      "title": "WOW Internet que sorprende",
+      "active": true
+    },
+    "banner_after_3_rows": {
+      "id": "banner_after_3_rows",
+      "name": "Banner 3 - Después de un bloque de 3 filas",
+      "position": "Intermedio tras las primeras 3 filas de noticias (9 artículos)",
+      "format": "728x90",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-youtubea.jpg",
+      "targetUrl": "https://www.youtube.com/@ITNewslat",
+      "title": "Canal Oficial YouTube @ITNewslat",
+      "active": true
+    },
+    "banner_before_newsletter": {
+      "id": "banner_before_newsletter",
+      "name": "Banner 4 - Al final antes del registro del boletín",
+      "position": "Pie del feed tras paginación y antes del registro al boletín",
+      "format": "728x90",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Disponible-publicidad.jpg",
+      "targetUrl": "https://itnews.lat/Publicidad.html",
+      "title": "Publicidad y Patrocinios ITNEWS",
       "active": true
     },
     "reader_top": {
@@ -27,9 +57,9 @@
       "name": "Banner Inferior del Lector",
       "position": "Pie interior al final de la noticia",
       "format": "728x90",
-      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-youtubea.jpg",
-      "targetUrl": "https://www.youtube.com/@ITNewslat",
-      "title": "Canal de Youtube",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Publicidad.jpg",
+      "targetUrl": "https://itnews.lat/Publicidad.html",
+      "title": "Publicidad ITNEWS",
       "active": true
     }
   }

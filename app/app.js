@@ -641,17 +641,28 @@
     // Artículos regulares para paginar
     const toShow = regularPosts.slice(0, displayedCount);
 
+    // Helpers para crear banners del feed con tracking de impresiones y clics
+    function createFeedBannerHtml(bannerKey) {
+      if (typeof window.getFeedBannerHtml === 'function') {
+        return window.getFeedBannerHtml(bannerKey);
+      }
+      return '';
+    }
+
     // Determinar si aplica separador "Lo último" (cuando se ordena por más recientes)
     if (sortBy === 'newest') {
       const firstPostDate = toShow[0] && toShow[0].date ? toShow[0].date.substring(0, 10) : '';
       let hasRenderedLatestHeader = false;
       let hasRenderedPreviousHeader = false;
+      let hasRenderedAfter3Rows = false;
 
       toShow.forEach((post, index) => {
         const postDateOnly = post.date ? post.date.substring(0, 10) : '';
         const isLatestDay = Boolean(firstPostDate && postDateOnly === firstPostDate);
 
+        // 1. Banner Antes de "Lo último"
         if (isLatestDay && !hasRenderedLatestHeader) {
+          renderedHtml += createFeedBannerHtml('hero_banner');
           renderedHtml += `
             <div class="feed-section-divider">
               <span class="feed-section-title"><i class="ri-flashlight-fill"></i> Lo último</span>
@@ -660,6 +671,8 @@
           `;
           hasRenderedLatestHeader = true;
         } else if (!isLatestDay && !hasRenderedPreviousHeader) {
+          // 2. Banner Antes de "Anteriores"
+          renderedHtml += createFeedBannerHtml('banner_before_previous');
           renderedHtml += `
             <div class="feed-section-divider">
               <span class="feed-section-title"><i class="ri-history-line"></i> Anteriores</span>
@@ -669,15 +682,31 @@
           hasRenderedPreviousHeader = true;
         }
 
+        // 3. Banner Después de un bloque de 3 filas (9 artículos en grid de 3 columnas)
+        if (index === 9 && !hasRenderedAfter3Rows) {
+          renderedHtml += createFeedBannerHtml('banner_after_3_rows');
+          hasRenderedAfter3Rows = true;
+        }
+
         renderedHtml += renderPostCard(post);
       });
     } else {
-      toShow.forEach((post) => {
+      let hasRenderedAfter3Rows = false;
+      toShow.forEach((post, index) => {
+        if (index === 9 && !hasRenderedAfter3Rows) {
+          renderedHtml += createFeedBannerHtml('banner_after_3_rows');
+          hasRenderedAfter3Rows = true;
+        }
         renderedHtml += renderPostCard(post);
       });
     }
 
     newsGrid.innerHTML = renderedHtml;
+
+    // Vincular tracking de clics a banners inyectados dinámicamente en el feed
+    if (typeof window.bindFeedBannerClicks === 'function') {
+      window.bindFeedBannerClicks(newsGrid);
+    }
 
     // Pagination Button
     if (displayedCount < regularPosts.length) {
@@ -1561,31 +1590,115 @@
       return trimmed;
     }
 
+    // Helper global para generar HTML de banner dinámico dentro del feed de noticias
+    window.getFeedBannerHtml = function(bannerKey) {
+      if (!currentBannersData || !currentBannersData.banners) return '';
+      const b = currentBannersData.banners[bannerKey];
+      if (!b || b.active === false || !b.imageUrl) return '';
+
+      trackBannerEvent(bannerKey, 'view');
+      const targetUrl = sanitizeBannerUrl(b.targetUrl || '#', bannerKey, b.title);
+      const title = escapeHtml(b.title || b.name || 'Publicidad');
+      const img = escapeHtml(b.imageUrl);
+
+      return `
+        <div class="feed-banner-wrapper" data-banner-key="${bannerKey}">
+          <a href="${targetUrl}" target="_blank" rel="noopener noreferrer" class="feed-banner-link" title="${title}">
+            <img src="${img}" alt="${title}" class="feed-banner-img" width="728" height="90" loading="lazy" />
+          </a>
+        </div>
+      `;
+    };
+
+    // Helper global para asociar eventos de clic en los banners del feed
+    window.bindFeedBannerClicks = function(container) {
+      if (!container) return;
+      container.querySelectorAll('.feed-banner-wrapper[data-banner-key]').forEach(wrap => {
+        const key = wrap.getAttribute('data-banner-key');
+        const link = wrap.querySelector('a');
+        if (link && key) {
+          link.addEventListener('click', () => {
+            trackBannerEvent(key, 'click');
+          });
+        }
+      });
+    };
+
+    let currentBannersData = null;
+
     function applyBannersData(data) {
       if (!data || !data.banners) return;
+      currentBannersData = data;
       const b = data.banners;
 
-      // 1. Hero Banner
+      // 1. Hero Banner / Antes de "Lo último" (Tanto en hero como sobre el feed)
       if (b.hero_banner) {
+        // En cabecera hero
         const linkEl = document.getElementById('appHeroBannerLink');
         const imgEl = document.getElementById('appHeroBannerImg');
         const container = linkEl ? linkEl.closest('.hero-banner-container') : null;
+
+        // En tope del feed antes de lo último
+        const feedLatestLink = document.getElementById('appBannerBeforeLatestLink');
+        const feedLatestImg = document.getElementById('appBannerBeforeLatestImg');
+        const feedLatestWrap = document.getElementById('appBannerBeforeLatestWrapper');
+
         if (b.hero_banner.active === false) {
           if (container) container.style.display = 'none';
+          if (feedLatestWrap) feedLatestWrap.style.display = 'none';
         } else {
           if (container) container.style.display = 'flex';
+          if (feedLatestWrap) feedLatestWrap.style.display = 'flex';
           trackBannerEvent('hero_banner', 'view');
+
+          const finalTarget = sanitizeBannerUrl(b.hero_banner.targetUrl, 'hero_banner', b.hero_banner.title);
+          const finalTitle = b.hero_banner.title || 'Patrocinante Oficial';
+          const finalImg = b.hero_banner.imageUrl || '';
+
           if (linkEl && b.hero_banner.targetUrl) {
-            linkEl.href = sanitizeBannerUrl(b.hero_banner.targetUrl, 'hero_banner', b.hero_banner.title);
+            linkEl.href = finalTarget;
             linkEl.onclick = function() { trackBannerEvent('hero_banner', 'click'); };
           }
-          if (linkEl && b.hero_banner.title) linkEl.title = b.hero_banner.title;
-          if (imgEl && b.hero_banner.imageUrl) imgEl.src = b.hero_banner.imageUrl;
-          if (imgEl && b.hero_banner.title) imgEl.alt = b.hero_banner.title;
+          if (linkEl && b.hero_banner.title) linkEl.title = finalTitle;
+          if (imgEl && finalImg) imgEl.src = finalImg;
+          if (imgEl && b.hero_banner.title) imgEl.alt = finalTitle;
+
+          if (feedLatestLink) {
+            feedLatestLink.href = finalTarget;
+            feedLatestLink.onclick = function() { trackBannerEvent('hero_banner', 'click'); };
+            feedLatestLink.title = finalTitle;
+          }
+          if (feedLatestImg && finalImg) feedLatestImg.src = finalImg;
+          if (feedLatestImg) feedLatestImg.alt = finalTitle;
         }
       }
 
-      // 2. Reader Top Banner
+      // Re-renderizar posts para actualizar banners dinámicos del feed con las nuevas imágenes
+      if (allPosts && allPosts.length > 0) {
+        renderPosts();
+      }
+
+      // 4. Banner Al final antes del registro del boletín
+      if (b.banner_before_newsletter) {
+        const bnlLink = document.getElementById('appBannerBeforeNewsletterLink');
+        const bnlImg = document.getElementById('appBannerBeforeNewsletterImg');
+        const bnlContainer = document.getElementById('appBannerBeforeNewsletterWrapper');
+        if (b.banner_before_newsletter.active === false) {
+          if (bnlContainer) bnlContainer.style.display = 'none';
+        } else {
+          if (bnlContainer) bnlContainer.style.display = 'flex';
+          trackBannerEvent('banner_before_newsletter', 'view');
+          if (bnlLink && b.banner_before_newsletter.targetUrl) {
+            bnlLink.href = sanitizeBannerUrl(b.banner_before_newsletter.targetUrl, 'banner_before_newsletter', b.banner_before_newsletter.title);
+            bnlLink.onclick = function() { trackBannerEvent('banner_before_newsletter', 'click'); };
+          }
+          if (bnlLink && b.banner_before_newsletter.title) bnlLink.title = b.banner_before_newsletter.title;
+          if (bnlImg && b.banner_before_newsletter.imageUrl) bnlImg.src = b.banner_before_newsletter.imageUrl;
+          if (bnlImg && b.banner_before_newsletter.title) bnlImg.alt = b.banner_before_newsletter.title;
+        }
+      }
+
+      // 5. Reader Top Banner
       if (b.reader_top) {
         const topLink = document.getElementById('appReaderBannerTopLink');
         const topImg = document.getElementById('appReaderBannerTopImg');
@@ -1605,7 +1718,7 @@
         }
       }
 
-      // 3. Reader Bottom Banner
+      // 6. Reader Bottom Banner
       if (b.reader_bottom) {
         const botLink = document.getElementById('appReaderBannerBottomLink');
         const botImg = document.getElementById('appReaderBannerBottomImg');

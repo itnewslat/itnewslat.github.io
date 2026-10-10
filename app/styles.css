@@ -304,6 +304,71 @@ body {
   display: block;
 }
 
+/* Feed Interstitial & Bottom Banners (Full Responsive 728x90) */
+.feed-banner-wrapper {
+  grid-column: 1 / -1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px 0;
+  padding: 4px 0;
+}
+
+.bottom-banner-wrapper {
+  margin: 24px 0 16px;
+}
+
+.feed-banner-link {
+  display: inline-block;
+  width: 100%;
+  max-width: 728px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth), border-color var(--transition-smooth);
+}
+
+.feed-banner-link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.feed-banner-img {
+  width: 100%;
+  max-width: 728px;
+  height: auto;
+  aspect-ratio: 728 / 90;
+  object-fit: contain;
+  display: block;
+}
+
+/* Responsive Scaling for Tablets and Mobile Screens */
+@media (max-width: 768px) {
+  .hero-banner-container, .feed-banner-wrapper {
+    margin: 12px 0;
+    padding: 0 4px;
+  }
+  .hero-banner-link, .feed-banner-link {
+    border-radius: var(--radius-sm);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+  .hero-banner-img, .feed-banner-img {
+    aspect-ratio: 728 / 90;
+    max-height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-banner-img, .feed-banner-img {
+    aspect-ratio: 728 / 90;
+    max-height: 56px;
+  }
+}
+
 /* Barra Integrada de Búsqueda (Una Sola Línea) */
 .search-filter-bar {
   display: flex;
