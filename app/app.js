@@ -1398,7 +1398,8 @@
       gridEl.innerHTML = html;
     }
 
-    // 1. Cargar caché inmediata si existe
+    // 1. Cargar caché inmediata si existe (máximo 15 minutos para que detecte nuevos videos rápidamente)
+    const FIFTEEN_MINUTES = 15 * 60 * 1000;
     try {
       const cached = localStorage.getItem(CACHE_KEY);
       const cacheTime = localStorage.getItem(CACHE_TIME_KEY);
@@ -1406,8 +1407,8 @@
         const parsed = JSON.parse(cached);
         if (Array.isArray(parsed) && parsed.length >= 2) {
           renderVideos(parsed);
-          // Si la caché tiene menos de 1 hora, no necesitamos consultar de inmediato
-          if (cacheTime && (Date.now() - Number(cacheTime) < ONE_HOUR)) {
+          // Si la caché tiene menos de 15 minutos, mantenerla
+          if (cacheTime && (Date.now() - Number(cacheTime) < FIFTEEN_MINUTES)) {
             return;
           }
         }
@@ -1416,44 +1417,89 @@
       // Continuar con la petición de red
     }
 
-    // 2. Consultar en vivo mediante rss2json (compatible con CORS)
-    try {
-      const feedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}`;
-      const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`;
-      
-      const res = await fetch(apiUrl, { cache: 'no-store' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-
-      if (data && data.status === 'ok' && Array.isArray(data.items) && data.items.length > 0) {
-        const parsedVideos = data.items.slice(0, 4).map(item => {
-          let id = '';
-          if (item.guid && item.guid.includes('yt:video:')) {
-            id = item.guid.replace('yt:video:', '');
-          } else if (item.link) {
-            const match = item.link.match(/(?:v=|shorts\/|youtu\.be\/)([\w-]+)/);
-            if (match) id = match[1];
+    // 2. Parser nativo de XML para el feed de YouTube
+    function parseYouTubeXml(xmlText) {
+      try {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+        const entries = xmlDoc.getElementsByTagName('entry');
+        const results = [];
+        for (let i = 0; i < Math.min(entries.length, 6); i++) {
+          const entry = entries[i];
+          const idEl = entry.getElementsByTagName('yt:videoId')[0] || entry.getElementsByTagName('videoId')[0];
+          const titleEl = entry.getElementsByTagName('title')[0];
+          const linkEl = entry.getElementsByTagName('link')[0];
+          const pubEl = entry.getElementsByTagName('published')[0];
+          const vidId = idEl ? idEl.textContent.trim() : '';
+          const vidTitle = titleEl ? titleEl.textContent.trim() : '';
+          const vidUrl = linkEl ? (linkEl.getAttribute('href') || `https://www.youtube.com/watch?v=${vidId}`) : `https://www.youtube.com/watch?v=${vidId}`;
+          if (vidId) {
+            results.push({
+              id: vidId,
+              title: vidTitle || 'Video de IT NEWS Latinoamerica',
+              url: vidUrl,
+              pubDate: pubEl ? pubEl.textContent.trim() : ''
+            });
           }
-          return {
-            id: id,
-            title: item.title || 'Video de IT NEWS Latinoamerica',
-            url: item.link || `https://www.youtube.com/watch?v=${id}`,
-            pubDate: item.pubDate || ''
-          };
-        }).filter(v => Boolean(v.id));
+        }
+        return results;
+      } catch (err) {
+        return [];
+      }
+    }
+
+    // 3. Consultar feed con múltiples proxies CORS de alta disponibilidad
+    const feedTargetUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}`;
+    const proxyEndpoints = [
+      `https://api.allorigins.win/raw?url=${encodeURIComponent(feedTargetUrl)}`,
+      `https://corsproxy.io/?url=${encodeURIComponent(feedTargetUrl)}`,
+      `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(feedTargetUrl)}`,
+      `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedTargetUrl)}`
+    ];
+
+    for (const endpoint of proxyEndpoints) {
+      try {
+        const res = await fetch(endpoint, { cache: 'no-store' });
+        if (!res.ok) continue;
+
+        let parsedVideos = [];
+        if (endpoint.includes('rss2json')) {
+          const data = await res.json();
+          if (data && data.status === 'ok' && Array.isArray(data.items)) {
+            parsedVideos = data.items.slice(0, 4).map(item => {
+              let id = '';
+              if (item.guid && item.guid.includes('yt:video:')) {
+                id = item.guid.replace('yt:video:', '');
+              } else if (item.link) {
+                const match = item.link.match(/(?:v=|shorts\/|youtu\.be\/)([\w-]+)/);
+                if (match) id = match[1];
+              }
+              return {
+                id: id,
+                title: item.title || 'Video de IT NEWS Latinoamerica',
+                url: item.link || `https://www.youtube.com/watch?v=${id}`,
+                pubDate: item.pubDate || ''
+              };
+            }).filter(v => Boolean(v.id));
+          }
+        } else {
+          const xmlText = await res.text();
+          if (xmlText && xmlText.includes('<feed') && xmlText.includes('yt:video:')) {
+            parsedVideos = parseYouTubeXml(xmlText);
+          }
+        }
 
         if (parsedVideos.length >= 2) {
           renderVideos(parsedVideos);
           try {
             localStorage.setItem(CACHE_KEY, JSON.stringify(parsedVideos));
             localStorage.setItem(CACHE_TIME_KEY, Date.now().toString());
-          } catch (storageErr) {
-            // Silencioso
-          }
+          } catch (storageErr) {}
+          return; // Éxito, salir del loop
         }
+      } catch (err) {
+        // Intentar siguiente proxy
       }
-    } catch (netErr) {
-      console.warn('No se pudo actualizar la lista dinámica de YouTube desde RSS:', netErr);
     }
   }
 
