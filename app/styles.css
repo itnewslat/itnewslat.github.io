@@ -271,15 +271,19 @@ body {
 
 /* Hero Sponsor Banner */
 .hero-banner-container {
-  margin-bottom: 14px;
+  margin: 0 auto 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100%;
 }
 
 .hero-banner-link {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   max-width: 100%;
   border-radius: var(--radius-md);
   overflow: hidden;
@@ -302,6 +306,7 @@ body {
   aspect-ratio: 728 / 90;
   object-fit: contain;
   display: block;
+  margin: 0 auto;
 }
 
 /* Feed Interstitial & Bottom Banners (Full Responsive 728x90) */
@@ -311,16 +316,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 18px 0;
+  text-align: center;
+  margin: 20px auto;
   padding: 4px 0;
 }
 
 .bottom-banner-wrapper {
-  margin: 24px 0 16px;
+  margin: 26px auto 18px;
 }
 
 .feed-banner-link {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   width: 100%;
   max-width: 728px;
   border-radius: var(--radius-md);
@@ -344,21 +353,26 @@ body {
   aspect-ratio: 728 / 90;
   object-fit: contain;
   display: block;
+  margin: 0 auto;
 }
 
 /* Responsive Scaling for Tablets and Mobile Screens */
 @media (max-width: 768px) {
   .hero-banner-container, .feed-banner-wrapper {
-    margin: 12px 0;
+    margin: 14px auto;
     padding: 0 4px;
+    justify-content: center;
+    text-align: center;
   }
   .hero-banner-link, .feed-banner-link {
     border-radius: var(--radius-sm);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
   }
   .hero-banner-img, .feed-banner-img {
     aspect-ratio: 728 / 90;
     max-height: 80px;
+    margin: 0 auto;
   }
 }
 
@@ -366,6 +380,7 @@ body {
   .hero-banner-img, .feed-banner-img {
     aspect-ratio: 728 / 90;
     max-height: 56px;
+    margin: 0 auto;
   }
 }
 

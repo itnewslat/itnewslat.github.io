@@ -649,20 +649,27 @@
       return '';
     }
 
-    // Determinar si aplica separador "Lo último" (cuando se ordena por más recientes)
+    let hasRenderedBanner1 = false;
+    let hasRenderedBanner2 = false;
+    let hasRenderedBanner3 = false;
+    let hasRenderedLatestHeader = false;
+    let hasRenderedPreviousHeader = false;
+
     if (sortBy === 'newest') {
       const firstPostDate = toShow[0] && toShow[0].date ? toShow[0].date.substring(0, 10) : '';
-      let hasRenderedLatestHeader = false;
-      let hasRenderedPreviousHeader = false;
-      let hasRenderedAfter3Rows = false;
 
       toShow.forEach((post, index) => {
         const postDateOnly = post.date ? post.date.substring(0, 10) : '';
         const isLatestDay = Boolean(firstPostDate && postDateOnly === firstPostDate);
 
-        // 1. Banner Antes de "Lo último"
-        if (isLatestDay && !hasRenderedLatestHeader) {
+        // 1. Banner Antes de "Lo último" (al inicio del feed)
+        if (!hasRenderedBanner1) {
           renderedHtml += createFeedBannerHtml('hero_banner');
+          hasRenderedBanner1 = true;
+        }
+
+        // Encabezado "Lo último"
+        if (isLatestDay && !hasRenderedLatestHeader) {
           renderedHtml += `
             <div class="feed-section-divider">
               <span class="feed-section-title"><i class="ri-flashlight-fill"></i> Lo último</span>
@@ -670,32 +677,44 @@
             </div>
           `;
           hasRenderedLatestHeader = true;
-        } else if (!isLatestDay && !hasRenderedPreviousHeader) {
-          // 2. Banner Antes de "Anteriores"
-          renderedHtml += createFeedBannerHtml('banner_before_previous');
-          renderedHtml += `
-            <div class="feed-section-divider">
-              <span class="feed-section-title"><i class="ri-history-line"></i> Anteriores</span>
-              <span class="feed-section-badge secondary">Ediciones previas</span>
-            </div>
-          `;
-          hasRenderedPreviousHeader = true;
         }
 
-        // 3. Banner Después de un bloque de 3 filas (9 artículos en grid de 3 columnas)
-        if (index === 9 && !hasRenderedAfter3Rows) {
+        // 2. Banner Antes de "Anteriores" (cuando cambia la fecha o tras los primeros 3 posts)
+        if (!hasRenderedBanner2 && (!isLatestDay || index === 3)) {
+          renderedHtml += createFeedBannerHtml('banner_before_previous');
+          hasRenderedBanner2 = true;
+          if (!hasRenderedPreviousHeader) {
+            renderedHtml += `
+              <div class="feed-section-divider">
+                <span class="feed-section-title"><i class="ri-history-line"></i> Anteriores</span>
+                <span class="feed-section-badge secondary">Ediciones previas</span>
+              </div>
+            `;
+            hasRenderedPreviousHeader = true;
+          }
+        }
+
+        // 3. Banner Después de un bloque de 3 filas (tras el 9no artículo)
+        if (!hasRenderedBanner3 && index === 9) {
           renderedHtml += createFeedBannerHtml('banner_after_3_rows');
-          hasRenderedAfter3Rows = true;
+          hasRenderedBanner3 = true;
         }
 
         renderedHtml += renderPostCard(post);
       });
     } else {
-      let hasRenderedAfter3Rows = false;
       toShow.forEach((post, index) => {
-        if (index === 9 && !hasRenderedAfter3Rows) {
+        if (!hasRenderedBanner1 && index === 0) {
+          renderedHtml += createFeedBannerHtml('hero_banner');
+          hasRenderedBanner1 = true;
+        }
+        if (!hasRenderedBanner2 && index === 3) {
+          renderedHtml += createFeedBannerHtml('banner_before_previous');
+          hasRenderedBanner2 = true;
+        }
+        if (!hasRenderedBanner3 && index === 9) {
           renderedHtml += createFeedBannerHtml('banner_after_3_rows');
-          hasRenderedAfter3Rows = true;
+          hasRenderedBanner3 = true;
         }
         renderedHtml += renderPostCard(post);
       });
@@ -1624,7 +1643,53 @@
       });
     };
 
-    let currentBannersData = null;
+    const DEFAULT_BANNERS_DATA = {
+      banners: {
+        hero_banner: {
+          id: 'hero_banner',
+          name: "Banner 1 - Antes de 'Lo Último'",
+          imageUrl: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/ITNEWSLAT-ABSIDE.gif',
+          targetUrl: 'https://abside.com/',
+          title: 'Abside - Patrocinante Oficial',
+          active: true
+        },
+        banner_before_previous: {
+          id: 'banner_before_previous',
+          name: "Banner 2 - Antes de 'Anteriores'",
+          imageUrl: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-wow-new.gif',
+          targetUrl: 'https://wow.com.ve',
+          title: 'WOW Internet que sorprende',
+          active: true
+        },
+        banner_after_3_rows: {
+          id: 'banner_after_3_rows',
+          name: 'Banner 3 - Después de un bloque de 3 filas',
+          imageUrl: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/banner-youtubea.jpg',
+          targetUrl: 'https://www.youtube.com/@ITNewslat',
+          title: 'Canal Oficial YouTube @ITNewslat',
+          active: true
+        },
+        banner_before_newsletter: {
+          id: 'banner_before_newsletter',
+          name: 'Banner 4 - Al final antes del registro del boletín',
+          imageUrl: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Disponible-publicidad.jpg',
+          targetUrl: 'https://itnews.lat/Publicidad.html',
+          title: 'Publicidad y Patrocinios ITNEWS',
+          active: true
+        }
+      }
+    };
+
+    let currentBannersData = (function() {
+      try {
+        const stored = localStorage.getItem('itnews_custom_banners');
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          if (parsed && parsed.banners) return parsed;
+        }
+      } catch (e) {}
+      return DEFAULT_BANNERS_DATA;
+    })();
 
     function applyBannersData(data) {
       if (!data || !data.banners) return;
