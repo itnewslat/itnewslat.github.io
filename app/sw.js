@@ -1,5 +1,5 @@
 // Service Worker ligero para ITNEWS Express PWA
-const CACHE_NAME = 'itnews-pwa-v4';
+const CACHE_NAME = 'itnews-pwa-v5';
 const STATIC_ASSETS = [
   '/app/',
   '/app/index.html',
