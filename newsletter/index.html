@@ -99,11 +99,11 @@ title: "Newsletter ITNEWS LAT - Las 12 Últimas Noticias"
       </td>
     </tr>
 
-    <!-- Banner Destacado / Patrocinante -->
-    <tr>
+    <!-- Banner Destacado / Patrocinante (Sincronizado con banners.json / admin-banners.html) -->
+    <tr id="newsletterSponsorRow">
       <td bgcolor="#f8fafc" style="padding: 12px 25px; text-align: center; border-bottom: 1px solid #e2e8f0;">
-        <a href="https://absidecorp.com/" target="_blank">
-          <img src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90.png" alt="ABSIDE - Cloud Partner" width="590" class="col-img" style="width: 100%; max-width: 590px; height: auto; display: block; margin: 0 auto; border-radius: 4px;" />
+        <a id="newsletterSponsorLink" href="https://absidecorp.com/" target="_blank">
+          <img id="newsletterSponsorImg" src="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90.png" alt="ABSIDE - Cloud Partner" width="590" class="col-img" style="width: 100%; max-width: 590px; height: auto; display: block; margin: 0 auto; border-radius: 4px;" />
         </a>
       </td>
     </tr>
@@ -304,6 +304,32 @@ title: "Newsletter ITNEWS LAT - Las 12 Últimas Noticias"
         }, 3000);
       }
     }
+
+    // Sincronizar automáticamente banner patrocinante con banners.json
+    (function syncNewsletterSponsorBanner() {
+      fetch('/app/banners.json?t=' + Date.now())
+        .then(res => res.json())
+        .then(data => {
+          if (data && data.banners && data.banners.newsletter_sponsor) {
+            const b = data.banners.newsletter_sponsor;
+            const row = document.getElementById('newsletterSponsorRow');
+            const link = document.getElementById('newsletterSponsorLink');
+            const img = document.getElementById('newsletterSponsorImg');
+
+            if (b.active === false) {
+              if (row) row.style.display = 'none';
+            } else {
+              if (row) row.style.display = '';
+              if (link && b.targetUrl) link.href = b.targetUrl;
+              if (img && b.imageUrl) img.src = b.imageUrl;
+              if (img && b.title) img.alt = b.title;
+            }
+          }
+        })
+        .catch(err => {
+          console.log('Usando banner por defecto de newsletter:', err);
+        });
+    })();
   </script>
 </body>
 </html>

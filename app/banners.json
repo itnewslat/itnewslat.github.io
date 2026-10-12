@@ -61,6 +61,16 @@
       "targetUrl": "https://itnews.lat/Publicidad.html",
       "title": "Publicidad y Patrocinios ITNEWS",
       "active": true
+    },
+    "newsletter_sponsor": {
+      "id": "newsletter_sponsor",
+      "name": "Banner Patrocinante del Newsletter",
+      "position": "Cabecera del boletín ejecutivo de noticias (Newsletter semanal)",
+      "format": "590x90",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90.png",
+      "targetUrl": "https://absidecorp.com/",
+      "title": "ABSIDE - Cloud Partner",
+      "active": true
     }
   }
 }
