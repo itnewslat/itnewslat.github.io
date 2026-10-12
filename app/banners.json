@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-10-10T22:32:09.185Z",
+  "updatedAt": "2026-10-12T13:42:51.368Z",
   "banners": {
     "hero_banner": {
       "id": "hero_banner",
@@ -67,8 +67,8 @@
       "name": "Banner Patrocinante del Newsletter",
       "position": "Cabecera del boletín ejecutivo de noticias (Newsletter semanal)",
       "format": "590x90",
-      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90.png",
-      "targetUrl": "https://absidecorp.com/",
+      "imageUrl": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Disponible-publicidad.jpg",
+      "targetUrl": "https://itnews.lat/",
       "title": "ABSIDE - Cloud Partner",
       "active": true
     }
