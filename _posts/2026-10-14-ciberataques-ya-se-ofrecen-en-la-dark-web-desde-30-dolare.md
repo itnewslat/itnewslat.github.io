@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: "Ciberataques ya se ofrecen en la dark web desde 30 dólare"
+title: "Ciberataques ya se ofrecen en la dark web desde 30 dólares"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Dark-Web-p.jpg
 detail-image: >-
