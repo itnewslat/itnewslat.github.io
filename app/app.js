@@ -1341,42 +1341,46 @@
 - Fecha y Hora: ${new Date().toLocaleString('es-LA', { dateStyle: 'full', timeStyle: 'medium' })}
 - Origen: ITNEWS Web App (https://itnews.lat/app/)`;
 
-      let sentSuccess = false;
+      const payload = {
+        nombre: nombre,
+        apellido: apellido,
+        empresa: empresa,
+        email: email,
+        fecha: new Date().toISOString()
+      };
 
-      // 1. Intento de envío directo a través de FormSubmit API sin redirección
+      // 1. Envío a Google Sheets (Base de datos en tiempo real)
+      const sheetsUrl = 'https://script.google.com/macros/s/AKfycbxqojwXfL1FYwiPCVOrFp8EMDHXhuw3DI6UkbzD0OqZvmwDcLLQOpwWp3r-Ga4aPmYxAA/exec';
+      const postToSheets = fetch(sheetsUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).catch(err => console.warn('Error en Google Sheets sync:', err));
+
+      // 2. Envío paralelo de notificación por correo (FormSubmit)
+      const postToEmail = fetch('https://formsubmit.co/ajax/edgar@itnews.lat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          _subject: emailSubject,
+          _template: 'table',
+          _captcha: 'false',
+          Nombre: nombre,
+          Apellido: apellido,
+          Empresa: empresa,
+          Email: email,
+          Fecha: new Date().toISOString(),
+          Mensaje: emailBodyText
+        })
+      }).catch(err => console.warn('FormSubmit notification notice:', err));
+
       try {
-        const response = await fetch('https://formsubmit.co/ajax/edgar@itnews.lat', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-          },
-          body: JSON.stringify({
-            _subject: emailSubject,
-            _template: 'table',
-            _captcha: 'false',
-            Nombre: nombre,
-            Apellido: apellido,
-            Empresa: empresa,
-            Email: email,
-            Fecha: new Date().toISOString(),
-            Mensaje: emailBodyText
-          })
-        });
-
-        if (response.ok) {
-          sentSuccess = true;
-        }
-      } catch (err) {
-        console.warn('FormSubmit no disponible, usando fallback:', err);
-      }
-
-      // Si por alguna razón el endpoint fue bloqueado por adblocker/CORS, abrir fallback mailto
-      if (!sentSuccess) {
-        const mailtoUri = `mailto:edgar@itnews.lat?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBodyText)}`;
-        window.location.href = mailtoUri;
-        sentSuccess = true;
-      }
+        await Promise.allSettled([postToSheets, postToEmail]);
+      } catch (e) {}
 
       // Mensaje de éxito amigable
       showNewsletterFeedback(`¡Gracias por suscribirte, ${nombre}! Hemos registrado tus datos (${email}) para el boletín de ITNEWS.LAT.`, 'success');
