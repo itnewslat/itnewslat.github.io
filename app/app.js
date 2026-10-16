@@ -1346,11 +1346,12 @@
         apellido: apellido,
         empresa: empresa,
         email: email,
+        pais: 'App Express / General',
         fecha: new Date().toISOString()
       };
 
       // 1. Envío a Google Sheets (Base de datos en tiempo real)
-      const sheetsUrl = 'https://script.google.com/macros/s/AKfycbxqojwXfL1FYwiPCVOrFp8EMDHXhuw3DI6UkbzD0OqZvmwDcLLQOpwWp3r-Ga4aPmYxAA/exec';
+      const sheetsUrl = 'https://script.google.com/macros/s/AKfycbwDr5Z55vzDxwF_7QENtPpb6Yapbx_XoWQiBdPvaEcLEMM9a2wjiACymozyu59blL1_jQ/exec';
       const postToSheets = fetch(sheetsUrl, {
         method: 'POST',
         mode: 'no-cors',
