@@ -1,48 +1,51 @@
-<!-- ======== Newsletter Subscription Banner (Ubicación: Después de Últimas Noticias) ======== -->
-<div class="container my-4 my-lg-5">
-  <div class="card border-0 shadow-sm text-white" style="background: linear-gradient(135deg, #111827 0%, #1e293b 100%); border-radius: 12px; overflow: hidden; border-left: 5px solid #c82333 !important;">
-    <div class="card-body p-4 p-md-5">
+<!-- ======== Newsletter Subscription Banner (Ubicación: Después de Últimas Noticias - Formato Compacto) ======== -->
+<div class="container my-3 my-lg-4">
+  <div class="card border-0 shadow-sm text-white" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border-radius: 8px; overflow: hidden; border-left: 4px solid #c82333 !important;">
+    <div class="card-body py-2 px-3 py-md-3 px-md-4">
       <div class="row align-items-center">
-        <div class="col-12 col-lg-5 mb-4 mb-lg-0">
-          <span class="badge badge-danger text-uppercase px-2 py-1 mb-2" style="font-size: 11px; letter-spacing: 0.5px; background-color: #c82333;">
-            <i class="fa fa-envelope-open-o mr-1"></i> Boletín Ejecutivo B2B
-          </span>
-          <h3 class="text-white font-weight-bold mb-2" style="font-size: 22px; line-height: 1.3;">
-            Suscríbete al Boletín de ITNEWS {{ page.filterCategory | default: "LatAm" }}
-          </h3>
-          <p class="text-muted text-sm mb-0" style="color: #94a3b8 !important; font-size: 13.5px; line-height: 1.5;">
-            Recibe semanalmente en tu correo el análisis, primicias tecnológicas, telecomunicaciones y negocios B2B más destacados de {{ page.filterCategory | default: "la región" }}.
+        <!-- Columna Izquierda: Información compacta tipo Banner -->
+        <div class="col-12 col-lg-4 mb-2 mb-lg-0">
+          <div class="d-flex align-items-center mb-1">
+            <span class="badge badge-danger text-uppercase px-2 py-0 mr-2" style="font-size: 10px; letter-spacing: 0.5px; background-color: #c82333; line-height: 18px;">
+              <i class="fa fa-envelope-open-o mr-1"></i> Boletín B2B
+            </span>
+            <small class="text-muted" style="color: #94a3b8 !important; font-size: 11px;">Semanal &bull; Sin costo</small>
+          </div>
+          <h4 class="text-white font-weight-bold mb-0" style="font-size: 16px; line-height: 1.25;">
+            Boletín ITNEWS {{ page.filterCategory | default: "LatAm" }}
+          </h4>
+          <p class="text-muted mb-0 d-none d-xl-block" style="color: #94a3b8 !important; font-size: 11.5px; line-height: 1.3; margin-top: 2px;">
+            Análisis, telecomunicaciones y tecnología en tu correo.
           </p>
         </div>
 
-        <div class="col-12 col-lg-7">
-          <form id="portalNewsletterForm_{{ page.filterCategory | slugify | default: 'latam' }}" class="portal-newsletter-form">
+        <!-- Columna Derecha: Formulario Horizontal Compacto -->
+        <div class="col-12 col-lg-8">
+          <form id="portalNewsletterForm_{{ page.filterCategory | slugify | default: 'latam' }}" class="portal-newsletter-form m-0">
             <input type="hidden" name="pais" value="{{ page.filterCategory | default: 'LatAm' }}">
-            <div class="form-row">
-              <div class="col-12 col-sm-6 mb-2">
-                <input type="text" name="nombre" class="form-control form-control-sm" placeholder="Tu Nombre *" required style="background: #0f172a; border: 1px solid #334155; color: #fff; border-radius: 6px; padding: 10px 12px; font-size: 13px;">
+            <div class="form-row align-items-center">
+              <div class="col-6 col-md-3 mb-1 mb-md-0">
+                <input type="text" name="nombre" class="form-control form-control-sm" placeholder="Nombre *" required style="background: #090d16; border: 1px solid #334155; color: #fff; border-radius: 4px; padding: 6px 10px; font-size: 12px; height: 32px;">
               </div>
-              <div class="col-12 col-sm-6 mb-2">
-                <input type="text" name="apellido" class="form-control form-control-sm" placeholder="Tu Apellido *" required style="background: #0f172a; border: 1px solid #334155; color: #fff; border-radius: 6px; padding: 10px 12px; font-size: 13px;">
+              <div class="col-6 col-md-3 mb-1 mb-md-0">
+                <input type="text" name="apellido" class="form-control form-control-sm" placeholder="Apellido *" required style="background: #090d16; border: 1px solid #334155; color: #fff; border-radius: 4px; padding: 6px 10px; font-size: 12px; height: 32px;">
               </div>
-            </div>
-            <div class="form-row">
-              <div class="col-12 col-sm-6 mb-2">
-                <input type="text" name="empresa" class="form-control form-control-sm" placeholder="Empresa / Cargo *" required style="background: #0f172a; border: 1px solid #334155; color: #fff; border-radius: 6px; padding: 10px 12px; font-size: 13px;">
+              <div class="col-6 col-md-3 mb-1 mb-md-0">
+                <input type="text" name="empresa" class="form-control form-control-sm" placeholder="Empresa *" required style="background: #090d16; border: 1px solid #334155; color: #fff; border-radius: 4px; padding: 6px 10px; font-size: 12px; height: 32px;">
               </div>
-              <div class="col-12 col-sm-6 mb-2">
-                <input type="email" name="email" class="form-control form-control-sm" placeholder="Correo corporativo *" required style="background: #0f172a; border: 1px solid #334155; color: #fff; border-radius: 6px; padding: 10px 12px; font-size: 13px;">
+              <div class="col-6 col-md-3 mb-1 mb-md-0">
+                <input type="email" name="email" class="form-control form-control-sm" placeholder="Correo corporativo *" required style="background: #090d16; border: 1px solid #334155; color: #fff; border-radius: 4px; padding: 6px 10px; font-size: 12px; height: 32px;">
               </div>
             </div>
-            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center mt-2">
-              <small class="text-muted mb-2 mb-sm-0" style="color: #64748b !important; font-size: 11px;">
-                <i class="fa fa-lock mr-1"></i> Respetamos tu privacidad. Sin spam.
-              </small>
-              <button type="submit" class="btn btn-danger btn-sm font-weight-bold px-4 py-2" style="background-color: #c82333; border: none; border-radius: 6px; font-size: 13px; cursor: pointer; transition: all 0.2s;">
+            <div class="d-flex justify-content-between align-items-center mt-2 pt-1 border-top" style="border-color: rgba(255,255,255,0.07) !important;">
+              <span style="color: #64748b; font-size: 10.5px;">
+                <i class="fa fa-lock mr-1"></i> Datos protegidos. Cero spam.
+              </span>
+              <button type="submit" class="btn btn-danger btn-sm font-weight-bold px-3 py-1" style="background-color: #c82333; border: none; border-radius: 4px; font-size: 12px; height: 28px; line-height: 18px; cursor: pointer;">
                 <span>Suscribirme</span> <i class="fa fa-paper-plane ml-1"></i>
               </button>
             </div>
-            <div class="portal-newsletter-feedback mt-2" style="display: none; font-size: 12.5px; border-radius: 6px; padding: 8px 12px;"></div>
+            <div class="portal-newsletter-feedback mt-1" style="display: none; font-size: 11.5px; border-radius: 4px; padding: 4px 8px;"></div>
           </form>
         </div>
       </div>
