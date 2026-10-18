@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updatedAt": "2026-10-18T15:18:41.958Z",
+  "updatedAt": "2026-10-18T15:19:23.260Z",
   "countries": {
     "venezuela": {
       "name": "Venezuela",
@@ -65,7 +65,7 @@
       "flag": "🇲🇽",
       "folder": "_data/mexico/publicity.yml",
       "header": {
-        "image": "https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Disponible-publicidad.jpg",
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Banner-Mexico.jpg",
         "url": "https://itnews.lat/"
       },
       "publicity1": {
