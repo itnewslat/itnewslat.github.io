@@ -1252,7 +1252,7 @@
           <div class="banner-card-top">
             <div class="banner-title-info">
               <h3>Banner Panregional del Index (Antes de Ediciones Países)</h3>
-              <span>Visible en la portada principal itnews.lat • Archivo: <code>_data/home.yml</code></span>
+              <span>Visible en la portada principal itnews.lat • <strong>Tamaño recomendado: 1200x150 px</strong> (o aspect ratio 8:1) • Archivo: <code>_data/home.yml</code></span>
             </div>
             <label class="toggle-wrap">
               <input type="checkbox" id="home_active" ${b.active !== false ? 'checked' : ''}>
@@ -1272,10 +1272,10 @@
           </div>
 
           <div class="form-group" style="margin-top: 14px;">
-            <label for="home_img"><i class="ri-image-line"></i> URL o Ruta de Imagen del Banner:</label>
+            <label for="home_img"><i class="ri-image-line"></i> URL o Ruta de Imagen del Banner (1200x150 px recomendado):</label>
             <input type="text" id="home_img" value="${escapeHtml(b.image || '')}" placeholder="assets/imagenes/banner-itnews-panregional.jpg" required>
             <div style="font-size: 11.5px; color: var(--text-muted); margin-top: 4px;">
-              Puedes usar una ruta relativa del sitio (ej. <code>assets/imagenes/banner-itnews-panregional.jpg</code>) o una URL completa de GitHub (ej. <code>https://raw.githubusercontent.com/...</code>).
+              Diseñado para resolución de <strong>1200x150 px</strong> (se ajusta fluidamente al 100% en tablets y teléfonos). Puedes usar una ruta local o una URL directa.
             </div>
           </div>
 
