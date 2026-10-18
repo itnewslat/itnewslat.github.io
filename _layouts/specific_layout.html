@@ -733,9 +733,14 @@
 
     <!-- Banner Panregional de Portada (Antes de Ediciones Países) -->
     {% if site.data.home.banner and site.data.home.banner.active != false and site.data.home.banner.image %}
+    {% assign b_img = site.data.home.banner.image %}
     <div class="index-main-banner">
       <a href="{{ site.data.home.banner.url | default: 'https://itnews.lat/' }}" class="index-banner-link" target="_blank" rel="noopener noreferrer" title="{{ site.data.home.banner.title | default: 'ITNEWS.LAT' }}">
-        <img src="{{ site.data.home.banner.image | prepend: '/' | replace: '//', '/' }}" alt="{{ site.data.home.banner.title | default: 'ITNEWS.LAT' }}" class="index-banner-img" loading="lazy">
+        {% if b_img contains '://' %}
+          <img src="{{ b_img }}" alt="{{ site.data.home.banner.title | default: 'ITNEWS.LAT' }}" class="index-banner-img" loading="lazy">
+        {% else %}
+          <img src="{{ b_img | prepend: '/' | replace: '//', '/' }}" alt="{{ site.data.home.banner.title | default: 'ITNEWS.LAT' }}" class="index-banner-img" loading="lazy">
+        {% endif %}
       </a>
     </div>
     {% endif %}
@@ -752,8 +757,21 @@
 
     <div class="countries-grid">
       {% for country in site.data.header.headers %}
-        {% assign cat_name = country.category | default: country.element %}
-        {% assign latest_posts = site.categories[cat_name] %}
+        {% assign cat1 = country.category %}
+        {% assign cat2 = country.element %}
+        {% assign posts1 = site.categories[cat1] %}
+        {% assign posts2 = site.categories[cat2] %}
+        {% if posts1 and posts1.size > 0 and posts2 and posts2.size > 0 %}
+          {% if posts1.first.date > posts2.first.date %}
+            {% assign latest_posts = posts1 %}
+          {% else %}
+            {% assign latest_posts = posts2 %}
+          {% endif %}
+        {% elsif posts1 and posts1.size > 0 %}
+          {% assign latest_posts = posts1 %}
+        {% else %}
+          {% assign latest_posts = posts2 %}
+        {% endif %}
         
         <div class="card-stack">
           <a href="{{ country.href }}" class="country-card" title="Ver todas las noticias de {{ country.element }}">

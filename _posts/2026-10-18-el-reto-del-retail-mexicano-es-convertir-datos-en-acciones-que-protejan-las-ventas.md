@@ -13,6 +13,7 @@ detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Retail-g.jpg
 categories:
     - México
+    - Mexico
 tags:
   - Transformación Digital
 week: '42'

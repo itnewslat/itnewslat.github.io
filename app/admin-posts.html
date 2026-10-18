@@ -1431,7 +1431,20 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         if (countries.length === 0) {
           yaml += `    - Venezuela\n`;
         } else {
+          const catMap = {
+            'México': ['México', 'Mexico'],
+            'Panamá': ['Panamá', 'Panama'],
+            'Perú': ['Perú', 'Peru']
+          };
+          const expandedCats = [];
           countries.forEach(c => {
+            if (catMap[c]) {
+              catMap[c].forEach(item => { if (!expandedCats.includes(item)) expandedCats.push(item); });
+            } else {
+              if (!expandedCats.includes(c)) expandedCats.push(c);
+            }
+          });
+          expandedCats.forEach(c => {
             yaml += `    - ${c}\n`;
           });
         }

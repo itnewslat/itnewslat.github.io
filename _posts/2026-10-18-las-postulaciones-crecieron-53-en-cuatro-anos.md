@@ -13,6 +13,7 @@ detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Empleados-g.jpg
 categories:
     - Panamá
+    - Panama
 tags:
   - Canales
 week: '42'
