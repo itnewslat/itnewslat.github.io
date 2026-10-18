@@ -1,0 +1,6 @@
+# Configuración del Banner Principal del Index de ITNEWS.LAT (Antes de Ediciones Países)
+banner:
+  image: "assets/imagenes/banner-itnews-panregional.jpg"
+  url: "https://itnews.lat/"
+  title: "ITNEWS.LAT - El Portal Panregional de Noticias de Tecnología B2B para Ejecutivos"
+  active: true

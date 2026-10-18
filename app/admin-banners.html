@@ -695,17 +695,34 @@
       </div>
     </div>
     
-    <!-- Selector de Modo: Web Multipaís vs App vs Subir Imágenes -->
+    <!-- Selector de Modo: Portada Principal vs Web Multipaís vs App vs Subir Imágenes -->
     <div class="mode-nav-bar">
+      <button id="tabModeHome" class="mode-tab-btn">
+        <i class="ri-home-4-line"></i> 1. Portada (Banner Principal)
+      </button>
       <button id="tabModeCountries" class="mode-tab-btn active">
-        <i class="ri-earth-line"></i> 1. Portal Web (8 Países)
+        <i class="ri-earth-line"></i> 2. Portal Web (8 Países)
       </button>
       <button id="tabModeApp" class="mode-tab-btn">
-        <i class="ri-smartphone-line"></i> 2. Banners de la /app
+        <i class="ri-smartphone-line"></i> 3. Banners de la /app
       </button>
       <button id="tabModeUpload" class="mode-tab-btn">
-        <i class="ri-upload-cloud-2-line"></i> 3. Subir Imágenes a GitHub
+        <i class="ri-upload-cloud-2-line"></i> 4. Subir Imágenes a GitHub
       </button>
+    </div>
+
+    <!-- VISTA 0: PORTADA PRINCIPAL (BANNER ANTES DE EDICIONES PAÍSES) -->
+    <div id="viewHomeSection" style="display: none;">
+      <div class="section-header-box">
+        <div>
+          <h2><i class="ri-image-line" style="color: var(--brand);"></i> Banner Panregional de Portada (itnews.lat)</h2>
+          <p>Ubicación: Justo antes del panel de <strong>Ediciones por País</strong>. Archivo de sincronización: <code>_data/home.yml</code></p>
+        </div>
+      </div>
+
+      <div class="banners-grid" id="homeBannersList">
+        <!-- Inyectado dinámicamente -->
+      </div>
     </div>
 
     <!-- VISTA 1: PAÍSES (WEB itnews.lat) -->
@@ -955,12 +972,14 @@
       const AUTH_STORAGE_KEY = 'itnews_admin_auth_token';
       const COUNTRIES_STORAGE_KEY = 'itnews_countries_banners_data';
       const APP_BANNERS_KEY = 'itnews_custom_banners';
+      const HOME_BANNER_KEY = 'itnews_home_banner_data';
 
-      let currentMode = 'countries'; // 'countries' | 'app'
+      let currentMode = 'countries'; // 'home' | 'countries' | 'app' | 'upload'
       let activeCountryKey = 'venezuela';
 
       let countriesData = null;
       let appBannersData = null;
+      let homeBannerData = null;
 
       // Elementos DOM
       const authOverlay = document.getElementById('authOverlay');
@@ -969,12 +988,16 @@
       const authError = document.getElementById('authError');
       const logoutBtn = document.getElementById('logoutBtn');
 
+      const tabModeHome = document.getElementById('tabModeHome');
       const tabModeCountries = document.getElementById('tabModeCountries');
       const tabModeApp = document.getElementById('tabModeApp');
       const tabModeUpload = document.getElementById('tabModeUpload');
+      const viewHomeSection = document.getElementById('viewHomeSection');
       const viewCountriesSection = document.getElementById('viewCountriesSection');
       const viewAppSection = document.getElementById('viewAppSection');
       const viewUploadSection = document.getElementById('viewUploadSection');
+
+      const homeBannersList = document.getElementById('homeBannersList');
 
       const countriesPillsList = document.getElementById('countriesPillsList');
       const currentCountryTitle = document.getElementById('currentCountryTitle');
@@ -1026,6 +1049,41 @@
 
       // 2. Data Loading
       async function loadData() {
+        // Cargar banner de la portada (_data/home.yml)
+        try {
+          const storedH = localStorage.getItem(HOME_BANNER_KEY);
+          if (storedH) {
+            homeBannerData = JSON.parse(storedH);
+          } else {
+            // Intentar obtener _data/home.yml
+            const resH = await fetch('../_data/home.yml?t=' + Date.now()).catch(() => null);
+            if (resH && resH.ok) {
+              const yamlText = await resH.text();
+              const imgMatch = yamlText.match(/image:\s*["']?([^"'\r\n]+)["']?/);
+              const urlMatch = yamlText.match(/url:\s*["']?([^"'\r\n]+)["']?/);
+              const titleMatch = yamlText.match(/title:\s*["']?([^"'\r\n]+)["']?/);
+              const activeMatch = yamlText.match(/active:\s*(true|false)/i);
+              homeBannerData = {
+                image: imgMatch ? imgMatch[1].trim() : 'assets/imagenes/banner-itnews-panregional.jpg',
+                url: urlMatch ? urlMatch[1].trim() : 'https://itnews.lat/',
+                title: titleMatch ? titleMatch[1].trim() : 'ITNEWS.LAT - El Portal Panregional de Noticias de Tecnología B2B para Ejecutivos',
+                active: activeMatch ? activeMatch[1].toLowerCase() === 'true' : true
+              };
+            }
+          }
+        } catch (e) {
+          console.warn('Error al cargar home banner:', e);
+        }
+
+        if (!homeBannerData) {
+          homeBannerData = {
+            image: 'assets/imagenes/banner-itnews-panregional.jpg',
+            url: 'https://itnews.lat/',
+            title: 'ITNEWS.LAT - El Portal Panregional de Noticias de Tecnología B2B para Ejecutivos',
+            active: true
+          };
+        }
+
         // Cargar países
         try {
           const storedC = localStorage.getItem(COUNTRIES_STORAGE_KEY);
@@ -1145,41 +1203,100 @@
           });
         }
 
+        renderHomeView();
         renderCountryPills();
         renderCountryView();
         renderAppView();
       }
 
       // 3. Tab Switching
-      tabModeCountries.addEventListener('click', () => {
-        currentMode = 'countries';
-        tabModeCountries.classList.add('active');
-        tabModeApp.classList.remove('active');
-        tabModeUpload.classList.remove('active');
-        viewCountriesSection.style.display = 'block';
-        viewAppSection.style.display = 'none';
-        viewUploadSection.style.display = 'none';
-      });
+      function switchTab(mode) {
+        saveInputsToMemory();
+        currentMode = mode;
+        [tabModeHome, tabModeCountries, tabModeApp, tabModeUpload].forEach(btn => btn.classList.remove('active'));
+        [viewHomeSection, viewCountriesSection, viewAppSection, viewUploadSection].forEach(sec => sec.style.display = 'none');
 
-      tabModeApp.addEventListener('click', () => {
-        currentMode = 'app';
-        tabModeApp.classList.add('active');
-        tabModeCountries.classList.remove('active');
-        tabModeUpload.classList.remove('active');
-        viewAppSection.style.display = 'block';
-        viewCountriesSection.style.display = 'none';
-        viewUploadSection.style.display = 'none';
-      });
+        if (mode === 'home') {
+          tabModeHome.classList.add('active');
+          viewHomeSection.style.display = 'block';
+          renderHomeView();
+        } else if (mode === 'countries') {
+          tabModeCountries.classList.add('active');
+          viewCountriesSection.style.display = 'block';
+          renderCountryPills();
+          renderCountryView();
+        } else if (mode === 'app') {
+          tabModeApp.classList.add('active');
+          viewAppSection.style.display = 'block';
+          renderAppView();
+        } else if (mode === 'upload') {
+          tabModeUpload.classList.add('active');
+          viewUploadSection.style.display = 'block';
+        }
+      }
 
-      tabModeUpload.addEventListener('click', () => {
-        currentMode = 'upload';
-        tabModeUpload.classList.add('active');
-        tabModeCountries.classList.remove('active');
-        tabModeApp.classList.remove('active');
-        viewUploadSection.style.display = 'block';
-        viewCountriesSection.style.display = 'none';
-        viewAppSection.style.display = 'none';
-      });
+      tabModeHome.addEventListener('click', () => switchTab('home'));
+      tabModeCountries.addEventListener('click', () => switchTab('countries'));
+      tabModeApp.addEventListener('click', () => switchTab('app'));
+      tabModeUpload.addEventListener('click', () => switchTab('upload'));
+
+      // Render Home View
+      function renderHomeView() {
+        if (!homeBannerData) return;
+        homeBannersList.innerHTML = '';
+        const b = homeBannerData;
+
+        const card = document.createElement('div');
+        card.className = 'banner-edit-card';
+        card.innerHTML = `
+          <div class="banner-card-top">
+            <div class="banner-title-info">
+              <h3>Banner Panregional del Index (Antes de Ediciones Países)</h3>
+              <span>Visible en la portada principal itnews.lat • Archivo: <code>_data/home.yml</code></span>
+            </div>
+            <label class="toggle-wrap">
+              <input type="checkbox" id="home_active" ${b.active !== false ? 'checked' : ''}>
+              <span>Activo en Portada</span>
+            </label>
+          </div>
+
+          <div class="banner-inputs-grid">
+            <div class="form-group">
+              <label for="home_url"><i class="ri-external-link-line"></i> Enlace de Destino al hacer clic:</label>
+              <input type="url" id="home_url" value="${escapeHtml(b.url || '')}" placeholder="https://..." required>
+            </div>
+            <div class="form-group">
+              <label for="home_title"><i class="ri-t-box-line"></i> Título descriptivo (Alt / Tooltip):</label>
+              <input type="text" id="home_title" value="${escapeHtml(b.title || '')}" placeholder="Título del anuncio..." required>
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-top: 14px;">
+            <label for="home_img"><i class="ri-image-line"></i> URL o Ruta de Imagen del Banner:</label>
+            <input type="text" id="home_img" value="${escapeHtml(b.image || '')}" placeholder="assets/imagenes/banner-itnews-panregional.jpg" required>
+            <div style="font-size: 11.5px; color: var(--text-muted); margin-top: 4px;">
+              Puedes usar una ruta relativa del sitio (ej. <code>assets/imagenes/banner-itnews-panregional.jpg</code>) o una URL completa de GitHub (ej. <code>https://raw.githubusercontent.com/...</code>).
+            </div>
+          </div>
+
+          <div class="banner-preview-box" style="margin-top: 16px;">
+            <label><i class="ri-eye-line"></i> Vista Previa en Vivo:</label>
+            <div class="preview-img-wrap" style="max-height: 180px; overflow: hidden; background: #000; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
+              <img id="prev_home_img" src="${escapeHtml(b.image || '')}" alt="Vista previa" style="max-width: 100%; height: auto; display: block;" onerror="this.src='https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Disponible-publicidad.jpg'">
+            </div>
+          </div>
+        `;
+
+        const homeImgInput = card.querySelector('#home_img');
+        const prevHomeImg = card.querySelector('#prev_home_img');
+        homeImgInput.addEventListener('input', () => {
+          let val = homeImgInput.value.trim();
+          if (val.startsWith('assets/')) val = '../' + val;
+          prevHomeImg.src = val;
+        });
+
+        homeBannersList.appendChild(card);
+      }
 
       // 4. Render Country Pills
       function renderCountryPills() {
@@ -1505,7 +1622,17 @@
 
       // Save input values to memory
       function saveInputsToMemory() {
-        if (currentMode === 'countries' && countriesData && countriesData.countries) {
+        if (currentMode === 'home' && homeBannerData) {
+          const u = document.getElementById('home_url');
+          const i = document.getElementById('home_img');
+          const t = document.getElementById('home_title');
+          const a = document.getElementById('home_active');
+          if (u) homeBannerData.url = sanitizeTargetUrl(u.value);
+          if (i) homeBannerData.image = i.value.trim();
+          if (t) homeBannerData.title = t.value.trim();
+          if (a) homeBannerData.active = a.checked;
+          localStorage.setItem(HOME_BANNER_KEY, JSON.stringify(homeBannerData));
+        } else if (currentMode === 'countries' && countriesData && countriesData.countries) {
           const c = countriesData.countries[activeCountryKey];
           if (c) {
             const hUrl = document.getElementById('url_country_header');
@@ -1543,6 +1670,11 @@
       // Función para convertir texto UTF-8 a Base64 de forma segura
       function utf8ToBase64(str) {
         return window.btoa(unescape(encodeURIComponent(str)));
+      }
+
+      // Generar YAML para banner de portada (_data/home.yml)
+      function generateHomeYaml(b) {
+        return `banner:\n  image: "${b.image || ''}"\n  url: "${b.url || ''}"\n  title: "${b.title || ''}"\n  active: ${b.active !== false}\n`;
       }
 
       // Generar YAML para un país
@@ -1613,6 +1745,10 @@
       saveAllBtn.addEventListener('click', async () => {
         saveInputsToMemory();
 
+        if (homeBannerData) {
+          localStorage.setItem(HOME_BANNER_KEY, JSON.stringify(homeBannerData));
+        }
+
         if (countriesData) {
           countriesData.updatedAt = new Date().toISOString();
           localStorage.setItem(COUNTRIES_STORAGE_KEY, JSON.stringify(countriesData));
@@ -1645,7 +1781,21 @@
           const REPO_NAME = 'itnewslat.github.io';
           const REPO_BRANCH = 'master';
 
-          if (currentMode === 'app') {
+          if (currentMode === 'home') {
+            // Commit a _data/home.yml
+            const homeYaml = generateHomeYaml(homeBannerData);
+            await commitTextFileToGithub(
+              REPO_OWNER,
+              REPO_NAME,
+              REPO_BRANCH,
+              '_data/home.yml',
+              homeYaml,
+              `Actualizar banner de portada (_data/home.yml) vía Panel Admin (${new Date().toLocaleString()})`,
+              token
+            );
+            statusMessage.textContent = '¡Banner de portada guardado y publicado automáticamente en GitHub!';
+            statusMessage.className = 'status-msg success';
+          } else if (currentMode === 'app') {
             // Commit a app/banners.json
             const jsonContent = JSON.stringify(appBannersData, null, 2);
             await commitTextFileToGithub(
@@ -1710,7 +1860,11 @@
       exportCodeBtn.addEventListener('click', () => {
         saveAllBtn.click();
 
-        if (currentMode === 'countries') {
+        if (currentMode === 'home') {
+          modalExportTitle.innerHTML = `<i class="ri-file-code-line"></i> Código YAML para Portada (_data/home.yml)`;
+          modalExportDesc.innerHTML = `Para aplicar estos cambios en la portada principal, copia este código YAML y colócalo en el archivo <code>_data/home.yml</code>:`;
+          outputCodeArea.value = generateHomeYaml(homeBannerData);
+        } else if (currentMode === 'countries') {
           const c = countriesData.countries[activeCountryKey];
           modalExportTitle.innerHTML = `<i class="ri-file-code-line"></i> Código YAML para ${c.name} (${c.folder})`;
           modalExportDesc.innerHTML = `Para aplicar estos cambios en el portal web, copia este código YAML y reemplázalo en el archivo <code>${c.folder}</code>:`;

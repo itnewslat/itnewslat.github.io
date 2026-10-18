@@ -329,12 +329,45 @@
       margin: 0;
     }
 
+    /* Banner Principal de la Portada (Antes de Ediciones Países) */
+    .index-main-banner {
+      margin: 10px auto 40px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .index-banner-link {
+      display: inline-block;
+      width: 100%;
+      max-width: 1200px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(226, 232, 240, 0.9);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      background: #ffffff;
+      line-height: 0;
+    }
+
+    .index-banner-link:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.09);
+      border-color: #cbd5e1;
+    }
+
+    .index-banner-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+    }
+
     /* Section Header */
     .section-title-wrap {
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
-      margin: 50px 0 32px;
+      margin: 20px 0 32px;
       border-bottom: 2px solid #e2e8f0;
       padding-bottom: 14px;
       flex-wrap: wrap;
@@ -697,6 +730,15 @@
         </div>
       </div>
     </section>
+
+    <!-- Banner Panregional de Portada (Antes de Ediciones Países) -->
+    {% if site.data.home.banner and site.data.home.banner.active != false and site.data.home.banner.image %}
+    <div class="index-main-banner">
+      <a href="{{ site.data.home.banner.url | default: 'https://itnews.lat/' }}" class="index-banner-link" target="_blank" rel="noopener noreferrer" title="{{ site.data.home.banner.title | default: 'ITNEWS.LAT' }}">
+        <img src="{{ site.data.home.banner.image | prepend: '/' | replace: '//', '/' }}" alt="{{ site.data.home.banner.title | default: 'ITNEWS.LAT' }}" class="index-banner-img" loading="lazy">
+      </a>
+    </div>
+    {% endif %}
 
     <!-- 2 & 3. Panel con 8 secciones de país (dinámico en Jekyll con site.categories) -->
     <div class="section-title-wrap">
