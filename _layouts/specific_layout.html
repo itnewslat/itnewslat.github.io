@@ -439,6 +439,9 @@
       flex-direction: column;
       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
       transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
     }
 
     .card-stack:hover .country-card {
@@ -711,7 +714,7 @@
         {% assign latest_posts = site.categories[cat_name] %}
         
         <div class="card-stack">
-          <article class="country-card">
+          <a href="{{ country.href }}" class="country-card" title="Ver todas las noticias de {{ country.element }}">
             <div class="country-header">
               <div class="country-info">
                 {% if country.fi_code %}
@@ -733,14 +736,14 @@
               </div>
               <div class="news-body">
                 <span class="news-label-latest"><i class="fas fa-bolt"></i> Última Noticia</span>
-                <a href="{{ item.url }}" class="news-title-link" title="{{ item.title | escape }}">
+                <div class="news-title-link" title="{{ item.title | escape }}">
                   {{ item.title | truncate: 85 }}
-                </a>
+                </div>
                 <div class="country-footer-cta">
-                  <a href="{{ country.href }}" class="btn-explore-country">
+                  <div class="btn-explore-country">
                     <span>Conoce las noticias de {{ country.element }}</span>
                     <i class="fas fa-arrow-right"></i>
-                  </a>
+                  </div>
                 </div>
               </div>
             {% else %}
@@ -749,18 +752,18 @@
               </div>
               <div class="news-body">
                 <span class="news-label-latest"><i class="fas fa-newspaper"></i> Edición Digital</span>
-                <a href="{{ country.href }}" class="news-title-link">
+                <div class="news-title-link">
                   Edición Digital de {{ country.element }}
-                </a>
+                </div>
                 <div class="country-footer-cta">
-                  <a href="{{ country.href }}" class="btn-explore-country">
+                  <div class="btn-explore-country">
                     <span>Conoce las noticias de {{ country.element }}</span>
                     <i class="fas fa-arrow-right"></i>
-                  </a>
+                  </div>
                 </div>
               </div>
             {% endfor %}
-          </article>
+          </a>
         </div>
       {% endfor %}
     </div>
