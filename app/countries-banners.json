@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updatedAt": "2026-09-20T21:00:00Z",
+  "updatedAt": "2026-10-18T15:18:41.958Z",
   "countries": {
     "venezuela": {
       "name": "Venezuela",
@@ -38,7 +38,7 @@
       "flag": "🇨🇴",
       "folder": "_data/colombia/publicity.yml",
       "header": {
-        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90-ItNewsLa_2026-GIFF.gif",
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Banner-Colombia.jpg",
         "url": "https://www.abside.com/"
       },
       "publicity1": {
