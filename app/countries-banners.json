@@ -1,13 +1,13 @@
 {
   "version": "2.0",
-  "updatedAt": "2026-10-18T15:23:45.052Z",
+  "updatedAt": "2026-10-18T15:34:51.799Z",
   "countries": {
     "venezuela": {
       "name": "Venezuela",
       "flag": "🇻🇪",
       "folder": "_data/venezuela/publicity.yml",
       "header": {
-        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Banner-Venezuela.jpg",
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/ITNEWSLAT-ABSIDE.gif",
         "url": "https://www.abside.com/"
       },
       "publicity1": {
@@ -38,7 +38,7 @@
       "flag": "🇨🇴",
       "folder": "_data/colombia/publicity.yml",
       "header": {
-        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Banner-Colombia.jpg",
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/ITNEWSLAT-ABSIDE.gif",
         "url": "https://www.abside.com/"
       },
       "publicity1": {
@@ -204,7 +204,7 @@
       "flag": "🇪🇨",
       "folder": "_data/ecuador/publicity.yml",
       "header": {
-        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Banner-Ecuador.jpg",
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/ITNEWSLAT-ABSIDE.gif",
         "url": "https://www.abside.com/"
       },
       "publicity1": {
