@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updatedAt": "2026-10-18T15:20:54.693Z",
+  "updatedAt": "2026-10-18T15:21:16.554Z",
   "countries": {
     "venezuela": {
       "name": "Venezuela",
@@ -204,7 +204,7 @@
       "flag": "🇪🇨",
       "folder": "_data/ecuador/publicity.yml",
       "header": {
-        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90-ItNewsLa_2026-GIFF.gif",
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Banner-Ecuador.jpg",
         "url": "https://www.abside.com/"
       },
       "publicity1": {
