@@ -1,13 +1,13 @@
 {
   "version": "2.0",
-  "updatedAt": "2026-10-18T15:21:16.554Z",
+  "updatedAt": "2026-10-18T15:23:45.052Z",
   "countries": {
     "venezuela": {
       "name": "Venezuela",
       "flag": "🇻🇪",
       "folder": "_data/venezuela/publicity.yml",
       "header": {
-        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/ITNEWSLAT-ABSIDE.gif",
+        "image": "https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/Banner-Venezuela.jpg",
         "url": "https://www.abside.com/"
       },
       "publicity1": {
