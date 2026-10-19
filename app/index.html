@@ -67,7 +67,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <!-- Remixicon for sleek modern icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261010_03">
+  <link rel="stylesheet" href="styles.css?v=20261019_02">
 
   <!-- JSON-LD Structured Data Schema (@graph: NewsMediaOrganization + Person + WebApplication + BreadcrumbList) -->
   <script type="application/ld+json">
@@ -464,10 +464,18 @@
   <div class="reader-modal-overlay" id="readerModal">
     <div class="reader-modal">
       <div class="reader-modal-header">
-        <div class="reader-categories" id="readerCategories"></div>
-        <button class="icon-button close-btn" id="closeReaderBtn" aria-label="Cerrar artículo">
-          <i class="ri-close-line"></i>
-        </button>
+        <div class="reader-header-left">
+          <a href="https://itnews.lat/" target="_blank" rel="noopener noreferrer" class="reader-brand" title="ITNEWS.LAT">
+            <img class="reader-brand-logo" src="https://itnews.lat/assets/imagenes/logo_large_red.png" alt="ITNEWS.LAT" width="130" height="29" />
+          </a>
+          <div class="reader-brand-divider"></div>
+          <div class="reader-categories" id="readerCategories"></div>
+        </div>
+        <div class="reader-header-right">
+          <button class="icon-button close-btn" id="closeReaderBtn" aria-label="Cerrar artículo" title="Cerrar lectura (Esc)">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
       </div>
 
       <div class="reader-body-wrapper">
