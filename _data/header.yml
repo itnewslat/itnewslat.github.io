@@ -1,44 +1,44 @@
 headers:
-  - element: Panamá
-    href: /Panama/
-    flag: flag-icon-pa
-    fi_code: pa
-    category: Panama
-  - element: Colombia
-    href: /Colombia/
-    flag: flag-icon-co
-    fi_code: co
-    category: Colombia
-  - element: Venezuela
-    href: /Venezuela/
-    flag: flag-icon-ve
-    fi_code: ve
-    category: Venezuela
-  - element: Ecuador
-    href: /Ecuador/
-    flag: flag-icon-ec
-    fi_code: ec
-    category: Ecuador
-  - element: Perú
-    href: /Peru/
-    flag: flag-icon-pe
-    fi_code: pe
-    category: Perú
-  - element: Chile
-    href: /Chile/
-    flag: flag-icon-cl
-    fi_code: cl
-    category: Chile
   - element: Argentina
     href: /Argentina/
     flag: flag-icon-ar
     fi_code: ar
     category: Argentina
+  - element: Chile
+    href: /Chile/
+    flag: flag-icon-cl
+    fi_code: cl
+    category: Chile
+  - element: Colombia
+    href: /Colombia/
+    flag: flag-icon-co
+    fi_code: co
+    category: Colombia
+  - element: Ecuador
+    href: /Ecuador/
+    flag: flag-icon-ec
+    fi_code: ec
+    category: Ecuador
   - element: México
     href: /Mexico/
     flag: flag-icon-mx
     fi_code: mx
     category: Mexico
+  - element: Panamá
+    href: /Panama/
+    flag: flag-icon-pa
+    fi_code: pa
+    category: Panama
+  - element: Perú
+    href: /Peru/
+    flag: flag-icon-pe
+    fi_code: pe
+    category: Perú
+  - element: Venezuela
+    href: /Venezuela/
+    flag: flag-icon-ve
+    fi_code: ve
+    category: Venezuela
 
 
 global-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90-ItNewsLa_BASES-2025.gif'

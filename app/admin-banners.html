@@ -1304,7 +1304,12 @@
         countriesPillsList.innerHTML = '';
         const list = countriesData.countries;
 
-        Object.keys(list).forEach(key => {
+        const sortedKeys = Object.keys(list).sort((a, b) => {
+          const nameA = (list[a]?.name || a).localeCompare(list[b]?.name || b, 'es', { sensitivity: 'base' });
+          return nameA;
+        });
+
+        sortedKeys.forEach(key => {
           const c = list[key];
           const pill = document.createElement('button');
           pill.className = `country-pill ${key === activeCountryKey ? 'active' : ''}`;

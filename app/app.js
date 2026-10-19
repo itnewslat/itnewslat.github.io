@@ -62,18 +62,18 @@
   const shareToast = document.getElementById('shareToast');
   let currentOpenPost = null;
 
-  // Country Flags dictionary
+  // Country Flags dictionary (Orden alfabético)
   const COUNTRY_FLAGS = {
-    'Venezuela': '🇻🇪 Venezuela',
+    'Argentina': '🇦🇷 Argentina',
+    'Brasil': '🇧🇷 Brasil',
+    'Chile': '🇨🇱 Chile',
     'Colombia': '🇨🇴 Colombia',
+    'Costa Rica': '🇨🇷 Costa Rica',
+    'Ecuador': '🇪🇨 Ecuador',
     'México': '🇲🇽 México',
     'Panamá': '🇵🇦 Panamá',
-    'Chile': '🇨🇱 Chile',
-    'Argentina': '🇦🇷 Argentina',
-    'Ecuador': '🇪🇨 Ecuador',
     'Perú': '🇵🇪 Perú',
-    'Brasil': '🇧🇷 Brasil',
-    'Costa Rica': '🇨🇷 Costa Rica'
+    'Venezuela': '🇻🇪 Venezuela'
   };
 
   // Init Theme - Default to light theme
@@ -87,10 +87,10 @@
     localStorage.setItem('itnews_theme', next);
   });
 
-  // Known Latin American country names for category mapping
+  // Known Latin American country names for category mapping (Orden alfabético)
   const KNOWN_COUNTRIES = [
-    'Venezuela', 'Colombia', 'México', 'Panamá', 'Chile', 
-    'Argentina', 'Ecuador', 'Perú', 'Brasil', 'Costa Rica'
+    'Argentina', 'Brasil', 'Chile', 'Colombia', 'Costa Rica',
+    'Ecuador', 'México', 'Panamá', 'Perú', 'Venezuela'
   ];
 
   // Helper to determine the display country badge text based on active filter and post countries
