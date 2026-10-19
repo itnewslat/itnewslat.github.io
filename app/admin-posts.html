@@ -1031,6 +1031,13 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
             <input type="url" id="imgDetail" class="input-text" placeholder="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/...jpg">
           </div>
 
+          <div class="form-group">
+            <label class="form-label" for="imgBanner">
+              Imagen Banner (1200x450) <span style="font-size: 11px; color: var(--accent); font-weight: normal;">(Requerida para SuperNews)</span>
+            </label>
+            <input type="url" id="imgBanner" class="input-text" placeholder="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/...jpg">
+          </div>
+
           <div class="img-preview-box" id="previewBox">
             <div class="img-preview-placeholder" id="previewPlaceholder">
               <i class="ri-image-line"></i>
@@ -1039,7 +1046,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
             <img id="previewImg" src="" alt="Vista previa" style="display: none;">
           </div>
           <p class="form-hint" style="margin-top: 8px;">
-            <i class="ri-information-line" style="color: var(--accent);"></i> La imagen miniatura (540x320) también se inserta automáticamente al final del artículo junto con el pie de página oficial de ITNEWS.LAT y el píxel de seguimiento.
+            <i class="ri-information-line" style="color: var(--accent);"></i> La imagen miniatura (540x320) también se inserta automáticamente al pie del artículo. La imagen banner (1200x450) se utiliza como portada destacada en la cabecera cuando la nota es <strong>SuperNews</strong>.
           </p>
         </div>
 
@@ -1169,6 +1176,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
       const imgThumbnail = document.getElementById('imgThumbnail');
       const imgDetail = document.getElementById('imgDetail');
+      const imgBanner = document.getElementById('imgBanner');
       const previewImg = document.getElementById('previewImg');
       const previewPlaceholder = document.getElementById('previewPlaceholder');
 
@@ -1353,7 +1361,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
       // 7. Preview de Imagen
       function updateImagePreview() {
-        const url = imgThumbnail.value.trim() || imgDetail.value.trim();
+        const url = imgBanner.value.trim() || imgThumbnail.value.trim() || imgDetail.value.trim();
         if (url) {
           previewImg.src = url;
           previewImg.style.display = 'block';
@@ -1367,12 +1375,16 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
       imgThumbnail.addEventListener('input', () => {
         updateImagePreview();
-        // Si la de detalle está vacía y se pega una 540x320, sugerir automáticamente la 1024x680
+        // Sugerir automáticamente dimensiones correlativas
         if (!imgDetail.value && imgThumbnail.value.includes('540x320')) {
           imgDetail.value = imgThumbnail.value.replace('540x320', '1024x680');
         }
+        if (!imgBanner.value && imgThumbnail.value.includes('540x320')) {
+          imgBanner.value = imgThumbnail.value.replace('540x320', '1200x450');
+        }
       });
       imgDetail.addEventListener('input', updateImagePreview);
+      imgBanner.addEventListener('input', updateImagePreview);
 
       // 8. Generador de Documento Markdown / Frontmatter
       function generatePostContent() {
@@ -1386,6 +1398,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
         const thumb = imgThumbnail.value.trim();
         const detail = imgDetail.value.trim() || thumb;
+        const banner = imgBanner.value.trim();
 
         const countries = getSelectedCountries();
         const tag = getSelectedTag();
@@ -1424,6 +1437,10 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         yaml += `superArticle: ${isSuperArticle}\n`;
         yaml += `year: '${year}'\n`;
         yaml += `title: "${title.replace(/"/g, '\\"')}"\n`;
+        if (banner) {
+          yaml += `image-banner: >-\n  ${banner}\n`;
+        }
+        yaml += `week: '${week}'\n`;
         yaml += `image: >-\n  ${thumb}\n`;
         yaml += `detail-image: >-\n  ${detail}\n`;
 
@@ -1598,6 +1615,12 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           return;
         }
 
+        if (switchSuperNews.checked && !imgBanner.value.trim()) {
+          alert('Para publicar como SuperNews (destacado de portada), debes ingresar la Imagen Banner (1200x450).');
+          imgBanner.focus();
+          return;
+        }
+
         const countries = getSelectedCountries();
         if (countries.length === 0) {
           if (!confirm('No has seleccionado ningún país para esta nota. ¿Deseas asignarla por defecto a Venezuela?')) {
@@ -1725,6 +1748,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           week: postWeek.value,
           imgThumbnail: imgThumbnail.value,
           imgDetail: imgDetail.value,
+          imgBanner: imgBanner.value,
           countries: getSelectedCountries(),
           tag: getSelectedTag(),
           published: switchPublished.checked,
@@ -1746,6 +1770,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           if (draft.week) postWeek.value = draft.week;
           if (draft.imgThumbnail) imgThumbnail.value = draft.imgThumbnail;
           if (draft.imgDetail) imgDetail.value = draft.imgDetail;
+          if (draft.imgBanner) imgBanner.value = draft.imgBanner;
 
           if (Array.isArray(draft.countries) && draft.countries.length > 0) {
             countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
@@ -1783,6 +1808,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         postContent.value = '';
         imgThumbnail.value = '';
         imgDetail.value = '';
+        imgBanner.value = '';
         switchPublished.checked = true;
         switchSuperNews.checked = false;
         switchSuperArticle.checked = false;
@@ -1808,7 +1834,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
       const btnClearForm = document.getElementById('btnClearForm');
       if (btnClearForm) {
         btnClearForm.addEventListener('click', () => {
-          if (postTitle.value || postContent.value || imgThumbnail.value) {
+          if (postTitle.value || postContent.value || imgThumbnail.value || imgBanner.value) {
             if (confirm('¿Deseas limpiar todos los campos para redactar una nueva nota? Se borrará el borrador actual.')) {
               resetForm();
             }
@@ -1819,7 +1845,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
       }
 
       // Escuchadores de autoguardado en tiempo real
-      [postTitle, postContent, postDate, postTime, imgThumbnail, imgDetail].forEach(el => {
+      [postTitle, postContent, postDate, postTime, imgThumbnail, imgDetail, imgBanner].forEach(el => {
         el.addEventListener('input', saveDraft);
       });
       [switchPublished, switchSuperNews, switchSuperArticle].forEach(el => {
