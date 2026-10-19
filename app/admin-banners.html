@@ -1252,7 +1252,7 @@
           <div class="banner-card-top">
             <div class="banner-title-info">
               <h3>Banner Panregional del Index (Antes de Ediciones Países)</h3>
-              <span>Visible en la portada principal itnews.lat • <strong>Tamaño recomendado: 1200x150 px</strong> (o aspect ratio 8:1) • Archivo: <code>_data/home.yml</code></span>
+              <span>Visible en la portada principal itnews.lat • <strong>Tamaño fijo: 1200x450 px</strong> • Archivo: <code>_data/home.yml</code></span>
             </div>
             <label class="toggle-wrap">
               <input type="checkbox" id="home_active" ${b.active !== false ? 'checked' : ''}>
@@ -1261,39 +1261,136 @@
           </div>
 
           <div class="banner-inputs-grid">
-            <div class="form-group">
-              <label for="home_url"><i class="ri-external-link-line"></i> Enlace de Destino al hacer clic:</label>
-              <input type="url" id="home_url" value="${escapeHtml(b.url || '')}" placeholder="https://..." required>
+            <div class="form-group" style="grid-column: 1 / -1;">
+              <label for="home_url"><i class="ri-external-link-line"></i> Enlace Base de Destino al hacer clic:</label>
+              <input type="url" id="home_url" value="${escapeHtml(b.url || '')}" placeholder="https://ejemplo.com/landing" required>
             </div>
             <div class="form-group">
               <label for="home_title"><i class="ri-t-box-line"></i> Título descriptivo (Alt / Tooltip):</label>
-              <input type="text" id="home_title" value="${escapeHtml(b.title || '')}" placeholder="Título del anuncio..." required>
+              <input type="text" id="home_title" value="${escapeHtml(b.title || '')}" placeholder="Título o anunciante..." required>
+            </div>
+            <div class="form-group">
+              <label for="home_img"><i class="ri-image-line"></i> URL o Ruta de Imagen del Banner (1200x450 px):</label>
+              <input type="text" id="home_img" value="${escapeHtml(b.image || '')}" placeholder="https://.../BI.jpg" required>
             </div>
           </div>
 
-          <div class="form-group" style="margin-top: 14px;">
-            <label for="home_img"><i class="ri-image-line"></i> URL o Ruta de Imagen del Banner (1200x150 px recomendado):</label>
-            <input type="text" id="home_img" value="${escapeHtml(b.image || '')}" placeholder="assets/imagenes/banner-itnews-panregional.jpg" required>
-            <div style="font-size: 11.5px; color: var(--text-muted); margin-top: 4px;">
-              Diseñado para resolución de <strong>1200x150 px</strong> (se ajusta fluidamente al 100% en tablets y teléfonos). Puedes usar una ruta local o una URL directa.
+          <!-- Configuración de Parámetros UTM para Campañas Publicitarias -->
+          <div style="background: rgba(0, 0, 0, 0.03); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 14px 16px; margin-top: 14px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; flex-wrap: wrap; gap: 8px;">
+              <span style="font-size: 12px; font-weight: 700; color: var(--text-primary);"><i class="ri-line-chart-line" style="color: var(--primary);"></i> Parámetros de Campaña UTM (Google Analytics):</span>
+              <label style="font-size: 11.5px; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; color: var(--text-muted);">
+                <input type="checkbox" id="home_utm_auto" checked>
+                <span>Generar UTM automáticamente</span>
+              </label>
             </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px;">
+              <div>
+                <label style="font-size: 10.5px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 3px;">utm_source:</label>
+                <input type="text" id="home_utm_source" value="${escapeHtml(b.utm_source || 'itnews_app')}" placeholder="itnews_app" style="font-size: 12px; padding: 6px 10px;">
+              </div>
+              <div>
+                <label style="font-size: 10.5px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 3px;">utm_medium (Fijo):</label>
+                <input type="text" id="home_utm_medium" value="banner_1200x450" readonly style="font-size: 12px; padding: 6px 10px; background: rgba(0,0,0,0.06); cursor: not-allowed;">
+              </div>
+              <div>
+                <label style="font-size: 10.5px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 3px;">utm_campaign:</label>
+                <input type="text" id="home_utm_campaign" value="${escapeHtml(b.utm_campaign || 'Movilnet')}" placeholder="Movilnet" style="font-size: 12px; padding: 6px 10px;">
+              </div>
+              <div>
+                <label style="font-size: 10.5px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 3px;">utm_content:</label>
+                <input type="text" id="home_utm_content" value="${escapeHtml(b.utm_content || 'hero_banner')}" placeholder="hero_banner" style="font-size: 12px; padding: 6px 10px;">
+              </div>
+            </div>
+            <div style="font-size: 11px; color: var(--text-muted); margin-top: 8px;">
+              <i class="ri-magic-line" style="color: #10b981;"></i> URL final con tracking que se guardará:
+            </div>
+            <div class="utm-preview-box" id="home_utm_preview" style="word-break: break-all; margin-top: 4px;"></div>
           </div>
 
           <div class="banner-preview-box" style="margin-top: 16px;">
-            <label><i class="ri-eye-line"></i> Vista Previa en Vivo:</label>
-            <div class="preview-img-wrap" style="max-height: 180px; overflow: hidden; background: #000; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
+            <label><i class="ri-eye-line"></i> Vista Previa en Vivo (Resolución 1200x450):</label>
+            <div class="preview-img-wrap" style="max-height: 240px; overflow: hidden; background: #000; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
               <img id="prev_home_img" src="${escapeHtml(b.image || '')}" alt="Vista previa" style="max-width: 100%; height: auto; display: block;" onerror="this.src='https://raw.githubusercontent.com/itnewslat/assets/master/img/728x90/Disponible-publicidad.jpg'">
             </div>
           </div>
         `;
 
+        const homeUrlInput = card.querySelector('#home_url');
+        const homeTitleInput = card.querySelector('#home_title');
         const homeImgInput = card.querySelector('#home_img');
         const prevHomeImg = card.querySelector('#prev_home_img');
+        const homeUtmAuto = card.querySelector('#home_utm_auto');
+        const homeUtmSource = card.querySelector('#home_utm_source');
+        const homeUtmMedium = card.querySelector('#home_utm_medium');
+        const homeUtmCampaign = card.querySelector('#home_utm_campaign');
+        const homeUtmContent = card.querySelector('#home_utm_content');
+        const homeUtmPreview = card.querySelector('#home_utm_preview');
+
+        function computeFullHomeUrl() {
+          let base = homeUrlInput.value.trim();
+          if (!base) {
+            homeUtmPreview.textContent = 'Introduce una URL para ver los parámetros UTM';
+            return '';
+          }
+          if (!/^[a-zA-Z][a-zA-Z\d+\-.]*?:/.test(base) && !base.startsWith('//') && !base.startsWith('/') && !base.startsWith('#')) {
+            base = `https://${base}`;
+          }
+
+          if (homeUtmAuto.checked) {
+            try {
+              const urlObj = new URL(base);
+              const src = homeUtmSource.value.trim() || 'itnews_app';
+              const med = 'banner_1200x450';
+              const cmp = homeUtmCampaign.value.trim() || (homeTitleInput.value.trim() || 'campana').replace(/[^a-z0-9_-]/gi, '_');
+              const cnt = homeUtmContent.value.trim() || 'hero_banner';
+
+              urlObj.searchParams.set('utm_source', src);
+              urlObj.searchParams.set('utm_medium', med);
+              urlObj.searchParams.set('utm_campaign', cmp);
+              urlObj.searchParams.set('utm_content', cnt);
+              const finalUrl = urlObj.toString();
+              homeUtmPreview.textContent = finalUrl;
+              return finalUrl;
+            } catch(e) {
+              homeUtmPreview.textContent = base;
+              return base;
+            }
+          } else {
+            homeUtmPreview.textContent = base;
+            return base;
+          }
+        }
+
+        homeUrlInput.addEventListener('input', computeFullHomeUrl);
+        homeTitleInput.addEventListener('input', () => {
+          if (!homeUtmCampaign.dataset.userEdited) {
+            homeUtmCampaign.value = homeTitleInput.value.trim().replace(/[^a-z0-9_-]/gi, '_') || 'campana';
+          }
+          computeFullHomeUrl();
+        });
+        homeUtmCampaign.addEventListener('input', () => {
+          homeUtmCampaign.dataset.userEdited = 'true';
+          computeFullHomeUrl();
+        });
+        homeUtmSource.addEventListener('input', computeFullHomeUrl);
+        homeUtmContent.addEventListener('input', computeFullHomeUrl);
+        homeUtmAuto.addEventListener('change', () => {
+          const isAuto = homeUtmAuto.checked;
+          homeUtmSource.disabled = !isAuto;
+          homeUtmCampaign.disabled = !isAuto;
+          homeUtmContent.disabled = !isAuto;
+          computeFullHomeUrl();
+        });
+
         homeImgInput.addEventListener('input', () => {
           let val = homeImgInput.value.trim();
           if (val.startsWith('assets/')) val = '../' + val;
           prevHomeImg.src = val;
         });
+
+        // Calcular vista previa inicial
+        computeFullHomeUrl();
 
         homeBannersList.appendChild(card);
       }
@@ -1632,10 +1729,34 @@
           const i = document.getElementById('home_img');
           const t = document.getElementById('home_title');
           const a = document.getElementById('home_active');
-          if (u) homeBannerData.url = sanitizeTargetUrl(u.value);
+          const utmAuto = document.getElementById('home_utm_auto');
+          const utmSource = document.getElementById('home_utm_source');
+          const utmCampaign = document.getElementById('home_utm_campaign');
+          const utmContent = document.getElementById('home_utm_content');
+
+          let rawUrl = u ? sanitizeTargetUrl(u.value) : '';
+          if (rawUrl && utmAuto && utmAuto.checked) {
+            try {
+              const urlObj = new URL(rawUrl);
+              urlObj.searchParams.set('utm_source', (utmSource && utmSource.value.trim()) || 'itnews_app');
+              urlObj.searchParams.set('utm_medium', 'banner_1200x450');
+              urlObj.searchParams.set('utm_campaign', (utmCampaign && utmCampaign.value.trim()) || (t ? t.value.trim().replace(/[^a-z0-9_-]/gi, '_') : 'Movilnet'));
+              urlObj.searchParams.set('utm_content', (utmContent && utmContent.value.trim()) || 'hero_banner');
+              homeBannerData.url = urlObj.toString();
+            } catch(e) {
+              homeBannerData.url = rawUrl;
+            }
+          } else {
+            homeBannerData.url = rawUrl;
+          }
+
           if (i) homeBannerData.image = i.value.trim();
           if (t) homeBannerData.title = t.value.trim();
           if (a) homeBannerData.active = a.checked;
+          if (utmSource) homeBannerData.utm_source = utmSource.value.trim();
+          if (utmCampaign) homeBannerData.utm_campaign = utmCampaign.value.trim();
+          if (utmContent) homeBannerData.utm_content = utmContent.value.trim();
+
           localStorage.setItem(HOME_BANNER_KEY, JSON.stringify(homeBannerData));
         } else if (currentMode === 'countries' && countriesData && countriesData.countries) {
           const c = countriesData.countries[activeCountryKey];
