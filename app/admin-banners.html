@@ -518,12 +518,16 @@
     /* Uploader GitHub Styles */
     .uploader-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
       gap: 20px;
       margin-bottom: 24px;
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 1080px) {
+      .uploader-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 720px) {
       .uploader-grid { grid-template-columns: 1fr; }
     }
 
@@ -868,12 +872,46 @@
             </button>
           </div>
         </div>
+
+        <!-- Tarjeta 3: Banner 1200x450 (SuperNews / Portada) -->
+        <div class="uploader-card">
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <div>
+              <h3 style="font-family: 'Outfit'; font-size: 16px; font-weight: 700;">Imagen Banner (SuperNews)</h3>
+              <span class="badge-size" style="background: rgba(56, 189, 248, 0.15); border-color: rgba(56, 189, 248, 0.35); color: var(--accent);"><i class="ri-aspect-ratio-line"></i> 1200 x 450 px</span>
+            </div>
+            <span style="font-size: 11px; color: var(--text-muted);">Destino: <code>img/1200x450/</code></span>
+          </div>
+
+          <div class="dropzone-box" id="dropzoneBanner">
+            <i class="ri-image-add-line"></i>
+            <div style="font-weight: 600; font-size: 13.5px; margin-bottom: 4px;">Selecciona o arrastra el banner</div>
+            <div style="font-size: 12px; color: var(--text-muted);">Se adaptará y redimensionará a 1200x450 px</div>
+            <input type="file" id="fileBannerInput" accept="image/*" style="position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;">
+          </div>
+
+          <div class="preview-canvas-box" id="previewBannerBox">
+            <span style="color: var(--text-muted); font-size: 12px;">Sin banner cargado (Opcional si no es SuperNews)</span>
+          </div>
+
+          <div style="display: flex; gap: 8px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <span id="bannerFileInfo" style="font-size: 11.5px; color: var(--text-muted);"></span>
+            <div style="display: flex; gap: 6px; align-items: center;">
+              <button id="btnRemoveBanner" class="btn btn-secondary" style="font-size: 11px; padding: 5px 8px; display: none; color: #f87171;" title="Quitar banner">
+                <i class="ri-delete-bin-line"></i> Quitar
+              </button>
+              <button id="btnAutoGenerateBanner" class="btn btn-secondary" style="font-size: 11.5px; padding: 6px 10px; display: none;">
+                <i class="ri-magic-line"></i> Generar Banner (1200x450) desde Grande
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Botones de Acción de Carga -->
       <div style="display: flex; justify-content: center; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 24px;">
         <button id="btnUploadToGitHub" class="btn btn-primary" style="padding: 13px 32px; font-size: 15px; box-shadow: 0 4px 20px rgba(230, 43, 30, 0.4);">
-          <i class="ri-cloud-upload-line" style="font-size: 20px;"></i> Subir Ambas Imágenes a GitHub Ahora
+          <i class="ri-cloud-upload-line" style="font-size: 20px;"></i> Subir Imágenes a GitHub Ahora
         </button>
         <button id="btnClearUploadForm" class="btn btn-secondary" style="padding: 13px 24px; font-size: 14px; background: rgba(255,255,255,0.06); border: 1px solid var(--border-color);">
           <i class="ri-refresh-line" style="font-size: 18px; color: var(--accent);"></i> Limpiar / Nueva Carga
@@ -895,7 +933,7 @@
         <div style="display: flex; flex-direction: column; gap: 12px;">
           <div>
             <label style="font-size: 12px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; display: block;">
-              URL Imagen Grande (1024x620):
+              URL Imagen Grande (1024x680 / Detalle):
             </label>
             <div class="url-result-box">
               <span id="resUrlLarge">https://raw.githubusercontent.com/...</span>
@@ -907,11 +945,23 @@
 
           <div>
             <label style="font-size: 12px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; display: block;">
-              URL Imagen Pequeña (540x320):
+              URL Imagen Pequeña (540x320 / Miniatura):
             </label>
             <div class="url-result-box">
               <span id="resUrlSmall">https://raw.githubusercontent.com/...</span>
               <button class="btn btn-secondary" style="padding: 4px 10px; font-size: 11px;" onclick="navigator.clipboard.writeText(document.getElementById('resUrlSmall').textContent)">
+                <i class="ri-file-copy-line"></i> Copiar
+              </button>
+            </div>
+          </div>
+
+          <div id="resBoxBanner" style="display: none;">
+            <label style="font-size: 12px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; display: block;">
+              URL Imagen Banner (1200x450 / SuperNews):
+            </label>
+            <div class="url-result-box">
+              <span id="resUrlBanner">https://raw.githubusercontent.com/...</span>
+              <button class="btn btn-secondary" style="padding: 4px 10px; font-size: 11px;" onclick="navigator.clipboard.writeText(document.getElementById('resUrlBanner').textContent)">
                 <i class="ri-file-copy-line"></i> Copiar
               </button>
             </div>
@@ -922,7 +972,7 @@
               Bloque Markdown / YAML para el Post de Jekyll:
             </label>
             <div style="position: relative;">
-              <textarea id="resPostYamlBlock" style="width: 100%; height: 110px; background: #0d1117; border: 1px solid #30363d; border-radius: 8px; color: #4ade80; font-family: monospace; font-size: 12px; padding: 12px;" readonly></textarea>
+              <textarea id="resPostYamlBlock" style="width: 100%; height: 125px; background: #0d1117; border: 1px solid #30363d; border-radius: 8px; color: #4ade80; font-family: monospace; font-size: 12px; padding: 12px;" readonly></textarea>
               <button class="btn btn-primary" id="btnCopyYamlBlock" style="position: absolute; right: 12px; top: 12px; padding: 5px 12px; font-size: 11.5px;">
                 <i class="ri-file-copy-line"></i> Copiar Bloque Post
               </button>
@@ -2065,6 +2115,13 @@
       const smallFileInfo = document.getElementById('smallFileInfo');
       const btnRemoveSmall = document.getElementById('btnRemoveSmall');
 
+      const dropzoneBanner = document.getElementById('dropzoneBanner');
+      const fileBannerInput = document.getElementById('fileBannerInput');
+      const previewBannerBox = document.getElementById('previewBannerBox');
+      const bannerFileInfo = document.getElementById('bannerFileInfo');
+      const btnAutoGenerateBanner = document.getElementById('btnAutoGenerateBanner');
+      const btnRemoveBanner = document.getElementById('btnRemoveBanner');
+
       const btnUploadToGitHub = document.getElementById('btnUploadToGitHub');
       const btnClearUploadForm = document.getElementById('btnClearUploadForm');
       const btnNewUploadAfterSuccess = document.getElementById('btnNewUploadAfterSuccess');
@@ -2072,11 +2129,14 @@
       const uploadResultsCard = document.getElementById('uploadResultsCard');
       const resUrlLarge = document.getElementById('resUrlLarge');
       const resUrlSmall = document.getElementById('resUrlSmall');
+      const resUrlBanner = document.getElementById('resUrlBanner');
+      const resBoxBanner = document.getElementById('resBoxBanner');
       const resPostYamlBlock = document.getElementById('resPostYamlBlock');
       const btnCopyYamlBlock = document.getElementById('btnCopyYamlBlock');
 
       let largeImageData = null; // { base64, filename, mimeType }
       let smallImageData = null; // { base64, filename, mimeType }
+      let bannerImageData = null; // { base64, filename, mimeType }
 
       // Limpiar solo imagen grande
       function clearLargeImage() {
@@ -2087,6 +2147,7 @@
         }
         if (largeFileInfo) largeFileInfo.textContent = '';
         if (btnAutoGenerateSmall) btnAutoGenerateSmall.style.display = 'none';
+        if (btnAutoGenerateBanner) btnAutoGenerateBanner.style.display = 'none';
         if (btnRemoveLarge) btnRemoveLarge.style.display = 'none';
       }
 
@@ -2101,16 +2162,30 @@
         if (btnRemoveSmall) btnRemoveSmall.style.display = 'none';
       }
 
+      // Limpiar solo imagen banner
+      function clearBannerImage() {
+        bannerImageData = null;
+        if (fileBannerInput) fileBannerInput.value = '';
+        if (previewBannerBox) {
+          previewBannerBox.innerHTML = '<span style="color: var(--text-muted); font-size: 12px;">Sin banner cargado (Opcional si no es SuperNews)</span>';
+        }
+        if (bannerFileInfo) bannerFileInfo.textContent = '';
+        if (btnRemoveBanner) btnRemoveBanner.style.display = 'none';
+      }
+
       // Función para reiniciar y limpiar todo el uploader de imágenes
       function resetImageUploader() {
         clearLargeImage();
         clearSmallImage();
+        clearBannerImage();
 
         if (targetBaseFilename) targetBaseFilename.value = '';
         if (uploadProgressText) uploadProgressText.textContent = '';
         if (uploadResultsCard) uploadResultsCard.style.display = 'none';
         if (resUrlLarge) resUrlLarge.textContent = 'https://raw.githubusercontent.com/...';
         if (resUrlSmall) resUrlSmall.textContent = 'https://raw.githubusercontent.com/...';
+        if (resUrlBanner) resUrlBanner.textContent = 'https://raw.githubusercontent.com/...';
+        if (resBoxBanner) resBoxBanner.style.display = 'none';
         if (resPostYamlBlock) resPostYamlBlock.value = '';
       }
 
@@ -2172,6 +2247,7 @@
 
       // Drag and drop handlers
       function setupDropzone(zone, input, onFile) {
+        if (!zone || !input) return;
         zone.addEventListener('dragover', (e) => {
           e.preventDefault();
           zone.classList.add('dragover');
@@ -2236,7 +2312,7 @@
         if (!targetBaseFilename.value.trim()) {
           const cleanName = file.name
             .replace(/\.[^/.]+$/, '')
-            .replace(/[-_]?[gpGP]$/, '')
+            .replace(/[-_]?[gplGPL]$/, '')
             .trim();
           targetBaseFilename.value = cleanName;
         }
@@ -2249,6 +2325,7 @@
           `;
           largeFileInfo.textContent = `${file.name} (${Math.round(file.size / 1024)} KB)`;
           btnAutoGenerateSmall.style.display = 'inline-flex';
+          btnAutoGenerateBanner.style.display = 'inline-flex';
           btnRemoveLarge.style.display = 'inline-flex';
         });
       });
@@ -2285,12 +2362,54 @@
         img.src = largeImageData.dataUrl;
       });
 
+      // Botón para generar banner 1200x450 automáticamente desde la grande
+      btnAutoGenerateBanner.addEventListener('click', () => {
+        if (!largeImageData) return;
+        const img = new Image();
+        img.onload = function() {
+          const canvas = document.createElement('canvas');
+          canvas.width = 1200;
+          canvas.height = 450;
+          const ctx = canvas.getContext('2d');
+
+          ctx.fillStyle = '#000000';
+          ctx.fillRect(0, 0, 1200, 450);
+
+          const scale = Math.max(1200 / img.width, 450 / img.height);
+          const w = img.width * scale;
+          const h = img.height * scale;
+          const x = (1200 - w) / 2;
+          const y = (450 - h) / 2;
+
+          ctx.drawImage(img, x, y, w, h);
+
+          const base64DataUrl = canvas.toDataURL('image/jpeg', 0.92);
+          const base64Content = base64DataUrl.split(',')[1];
+
+          bannerImageData = {
+            dataUrl: base64DataUrl,
+            base64: base64Content,
+            width: 1200,
+            height: 450,
+            originalName: largeImageData.originalName
+          };
+
+          previewBannerBox.innerHTML = `
+            <img src="${base64DataUrl}" alt="1200x450">
+            <span style="font-size: 11.5px; color: #4ade80;">Generada automáticamente (1200x450 px)</span>
+          `;
+          bannerFileInfo.textContent = `Derivada de ${largeImageData.originalName}`;
+          btnRemoveBanner.style.display = 'inline-flex';
+        };
+        img.src = largeImageData.dataUrl;
+      });
+
       // Procesar Imagen Pequeña (540x320) individual
       setupDropzone(dropzoneSmall, fileSmallInput, (file) => {
         if (!targetBaseFilename.value.trim()) {
           const cleanName = file.name
             .replace(/\.[^/.]+$/, '')
-            .replace(/[-_]?[gpGP]$/, '')
+            .replace(/[-_]?[gplGPL]$/, '')
             .trim();
           targetBaseFilename.value = cleanName;
         }
@@ -2306,12 +2425,36 @@
         });
       });
 
+      // Procesar Imagen Banner (1200x450) individual
+      setupDropzone(dropzoneBanner, fileBannerInput, (file) => {
+        if (!targetBaseFilename.value.trim()) {
+          const cleanName = file.name
+            .replace(/\.[^/.]+$/, '')
+            .replace(/[-_]?[gplGPL]$/, '')
+            .trim();
+          targetBaseFilename.value = cleanName;
+        }
+
+        processAndResizeImage(file, 1200, 450, (result) => {
+          bannerImageData = result;
+          previewBannerBox.innerHTML = `
+            <img src="${result.dataUrl}" alt="1200x450">
+            <span style="font-size: 11.5px; color: #4ade80;">Lista (1200x450 px)</span>
+          `;
+          bannerFileInfo.textContent = `${file.name} (${Math.round(file.size / 1024)} KB)`;
+          btnRemoveBanner.style.display = 'inline-flex';
+        });
+      });
+
       // Listeners para quitar individualmente
       if (btnRemoveLarge) {
         btnRemoveLarge.addEventListener('click', clearLargeImage);
       }
       if (btnRemoveSmall) {
         btnRemoveSmall.addEventListener('click', clearSmallImage);
+      }
+      if (btnRemoveBanner) {
+        btnRemoveBanner.addEventListener('click', clearBannerImage);
       }
 
       // Función para subir un archivo a GitHub vía REST API
@@ -2372,31 +2515,42 @@
 
         const baseName = (targetBaseFilename.value.trim() || 'noticia-imagen').replace(/\.[^/.]+$/, '');
         if (!largeImageData || !smallImageData) {
-          alert('Por favor carga tanto la imagen Grande (1024x620) como la Pequeña (540x320). Puedes usar el botón mágico para generar la pequeña a partir de la grande.');
+          alert('Por favor carga tanto la imagen Grande (1024x620) como la Pequeña (540x320). Puedes usar el botón mágico para generar la pequeña o el banner a partir de la grande.');
           return;
         }
 
         const largeFileName = `${baseName}-g.jpg`;
         const smallFileName = `${baseName}-p.jpg`;
+        const bannerFileName = `${baseName}-l.jpg`;
 
         const pathLarge = `img/1024x680/${largeFileName}`;
         const pathSmall = `img/540x320/${smallFileName}`;
+        const pathBanner = `img/1200x450/${bannerFileName}`;
+
+        const totalSteps = bannerImageData ? 3 : 2;
 
         btnUploadToGitHub.disabled = true;
         btnUploadToGitHub.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Subiendo imágenes a GitHub...';
         uploadProgressText.style.color = 'var(--accent)';
-        uploadProgressText.textContent = '1/2 Subiendo imagen grande (1024x620)...';
+        uploadProgressText.textContent = `1/${totalSteps} Subiendo imagen grande (1024x620)...`;
 
         try {
           // Subir grande
           await uploadFileToGithub(pathLarge, largeImageData.base64, token);
 
           // Subir pequeña
-          uploadProgressText.textContent = '2/2 Subiendo imagen pequeña (540x320)...';
+          uploadProgressText.textContent = `2/${totalSteps} Subiendo imagen pequeña (540x320)...`;
           await uploadFileToGithub(pathSmall, smallImageData.base64, token);
 
+          let rawBannerUrl = '';
+          if (bannerImageData) {
+            uploadProgressText.textContent = `3/${totalSteps} Subiendo imagen banner (1200x450)...`;
+            await uploadFileToGithub(pathBanner, bannerImageData.base64, token);
+            rawBannerUrl = `https://raw.githubusercontent.com/${GH_REPO_OWNER}/${GH_REPO_NAME}/refs/heads/${GH_BRANCH}/${pathBanner}`;
+          }
+
           uploadProgressText.style.color = 'var(--success)';
-          uploadProgressText.textContent = '¡Ambas imágenes subidas con éxito a GitHub!';
+          uploadProgressText.textContent = `¡${totalSteps === 3 ? 'Las 3 imágenes' : 'Ambas imágenes'} se subieron con éxito a GitHub!`;
 
           // Construir URLs raw definitivas
           const rawLargeUrl = `https://raw.githubusercontent.com/${GH_REPO_OWNER}/${GH_REPO_NAME}/refs/heads/${GH_BRANCH}/${pathLarge}`;
@@ -2405,8 +2559,19 @@
           resUrlLarge.textContent = rawLargeUrl;
           resUrlSmall.textContent = rawSmallUrl;
 
+          if (rawBannerUrl) {
+            resUrlBanner.textContent = rawBannerUrl;
+            resBoxBanner.style.display = 'block';
+          } else {
+            resBoxBanner.style.display = 'none';
+          }
+
           // Bloque YAML para el Post Jekyll
-          const yamlBlock = `image: >-\n  ${rawSmallUrl}\ndetail-image: >-\n  ${rawLargeUrl}`;
+          let yamlBlock = '';
+          if (rawBannerUrl) {
+            yamlBlock += `image-banner: >-\n  ${rawBannerUrl}\n`;
+          }
+          yamlBlock += `image: >-\n  ${rawSmallUrl}\ndetail-image: >-\n  ${rawLargeUrl}`;
           resPostYamlBlock.value = yamlBlock;
 
           uploadResultsCard.style.display = 'block';
@@ -2419,7 +2584,7 @@
           alert(`Hubo un error al subir a GitHub: ${error.message}\nVerifica que el Token tenga permisos de escritura en itnewslat/assets.`);
         } finally {
           btnUploadToGitHub.disabled = false;
-          btnUploadToGitHub.innerHTML = '<i class="ri-cloud-upload-line" style="font-size: 20px;"></i> Subir Ambas Imágenes a GitHub Ahora';
+          btnUploadToGitHub.innerHTML = '<i class="ri-cloud-upload-line" style="font-size: 20px;"></i> Subir Imágenes a GitHub Ahora';
         }
       });
 
@@ -2435,7 +2600,7 @@
       // Botón Limpiar / Nueva Carga
       if (btnClearUploadForm) {
         btnClearUploadForm.addEventListener('click', () => {
-          if (largeImageData || smallImageData || targetBaseFilename.value) {
+          if (largeImageData || smallImageData || bannerImageData || targetBaseFilename.value) {
             if (confirm('¿Deseas limpiar todos los campos e imágenes cargadas para empezar una nueva carga?')) {
               resetImageUploader();
             }
