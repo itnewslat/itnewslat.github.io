@@ -640,6 +640,177 @@
       transform: translateX(3px);
     }
 
+    /* Tarjeta Destacada Panregional / América Latina */
+    .panregional-section {
+      margin-bottom: 45px;
+    }
+
+    .panregional-card {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+      transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .panregional-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1), 0 0 20px rgba(201, 31, 40, 0.12);
+      border-color: var(--primary);
+    }
+
+    .panregional-thumb {
+      position: relative;
+      min-height: 280px;
+      background: #0f172a;
+      overflow: hidden;
+    }
+
+    .panregional-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+      display: block;
+    }
+
+    .panregional-card:hover .panregional-thumb img {
+      transform: scale(1.05);
+    }
+
+    .panregional-badge-overlay {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      background: rgba(15, 23, 42, 0.88);
+      backdrop-filter: blur(8px);
+      color: #ffffff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .panregional-badge-overlay i {
+      color: #38bdf8;
+    }
+
+    .panregional-date-overlay {
+      position: absolute;
+      bottom: 16px;
+      right: 16px;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(6px);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11.5px;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .panregional-content {
+      padding: 30px 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .panregional-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+
+    .panregional-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: #0f172a;
+      margin-bottom: 14px;
+      transition: color 0.2s ease;
+    }
+
+    .panregional-card:hover .panregional-title {
+      color: var(--primary);
+    }
+
+    .panregional-excerpt {
+      font-size: 14px;
+      color: #475569;
+      line-height: 1.6;
+      margin-bottom: 22px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .panregional-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: auto;
+      padding-top: 16px;
+      border-top: 1px solid #f1f5f9;
+    }
+
+    .panregional-countries-flags {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 15px;
+    }
+
+    .panregional-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--primary);
+      font-size: 13.5px;
+      font-weight: 700;
+      transition: gap 0.2s ease;
+    }
+
+    .panregional-card:hover .panregional-cta {
+      gap: 12px;
+    }
+
+    @media (max-width: 900px) {
+      .panregional-card {
+        grid-template-columns: 1fr;
+      }
+      .panregional-thumb {
+        height: 220px;
+        min-height: auto;
+      }
+      .panregional-content {
+        padding: 22px;
+      }
+      .panregional-title {
+        font-size: 1.3rem;
+      }
+    }
+
     /* Footer */
     footer {
       border-top: 1px solid #e2e8f0;
@@ -745,6 +916,67 @@
     </div>
     {% endif %}
 
+    <!-- Noticia Panregional / América Latina Destacada -->
+    {% assign panregional_post = nil %}
+    {% for p in site.posts limit: 30 %}
+      {% if p.categories.size >= 4 %}
+        {% assign panregional_post = p %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if panregional_post %}
+    <div class="panregional-section">
+      <div class="section-title-wrap" style="margin-top: 10px;">
+        <div class="section-title">
+          <i class="fas fa-globe-americas"></i> Destacado Regional · América Latina
+        </div>
+        <div class="section-subtitle">
+          Cobertura panregional de tecnología para todos los países
+        </div>
+      </div>
+
+      <a href="{{ panregional_post.url }}" class="panregional-card" title="{{ panregional_post.title | escape }}">
+        <div class="panregional-thumb">
+          <img src="{{ panregional_post.detail-image | default: panregional_post.image }}" alt="{{ panregional_post.title | escape }}" loading="lazy">
+          <div class="panregional-badge-overlay">
+            <i class="fas fa-satellite-dish"></i> Panregional
+          </div>
+          <div class="panregional-date-overlay">
+            <i class="far fa-clock"></i> {{ panregional_post.date | date: "%d %b %Y" }}
+          </div>
+        </div>
+        <div class="panregional-content">
+          <div class="panregional-pill">
+            <i class="fas fa-bolt"></i> Cobertura Regional
+          </div>
+          <h2 class="panregional-title">
+            {{ panregional_post.title }}
+          </h2>
+          <div class="panregional-excerpt">
+            {{ panregional_post.content | strip_html | truncatewords: 35 }}
+          </div>
+          <div class="panregional-footer">
+            <div class="panregional-countries-flags" title="Publicado en toda la región">
+              <span class="fi fi-ar"></span>
+              <span class="fi fi-cl"></span>
+              <span class="fi fi-co"></span>
+              <span class="fi fi-ec"></span>
+              <span class="fi fi-mx"></span>
+              <span class="fi fi-pa"></span>
+              <span class="fi fi-pe"></span>
+              <span class="fi fi-ve"></span>
+            </div>
+            <div class="panregional-cta">
+              <span>Leer artículo completo</span>
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endif %}
+
     <!-- 2 & 3. Panel con 8 secciones de país (dinámico en Jekyll con site.categories) -->
     <div class="section-title-wrap">
       <div class="section-title">
@@ -763,15 +995,28 @@
         {% assign posts2 = site.categories[cat2] %}
         {% if posts1 and posts1.size > 0 and posts2 and posts2.size > 0 %}
           {% if posts1.first.date > posts2.first.date %}
-            {% assign latest_posts = posts1 %}
+            {% assign all_country_posts = posts1 %}
           {% else %}
-            {% assign latest_posts = posts2 %}
+            {% assign all_country_posts = posts2 %}
           {% endif %}
         {% elsif posts1 and posts1.size > 0 %}
-          {% assign latest_posts = posts1 %}
+          {% assign all_country_posts = posts1 %}
         {% else %}
-          {% assign latest_posts = posts2 %}
+          {% assign all_country_posts = posts2 %}
         {% endif %}
+
+        {% comment %} Buscar la primera noticia local que no sea panregional masiva (menos de 4 categorias) {% endcomment %}
+        {% assign local_item = nil %}
+        {% for candidate in all_country_posts %}
+          {% if candidate.categories.size < 4 %}
+            {% assign local_item = candidate %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% comment %} Si no tiene noticias locales exclusivas, toma la mas reciente {% endcomment %}
+        {% unless local_item %}
+          {% assign local_item = all_country_posts.first %}
+        {% endunless %}
         
         <div class="card-stack">
           <a href="{{ country.href }}" class="country-card" title="Ver todas las noticias de {{ country.element }}">
@@ -787,17 +1032,17 @@
               <span class="stack-badge"><i class="fas fa-layer-group"></i> + Edición</span>
             </div>
 
-            {% for item in latest_posts limit: 1 %}
+            {% if local_item %}
               <div class="news-thumb-wrapper">
-                <img src="{{ item.image }}" alt="{{ item.title | escape }}" loading="lazy">
+                <img src="{{ local_item.image }}" alt="{{ local_item.title | escape }}" loading="lazy">
                 <div class="news-date-tag">
-                  <i class="far fa-clock"></i> {{ item.date | date: "%d %b %Y" }}
+                  <i class="far fa-clock"></i> {{ local_item.date | date: "%d %b %Y" }}
                 </div>
               </div>
               <div class="news-body">
                 <span class="news-label-latest"><i class="fas fa-bolt"></i> Última Noticia</span>
-                <div class="news-title-link" title="{{ item.title | escape }}">
-                  {{ item.title | truncate: 85 }}
+                <div class="news-title-link" title="{{ local_item.title | escape }}">
+                  {{ local_item.title | truncate: 85 }}
                 </div>
                 <div class="country-footer-cta">
                   <div class="btn-explore-country">
@@ -822,7 +1067,7 @@
                   </div>
                 </div>
               </div>
-            {% endfor %}
+            {% endif %}
           </a>
         </div>
       {% endfor %}
