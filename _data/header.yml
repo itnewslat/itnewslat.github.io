@@ -4,41 +4,65 @@ headers:
     flag: flag-icon-ar
     fi_code: ar
     category: Argentina
+    color: "#74ACDF"
+    color_name: Celeste
+    schema: argentina
   - element: Chile
     href: /Chile/
     flag: flag-icon-cl
     fi_code: cl
     category: Chile
+    color: "#D52B1E"
+    color_name: Rojo Carmesí
+    schema: chile
   - element: Colombia
     href: /Colombia/
     flag: flag-icon-co
     fi_code: co
     category: Colombia
+    color: "#FCD116"
+    color_name: Amarillo
+    schema: colombia
   - element: Ecuador
     href: /Ecuador/
     flag: flag-icon-ec
     fi_code: ec
     category: Ecuador
+    color: "#FFD100"
+    color_name: Amarillo Vibrante
+    schema: ecuador
   - element: México
     href: /Mexico/
     flag: flag-icon-mx
     fi_code: mx
     category: Mexico
+    color: "#006847"
+    color_name: Verde
+    schema: mexico
   - element: Panamá
     href: /Panama/
     flag: flag-icon-pa
     fi_code: pa
     category: Panama
+    color: "#DA291C"
+    color_name: Rojo
+    schema: panama
   - element: Perú
     href: /Peru/
     flag: flag-icon-pe
     fi_code: pe
     category: Perú
+    color: "#D91023"
+    color_name: Rojo Intenso
+    schema: peru
   - element: Venezuela
     href: /Venezuela/
     flag: flag-icon-ve
     fi_code: ve
     category: Venezuela
+    color: "#641838"
+    color_name: Vinotinto
+    schema: venezuela
 
 
 global-publicity: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/728x90/728x90-ItNewsLa_BASES-2025.gif'

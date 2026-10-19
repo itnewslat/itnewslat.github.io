@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
   {% include posts/head.html %}
-  <body class="page page-blog-post navbar-layout-default">
+  {% assign postCountry = page.categories.first | default: 'Latinoamérica' %}
+  {% assign categoriesSize = page.categories | size %}
+  <body class="page page-blog-post navbar-layout-default{% if categoriesSize < 4 and postCountry != 'Latinoamérica' %} country-{{ postCountry | downcase | replace: 'á','a' | replace: 'é','e' | replace: 'í','i' | replace: 'ó','o' | replace: 'ú','u' }}{% endif %}" data-country="{% if categoriesSize < 4 %}{{ postCountry }}{% else %}Latinoamérica{% endif %}" data-colour-scheme="{% if categoriesSize < 4 %}{{ postCountry | downcase | replace: 'á','a' | replace: 'é','e' | replace: 'í','i' | replace: 'ó','o' | replace: 'ú','u' }}{% else %}red-dark{% endif %}">
     <div class="page-loader" data-toggle="page-loader"></div>
     <a href="#content" id="top" class="sr-only">Skip to content</a>
       {% include posts/header.html %}

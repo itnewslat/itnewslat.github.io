@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 {% include globals/head.html %}
-  <body class="page page-index-magazine navbar-layout-navbar-below" data-colour-scheme="{{page.color-schema}}">
+  <body class="page page-index-magazine navbar-layout-navbar-below{% if page.filterCategory %} country-{{ page.filterCategory | downcase | replace: 'á','a' | replace: 'é','e' | replace: 'í','i' | replace: 'ó','o' | replace: 'ú','u' }}{% endif %}" data-colour-scheme="{{page.color-schema}}" data-country="{{page.filterCategory}}">
     <div class="page-loader" data-toggle="page-loader"></div>
     <a id="#top" href="#content" class="sr-only">Skip to content</a>
       {{ content }}

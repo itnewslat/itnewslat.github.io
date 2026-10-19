@@ -221,15 +221,14 @@
   <!-- Theme style -->
   <link href="/assets/css/theme-style.min.css" rel="stylesheet">
 
-  <!-- Orange colour scheme -->
-  {% assign categories = page.categories | size %}
+  <!-- Theme colour scheme -->
+  {% assign categoriesCount = page.categories | size %}
   {% assign categoriesCase = page.categories %}
-  <link href="/assets/css/colour-{% if categories > 1 %}red-dark.min.css{% elsif categoriesCase contains 'Panama' %}green-bright.min.css{% elsif categoriesCase contains 'Colombia' %}yellow.min.css{% elsif categoriesCase contains 'Venezuela' %}red-dark.min.css{% elsif categoriesCase contains 'Ecuador' %}blue-dark.min.css{% elsif categoriesCase contains 'Perú' %}orange.min.css{% elsif categoriesCase contains 'Chile' %}red.min.css{% elsif categoriesCase contains 'Argentina' %}blue.min.css
-  {%endif%}"rel="stylesheet">
+  <link href="/assets/css/colour-{% if categoriesCount >= 4 %}red-dark.min.css{% elsif categoriesCase contains 'Panama' or categoriesCase contains 'Panamá' %}red.min.css{% elsif categoriesCase contains 'Colombia' %}yellow.min.css{% elsif categoriesCase contains 'Venezuela' %}red-dark.min.css{% elsif categoriesCase contains 'Ecuador' %}yellow.min.css{% elsif categoriesCase contains 'Perú' or categoriesCase contains 'Peru' %}red.min.css{% elsif categoriesCase contains 'Chile' %}red.min.css{% elsif categoriesCase contains 'Argentina' %}blue.min.css{% elsif categoriesCase contains 'Mexico' or categoriesCase contains 'México' %}green-bright.min.css{% else %}red-dark.min.css{% endif %}" rel="stylesheet">
 
 
   <!-- Your custom override -->
-  <link href="/assets/css/custom-style.css?v=20260916_02" rel="stylesheet">
+  <link href="/assets/css/custom-style.css?v=20261019_01" rel="stylesheet">
 
 
 

@@ -76,6 +76,18 @@
     'Venezuela': '🇻🇪 Venezuela'
   };
 
+  // Paleta de colores oficiales por país
+  const COUNTRY_COLORS = {
+    'Venezuela': '#641838',
+    'Colombia': '#FCD116',
+    'México': '#006847',
+    'Panamá': '#DA291C',
+    'Ecuador': '#FFD100',
+    'Perú': '#D91023',
+    'Chile': '#D52B1E',
+    'Argentina': '#74ACDF'
+  };
+
   // Init Theme - Default to light theme
   const savedTheme = localStorage.getItem('itnews_theme') || 'light';
   document.documentElement.setAttribute('data-theme', savedTheme);
@@ -125,6 +137,21 @@
     }
 
     return '🌎 Latinoamérica';
+  }
+
+  // Obtener color oficial del país para bordes y acentos visuales
+  function getPostCountryColor(post) {
+    const categories = post.categories || [];
+    if (categories.length >= 5) return '#c91f28'; // Rojo corporativo ITNEWS para Latinoamérica
+    for (const c of categories) {
+      for (const [k, hex] of Object.entries(COUNTRY_COLORS)) {
+        if (c.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === 
+            k.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")) {
+          return hex;
+        }
+      }
+    }
+    return '#c91f28';
   }
 
   // Load Data with automatic instant live sync from feed.xml
@@ -542,14 +569,15 @@
 
   function renderPostCard(post) {
     const flagText = getDisplayCountryBadge(post);
+    const countryColor = getPostCountryColor(post);
     const displayImage = post.image || post.detailImage || 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg';
     const tagsList = (post.tags || []).slice(0, 2);
 
     return `
-      <article class="news-card" data-id="${post.id}">
+      <article class="news-card" data-id="${post.id}" style="border-top: 3px solid ${countryColor};">
         <div class="card-media">
           <img src="${displayImage}" alt="${escapeHtml(post.title)}" loading="lazy" onerror="this.src='https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg'">
-          <span class="card-country-badge">${escapeHtml(flagText)}</span>
+          <span class="card-country-badge" style="border-color: ${countryColor}80; box-shadow: 0 2px 8px ${countryColor}33;">${escapeHtml(flagText)}</span>
         </div>
         <div class="card-content">
           ${tagsList.length ? `
@@ -570,15 +598,16 @@
 
   function renderSpecialReportCard(post) {
     const flagText = getDisplayCountryBadge(post);
+    const countryColor = getPostCountryColor(post);
     // Prefer higher resolution image for the special report
     const displayImage = post.detailImage || post.image || 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/itnewslat-g.jpg';
     const tagsList = post.tags || ['Actualidad'];
 
     return `
-      <article class="news-card special-report-card" data-id="${post.id}">
+      <article class="news-card special-report-card" data-id="${post.id}" style="border-top: 4px solid ${countryColor};">
         <div class="special-card-media">
           <img src="${displayImage}" alt="${escapeHtml(post.title)}" loading="lazy" onerror="this.src='https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg'">
-          <span class="card-country-badge">${escapeHtml(flagText)}</span>
+          <span class="card-country-badge" style="border-color: ${countryColor}80; box-shadow: 0 2px 8px ${countryColor}33;">${escapeHtml(flagText)}</span>
           <span class="special-highlight-badge"><i class="ri-star-fill"></i> Reportaje Especial</span>
         </div>
         <div class="special-card-content">

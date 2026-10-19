@@ -448,3 +448,255 @@
   }
 }
 
+/* ==========================================================================
+   PALETA OFICIAL DE COLORES POR PAÍS (ITNEWS.LAT)
+   Venezuela: #641838 (Vinotinto)
+   Colombia:  #FCD116 (Amarillo)
+   México:    #006847 (Verde)
+   Panamá:    #DA291C (Rojo)
+   Ecuador:   #FFD100 (Amarillo Vibrante)
+   Perú:      #D91023 (Rojo Intenso)
+   Chile:     #D52B1E (Rojo Carmesí)
+   Argentina: #74ACDF (Celeste)
+   ========================================================================== */
+
+/* 1. Venezuela: Vinotinto (#641838) */
+body[data-country="Venezuela"] .bg-primary,
+body[data-country="Venezuela"] .date-m.bg-primary,
+body[data-country="Venezuela"] .btn-primary,
+body[data-colour-scheme="venezuela"] .bg-primary,
+body[data-colour-scheme="venezuela"] .btn-primary,
+body.country-venezuela .bg-primary,
+body.country-venezuela .btn-primary {
+  background-color: #641838 !important;
+  border-color: #50132c !important;
+  color: #ffffff !important;
+}
+body[data-country="Venezuela"] a:hover,
+body[data-country="Venezuela"] .text-primary,
+body[data-country="Venezuela"] .author-link:hover,
+body[data-colour-scheme="venezuela"] a:hover,
+body[data-colour-scheme="venezuela"] .text-primary,
+body.country-venezuela a:hover,
+body.country-venezuela .text-primary {
+  color: #641838 !important;
+}
+body[data-country="Venezuela"] .article-byline-bar,
+body.country-venezuela .article-byline-bar {
+  border-left-color: #641838 !important;
+}
+
+/* 2. Colombia: Amarillo (#FCD116) con texto oscuro para contraste óptimo */
+body[data-country="Colombia"] .bg-primary,
+body[data-country="Colombia"] .date-m.bg-primary,
+body[data-country="Colombia"] .btn-primary,
+body[data-colour-scheme="colombia"] .bg-primary,
+body[data-colour-scheme="colombia"] .btn-primary,
+body.country-colombia .bg-primary,
+body.country-colombia .btn-primary {
+  background-color: #FCD116 !important;
+  border-color: #e5bd05 !important;
+  color: #0f172a !important;
+}
+body[data-country="Colombia"] .navbar-dark .navbar-nav .nav-link,
+body[data-country="Colombia"] .navbar-dark .navbar-brand,
+body[data-country="Colombia"] .header-search i,
+body[data-country="Colombia"] .navbar-dark a.text-white,
+body[data-country="Colombia"] .date-m.bg-primary,
+body.country-colombia .navbar-dark .navbar-nav .nav-link,
+body.country-colombia .navbar-dark .navbar-brand,
+body.country-colombia .date-m.bg-primary {
+  color: #0f172a !important;
+}
+body[data-country="Colombia"] a:hover,
+body[data-country="Colombia"] .text-primary,
+body[data-colour-scheme="colombia"] a:hover,
+body[data-colour-scheme="colombia"] .text-primary,
+body.country-colombia a:hover,
+body.country-colombia .text-primary {
+  color: #b59200 !important;
+}
+body[data-country="Colombia"] .article-byline-bar,
+body.country-colombia .article-byline-bar {
+  border-left-color: #FCD116 !important;
+}
+
+/* 3. México: Verde (#006847) */
+body[data-country="México"] .bg-primary,
+body[data-country="Mexico"] .bg-primary,
+body[data-country="México"] .date-m.bg-primary,
+body[data-country="Mexico"] .date-m.bg-primary,
+body[data-country="México"] .btn-primary,
+body[data-country="Mexico"] .btn-primary,
+body[data-colour-scheme="mexico"] .bg-primary,
+body[data-colour-scheme="mexico"] .btn-primary,
+body.country-mexico .bg-primary,
+body.country-mexico .btn-primary {
+  background-color: #006847 !important;
+  border-color: #004d34 !important;
+  color: #ffffff !important;
+}
+body[data-country="México"] a:hover,
+body[data-country="Mexico"] a:hover,
+body[data-country="México"] .text-primary,
+body[data-country="Mexico"] .text-primary,
+body[data-colour-scheme="mexico"] a:hover,
+body[data-colour-scheme="mexico"] .text-primary,
+body.country-mexico a:hover,
+body.country-mexico .text-primary {
+  color: #006847 !important;
+}
+body[data-country="México"] .article-byline-bar,
+body[data-country="Mexico"] .article-byline-bar,
+body.country-mexico .article-byline-bar {
+  border-left-color: #006847 !important;
+}
+
+/* 4. Panamá: Rojo (#DA291C) */
+body[data-country="Panamá"] .bg-primary,
+body[data-country="Panama"] .bg-primary,
+body[data-country="Panamá"] .date-m.bg-primary,
+body[data-country="Panama"] .date-m.bg-primary,
+body[data-country="Panamá"] .btn-primary,
+body[data-country="Panama"] .btn-primary,
+body[data-colour-scheme="panama"] .bg-primary,
+body[data-colour-scheme="panama"] .btn-primary,
+body.country-panama .bg-primary,
+body.country-panama .btn-primary {
+  background-color: #DA291C !important;
+  border-color: #b92015 !important;
+  color: #ffffff !important;
+}
+body[data-country="Panamá"] a:hover,
+body[data-country="Panama"] a:hover,
+body[data-country="Panamá"] .text-primary,
+body[data-country="Panama"] .text-primary,
+body[data-colour-scheme="panama"] a:hover,
+body[data-colour-scheme="panama"] .text-primary,
+body.country-panama a:hover,
+body.country-panama .text-primary {
+  color: #DA291C !important;
+}
+body[data-country="Panamá"] .article-byline-bar,
+body[data-country="Panama"] .article-byline-bar,
+body.country-panama .article-byline-bar {
+  border-left-color: #DA291C !important;
+}
+
+/* 5. Ecuador: Amarillo Vibrante (#FFD100) */
+body[data-country="Ecuador"] .bg-primary,
+body[data-country="Ecuador"] .date-m.bg-primary,
+body[data-country="Ecuador"] .btn-primary,
+body[data-colour-scheme="ecuador"] .bg-primary,
+body[data-colour-scheme="ecuador"] .btn-primary,
+body.country-ecuador .bg-primary,
+body.country-ecuador .btn-primary {
+  background-color: #FFD100 !important;
+  border-color: #e5bb00 !important;
+  color: #0f172a !important;
+}
+body[data-country="Ecuador"] .navbar-dark .navbar-nav .nav-link,
+body[data-country="Ecuador"] .navbar-dark .navbar-brand,
+body[data-country="Ecuador"] .header-search i,
+body[data-country="Ecuador"] .navbar-dark a.text-white,
+body[data-country="Ecuador"] .date-m.bg-primary,
+body.country-ecuador .navbar-dark .navbar-nav .nav-link,
+body.country-ecuador .navbar-dark .navbar-brand,
+body.country-ecuador .date-m.bg-primary {
+  color: #0f172a !important;
+}
+body[data-country="Ecuador"] a:hover,
+body[data-country="Ecuador"] .text-primary,
+body[data-colour-scheme="ecuador"] a:hover,
+body[data-colour-scheme="ecuador"] .text-primary,
+body.country-ecuador a:hover,
+body.country-ecuador .text-primary {
+  color: #b59400 !important;
+}
+body[data-country="Ecuador"] .article-byline-bar,
+body.country-ecuador .article-byline-bar {
+  border-left-color: #FFD100 !important;
+}
+
+/* 6. Perú: Rojo Intenso (#D91023) */
+body[data-country="Perú"] .bg-primary,
+body[data-country="Peru"] .bg-primary,
+body[data-country="Perú"] .date-m.bg-primary,
+body[data-country="Peru"] .date-m.bg-primary,
+body[data-country="Perú"] .btn-primary,
+body[data-country="Peru"] .btn-primary,
+body[data-colour-scheme="peru"] .bg-primary,
+body[data-colour-scheme="peru"] .btn-primary,
+body.country-peru .bg-primary,
+body.country-peru .btn-primary {
+  background-color: #D91023 !important;
+  border-color: #b30b1b !important;
+  color: #ffffff !important;
+}
+body[data-country="Perú"] a:hover,
+body[data-country="Peru"] a:hover,
+body[data-country="Perú"] .text-primary,
+body[data-country="Peru"] .text-primary,
+body[data-colour-scheme="peru"] a:hover,
+body[data-colour-scheme="peru"] .text-primary,
+body.country-peru a:hover,
+body.country-peru .text-primary {
+  color: #D91023 !important;
+}
+body[data-country="Perú"] .article-byline-bar,
+body[data-country="Peru"] .article-byline-bar,
+body.country-peru .article-byline-bar {
+  border-left-color: #D91023 !important;
+}
+
+/* 7. Chile: Rojo Carmesí (#D52B1E) */
+body[data-country="Chile"] .bg-primary,
+body[data-country="Chile"] .date-m.bg-primary,
+body[data-country="Chile"] .btn-primary,
+body[data-colour-scheme="chile"] .bg-primary,
+body[data-colour-scheme="chile"] .btn-primary,
+body.country-chile .bg-primary,
+body.country-chile .btn-primary {
+  background-color: #D52B1E !important;
+  border-color: #b01f14 !important;
+  color: #ffffff !important;
+}
+body[data-country="Chile"] a:hover,
+body[data-country="Chile"] .text-primary,
+body[data-colour-scheme="chile"] a:hover,
+body[data-colour-scheme="chile"] .text-primary,
+body.country-chile a:hover,
+body.country-chile .text-primary {
+  color: #D52B1E !important;
+}
+body[data-country="Chile"] .article-byline-bar,
+body.country-chile .article-byline-bar {
+  border-left-color: #D52B1E !important;
+}
+
+/* 8. Argentina: Celeste (#74ACDF) */
+body[data-country="Argentina"] .bg-primary,
+body[data-country="Argentina"] .date-m.bg-primary,
+body[data-country="Argentina"] .btn-primary,
+body[data-colour-scheme="argentina"] .bg-primary,
+body[data-colour-scheme="argentina"] .btn-primary,
+body.country-argentina .bg-primary,
+body.country-argentina .btn-primary {
+  background-color: #74ACDF !important;
+  border-color: #5292cf !important;
+  color: #ffffff !important;
+}
+body[data-country="Argentina"] a:hover,
+body[data-country="Argentina"] .text-primary,
+body[data-colour-scheme="argentina"] a:hover,
+body[data-colour-scheme="argentina"] .text-primary,
+body.country-argentina a:hover,
+body.country-argentina .text-primary {
+  color: #3b82c4 !important;
+}
+body[data-country="Argentina"] .article-byline-bar,
+body.country-argentina .article-byline-bar {
+  border-left-color: #74ACDF !important;
+}
+
+

@@ -625,11 +625,15 @@
     }
 
     .btn-explore-country:hover {
-      background: var(--primary);
-      border-color: var(--primary);
+      background: var(--country-accent, var(--primary));
+      border-color: var(--country-accent, var(--primary));
       color: #ffffff;
       padding-right: 12px;
-      box-shadow: 0 4px 12px var(--primary-glow);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-stack:hover .card-stack::before {
+      border-color: var(--c-accent, #cbd5e1);
     }
 
     .btn-explore-country i {
@@ -1018,9 +1022,9 @@
           {% assign local_item = all_country_posts.first %}
         {% endunless %}
         
-        <div class="card-stack">
-          <a href="{{ country.href }}" class="country-card" title="Ver todas las noticias de {{ country.element }}">
-            <div class="country-header">
+        <div class="card-stack" style="--c-accent: {{ country.color | default: '#c91f28' }};">
+          <a href="{{ country.href }}" class="country-card" title="Ver todas las noticias de {{ country.element }}" style="border-top: 4px solid {{ country.color | default: '#c91f28' }};">
+            <div class="country-header" style="background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);">
               <div class="country-info">
                 {% if country.fi_code %}
                   <span class="fi fi-{{ country.fi_code }} country-flag"></span>
@@ -1029,7 +1033,9 @@
                 {% endif %}
                 <span class="country-name">{{ country.element }}</span>
               </div>
-              <span class="stack-badge"><i class="fas fa-layer-group"></i> + Edición</span>
+              <span class="stack-badge" style="background: {{ country.color | default: '#2563eb' }}18; color: {% if country.color == '#FCD116' or country.color == '#FFD100' %}#947600{% else %}{{ country.color | default: '#2563eb' }}{% endif %}; border-color: {{ country.color | default: '#2563eb' }}40;">
+                <i class="fas fa-layer-group"></i> + Edición
+              </span>
             </div>
 
             {% if local_item %}
@@ -1040,12 +1046,14 @@
                 </div>
               </div>
               <div class="news-body">
-                <span class="news-label-latest"><i class="fas fa-bolt"></i> Última Noticia</span>
+                <span class="news-label-latest" style="color: {% if country.color == '#FCD116' or country.color == '#FFD100' %}#947600{% else %}{{ country.color | default: '#c91f28' }}{% endif %};">
+                  <i class="fas fa-bolt"></i> Última Noticia
+                </span>
                 <div class="news-title-link" title="{{ local_item.title | escape }}">
                   {{ local_item.title | truncate: 85 }}
                 </div>
                 <div class="country-footer-cta">
-                  <div class="btn-explore-country">
+                  <div class="btn-explore-country btn-explore-country-custom" style="--country-accent: {{ country.color | default: '#c91f28' }};">
                     <span>Conoce las noticias de {{ country.element }}</span>
                     <i class="fas fa-arrow-right"></i>
                   </div>
@@ -1056,12 +1064,14 @@
                 <i class="fas fa-newspaper fa-2x"></i>
               </div>
               <div class="news-body">
-                <span class="news-label-latest"><i class="fas fa-newspaper"></i> Edición Digital</span>
+                <span class="news-label-latest" style="color: {% if country.color == '#FCD116' or country.color == '#FFD100' %}#947600{% else %}{{ country.color | default: '#c91f28' }}{% endif %};">
+                  <i class="fas fa-newspaper"></i> Edición Digital
+                </span>
                 <div class="news-title-link">
                   Edición Digital de {{ country.element }}
                 </div>
                 <div class="country-footer-cta">
-                  <div class="btn-explore-country">
+                  <div class="btn-explore-country btn-explore-country-custom" style="--country-accent: {{ country.color | default: '#c91f28' }};">
                     <span>Conoce las noticias de {{ country.element }}</span>
                     <i class="fas fa-arrow-right"></i>
                   </div>
