@@ -3,7 +3,7 @@ layout: posts
 color-schema: red-dark
 date: '2026-09-21 17:40 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2026'
 title: "La Empresa Autónoma en América Latina"
