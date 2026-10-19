@@ -1494,6 +1494,89 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         return window.btoa(unescape(encodeURIComponent(str)));
       }
 
+      function base64ToUtf8(str) {
+        return decodeURIComponent(escape(window.atob(str.replace(/\s/g, ''))));
+      }
+
+      // Helper: Desactivar superNews anteriores cuando se publica una nueva
+      async function deactivatePreviousSuperNews(token, currentTargetPath) {
+        const headers = {
+          'Authorization': `Bearer ${token}`,
+          'Accept': 'application/vnd.github.v3+json'
+        };
+
+        const candidatePaths = new Set();
+
+        // 1. Intentar buscar posts que contengan superNews: true vía GitHub Code Search API
+        try {
+          const searchUrl = `https://api.github.com/search/code?q=repo:${REPO_OWNER}/${REPO_NAME}+path:_posts+superNews:+true`;
+          const sRes = await fetch(searchUrl, { headers });
+          if (sRes.ok) {
+            const sData = await sRes.json();
+            if (sData.items && sData.items.length > 0) {
+              sData.items.forEach(item => {
+                if (item.path && item.path.startsWith('_posts/') && item.path !== currentTargetPath) {
+                  candidatePaths.add(item.path);
+                }
+              });
+            }
+          }
+        } catch (e) {
+          console.warn('Búsqueda por GitHub Code Search API no disponible o con rate limit, recurriendo a verificación directa:', e);
+        }
+
+        // 2. Respaldo de seguridad: consultar el último post conocido con superNews activo
+        candidatePaths.add('_posts/2026-09-21-la-empresa-autonoma-en-america-latina-salvatore-cherchi-abside.md');
+
+        let deactivatedCount = 0;
+
+        for (const filePath of candidatePaths) {
+          if (filePath === currentTargetPath) continue;
+
+          try {
+            const fileApiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}`;
+            const fileRes = await fetch(fileApiUrl, { headers });
+            if (!fileRes.ok) continue;
+
+            const fileJson = await fileRes.json();
+            if (!fileJson.content || !fileJson.sha) continue;
+
+            const decodedContent = base64ToUtf8(fileJson.content);
+
+            // Verificar si realmente tiene superNews: true
+            if (/superNews:\s*true/i.test(decodedContent)) {
+              console.log(`Desactivando superNews activo en: ${filePath}`);
+              const updatedContent = decodedContent.replace(/superNews:\s*true/gi, 'superNews: false');
+
+              const putRes = await fetch(fileApiUrl, {
+                method: 'PUT',
+                headers: {
+                  ...headers,
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                  message: `Desactivar superNews anterior en ${filePath} para dar paso a nueva nota`,
+                  content: utf8ToBase64(updatedContent),
+                  sha: fileJson.sha,
+                  branch: REPO_BRANCH
+                })
+              });
+
+              if (putRes.ok) {
+                deactivatedCount++;
+                console.log(`SuperNews desactivado con éxito en ${filePath}`);
+              } else {
+                console.warn(`No se pudo actualizar ${filePath}:`, await putRes.text());
+              }
+            }
+          } catch (err) {
+            console.error(`Error al procesar desactivación de superNews en ${filePath}:`, err);
+          }
+        }
+
+        return deactivatedCount;
+      }
+
       // 12. Publicar en GitHub (_posts/)
       btnPublishNote.addEventListener('click', async () => {
         // Validaciones
@@ -1537,7 +1620,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         const fileName = getFileName();
         const targetPath = `_posts/${fileName}`;
         const fileContent = generatePostContent();
-        const commitMsg = `Publicar nota: ${postTitle.value.trim()} va Panel de Redaccin ITNEWS`;
+        const commitMsg = `Publicar nota: ${postTitle.value.trim()} vía Panel de Redacción ITNEWS`;
 
         if (!confirm(`¿Confirmas la publicación de esta nota en ITNEWS.LAT?\n\nArchivo de destino: ${targetPath}\nEdiciones: ${getSelectedCountries().join(', ')}`)) {
           return;
@@ -1547,6 +1630,20 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         btnPublishNote.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Publicando en GitHub...';
 
         try {
+          // Si esta nota es SuperNews, desactivar automáticamente la anterior
+          if (switchSuperNews.checked) {
+            btnPublishNote.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Actualizando SuperNews anterior...';
+            try {
+              const countDeactivated = await deactivatePreviousSuperNews(token, targetPath);
+              if (countDeactivated > 0) {
+                console.log(`Se desactivaron ${countDeactivated} SuperNews anteriores.`);
+              }
+            } catch (errDeact) {
+              console.warn('Aviso al desactivar SuperNews anterior:', errDeact);
+            }
+            btnPublishNote.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Publicando nueva nota...';
+          }
+
           const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${targetPath}`;
 
           // Verificar si ya existe (sha)
