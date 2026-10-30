@@ -1704,8 +1704,17 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           });
 
           if (!res.ok) {
-            const errData = await res.json();
-            throw new Error(errData.message || `Error HTTP ${res.status}`);
+            let errorMsg = `Error HTTP ${res.status}`;
+            try {
+              const errText = await res.text();
+              if (errText) {
+                const errData = JSON.parse(errText);
+                errorMsg = errData.message || errorMsg;
+              }
+            } catch (_) {
+              // Si no viene en formato JSON, se mantiene el status HTTP
+            }
+            throw new Error(errorMsg);
           }
 
           clearDraft();
