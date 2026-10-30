@@ -1375,17 +1375,14 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
       imgThumbnail.addEventListener('input', () => {
         updateImagePreview();
-        // Sugerir automáticamente dimensiones correlativas
+        // Sugerir automáticamente imagen de detalle (1024x680) si está vacía
         if (!imgDetail.value && imgThumbnail.value.includes('540x320')) {
           imgDetail.value = imgThumbnail.value.replace('540x320', '1024x680');
-        }
-        if (!imgBanner.value && imgThumbnail.value.includes('540x320')) {
-          imgBanner.value = imgThumbnail.value.replace('540x320', '1200x450');
         }
       });
       imgDetail.addEventListener('input', updateImagePreview);
 
-      // Auto-sincronización con SuperNews
+      // Auto-sincronización con SuperNews: SOLO si el usuario ingresa manualmente el banner 1200x450
       imgBanner.addEventListener('input', () => {
         updateImagePreview();
         if (imgBanner.value.trim().length > 10 && !switchSuperNews.checked) {
