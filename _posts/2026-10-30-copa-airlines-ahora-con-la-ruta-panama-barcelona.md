@@ -3,12 +3,10 @@ layout: posts
 color-schema: red-dark
 date: '2026-10-30 10:56 -0400'
 published: true
-superNews: true
+superNews: false
 superArticle: false
 year: '2026'
 title: "COPA AIRLINES AHORA CON LA RUTA PANAMÁ – BARCELONA"
-image-banner: >-
-  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/copa-airlines-ahora-con-la-ruta-panama-barcelona-l.jpg
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/copa-airlines-ahora-con-la-ruta-panama-barcelona-p.jpg
 detail-image: >-
