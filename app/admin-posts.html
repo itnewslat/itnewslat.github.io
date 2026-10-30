@@ -1384,7 +1384,21 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         }
       });
       imgDetail.addEventListener('input', updateImagePreview);
-      imgBanner.addEventListener('input', updateImagePreview);
+
+      // Auto-sincronización con SuperNews
+      imgBanner.addEventListener('input', () => {
+        updateImagePreview();
+        if (imgBanner.value.trim().length > 10 && !switchSuperNews.checked) {
+          switchSuperNews.checked = true;
+          showToast('Se activó automáticamente la opción "Super Noticia" por incluir imagen banner (1200x450)', 'success');
+        }
+      });
+
+      switchSuperNews.addEventListener('change', () => {
+        if (!switchSuperNews.checked && imgBanner.value.trim().length > 0) {
+          showToast('Nota configurada como noticia regular (estándar)', 'error');
+        }
+      });
 
       // 8. Generador de Documento Markdown / Frontmatter
       function generatePostContent() {
@@ -1437,7 +1451,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         yaml += `superArticle: ${isSuperArticle}\n`;
         yaml += `year: '${year}'\n`;
         yaml += `title: "${title.replace(/"/g, '\\"')}"\n`;
-        if (banner) {
+        if (isSuperNews && banner) {
           yaml += `image-banner: >-\n  ${banner}\n`;
         }
         yaml += `week: '${week}'\n`;
@@ -1619,6 +1633,26 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           alert('Para publicar como SuperNews (destacado de portada), debes ingresar la Imagen Banner (1200x450).');
           imgBanner.focus();
           return;
+        }
+
+        // Si se colocó Imagen Banner (1200x450) pero el interruptor de SuperNews quedó apagado
+        if (!switchSuperNews.checked && imgBanner.value.trim()) {
+          const activar = confirm(
+            'Has ingresado una Imagen Banner (1200x450), pero la opción "Super Noticia" (SuperNews) está apagada.\n\n' +
+            '¿Deseas activar esta nota como SuperNews para destacarla en la portada de ITNEWS.LAT?'
+          );
+          if (activar) {
+            switchSuperNews.checked = true;
+          } else {
+            // Si el usuario decide NO ser superNews, limpiar o no enviar image-banner
+            const descartarBanner = confirm(
+              '¿Deseas quitar la Imagen Banner para publicar la nota como una noticia regular estándar?'
+            );
+            if (descartarBanner) {
+              imgBanner.value = '';
+              updateImagePreview();
+            }
+          }
         }
 
         const countries = getSelectedCountries();
