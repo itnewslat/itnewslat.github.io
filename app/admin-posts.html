@@ -193,6 +193,7 @@
       align-items: center;
       gap: 6px;
       transition: all 0.2s;
+      cursor: pointer;
     }
 
     .nav-btn:hover {
@@ -221,7 +222,7 @@
       border: 1px solid var(--border-color);
       border-radius: 12px;
       padding: 16px 20px;
-      margin-bottom: 24px;
+      margin-bottom: 18px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -303,10 +304,178 @@
       background: #232e42;
     }
 
+    /* Recent Posts Drawer */
+    .recent-posts-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+
+    .recent-posts-header {
+      padding: 13px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      user-select: none;
+      background: rgba(24, 32, 48, 0.55);
+      transition: background 0.2s;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .recent-posts-header:hover {
+      background: rgba(24, 32, 48, 0.9);
+    }
+
+    .recent-posts-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .recent-posts-title i {
+      color: var(--accent);
+      font-size: 18px;
+    }
+
+    .recent-posts-body {
+      padding: 16px 20px;
+      border-top: 1px solid var(--border-color);
+      display: none;
+    }
+
+    .recent-posts-body.open {
+      display: block;
+    }
+
+    .recent-posts-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .recent-posts-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      max-height: 310px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .recent-post-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 14px;
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      font-size: 13px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .recent-post-item:hover {
+      border-color: #3e506d;
+      background: #1e283a;
+    }
+
+    .recent-post-info {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      min-width: 0;
+      flex: 1;
+    }
+
+    .recent-post-name {
+      color: #fff;
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .recent-post-meta {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .recent-post-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .btn-mini-action {
+      background: var(--bg-elevated);
+      color: #e2e8f0;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 11.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+
+    .btn-mini-action:hover {
+      border-color: var(--accent);
+      color: #fff;
+      background: rgba(56, 189, 248, 0.12);
+    }
+
+    .btn-mini-action.edit-btn {
+      border-color: rgba(245, 158, 11, 0.4);
+      color: #fcd34d;
+    }
+
+    .btn-mini-action.edit-btn:hover {
+      background: rgba(245, 158, 11, 0.18);
+      border-color: var(--warning);
+      color: #fff;
+    }
+
+    /* Edit Mode Banner */
+    .edit-mode-banner {
+      background: rgba(245, 158, 11, 0.14);
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      color: #fde68a;
+      border-radius: 12px;
+      padding: 12px 18px;
+      margin-bottom: 20px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      flex-wrap: wrap;
+    }
+
+    .edit-mode-banner.active {
+      display: flex;
+    }
+
     /* Grid Layout */
     .editor-grid {
       display: grid;
-      grid-template-columns: 1fr 380px;
+      grid-template-columns: 1fr 390px;
       gap: 24px;
       align-items: start;
     }
@@ -335,6 +504,8 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
     }
 
     .panel-title i {
@@ -391,7 +562,7 @@
       font-family: 'Inter', sans-serif;
       line-height: 1.6;
       resize: vertical;
-      min-height: 280px;
+      min-height: 310px;
     }
 
     /* Slug Preview */
@@ -584,6 +755,70 @@
       transform: translateX(20px);
     }
 
+    /* Quick Image Uploader inside admin-posts */
+    .quick-upload-box {
+      background: rgba(24, 32, 48, 0.75);
+      border: 1.5px dashed #3b4d66;
+      border-radius: 11px;
+      padding: 14px;
+      margin-bottom: 18px;
+      transition: all 0.2s ease;
+    }
+
+    .quick-upload-box.dragover {
+      border-color: var(--accent);
+      background: rgba(56, 189, 248, 0.1);
+    }
+
+    .quick-upload-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .quick-drop-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      padding: 14px 10px;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 8px;
+      background: rgba(10, 13, 20, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      transition: all 0.2s;
+    }
+
+    .quick-drop-area:hover {
+      background: rgba(56, 189, 248, 0.08);
+      border-color: rgba(56, 189, 248, 0.3);
+    }
+
+    .quick-drop-area i {
+      font-size: 24px;
+      color: var(--accent);
+    }
+
+    .quick-upload-options {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .quick-upload-status {
+      margin-top: 8px;
+      font-size: 11.5px;
+      line-height: 1.4;
+      display: none;
+    }
+
     /* Image Preview */
     .img-preview-box {
       width: 100%;
@@ -623,6 +858,7 @@
     .md-toolbar {
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
       gap: 6px;
       background: var(--bg-elevated);
       border: 1px solid var(--border-color);
@@ -635,19 +871,34 @@
       background: none;
       border: 1px solid transparent;
       color: var(--text-muted);
-      border-radius: 4px;
+      border-radius: 5px;
       padding: 4px 8px;
-      font-size: 13px;
+      font-size: 12.5px;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
       gap: 4px;
+      transition: all 0.15s;
     }
 
     .md-btn:hover {
       background: var(--bg-card);
       color: #fff;
       border-color: var(--border-color);
+    }
+
+    .md-btn-magic {
+      background: rgba(56, 189, 248, 0.12);
+      border-color: rgba(56, 189, 248, 0.35);
+      color: var(--accent);
+      font-weight: 600;
+      margin-left: auto;
+    }
+
+    .md-btn-magic:hover {
+      background: rgba(56, 189, 248, 0.22);
+      border-color: var(--accent);
+      color: #fff;
     }
 
     .textarea-with-toolbar {
@@ -847,7 +1098,7 @@
     </div>
     <div class="admin-nav-links">
       <a href="/app/admin-banners.html#upload" target="_blank" rel="noopener noreferrer" class="nav-btn" style="border-color: rgba(56, 189, 248, 0.4); color: var(--accent);">
-        <i class="ri-upload-cloud-2-line"></i> Subir Imágenes (Nueva Ventana)
+        <i class="ri-upload-cloud-2-line"></i> Gestor Avanzado de Imágenes
       </a>
       <a href="/app/admin-banners.html" target="_blank" rel="noopener noreferrer" class="nav-btn">
         <i class="ri-image-line"></i> Banners & Assets <i class="ri-external-link-line" style="font-size: 11px; opacity: 0.7;"></i>
@@ -868,7 +1119,7 @@
         <div>
           <strong style="color: #fff; font-size: 13.5px;">GitHub Personal Access Token (PAT)</strong>
           <p style="font-size: 11.5px; color: var(--text-muted); margin-top: 2px;">
-            Permite publicar en <code>_posts/</code> de <code>itnewslat/itnewslat.github.io</code>. Se guarda de forma local en tu navegador.
+            Permite publicar notas en <code>itnewslat.github.io</code> y subir imágenes directo a <code>itnewslat/assets</code>.
           </p>
         </div>
       </div>
@@ -883,6 +1134,47 @@
           <i class="ri-save-line"></i> Guardar
         </button>
       </div>
+    </div>
+
+    <!-- Recent Posts History & Quick Edit Drawer -->
+    <div class="recent-posts-card">
+      <div class="recent-posts-header" id="recentPostsToggle">
+        <div class="recent-posts-title">
+          <i class="ri-history-line"></i>
+          <span>Últimas Notas Publicadas (Editar, Corregir o Copiar Link)</span>
+          <span id="recentPostsCountBadge" style="font-size: 11px; background: var(--bg-input); border: 1px solid var(--border-color); padding: 2px 8px; border-radius: 12px; color: var(--text-muted); font-family: 'Inter', sans-serif;">Haz clic para desplegar</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <button type="button" id="btnRefreshRecentPosts" class="nav-btn" style="padding: 5px 11px; font-size: 12px;">
+            <i class="ri-refresh-line"></i> Actualizar Lista
+          </button>
+          <i id="recentPostsChevron" class="ri-arrow-down-s-line" style="font-size: 20px; color: var(--text-muted);"></i>
+        </div>
+      </div>
+      <div class="recent-posts-body" id="recentPostsBody">
+        <div class="recent-posts-toolbar">
+          <input type="text" id="recentPostsSearch" class="input-text" placeholder="Buscar entre las notas recientes por palabra clave o fecha (ej. 2026-10-30, kaspersky...)" style="flex: 1; padding: 8px 12px; font-size: 13px;">
+        </div>
+        <div id="recentPostsList" class="recent-posts-list">
+          <div style="color: var(--text-muted); font-size: 13px; padding: 12px; text-align: center;">
+            Presiona "Actualizar Lista" para consultar las últimas notas publicadas en GitHub.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Edit Mode Banner -->
+    <div id="editModeBanner" class="edit-mode-banner">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <i class="ri-edit-box-line" style="font-size: 20px; color: var(--warning);"></i>
+        <div>
+          <strong>Modo Edición Activo:</strong> Estás editando el archivo <code id="editModeFileLabel" style="color: #fff; background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px;">_posts/...</code>
+          <div style="font-size: 11.5px; color: #fde68a; opacity: 0.9;">Al presionar "Guardar Cambios en Nota", se actualizará este mismo archivo en GitHub sin duplicarlo.</div>
+        </div>
+      </div>
+      <button type="button" id="btnExitEditMode" class="nav-btn" style="border-color: rgba(245, 158, 11, 0.5); color: #fff; background: rgba(0,0,0,0.25);">
+        <i class="ri-close-circle-line"></i> Salir de Edición (Crear Nueva)
+      </button>
     </div>
 
     <!-- Main Grid Form -->
@@ -928,11 +1220,17 @@
             <button type="button" class="md-btn" onclick="insertMd('[', '](https://url.com)', 'Texto del enlace')"><i class="ri-link"></i> Enlace</button>
             <button type="button" class="md-btn" onclick="insertMd('![](', ')', 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/imagen.jpg')"><i class="ri-image-add-line"></i> Imagen</button>
             <button type="button" class="md-btn" onclick="insertMd('> ', '', 'Cita o destacado')"><i class="ri-double-quotes-l"></i> Cita</button>
+            <button type="button" class="md-btn" id="btnUndoFormat" style="display: none; color: #fcd34d; border-color: rgba(245, 158, 11, 0.35);" title="Restaurar el texto original antes del auto-formateo">
+              <i class="ri-arrow-go-back-line"></i> Deshacer
+            </button>
+            <button type="button" class="md-btn md-btn-magic" id="btnAutoFormatContent" title="Limpia espacios dobles, une líneas cortadas de PDF/correo, convierte viñetas y resalta ciudad/fecha inicial">
+              <i class="ri-magic-line"></i> ✨ Auto-Formatear Nota
+            </button>
           </div>
 
           <textarea id="postContent" class="textarea-custom textarea-with-toolbar" placeholder="Escribe o pega aquí el contenido de la nota de prensa o artículo...
 
-Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
+Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PDF o correo para limpiar saltos de línea y dar formato en 1 clic."></textarea>
         </div>
 
       </div>
@@ -1017,8 +1315,37 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           <div class="panel-title">
             <span><i class="ri-image-2-line"></i> Imágenes de Portada</span>
             <a href="admin-banners.html#upload" target="_blank" class="nav-btn" style="padding: 4px 10px; font-size: 11.5px; border-color: rgba(56, 189, 248, 0.4); color: var(--accent);">
-              <i class="ri-upload-cloud-2-line"></i> Subir a GitHub (Nueva ventana)
+              <i class="ri-external-link-line"></i> Gestor Avanzado
             </a>
+          </div>
+
+          <!-- Integrated 1-Click Image Uploader -->
+          <div id="quickUploadBox" class="quick-upload-box">
+            <div class="quick-upload-header">
+              <span><i class="ri-sparkling-2-fill"></i> Subida Directa en 1 Clic (Sin salir del panel)</span>
+            </div>
+            <input type="file" id="quickImageFileInput" accept="image/*" style="display: none;">
+            <div id="quickDropArea" class="quick-drop-area" tabindex="0">
+              <i class="ri-upload-cloud-2-line"></i>
+              <div style="font-size: 12.5px; font-weight: 600; color: #fff;">
+                Arrastra una foto aquí, haz clic o pega con <kbd style="background:#263347; padding:1px 5px; border-radius:4px; font-size:11px;">Ctrl+V</kbd>
+              </div>
+              <div style="font-size: 11px; color: var(--text-muted);">
+                Redimensiona y sube automáticamente <code>540x320</code> (-p.jpg) y <code>1024x680</code> (-g.jpg) a GitHub
+              </div>
+            </div>
+
+            <div class="quick-upload-options">
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <input type="text" id="quickImageBaseName" class="input-text" placeholder="Nombre base de imagen (automático según el título)" style="padding: 6px 10px; font-size: 12px; font-family: 'JetBrains Mono', monospace;">
+              </div>
+              <label style="display: flex; align-items: center; gap: 7px; font-size: 11.5px; color: var(--text-muted); cursor: pointer; user-select: none;">
+                <input type="checkbox" id="quickIncludeBanner" style="accent-color: var(--brand);">
+                <span>Generar y subir también <strong>Banner SuperNews (1200x450 -l.jpg)</strong></span>
+              </label>
+            </div>
+
+            <div id="quickUploadStatus" class="quick-upload-status"></div>
           </div>
 
           <div class="form-group">
@@ -1033,7 +1360,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
           <div class="form-group">
             <label class="form-label" for="imgBanner">
-              Imagen Banner (1200x450) <span style="font-size: 11px; color: var(--accent); font-weight: normal;">(Requerida para SuperNews)</span>
+              Imagen Banner (1200x450) <span style="font-size: 11px; color: var(--accent); font-weight: normal;">(Requerida solo para SuperNews)</span>
             </label>
             <input type="url" id="imgBanner" class="input-text" placeholder="https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1200x450/...jpg">
           </div>
@@ -1046,7 +1373,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
             <img id="previewImg" src="" alt="Vista previa" style="display: none;">
           </div>
           <p class="form-hint" style="margin-top: 8px;">
-            <i class="ri-information-line" style="color: var(--accent);"></i> La imagen miniatura (540x320) también se inserta automáticamente al pie del artículo. La imagen banner (1200x450) se utiliza como portada destacada en la cabecera cuando la nota es <strong>SuperNews</strong>.
+            <i class="ri-information-line" style="color: var(--accent);"></i> La imagen miniatura (540x320) también se inserta automáticamente al pie del artículo. La imagen banner (1200x450) se utiliza únicamente cuando la nota es <strong>SuperNews</strong>.
           </p>
         </div>
 
@@ -1147,21 +1474,43 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
       const REPO_OWNER = 'itnewslat';
       const REPO_NAME = 'itnewslat.github.io';
       const REPO_BRANCH = 'master';
+      const ASSETS_REPO_NAME = 'assets';
+      const ASSETS_BRANCH = 'master';
+
+      // Estado de Modo Edición
+      let editingExistingFileName = null; // Ej: "2026-10-30-mi-nota.md"
+      let lastRawContentBeforeFormat = null;
+      let lastUploadedSourceFile = null;
+      let cachedRecentPosts = [];
 
       // Elementos DOM
       const authOverlay = document.getElementById('authOverlay');
       const authForm = document.getElementById('authForm');
       const adminKeyInput = document.getElementById('adminKeyInput');
-      const authSubmitBtn = document.getElementById('authSubmitBtn');
 
       const ghTokenInput = document.getElementById('ghTokenInput');
       const toggleTokenEye = document.getElementById('toggleTokenEye');
       const toggleTokenIcon = document.getElementById('toggleTokenIcon');
       const saveGhTokenBtn = document.getElementById('saveGhTokenBtn');
 
+      const recentPostsToggle = document.getElementById('recentPostsToggle');
+      const recentPostsBody = document.getElementById('recentPostsBody');
+      const recentPostsChevron = document.getElementById('recentPostsChevron');
+      const recentPostsCountBadge = document.getElementById('recentPostsCountBadge');
+      const btnRefreshRecentPosts = document.getElementById('btnRefreshRecentPosts');
+      const recentPostsSearch = document.getElementById('recentPostsSearch');
+      const recentPostsList = document.getElementById('recentPostsList');
+
+      const editModeBanner = document.getElementById('editModeBanner');
+      const editModeFileLabel = document.getElementById('editModeFileLabel');
+      const btnExitEditMode = document.getElementById('btnExitEditMode');
+
       const postTitle = document.getElementById('postTitle');
       const slugPreview = document.getElementById('slugPreview');
       const postContent = document.getElementById('postContent');
+      const btnAutoFormatContent = document.getElementById('btnAutoFormatContent');
+      const btnUndoFormat = document.getElementById('btnUndoFormat');
+
       const postDate = document.getElementById('postDate');
       const postTime = document.getElementById('postTime');
       const postTimezone = document.getElementById('postTimezone');
@@ -1173,6 +1522,13 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
       const btnClearCountries = document.getElementById('btnClearCountries');
 
       const tagsChipGrid = document.getElementById('tagsChipGrid');
+
+      const quickUploadBox = document.getElementById('quickUploadBox');
+      const quickDropArea = document.getElementById('quickDropArea');
+      const quickImageFileInput = document.getElementById('quickImageFileInput');
+      const quickImageBaseName = document.getElementById('quickImageBaseName');
+      const quickIncludeBanner = document.getElementById('quickIncludeBanner');
+      const quickUploadStatus = document.getElementById('quickUploadStatus');
 
       const imgThumbnail = document.getElementById('imgThumbnail');
       const imgDetail = document.getElementById('imgDetail');
@@ -1219,6 +1575,10 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
       });
 
       // 2. Token de GitHub
+      function getActiveGhToken() {
+        return localStorage.getItem(GH_STORAGE_TOKEN_KEY) || ghTokenInput.value.trim();
+      }
+
       function initGhToken() {
         const saved = localStorage.getItem(GH_STORAGE_TOKEN_KEY) || '';
         ghTokenInput.value = saved;
@@ -1298,6 +1658,9 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
       }
 
       function getFileName() {
+        if (editingExistingFileName) {
+          return editingExistingFileName;
+        }
         const dateStr = postDate.value || '2026-10-04';
         const rawTitle = postTitle.value.trim();
         const slug = sanitizeSlug(rawTitle);
@@ -1307,9 +1670,18 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
       function updateSlug() {
         const fname = getFileName();
         slugPreview.innerHTML = `<i class="ri-file-text-line"></i> _posts/${fname}`;
+        if (!quickImageBaseName.dataset.userEdited) {
+          const rawTitle = postTitle.value.trim();
+          if (rawTitle) {
+            quickImageBaseName.value = sanitizeSlug(rawTitle).slice(0, 48).replace(/-+$/, '');
+          }
+        }
       }
 
       postTitle.addEventListener('input', updateSlug);
+      quickImageBaseName.addEventListener('input', () => {
+        quickImageBaseName.dataset.userEdited = quickImageBaseName.value.trim() ? 'true' : '';
+      });
 
       // 5. Manejador de Países (Multi-selección)
       countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
@@ -1346,7 +1718,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         return selected;
       }
 
-      // 6. Manejador de Tags (Categoría única o múltiple)
+      // 6. Manejador de Tags (Categoría única)
       tagsChipGrid.querySelectorAll('.tag-chip-item').forEach(tag => {
         tag.addEventListener('click', () => {
           tagsChipGrid.querySelectorAll('.tag-chip-item').forEach(t => t.classList.remove('selected'));
@@ -1359,7 +1731,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         return active ? active.getAttribute('data-val') : 'Actualidad';
       }
 
-      // 7. Preview de Imagen
+      // 7. Preview de Imagen y Auto-sugerencia de Detalle (sin tocar Banner)
       function updateImagePreview() {
         const url = imgBanner.value.trim() || imgThumbnail.value.trim() || imgDetail.value.trim();
         if (url) {
@@ -1375,9 +1747,11 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
       imgThumbnail.addEventListener('input', () => {
         updateImagePreview();
-        // Sugerir automáticamente imagen de detalle (1024x680) si está vacía
+        // Sugerir automáticamente imagen de detalle (1024x680) si está vacía (NUNCA llenar imgBanner)
         if (!imgDetail.value && imgThumbnail.value.includes('540x320')) {
-          imgDetail.value = imgThumbnail.value.replace('540x320', '1024x680');
+          imgDetail.value = imgThumbnail.value
+            .replace('540x320', '1024x680')
+            .replace(/-p\.(jpg|jpeg|png|webp)$/i, '-g.$1');
         }
       });
       imgDetail.addEventListener('input', updateImagePreview);
@@ -1392,12 +1766,605 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
       });
 
       switchSuperNews.addEventListener('change', () => {
+        quickIncludeBanner.checked = switchSuperNews.checked;
         if (!switchSuperNews.checked && imgBanner.value.trim().length > 0) {
           showToast('Nota configurada como noticia regular (estándar)', 'error');
         }
       });
 
-      // 8. Generador de Documento Markdown / Frontmatter
+      // =====================================================
+      // MEJORA 1: Subida y Autogeneración de Imágenes en 1 Clic
+      // =====================================================
+      function resizeImageToBase64(file, targetWidth, targetHeight) {
+        return new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onerror = () => reject(new Error('No se pudo leer el archivo de imagen'));
+          reader.onload = (ev) => {
+            const img = new Image();
+            img.onerror = () => reject(new Error('Formato de imagen no válido'));
+            img.onload = () => {
+              const canvas = document.createElement('canvas');
+              canvas.width = targetWidth;
+              canvas.height = targetHeight;
+              const ctx = canvas.getContext('2d');
+
+              ctx.fillStyle = '#000000';
+              ctx.fillRect(0, 0, targetWidth, targetHeight);
+
+              const scale = Math.max(targetWidth / img.width, targetHeight / img.height);
+              const w = img.width * scale;
+              const h = img.height * scale;
+              const x = (targetWidth - w) / 2;
+              const y = (targetHeight - h) / 2;
+
+              ctx.drawImage(img, x, y, w, h);
+              const dataUrl = canvas.toDataURL('image/jpeg', 0.92);
+              resolve({
+                dataUrl,
+                base64: dataUrl.split(',')[1]
+              });
+            };
+            img.src = ev.target.result;
+          };
+          reader.readAsDataURL(file);
+        });
+      }
+
+      async function uploadAssetToGithub(path, base64Content, token) {
+        const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${ASSETS_REPO_NAME}/contents/${path}`;
+        let sha = null;
+        try {
+          const checkRes = await fetch(apiUrl, {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Accept': 'application/vnd.github.v3+json'
+            }
+          });
+          if (checkRes.ok) {
+            const existing = await checkRes.json();
+            sha = existing.sha;
+          }
+        } catch (_) {}
+
+        const payload = {
+          message: `Subir imagen ${path} vía Panel de Redacción ITNEWS`,
+          content: base64Content,
+          branch: ASSETS_BRANCH
+        };
+        if (sha) payload.sha = sha;
+
+        const res = await fetch(apiUrl, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (!res.ok) {
+          let errMsg = `Error HTTP ${res.status}`;
+          try {
+            const errText = await res.text();
+            if (errText) {
+              const errJson = JSON.parse(errText);
+              errMsg = errJson.message || errMsg;
+            }
+          } catch (_) {}
+          throw new Error(errMsg);
+        }
+        return `https://raw.githubusercontent.com/${REPO_OWNER}/${ASSETS_REPO_NAME}/refs/heads/${ASSETS_BRANCH}/${path}`;
+      }
+
+      async function handleQuickImageUpload(file) {
+        if (!file || !file.type.startsWith('image/')) {
+          showToast('Por favor selecciona un archivo de imagen válido', 'error');
+          return;
+        }
+
+        const token = getActiveGhToken();
+        if (!token) {
+          alert('Ingresa primero tu GitHub Personal Access Token (PAT) en la barra superior para poder subir imágenes.');
+          ghTokenInput.focus();
+          return;
+        }
+
+        lastUploadedSourceFile = file;
+
+        let baseName = quickImageBaseName.value.trim();
+        if (!baseName) {
+          const rawTitle = postTitle.value.trim();
+          if (rawTitle) {
+            baseName = sanitizeSlug(rawTitle).slice(0, 48).replace(/-+$/, '');
+          } else {
+            const cleanFileName = file.name.replace(/\.[^/.]+$/, '').replace(/[-_]?[gplGPL]$/, '');
+            baseName = sanitizeSlug(cleanFileName) || `itnews-img-${Date.now()}`;
+          }
+          quickImageBaseName.value = baseName;
+        } else {
+          baseName = sanitizeSlug(baseName);
+          quickImageBaseName.value = baseName;
+        }
+
+        const includeBanner = quickIncludeBanner.checked;
+        const totalSteps = includeBanner ? 3 : 2;
+
+        quickUploadStatus.style.display = 'block';
+        quickUploadStatus.style.color = 'var(--accent)';
+        quickUploadStatus.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Procesando y subiendo (1/${totalSteps}): Miniatura 540x320...`;
+
+        try {
+          // 1. Generar y subir Miniatura 540x320 (-p.jpg)
+          const smallImg = await resizeImageToBase64(file, 540, 320);
+          const urlSmall = await uploadAssetToGithub(`img/540x320/${baseName}-p.jpg`, smallImg.base64, token);
+          imgThumbnail.value = urlSmall;
+
+          // 2. Generar y subir Detalle 1024x620 en carpeta 1024x680 (-g.jpg)
+          quickUploadStatus.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Subiendo (2/${totalSteps}): Imagen Detalle 1024x680...`;
+          const largeImg = await resizeImageToBase64(file, 1024, 620);
+          const urlLarge = await uploadAssetToGithub(`img/1024x680/${baseName}-g.jpg`, largeImg.base64, token);
+          imgDetail.value = urlLarge;
+
+          // 3. Opcional: Solo si el usuario pidió Banner SuperNews (1200x450)
+          if (includeBanner) {
+            quickUploadStatus.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Subiendo (3/3): Imagen Banner SuperNews 1200x450...`;
+            const bannerImg = await resizeImageToBase64(file, 1200, 450);
+            const urlBanner = await uploadAssetToGithub(`img/1200x450/${baseName}-l.jpg`, bannerImg.base64, token);
+            imgBanner.value = urlBanner;
+            switchSuperNews.checked = true;
+          }
+
+          updateImagePreview();
+          saveDraft();
+
+          quickUploadStatus.style.color = 'var(--success)';
+          quickUploadStatus.innerHTML = `<i class="ri-checkbox-circle-fill"></i> ¡Listo! ${includeBanner ? 'Miniatura, Detalle y Banner 1200x450' : 'Miniatura (540x320) y Detalle (1024x680)'} subidas y cargadas.`;
+          showToast('Imágenes redimensionadas y subidas a GitHub con éxito', 'success');
+        } catch (err) {
+          console.error(err);
+          quickUploadStatus.style.color = '#f87171';
+          quickUploadStatus.innerHTML = `<i class="ri-error-warning-fill"></i> Error al subir imagen: ${err.message}`;
+          showToast(`Error al subir imagen: ${err.message}`, 'error');
+        }
+      }
+
+      quickDropArea.addEventListener('click', () => quickImageFileInput.click());
+      quickImageFileInput.addEventListener('change', (e) => {
+        if (e.target.files && e.target.files[0]) {
+          handleQuickImageUpload(e.target.files[0]);
+        }
+      });
+
+      quickUploadBox.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        quickUploadBox.classList.add('dragover');
+      });
+      quickUploadBox.addEventListener('dragleave', () => {
+        quickUploadBox.classList.remove('dragover');
+      });
+      quickUploadBox.addEventListener('drop', (e) => {
+        e.preventDefault();
+        quickUploadBox.classList.remove('dragover');
+        if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+          handleQuickImageUpload(e.dataTransfer.files[0]);
+        }
+      });
+
+      // Permitir pegar imagen con Ctrl+V cuando el foco no está escribiendo texto o sobre la caja de subida
+      window.addEventListener('paste', (e) => {
+        const items = e.clipboardData && e.clipboardData.items;
+        if (!items) return;
+        for (let i = 0; i < items.length; i++) {
+          if (items[i].type.indexOf('image') !== -1) {
+            const file = items[i].getAsFile();
+            if (file) {
+              e.preventDefault();
+              handleQuickImageUpload(file);
+              break;
+            }
+          }
+        }
+      });
+
+      // Si el usuario marca "Generar también Banner SuperNews" después de haber subido una imagen
+      quickIncludeBanner.addEventListener('change', async () => {
+        if (quickIncludeBanner.checked && lastUploadedSourceFile && !imgBanner.value.trim()) {
+          const token = getActiveGhToken();
+          if (!token) return;
+          const baseName = sanitizeSlug(quickImageBaseName.value.trim() || postTitle.value.trim() || 'itnews-img');
+          try {
+            quickUploadStatus.style.display = 'block';
+            quickUploadStatus.style.color = 'var(--accent)';
+            quickUploadStatus.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Generando y subiendo Banner SuperNews (1200x450)...`;
+            const bannerImg = await resizeImageToBase64(lastUploadedSourceFile, 1200, 450);
+            const urlBanner = await uploadAssetToGithub(`img/1200x450/${baseName}-l.jpg`, bannerImg.base64, token);
+            imgBanner.value = urlBanner;
+            switchSuperNews.checked = true;
+            updateImagePreview();
+            saveDraft();
+            quickUploadStatus.style.color = 'var(--success)';
+            quickUploadStatus.innerHTML = `<i class="ri-checkbox-circle-fill"></i> ¡Banner SuperNews (1200x450) generado y subido!`;
+            showToast('Banner 1200x450 subido y SuperNews activado', 'success');
+          } catch (err) {
+            quickUploadStatus.style.color = '#f87171';
+            quickUploadStatus.innerHTML = `<i class="ri-error-warning-fill"></i> Error al subir banner: ${err.message}`;
+          }
+        }
+      });
+
+      // =====================================================
+      // MEJORA 3: Auto-Formatear Nota de Prensa en 1 Clic
+      // =====================================================
+      function autoFormatPressRelease(raw) {
+        if (!raw || !raw.trim()) return raw;
+
+        let text = raw
+          .replace(/\r\n/g, '\n')
+          .replace(/\r/g, '\n')
+          .replace(/\u00A0/g, ' ');
+
+        // Quitar footer de ITNEWS si fue pegado accidentalmente
+        text = text.replace(/<table[^>]*>[\s\S]*?Somos ITNEWS\.LAT[\s\S]*?<\/table>/gi, '');
+        text = text.replace(/<img[^>]*tracker\.metricool\.com[^>]*\/?>/gi, '');
+
+        // Limpiar espacios en blanco al inicio y final de cada línea y espacios múltiples internos
+        const lines = text.split('\n').map(line => line.replace(/[ \t]+/g, ' ').trim());
+
+        // Convertir viñetas comunes (•, ●, ▪, ◦) en listas Markdown estándar
+        const normalizedLines = lines.map(line => {
+          if (/^[•●▪◦]\s*/.test(line)) {
+            return '- ' + line.replace(/^[•●▪◦]\s*/, '');
+          }
+          return line;
+        });
+
+        // Unir líneas cortadas artificialmente (ej. copiadas de PDF) respetando párrafos, listas y títulos
+        const paragraphs = [];
+        let currentPara = '';
+
+        for (let i = 0; i < normalizedLines.length; i++) {
+          const line = normalizedLines[i];
+
+          if (line === '') {
+            if (currentPara) {
+              paragraphs.push(currentPara);
+              currentPara = '';
+            }
+            continue;
+          }
+
+          const isSpecialBlock = /^(\#{1,6}\s|-\s|\*\s|\d+\.\s|>\s|<table|<div|<p|<img|!\[\[|!\[)/.test(line);
+          if (isSpecialBlock) {
+            if (currentPara) {
+              paragraphs.push(currentPara);
+              currentPara = '';
+            }
+            paragraphs.push(line);
+            continue;
+          }
+
+          if (!currentPara) {
+            currentPara = line;
+          } else {
+            // Si la línea anterior NO termina en punto final y esta empieza en minúscula o conector, unir en el mismo párrafo
+            const endsWithSentenceStop = /[.!?:;»"”)]$/.test(currentPara);
+            const startsWithLower = /^[a-záéíóúñ,;)]/.test(line);
+            if (!endsWithSentenceStop || startsWithLower) {
+              currentPara += ' ' + line;
+            } else {
+              paragraphs.push(currentPara);
+              currentPara = line;
+            }
+          }
+        }
+        if (currentPara) paragraphs.push(currentPara);
+
+        // Resaltar en negrita el dateline inicial de nota de prensa (Ej: "Caracas, Venezuela – " o "Ciudad de México, octubre de 2026.- ")
+        if (paragraphs.length > 0 && !paragraphs[0].startsWith('**') && !paragraphs[0].startsWith('#')) {
+          paragraphs[0] = paragraphs[0].replace(
+            /^([A-ZÁÉÍÓÚÑ][A-Za-záéíóúñÁÉÍÓÚÑ\s,0-9]{2,55}?(?:\s*[-–—]+\s*|\.\s*[-–—]+\s*|\s+-\s+))/,
+            '**$1**'
+          );
+        }
+
+        return paragraphs.join('\n\n').replace(/\n{3,}/g, '\n\n').trim();
+      }
+
+      btnAutoFormatContent.addEventListener('click', () => {
+        const current = postContent.value;
+        if (!current.trim()) {
+          showToast('Escribe o pega primero el texto de la nota para formatearlo', 'error');
+          postContent.focus();
+          return;
+        }
+        lastRawContentBeforeFormat = current;
+        postContent.value = autoFormatPressRelease(current);
+        btnUndoFormat.style.display = 'inline-flex';
+        saveDraft();
+        showToast('¡Nota auto-formateada! Párrafos, espacios y listas optimizados', 'success');
+      });
+
+      btnUndoFormat.addEventListener('click', () => {
+        if (lastRawContentBeforeFormat !== null) {
+          postContent.value = lastRawContentBeforeFormat;
+          lastRawContentBeforeFormat = null;
+          btnUndoFormat.style.display = 'none';
+          saveDraft();
+          showToast('Se restauró el texto original antes del formato', 'success');
+        }
+      });
+
+      // =====================================================
+      // MEJORA 2: Historial de Últimas Notas Publicadas y Edición
+      // =====================================================
+      recentPostsToggle.addEventListener('click', (e) => {
+        if (e.target.closest('#btnRefreshRecentPosts')) return;
+        const isOpen = recentPostsBody.classList.toggle('open');
+        recentPostsChevron.className = isOpen ? 'ri-arrow-up-s-line' : 'ri-arrow-down-s-line';
+        if (isOpen && cachedRecentPosts.length === 0) {
+          fetchRecentPosts();
+        }
+      });
+
+      btnRefreshRecentPosts.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (!recentPostsBody.classList.contains('open')) {
+          recentPostsBody.classList.add('open');
+          recentPostsChevron.className = 'ri-arrow-up-s-line';
+        }
+        fetchRecentPosts();
+      });
+
+      recentPostsSearch.addEventListener('input', () => {
+        renderRecentPostsList(recentPostsSearch.value.trim().toLowerCase());
+      });
+
+      async function fetchRecentPosts() {
+        const token = getActiveGhToken();
+        const headers = { 'Accept': 'application/vnd.github.v3+json' };
+        if (token) headers['Authorization'] = `Bearer ${token}`;
+
+        recentPostsList.innerHTML = `
+          <div style="color: var(--accent); font-size: 13px; padding: 14px; text-align: center;">
+            <i class="ri-loader-4-line ri-spin"></i> Consultando últimas notas en GitHub...
+          </div>
+        `;
+
+        try {
+          // Consultar el árbol Git de _posts (soporta miles de archivos sin límite de 1000)
+          const treeUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/${REPO_BRANCH}:_posts`;
+          const res = await fetch(treeUrl, { headers });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+
+          const files = (data.tree || [])
+            .filter(item => item.type === 'blob' && item.path.endsWith('.md'))
+            .map(item => item.path)
+            .sort((a, b) => b.localeCompare(a));
+
+          cachedRecentPosts = files.slice(0, 60);
+          recentPostsCountBadge.textContent = `${files.length} notas en total (mostrando recientes)`;
+          renderRecentPostsList(recentPostsSearch.value.trim().toLowerCase());
+        } catch (err) {
+          console.error(err);
+          recentPostsList.innerHTML = `
+            <div style="color: #f87171; font-size: 13px; padding: 12px; text-align: center;">
+              No se pudo cargar el listado (${err.message}). Verifica tu conexión o el Token de GitHub.
+            </div>
+          `;
+        }
+      }
+
+      function buildPublicPostUrl(filename) {
+        // Formato filename: YYYY-MM-DD-slug.md
+        const m = filename.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
+        if (!m) return 'https://itnews.lat/';
+        const [, year, month, day, slug] = m;
+        return `https://itnews.lat/${year}/${month}/${day}/${slug}/`;
+      }
+
+      function renderRecentPostsList(filterQuery = '') {
+        const filtered = filterQuery
+          ? cachedRecentPosts.filter(name => name.toLowerCase().includes(filterQuery))
+          : cachedRecentPosts.slice(0, 20);
+
+        if (filtered.length === 0) {
+          recentPostsList.innerHTML = `
+            <div style="color: var(--text-muted); font-size: 13px; padding: 12px; text-align: center;">
+              No se encontraron notas que coincidan con "${filterQuery}".
+            </div>
+          `;
+          return;
+        }
+
+        recentPostsList.innerHTML = '';
+        filtered.slice(0, 25).forEach(filename => {
+          const m = filename.match(/^(\d{4}-\d{2}-\d{2})-(.+)\.md$/);
+          const datePart = m ? m[1] : '';
+          const slugPart = m ? m[2].replace(/-/g, ' ') : filename;
+
+          const row = document.createElement('div');
+          row.className = 'recent-post-item';
+          row.innerHTML = `
+            <div class="recent-post-info">
+              <div class="recent-post-name" title="${filename}">${slugPart.charAt(0).toUpperCase() + slugPart.slice(1)}</div>
+              <div class="recent-post-meta"><i class="ri-calendar-line"></i> ${datePart} &bull; _posts/${filename}</div>
+            </div>
+            <div class="recent-post-actions">
+              <button type="button" class="btn-mini-action edit-btn" data-edit="${filename}" title="Cargar esta nota en el editor para corregirla o actualizarla">
+                <i class="ri-edit-2-line"></i> Editar
+              </button>
+              <button type="button" class="btn-mini-action" data-copy-file="${filename}" title="Copiar nombre de archivo">
+                <i class="ri-file-copy-line"></i> Archivo
+              </button>
+            </div>
+          `;
+
+          row.querySelector('[data-edit]').addEventListener('click', () => loadPostForEditing(filename));
+          row.querySelector('[data-copy-file]').addEventListener('click', (ev) => {
+            navigator.clipboard.writeText(`_posts/${filename}`);
+            const btn = ev.currentTarget;
+            btn.innerHTML = '<i class="ri-check-line"></i> Copiado';
+            setTimeout(() => { btn.innerHTML = '<i class="ri-file-copy-line"></i> Archivo'; }, 1800);
+          });
+
+          recentPostsList.appendChild(row);
+        });
+      }
+
+      function parseJekyllPost(rawMd) {
+        const normalized = rawMd.replace(/\r\n/g, '\n');
+        const fmMatch = normalized.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+        if (!fmMatch) {
+          return { frontmatter: {}, body: normalized };
+        }
+
+        const fmText = fmMatch[1];
+        let body = fmMatch[2] || '';
+
+        // Limpiar el footer automático del cuerpo para que no se duplique al editar
+        body = body.replace(/<table[^>]*>[\s\S]*?Somos ITNEWS\.LAT[\s\S]*?<\/table>/gi, '');
+        body = body.replace(/<img[^>]*tracker\.metricool\.com[^>]*\/?>/gi, '');
+
+        const extractScalar = (key) => {
+          // Soporta formato multiline >- o valor directo en la misma línea
+          const multiRegex = new RegExp(`^${key}:\\s*>-\\s*\\n\\s+(.+)$`, 'm');
+          const mMulti = fmText.match(multiRegex);
+          if (mMulti) return mMulti[1].trim();
+
+          const singleRegex = new RegExp(`^${key}:\\s*(.+)$`, 'm');
+          const mSingle = fmText.match(singleRegex);
+          if (!mSingle) return '';
+          return mSingle[1].trim().replace(/^['"]|['"]$/g, '').replace(/\\"/g, '"');
+        };
+
+        const title = extractScalar('title');
+        const dateFull = extractScalar('date');
+        const published = extractScalar('published') !== 'false';
+        const superNews = extractScalar('superNews') === 'true';
+        const superArticle = extractScalar('superArticle') === 'true';
+        const image = extractScalar('image');
+        const detailImage = extractScalar('detail-image');
+        const imageBanner = extractScalar('image-banner');
+
+        // Quitar la imagen miniatura insertada automáticamente al final del cuerpo si coincide con image
+        if (image) {
+          const escapedImg = image.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          body = body.replace(new RegExp(`\\n*!\\[\\]\\(${escapedImg}\\)\\s*$`), '');
+        }
+
+        // Extraer listas categories y tags
+        const extractList = (sectionKey) => {
+          const listRegex = new RegExp(`^${sectionKey}:\\s*\\n((?:\\s+-\\s+.+\\n?)+)`, 'm');
+          const match = fmText.match(listRegex);
+          if (!match) return [];
+          return match[1]
+            .split('\n')
+            .map(l => l.replace(/^\s*-\s*/, '').trim())
+            .filter(Boolean);
+        };
+
+        const categories = extractList('categories');
+        const tags = extractList('tags');
+
+        return {
+          frontmatter: {
+            title,
+            dateFull,
+            published,
+            superNews,
+            superArticle,
+            image,
+            detailImage,
+            imageBanner,
+            categories,
+            tags
+          },
+          body: body.trim()
+        };
+      }
+
+      async function loadPostForEditing(filename) {
+        const token = getActiveGhToken();
+        const headers = { 'Accept': 'application/vnd.github.v3+json' };
+        if (token) headers['Authorization'] = `Bearer ${token}`;
+
+        showToast(`Cargando _posts/${filename}...`, 'success');
+
+        try {
+          const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/_posts/${filename}`;
+          const res = await fetch(apiUrl, { headers });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+          const rawMd = base64ToUtf8(data.content);
+          const parsed = parseJekyllPost(rawMd);
+          const fm = parsed.frontmatter;
+
+          editingExistingFileName = filename;
+          editModeFileLabel.textContent = `_posts/${filename}`;
+          editModeBanner.classList.add('active');
+          btnPublishNote.innerHTML = '<i class="ri-save-3-fill"></i> Guardar Cambios en Nota';
+
+          postTitle.value = fm.title || '';
+          postContent.value = parsed.body || '';
+
+          if (fm.dateFull) {
+            const parts = fm.dateFull.split(' ');
+            if (parts[0]) postDate.value = parts[0];
+            if (parts[1]) postTime.value = parts[1].slice(0, 5);
+            updateWeek();
+          }
+
+          imgThumbnail.value = fm.image || '';
+          imgDetail.value = fm.detailImage || fm.image || '';
+          imgBanner.value = fm.imageBanner || '';
+          quickIncludeBanner.checked = Boolean(fm.superNews || fm.imageBanner);
+
+          switchPublished.checked = fm.published;
+          switchSuperNews.checked = fm.superNews;
+          switchSuperArticle.checked = fm.superArticle;
+
+          // Seleccionar países
+          const normCats = (fm.categories || []).map(c => c.toLowerCase());
+          countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
+            const val = chip.getAttribute('data-val');
+            const valPlain = val.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+            const isSelected = normCats.includes(val.toLowerCase()) || normCats.includes(valPlain);
+            chip.classList.toggle('selected', isSelected);
+            chip.querySelector('i').className = isSelected ? 'ri-checkbox-circle-fill' : 'ri-checkbox-blank-circle-line';
+          });
+
+          // Seleccionar tag
+          if (fm.tags && fm.tags.length > 0) {
+            const firstTag = fm.tags[0];
+            tagsChipGrid.querySelectorAll('.tag-chip-item').forEach(t => {
+              t.classList.toggle('selected', t.getAttribute('data-val') === firstTag);
+            });
+          }
+
+          updateSlug();
+          updateImagePreview();
+          window.scrollTo({ top: editModeBanner.offsetTop - 90, behavior: 'smooth' });
+          showToast('Nota cargada en modo edición. Realiza tus ajustes y presiona Guardar Cambios.', 'success');
+        } catch (err) {
+          console.error(err);
+          showToast(`No se pudo cargar la nota: ${err.message}`, 'error');
+        }
+      }
+
+      function exitEditMode() {
+        editingExistingFileName = null;
+        editModeBanner.classList.remove('active');
+        btnPublishNote.innerHTML = '<i class="ri-send-plane-fill"></i> Publicar Nota en ITNEWS.LAT';
+        updateSlug();
+      }
+
+      btnExitEditMode.addEventListener('click', () => {
+        resetForm();
+      });
+
+      // 8. Generador de Documento Markdown / Frontmatter (Sin duplicado de week)
       function generatePostContent() {
         const title = postTitle.value.trim();
         const dateStr = postDate.value || '2026-10-04';
@@ -1421,9 +2388,6 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         const rawBody = postContent.value.trim();
 
         // Footer estándar obligatorio de ITNEWS.LAT
-        // 1. Imagen miniatura (540x320)
-        // 2. Tabla informativa de redes sociales y app
-        // 3. Píxel de medición Metricool
         let fullBody = rawBody;
         const hasFooter = rawBody.includes('Somos ITNEWS.LAT');
 
@@ -1451,7 +2415,6 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         if (isSuperNews && banner) {
           yaml += `image-banner: >-\n  ${banner}\n`;
         }
-        yaml += `week: '${week}'\n`;
         yaml += `image: >-\n  ${thumb}\n`;
         yaml += `detail-image: >-\n  ${detail}\n`;
 
@@ -1535,7 +2498,6 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
         const candidatePaths = new Set();
 
-        // 1. Intentar buscar posts que contengan superNews: true vía GitHub Code Search API
         try {
           const searchUrl = `https://api.github.com/search/code?q=repo:${REPO_OWNER}/${REPO_NAME}+path:_posts+superNews:+true`;
           const sRes = await fetch(searchUrl, { headers });
@@ -1550,10 +2512,9 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
             }
           }
         } catch (e) {
-          console.warn('Búsqueda por GitHub Code Search API no disponible o con rate limit, recurriendo a verificación directa:', e);
+          console.warn('Búsqueda por GitHub Code Search API no disponible o con rate limit:', e);
         }
 
-        // 2. Respaldo de seguridad: consultar el último post conocido con superNews activo
         candidatePaths.add('_posts/2026-09-21-la-empresa-autonoma-en-america-latina-salvatore-cherchi-abside.md');
 
         let deactivatedCount = 0;
@@ -1571,9 +2532,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
             const decodedContent = base64ToUtf8(fileJson.content);
 
-            // Verificar si realmente tiene superNews: true
             if (/superNews:\s*true/i.test(decodedContent)) {
-              console.log(`Desactivando superNews activo en: ${filePath}`);
               const updatedContent = decodedContent.replace(/superNews:\s*true/gi, 'superNews: false');
 
               const putRes = await fetch(fileApiUrl, {
@@ -1592,9 +2551,6 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
               if (putRes.ok) {
                 deactivatedCount++;
-                console.log(`SuperNews desactivado con éxito en ${filePath}`);
-              } else {
-                console.warn(`No se pudo actualizar ${filePath}:`, await putRes.text());
               }
             }
           } catch (err) {
@@ -1605,9 +2561,8 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         return deactivatedCount;
       }
 
-      // 12. Publicar en GitHub (_posts/)
+      // 12. Publicar o Actualizar en GitHub (_posts/)
       btnPublishNote.addEventListener('click', async () => {
-        // Validaciones
         if (!postTitle.value.trim()) {
           alert('Por favor, ingresa el título de la nota.');
           postTitle.focus();
@@ -1621,7 +2576,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         }
 
         if (!imgThumbnail.value.trim()) {
-          alert('Por favor, introduce la URL de la imagen miniatura (540x320).');
+          alert('Por favor, introduce o sube la imagen miniatura (540x320).');
           imgThumbnail.focus();
           return;
         }
@@ -1632,7 +2587,6 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           return;
         }
 
-        // Si se colocó Imagen Banner (1200x450) pero el interruptor de SuperNews quedó apagado
         if (!switchSuperNews.checked && imgBanner.value.trim()) {
           const activar = confirm(
             'Has ingresado una Imagen Banner (1200x450), pero la opción "Super Noticia" (SuperNews) está apagada.\n\n' +
@@ -1641,7 +2595,6 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           if (activar) {
             switchSuperNews.checked = true;
           } else {
-            // Si el usuario decide NO ser superNews, limpiar o no enviar image-banner
             const descartarBanner = confirm(
               '¿Deseas quitar la Imagen Banner para publicar la nota como una noticia regular estándar?'
             );
@@ -1664,7 +2617,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           }
         }
 
-        const token = localStorage.getItem(GH_STORAGE_TOKEN_KEY) || ghTokenInput.value.trim();
+        const token = getActiveGhToken();
         if (!token) {
           alert('Debes ingresar tu Personal Access Token (PAT) de GitHub en la barra superior para poder publicar.');
           ghTokenInput.focus();
@@ -1674,33 +2627,31 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         const fileName = getFileName();
         const targetPath = `_posts/${fileName}`;
         const fileContent = generatePostContent();
-        const commitMsg = `Publicar nota: ${postTitle.value.trim()} vía Panel de Redacción ITNEWS`;
+        const isEditing = Boolean(editingExistingFileName);
+        const commitMsg = isEditing
+          ? `Actualizar nota: ${postTitle.value.trim()} vía Panel de Redacción ITNEWS`
+          : `Publicar nota: ${postTitle.value.trim()} vía Panel de Redacción ITNEWS`;
 
-        if (!confirm(`¿Confirmas la publicación de esta nota en ITNEWS.LAT?\n\nArchivo de destino: ${targetPath}\nEdiciones: ${getSelectedCountries().join(', ')}`)) {
+        if (!confirm(`¿Confirmas ${isEditing ? 'la actualización' : 'la publicación'} de esta nota en ITNEWS.LAT?\n\nArchivo de destino: ${targetPath}\nEdiciones: ${getSelectedCountries().join(', ')}`)) {
           return;
         }
 
         btnPublishNote.disabled = true;
-        btnPublishNote.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Publicando en GitHub...';
+        btnPublishNote.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Sincronizando con GitHub...';
 
         try {
-          // Si esta nota es SuperNews, desactivar automáticamente la anterior
           if (switchSuperNews.checked) {
             btnPublishNote.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Actualizando SuperNews anterior...';
             try {
-              const countDeactivated = await deactivatePreviousSuperNews(token, targetPath);
-              if (countDeactivated > 0) {
-                console.log(`Se desactivaron ${countDeactivated} SuperNews anteriores.`);
-              }
+              await deactivatePreviousSuperNews(token, targetPath);
             } catch (errDeact) {
               console.warn('Aviso al desactivar SuperNews anterior:', errDeact);
             }
-            btnPublishNote.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Publicando nueva nota...';
+            btnPublishNote.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Guardando nota...';
           }
 
           const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${targetPath}`;
 
-          // Verificar si ya existe (sha)
           let sha = null;
           try {
             const checkRes = await fetch(apiUrl, {
@@ -1713,9 +2664,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
               const fileData = await checkRes.json();
               sha = fileData.sha;
             }
-          } catch (e) {
-            console.log('Archivo nuevo');
-          }
+          } catch (_) {}
 
           const payload = {
             message: commitMsg,
@@ -1742,15 +2691,18 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
                 const errData = JSON.parse(errText);
                 errorMsg = errData.message || errorMsg;
               }
-            } catch (_) {
-              // Si no viene en formato JSON, se mantiene el status HTTP
-            }
+            } catch (_) {}
             throw new Error(errorMsg);
           }
 
           clearDraft();
-          showToast('¡Nota publicada con éxito en ITNEWS.LAT!', 'success');
-          alert(`¡Nota publicada con éxito!\n\nSe ha creado el archivo:\n${targetPath}\n\nGitHub Pages comenzará la compilación automáticamente.`);
+          exitEditMode();
+          if (cachedRecentPosts.length > 0 && !cachedRecentPosts.includes(fileName)) {
+            cachedRecentPosts.unshift(fileName);
+            renderRecentPostsList(recentPostsSearch.value.trim().toLowerCase());
+          }
+          showToast(isEditing ? '¡Nota actualizada con éxito en ITNEWS.LAT!' : '¡Nota publicada con éxito en ITNEWS.LAT!', 'success');
+          alert(`¡Nota ${isEditing ? 'actualizada' : 'publicada'} con éxito!\n\nArchivo en GitHub:\n${targetPath}\n\nGitHub Pages compilará los cambios automáticamente.`);
 
         } catch (err) {
           console.error(err);
@@ -1758,7 +2710,9 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           alert(`Ocurrió un error al subir el archivo a GitHub:\n${err.message}\n\nVerifica que tu token tenga permisos 'repo' o 'contents:write' sobre ${REPO_OWNER}/${REPO_NAME}.`);
         } finally {
           btnPublishNote.disabled = false;
-          btnPublishNote.innerHTML = '<i class="ri-send-plane-fill"></i> Publicar Nota en ITNEWS.LAT';
+          btnPublishNote.innerHTML = editingExistingFileName
+            ? '<i class="ri-save-3-fill"></i> Guardar Cambios en Nota'
+            : '<i class="ri-send-plane-fill"></i> Publicar Nota en ITNEWS.LAT';
         }
       });
 
@@ -1776,7 +2730,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
         }, 4500);
       }
 
-      // 14. Auto-Guardado y Recuperación de Borrador (Evita perder datos al salir o recargar)
+      // 14. Auto-Guardado y Recuperación de Borrador
       const DRAFT_STORAGE_KEY = 'itnews_post_editor_draft';
 
       function saveDraft() {
@@ -1828,7 +2782,10 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
           }
 
           if (typeof draft.published === 'boolean') switchPublished.checked = draft.published;
-          if (typeof draft.superNews === 'boolean') switchSuperNews.checked = draft.superNews;
+          if (typeof draft.superNews === 'boolean') {
+            switchSuperNews.checked = draft.superNews;
+            quickIncludeBanner.checked = draft.superNews;
+          }
           if (typeof draft.superArticle === 'boolean') switchSuperArticle.checked = draft.superArticle;
 
           updateSlug();
@@ -1844,23 +2801,30 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
 
       function resetForm() {
         clearDraft();
+        exitEditMode();
+        lastRawContentBeforeFormat = null;
+        lastUploadedSourceFile = null;
+        btnUndoFormat.style.display = 'none';
         postTitle.value = '';
         postContent.value = '';
         imgThumbnail.value = '';
         imgDetail.value = '';
         imgBanner.value = '';
+        quickImageBaseName.value = '';
+        quickImageBaseName.dataset.userEdited = '';
+        quickIncludeBanner.checked = false;
+        quickUploadStatus.style.display = 'none';
+        quickUploadStatus.innerHTML = '';
         switchPublished.checked = true;
         switchSuperNews.checked = false;
         switchSuperArticle.checked = false;
 
-        // Reset países a Venezuela por defecto
         countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
           const isVe = chip.getAttribute('data-val') === 'Venezuela';
           chip.classList.toggle('selected', isVe);
           chip.querySelector('i').className = isVe ? 'ri-checkbox-circle-fill' : 'ri-checkbox-blank-circle-line';
         });
 
-        // Reset tag a Actualidad
         tagsChipGrid.querySelectorAll('.tag-chip-item').forEach(t => {
           t.classList.toggle('selected', t.getAttribute('data-val') === 'Actualidad');
         });
@@ -1874,7 +2838,7 @@ Puedes usar negrita, párrafos, subtítulos y enlaces."></textarea>
       const btnClearForm = document.getElementById('btnClearForm');
       if (btnClearForm) {
         btnClearForm.addEventListener('click', () => {
-          if (postTitle.value || postContent.value || imgThumbnail.value || imgBanner.value) {
+          if (postTitle.value || postContent.value || imgThumbnail.value || imgBanner.value || editingExistingFileName) {
             if (confirm('¿Deseas limpiar todos los campos para redactar una nueva nota? Se borrará el borrador actual.')) {
               resetForm();
             }
