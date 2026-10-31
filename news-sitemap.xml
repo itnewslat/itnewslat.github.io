@@ -3,18 +3,33 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  {% for post in site.posts limit:100 %}
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  {% assign now_ts = site.time | date: "%s" | plus: 0 %}
+  {% assign cutoff_ts = now_ts | minus: 259200 %}
+  {% assign included_count = 0 %}
+  {% for post in site.posts limit: 20 %}
+    {% assign post_ts = post.date | date: "%s" | plus: 0 %}
+    {% if post_ts >= cutoff_ts or included_count < 10 %}
+      {% assign included_count = included_count | plus: 1 %}
   <url>
     <loc>https://itnews.lat{{ post.url }}</loc>
     <news:news>
       <news:publication>
-        <news:name>ITNEWS LAT</news:name>
+        <news:name>ITNEWS.LAT</news:name>
         <news:language>es</news:language>
       </news:publication>
       <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
-      <news:title>{{ post.title | xml_escape }}</news:title>
+      <news:title>{{ post.title | strip_html | strip | xml_escape }}</news:title>
     </news:news>
+    {% assign news_img = post.detail-image | default: post.image %}
+    {% if news_img and news_img != "" %}
+    <image:image>
+      <image:loc>{{ news_img | strip | xml_escape }}</image:loc>
+      <image:title>{{ post.title | strip_html | strip | xml_escape }}</image:title>
+    </image:image>
+    {% endif %}
   </url>
+    {% endif %}
   {% endfor %}
 </urlset>
