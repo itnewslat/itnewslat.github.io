@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: "Las empresas chilenas: la apuesta de Los costos ocultos de la fragmentación tecnológica en canales"
+title: "Fragmentación tecnológica frena el retorno de la IA en el 79% de las empresas chilenas"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/los-costos-ocultos-de-la-fragmentacion-tecnologi-p.jpg
 detail-image: >-
@@ -18,9 +18,9 @@ tags:
 week: '44'
 ---
 ### Resumen Ejecutivo ITNEWS
-- No dejes que la tecnología del pasado atormente tu crecimiento: los costos ocultos de la fragmentación tecnológica en las empresas chilenas
-- El reciente estudio de ManageEngine, El estado de la transformación digital en América Latina 2026, que encuestó a 150 tomadores de decisiones de TI y ejecutivos de empresas chilenas, revela la magnitud de este desafío.
-- Solo el 6% indicó que prioriza la inversión en innovación por sobre el mantenimiento.
+- El estudio de ManageEngine "El estado de la transformación digital en América Latina 2026" encuestó a 150 ejecutivos y líderes de TI en Chile sobre la complejidad de sus ecosistemas tecnológicos.
+- El 81% de las empresas chilenas destina mayor presupuesto al mantenimiento operativo que a la innovación, y solo el 6% prioriza nuevos desarrollos.
+- Aunque el 92% cree que su infraestructura está lista para la IA, el 79% advierte que la fragmentación tecnológica limita su capacidad para escalar proyectos de inteligencia artificial.
 
 ---
 Por ManageEngine

@@ -2189,10 +2189,10 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         // Limpiar espacios en blanco al inicio y final de cada línea y espacios múltiples internos
         const lines = text.split('\n').map(line => line.replace(/[ \t]+/g, ' ').trim());
 
-        // Convertir viñetas comunes (•, ●, ▪, ◦) en listas Markdown estándar
+        // Convertir viñetas comunes (·, •, ●, ▪, ◦, ‣, ⁃) en listas Markdown estándar
         const normalizedLines = lines.map(line => {
-          if (/^[•●▪◦]\s*/.test(line)) {
-            return '- ' + line.replace(/^[•●▪◦]\s*/, '');
+          if (/^[·•●▪◦‣⁃]\s*/.test(line)) {
+            return '- ' + line.replace(/^[·•●▪◦‣⁃]\s*/, '');
           }
           return line;
         });
@@ -2335,9 +2335,15 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         titleModeBadge.textContent = '(Opción 2: Nuevo Titular + Resumen SEO Activo)';
         titleModeBadge.style.color = 'var(--accent)';
 
-        // Si ya hay contenido en el editor y aún no se ha generado, ejecutar automáticamente la transformación local
+        // Si ya hay contenido en el editor y aún no se ha generado:
+        // Si tiene Gemini API Key guardada, usar IA automáticamente; si no, usar generador local
         if (postContent.value.trim().length > 80 && !lastSeoResult) {
-          runLocalSeoOptimization();
+          const hasApiKey = (localStorage.getItem(GEMINI_KEY_STORAGE) || geminiApiKeyInput.value || '').trim();
+          if (hasApiKey) {
+            runAiSeoOptimization();
+          } else {
+            runLocalSeoOptimization();
+          }
         }
       });
 
@@ -2407,6 +2413,16 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         seoRestoreBar.style.display = 'flex';
       }
 
+      // Quitar viñetas iniciales del cuerpo cuando ya se incluyeron en el Resumen Ejecutivo superior
+      function stripLeadingSummaryBulletsFromBody(bodyText) {
+        if (!bodyText) return '';
+        const blocks = bodyText.split(/\n\n+/);
+        while (blocks.length > 1 && /^([·•●▪◦‣⁃\-*]\s+)/.test(blocks[0].trim())) {
+          blocks.shift();
+        }
+        return blocks.join('\n\n').trim();
+      }
+
       // Algoritmo Periodístico Local para generar Nuevo Titular (sin usar el original) y Resumen de Noticia
       function buildLocalSeoAlternatives(origTitle, rawBody) {
         const formattedBody = autoFormatPressRelease(rawBody);
@@ -2415,27 +2431,32 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
           .map(p => p.trim())
           .filter(p => p.length > 35 && !p.startsWith('![') && !p.startsWith('<'));
 
-        // Extraer todas las oraciones informativas limpias (sin dateline de ciudad/fecha)
+        // Extraer todas las oraciones informativas limpias (sin viñetas ni dateline de ciudad/fecha)
         const sentences = [];
         paras.forEach(p => {
           const cleanP = p
+            .replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '')
             .replace(/^\*\*[^*]{2,60}\*\*\s*/, '')
             .replace(/^[A-ZÁÉÍÓÚÑ][A-Za-záéíóúñÁÉÍÓÚÑ\s,0-9]{2,50}?(?:\s*[-–—]+\s*|\.\s*[-–—]+\s*)/, '')
-            .replace(/^#+\s*/, '');
+            .replace(/^#+\s*/, '')
+            .replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '');
           const parts = cleanP.split(/(?<=[.!?])\s+/);
           parts.forEach(s => {
-            const trimmed = s.replace(/\*\*/g, '').trim();
+            const trimmed = s
+              .replace(/\*\*/g, '')
+              .replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '')
+              .trim();
             if (trimmed.length >= 40 && trimmed.length <= 240) {
               sentences.push(trimmed);
             }
           });
         });
 
-        // Seleccionar las 3 oraciones con mayor peso informativo (cifras, verbos de acción, vocería)
+        // Seleccionar las oraciones con mayor peso informativo (cifras, verbos de acción, vocería)
         const scored = sentences.map((s, idx) => {
           let score = idx === 0 ? 5 : (idx === 1 ? 4 : 1);
           if (/\d+%|\$|\bmillones\b|\bmil\b|\b202[678]\b/i.test(s)) score += 4;
-          if (/\b(anunció|presentó|lanzó|reveló|advirtió|destacó|impulsa|transforma|crecimiento|inversión|seguridad|inteligencia artificial)\b/i.test(s)) score += 3;
+          if (/\b(anunció|presentó|lanzó|reveló|advirtió|destacó|impulsa|transforma|crecimiento|inversión|seguridad|vulnerabilidad|inteligencia artificial)\b/i.test(s)) score += 3;
           return { text: s, score, idx };
         });
 
@@ -2445,14 +2466,27 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
           .sort((a, b) => a.idx - b.idx)
           .map(item => item.text);
 
-        // Construir 3 titulares periodísticos distintos al titular original
+        // Construir 3 titulares periodísticos limpios (60-95 caracteres, sin viñetas ni frases cortadas)
         const cleanSentForHeadline = (s) => {
           if (!s) return '';
-          let h = s.replace(/[.!?]+$/, '').trim();
-          // Cortar subordinadas largas para dejar un titular directo de 70-105 caracteres
-          if (h.length > 105) {
-            const cut = h.split(/,\s+(?:según|mientras|lo que|permitiendo|con el objetivo|donde|para que)/i)[0];
-            h = cut.length >= 45 ? cut : h.slice(0, 100).replace(/\s+\S+$/, '');
+          let h = s
+            .replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '')
+            .replace(/^(según|de acuerdo con|asimismo,|además,|en este sentido,|por su parte,)\s+/i, '')
+            .replace(/[.!?]+$/, '')
+            .trim();
+
+          if (h.length > 95) {
+            const cutByClause = h.split(/,\s+(?:replicando|según|mientras|lo que|permitiendo|con el objetivo|donde|para que|advirtieron|informó|señaló|explicó)|;\s+/i)[0];
+            if (cutByClause.length >= 45 && cutByClause.length <= 100) {
+              h = cutByClause.trim();
+            } else {
+              const firstComma = h.indexOf(', ');
+              if (firstComma >= 50 && firstComma <= 95) {
+                h = h.slice(0, firstComma).trim();
+              } else {
+                h = h.slice(0, 92).replace(/\s+\S+$/, '').replace(/[,;:\-–—]+$/, '').trim();
+              }
+            }
           }
           return h.charAt(0).toUpperCase() + h.slice(1);
         };
@@ -2460,46 +2494,48 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         const tag = getSelectedTag();
         const headlines = [];
 
-        // Titular #1: Basado en la tesis principal del primer párrafo (nunca idéntico al título pegado)
+        // Titular #1: Tesis principal sintetizada
         if (sentences[0]) {
           const h1 = cleanSentForHeadline(sentences[0]);
-          if (h1.toLowerCase() !== origTitle.toLowerCase()) {
+          if (h1 && h1.toLowerCase() !== origTitle.toLowerCase()) {
             headlines.push(h1);
           }
         }
 
-        // Titular #2: Basado en el hallazgo/dato secundario más fuerte del cuerpo
-        if (topHighlights[1]) {
-          const h2 = cleanSentForHeadline(topHighlights[1]);
-          if (!headlines.includes(h2) && h2.toLowerCase() !== origTitle.toLowerCase()) {
-            headlines.push(h2);
+        // Titular #2: Hallazgo o cifra clave del cuerpo
+        for (let i = 0; i < topHighlights.length; i++) {
+          const cand = cleanSentForHeadline(topHighlights[i]);
+          if (cand && !headlines.includes(cand) && cand.toLowerCase() !== origTitle.toLowerCase()) {
+            headlines.push(cand);
+            if (headlines.length >= 2) break;
           }
         }
 
-        // Titular #3: Reestructuración temática con enfoque de industria
-        if (origTitle) {
-          const parts = origTitle.split(/:\s*|\s+-\s+|\s+para\s+|\s+en\s+/i);
-          if (parts.length >= 2 && parts[1].length > 15) {
-            const flipped = `${parts[1].charAt(0).toUpperCase() + parts[1].slice(1)}: la apuesta de ${parts[0].trim()} en ${tag.toLowerCase()}`;
-            headlines.push(flipped);
-          } else {
-            headlines.push(`${tag}: ${origTitle.replace(/^(la|el|los|las)\s+/i, '')} marca nuevas claves en la región`);
+        // Titular #3: Tercer ángulo informativo del cuerpo o reformulación limpia
+        for (let i = 1; i < sentences.length; i++) {
+          const cand = cleanSentForHeadline(sentences[i]);
+          if (cand && !headlines.includes(cand) && cand.toLowerCase() !== origTitle.toLowerCase()) {
+            headlines.push(cand);
+            if (headlines.length >= 3) break;
           }
         }
 
-        while (headlines.length < 3 && sentences[headlines.length]) {
-          headlines.push(cleanSentForHeadline(sentences[headlines.length]));
+        if (headlines.length < 3 && origTitle) {
+          const cleanOrig = origTitle.replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim();
+          headlines.push(`${tag}: claves sobre ${cleanOrig.charAt(0).toLowerCase() + cleanOrig.slice(1)}`);
         }
 
         // Construir el bloque de Puntos Clave y Resumen
-        const bulletPoints = topHighlights.slice(0, 3).map(b => `- ${b}`).join('\n');
-        const leadSummary = paras[0] || sentences[0] || '';
-        const secondPara = paras[1] || '';
-        const closingPara = paras.length > 2 ? paras[paras.length - 1] : '';
+        const bulletPoints = topHighlights.slice(0, 3).map(b => `- ${b.replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '')}`).join('\n');
+        const bodyWithoutTopBullets = stripLeadingSummaryBulletsFromBody(formattedBody);
+        const cleanParas = bodyWithoutTopBullets.split(/\n\n+/).filter(Boolean);
+        const leadSummary = cleanParas[0] || sentences[0] || '';
+        const secondPara = cleanParas[1] || '';
+        const closingPara = cleanParas.length > 2 ? cleanParas[cleanParas.length - 1] : '';
 
-        const summaryBoxMd = `### Resumen Ejecutivo ITNEWS\n${ bulletPoints }`;
+        const summaryBoxMd = `### Resumen Ejecutivo ITNEWS\n${bulletPoints}`;
 
-        // Versión 1: Noticia Resumida (3-4 párrafos concisos + puntos clave, sin copiar todo el boletín)
+        // Versión 1: Noticia Resumida (3-4 párrafos concisos + puntos clave)
         const condensedParts = [
           leadSummary,
           summaryBoxMd,
@@ -2509,8 +2545,8 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
 
         const condensedBody = condensedParts.join('\n\n');
 
-        // Versión 2: Resumen Ejecutivo insertado al inicio + desarrollo completo
-        const prependBody = `${summaryBoxMd}\n\n---\n\n${formattedBody}`;
+        // Versión 2: Resumen Ejecutivo insertado al inicio + desarrollo completo (sin duplicar bullets iniciales)
+        const prependBody = `${summaryBoxMd}\n\n---\n\n${bodyWithoutTopBullets}`;
 
         return {
           headlines: headlines.slice(0, 3),
@@ -2546,10 +2582,17 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         showToast('¡Nuevo titular y resumen de noticia aplicados! Elige entre las 3 opciones de titular.', 'success');
       }
 
-      btnGenerateLocalSeo.addEventListener('click', runLocalSeoOptimization);
+      btnGenerateLocalSeo.addEventListener('click', () => {
+        const hasApiKey = (localStorage.getItem(GEMINI_KEY_STORAGE) || geminiApiKeyInput.value || '').trim();
+        if (hasApiKey) {
+          runAiSeoOptimization();
+        } else {
+          runLocalSeoOptimization();
+        }
+      });
 
-      // Generador con IA Google Gemini (Opcional)
-      btnGenerateAiSeo.addEventListener('click', async () => {
+      // Generador con IA Google Gemini (usa gemini-2.5-flash con respaldo automático a gemini-2.0-flash)
+      async function runAiSeoOptimization() {
         const currentBody = (savedOriginalBody || postContent.value).trim();
         if (currentBody.length < 50) {
           alert('Pega primero el texto de la noticia en "Contenido de la Nota".');
@@ -2557,11 +2600,11 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
           return;
         }
 
-        const apiKey = localStorage.getItem(GEMINI_KEY_STORAGE) || geminiApiKeyInput.value.trim();
+        const apiKey = (localStorage.getItem(GEMINI_KEY_STORAGE) || geminiApiKeyInput.value || '').trim();
         if (!apiKey) {
           geminiKeyBox.style.display = 'block';
           geminiApiKeyInput.focus();
-          showToast('Ingresa tu Gemini API Key gratuita o usa el botón amarillo "Generar Titular + Resumen Ahora"', 'error');
+          showToast('Ingresa tu Gemini API Key gratuita o usa el generador local', 'error');
           return;
         }
 
@@ -2574,16 +2617,16 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
 
         try {
           const prompt = `Actúa como Editor Jefe del portal tecnológico y de negocios ITNEWS.LAT.
-A partir de la siguiente nota de prensa, necesitamos evitar cualquier penalización de Google por contenido duplicado.
+A partir de la siguiente nota de prensa, necesitamos evitar cualquier penalización de Google por contenido duplicado y posicionar en Google AI Overviews, ChatGPT Search y Perplexity.
 Devuelve ÚNICAMENTE un objeto JSON válido (sin bloques markdown \`\`\`json) con esta estructura exacta:
 {
   "headlines": [
-    "Titular periodístico 1 totalmente diferente al original (atractivo para Google News, máx 95 caracteres)",
-    "Titular periodístico 2 con enfoque en el impacto o dato clave",
-    "Titular periodístico 3 con enfoque analítico o ejecutivo"
+    "Titular periodístico 1 totalmente diferente al original (directo, atractivo para Google News, entre 60 y 90 caracteres, sin puntos ni viñetas al inicio)",
+    "Titular periodístico 2 con enfoque en el impacto, cifra o país (entre 60 y 90 caracteres)",
+    "Titular periodístico 3 con enfoque analítico o ejecutivo (entre 60 y 90 caracteres)"
   ],
   "summaryBullets": [
-    "Punto clave 1 resumido con tus propias palabras",
+    "Punto clave 1 resumido con tus propias palabras y datos concretos",
     "Punto clave 2 resumido con tus propias palabras",
     "Punto clave 3 resumido con tus propias palabras"
   ],
@@ -2594,29 +2637,43 @@ Titular original a evitar: "${origTitle}"
 Contenido original:
 ${currentBody.slice(0, 7000)}`;
 
-          const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${encodeURIComponent(apiKey)}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              contents: [{ parts: [{ text: prompt }] }],
-              generationConfig: { temperature: 0.55 }
-            })
-          });
+          const modelsToTry = ['gemini-2.5-flash', 'gemini-2.0-flash'];
+          let data = null;
+          let lastStatus = 0;
 
-          if (!res.ok) {
-            throw new Error(`API Gemini respondió HTTP ${res.status}`);
+          for (const modelName of modelsToTry) {
+            const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${encodeURIComponent(apiKey)}`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                contents: [{ parts: [{ text: prompt }] }],
+                generationConfig: { temperature: 0.5 }
+              })
+            });
+            lastStatus = res.status;
+            if (res.ok) {
+              data = await res.json();
+              break;
+            }
           }
 
-          const data = await res.json();
+          if (!data) {
+            throw new Error(`API Gemini respondió HTTP ${lastStatus}`);
+          }
+
           const rawReply = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
           const jsonStr = rawReply.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
           const parsed = JSON.parse(jsonStr);
 
-          const bulletsMd = `### Resumen Ejecutivo ITNEWS\n` + (parsed.summaryBullets || []).map(b => `- ${b}`).join('\n');
-          const formattedOrig = autoFormatPressRelease(currentBody);
+          const cleanHeadlines = (parsed.headlines || [])
+            .map(h => String(h).replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim())
+            .filter(Boolean);
+
+          const bulletsMd = `### Resumen Ejecutivo ITNEWS\n` + (parsed.summaryBullets || []).map(b => `- ${String(b).replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim()}`).join('\n');
+          const formattedOrig = stripLeadingSummaryBulletsFromBody(autoFormatPressRelease(currentBody));
 
           lastSeoResult = {
-            headlines: parsed.headlines && parsed.headlines.length ? parsed.headlines : ['Nuevo enfoque tecnológico en América Latina'],
+            headlines: cleanHeadlines.length ? cleanHeadlines : ['Nuevo enfoque tecnológico en América Latina'],
             condensedBody: `${bulletsMd}\n\n${parsed.condensedArticle || ''}`.trim(),
             prependBody: `${bulletsMd}\n\n---\n\n${formattedOrig}`
           };
@@ -2638,7 +2695,9 @@ ${currentBody.slice(0, 7000)}`;
           btnGenerateAiSeo.disabled = false;
           btnGenerateAiSeo.innerHTML = origBtnHtml;
         }
-      });
+      }
+
+      btnGenerateAiSeo.addEventListener('click', runAiSeoOptimization);
 
       // =====================================================
       // MEJORA 2: Historial de Últimas Notas Publicadas y Edición
