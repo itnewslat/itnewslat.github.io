@@ -35,7 +35,8 @@
         <!-- Social Share Bar (Top compact under image) -->
         {% include posts/share-bar.html %}
 
-        <!-- GEO Direct-to-Answer Layout: Key Takeaways Block (SSR / Generative Engine Optimization) -->
+        <!-- GEO Direct-to-Answer Layout: Key Takeaways Block (se muestra solo si la nota no incluye ya su propio Resumen Ejecutivo ITNEWS) -->
+        {% unless page.content contains 'Resumen Ejecutivo ITNEWS' %}
         <section class="geo-takeaways" aria-label="Puntos Clave">
           <div class="geo-takeaways-header">
             <span class="geo-takeaways-icon"><i class="fas fa-bolt"></i></span>
@@ -66,6 +67,7 @@
             {% endif %}
           </ul>
         </section>
+        {% endunless %}
 
         <div class="blog-article-body">
           <p>{{ page.content }}</p>

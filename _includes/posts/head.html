@@ -5,10 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <!-- SEO Descriptions & Canonical -->
-  {% assign rawSnippet = page.content | strip_html | normalize_whitespace | truncate: 160 | escape %}
+  {% assign rawSnippet = page.content | strip_html | replace: 'Resumen Ejecutivo ITNEWS', '' | normalize_whitespace | truncate: 160 | escape %}
   <meta name="description" content="{{ rawSnippet }}">
   <meta name="author" content="{{ page.author | default: 'Edgar C. Rincón M.' }}">
   <link rel="canonical" href="https://itnews.lat{{ page.url }}">
+  <link rel="alternate" type="application/rss+xml" title="ITNEWS.LAT RSS Feed" href="https://itnews.lat/feed.xml">
   <link rel="alternate" hreflang="es" href="https://itnews.lat{{ page.url }}">
   <link rel="alternate" hreflang="es-419" href="https://itnews.lat{{ page.url }}">
   {% assign postCountry = page.categories.first | default: 'Latinoamérica' %}
@@ -216,8 +217,6 @@
   <!-- Bootstrap v4.0.0 CSS via CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-  <!-- Plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
-
   <!-- Theme style -->
   <link href="/assets/css/theme-style.min.css" rel="stylesheet">
 
@@ -226,24 +225,16 @@
   {% assign categoriesCase = page.categories %}
   <link href="/assets/css/colour-{% if categoriesCount >= 4 %}red-dark.min.css{% elsif categoriesCase contains 'Panama' or categoriesCase contains 'Panamá' %}red.min.css{% elsif categoriesCase contains 'Colombia' %}yellow.min.css{% elsif categoriesCase contains 'Venezuela' %}red-dark.min.css{% elsif categoriesCase contains 'Ecuador' %}yellow.min.css{% elsif categoriesCase contains 'Perú' or categoriesCase contains 'Peru' %}red.min.css{% elsif categoriesCase contains 'Chile' %}red.min.css{% elsif categoriesCase contains 'Argentina' %}blue.min.css{% elsif categoriesCase contains 'Mexico' or categoriesCase contains 'México' %}green-bright.min.css{% else %}red-dark.min.css{% endif %}" rel="stylesheet">
 
-
   <!-- Your custom override -->
   <link href="/assets/css/custom-style.css?v=20261019_01" rel="stylesheet">
 
-
-
   <!-- Optional: ICON SETS -->
-  <!-- Iconset: Font Awesome 5.0.4 via CDN -->
   <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
-  <!-- Iconset: flag icons - http://lipis.github.io/flag-icon-css/ -->
   <link href="/assets/plugins/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
-  <!-- Iconset: ionicons - http://ionicons.com/ -->
   <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
-  <!-- Iconset: Linearicons - https://linearicons.com/free -->
   <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
 
-
-  <!-- Le fav and touch icons - @todo: fill with your icons or remove, try https://realfavicongenerator.net -->
+  <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
@@ -252,14 +243,12 @@
   <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-
   <!-- Google fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Rambla:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 
-  <!--Plugin: Retina.js (high def image replacement) - @see: http://retinajs.com/-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script> -->
   {% include globals/google/script-adsense.html %}
 </head>
