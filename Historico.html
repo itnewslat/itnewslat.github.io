@@ -7,120 +7,275 @@ published: true
 ---
 
 {% include venezuela/header.html %}
-<html lang="es"> 
-  <head> <meta charset="UTF-8"> 
-    <title>Calendario Anual 2025</title> 
-    <style> 
-      .calendar { 
-        display: flex; 
-        flex-wrap: wrap; 
-        width: 100%; 
-      } 
-      .month { 
-        border: 1px solid #ccc; 
-        margin: 4px; 
-        width: calc(100% / 3 - 10px); 
-      } 
-      .month h2 { text-align: center;
-      } 
-      .weeks { 
-        display: flex; 
-        flex-wrap: 
-          wrap;
-      } 
-      .week { 
-        border: 1px solid #ddd; 
-        margin: 2px; width: calc(100% / 3 - 4px); 
-        padding: 5px; 
-      } 
-      .week h3 { font-size: 16px; 
-      } 
-      .week p { font-size: 14px; 
-      } 
-    </style> 
-  </head> 
-  <body> 
-    <center>
-    <h1>Calendario Anual 2025</h1> 
-    </center>
-    <div class="calendar" > 
-      <!-- Genera los meses --> 
-    <div class="month"> 
-        <h2>Enero</h2> 
-        <div class="weeks"> 
-          <!-- Genera las semanas --> 
-          <div class="week" > 
-            <h3>01 al 05</h3> 
-            <p><a href="https://itnews.lat/newsletters/1.html"><b>NOTICIAS</b></a></p> 
-          </div> 
-          <div class="week"> 
-          	<h3>06 al 12</h3> 
-          	<p><a href="https://itnews.lat/newsletters/2.html"><b>NOTICIAS</b></a></p>  
-          </div> 
-          <div class="week"> 
-          	<h3>13 al 21</h3> 
-          	<p><a href="https://itnews.lat/newsletters/3.html"><b>NOTICIAS</b></a></p>  
+
+<style>
+  .archive-wrap {
+    max-width: 1140px;
+    margin: 32px auto 60px;
+    padding: 0 16px;
+  }
+  .archive-hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #fff;
+    padding: 28px 30px;
+    border-radius: 14px;
+    margin-bottom: 24px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+  }
+  .archive-hero h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 0 0 6px;
+    color: #fff;
+  }
+  .archive-hero p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+  }
+  .archive-controls {
+    display: grid;
+    grid-template-columns: 1fr 180px 180px;
+    gap: 12px;
+    margin-bottom: 18px;
+    background: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  @media (max-width: 768px) {
+    .archive-controls {
+      grid-template-columns: 1fr;
+    }
+  }
+  .archive-input, .archive-select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #1e293b;
+  }
+  .archive-years-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .year-pill {
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    color: #334155;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .year-pill:hover, .year-pill.active {
+    background: #c91f28;
+    border-color: #c91f28;
+    color: #fff;
+  }
+  .archive-list {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .archive-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 18px;
+    border-bottom: 1px solid #f1f5f9;
+    transition: background 0.15s;
+  }
+  .archive-item:last-child {
+    border-bottom: none;
+  }
+  .archive-item:hover {
+    background: #f8fafc;
+  }
+  .archive-item-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0f172a;
+    text-decoration: none;
+  }
+  .archive-item-title:hover {
+    color: #c91f28;
+    text-decoration: underline;
+  }
+  .archive-item-meta {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 3px;
+  }
+  .archive-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #475569;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 6px;
+  }
+</style>
+
+<div class="archive-wrap">
+  <div class="archive-hero">
+    <h1><i class="fa fa-archive"></i> Archivo Histórico ITNEWS.LAT (2018 – 2026)</h1>
+    <p>Consulta y busca en nuestra hemeroteca tecnológica de América Latina clasificada por año, país y categoría.</p>
+  </div>
+
+  <div class="archive-controls">
+    <input type="search" id="histSearchInput" class="archive-input" placeholder="Buscar por palabra clave, empresa o tema...">
+    <select id="histCountrySelect" class="archive-select">
+      <option value="">Todos los países</option>
+      <option value="Venezuela">Venezuela</option>
+      <option value="Colombia">Colombia</option>
+      <option value="México">México</option>
+      <option value="Chile">Chile</option>
+      <option value="Argentina">Argentina</option>
+      <option value="Perú">Perú</option>
+      <option value="Ecuador">Ecuador</option>
+      <option value="Panamá">Panamá</option>
+    </select>
+    <select id="histTagSelect" class="archive-select">
+      <option value="">Todas las categorías</option>
+      <option value="Actualidad">Actualidad</option>
+      <option value="Seguridad">Seguridad</option>
+      <option value="Transformación Digital">Transformación Digital</option>
+      <option value="Economía Digital">Economía Digital</option>
+      <option value="Canales">Canales</option>
+      <option value="Movilidad">Movilidad</option>
+    </select>
+  </div>
+
+  <div class="archive-years-bar" id="histYearsBar">
+    <button type="button" class="year-pill active" data-year="">Todos</button>
+    <button type="button" class="year-pill" data-year="2026">2026</button>
+    <button type="button" class="year-pill" data-year="2025">2025</button>
+    <button type="button" class="year-pill" data-year="2024">2024</button>
+    <button type="button" class="year-pill" data-year="2023">2023</button>
+    <button type="button" class="year-pill" data-year="2022">2022</button>
+    <button type="button" class="year-pill" data-year="2021">2021</button>
+    <button type="button" class="year-pill" data-year="2020">2020</button>
+    <button type="button" class="year-pill" data-year="2019">2019</button>
+    <button type="button" class="year-pill" data-year="2018">2018</button>
+  </div>
+
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; font-size:13px; color:#64748b;">
+    <span id="histStatusText">Cargando índice histórico bajo demanda...</span>
+    <button type="button" id="histLoadMoreBtn" class="btn btn-sm btn-outline-secondary" style="display:none;">Mostrar más resultados</button>
+  </div>
+
+  <div class="archive-list" id="histResultsList">
+    <div style="padding:28px; text-align:center; color:#64748b;">
+      <i class="fa fa-spinner fa-spin"></i> Cargando hemeroteca...
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    let allPosts = [];
+    let selectedYear = '';
+    let visibleLimit = 60;
+
+    const searchInput = document.getElementById('histSearchInput');
+    const countrySelect = document.getElementById('histCountrySelect');
+    const tagSelect = document.getElementById('histTagSelect');
+    const yearsBar = document.getElementById('histYearsBar');
+    const statusText = document.getElementById('histStatusText');
+    const resultsList = document.getElementById('histResultsList');
+    const loadMoreBtn = document.getElementById('histLoadMoreBtn');
+
+    function renderArchive() {
+      const q = (searchInput.value || '').trim().toLowerCase();
+      const country = (countrySelect.value || '').toLowerCase();
+      const countryPlain = country.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      const tag = (tagSelect.value || '').toLowerCase();
+
+      const filtered = allPosts.filter(p => {
+        if (selectedYear && p.year !== selectedYear) return false;
+        if (q && !(p.title || '').toLowerCase().includes(q)) return false;
+        if (country) {
+          const cats = (p.categories || []).map(c => String(c).toLowerCase());
+          if (!cats.includes(country) && !cats.includes(countryPlain)) return false;
+        }
+        if (tag && !(p.tags || '').toLowerCase().includes(tag)) return false;
+        return true;
+      });
+
+      statusText.textContent = `${filtered.length} noticias encontradas` + (selectedYear ? ` en ${selectedYear}` : ' (2018 – 2026)');
+
+      if (filtered.length === 0) {
+        resultsList.innerHTML = '<div style="padding:28px; text-align:center; color:#64748b;">No se encontraron noticias con esos filtros.</div>';
+        loadMoreBtn.style.display = 'none';
+        return;
+      }
+
+      const slice = filtered.slice(0, visibleLimit);
+      resultsList.innerHTML = slice.map(p => {
+        const cats = Array.isArray(p.categories) && p.categories.length ? p.categories[0] : '';
+        return `
+          <div class="archive-item">
+            <div>
+              <a href="${p.url}" class="archive-item-title">${p.title || 'Sin título'}</a>
+              <div class="archive-item-meta">
+                <i class="fa fa-calendar"></i> ${p.date || ''}
+                ${cats ? `<span class="archive-badge">${cats}</span>` : ''}
+                ${p.tags ? `<span class="archive-badge">${p.tags}</span>` : ''}
+              </div>
+            </div>
+            <a href="${p.url}" class="btn btn-sm btn-primary" style="white-space:nowrap;">Leer</a>
           </div>
-          <div class="week"> 
-          	<h3>20 al 26</h3> 
-          	<p><a href="https://itnews.lat/newsletters/4.html"><b>NOTICIAS</b></a></p>  
-          </div>
-          <div class="week"> 
-          	<h3>27 al 02</h3> 
-          	<p>..</p> 
-          </div>
-          <!-- Añadir más semanas según necesidad --> </div> 
-      </div> 
-      <!-- Añadir más meses según necesidad --> </div> 
- <div class="month"> 
-        <h2>Febrero</h2> 
-        <div class="weeks"> 
-          <!-- Genera las semanas --> 
-          <div class="week"> 
-            <h3>03 al 09</h3> 
-            <p>..</p> 
-          </div> 
-          <div class="week"> 
-          	<h3>10 al 16</h3> 
-          	<p>..</p> 
-          </div> 
-          <div class="week"> 
-          	<h3>17 al 23</h3> 
-          	<p>..</p> 
-          </div>
-          <div class="week"> 
-          	<h3>24 al 02</h3> 
-          	<p>..</p> 
-          </div>
-          <div class="week"> 
-          	<h3>27 al 02</h3> 
-          	<p>..</p> 
-          </div>
-          <!-- Añadir más semanas según necesidad --> </div> 
-      </div>
-   <div class="month"> 
-        <h2>Marzo</h2> 
-        <div class="weeks"> 
-          <!-- Genera las semanas --> 
-          <div class="week"> 
-            <h3>03 al 09</h3> 
-            <p>..</p> 
-          </div> 
-          <div class="week"> 
-          	<h3>10 al 16</h3> 
-          	<p>..</p> 
-          </div> 
-          <div class="week"> 
-          	<h3>17 al 23</h3> 
-          	<p>..</p> 
-          </div>
-          <div class="week"> 
-          	<h3>24 al 30</h3> 
-          	<p>..</p>
-            </div>	
-     </div>	
-    </div>	
-    <div>
-          {% include posts/footer.html %}
-    </div     
-  </body>
+        `;
+      }).join('');
+
+      loadMoreBtn.style.display = filtered.length > visibleLimit ? 'inline-block' : 'none';
+    }
+
+    yearsBar.querySelectorAll('.year-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        yearsBar.querySelectorAll('.year-pill').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        selectedYear = btn.getAttribute('data-year') || '';
+        visibleLimit = 60;
+        renderArchive();
+      });
+    });
+
+    searchInput.addEventListener('input', () => { visibleLimit = 60; renderArchive(); });
+    countrySelect.addEventListener('change', () => { visibleLimit = 60; renderArchive(); });
+    tagSelect.addEventListener('change', () => { visibleLimit = 60; renderArchive(); });
+    loadMoreBtn.addEventListener('click', () => { visibleLimit += 80; renderArchive(); });
+
+    fetch('/search-historico.json')
+      .then(res => res.json())
+      .then(data => {
+        allPosts = Array.isArray(data) ? data : [];
+        renderArchive();
+      })
+      .catch(() => {
+        fetch('/search.json')
+          .then(r => r.json())
+          .then(data => {
+            allPosts = (Array.isArray(data) ? data : []).map(p => ({
+              ...p,
+              year: (p.date || '').slice(0, 4),
+              date: (p.date || '').slice(0, 10)
+            }));
+            renderArchive();
+          });
+      });
+  })();
+</script>
+
+{% include posts/footer.html %}

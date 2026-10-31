@@ -1251,7 +1251,18 @@
       </div>
       <div class="recent-posts-body" id="recentPostsBody">
         <div class="recent-posts-toolbar">
-          <input type="text" id="recentPostsSearch" class="input-text" placeholder="Buscar entre las notas recientes por palabra clave o fecha (ej. 2026-10-30, kaspersky...)" style="flex: 1; padding: 8px 12px; font-size: 13px;">
+          <select id="recentPostsYearSelect" class="input-text" style="max-width: 125px; padding: 8px 10px; font-size: 13px; font-weight: 600;">
+            <option value="2026" selected>Año 2026</option>
+            <option value="2025">Año 2025</option>
+            <option value="2024">Año 2024</option>
+            <option value="2023">Año 2023</option>
+            <option value="2022">Año 2022</option>
+            <option value="2021">Año 2021</option>
+            <option value="2020">Año 2020</option>
+            <option value="2019">Año 2019</option>
+            <option value="2018">Año 2018</option>
+          </select>
+          <input type="text" id="recentPostsSearch" class="input-text" placeholder="Buscar entre las notas del año seleccionado por palabra clave o fecha (ej. 2026-10-30, kaspersky...)" style="flex: 1; padding: 8px 12px; font-size: 13px;">
         </div>
         <div id="recentPostsList" class="recent-posts-list">
           <div style="color: var(--text-muted); font-size: 13px; padding: 12px; text-align: center;">
@@ -2739,13 +2750,23 @@ ${currentBody.slice(0, 7000)}`;
       btnGenerateAiSeo.addEventListener('click', runAiSeoOptimization);
 
       // =====================================================
-      // MEJORA 2: Historial de Últimas Notas Publicadas y Edición
+      // MEJORA 2: Historial de Últimas Notas Publicadas y Edición (Filtrado Rápido por Año)
       // =====================================================
+      const recentPostsYearSelect = document.getElementById('recentPostsYearSelect');
+      let allRepoPostFiles = [];
+
+      function applyYearFilterToRecentPosts() {
+        const selectedYear = (recentPostsYearSelect && recentPostsYearSelect.value) ? recentPostsYearSelect.value : '2026';
+        cachedRecentPosts = allRepoPostFiles.filter(f => f.startsWith(`${selectedYear}-`) || f.startsWith(`${selectedYear}/`));
+        recentPostsCountBadge.textContent = `${cachedRecentPosts.length} notas en ${selectedYear}`;
+        renderRecentPostsList(recentPostsSearch.value.trim().toLowerCase());
+      }
+
       recentPostsToggle.addEventListener('click', (e) => {
         if (e.target.closest('#btnRefreshRecentPosts')) return;
         const isOpen = recentPostsBody.classList.toggle('open');
         recentPostsChevron.className = isOpen ? 'ri-arrow-up-s-line' : 'ri-arrow-down-s-line';
-        if (isOpen && cachedRecentPosts.length === 0) {
+        if (isOpen && allRepoPostFiles.length === 0) {
           fetchRecentPosts();
         }
       });
@@ -2756,39 +2777,52 @@ ${currentBody.slice(0, 7000)}`;
           recentPostsBody.classList.add('open');
           recentPostsChevron.className = 'ri-arrow-up-s-line';
         }
-        fetchRecentPosts();
+        fetchRecentPosts(true);
       });
+
+      if (recentPostsYearSelect) {
+        recentPostsYearSelect.addEventListener('change', () => {
+          if (allRepoPostFiles.length > 0) {
+            applyYearFilterToRecentPosts();
+          } else {
+            fetchRecentPosts();
+          }
+        });
+      }
 
       recentPostsSearch.addEventListener('input', () => {
         renderRecentPostsList(recentPostsSearch.value.trim().toLowerCase());
       });
 
-      async function fetchRecentPosts() {
+      async function fetchRecentPosts(forceRefresh = false) {
+        if (!forceRefresh && allRepoPostFiles.length > 0) {
+          applyYearFilterToRecentPosts();
+          return;
+        }
+
         const token = getActiveGhToken();
         const headers = { 'Accept': 'application/vnd.github.v3+json' };
         if (token) headers['Authorization'] = `Bearer ${token}`;
+        const selectedYear = (recentPostsYearSelect && recentPostsYearSelect.value) ? recentPostsYearSelect.value : '2026';
 
         recentPostsList.innerHTML = `
           <div style="color: var(--accent); font-size: 13px; padding: 14px; text-align: center;">
-            <i class="ri-loader-4-line ri-spin"></i> Consultando últimas notas en GitHub...
+            <i class="ri-loader-4-line ri-spin"></i> Consultando notas de ${selectedYear} en GitHub...
           </div>
         `;
 
         try {
-          // Consultar el árbol Git de _posts (soporta miles de archivos sin límite de 1000)
-          const treeUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/${REPO_BRANCH}:_posts`;
-          const res = await fetch(treeUrl, { headers });
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          const data = await res.json();
+          const rootTreeUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/${REPO_BRANCH}:_posts`;
+          const rootRes = await fetch(rootTreeUrl, { headers });
+          if (!rootRes.ok) throw new Error(`HTTP ${rootRes.status}`);
+          const rootData = await rootRes.json();
 
-          const files = (data.tree || [])
+          allRepoPostFiles = (rootData.tree || [])
             .filter(item => item.type === 'blob' && item.path.endsWith('.md'))
             .map(item => item.path)
             .sort((a, b) => b.localeCompare(a));
 
-          cachedRecentPosts = files.slice(0, 60);
-          recentPostsCountBadge.textContent = `${files.length} notas en total (mostrando recientes)`;
-          renderRecentPostsList(recentPostsSearch.value.trim().toLowerCase());
+          applyYearFilterToRecentPosts();
         } catch (err) {
           console.error(err);
           recentPostsList.innerHTML = `
@@ -2800,17 +2834,17 @@ ${currentBody.slice(0, 7000)}`;
       }
 
       function buildPublicPostUrl(filename) {
-        // Formato filename: YYYY-MM-DD-slug.md
-        const m = filename.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
+        const baseFile = filename.split('/').pop();
+        const m = baseFile.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
         if (!m) return 'https://itnews.lat/';
-        const [, year, month, day, slug] = m;
-        return `https://itnews.lat/${year}/${month}/${day}/${slug}/`;
+        const [, , , , slug] = m;
+        return `https://itnews.lat/${slug}.html`;
       }
 
       function renderRecentPostsList(filterQuery = '') {
         const filtered = filterQuery
           ? cachedRecentPosts.filter(name => name.toLowerCase().includes(filterQuery))
-          : cachedRecentPosts.slice(0, 20);
+          : cachedRecentPosts.slice(0, 25);
 
         if (filtered.length === 0) {
           recentPostsList.innerHTML = `
@@ -2822,10 +2856,11 @@ ${currentBody.slice(0, 7000)}`;
         }
 
         recentPostsList.innerHTML = '';
-        filtered.slice(0, 25).forEach(filename => {
-          const m = filename.match(/^(\d{4}-\d{2}-\d{2})-(.+)\.md$/);
+        filtered.slice(0, 30).forEach(filename => {
+          const baseFile = filename.split('/').pop();
+          const m = baseFile.match(/^(\d{4}-\d{2}-\d{2})-(.+)\.md$/);
           const datePart = m ? m[1] : '';
-          const slugPart = m ? m[2].replace(/-/g, ' ') : filename;
+          const slugPart = m ? m[2].replace(/-/g, ' ') : baseFile;
 
           const row = document.createElement('div');
           row.className = 'recent-post-item';
@@ -2838,8 +2873,8 @@ ${currentBody.slice(0, 7000)}`;
               <button type="button" class="btn-mini-action edit-btn" data-edit="${filename}" title="Cargar esta nota en el editor para corregirla o actualizarla">
                 <i class="ri-edit-2-line"></i> Editar
               </button>
-              <button type="button" class="btn-mini-action" data-copy-file="${filename}" title="Copiar nombre de archivo">
-                <i class="ri-file-copy-line"></i> Archivo
+              <button type="button" class="btn-mini-action" data-copy-file="${filename}" title="Copiar ruta de archivo">
+                <i class="ri-file-copy-line"></i> Ruta
               </button>
             </div>
           `;
@@ -2849,7 +2884,7 @@ ${currentBody.slice(0, 7000)}`;
             navigator.clipboard.writeText(`_posts/${filename}`);
             const btn = ev.currentTarget;
             btn.innerHTML = '<i class="ri-check-line"></i> Copiado';
-            setTimeout(() => { btn.innerHTML = '<i class="ri-file-copy-line"></i> Archivo'; }, 1800);
+            setTimeout(() => { btn.innerHTML = '<i class="ri-file-copy-line"></i> Ruta'; }, 1800);
           });
 
           recentPostsList.appendChild(row);
@@ -3158,6 +3193,7 @@ ${currentBody.slice(0, 7000)}`;
           console.warn('Búsqueda por GitHub Code Search API no disponible o con rate limit:', e);
         }
 
+        candidatePaths.add('_posts/2026/2026-09-21-la-empresa-autonoma-en-america-latina-salvatore-cherchi-abside.md');
         candidatePaths.add('_posts/2026-09-21-la-empresa-autonoma-en-america-latina-salvatore-cherchi-abside.md');
 
         let deactivatedCount = 0;

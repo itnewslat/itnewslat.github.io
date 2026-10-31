@@ -1,5 +1,5 @@
 <!-- ======== @Region: #highlighted ======== -->
-{% for element in site.categories[page.filterCategory] %}
+{% for element in site.categories[page.filterCategory] limit: 50 %}
   {% if element.superNews %}
     <div id="highlighted" class="bg-black">
       <div class="overlay overlay-gradient overlay-op-8 text-left py-5 pt-lg-10"
@@ -18,5 +18,6 @@
         </div>
       </div>
     </div>
+    {% break %}
   {% endif %}
 {% endfor %}

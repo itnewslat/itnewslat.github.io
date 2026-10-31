@@ -2,9 +2,9 @@
 layout: null
 ---
 [
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 400 %}
     {
-      "title"      : "{{ post.title | escape }}",
+      "title"      : {{ post.title | jsonify }},
       "category"   : "{{ post.category }}",
       "categories" : {{ post.categories | jsonify }},
       "tags"       : "{{ post.tags | join: ', ' }}",
@@ -13,6 +13,6 @@ layout: null
       "superNews"  : {{ post.superNews | default: false }},
       "image"      : "{{ post.image }}",
       "detailImage": "{{ post.detail-image }}"
-    } {% unless forloop.last %},{% endunless %}
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

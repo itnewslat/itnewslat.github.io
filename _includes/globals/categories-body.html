@@ -2,29 +2,39 @@
   <div class="blog-roll blog-grid" data-toggle="isotope-grid" data-isotope-options='{"itemSelector": ".grid-item"}'>
     <div class="row">
       {% assign filter = page.filter %}
-      {% for item in site.posts %}
-       {% if item.tags contains filter %}
-        <div class="col-sm-6 col-md-4 grid-item">
-          <div class="blog-post">
-            <div class="blog-media">
-              <a href="{{ item.url }}
-                ">
-                <img src="{{ item.image }}" alt="{{ item.title }}" class="img-fluid" />
-              </a>
-            </div>
-            <div class="mt-4">
-              <div class="date-wrapper date-wrapper-horizontal">
-              <span class="date-m bg-primary">{{ item.date | date: "%b" }}</span>
-              <span class="date-d">{{ item.date | date: "%-d" }}</span><span class="date-d">{{ item.date | date: "%-Y" }}</span> </div>
-              <h4 class="timeline-item-title">
-                <a href="{{ item.url }}">{{ item.title }}</a>
-              </h4>
-              <a href="{{ item.url }}" class="btn btn-link"><i class="fa fa-arrow-circle-right"></i> Ver más</a>
+      {% assign matched_count = 0 %}
+      {% for item in site.posts limit: 600 %}
+        {% if item.tags contains filter %}
+          {% assign matched_count = matched_count | plus: 1 %}
+          <div class="col-sm-6 col-md-4 grid-item">
+            <div class="blog-post">
+              <div class="blog-media">
+                <a href="{{ item.url }}">
+                  <img src="{{ item.image }}" alt="{{ item.title | escape }}" class="img-fluid" loading="lazy" />
+                </a>
+              </div>
+              <div class="mt-4">
+                <div class="date-wrapper date-wrapper-horizontal">
+                  <span class="date-m bg-primary">{{ item.date | date: "%b" }}</span>
+                  <span class="date-d">{{ item.date | date: "%-d" }}</span><span class="date-d">{{ item.date | date: "%-Y" }}</span>
+                </div>
+                <h4 class="timeline-item-title">
+                  <a href="{{ item.url }}">{{ item.title }}</a>
+                </h4>
+                <a href="{{ item.url }}" class="btn btn-link"><i class="fa fa-arrow-circle-right"></i> Ver más</a>
+              </div>
             </div>
           </div>
-        </div>
-      {% endif %}
-    {% endfor %}
+          {% if matched_count >= 48 %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
     </div>
+  </div>
+  <div class="text-center my-4 py-3" style="border-top: 1px solid #e2e8f0;">
+    <a href="/Historico.html" class="btn btn-primary btn-lg">
+      <i class="fa fa-archive mr-2"></i> Consultar Archivo Histórico Completo (2018 – 2026)
+    </a>
   </div>
 </div>
