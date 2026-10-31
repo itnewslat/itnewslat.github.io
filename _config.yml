@@ -1,9 +1,9 @@
 title: Itnews.lat
-email: ""
-description: "Enfocados en las tendencias tecnológicas de los próximos años y las nuevas audiencias que están  cambiando el mercado."
-author: Itnews
+email: "noticias@itnews.lat"
+description: "Enfocados en las tendencias tecnológicas de los próximos años y las nuevas audiencias que están cambiando el mercado."
+author: "Edgar C. Rincón M."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://itnews.lat" # the base hostname & protocol for your site
 image_url: "/assets/imagenes/"
 image_vzla_url: "/assets/imagenes/venezuela/"
 logo_vzla: "logo-horizontal.jpg"

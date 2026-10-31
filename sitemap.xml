@@ -9,6 +9,16 @@ layout: null
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://itnews.lat/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://itnews.lat/Historico.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://itnews.lat/app/</loc>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
