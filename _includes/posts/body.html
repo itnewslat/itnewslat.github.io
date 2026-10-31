@@ -35,39 +35,32 @@
         <!-- Social Share Bar (Top compact under image) -->
         {% include posts/share-bar.html %}
 
-        <!-- GEO Direct-to-Answer Layout: Key Takeaways Block (se muestra solo si la nota no incluye ya su propio Resumen Ejecutivo ITNEWS) -->
-        {% unless page.content contains 'Resumen Ejecutivo ITNEWS' %}
+        <!-- Único bloque de Resumen / Puntos Clave (alimentado por page.takeaways o síntesis sin duplicar el primer párrafo) -->
+        {% if page.takeaways and page.takeaways.size > 0 %}
         <section class="geo-takeaways" aria-label="Puntos Clave">
           <div class="geo-takeaways-header">
             <span class="geo-takeaways-icon"><i class="fas fa-bolt"></i></span>
             <h3 class="geo-takeaways-title">Puntos Clave</h3>
           </div>
           <ul class="geo-takeaways-list">
-            {% if page.takeaways %}
-              {% for item in page.takeaways %}
-                <li>{{ item }}</li>
-              {% endfor %}
-            {% elsif page.puntos_clave %}
-              {% for item in page.puntos_clave %}
-                <li>{{ item }}</li>
-              {% endfor %}
-            {% else %}
-              <!-- Automated SSR Lead Takeaways extracted for generative search crawlers -->
-              {% assign cleanContent = page.content | strip_html | normalize_whitespace %}
-              {% assign sentences = cleanContent | split: '. ' %}
-              {% if sentences[0] %}
-                <li><strong>Resumen ejecutivo:</strong> {{ sentences[0] | strip }}.</li>
-              {% endif %}
-              {% if sentences[1] %}
-                <li><strong>Impacto en el sector:</strong> {{ sentences[1] | strip }}.</li>
-              {% endif %}
-              {% if sentences[2] %}
-                <li><strong>Relevancia regional:</strong> {{ sentences[2] | strip }}.</li>
-              {% endif %}
-            {% endif %}
+            {% for item in page.takeaways %}
+              <li>{{ item }}</li>
+            {% endfor %}
           </ul>
         </section>
-        {% endunless %}
+        {% elsif page.puntos_clave and page.puntos_clave.size > 0 %}
+        <section class="geo-takeaways" aria-label="Puntos Clave">
+          <div class="geo-takeaways-header">
+            <span class="geo-takeaways-icon"><i class="fas fa-bolt"></i></span>
+            <h3 class="geo-takeaways-title">Puntos Clave</h3>
+          </div>
+          <ul class="geo-takeaways-list">
+            {% for item in page.puntos_clave %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
 
         <div class="blog-article-body">
           <p>{{ page.content }}</p>

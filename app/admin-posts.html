@@ -2469,27 +2469,56 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         seoRestoreBar.style.display = 'flex';
       }
 
-      // Quitar viñetas iniciales del cuerpo cuando ya se incluyeron en el Resumen Ejecutivo superior
-      function stripLeadingSummaryBulletsFromBody(bodyText) {
+      // Quitar título repetido o viñetas de sumario al inicio del boletín para que NUNCA se repitan debajo del recuadro verde "Puntos Clave"
+      function stripLeadingSummaryBulletsFromBody(bodyText, origTitle = '') {
         if (!bodyText) return '';
-        const blocks = bodyText.split(/\n\n+/);
-        while (blocks.length > 1 && /^([·•●▪◦‣⁃\-*]\s+)/.test(blocks[0].trim())) {
-          blocks.shift();
+        let cleaned = bodyText
+          .replace(/^###\s*Resumen Ejecutivo ITNEWS[\s\S]*?\n---\n+/i, '')
+          .trim();
+
+        const lines = cleaned.split('\n');
+        const normOrig = (origTitle || '').toLowerCase().replace(/[¿?¡!.,;:]/g, '').trim();
+
+        while (lines.length > 1) {
+          const first = lines[0].trim();
+          if (!first) {
+            lines.shift();
+            continue;
+          }
+          const normFirst = first.replace(/^[·•●▪◦‣⁃\-*#]+\s*/, '').toLowerCase().replace(/[¿?¡!.,;:]/g, '').trim();
+          // Quitar si la primera línea repite el titular o es una viñeta de sumario inicial
+          if (/^([·•●▪◦‣⁃\-*]\s+)/.test(first)) {
+            lines.shift();
+            continue;
+          }
+          if (normOrig && normOrig.length > 15 && (normFirst === normOrig || normFirst.includes(normOrig) || normOrig.includes(normFirst)) && first.length < 140) {
+            lines.shift();
+            continue;
+          }
+          // Si la primera línea es un subtítulo corto (< 95 car.) e inmediatamente después vienen viñetas de sumario, quitarlo también
+          const nextNonEmpty = lines.slice(1).find(l => l.trim().length > 0) || '';
+          if (first.length < 95 && /^([·•●▪◦‣⁃\-*]\s+)/.test(nextNonEmpty.trim())) {
+            lines.shift();
+            continue;
+          }
+          break;
         }
-        return blocks.join('\n\n').trim();
+        return lines.join('\n').trim();
       }
 
-      // Algoritmo Periodístico Local para generar Nuevo Titular (sin usar el original) y Resumen de Noticia
+      // Algoritmo Periodístico Local para generar Nuevo Titular (máx 80 car.), Puntos Clave YAML (sin duplicar) y Resumen
       function buildLocalSeoAlternatives(origTitle, rawBody) {
         const formattedBody = autoFormatPressRelease(rawBody);
-        const paras = formattedBody
+        const bodyWithoutTopBullets = stripLeadingSummaryBulletsFromBody(formattedBody, origTitle);
+
+        const paras = bodyWithoutTopBullets
           .split(/\n\n+/)
           .map(p => p.trim())
           .filter(p => p.length > 35 && !p.startsWith('![') && !p.startsWith('<'));
 
         // Extraer todas las oraciones informativas limpias (sin viñetas ni dateline de ciudad/fecha)
         const sentences = [];
-        paras.forEach(p => {
+        paras.forEach((p, pIdx) => {
           const cleanP = p
             .replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '')
             .replace(/^\*\*[^*]{2,60}\*\*\s*/, '')
@@ -2502,32 +2531,44 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
               .replace(/\*\*/g, '')
               .replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '')
               .trim();
-            if (trimmed.length >= 40 && trimmed.length <= 240) {
-              sentences.push(trimmed);
+            if (trimmed.length >= 45 && trimmed.length <= 230 && !trimmed.endsWith('?')) {
+              sentences.push({ text: trimmed, pIdx });
             }
           });
         });
 
-        // Seleccionar las oraciones con mayor peso informativo (cifras, verbos de acción, vocería)
-        const scored = sentences.map((s, idx) => {
-          let score = idx === 0 ? 5 : (idx === 1 ? 4 : 1);
-          if (/\d+%|\$|\bmillones\b|\bmil\b|\b202[678]\b/i.test(s)) score += 4;
-          if (/\b(anunció|presentó|lanzó|reveló|advirtió|destacó|impulsa|transforma|crecimiento|inversión|seguridad|vulnerabilidad|inteligencia artificial)\b/i.test(s)) score += 3;
+        // Seleccionar 3 Puntos Clave a partir del segundo párrafo en adelante (pIdx >= 1) para NO repetir el primer párrafo
+        const candidateSentences = sentences.filter(item => item.pIdx >= 1);
+        const pool = candidateSentences.length >= 3 ? candidateSentences : sentences;
+
+        const scored = pool.map((item, idx) => {
+          const s = item.text;
+          let score = idx === 0 ? 4 : 2;
+          if (/\d+%|\$|\bmillones\b|\bmil\b|\b202[678]\b/i.test(s)) score += 5;
+          if (/\b(anunció|presentó|lanzó|reveló|advirtió|destacó|explica|señala|impulsa|transforma|crecimiento|inversión|seguridad|vulnerabilidad|inteligencia artificial)\b/i.test(s)) score += 3;
           return { text: s, score, idx };
         });
 
-        const topHighlights = [...scored]
-          .sort((a, b) => b.score - a.score)
-          .slice(0, 4)
+        const topHighlights = [];
+        const sortedByScore = [...scored].sort((a, b) => b.score - a.score);
+        for (const item of sortedByScore) {
+          const norm = item.text.toLowerCase();
+          const isDuplicate = topHighlights.some(existing => existing.text.toLowerCase() === norm || existing.text.toLowerCase().includes(norm) || norm.includes(existing.text.toLowerCase()));
+          if (!isDuplicate) {
+            topHighlights.push(item);
+            if (topHighlights.length >= 3) break;
+          }
+        }
+        const takeawaysList = topHighlights
           .sort((a, b) => a.idx - b.idx)
-          .map(item => item.text);
+          .map(item => item.text.replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim());
 
         // Construir 3 titulares periodísticos limpios (máximo 80 caracteres, sin viñetas ni frases cortadas)
         const cleanSentForHeadline = (s) => {
           if (!s) return '';
           let h = s
             .replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '')
-            .replace(/^(según|de acuerdo con|asimismo,|además,|en este sentido,|por su parte,)\s+/i, '')
+            .replace(/^(según|de acuerdo con|asimismo,|además,|en este sentido,|por su parte,|para ello,)\s+/i, '')
             .replace(/[.!?]+$/, '')
             .trim();
 
@@ -2543,62 +2584,41 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         const tag = getSelectedTag();
         const headlines = [];
 
-        // Titular #1: Tesis principal sintetizada
-        if (sentences[0]) {
-          const h1 = cleanSentForHeadline(sentences[0]);
-          if (h1 && h1.toLowerCase() !== origTitle.toLowerCase()) {
-            headlines.push(h1);
-          }
-        }
-
-        // Titular #2: Hallazgo o cifra clave del cuerpo
-        for (let i = 0; i < topHighlights.length; i++) {
-          const cand = cleanSentForHeadline(topHighlights[i]);
+        for (let i = 0; i < sentences.length && headlines.length < 3; i++) {
+          const cand = cleanSentForHeadline(sentences[i].text);
           if (cand && !headlines.includes(cand) && cand.toLowerCase() !== origTitle.toLowerCase()) {
             headlines.push(cand);
-            if (headlines.length >= 2) break;
-          }
-        }
-
-        // Titular #3: Tercer ángulo informativo del cuerpo o reformulación limpia
-        for (let i = 1; i < sentences.length; i++) {
-          const cand = cleanSentForHeadline(sentences[i]);
-          if (cand && !headlines.includes(cand) && cand.toLowerCase() !== origTitle.toLowerCase()) {
-            headlines.push(cand);
-            if (headlines.length >= 3) break;
           }
         }
 
         if (headlines.length < 3 && origTitle) {
-          const cleanOrig = origTitle.replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim();
+          const cleanOrig = origTitle.replace(/^[·•●▪◦‣⁃\-*–—¿?]+\s*/, '').replace(/[?]+$/, '').trim();
           headlines.push(enforceHeadlineMax80(`${tag}: claves sobre ${cleanOrig.charAt(0).toLowerCase() + cleanOrig.slice(1)}`));
         }
 
-        // Construir el bloque de Puntos Clave y Resumen
-        const bulletPoints = topHighlights.slice(0, 3).map(b => `- ${b.replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '')}`).join('\n');
-        const bodyWithoutTopBullets = stripLeadingSummaryBulletsFromBody(formattedBody);
+        // Construir cuerpo limpio sin repetir los takeaways (los takeaways van al recuadro verde Puntos Clave del YAML)
         const cleanParas = bodyWithoutTopBullets.split(/\n\n+/).filter(Boolean);
-        const leadSummary = cleanParas[0] || sentences[0] || '';
+        const leadSummary = cleanParas[0] || '';
         const secondPara = cleanParas[1] || '';
-        const closingPara = cleanParas.length > 2 ? cleanParas[cleanParas.length - 1] : '';
+        const thirdPara = cleanParas[2] || '';
+        const closingPara = cleanParas.length > 3 ? cleanParas[cleanParas.length - 1] : '';
 
-        const summaryBoxMd = `### Resumen Ejecutivo ITNEWS\n${bulletPoints}`;
-
-        // Versión 1: Noticia Resumida (3-4 párrafos concisos + puntos clave)
+        // Versión 1: Noticia Resumida (3-4 párrafos concisos, sin duplicar la lista de viñetas en el cuerpo)
         const condensedParts = [
           leadSummary,
-          summaryBoxMd,
           secondPara,
-          closingPara !== secondPara ? closingPara : ''
+          thirdPara,
+          closingPara && closingPara !== thirdPara ? closingPara : ''
         ].filter(Boolean);
 
         const condensedBody = condensedParts.join('\n\n');
 
-        // Versión 2: Resumen Ejecutivo insertado al inicio + desarrollo completo (sin duplicar bullets iniciales)
-        const prependBody = `${summaryBoxMd}\n\n---\n\n${bodyWithoutTopBullets}`;
+        // Versión 2: Nota completa limpia (los Puntos Clave se guardan automáticamente en takeaways del YAML para el recuadro verde superior)
+        const prependBody = bodyWithoutTopBullets;
 
         return {
           headlines: headlines.slice(0, 3).map(enforceHeadlineMax80),
+          takeaways: takeawaysList,
           condensedBody,
           prependBody
         };
@@ -2628,7 +2648,7 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
 
         renderSuggestedHeadlines(lastSeoResult.headlines);
         saveDraft();
-        showToast('¡Nuevo titular (máx. 80 car.) y resumen aplicados!', 'success');
+        showToast('¡Nuevo titular (máx. 80 car.) y Puntos Clave aplicados sin repeticiones!', 'success');
       }
 
       btnGenerateLocalSeo.addEventListener('click', () => {
@@ -2668,6 +2688,7 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
           const prompt = `Actúa como Editor Jefe del portal tecnológico y de negocios ITNEWS.LAT.
 A partir de la siguiente nota de prensa, necesitamos evitar cualquier penalización de Google por contenido duplicado y posicionar en Google AI Overviews, ChatGPT Search y Perplexity.
 REGLA ESTRICTA DE TITULARES: Cada uno de los 3 titulares DEBE tener como MÁXIMO 80 CARACTERES (ideal entre 55 y 80 caracteres), con sentido periodístico completo, sin puntos finales ni viñetas al inicio.
+REGLA DE NO REPETICIÓN: Los 3 "summaryBullets" se mostrarán en el recuadro superior de "Puntos Clave", por lo que deben estar redactados con tus propias palabras y NUNCA repetir textualmente ninguna oración de "condensedArticle" ni del primer párrafo original.
 Devuelve ÚNICAMENTE un objeto JSON válido (sin bloques markdown \`\`\`json) con esta estructura exacta:
 {
   "headlines": [
@@ -2676,11 +2697,11 @@ Devuelve ÚNICAMENTE un objeto JSON válido (sin bloques markdown \`\`\`json) co
     "Titular periodístico 3 con enfoque analítico o ejecutivo (MÁXIMO 80 CARACTERES)"
   ],
   "summaryBullets": [
-    "Punto clave 1 resumido con tus propias palabras y datos concretos",
-    "Punto clave 2 resumido con tus propias palabras",
-    "Punto clave 3 resumido con tus propias palabras"
+    "Punto clave 1 sintetizado con palabras propias (sin copiar el primer párrafo)",
+    "Punto clave 2 sintetizado con palabras propias y datos concretos",
+    "Punto clave 3 sintetizado con palabras propias"
   ],
-  "condensedArticle": "Resumen periodístico completo de la noticia redactado con palabras nuevas en 3 párrafos bien estructurados en Markdown (sin repetir literalmente el primer párrafo del boletín)."
+  "condensedArticle": "Resumen periodístico completo de la noticia redactado con palabras nuevas en 3 párrafos bien estructurados en Markdown (sin listas de viñetas y sin repetir los summaryBullets)."
 }
 
 Titular original a evitar: "${origTitle}"
@@ -2719,13 +2740,17 @@ ${currentBody.slice(0, 7000)}`;
             .map(h => enforceHeadlineMax80(h))
             .filter(Boolean);
 
-          const bulletsMd = `### Resumen Ejecutivo ITNEWS\n` + (parsed.summaryBullets || []).map(b => `- ${String(b).replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim()}`).join('\n');
-          const formattedOrig = stripLeadingSummaryBulletsFromBody(autoFormatPressRelease(currentBody));
+          const cleanTakeaways = (parsed.summaryBullets || [])
+            .map(b => String(b).replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim())
+            .filter(Boolean);
+
+          const formattedOrig = stripLeadingSummaryBulletsFromBody(autoFormatPressRelease(currentBody), origTitle);
 
           lastSeoResult = {
             headlines: cleanHeadlines.length ? cleanHeadlines : ['Nuevo enfoque tecnológico en América Latina'],
-            condensedBody: `${bulletsMd}\n\n${parsed.condensedArticle || ''}`.trim(),
-            prependBody: `${bulletsMd}\n\n---\n\n${formattedOrig}`
+            takeaways: cleanTakeaways,
+            condensedBody: (parsed.condensedArticle || formattedOrig).trim(),
+            prependBody: formattedOrig
           };
 
           postTitle.value = enforceHeadlineMax80(lastSeoResult.headlines[0]);
@@ -3121,6 +3146,15 @@ ${currentBody.slice(0, 7000)}`;
         yaml += `tags:\n`;
         yaml += `  - ${tag}\n`;
         yaml += `week: '${week}'\n`;
+        if (lastSeoResult && Array.isArray(lastSeoResult.takeaways) && lastSeoResult.takeaways.length > 0) {
+          yaml += `takeaways:\n`;
+          lastSeoResult.takeaways.forEach(tk => {
+            const cleanTk = String(tk).replace(/"/g, '\\"').trim();
+            if (cleanTk) {
+              yaml += `  - "${cleanTk}"\n`;
+            }
+          });
+        }
         yaml += `---\n`;
         yaml += `${fullBody}`;
 

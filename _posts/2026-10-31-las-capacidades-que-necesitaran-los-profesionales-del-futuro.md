@@ -17,16 +17,11 @@ categories:
 tags:
   - Actualidad
 week: '44'
+takeaways:
+  - "El dominio técnico de cada disciplina, sumado al pensamiento crítico, es la base para utilizar la inteligencia artificial como copiloto sin perder originalidad."
+  - "David Alonso, director académico en UDIT, destaca la importancia de combinar formación especializada con proyectos reales e interdisciplinarios."
+  - "Estudiantes de UDIT fueron premiados en el hackathon internacional OdiseIA4Good 2026 (entre 112 equipos) por la app Medscan de consulta de medicamentos con IA."
 ---
-### Resumen Ejecutivo ITNEWS
-- Las capacidades que necesitarán los profesionales del futuro?
-- La mejor preparación no consiste en buscar una profesión supuestamente a salvo de la IA, sino en prepararse para evolucionar con ella.
-- ¿Qué carrera elegir cuando la inteligencia artificial está transformando profesiones que hasta hace poco parecían difíciles de automatizar?
-
----
-- La mejor preparación no consiste en buscar una profesión supuestamente a salvo de la IA, sino en prepararse para evolucionar con ella.
-- David Alonso, director académico del área de Tecnología y Ciencias Aplicadas de UDIT, explica cómo integrar estas herramientas en el aprendizaje sin perder de vista el criterio propio y las capacidades humanas.
-
 ¿Qué carrera elegir cuando la inteligencia artificial está transformando profesiones que hasta hace poco parecían difíciles de automatizar? ¿Cómo prepararse para un mercado laboral en el que muchas de las herramientas y competencias actuales podrían cambiar radicalmente en los próximos años?
 
 Estas son algunas de las cuestiones que afrontan los jóvenes a la hora de decidir su futuro universitario.
@@ -49,7 +44,7 @@ UDIT valora a los profesores que compaginan la docencia con su actividad profesi
 
 “La IA refuerza sus funciones más valiosas: orientar, motivar, inspirar y desarrollar aquellas capacidades humanas que la tecnología puede potenciar, pero no reemplazar”, afirma Alonso.
 
-En un mercado laboral en constante transformación, el conocimiento experto es lo que convierte a una persona en un buen usuario de la inteligencia artificial. Para Alonso, la mejor preparación para el futuro no consiste en elegir una profesión que aparentemente esté proteg
+En un mercado laboral en constante transformación, el conocimiento experto es lo que convierte a una persona en un buen usuario de la inteligencia artificial. Para Alonso, la mejor preparación para el futuro no consiste en elegir una profesión que aparentemente esté protegida frente a la automatización, sino en prepararse para evolucionar con ella.
 
 ![](https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/Estudiantes-Digitales-p.jpg)
 

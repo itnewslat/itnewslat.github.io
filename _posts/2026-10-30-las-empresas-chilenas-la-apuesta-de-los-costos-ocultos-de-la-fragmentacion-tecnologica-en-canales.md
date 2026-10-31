@@ -16,12 +16,10 @@ categories:
 tags:
   - Canales
 week: '44'
----
-### Resumen Ejecutivo ITNEWS
-- El estudio de ManageEngine "El estado de la transformación digital en América Latina 2026" encuestó a 150 ejecutivos y líderes de TI en Chile sobre la complejidad de sus ecosistemas tecnológicos.
-- El 81% de las empresas chilenas destina mayor presupuesto al mantenimiento operativo que a la innovación, y solo el 6% prioriza nuevos desarrollos.
-- Aunque el 92% cree que su infraestructura está lista para la IA, el 79% advierte que la fragmentación tecnológica limita su capacidad para escalar proyectos de inteligencia artificial.
-
+takeaways:
+  - "El estudio de ManageEngine encuestó a 150 ejecutivos y líderes de TI en Chile sobre la complejidad de sus ecosistemas tecnológicos."
+  - "El 81% de las empresas chilenas destina mayor presupuesto al mantenimiento operativo que a la innovación, y solo el 6% prioriza nuevos desarrollos."
+  - "Aunque el 92% cree que su infraestructura está lista para la IA, el 79% advierte que la fragmentación tecnológica limita su capacidad para escalar proyectos."
 ---
 Por ManageEngine
 
