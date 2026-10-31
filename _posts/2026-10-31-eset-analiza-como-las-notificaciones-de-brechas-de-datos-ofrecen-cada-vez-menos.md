@@ -12,9 +12,19 @@ image: >-
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/las-brechas-de-datos-reportadas-publicamente-alc-g.jpg
 categories:
+    - Argentina
+    - Chile
+    - Colombia
+    - Ecuador
+    - México
+    - Mexico
+    - Panamá
+    - Panama
+    - Perú
+    - Peru
     - Venezuela
 tags:
-  - Actualidad
+  - Seguridad
 week: '44'
 takeaways:
   - "Las brechas de datos reportadas públicamente alcanzaron un máximo histórico en Estados Unidos durante 2025, con más de 3.300 incidentes registrados y cerca de 295 millones de notificaciones enviadas a las víctimas."
