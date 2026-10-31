@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: "· La vulnerabilidad crítica en PHP ha provocado la suspensión preventiva de sitios web gubernamentales y corporativos en el país, replicando una crisis a escala global"
+title: "La vulnerabilidad crítica en PHP ha provocado la suspensión preventiva de sitios web gubernamentales y corporativos en el país, replicando una crisis a escala global"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/la-vulnerabilidad-critica-en-php-ha-provocado-la-p.jpg
 detail-image: >-
