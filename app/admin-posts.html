@@ -1067,6 +1067,104 @@
       background: #7f1d1d;
       color: #fee2e2;
     }
+
+    /* SEO Anti-Duplicate Mode Selector */
+    .seo-mode-selector {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    @media (max-width: 680px) {
+      .seo-mode-selector {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .seo-mode-btn {
+      background: var(--bg-input);
+      border: 1.5px solid var(--border-color);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: var(--text-muted);
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .seo-mode-btn:hover {
+      border-color: #3e506d;
+      color: #fff;
+    }
+
+    .seo-mode-btn.active {
+      background: rgba(16, 185, 129, 0.12);
+      border-color: var(--success);
+      color: #fff;
+    }
+
+    .seo-mode-btn.active.mode-seo {
+      background: rgba(56, 189, 248, 0.14);
+      border-color: var(--accent);
+    }
+
+    .seo-mode-btn i {
+      font-size: 20px;
+      margin-top: 2px;
+      color: var(--text-muted);
+    }
+
+    .seo-mode-btn.active i {
+      color: var(--success);
+    }
+
+    .seo-mode-btn.active.mode-seo i {
+      color: var(--accent);
+    }
+
+    .seo-mode-panel {
+      display: none;
+      background: rgba(16, 22, 34, 0.85);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 12px;
+    }
+
+    .seo-mode-panel.open {
+      display: block;
+    }
+
+    .headline-option-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 9px 12px;
+      margin-bottom: 8px;
+      font-size: 13px;
+      color: #e2e8f0;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .headline-option-item:hover {
+      border-color: var(--accent);
+    }
+
+    .headline-option-item.selected {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--accent);
+      color: #fff;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
@@ -1183,14 +1281,94 @@
       <!-- Left Column: Post Content -->
       <div class="left-col">
 
-        <!-- Title and Slug -->
+        <!-- Title and Slug + SEO Anti-Duplicate Selector -->
         <div class="panel-card">
           <div class="panel-title">
-            <span><i class="ri-edit-line"></i> Título y Archivo</span>
+            <span><i class="ri-edit-line"></i> Título, Archivo y Modo de Carga SEO</span>
           </div>
 
           <div class="form-group">
-            <label class="form-label" for="postTitle">Título de la Nota <span class="req">*</span></label>
+            <label class="form-label">¿Cómo deseas cargar esta noticia? (Tú decides por cada nota)</label>
+            <div class="seo-mode-selector">
+              <button type="button" id="btnModeDirect" class="seo-mode-btn active">
+                <i class="ri-checkbox-circle-fill"></i>
+                <div>
+                  <strong style="display:block; font-size:13px; color:#fff; margin-bottom:2px;">Opción 1: Carga Directa (Tradicional)</strong>
+                  <span style="font-size:11.5px; line-height:1.35; display:block;">Usa exactamente el titular colocado y el cuerpo original de la nota.</span>
+                </div>
+              </button>
+
+              <button type="button" id="btnModeSeoSummary" class="seo-mode-btn mode-seo">
+                <i class="ri-shield-flash-line"></i>
+                <div>
+                  <strong style="display:block; font-size:13px; color:#fff; margin-bottom:2px;">Opción 2: Anti-Penalización Google (Nuevo Titular + Resumen)</strong>
+                  <span style="font-size:11.5px; line-height:1.35; display:block;">No usa el titular del boletín y genera un resumen de noticia para evitar contenido duplicado.</span>
+                </div>
+              </button>
+            </div>
+
+            <!-- Panel desplegable de Opción 2 -->
+            <div id="seoModePanel" class="seo-mode-panel">
+              <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:12px;">
+                <div>
+                  <strong style="color:var(--accent); font-size:13px;"><i class="ri-sparkling-2-line"></i> Generador de Nuevo Titular y Resumen de Noticia</strong>
+                  <p style="font-size:11.5px; color:var(--text-muted); margin-top:2px;">Pega primero el texto de la nota abajo y pulsa el botón para transformar el titular y resumir la noticia.</p>
+                </div>
+                <div style="display:flex; gap:6px; flex-wrap:wrap;">
+                  <button type="button" id="btnGenerateLocalSeo" class="nav-btn" style="background:var(--accent); color:#0a0d14; border-color:var(--accent); font-weight:700;">
+                    <i class="ri-flashlight-fill"></i> Generar Titular + Resumen Ahora
+                  </button>
+                  <button type="button" id="btnGenerateAiSeo" class="nav-btn" style="border-color:rgba(56,189,248,0.4); color:var(--accent);" title="Generar con Inteligencia Artificial de Google Gemini">
+                    <i class="ri-robot-2-line"></i> Usar IA Gemini
+                  </button>
+                  <button type="button" id="btnToggleGeminiKey" class="nav-btn" style="padding:6px 9px;" title="Configurar API Key gratuita de Google Gemini">
+                    <i class="ri-key-2-line"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Configuración opcional de Gemini API Key -->
+              <div id="geminiKeyBox" style="display:none; background:var(--bg-dark); border:1px solid var(--border-color); border-radius:8px; padding:10px 12px; margin-bottom:12px;">
+                <label class="form-label" style="margin-bottom:4px; font-size:11.5px;">Google Gemini API Key (Opcional — se guarda en tu navegador)</label>
+                <div style="display:flex; gap:8px;">
+                  <input type="password" id="geminiApiKeyInput" class="input-text" placeholder="AIzaSy..." style="padding:6px 10px; font-size:12px; font-family:'JetBrains Mono',monospace;">
+                  <button type="button" id="btnSaveGeminiKey" class="btn-token-save" style="padding:6px 12px;">Guardar Key</button>
+                </div>
+              </div>
+
+              <!-- Modalidad de Resumen -->
+              <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:12px; padding:8px 12px; background:rgba(0,0,0,0.25); border-radius:8px; font-size:12px;">
+                <span style="color:var(--text-muted); font-weight:600;">Formato del cuerpo:</span>
+                <label style="display:inline-flex; align-items:center; gap:5px; cursor:pointer; color:#fff;">
+                  <input type="radio" name="seoSummaryType" value="condensed" checked style="accent-color:var(--accent);">
+                  <span><strong>Noticia Resumida</strong> (Reemplaza el boletín por un resumen de 3-4 párrafos)</span>
+                </label>
+                <label style="display:inline-flex; align-items:center; gap:5px; cursor:pointer; color:#fff;">
+                  <input type="radio" name="seoSummaryType" value="prepend" style="accent-color:var(--accent);">
+                  <span><strong>Resumen Arriba + Nota Completa</strong> (Añade puntos clave al inicio)</span>
+                </label>
+              </div>
+
+              <!-- Resultados de Titulares Sugeridos -->
+              <div id="seoHeadlinesContainer" style="display:none; margin-top:10px;">
+                <label class="form-label" style="color:var(--accent); font-size:12px;">
+                  <i class="ri-price-tag-3-line"></i> Titulares Alternativos Generados (Haz clic en el que prefieras usar):
+                </label>
+                <div id="seoHeadlinesList"></div>
+              </div>
+
+              <!-- Botón para restaurar original -->
+              <div id="seoRestoreBar" style="display:none; margin-top:10px; padding-top:10px; border-top:1px solid rgba(255,255,255,0.08); justify-content:space-between; align-items:center;">
+                <span style="font-size:11.5px; color:#34d399;"><i class="ri-shield-check-fill"></i> Titular original reemplazado y resumen aplicado para evitar penalización de Google.</span>
+                <button type="button" id="btnRestoreOriginalPost" class="nav-btn" style="color:#fcd34d; border-color:rgba(245,158,11,0.4); padding:5px 10px; font-size:11.5px;">
+                  <i class="ri-arrow-go-back-line"></i> Restaurar Titular y Texto Original
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="postTitle">Título de la Nota <span class="req">*</span> <span id="titleModeBadge" style="font-size:11px; font-weight:normal; color:var(--text-muted);">(Modo Directo)</span></label>
             <input type="text" id="postTitle" class="input-text" placeholder="Ej. ABSIDE presenta soluciones de inteligencia artificial para la banca..." required>
           </div>
 
@@ -2096,6 +2274,373 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
       });
 
       // =====================================================
+      // MODO DUAL DE CARGA: OPCIÓN 1 (DIRECTA) VS OPCIÓN 2 (ANTI-PENALIZACIÓN GOOGLE)
+      // =====================================================
+      const GEMINI_KEY_STORAGE = 'itnews_gemini_api_key';
+      const btnModeDirect = document.getElementById('btnModeDirect');
+      const btnModeSeoSummary = document.getElementById('btnModeSeoSummary');
+      const seoModePanel = document.getElementById('seoModePanel');
+      const titleModeBadge = document.getElementById('titleModeBadge');
+      const btnGenerateLocalSeo = document.getElementById('btnGenerateLocalSeo');
+      const btnGenerateAiSeo = document.getElementById('btnGenerateAiSeo');
+      const btnToggleGeminiKey = document.getElementById('btnToggleGeminiKey');
+      const geminiKeyBox = document.getElementById('geminiKeyBox');
+      const geminiApiKeyInput = document.getElementById('geminiApiKeyInput');
+      const btnSaveGeminiKey = document.getElementById('btnSaveGeminiKey');
+      const seoHeadlinesContainer = document.getElementById('seoHeadlinesContainer');
+      const seoHeadlinesList = document.getElementById('seoHeadlinesList');
+      const seoRestoreBar = document.getElementById('seoRestoreBar');
+      const btnRestoreOriginalPost = document.getElementById('btnRestoreOriginalPost');
+
+      let savedOriginalTitle = null;
+      let savedOriginalBody = null;
+      let lastSeoResult = null; // { headlines: [], condensedBody: '', prependBody: '' }
+
+      if (geminiApiKeyInput) {
+        geminiApiKeyInput.value = localStorage.getItem(GEMINI_KEY_STORAGE) || '';
+      }
+
+      btnToggleGeminiKey.addEventListener('click', () => {
+        geminiKeyBox.style.display = geminiKeyBox.style.display === 'none' ? 'block' : 'none';
+      });
+
+      btnSaveGeminiKey.addEventListener('click', () => {
+        localStorage.setItem(GEMINI_KEY_STORAGE, geminiApiKeyInput.value.trim());
+        geminiKeyBox.style.display = 'none';
+        showToast('Clave de Google Gemini guardada en tu navegador', 'success');
+      });
+
+      // Cambiar a Opción 1: Carga Directa (Tradicional)
+      btnModeDirect.addEventListener('click', () => {
+        btnModeDirect.classList.add('active');
+        btnModeDirect.querySelector('i').className = 'ri-checkbox-circle-fill';
+        btnModeSeoSummary.classList.remove('active');
+        seoModePanel.classList.remove('open');
+        titleModeBadge.textContent = '(Opción 1: Carga Directa)';
+        titleModeBadge.style.color = 'var(--text-muted)';
+
+        if (savedOriginalTitle !== null || savedOriginalBody !== null) {
+          if (confirm('¿Deseas restaurar el titular y el texto original tal como los colocaste al inicio?')) {
+            restoreOriginalPostData();
+          }
+        }
+      });
+
+      // Cambiar a Opción 2: Anti-Penalización Google (Nuevo Titular + Resumen)
+      btnModeSeoSummary.addEventListener('click', () => {
+        btnModeSeoSummary.classList.add('active');
+        btnModeDirect.classList.remove('active');
+        btnModeDirect.querySelector('i').className = 'ri-file-text-line';
+        seoModePanel.classList.add('open');
+        titleModeBadge.textContent = '(Opción 2: Nuevo Titular + Resumen SEO Activo)';
+        titleModeBadge.style.color = 'var(--accent)';
+
+        // Si ya hay contenido en el editor y aún no se ha generado, ejecutar automáticamente la transformación local
+        if (postContent.value.trim().length > 80 && !lastSeoResult) {
+          runLocalSeoOptimization();
+        }
+      });
+
+      function backupOriginalIfNeeded() {
+        if (savedOriginalTitle === null) {
+          savedOriginalTitle = postTitle.value;
+        }
+        if (savedOriginalBody === null) {
+          savedOriginalBody = postContent.value;
+        }
+      }
+
+      function restoreOriginalPostData() {
+        if (savedOriginalTitle !== null) {
+          postTitle.value = savedOriginalTitle;
+        }
+        if (savedOriginalBody !== null) {
+          postContent.value = savedOriginalBody;
+        }
+        savedOriginalTitle = null;
+        savedOriginalBody = null;
+        lastSeoResult = null;
+        seoHeadlinesContainer.style.display = 'none';
+        seoRestoreBar.style.display = 'none';
+        updateSlug();
+        saveDraft();
+        showToast('Titular y contenido original restaurados', 'success');
+      }
+
+      btnRestoreOriginalPost.addEventListener('click', restoreOriginalPostData);
+
+      function getSelectedSummaryType() {
+        const checked = document.querySelector('input[name="seoSummaryType"]:checked');
+        return checked ? checked.value : 'condensed';
+      }
+
+      document.querySelectorAll('input[name="seoSummaryType"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+          if (!lastSeoResult) return;
+          const mode = getSelectedSummaryType();
+          postContent.value = mode === 'condensed' ? lastSeoResult.condensedBody : lastSeoResult.prependBody;
+          saveDraft();
+          showToast(mode === 'condensed' ? 'Aplicado: Noticia resumida (3-4 párrafos)' : 'Aplicado: Resumen al inicio + Nota completa', 'success');
+        });
+      });
+
+      function renderSuggestedHeadlines(headlines) {
+        seoHeadlinesList.innerHTML = '';
+        headlines.forEach((hl, idx) => {
+          const item = document.createElement('div');
+          item.className = 'headline-option-item' + (idx === 0 ? ' selected' : '');
+          item.innerHTML = `
+            <span style="flex:1;"><strong style="color:var(--accent); margin-right:6px;">#${idx + 1}</strong> ${hl}</span>
+            <span style="font-size:11px; color:var(--text-muted); white-space:nowrap;"><i class="ri-check-line"></i> Usar titular</span>
+          `;
+          item.addEventListener('click', () => {
+            seoHeadlinesList.querySelectorAll('.headline-option-item').forEach(el => el.classList.remove('selected'));
+            item.classList.add('selected');
+            postTitle.value = hl;
+            updateSlug();
+            saveDraft();
+            showToast('Nuevo titular aplicado y nombre de archivo actualizado', 'success');
+          });
+          seoHeadlinesList.appendChild(item);
+        });
+        seoHeadlinesContainer.style.display = 'block';
+        seoRestoreBar.style.display = 'flex';
+      }
+
+      // Algoritmo Periodístico Local para generar Nuevo Titular (sin usar el original) y Resumen de Noticia
+      function buildLocalSeoAlternatives(origTitle, rawBody) {
+        const formattedBody = autoFormatPressRelease(rawBody);
+        const paras = formattedBody
+          .split(/\n\n+/)
+          .map(p => p.trim())
+          .filter(p => p.length > 35 && !p.startsWith('![') && !p.startsWith('<'));
+
+        // Extraer todas las oraciones informativas limpias (sin dateline de ciudad/fecha)
+        const sentences = [];
+        paras.forEach(p => {
+          const cleanP = p
+            .replace(/^\*\*[^*]{2,60}\*\*\s*/, '')
+            .replace(/^[A-ZÁÉÍÓÚÑ][A-Za-záéíóúñÁÉÍÓÚÑ\s,0-9]{2,50}?(?:\s*[-–—]+\s*|\.\s*[-–—]+\s*)/, '')
+            .replace(/^#+\s*/, '');
+          const parts = cleanP.split(/(?<=[.!?])\s+/);
+          parts.forEach(s => {
+            const trimmed = s.replace(/\*\*/g, '').trim();
+            if (trimmed.length >= 40 && trimmed.length <= 240) {
+              sentences.push(trimmed);
+            }
+          });
+        });
+
+        // Seleccionar las 3 oraciones con mayor peso informativo (cifras, verbos de acción, vocería)
+        const scored = sentences.map((s, idx) => {
+          let score = idx === 0 ? 5 : (idx === 1 ? 4 : 1);
+          if (/\d+%|\$|\bmillones\b|\bmil\b|\b202[678]\b/i.test(s)) score += 4;
+          if (/\b(anunció|presentó|lanzó|reveló|advirtió|destacó|impulsa|transforma|crecimiento|inversión|seguridad|inteligencia artificial)\b/i.test(s)) score += 3;
+          return { text: s, score, idx };
+        });
+
+        const topHighlights = [...scored]
+          .sort((a, b) => b.score - a.score)
+          .slice(0, 4)
+          .sort((a, b) => a.idx - b.idx)
+          .map(item => item.text);
+
+        // Construir 3 titulares periodísticos distintos al titular original
+        const cleanSentForHeadline = (s) => {
+          if (!s) return '';
+          let h = s.replace(/[.!?]+$/, '').trim();
+          // Cortar subordinadas largas para dejar un titular directo de 70-105 caracteres
+          if (h.length > 105) {
+            const cut = h.split(/,\s+(?:según|mientras|lo que|permitiendo|con el objetivo|donde|para que)/i)[0];
+            h = cut.length >= 45 ? cut : h.slice(0, 100).replace(/\s+\S+$/, '');
+          }
+          return h.charAt(0).toUpperCase() + h.slice(1);
+        };
+
+        const tag = getSelectedTag();
+        const headlines = [];
+
+        // Titular #1: Basado en la tesis principal del primer párrafo (nunca idéntico al título pegado)
+        if (sentences[0]) {
+          const h1 = cleanSentForHeadline(sentences[0]);
+          if (h1.toLowerCase() !== origTitle.toLowerCase()) {
+            headlines.push(h1);
+          }
+        }
+
+        // Titular #2: Basado en el hallazgo/dato secundario más fuerte del cuerpo
+        if (topHighlights[1]) {
+          const h2 = cleanSentForHeadline(topHighlights[1]);
+          if (!headlines.includes(h2) && h2.toLowerCase() !== origTitle.toLowerCase()) {
+            headlines.push(h2);
+          }
+        }
+
+        // Titular #3: Reestructuración temática con enfoque de industria
+        if (origTitle) {
+          const parts = origTitle.split(/:\s*|\s+-\s+|\s+para\s+|\s+en\s+/i);
+          if (parts.length >= 2 && parts[1].length > 15) {
+            const flipped = `${parts[1].charAt(0).toUpperCase() + parts[1].slice(1)}: la apuesta de ${parts[0].trim()} en ${tag.toLowerCase()}`;
+            headlines.push(flipped);
+          } else {
+            headlines.push(`${tag}: ${origTitle.replace(/^(la|el|los|las)\s+/i, '')} marca nuevas claves en la región`);
+          }
+        }
+
+        while (headlines.length < 3 && sentences[headlines.length]) {
+          headlines.push(cleanSentForHeadline(sentences[headlines.length]));
+        }
+
+        // Construir el bloque de Puntos Clave y Resumen
+        const bulletPoints = topHighlights.slice(0, 3).map(b => `- ${b}`).join('\n');
+        const leadSummary = paras[0] || sentences[0] || '';
+        const secondPara = paras[1] || '';
+        const closingPara = paras.length > 2 ? paras[paras.length - 1] : '';
+
+        const summaryBoxMd = `### Resumen Ejecutivo ITNEWS\n${ bulletPoints }`;
+
+        // Versión 1: Noticia Resumida (3-4 párrafos concisos + puntos clave, sin copiar todo el boletín)
+        const condensedParts = [
+          leadSummary,
+          summaryBoxMd,
+          secondPara,
+          closingPara !== secondPara ? closingPara : ''
+        ].filter(Boolean);
+
+        const condensedBody = condensedParts.join('\n\n');
+
+        // Versión 2: Resumen Ejecutivo insertado al inicio + desarrollo completo
+        const prependBody = `${summaryBoxMd}\n\n---\n\n${formattedBody}`;
+
+        return {
+          headlines: headlines.slice(0, 3),
+          condensedBody,
+          prependBody
+        };
+      }
+
+      function runLocalSeoOptimization() {
+        const currentBody = postContent.value.trim();
+        if (currentBody.length < 50) {
+          alert('Por favor pega primero el texto de la noticia en el campo "Contenido de la Nota" para poder analizarlo, generar el nuevo titular y crear el resumen.');
+          postContent.focus();
+          return;
+        }
+
+        backupOriginalIfNeeded();
+        const baseTitle = savedOriginalTitle || postTitle.value.trim();
+        const baseBody = savedOriginalBody || currentBody;
+
+        lastSeoResult = buildLocalSeoAlternatives(baseTitle, baseBody);
+
+        if (lastSeoResult.headlines.length > 0) {
+          postTitle.value = lastSeoResult.headlines[0];
+          updateSlug();
+        }
+
+        const mode = getSelectedSummaryType();
+        postContent.value = mode === 'condensed' ? lastSeoResult.condensedBody : lastSeoResult.prependBody;
+
+        renderSuggestedHeadlines(lastSeoResult.headlines);
+        saveDraft();
+        showToast('¡Nuevo titular y resumen de noticia aplicados! Elige entre las 3 opciones de titular.', 'success');
+      }
+
+      btnGenerateLocalSeo.addEventListener('click', runLocalSeoOptimization);
+
+      // Generador con IA Google Gemini (Opcional)
+      btnGenerateAiSeo.addEventListener('click', async () => {
+        const currentBody = (savedOriginalBody || postContent.value).trim();
+        if (currentBody.length < 50) {
+          alert('Pega primero el texto de la noticia en "Contenido de la Nota".');
+          postContent.focus();
+          return;
+        }
+
+        const apiKey = localStorage.getItem(GEMINI_KEY_STORAGE) || geminiApiKeyInput.value.trim();
+        if (!apiKey) {
+          geminiKeyBox.style.display = 'block';
+          geminiApiKeyInput.focus();
+          showToast('Ingresa tu Gemini API Key gratuita o usa el botón amarillo "Generar Titular + Resumen Ahora"', 'error');
+          return;
+        }
+
+        backupOriginalIfNeeded();
+        const origTitle = savedOriginalTitle || postTitle.value.trim();
+
+        const origBtnHtml = btnGenerateAiSeo.innerHTML;
+        btnGenerateAiSeo.disabled = true;
+        btnGenerateAiSeo.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Reescribiendo con IA...';
+
+        try {
+          const prompt = `Actúa como Editor Jefe del portal tecnológico y de negocios ITNEWS.LAT.
+A partir de la siguiente nota de prensa, necesitamos evitar cualquier penalización de Google por contenido duplicado.
+Devuelve ÚNICAMENTE un objeto JSON válido (sin bloques markdown \`\`\`json) con esta estructura exacta:
+{
+  "headlines": [
+    "Titular periodístico 1 totalmente diferente al original (atractivo para Google News, máx 95 caracteres)",
+    "Titular periodístico 2 con enfoque en el impacto o dato clave",
+    "Titular periodístico 3 con enfoque analítico o ejecutivo"
+  ],
+  "summaryBullets": [
+    "Punto clave 1 resumido con tus propias palabras",
+    "Punto clave 2 resumido con tus propias palabras",
+    "Punto clave 3 resumido con tus propias palabras"
+  ],
+  "condensedArticle": "Resumen periodístico completo de la noticia redactado con palabras nuevas en 3 párrafos bien estructurados en Markdown (sin repetir literalmente el primer párrafo del boletín)."
+}
+
+Titular original a evitar: "${origTitle}"
+Contenido original:
+${currentBody.slice(0, 7000)}`;
+
+          const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${encodeURIComponent(apiKey)}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: prompt }] }],
+              generationConfig: { temperature: 0.55 }
+            })
+          });
+
+          if (!res.ok) {
+            throw new Error(`API Gemini respondió HTTP ${res.status}`);
+          }
+
+          const data = await res.json();
+          const rawReply = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+          const jsonStr = rawReply.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
+          const parsed = JSON.parse(jsonStr);
+
+          const bulletsMd = `### Resumen Ejecutivo ITNEWS\n` + (parsed.summaryBullets || []).map(b => `- ${b}`).join('\n');
+          const formattedOrig = autoFormatPressRelease(currentBody);
+
+          lastSeoResult = {
+            headlines: parsed.headlines && parsed.headlines.length ? parsed.headlines : ['Nuevo enfoque tecnológico en América Latina'],
+            condensedBody: `${bulletsMd}\n\n${parsed.condensedArticle || ''}`.trim(),
+            prependBody: `${bulletsMd}\n\n---\n\n${formattedOrig}`
+          };
+
+          postTitle.value = lastSeoResult.headlines[0];
+          updateSlug();
+
+          const mode = getSelectedSummaryType();
+          postContent.value = mode === 'condensed' ? lastSeoResult.condensedBody : lastSeoResult.prependBody;
+
+          renderSuggestedHeadlines(lastSeoResult.headlines);
+          saveDraft();
+          showToast('¡Titular y resumen reescritos con IA Gemini con éxito!', 'success');
+        } catch (err) {
+          console.error(err);
+          showToast(`Aviso IA (${err.message}): aplicando generador inteligente local`, 'error');
+          runLocalSeoOptimization();
+        } finally {
+          btnGenerateAiSeo.disabled = false;
+          btnGenerateAiSeo.innerHTML = origBtnHtml;
+        }
+      });
+
+      // =====================================================
       // MEJORA 2: Historial de Últimas Notas Publicadas y Edición
       // =====================================================
       recentPostsToggle.addEventListener('click', (e) => {
@@ -2804,6 +3349,11 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         exitEditMode();
         lastRawContentBeforeFormat = null;
         lastUploadedSourceFile = null;
+        savedOriginalTitle = null;
+        savedOriginalBody = null;
+        lastSeoResult = null;
+        seoHeadlinesContainer.style.display = 'none';
+        seoRestoreBar.style.display = 'none';
         btnUndoFormat.style.display = 'none';
         postTitle.value = '';
         postContent.value = '';
