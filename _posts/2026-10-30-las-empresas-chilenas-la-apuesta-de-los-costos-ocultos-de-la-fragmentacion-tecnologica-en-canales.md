@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: "Fragmentación tecnológica frena el retorno de la IA en el 79% de las empresas chilenas"
+title: "Fragmentación tecnológica frena la IA en el 79% de las empresas en Chile"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/los-costos-ocultos-de-la-fragmentacion-tecnologi-p.jpg
 detail-image: >-

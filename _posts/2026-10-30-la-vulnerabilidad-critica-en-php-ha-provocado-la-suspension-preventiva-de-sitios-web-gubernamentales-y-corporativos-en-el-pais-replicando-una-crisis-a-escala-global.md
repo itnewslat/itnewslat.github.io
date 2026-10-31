@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: "La vulnerabilidad crítica en PHP ha provocado la suspensión preventiva de sitios web gubernamentales y corporativos en el país, replicando una crisis a escala global"
+title: "Vulnerabilidad crítica en PHP obliga a suspender portales web en México"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/la-vulnerabilidad-critica-en-php-ha-provocado-la-p.jpg
 detail-image: >-
@@ -19,13 +19,11 @@ tags:
 week: '44'
 ---
 ### Resumen Ejecutivo ITNEWS
-- La vulnerabilidad crítica en PHP ha provocado la suspensión preventiva de sitios web gubernamentales y corporativos en el país, replicando una crisis a escala global.
-- Especialistas en ciberseguridad advierten que los ciberdelincuentes ya están utilizando inteligencia artificial para acelerar la explotación de sistemas sin actualizar.
-- La reciente alerta generada por las vulnerabilidades críticas en PHP ha sacudido la infraestructura digital de gobiernos y organizaciones a nivel global.
+- La vulnerabilidad crítica en PHP ha provocado la suspensión preventiva de sitios web gubernamentales y corporativos en México, replicando una crisis a escala global.
+- Especialistas en ciberseguridad advierten que los ciberdelincuentes ya están utilizando inteligencia artificial para acelerar la explotación de servidores sin actualizar.
+- Sophos recomienda mapear todas las instancias de PHP expuestas a internet, priorizar el parcheo inmediato y aislar de la red pública los sistemas vulnerables.
 
 ---
-
-- Especialistas en ciberseguridad advierten que los ciberdelincuentes ya están utilizando inteligencia artificial para acelerar la explotación de sistemas sin actualizar.
 
 La reciente alerta generada por las vulnerabilidades críticas en PHP ha sacudido la infraestructura digital de gobiernos y organizaciones a nivel global. En México, este fenómeno se ha reflejado en la suspensión preventiva de portales web oficiales y corporativos ante el riesgo inminente de ataques automatizados contra servidores que operan con versiones desactualizadas de PHP.
 

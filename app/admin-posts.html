@@ -1368,8 +1368,11 @@
           </div>
 
           <div class="form-group">
-            <label class="form-label" for="postTitle">Título de la Nota <span class="req">*</span> <span id="titleModeBadge" style="font-size:11px; font-weight:normal; color:var(--text-muted);">(Modo Directo)</span></label>
-            <input type="text" id="postTitle" class="input-text" placeholder="Ej. ABSIDE presenta soluciones de inteligencia artificial para la banca..." required>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:7px;">
+              <label class="form-label" for="postTitle" style="margin-bottom:0;">Título de la Nota <span class="req">*</span> <span id="titleModeBadge" style="font-size:11px; font-weight:normal; color:var(--text-muted);">(Modo Directo)</span></label>
+              <span id="titleCharCounter" style="font-size:11.5px; font-family:'JetBrains Mono', monospace; font-weight:600; color:var(--text-muted);">0 / 80 máx.</span>
+            </div>
+            <input type="text" id="postTitle" class="input-text" maxlength="80" placeholder="Ej. ABSIDE presenta soluciones de inteligencia artificial para la banca..." required>
           </div>
 
           <div class="form-group">
@@ -1845,9 +1848,50 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         return `${dateStr}-${slug}.md`;
       }
 
+      const MAX_HEADLINE_CHARS = 80;
+      const titleCharCounter = document.getElementById('titleCharCounter');
+
+      function enforceHeadlineMax80(rawText) {
+        if (!rawText) return '';
+        let h = String(rawText)
+          .replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '')
+          .replace(/[.!?]+$/, '')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+        if (h.length > MAX_HEADLINE_CHARS) {
+          // Intentar cortar primero por coma, punto y coma o dos puntos si queda entre 40 y 80 caracteres
+          const clauseCut = h.split(/[,;:]\s+/)[0];
+          if (clauseCut.length >= 42 && clauseCut.length <= MAX_HEADLINE_CHARS) {
+            h = clauseCut.trim();
+          } else {
+            h = h.slice(0, MAX_HEADLINE_CHARS).replace(/\s+\S*$/, '').trim();
+          }
+          // Evitar que el corte termine en preposición, conjunción o artículo suelto
+          h = h.replace(/\s+(de|del|en|a|al|con|por|para|ante|sobre|tras|hacia|entre|sin|según|y|e|o|u|ni|que|el|la|los|las|un|una|unos|unas|su|sus)$/i, '').trim();
+          h = h.replace(/\s+(de|del|en|a|al|con|por|para|el|la|los|las|un|una)$/i, '').trim();
+          h = h.replace(/[,;:\-–—]+$/, '').trim();
+        }
+        return h ? h.charAt(0).toUpperCase() + h.slice(1) : '';
+      }
+
+      function updateTitleCharCounter() {
+        if (!titleCharCounter) return;
+        const len = postTitle.value.length;
+        titleCharCounter.textContent = `${len} / ${MAX_HEADLINE_CHARS} máx.`;
+        if (len > MAX_HEADLINE_CHARS) {
+          titleCharCounter.style.color = '#f87171';
+        } else if (len >= 65) {
+          titleCharCounter.style.color = '#34d399';
+        } else {
+          titleCharCounter.style.color = 'var(--text-muted)';
+        }
+      }
+
       function updateSlug() {
         const fname = getFileName();
         slugPreview.innerHTML = `<i class="ri-file-text-line"></i> _posts/${fname}`;
+        updateTitleCharCounter();
         if (!quickImageBaseName.dataset.userEdited) {
           const rawTitle = postTitle.value.trim();
           if (rawTitle) {
@@ -2392,11 +2436,12 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
 
       function renderSuggestedHeadlines(headlines) {
         seoHeadlinesList.innerHTML = '';
-        headlines.forEach((hl, idx) => {
+        headlines.forEach((rawHl, idx) => {
+          const hl = enforceHeadlineMax80(rawHl);
           const item = document.createElement('div');
           item.className = 'headline-option-item' + (idx === 0 ? ' selected' : '');
           item.innerHTML = `
-            <span style="flex:1;"><strong style="color:var(--accent); margin-right:6px;">#${idx + 1}</strong> ${hl}</span>
+            <span style="flex:1;"><strong style="color:var(--accent); margin-right:6px;">#${idx + 1}</strong> ${hl} <span style="font-size:10.5px; color:#34d399; font-family:'JetBrains Mono', monospace; margin-left:6px;">(${hl.length}/80)</span></span>
             <span style="font-size:11px; color:var(--text-muted); white-space:nowrap;"><i class="ri-check-line"></i> Usar titular</span>
           `;
           item.addEventListener('click', () => {
@@ -2466,7 +2511,7 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
           .sort((a, b) => a.idx - b.idx)
           .map(item => item.text);
 
-        // Construir 3 titulares periodísticos limpios (60-95 caracteres, sin viñetas ni frases cortadas)
+        // Construir 3 titulares periodísticos limpios (máximo 80 caracteres, sin viñetas ni frases cortadas)
         const cleanSentForHeadline = (s) => {
           if (!s) return '';
           let h = s
@@ -2475,20 +2520,13 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
             .replace(/[.!?]+$/, '')
             .trim();
 
-          if (h.length > 95) {
+          if (h.length > MAX_HEADLINE_CHARS) {
             const cutByClause = h.split(/,\s+(?:replicando|según|mientras|lo que|permitiendo|con el objetivo|donde|para que|advirtieron|informó|señaló|explicó)|;\s+/i)[0];
-            if (cutByClause.length >= 45 && cutByClause.length <= 100) {
+            if (cutByClause.length >= 40 && cutByClause.length <= MAX_HEADLINE_CHARS) {
               h = cutByClause.trim();
-            } else {
-              const firstComma = h.indexOf(', ');
-              if (firstComma >= 50 && firstComma <= 95) {
-                h = h.slice(0, firstComma).trim();
-              } else {
-                h = h.slice(0, 92).replace(/\s+\S+$/, '').replace(/[,;:\-–—]+$/, '').trim();
-              }
             }
           }
-          return h.charAt(0).toUpperCase() + h.slice(1);
+          return enforceHeadlineMax80(h);
         };
 
         const tag = getSelectedTag();
@@ -2522,7 +2560,7 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
 
         if (headlines.length < 3 && origTitle) {
           const cleanOrig = origTitle.replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim();
-          headlines.push(`${tag}: claves sobre ${cleanOrig.charAt(0).toLowerCase() + cleanOrig.slice(1)}`);
+          headlines.push(enforceHeadlineMax80(`${tag}: claves sobre ${cleanOrig.charAt(0).toLowerCase() + cleanOrig.slice(1)}`));
         }
 
         // Construir el bloque de Puntos Clave y Resumen
@@ -2549,7 +2587,7 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         const prependBody = `${summaryBoxMd}\n\n---\n\n${bodyWithoutTopBullets}`;
 
         return {
-          headlines: headlines.slice(0, 3),
+          headlines: headlines.slice(0, 3).map(enforceHeadlineMax80),
           condensedBody,
           prependBody
         };
@@ -2570,7 +2608,7 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         lastSeoResult = buildLocalSeoAlternatives(baseTitle, baseBody);
 
         if (lastSeoResult.headlines.length > 0) {
-          postTitle.value = lastSeoResult.headlines[0];
+          postTitle.value = enforceHeadlineMax80(lastSeoResult.headlines[0]);
           updateSlug();
         }
 
@@ -2579,7 +2617,7 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
 
         renderSuggestedHeadlines(lastSeoResult.headlines);
         saveDraft();
-        showToast('¡Nuevo titular y resumen de noticia aplicados! Elige entre las 3 opciones de titular.', 'success');
+        showToast('¡Nuevo titular (máx. 80 car.) y resumen aplicados!', 'success');
       }
 
       btnGenerateLocalSeo.addEventListener('click', () => {
@@ -2618,12 +2656,13 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         try {
           const prompt = `Actúa como Editor Jefe del portal tecnológico y de negocios ITNEWS.LAT.
 A partir de la siguiente nota de prensa, necesitamos evitar cualquier penalización de Google por contenido duplicado y posicionar en Google AI Overviews, ChatGPT Search y Perplexity.
+REGLA ESTRICTA DE TITULARES: Cada uno de los 3 titulares DEBE tener como MÁXIMO 80 CARACTERES (ideal entre 55 y 80 caracteres), con sentido periodístico completo, sin puntos finales ni viñetas al inicio.
 Devuelve ÚNICAMENTE un objeto JSON válido (sin bloques markdown \`\`\`json) con esta estructura exacta:
 {
   "headlines": [
-    "Titular periodístico 1 totalmente diferente al original (directo, atractivo para Google News, entre 60 y 90 caracteres, sin puntos ni viñetas al inicio)",
-    "Titular periodístico 2 con enfoque en el impacto, cifra o país (entre 60 y 90 caracteres)",
-    "Titular periodístico 3 con enfoque analítico o ejecutivo (entre 60 y 90 caracteres)"
+    "Titular periodístico 1 totalmente diferente al original (MÁXIMO 80 CARACTERES)",
+    "Titular periodístico 2 con enfoque en el impacto, cifra o país (MÁXIMO 80 CARACTERES)",
+    "Titular periodístico 3 con enfoque analítico o ejecutivo (MÁXIMO 80 CARACTERES)"
   ],
   "summaryBullets": [
     "Punto clave 1 resumido con tus propias palabras y datos concretos",
@@ -2666,7 +2705,7 @@ ${currentBody.slice(0, 7000)}`;
           const parsed = JSON.parse(jsonStr);
 
           const cleanHeadlines = (parsed.headlines || [])
-            .map(h => String(h).replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim())
+            .map(h => enforceHeadlineMax80(h))
             .filter(Boolean);
 
           const bulletsMd = `### Resumen Ejecutivo ITNEWS\n` + (parsed.summaryBullets || []).map(b => `- ${String(b).replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim()}`).join('\n');
@@ -2678,7 +2717,7 @@ ${currentBody.slice(0, 7000)}`;
             prependBody: `${bulletsMd}\n\n---\n\n${formattedOrig}`
           };
 
-          postTitle.value = lastSeoResult.headlines[0];
+          postTitle.value = enforceHeadlineMax80(lastSeoResult.headlines[0]);
           updateSlug();
 
           const mode = getSelectedSummaryType();
