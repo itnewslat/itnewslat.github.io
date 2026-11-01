@@ -1434,37 +1434,39 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
             </span>
             <div style="display:flex; align-items:center; gap:8px;">
               <button type="button" id="btnToggleWebhookConfig" class="nav-btn" style="padding:4px 10px; font-size:11.5px; border-color:rgba(244,114,182,0.4); color:#f9a8d4;">
-                <i class="ri-links-line"></i> Configurar Conexión (Make.com)
+                <i class="ri-links-line"></i> Configurar Disparo Instantáneo (IFTTT Webhook)
               </button>
             </div>
           </div>
 
-          <!-- Configuración de Webhook Instantáneo (Make.com) -->
+          <!-- Configuración de Webhook Instantáneo (IFTTT sin bloqueo en Venezuela) -->
           <div id="socialWebhookConfigBox" style="display:none; margin-bottom:16px; padding:14px; background:rgba(15, 23, 42, 0.85); border:1px dashed rgba(244, 114, 182, 0.45); border-radius:10px;">
             <div style="font-size:12.5px; font-weight:700; color:#f9a8d4; margin-bottom:6px;">
-              <i class="ri-flashlight-fill"></i> Conexión Instantánea sin RSS (Reemplaza a IFTTT y Buffer — Salida en 2 segundos)
+              <i class="ri-flashlight-fill"></i> Disparo Instantáneo con tu misma cuenta de IFTTT (Sin bloqueos en Venezuela — Salida en 2 segundos)
             </div>
             <p style="font-size:11.5px; color:var(--text-muted); margin-bottom:10px; line-height:1.5;">
-              Pega aquí la URL de tu <strong>Custom Webhook</strong> gratuito de <a href="https://www.make.com" target="_blank" style="color:var(--accent);">Make.com</a>. Al hacer clic en <strong>"Publicar Ahora en Redes"</strong>, este panel enviará directamente la <strong>Imagen Grande (1024x680 o 1080x1080)</strong> + el <strong>Resumen Corto</strong> + las <strong>@cuentas de empresas</strong> a tus cuentas seleccionadas (<code>@itnewslat</code> y/o <code>@erinconm</code>).
+              En lugar de usar el lector RSS lento de IFTTT (que tarda hasta 1 día), usa el conector <strong>Webhooks de IFTTT</strong>. Solo pega aquí tu <strong>URL o Clave de IFTTT Webhooks</strong> (la obtienes en <a href="https://ifttt.com/maker_webhooks/settings" target="_blank" style="color:var(--accent);">ifttt.com/maker_webhooks/settings</a>):
             </p>
             <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
-              <input type="url" id="socialWebhookUrlInput" class="input-text" placeholder="https://hook.us1.make.com/xxxxxxxxxxxxxxxxxxxx" style="flex:1; min-width:260px; font-size:12px; font-family:'JetBrains Mono', monospace;">
+              <input type="text" id="socialWebhookUrlInput" class="input-text" placeholder="Pega tu clave de IFTTT Webhook o la URL https://maker.ifttt.com/use/TU_CLAVE" style="flex:1; min-width:260px; font-size:12px; font-family:'JetBrains Mono', monospace;">
               <button type="button" id="btnSaveWebhookUrl" class="btn-token-save" style="background:#db2777; border-color:#db2777;">
-                <i class="ri-save-line"></i> Guardar Webhook
+                <i class="ri-save-line"></i> Guardar Clave IFTTT
               </button>
-              <button type="button" id="btnTestWebhook" class="btn-token-save" title="Envía un paquete de prueba a Make.com para detectar los campos automáticamente">
+              <button type="button" id="btnTestWebhook" class="btn-token-save" title="Envía una señal de prueba inmediata a IFTTT">
                 <i class="ri-flask-line"></i> Enviar Prueba
               </button>
             </div>
-            <details style="font-size:11.5px; color:#cbd5e1; cursor:pointer;">
-              <summary style="color:#f9a8d4; font-weight:600;">📖 Ver guía rápida (3 pasos en Make.com para conectar @itnewslat y @erinconm)</summary>
-              <ol style="margin:8px 0 0 18px; line-height:1.6; color:var(--text-muted);">
-                <li>Crea una cuenta gratuita en <strong>Make.com</strong> &rarr; haz clic en <strong>Create a new scenario</strong>.</li>
-                <li>Agrega como primer módulo <strong>Webhooks &rarr; Custom webhook</strong> &rarr; dale a <em>Add</em>, copia la dirección URL que te da, pégala arriba y pulsa <strong>"Enviar Prueba"</strong>.</li>
-                <li>Agrega un módulo <strong>Router</strong> con dos salidas a <strong>Instagram for Business &rarr; Create a Photo Post</strong>:
+            <details style="font-size:11.5px; color:#cbd5e1; cursor:pointer;" open>
+              <summary style="color:#f9a8d4; font-weight:600;">📖 Cómo cambiar tu Applet en IFTTT de "RSS lento" a "Botón Instantáneo" (2 minutos)</summary>
+              <ol style="margin:8px 0 0 18px; line-height:1.65; color:var(--text-muted);">
+                <li>Entra en tu cuenta de IFTTT y abre <a href="https://ifttt.com/maker_webhooks" target="_blank" style="color:var(--accent);">ifttt.com/maker_webhooks</a> &rarr; haz clic en <strong>Documentation</strong> (arriba a la derecha). Ahí verás tu clave (<code>Your key is: ...</code>). Cópiala y pégala arriba.</li>
+                <li>En IFTTT haz clic en <strong>Create</strong> (Crear Applet):
                   <ul style="margin-top:4px;">
-                    <li><strong>Ruta 1 (<code>@itnewslat</code>):</strong> Filtro <code>post_to_itnewslat = true</code> &rarr; En <em>Photo URL</em> selecciona <code>image_url</code> y en <em>Caption</em> selecciona <code>caption</code>.</li>
-                    <li><strong>Ruta 2 (<code>@erinconm</code>):</strong> Filtro <code>post_to_erinconm = true</code> &rarr; En <em>Photo URL</em> selecciona <code>image_url</code> y en <em>Caption</em> selecciona <code>caption</code>.</li>
+                    <li><strong>If This (Disparador):</strong> Busca <strong>Webhooks</strong> &rarr; elige <em>Receive a web request</em> &rarr; en <strong>Event Name</strong> escribe <code>itnewslat</code> (para la cuenta @itnewslat) o <code>erinconm</code> (si creas un 2do Applet para @erinconm).</li>
+                    <li><strong>Then That (Acción):</strong> Elige <strong>Instagram</strong> &rarr; <em>Create a photo post</em>:
+                      <br>&bull; En <strong>Photo URL</strong> pon: <code>{{Value1}}</code> <em>(el panel envía ahí siempre la Imagen Grande 1024x680 o 1080x1080)</em>.
+                      <br>&bull; En <strong>Caption</strong> pon: <code>{{Value2}}</code> <em>(el panel envía ahí el Titular Llamativo + Resumen Corto + @cuentas de empresas + #hashtags)</em>.
+                    </li>
                   </ul>
                 </li>
               </ol>
@@ -4281,12 +4283,12 @@ ${currentBody.slice(0, 7000)}`;
       }
 
       window.sendSocialWebhookNow = async function(isSilentAuto = false, forcedFileName = null) {
-        const webhookUrl = (localStorage.getItem(SOCIAL_WEBHOOK_STORAGE_KEY) || (socialWebhookUrlInput && socialWebhookUrlInput.value) || '').trim();
-        if (!webhookUrl) {
+        const rawInput = (localStorage.getItem(SOCIAL_WEBHOOK_STORAGE_KEY) || (socialWebhookUrlInput && socialWebhookUrlInput.value) || '').trim();
+        if (!rawInput) {
           if (!isSilentAuto) {
             socialWebhookConfigBox.style.display = 'block';
             socialWebhookUrlInput.focus();
-            alert('Para publicar directo en segundos sin RSS, pega primero la URL de tu Webhook de Make.com en el recuadro "Configurar Conexión (Make.com)".');
+            alert('Para publicar directo en segundos sin RSS, pega primero tu Clave de IFTTT Webhooks en el recuadro "Configurar Disparo Instantáneo (IFTTT Webhook)".');
           }
           return;
         }
@@ -4303,64 +4305,85 @@ ${currentBody.slice(0, 7000)}`;
         const imageUrl = getBestLargeSocialImageUrl();
         const fileName = forcedFileName || getFileName();
         const postUrl = buildPublicPostUrl(fileName);
+        const captionText = socialCaptionTextarea.value.trim();
         const accounts = [];
         if (socialAccItnews.checked) accounts.push('itnewslat');
         if (socialAccErincon.checked) accounts.push('erinconm');
-
-        const payload = {
-          title: postTitle.value.trim() || 'Noticia ITNEWS.LAT',
-          caption: socialCaptionTextarea.value.trim(),
-          image_url: imageUrl,
-          post_url: postUrl,
-          mentions: socialMentionsInput.value.trim(),
-          accounts: accounts.join(','),
-          post_to_itnewslat: socialAccItnews.checked,
-          post_to_erinconm: socialAccErincon.checked,
-          country: (getSelectedCountries()[0] || 'Latinoamérica'),
-          category: getSelectedTag(),
-          timestamp: new Date().toISOString()
-        };
 
         const origBtnHtml = btnSendSocialNow.innerHTML;
         btnSendSocialNow.disabled = true;
         btnSendSocialNow.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Enviando a Instagram...';
 
         try {
-          let res;
-          try {
-            res = await fetch(webhookUrl, {
+          // Detectar si es Clave/URL de IFTTT Webhooks o un Webhook genérico
+          const isGenericHttp = /^https?:\/\//i.test(rawInput) && !rawInput.includes('ifttt.com');
+
+          if (!isGenericHttp) {
+            // Extraer clave limpia de IFTTT (acepta la clave sola, /use/KEY o /with/key/KEY)
+            let iftttKey = rawInput;
+            const mUse = rawInput.match(/\/use\/([a-zA-Z0-9_-]+)/);
+            const mKey = rawInput.match(/\/with\/key\/([a-zA-Z0-9_-]+)/);
+            if (mUse) iftttKey = mUse[1];
+            else if (mKey) iftttKey = mKey[1];
+
+            // Si el usuario pegó una URL completa con un evento específico (/trigger/MI_EVENTO/with/key/KEY), también disparamos ese evento
+            const mExplicitEvent = rawInput.match(/\/trigger\/([a-zA-Z0-9_-]+)\/with\/key\//);
+            const eventsToTrigger = mExplicitEvent ? [mExplicitEvent[1]] : accounts;
+
+            const formBody = new URLSearchParams();
+            formBody.append('value1', imageUrl);
+            formBody.append('value2', captionText);
+            formBody.append('value3', postUrl);
+
+            for (const eventName of eventsToTrigger) {
+              const targetIftttUrl = `https://maker.ifttt.com/trigger/${encodeURIComponent(eventName)}/with/key/${encodeURIComponent(iftttKey)}`;
+              await fetch(targetIftttUrl, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+                body: formBody.toString()
+              });
+            }
+          } else {
+            const payload = {
+              value1: imageUrl,
+              value2: captionText,
+              value3: postUrl,
+              title: postTitle.value.trim() || 'Noticia ITNEWS.LAT',
+              caption: captionText,
+              image_url: imageUrl,
+              post_url: postUrl,
+              mentions: socialMentionsInput.value.trim(),
+              accounts: accounts.join(','),
+              post_to_itnewslat: socialAccItnews.checked,
+              post_to_erinconm: socialAccErincon.checked,
+              country: (getSelectedCountries()[0] || 'Latinoamérica'),
+              category: getSelectedTag(),
+              timestamp: new Date().toISOString()
+            };
+            await fetch(rawInput, {
               method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(payload)
-            });
-          } catch (_) {
-            // Fallback CORS-safe sin preflight
-            res = await fetch(webhookUrl, {
-              method: 'POST',
+              mode: 'no-cors',
               headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
               body: JSON.stringify(payload)
             });
-          }
-
-          if (!res.ok) {
-            throw new Error(`HTTP ${res.status}`);
           }
 
           socialSendFeedback.style.display = 'block';
           socialSendFeedback.style.background = 'rgba(16, 185, 129, 0.14)';
           socialSendFeedback.style.border = '1px solid rgba(16, 185, 129, 0.4)';
           socialSendFeedback.style.color = '#6ee7b7';
-          socialSendFeedback.innerHTML = `<i class="ri-checkbox-circle-fill"></i> <strong>¡Enviado en tiempo real!</strong> Publicación disparada hacia <code>${accounts.map(a => '@' + a).join(' y ')}</code> con imagen grande (<code>${imageUrl.split('/').pop()}</code>).`;
-          showToast(`¡Publicación enviada al instante a ${accounts.map(a => '@' + a).join(' y ')}!`, 'success');
+          socialSendFeedback.innerHTML = `<i class="ri-checkbox-circle-fill"></i> <strong>¡Disparo enviado en tiempo real!</strong> Orden enviada hacia <code>${accounts.map(a => '@' + a).join(' y ')}</code> con imagen grande (<code>${imageUrl.split('/').pop()}</code>).`;
+          showToast(`¡Publicación disparada al instante a ${accounts.map(a => '@' + a).join(' y ')}!`, 'success');
         } catch (err) {
           console.error(err);
           socialSendFeedback.style.display = 'block';
           socialSendFeedback.style.background = 'rgba(239, 68, 68, 0.14)';
           socialSendFeedback.style.border = '1px solid rgba(239, 68, 68, 0.4)';
           socialSendFeedback.style.color = '#fca5a5';
-          socialSendFeedback.innerHTML = `<i class="ri-error-warning-fill"></i> No se pudo contactar el Webhook (${err.message}). Verifica que el escenario esté activo en Make.com.`;
+          socialSendFeedback.innerHTML = `<i class="ri-error-warning-fill"></i> No se pudo enviar la señal (${err.message}). Verifica tu clave de IFTTT Webhooks.`;
           if (!isSilentAuto) {
-            showToast(`Error al enviar al Webhook: ${err.message}`, 'error');
+            showToast(`Error al disparar Webhook: ${err.message}`, 'error');
           }
         } finally {
           btnSendSocialNow.disabled = false;
