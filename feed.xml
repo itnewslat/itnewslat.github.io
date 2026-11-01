@@ -5,7 +5,8 @@ published: true
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:atom="http://www.w3.org/2005/Atom"
-     xmlns:media="http://search.yahoo.com/mrss/">
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
@@ -14,34 +15,12 @@ published: true
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:25 %}
+    {% for post in site.posts limit:30 %}
       {% assign big_image = post.social-image | default: post.detail-image | default: post.image %}
-      {% if post.social_caption and post.social_caption != "" %}
-        {% assign short_desc = post.social_caption %}
-      {% elsif post.takeaways and post.takeaways.size > 0 %}
-        {% capture short_desc %}📌 {{ post.title }}
-
-• {{ post.takeaways | join: "
-• " }}{% if post.mentions and post.mentions != "" %}
-
-🏢 {{ post.mentions }}{% endif %}
-
-📲 @itnewslat @erinconm
-🔗 https://itnews.lat{{ post.url }}{% endcapture %}
-      {% else %}
-        {% assign clean_excerpt = post.content | strip_html | replace: 'Resumen Ejecutivo ITNEWS', '' | normalize_whitespace | truncate: 320 %}
-        {% capture short_desc %}📌 {{ post.title }}
-
-{{ clean_excerpt }}{% if post.mentions and post.mentions != "" %}
-
-🏢 {{ post.mentions }}{% endif %}
-
-📲 @itnewslat @erinconm
-🔗 https://itnews.lat{{ post.url }}{% endcapture %}
-      {% endif %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ short_desc | strip | xml_escape }}</description>
+        <description>{{ post.content | xml_escape }}</description>
+        <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>https://itnews.lat{{ post.url }}</link>
         <guid isPermaLink="true">https://itnews.lat{{ post.url }}</guid>
@@ -53,6 +32,9 @@ published: true
         {% endfor %}
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
+        {% for tk in post.takeaways %}
+        <takeaway>{{ tk | xml_escape }}</takeaway>
         {% endfor %}
         <superNews>{{ post.superNews }}</superNews>
       </item>

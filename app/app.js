@@ -283,6 +283,13 @@
         const link = item.querySelector('link')?.textContent?.trim() || '';
         const pubDateRaw = item.querySelector('pubDate')?.textContent?.trim() || '';
         const description = item.querySelector('description')?.textContent?.trim() || '';
+        const contentEncoded = item.getElementsByTagNameNS('http://purl.org/rss/1.0/modules/content/', 'encoded')[0]?.textContent?.trim() 
+          || item.querySelector('encoded')?.textContent?.trim() || '';
+        const rawBody = contentEncoded || description;
+
+        // Extraer takeaways estructurados si existen en el feed
+        const takeawayEls = item.querySelectorAll('takeaway');
+        const xmlTakeaways = Array.from(takeawayEls).map(el => el.textContent?.trim()).filter(Boolean);
         
         // Extraer categorías y tags
         const categoryElements = item.querySelectorAll('category');
@@ -388,8 +395,11 @@
           tags: tags.length ? tags : ['Actualidad'],
           url: canonicalUrl,
           snippet: snippet || 'Consulta la noticia completa en ITNEWS.LAT',
-          body: description
+          body: rawBody
         };
+        if (xmlTakeaways.length > 0) {
+          postObject.takeaways = xmlTakeaways;
+        }
 
         const existingKey = existingKeyMap.has(slug) ? slug : (existingKeyMap.has(normUrlNoProto) ? normUrlNoProto : null);
 
@@ -398,8 +408,13 @@
           const existingIndex = existingKeyMap.get(existingKey);
           if (allPosts[existingIndex]) {
             allPosts[existingIndex].title = postObject.title;
-            if (postObject.body && (!allPosts[existingIndex].body || allPosts[existingIndex].body.length < postObject.body.length)) {
+            const currentBody = allPosts[existingIndex].body || '';
+            const isCorruptedOrSocial = currentBody.includes('\uD83D\uDCCC') || currentBody.includes('@itnewslat') || currentBody.includes('Lo que debes saber:') || currentBody.length < 350;
+            if (postObject.body && (isCorruptedOrSocial || currentBody.length < postObject.body.length)) {
               allPosts[existingIndex].body = postObject.body;
+            }
+            if (xmlTakeaways && xmlTakeaways.length > 0) {
+              allPosts[existingIndex].takeaways = xmlTakeaways;
             }
             if (postObject.snippet) allPosts[existingIndex].snippet = postObject.snippet;
             if (postObject.image && !postObject.image.includes('itnewslat-p.jpg') && (!allPosts[existingIndex].image || allPosts[existingIndex].image.includes('itnewslat-p.jpg'))) {
@@ -862,7 +877,8 @@
     document.body.style.overflow = 'hidden';
 
     // Respaldo de seguridad: si el post no tiene cuerpo completo o es solo el snippet, intentar recuperar en vivo
-    if ((!post.body || post.body.length < 100) && post.url) {
+    const isBodyIncomplete = !post.body || post.body.length < 350 || post.body.includes('\uD83D\uDCCC') || post.body.includes('@itnewslat') || post.body.includes('Lo que debes saber:');
+    if (isBodyIncomplete && post.url) {
       try {
         const articleRes = await fetch(post.url);
         if (articleRes.ok) {
