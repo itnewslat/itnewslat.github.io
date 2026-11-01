@@ -1425,6 +1425,139 @@
 Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PDF o correo para limpiar saltos de línea y dar formato en 1 clic."></textarea>
         </div>
 
+        <!-- Central de Redes Sociales (@itnewslat & @erinconm) -->
+        <div class="panel-card" style="border: 1px solid rgba(236, 72, 153, 0.35); background: linear-gradient(180deg, rgba(24, 24, 38, 0.95) 0%, rgba(17, 23, 34, 0.98) 100%);">
+          <div class="panel-title" style="border-bottom-color: rgba(236, 72, 153, 0.2);">
+            <span style="display:flex; align-items:center; gap:8px;">
+              <i class="ri-instagram-line" style="color:#f472b6; font-size:20px;"></i>
+              <span>Central de Redes Sociales (Instagram <code>@itnewslat</code> &amp; <code>@erinconm</code>)</span>
+            </span>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <button type="button" id="btnToggleWebhookConfig" class="nav-btn" style="padding:4px 10px; font-size:11.5px; border-color:rgba(244,114,182,0.4); color:#f9a8d4;">
+                <i class="ri-links-line"></i> Configurar Conexión (Make.com)
+              </button>
+            </div>
+          </div>
+
+          <!-- Configuración de Webhook Instantáneo (Make.com) -->
+          <div id="socialWebhookConfigBox" style="display:none; margin-bottom:16px; padding:14px; background:rgba(15, 23, 42, 0.85); border:1px dashed rgba(244, 114, 182, 0.45); border-radius:10px;">
+            <div style="font-size:12.5px; font-weight:700; color:#f9a8d4; margin-bottom:6px;">
+              <i class="ri-flashlight-fill"></i> Conexión Instantánea sin RSS (Reemplaza a IFTTT y Buffer — Salida en 2 segundos)
+            </div>
+            <p style="font-size:11.5px; color:var(--text-muted); margin-bottom:10px; line-height:1.5;">
+              Pega aquí la URL de tu <strong>Custom Webhook</strong> gratuito de <a href="https://www.make.com" target="_blank" style="color:var(--accent);">Make.com</a>. Al hacer clic en <strong>"Publicar Ahora en Redes"</strong>, este panel enviará directamente la <strong>Imagen Grande (1024x680 o 1080x1080)</strong> + el <strong>Resumen Corto</strong> + las <strong>@cuentas de empresas</strong> a tus cuentas seleccionadas (<code>@itnewslat</code> y/o <code>@erinconm</code>).
+            </p>
+            <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
+              <input type="url" id="socialWebhookUrlInput" class="input-text" placeholder="https://hook.us1.make.com/xxxxxxxxxxxxxxxxxxxx" style="flex:1; min-width:260px; font-size:12px; font-family:'JetBrains Mono', monospace;">
+              <button type="button" id="btnSaveWebhookUrl" class="btn-token-save" style="background:#db2777; border-color:#db2777;">
+                <i class="ri-save-line"></i> Guardar Webhook
+              </button>
+              <button type="button" id="btnTestWebhook" class="btn-token-save" title="Envía un paquete de prueba a Make.com para detectar los campos automáticamente">
+                <i class="ri-flask-line"></i> Enviar Prueba
+              </button>
+            </div>
+            <details style="font-size:11.5px; color:#cbd5e1; cursor:pointer;">
+              <summary style="color:#f9a8d4; font-weight:600;">📖 Ver guía rápida (3 pasos en Make.com para conectar @itnewslat y @erinconm)</summary>
+              <ol style="margin:8px 0 0 18px; line-height:1.6; color:var(--text-muted);">
+                <li>Crea una cuenta gratuita en <strong>Make.com</strong> &rarr; haz clic en <strong>Create a new scenario</strong>.</li>
+                <li>Agrega como primer módulo <strong>Webhooks &rarr; Custom webhook</strong> &rarr; dale a <em>Add</em>, copia la dirección URL que te da, pégala arriba y pulsa <strong>"Enviar Prueba"</strong>.</li>
+                <li>Agrega un módulo <strong>Router</strong> con dos salidas a <strong>Instagram for Business &rarr; Create a Photo Post</strong>:
+                  <ul style="margin-top:4px;">
+                    <li><strong>Ruta 1 (<code>@itnewslat</code>):</strong> Filtro <code>post_to_itnewslat = true</code> &rarr; En <em>Photo URL</em> selecciona <code>image_url</code> y en <em>Caption</em> selecciona <code>caption</code>.</li>
+                    <li><strong>Ruta 2 (<code>@erinconm</code>):</strong> Filtro <code>post_to_erinconm = true</code> &rarr; En <em>Photo URL</em> selecciona <code>image_url</code> y en <em>Caption</em> selecciona <code>caption</code>.</li>
+                  </ul>
+                </li>
+              </ol>
+            </details>
+          </div>
+
+          <!-- Selector de Cuentas Destino y Control de Salida -->
+          <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; padding:10px 14px; background:rgba(0,0,0,0.28); border-radius:10px; margin-bottom:14px;">
+            <div style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+              <span style="font-size:12px; font-weight:700; color:#f9a8d4;"><i class="ri-user-follow-line"></i> Publicar en:</span>
+              <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:12.5px; font-weight:600; color:#fff;">
+                <input type="checkbox" id="socialAccItnews" checked style="accent-color:#ec4899; width:15px; height:15px;">
+                <span>Instagram <code>@itnewslat</code></span>
+              </label>
+              <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:12.5px; font-weight:600; color:#fff;">
+                <input type="checkbox" id="socialAccErincon" checked style="accent-color:#ec4899; width:15px; height:15px;">
+                <span>Instagram <code>@erinconm</code></span>
+              </label>
+            </div>
+            <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:11.5px; color:#cbd5e1;" title="Si está activo, enviará la nota al Webhook automáticamente apenas publiques la nota en la web">
+              <input type="checkbox" id="socialAutoSendOnPublish" style="accent-color:#10b981;">
+              <span>Disparar automáticamente al publicar nota web</span>
+            </label>
+          </div>
+
+          <!-- Botón Generador de Resumen Corto + Detector de @Cuentas -->
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px;">
+            <button type="button" id="btnBuildSocialCopy" class="nav-btn" style="flex:1; justify-content:center; background:linear-gradient(135deg, #db2777 0%, #9333ea 100%); color:#fff; border:none; padding:10px 14px; font-weight:700; font-size:13px;">
+              <i class="ri-sparkling-2-fill"></i> ⚡ Generar Titular Llamativo + Resumen Corto + Detectar @Empresas
+            </button>
+            <button type="button" id="btnGenerateIgCard" class="nav-btn" style="background:rgba(56, 189, 248, 0.14); color:var(--accent); border-color:rgba(56, 189, 248, 0.4); padding:10px 14px; font-weight:700; font-size:12.5px;" title="Crea y sube a GitHub una imagen cuadrada 1080x1080 con la foto grande, el titular y el logo de ITNEWS.LAT ideal para Instagram">
+              <i class="ri-image-edit-line"></i> 🖼️ Crear Portada 1080x1080 con Titular
+            </button>
+          </div>
+
+          <!-- Detector y Directorio de @Cuentas de Empresas Mencionadas -->
+          <div class="form-group" style="margin-bottom:14px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:6px;">
+              <label class="form-label" style="margin-bottom:0; color:#f9a8d4;">
+                <i class="ri-at-line"></i> Cuentas Referidas de Empresas Mencionadas (<code>@menciones</code>)
+              </label>
+              <span id="detectedCompaniesBadge" style="font-size:11px; color:#34d399; font-family:'JetBrains Mono', monospace;">Auto-detector activo (95+ marcas TI en memoria)</span>
+            </div>
+            <input type="text" id="socialMentionsInput" class="input-text" placeholder="Ej. @microsoftlatam @fortinet @cisco @absidecorp (se detectan solas o escríbelas aquí)" style="font-family:'JetBrains Mono', monospace; font-size:12.5px; margin-bottom:8px;">
+
+            <!-- Chips de empresas detectadas o sugeridas -->
+            <div id="detectedMentionsChips" style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px;"></div>
+
+            <!-- Agregar nueva empresa a la agenda permanente -->
+            <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center; padding:8px 10px; background:rgba(15, 23, 42, 0.6); border:1px solid var(--border-color); border-radius:8px;">
+              <span style="font-size:11.5px; color:var(--text-muted); font-weight:600;"><i class="ri-bookmark-3-line"></i> Enseñar nueva cuenta al panel:</span>
+              <input type="text" id="newCompanyNameInput" class="input-text" placeholder="Marca (ej. Banesco)" style="max-width:155px; padding:5px 8px; font-size:11.5px;">
+              <input type="text" id="newCompanyHandleInput" class="input-text" placeholder="@cuenta (ej. @banescobanco)" style="max-width:175px; padding:5px 8px; font-size:11.5px; font-family:'JetBrains Mono', monospace;">
+              <button type="button" id="btnAddCompanyMemory" class="btn-mini-action" style="border-color:rgba(52, 211, 153, 0.4); color:#34d399; padding:5px 10px;">
+                <i class="ri-add-circle-line"></i> Guardar en Memoria
+              </button>
+            </div>
+          </div>
+
+          <!-- Texto / Copy Final Corto para Instagram y Redes -->
+          <div class="form-group" style="margin-bottom:12px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+              <label class="form-label" style="margin-bottom:0;">
+                <i class="ri-chat-quote-line"></i> Resumen Corto + Titular Llamativo (Listo para Instagram)
+              </label>
+              <span id="socialCaptionCounter" style="font-size:11px; color:var(--text-muted); font-family:'JetBrains Mono', monospace;">0 / 2200 máx.</span>
+            </div>
+            <textarea id="socialCaptionTextarea" class="textarea-custom" style="min-height:175px; font-size:13px; line-height:1.55;" placeholder="Haz clic arriba en '⚡ Generar Titular Llamativo + Resumen Corto + Detectar @Empresas' (o usa la Opción 2 de la nota) y aquí aparecerá el resumen corto listo con las @cuentas y #hashtags..."></textarea>
+          </div>
+
+          <!-- Estado de Imagen Grande para Redes -->
+          <div id="socialImageStatusBox" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; padding:9px 12px; background:rgba(16, 185, 129, 0.08); border:1px solid rgba(16, 185, 129, 0.3); border-radius:8px; margin-bottom:14px; font-size:12px;">
+            <div style="display:flex; align-items:center; gap:8px; min-width:0; flex:1;">
+              <i class="ri-hd-line" style="color:#34d399; font-size:17px;"></i>
+              <span id="socialImageStatusText" style="color:#d1fae5; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                Se usará automáticamente la <strong>Imagen Grande (1024x680)</strong> de la nota (nunca la pequeña).
+              </span>
+            </div>
+            <input type="hidden" id="socialCustomCardUrl" value="">
+          </div>
+
+          <!-- Botones de Acción Inmediata en Redes -->
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <button type="button" id="btnSendSocialNow" class="nav-btn" style="flex:2; justify-content:center; background:linear-gradient(135deg, #10b981 0%, #059669 100%); color:#fff; border:none; padding:11px 16px; font-weight:700; font-size:13.5px;">
+              <i class="ri-send-plane-2-fill"></i> 🚀 Publicar Ahora en Instagram (@itnewslat / @erinconm)
+            </button>
+            <button type="button" id="btnCopySocialCaption" class="nav-btn" style="flex:1; justify-content:center; padding:11px 14px; font-weight:600; font-size:12.5px;">
+              <i class="ri-file-copy-2-line"></i> Copiar Resumen + @Cuentas
+            </button>
+          </div>
+          <div id="socialSendFeedback" style="display:none; margin-top:10px; font-size:12px; padding:8px 12px; border-radius:8px;"></div>
+        </div>
+
       </div>
 
       <!-- Right Column: Metadata & Settings -->
@@ -2647,8 +2780,11 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         postContent.value = mode === 'condensed' ? lastSeoResult.condensedBody : lastSeoResult.prependBody;
 
         renderSuggestedHeadlines(lastSeoResult.headlines);
+        if (typeof window.autoSyncSocialFromSeo === 'function') {
+          window.autoSyncSocialFromSeo();
+        }
         saveDraft();
-        showToast('¡Nuevo titular (máx. 80 car.) y Puntos Clave aplicados sin repeticiones!', 'success');
+        showToast('¡Nuevo titular (máx. 80 car.), Puntos Clave y Copy de Redes aplicados!', 'success');
       }
 
       btnGenerateLocalSeo.addEventListener('click', () => {
@@ -2760,8 +2896,11 @@ ${currentBody.slice(0, 7000)}`;
           postContent.value = mode === 'condensed' ? lastSeoResult.condensedBody : lastSeoResult.prependBody;
 
           renderSuggestedHeadlines(lastSeoResult.headlines);
+          if (typeof window.autoSyncSocialFromSeo === 'function') {
+            window.autoSyncSocialFromSeo();
+          }
           saveDraft();
-          showToast('¡Titular y resumen reescritos con IA Gemini con éxito!', 'success');
+          showToast('¡Titular, resumen y Copy de Redes generados con IA Gemini con éxito!', 'success');
         } catch (err) {
           console.error(err);
           showToast(`Aviso IA (${err.message}): aplicando generador inteligente local`, 'error');
@@ -3155,6 +3294,14 @@ ${currentBody.slice(0, 7000)}`;
             }
           });
         }
+        const socialMentionsEl = document.getElementById('socialMentionsInput');
+        if (socialMentionsEl && socialMentionsEl.value.trim()) {
+          yaml += `mentions: "${socialMentionsEl.value.trim().replace(/"/g, '\\"')}"\n`;
+        }
+        const socialCustomCardEl = document.getElementById('socialCustomCardUrl');
+        if (socialCustomCardEl && socialCustomCardEl.value.trim()) {
+          yaml += `social-image: >-\n  ${socialCustomCardEl.value.trim()}\n`;
+        }
         yaml += `---\n`;
         yaml += `${fullBody}`;
 
@@ -3414,6 +3561,14 @@ ${currentBody.slice(0, 7000)}`;
             cachedRecentPosts.unshift(fileName);
             renderRecentPostsList(recentPostsSearch.value.trim().toLowerCase());
           }
+          const autoSocialChk = document.getElementById('socialAutoSendOnPublish');
+          if (autoSocialChk && autoSocialChk.checked && typeof window.sendSocialWebhookNow === 'function') {
+            try {
+              await window.sendSocialWebhookNow(true, fileName);
+            } catch (socErr) {
+              console.warn('Aviso al disparar Webhook de redes:', socErr);
+            }
+          }
           showToast(isEditing ? '¡Nota actualizada con éxito en ITNEWS.LAT!' : '¡Nota publicada con éxito en ITNEWS.LAT!', 'success');
           alert(`¡Nota ${isEditing ? 'actualizada' : 'publicada'} con éxito!\n\nArchivo en GitHub:\n${targetPath}\n\nGitHub Pages compilará los cambios automáticamente.`);
 
@@ -3536,6 +3691,13 @@ ${currentBody.slice(0, 7000)}`;
         switchPublished.checked = true;
         switchSuperNews.checked = false;
         switchSuperArticle.checked = false;
+        if (typeof socialMentionsInput !== 'undefined' && socialMentionsInput) socialMentionsInput.value = '';
+        if (typeof socialCaptionTextarea !== 'undefined' && socialCaptionTextarea) socialCaptionTextarea.value = '';
+        if (typeof socialCustomCardUrl !== 'undefined' && socialCustomCardUrl) socialCustomCardUrl.value = '';
+        if (typeof detectedMentionsChips !== 'undefined' && detectedMentionsChips) detectedMentionsChips.innerHTML = '';
+        if (typeof socialSendFeedback !== 'undefined' && socialSendFeedback) socialSendFeedback.style.display = 'none';
+        if (typeof updateSocialImageStatus === 'function') updateSocialImageStatus();
+        if (typeof updateSocialCaptionCounter === 'function') updateSocialCaptionCounter();
 
         countriesChipGrid.querySelectorAll('.chip-item').forEach(chip => {
           const isVe = chip.getAttribute('data-val') === 'Venezuela';
@@ -3576,8 +3738,659 @@ ${currentBody.slice(0, 7000)}`;
       countriesChipGrid.addEventListener('click', () => setTimeout(saveDraft, 50));
       tagsChipGrid.addEventListener('click', () => setTimeout(saveDraft, 50));
 
+      // =====================================================
+      // MEJORA 3: Central de Redes Sociales (@itnewslat & @erinconm)
+      // =====================================================
+      const SOCIAL_WEBHOOK_STORAGE_KEY = 'itnews_social_make_webhook_url';
+      const CUSTOM_COMPANY_HANDLES_KEY = 'itnews_custom_company_handles_v1';
+
+      // Base de conocimiento de 100+ empresas tecnológicas, operadoras, banca y consultoras en Latinoamérica
+      const DEFAULT_COMPANY_HANDLES = {
+        'microsoft': '@microsoftlatam',
+        'cisco': '@cisco',
+        'fortinet': '@fortinet',
+        'aws': '@amazonwebservices',
+        'amazon web services': '@amazonwebservices',
+        'google cloud': '@googlecloud',
+        'google': '@google',
+        'ibm': '@ibm',
+        'oracle': '@oracle',
+        'sap': '@sap',
+        'kaspersky': '@kasperskylab',
+        'eset': '@esetla',
+        'palo alto': '@paloaltonetworks',
+        'crowdstrike': '@crowdstrike',
+        'check point': '@checkpointsoftware',
+        'sophos': '@sophos',
+        'trend micro': '@trendmicro',
+        'bitdefender': '@bitdefender',
+        'thales': '@thalesgroup',
+        'dell': '@dell',
+        'hewlett packard': '@hpe',
+        'hpe': '@hpe',
+        'hp': '@hp',
+        'lenovo': '@lenovolatam',
+        'asus': '@asus',
+        'acer': '@acer',
+        'samsung': '@samsunglatin',
+        'xiaomi': '@xiaomi.global',
+        'motorola': '@motorola',
+        'apple': '@apple',
+        'huawei': '@huaweilatam',
+        'zte': '@ztecorporation',
+        'nokia': '@nokia',
+        'ericsson': '@ericsson',
+        'nvidia': '@nvidia',
+        'intel': '@intel',
+        'amd': '@amd',
+        'qualcomm': '@qualcomm',
+        'red hat': '@redhatinc',
+        'vmware': '@vmware',
+        'broadcom': '@broadcom',
+        'salesforce': '@salesforce',
+        'adobe': '@adobe',
+        'snowflake': '@snowflake_inc',
+        'datadog': '@datadoghq',
+        'servicenow': '@servicenow',
+        'workday': '@workday',
+        'hubspot': '@hubspot',
+        'zoom': '@zoom',
+        'openai': '@openai',
+        'anthropic': '@anthropicai',
+        'meta': '@meta',
+        'mercado libre': '@mercadolibre',
+        'mercado pago': '@mercadopago',
+        'globant': '@globant',
+        'rappi': '@rappi',
+        'nubank': '@nubank',
+        'visa': '@visa',
+        'mastercard': '@mastercardlatam',
+        'binance': '@binance',
+        'movistar': '@movistarve',
+        'telefonica': '@telefonica',
+        'telefónica': '@telefonica',
+        'digitel': '@digitel412',
+        'cantv': '@salacantv',
+        'claro': '@clarocolombia',
+        'entel': '@entel',
+        'tigo': '@tigocolombia',
+        'simpletv': '@simpletvve',
+        'simple tv': '@simpletvve',
+        'directv': '@directvla',
+        'netuno': '@netunoficial',
+        'inter': '@tutambienpuedes',
+        'gartner': '@gartner_inc',
+        'idc': '@idc',
+        'forrester': '@forrester',
+        'kpmg': '@kpmg',
+        'deloitte': '@deloitte',
+        'pwc': '@pwc',
+        'accenture': '@accenture',
+        'udit': '@udit_es',
+        'abside': '@absidecorp',
+        'banesco': '@banescobanco',
+        'mercantil': '@mercantilbanco',
+        'bbva': '@bbva',
+        'santander': '@santander',
+        'bancolombia': '@bancolombia',
+        'davivienda': '@davivienda',
+        'zoho': '@zoho',
+        'infobip': '@infobip',
+        'twilio': '@twilio',
+        'cloudflare': '@cloudflare',
+        'akamai': '@akamai',
+        'veeam': '@veeam',
+        'veritas': '@veritastechllc',
+        'netapp': '@netapp',
+        'schneider electric': '@schneiderelectric',
+        'vertiv': '@vertiv',
+        'epson': '@epsonlatinoamerica',
+        'canon': '@canonlatam',
+        'lg': '@lg_latam',
+        'sony': '@sonylatin',
+        'honor': '@honor_latam',
+        'starlink': '@starlink'
+      };
+
+      const btnToggleWebhookConfig = document.getElementById('btnToggleWebhookConfig');
+      const socialWebhookConfigBox = document.getElementById('socialWebhookConfigBox');
+      const socialWebhookUrlInput = document.getElementById('socialWebhookUrlInput');
+      const btnSaveWebhookUrl = document.getElementById('btnSaveWebhookUrl');
+      const btnTestWebhook = document.getElementById('btnTestWebhook');
+
+      const socialAccItnews = document.getElementById('socialAccItnews');
+      const socialAccErincon = document.getElementById('socialAccErincon');
+      const socialAutoSendOnPublish = document.getElementById('socialAutoSendOnPublish');
+
+      const btnBuildSocialCopy = document.getElementById('btnBuildSocialCopy');
+      const btnGenerateIgCard = document.getElementById('btnGenerateIgCard');
+      const socialMentionsInput = document.getElementById('socialMentionsInput');
+      const detectedMentionsChips = document.getElementById('detectedMentionsChips');
+      const detectedCompaniesBadge = document.getElementById('detectedCompaniesBadge');
+
+      const newCompanyNameInput = document.getElementById('newCompanyNameInput');
+      const newCompanyHandleInput = document.getElementById('newCompanyHandleInput');
+      const btnAddCompanyMemory = document.getElementById('btnAddCompanyMemory');
+
+      const socialCaptionTextarea = document.getElementById('socialCaptionTextarea');
+      const socialCaptionCounter = document.getElementById('socialCaptionCounter');
+      const socialImageStatusText = document.getElementById('socialImageStatusText');
+      const socialCustomCardUrl = document.getElementById('socialCustomCardUrl');
+      const btnSendSocialNow = document.getElementById('btnSendSocialNow');
+      const btnCopySocialCaption = document.getElementById('btnCopySocialCaption');
+      const socialSendFeedback = document.getElementById('socialSendFeedback');
+
+      function getCustomCompanyHandles() {
+        try {
+          const raw = localStorage.getItem(CUSTOM_COMPANY_HANDLES_KEY);
+          return raw ? JSON.parse(raw) : {};
+        } catch (_) {
+          return {};
+        }
+      }
+
+      function getAllCompanyHandlesMap() {
+        return { ...DEFAULT_COMPANY_HANDLES, ...getCustomCompanyHandles() };
+      }
+
+      function updateCompanyBadgeCount() {
+        if (!detectedCompaniesBadge) return;
+        const total = Object.keys(getAllCompanyHandlesMap()).length;
+        detectedCompaniesBadge.textContent = `Auto-detector activo (${total} marcas TI en memoria)`;
+      }
+
+      function initSocialConfig() {
+        if (socialWebhookUrlInput) {
+          socialWebhookUrlInput.value = localStorage.getItem(SOCIAL_WEBHOOK_STORAGE_KEY) || '';
+        }
+        updateCompanyBadgeCount();
+        updateSocialImageStatus();
+      }
+
+      if (btnToggleWebhookConfig) {
+        btnToggleWebhookConfig.addEventListener('click', () => {
+          const isHidden = socialWebhookConfigBox.style.display === 'none';
+          socialWebhookConfigBox.style.display = isHidden ? 'block' : 'none';
+        });
+      }
+
+      if (btnSaveWebhookUrl) {
+        btnSaveWebhookUrl.addEventListener('click', () => {
+          const url = socialWebhookUrlInput.value.trim();
+          localStorage.setItem(SOCIAL_WEBHOOK_STORAGE_KEY, url);
+          showToast('Webhook de Make.com guardado en tu navegador', 'success');
+        });
+      }
+
+      if (btnAddCompanyMemory) {
+        btnAddCompanyMemory.addEventListener('click', () => {
+          const brand = (newCompanyNameInput.value || '').trim().toLowerCase();
+          let handle = (newCompanyHandleInput.value || '').trim();
+          if (!brand || !handle) {
+            alert('Ingresa el nombre de la empresa (ej. Banesco) y su cuenta (ej. @banescobanco).');
+            return;
+          }
+          if (!handle.startsWith('@')) handle = '@' + handle;
+          const custom = getCustomCompanyHandles();
+          custom[brand] = handle;
+          localStorage.setItem(CUSTOM_COMPANY_HANDLES_KEY, JSON.stringify(custom));
+          newCompanyNameInput.value = '';
+          newCompanyHandleInput.value = '';
+          updateCompanyBadgeCount();
+
+          // Añadir también a las menciones de la nota actual
+          const curr = socialMentionsInput.value.trim();
+          if (!curr.toLowerCase().includes(handle.toLowerCase())) {
+            socialMentionsInput.value = (curr ? curr + ' ' : '') + handle;
+          }
+          buildAndPopulateSocialCopy(false);
+          showToast(`Guardado: "${brand}" -> ${handle} se detectará siempre automáticamente`, 'success');
+        });
+      }
+
+      function detectCompanyMentionsFromText(titleText, bodyText) {
+        const fullText = `${titleText || ''} ${bodyText || ''}`;
+        const lowerText = fullText.toLowerCase();
+        const map = getAllCompanyHandlesMap();
+        const matched = [];
+        const seenHandles = new Set();
+
+        // 1. Detectar cualquier @mencion ya escrita explícitamente en el boletín (ignorando correos electrónicos)
+        const explicitRegex = /(?:^|\s)(@[a-zA-Z0-9._]{3,30})\b/g;
+        let m;
+        while ((m = explicitRegex.exec(fullText)) !== null) {
+          const h = m[1];
+          const lowH = h.toLowerCase();
+          if (lowH !== '@itnewslat' && lowH !== '@erinconm' && !seenHandles.has(lowH)) {
+            seenHandles.add(lowH);
+            matched.push({ brand: h, handle: h });
+          }
+        }
+
+        // 2. Detectar empresas del diccionario por palabra completa
+        const sortedBrands = Object.keys(map).sort((a, b) => b.length - a.length);
+        for (const brand of sortedBrands) {
+          const handle = map[brand];
+          if (seenHandles.has(handle.toLowerCase())) continue;
+          const escaped = brand.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          const rx = new RegExp(`(^|[^a-záéíóúñ0-9])${escaped}(?=$|[^a-záéíóúñ0-9])`, 'i');
+          if (rx.test(lowerText)) {
+            seenHandles.add(handle.toLowerCase());
+            matched.push({ brand, handle });
+          }
+        }
+        return matched;
+      }
+
+      function renderDetectedCompanyChips(detectedList) {
+        if (!detectedMentionsChips) return;
+        detectedMentionsChips.innerHTML = '';
+        if (detectedList.length === 0) {
+          detectedMentionsChips.innerHTML = `<span style="font-size:11px; color:var(--text-muted);">No se detectaron marcas en el texto aún. Puedes escribir cualquier @cuenta arriba o enseñarle una nueva abajo.</span>`;
+          return;
+        }
+        detectedList.forEach(item => {
+          const chip = document.createElement('button');
+          chip.type = 'button';
+          chip.className = 'btn-mini-action';
+          chip.style.borderColor = 'rgba(244, 114, 182, 0.45)';
+          chip.style.color = '#f9a8d4';
+          chip.innerHTML = `<i class="ri-at-line"></i> <strong>${item.handle}</strong> <span style="opacity:0.7;">(${item.brand})</span>`;
+          chip.title = 'Clic para agregar o quitar esta cuenta del post';
+          chip.addEventListener('click', () => {
+            const currentTokens = socialMentionsInput.value.trim().split(/\s+/).filter(Boolean);
+            const idx = currentTokens.findIndex(t => t.toLowerCase() === item.handle.toLowerCase());
+            if (idx >= 0) {
+              currentTokens.splice(idx, 1);
+            } else {
+              currentTokens.push(item.handle);
+            }
+            socialMentionsInput.value = currentTokens.join(' ');
+            buildAndPopulateSocialCopy(false);
+          });
+          detectedMentionsChips.appendChild(chip);
+        });
+      }
+
+      function updateSocialCaptionCounter() {
+        if (!socialCaptionCounter || !socialCaptionTextarea) return;
+        const len = socialCaptionTextarea.value.length;
+        socialCaptionCounter.textContent = `${len} / 2200 máx.`;
+        socialCaptionCounter.style.color = len > 2150 ? '#f87171' : 'var(--text-muted)';
+      }
+
+      if (socialCaptionTextarea) {
+        socialCaptionTextarea.addEventListener('input', updateSocialCaptionCounter);
+      }
+
+      function getBestLargeSocialImageUrl() {
+        if (socialCustomCardUrl && socialCustomCardUrl.value.trim()) {
+          return socialCustomCardUrl.value.trim();
+        }
+        const detail = imgDetail.value.trim();
+        if (detail) return detail;
+        const thumb = imgThumbnail.value.trim();
+        if (thumb.includes('540x320')) {
+          return thumb.replace('540x320', '1024x680').replace(/-p\.(jpg|jpeg|png|webp)$/i, '-g.$1');
+        }
+        return thumb || 'https://itnews.lat/assets/imagenes/logo_large_red.png';
+      }
+
+      function updateSocialImageStatus() {
+        if (!socialImageStatusText) return;
+        const customUrl = socialCustomCardUrl ? socialCustomCardUrl.value.trim() : '';
+        const detailUrl = imgDetail.value.trim();
+        if (customUrl) {
+          socialImageStatusText.innerHTML = `✅ Lista <strong>Portada Cuadrada 1080x1080 con Titular</strong>: <code>${customUrl.split('/').pop()}</code>`;
+        } else if (detailUrl) {
+          socialImageStatusText.innerHTML = `✅ Usando <strong>Imagen Grande 1024x680</strong>: <code>${detailUrl.split('/').pop()}</code>`;
+        } else {
+          socialImageStatusText.innerHTML = `Se usará automáticamente la <strong>Imagen Grande (1024x680)</strong> de la nota (nunca la pequeña).`;
+        }
+      }
+
+      imgDetail.addEventListener('input', updateSocialImageStatus);
+      imgThumbnail.addEventListener('input', updateSocialImageStatus);
+
+      function buildAndPopulateSocialCopy(reDetectCompanies = true) {
+        const rawTitle = postTitle.value.trim();
+        const rawBody = (savedOriginalBody || postContent.value || '').trim();
+
+        if (!rawTitle && rawBody.length < 30) {
+          alert('Ingresa primero el título o el contenido de la nota para generar el resumen de redes sociales.');
+          return;
+        }
+
+        // Si aún no se ha corrido Opción 2, calculamos los puntos clave localmente
+        if (!lastSeoResult && rawBody.length >= 40) {
+          lastSeoResult = buildLocalSeoAlternatives(rawTitle, rawBody);
+        }
+
+        if (reDetectCompanies) {
+          const detected = detectCompanyMentionsFromText(rawTitle, rawBody);
+          renderDetectedCompanyChips(detected);
+          const existingTokens = socialMentionsInput.value.trim().split(/\s+/).filter(Boolean);
+          const mergedSet = new Set(existingTokens.map(t => t.toLowerCase()));
+          detected.forEach(d => {
+            if (!mergedSet.has(d.handle.toLowerCase())) {
+              existingTokens.push(d.handle);
+              mergedSet.add(d.handle.toLowerCase());
+            }
+          });
+          socialMentionsInput.value = existingTokens.join(' ');
+        }
+
+        const catchyHeadline = rawTitle || (lastSeoResult && lastSeoResult.headlines && lastSeoResult.headlines[0]) || 'Actualidad Tecnológica en Latinoamérica';
+        const takeaways = (lastSeoResult && Array.isArray(lastSeoResult.takeaways) && lastSeoResult.takeaways.length > 0)
+          ? lastSeoResult.takeaways.slice(0, 3)
+          : [rawBody.replace(/<[^>]+>/g, '').split(/(?<=[.!?])\s+/)[0] || catchyHeadline];
+
+        const countries = getSelectedCountries();
+        const tag = getSelectedTag();
+        const countryHashtags = (countries.length > 0 ? countries : ['Latinoamerica'])
+          .map(c => '#' + c.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ''))
+          .join(' ');
+        const tagHashtag = '#' + tag.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '');
+
+        const mentionsLine = socialMentionsInput.value.trim();
+        const publicUrl = buildPublicPostUrl(getFileName());
+
+        let caption = `🚨 ${catchyHeadline.toUpperCase()}\n\n`;
+        caption += `📌 Lo que debes saber:\n`;
+        takeaways.forEach(tk => {
+          const cleanBullet = String(tk).replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim();
+          if (cleanBullet) {
+            caption += `• ${cleanBullet}\n`;
+          }
+        });
+
+        if (mentionsLine) {
+          caption += `\n🏢 Empresas y actores referidos: ${mentionsLine}\n`;
+        } else {
+          caption += `\n`;
+        }
+
+        caption += `📲 Síguenos: @itnewslat @erinconm\n`;
+        caption += `🔗 Lee la nota completa en: ${publicUrl}\n\n`;
+        caption += `${tagHashtag} ${countryHashtags} #TecnologiaB2B #TransformacionDigital #ITNEWSLAT #Ciberespacio`;
+
+        socialCaptionTextarea.value = caption;
+        updateSocialCaptionCounter();
+        updateSocialImageStatus();
+      }
+
+      window.autoSyncSocialFromSeo = function() {
+        buildAndPopulateSocialCopy(true);
+      };
+
+      if (btnBuildSocialCopy) {
+        btnBuildSocialCopy.addEventListener('click', () => {
+          buildAndPopulateSocialCopy(true);
+          showToast('¡Titular llamativo, resumen corto y @cuentas de empresas generados!', 'success');
+        });
+      }
+
+      if (socialMentionsInput) {
+        socialMentionsInput.addEventListener('change', () => {
+          if (socialCaptionTextarea.value.trim()) {
+            buildAndPopulateSocialCopy(false);
+          }
+        });
+      }
+
+      // Generador de Portada Cuadrada 1080x1080 con Titular y Logo para Instagram
+      async function generateAndUploadInstagramCard() {
+        const token = getActiveGhToken();
+        if (!token) {
+          alert('Ingresa primero tu GitHub Personal Access Token (PAT) arriba para subir la portada 1080x1080.');
+          ghTokenInput.focus();
+          return;
+        }
+
+        const headline = postTitle.value.trim();
+        if (!headline) {
+          alert('Ingresa primero el título de la nota para estamparlo en la portada de Instagram.');
+          postTitle.focus();
+          return;
+        }
+
+        const sourceUrl = imgDetail.value.trim() || imgThumbnail.value.trim();
+        if (!lastUploadedSourceFile && !sourceUrl) {
+          alert('Sube primero una imagen o ingresa la URL de la imagen de la nota.');
+          return;
+        }
+
+        const origHtml = btnGenerateIgCard.innerHTML;
+        btnGenerateIgCard.disabled = true;
+        btnGenerateIgCard.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Creando 1080x1080...';
+
+        try {
+          const imgObj = await new Promise((resolve, reject) => {
+            const im = new Image();
+            im.crossOrigin = 'anonymous';
+            im.onload = () => resolve(im);
+            im.onerror = () => reject(new Error('No se pudo cargar la imagen base'));
+            if (lastUploadedSourceFile) {
+              const reader = new FileReader();
+              reader.onload = (ev) => { im.src = ev.target.result; };
+              reader.readAsDataURL(lastUploadedSourceFile);
+            } else {
+              im.src = sourceUrl;
+            }
+          });
+
+          const SIZE = 1080;
+          const canvas = document.createElement('canvas');
+          canvas.width = SIZE;
+          canvas.height = SIZE;
+          const ctx = canvas.getContext('2d');
+
+          // Fondo y foto centrada tipo cover
+          ctx.fillStyle = '#0b0f17';
+          ctx.fillRect(0, 0, SIZE, SIZE);
+          const scale = Math.max(SIZE / imgObj.width, SIZE / imgObj.height);
+          const w = imgObj.width * scale;
+          const h = imgObj.height * scale;
+          ctx.drawImage(imgObj, (SIZE - w) / 2, (SIZE - h) / 2, w, h);
+
+          // Degradado inferior editorial para máxima legibilidad del titular
+          const grad = ctx.createLinearGradient(0, SIZE * 0.35, 0, SIZE);
+          grad.addColorStop(0, 'rgba(11, 15, 23, 0.0)');
+          grad.addColorStop(0.45, 'rgba(11, 15, 23, 0.78)');
+          grad.addColorStop(1, 'rgba(11, 15, 23, 0.96)');
+          ctx.fillStyle = grad;
+          ctx.fillRect(0, 0, SIZE, SIZE);
+
+          // Barra superior de marca
+          ctx.fillStyle = 'rgba(217, 35, 45, 0.94)';
+          ctx.fillRect(60, 56, 235, 48);
+          ctx.fillStyle = '#ffffff';
+          ctx.font = 'bold 24px sans-serif';
+          ctx.fillText('ITNEWS.LAT', 82, 89);
+
+          // Etiqueta de Categoría y País
+          const tag = getSelectedTag().toUpperCase();
+          const country = (getSelectedCountries()[0] || 'LATINOAMÉRICA').toUpperCase();
+          const badgeText = `${tag} · ${country}`;
+          ctx.fillStyle = '#38bdf8';
+          ctx.font = 'bold 25px sans-serif';
+          ctx.fillText(badgeText, 64, 670);
+
+          // Titular envuelto en líneas (máx 4 líneas)
+          ctx.fillStyle = '#ffffff';
+          ctx.font = 'bold 46px sans-serif';
+          const words = headline.split(/\s+/);
+          const lines = [];
+          let currLine = '';
+          for (const word of words) {
+            const testLine = currLine ? `${currLine} ${word}` : word;
+            if (ctx.measureText(testLine).width > SIZE - 128) {
+              lines.push(currLine);
+              currLine = word;
+            } else {
+              currLine = testLine;
+            }
+          }
+          if (currLine) lines.push(currLine);
+
+          let yPos = 735;
+          lines.slice(0, 4).forEach(line => {
+            ctx.fillText(line, 64, yPos);
+            yPos += 58;
+          });
+
+          // Pie de firma
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
+          ctx.fillRect(64, 985, SIZE - 128, 2);
+          ctx.fillStyle = '#cbd5e1';
+          ctx.font = '600 22px sans-serif';
+          ctx.fillText('@itnewslat · @erinconm  |  Portal de Noticias B2B de Tecnología', 64, 1028);
+
+          const dataUrl = canvas.toDataURL('image/jpeg', 0.93);
+          const base64 = dataUrl.split(',')[1];
+          const baseName = (quickImageBaseName.value.trim() || sanitizeSlug(headline).slice(0, 45) || `ig-${Date.now()}`).replace(/-+$/, '');
+          const uploadedIgUrl = await uploadAssetToGithub(`img/1024x680/${baseName}-ig.jpg`, base64, token);
+
+          socialCustomCardUrl.value = uploadedIgUrl;
+          previewImg.src = uploadedIgUrl;
+          previewImg.style.display = 'block';
+          previewPlaceholder.style.display = 'none';
+          updateSocialImageStatus();
+          showToast('¡Portada cuadrada 1080x1080 creada y subida a GitHub con éxito!', 'success');
+        } catch (err) {
+          console.error(err);
+          showToast(`No se pudo crear la portada 1080x1080: ${err.message}`, 'error');
+        } finally {
+          btnGenerateIgCard.disabled = false;
+          btnGenerateIgCard.innerHTML = origHtml;
+        }
+      }
+
+      if (btnGenerateIgCard) {
+        btnGenerateIgCard.addEventListener('click', generateAndUploadInstagramCard);
+      }
+
+      if (btnCopySocialCaption) {
+        btnCopySocialCaption.addEventListener('click', () => {
+          if (!socialCaptionTextarea.value.trim()) {
+            buildAndPopulateSocialCopy(true);
+          }
+          navigator.clipboard.writeText(socialCaptionTextarea.value);
+          showToast('¡Resumen corto + @cuentas copiado al portapapeles!', 'success');
+        });
+      }
+
+      window.sendSocialWebhookNow = async function(isSilentAuto = false, forcedFileName = null) {
+        const webhookUrl = (localStorage.getItem(SOCIAL_WEBHOOK_STORAGE_KEY) || (socialWebhookUrlInput && socialWebhookUrlInput.value) || '').trim();
+        if (!webhookUrl) {
+          if (!isSilentAuto) {
+            socialWebhookConfigBox.style.display = 'block';
+            socialWebhookUrlInput.focus();
+            alert('Para publicar directo en segundos sin RSS, pega primero la URL de tu Webhook de Make.com en el recuadro "Configurar Conexión (Make.com)".');
+          }
+          return;
+        }
+
+        if (!socialAccItnews.checked && !socialAccErincon.checked) {
+          if (!isSilentAuto) alert('Selecciona al menos una cuenta de destino (@itnewslat o @erinconm).');
+          return;
+        }
+
+        if (!socialCaptionTextarea.value.trim()) {
+          buildAndPopulateSocialCopy(true);
+        }
+
+        const imageUrl = getBestLargeSocialImageUrl();
+        const fileName = forcedFileName || getFileName();
+        const postUrl = buildPublicPostUrl(fileName);
+        const accounts = [];
+        if (socialAccItnews.checked) accounts.push('itnewslat');
+        if (socialAccErincon.checked) accounts.push('erinconm');
+
+        const payload = {
+          title: postTitle.value.trim() || 'Noticia ITNEWS.LAT',
+          caption: socialCaptionTextarea.value.trim(),
+          image_url: imageUrl,
+          post_url: postUrl,
+          mentions: socialMentionsInput.value.trim(),
+          accounts: accounts.join(','),
+          post_to_itnewslat: socialAccItnews.checked,
+          post_to_erinconm: socialAccErincon.checked,
+          country: (getSelectedCountries()[0] || 'Latinoamérica'),
+          category: getSelectedTag(),
+          timestamp: new Date().toISOString()
+        };
+
+        const origBtnHtml = btnSendSocialNow.innerHTML;
+        btnSendSocialNow.disabled = true;
+        btnSendSocialNow.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Enviando a Instagram...';
+
+        try {
+          let res;
+          try {
+            res = await fetch(webhookUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            });
+          } catch (_) {
+            // Fallback CORS-safe sin preflight
+            res = await fetch(webhookUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+              body: JSON.stringify(payload)
+            });
+          }
+
+          if (!res.ok) {
+            throw new Error(`HTTP ${res.status}`);
+          }
+
+          socialSendFeedback.style.display = 'block';
+          socialSendFeedback.style.background = 'rgba(16, 185, 129, 0.14)';
+          socialSendFeedback.style.border = '1px solid rgba(16, 185, 129, 0.4)';
+          socialSendFeedback.style.color = '#6ee7b7';
+          socialSendFeedback.innerHTML = `<i class="ri-checkbox-circle-fill"></i> <strong>¡Enviado en tiempo real!</strong> Publicación disparada hacia <code>${accounts.map(a => '@' + a).join(' y ')}</code> con imagen grande (<code>${imageUrl.split('/').pop()}</code>).`;
+          showToast(`¡Publicación enviada al instante a ${accounts.map(a => '@' + a).join(' y ')}!`, 'success');
+        } catch (err) {
+          console.error(err);
+          socialSendFeedback.style.display = 'block';
+          socialSendFeedback.style.background = 'rgba(239, 68, 68, 0.14)';
+          socialSendFeedback.style.border = '1px solid rgba(239, 68, 68, 0.4)';
+          socialSendFeedback.style.color = '#fca5a5';
+          socialSendFeedback.innerHTML = `<i class="ri-error-warning-fill"></i> No se pudo contactar el Webhook (${err.message}). Verifica que el escenario esté activo en Make.com.`;
+          if (!isSilentAuto) {
+            showToast(`Error al enviar al Webhook: ${err.message}`, 'error');
+          }
+        } finally {
+          btnSendSocialNow.disabled = false;
+          btnSendSocialNow.innerHTML = origBtnHtml;
+        }
+      };
+
+      if (btnSendSocialNow) {
+        btnSendSocialNow.addEventListener('click', () => window.sendSocialWebhookNow(false));
+      }
+
+      if (btnTestWebhook) {
+        btnTestWebhook.addEventListener('click', () => {
+          const url = socialWebhookUrlInput.value.trim();
+          if (!url) {
+            alert('Pega primero la URL del Webhook de Make.com.');
+            socialWebhookUrlInput.focus();
+            return;
+          }
+          localStorage.setItem(SOCIAL_WEBHOOK_STORAGE_KEY, url);
+          if (!postTitle.value.trim()) {
+            postTitle.value = 'Prueba de conexión instantánea desde el panel de ITNEWS.LAT';
+          }
+          window.sendSocialWebhookNow(false);
+        });
+      }
+
       // Inicialización
       initGhToken();
+      initSocialConfig();
       setCurrentDateTime();
       restoreDraft();
       checkAuth();
