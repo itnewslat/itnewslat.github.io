@@ -1599,7 +1599,7 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
           </div>
           <div style="display:flex; gap:10px; flex-wrap:wrap;">
             <button type="button" id="btnDownloadSocialImg" class="nav-btn" style="flex:1; justify-content:center; padding:9px 14px; font-weight:600; font-size:12px; border-color:rgba(56,189,248,0.35); color:var(--accent);">
-              <i class="ri-download-2-line"></i> Descargar Imagen Grande / 1080x1080
+              <i class="ri-download-2-line"></i> Descargar Imagen PequeÃ±a (540x320)
             </button>
             <button type="button" id="btnCopySocialCaption" class="nav-btn" style="flex:1; justify-content:center; padding:9px 14px; font-weight:600; font-size:12px;">
               <i class="ri-file-copy-2-line"></i> Copiar Texto Resumen + @Cuentas
@@ -4294,7 +4294,7 @@ ${currentBody.slice(0, 7000)}`;
         socialCaptionTextarea.addEventListener('input', updateSocialCaptionCounter);
       }
 
-      function getBestLargeSocialImageUrl() {
+      function getSmallSocialImageUrl() {
         if (socialCustomCardUrl && socialCustomCardUrl.value.trim()) {
           return socialCustomCardUrl.value.trim();
         }
@@ -4425,7 +4425,7 @@ ${currentBody.slice(0, 7000)}`;
           return;
         }
 
-        const sourceUrl = imgDetail.value.trim() || imgThumbnail.value.trim();
+        const sourceUrl = imgThumbnail.value.trim() || imgDetail.value.trim();
         if (!lastUploadedSourceFile && !sourceUrl) {
           alert('Sube primero una imagen o ingresa la URL de la imagen de la nota.');
           return;
@@ -4552,7 +4552,7 @@ ${currentBody.slice(0, 7000)}`;
       }
 
       async function downloadBestSocialImageToDisk() {
-        const imgUrl = getBestLargeSocialImageUrl();
+        const imgUrl = getSmallSocialImageUrl();
         const fileNameBase = sanitizeSlug(postTitle.value.trim() || 'itnews-social').slice(0, 45) || 'itnews-social';
         try {
           const response = await fetch(imgUrl);
@@ -4688,7 +4688,7 @@ ${currentBody.slice(0, 7000)}`;
           return;
         }
 
-        const imageUrl = getBestLargeSocialImageUrl();
+        const imageUrl = getSmallSocialImageUrl();
         const captionText = socialCaptionTextarea.value.trim();
         const fileName = forcedFileName || getFileName();
         const postUrl = buildPublicPostUrl(fileName);

@@ -89,7 +89,7 @@
   {% endif %}
 
   <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
-  {% assign postImg = page.detail-image | default: page.image | default: 'https://itnews.lat/assets/imagenes/logo_large_red.png' %}
+  {% assign postImg = page.image | default: page.detail-image | default: 'https://itnews.lat/assets/imagenes/logo_large_red.png' %}
   {% assign postSmallImg = page.image | default: postImg %}
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ITNEWS.LAT">

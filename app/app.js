@@ -1241,7 +1241,7 @@
       .replace(/<table[\s\S]*?<\/table>/gi, '')
       .replace(/<img[^>]*metricool[^>]*>/gi, '')
       .replace(/<img[^>]*c3po\.jpg[^>]*>/gi, '')
-      .replace(/!\[.*?\]\((.*?)\)/g, ''); // We feature the detail image at the top
+      .replace(/!\[(.*?)\]\((.*?)\)/g, '<div class="reader-inline-media" style="text-align:center; margin:22px 0;"><img src="$2" alt="$1" style="max-width:100%; height:auto; border-radius:8px; box-shadow:0 3px 12px rgba(0,0,0,0.18);" loading="lazy" /></div>');
 
     // Si el contenido ya contiene etiquetas HTML de párrafos generadas por Jekyll en el RSS:
     if (/<p[\s\S]*?>/i.test(clean) || /<div[\s\S]*?>/i.test(clean)) {

@@ -51,6 +51,18 @@ foreach ($f in $files) {
                 $detailImage = $matches[1].Trim()
             }
 
+            # Normalizar: image siempre 540x320 (-p.jpg), detailImage siempre 1024x680 (-g.jpg)
+            if ($image -and ($image -match '1024x680' -or $image -match '-g\.')) {
+                if (-not $detailImage) { $detailImage = $image }
+                $image = $image -replace '1024x680', '540x320' -replace '-g\.(jpg|jpeg|png|webp)', '-p.$1'
+            }
+            if ($image -and -not $detailImage) {
+                $detailImage = $image -replace '540x320', '1024x680' -replace '-p\.(jpg|jpeg|png|webp)', '-g.$1'
+            }
+            if ($detailImage -and -not $image) {
+                $image = $detailImage -replace '1024x680', '540x320' -replace '-g\.(jpg|jpeg|png|webp)', '-p.$1'
+            }
+
             $categories = @()
             if ($frontMatter -match '(?s)categories:\s*\r?\n(.*?)(?=\r?\n[a-zA-Z0-9_\-]+:|$)') {
                 $catBlock = $matches[1]

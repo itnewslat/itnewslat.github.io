@@ -29,7 +29,7 @@
       <!--Main content of post-->
       <div class="blog-content">
         <div class="blog-media">
-          <img src="{{page.detail-image}}" alt="{{ page.title }}" class="img-fluid" />
+          <img src="{{ page.detail-image | default: page.image }}" alt="{{ page.title }}" class="img-fluid" />
         </div>
 
         <!-- Social Share Bar (Top compact under image) -->
