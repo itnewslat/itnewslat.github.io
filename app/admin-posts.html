@@ -1439,28 +1439,33 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
             </div>
           </div>
 
-          <!-- Configuración de API Directa de Meta (graph.facebook.com - Gratis y sin bloqueos en Venezuela) -->
+          <!-- Configuración de Envío Automático (Webhook o API Meta) -->
           <div id="socialWebhookConfigBox" style="display:none; margin-bottom:16px; padding:14px; background:rgba(15, 23, 42, 0.85); border:1px dashed rgba(244, 114, 182, 0.45); border-radius:10px;">
             <div style="font-size:12.5px; font-weight:700; color:#f9a8d4; margin-bottom:6px;">
-              <i class="ri-Meta-fill"></i> Conexión Directa a la API Oficial de Instagram (<code>graph.facebook.com</code> — 100% Gratis, Sin IFTTT ni Buffer)
+              <i class="ri-flashlight-fill"></i> Opción A (Sin SMS ni bloqueos en Venezuela): Pega tu URL de Webhook (Activepieces / Pipedream / Make)
             </div>
-            <p style="font-size:11.5px; color:var(--text-muted); margin-bottom:10px; line-height:1.5;">
-              Si deseas que el panel publique solo sin siquiera abrir Meta Business Suite, pega tu <strong>Access Token de Meta</strong> (desde <a href="https://developers.facebook.com/tools/explorer/" target="_blank" style="color:var(--accent);">Graph API Explorer</a> con permisos <code>instagram_basic</code> e <code>instagram_content_publish</code>) y haz clic en <strong>"Auto-Detectar IDs"</strong>:
-            </p>
-            <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
-              <input type="password" id="metaAccessTokenInput" class="input-text" placeholder="Token de Acceso de Meta (EAAB...)" style="flex:2; min-width:240px; font-size:12px; font-family:'JetBrains Mono', monospace;">
-              <button type="button" id="btnAutoDetectIgIds" class="btn-token-save" style="background:rgba(56, 189, 248, 0.18); border-color:rgba(56, 189, 248, 0.45); color:var(--accent);">
-                <i class="ri-search-eye-line"></i> 🔍 Auto-Detectar IDs de @itnewslat y @erinconm
-              </button>
-            </div>
-            <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
-              <input type="text" id="metaIgIdItnewsInput" class="input-text" placeholder="ID numérico de @itnewslat (ej. 1784140...)" style="flex:1; min-width:180px; font-size:12px; font-family:'JetBrains Mono', monospace;">
-              <input type="text" id="metaIgIdErinconInput" class="input-text" placeholder="ID numérico de @erinconm (ej. 1784140...)" style="flex:1; min-width:180px; font-size:12px; font-family:'JetBrains Mono', monospace;">
+            <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px;">
+              <input type="url" id="socialWebhookUrlInput" class="input-text" placeholder="https://cloud.activepieces.com/api/v1/webhooks/..." style="flex:1; min-width:240px; font-size:12px; font-family:'JetBrains Mono', monospace;">
               <button type="button" id="btnSaveWebhookUrl" class="btn-token-save" style="background:#db2777; border-color:#db2777;">
-                <i class="ri-save-line"></i> Guardar Credenciales Meta
+                <i class="ri-save-line"></i> Guardar Configuración
+              </button>
+              <button type="button" id="btnTestWebhook" class="btn-token-save" title="Envía los datos de prueba al Webhook para mapear imagen y texto">
+                <i class="ri-flask-line"></i> Enviar Prueba
               </button>
             </div>
-            <input type="hidden" id="socialWebhookUrlInput" value="">
+            <div style="font-size:12px; font-weight:700; color:#94a3b8; margin-bottom:6px; border-top:1px solid rgba(255,255,255,0.08); padding-top:10px;">
+              Opción B (Si tienes Token de Meta Graph API):
+            </div>
+            <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
+              <input type="password" id="metaAccessTokenInput" class="input-text" placeholder="Token de Acceso de Meta (EAAB...)" style="flex:2; min-width:220px; font-size:12px; font-family:'JetBrains Mono', monospace;">
+              <button type="button" id="btnAutoDetectIgIds" class="btn-token-save" style="background:rgba(56, 189, 248, 0.18); border-color:rgba(56, 189, 248, 0.45); color:var(--accent);">
+                <i class="ri-search-eye-line"></i> 🔍 Auto-Detectar IDs
+              </button>
+            </div>
+            <div style="display:flex; gap:8px; flex-wrap:wrap;">
+              <input type="text" id="metaIgIdItnewsInput" class="input-text" placeholder="ID numérico de @itnewslat" style="flex:1; min-width:160px; font-size:12px; font-family:'JetBrains Mono', monospace;">
+              <input type="text" id="metaIgIdErinconInput" class="input-text" placeholder="ID numérico de @erinconm" style="flex:1; min-width:160px; font-size:12px; font-family:'JetBrains Mono', monospace;">
+            </div>
           </div>
 
           <!-- Selector de Cuentas Destino y Control de Salida -->
@@ -3911,6 +3916,9 @@ ${currentBody.slice(0, 7000)}`;
       }
 
       function initSocialConfig() {
+        if (socialWebhookUrlInput) {
+          socialWebhookUrlInput.value = localStorage.getItem(SOCIAL_WEBHOOK_STORAGE_KEY) || '';
+        }
         if (metaAccessTokenInput) {
           metaAccessTokenInput.value = localStorage.getItem(META_TOKEN_KEY) || '';
         }
@@ -3933,10 +3941,11 @@ ${currentBody.slice(0, 7000)}`;
 
       if (btnSaveWebhookUrl) {
         btnSaveWebhookUrl.addEventListener('click', () => {
+          if (socialWebhookUrlInput) localStorage.setItem(SOCIAL_WEBHOOK_STORAGE_KEY, socialWebhookUrlInput.value.trim());
           if (metaAccessTokenInput) localStorage.setItem(META_TOKEN_KEY, metaAccessTokenInput.value.trim());
           if (metaIgIdItnewsInput) localStorage.setItem(META_ID_ITNEWS_KEY, metaIgIdItnewsInput.value.trim());
           if (metaIgIdErinconInput) localStorage.setItem(META_ID_ERINCON_KEY, metaIgIdErinconInput.value.trim());
-          showToast('Credenciales de API Meta guardadas en tu navegador', 'success');
+          showToast('Configuración automática guardada en tu navegador', 'success');
         });
       }
 
@@ -4391,16 +4400,17 @@ ${currentBody.slice(0, 7000)}`;
         });
       }
 
-      window.sendSocialWebhookNow = async function(isSilentAuto = false) {
+      window.sendSocialWebhookNow = async function(isSilentAuto = false, forcedFileName = null) {
+        const webhookUrl = ((socialWebhookUrlInput && socialWebhookUrlInput.value) || localStorage.getItem(SOCIAL_WEBHOOK_STORAGE_KEY) || '').trim();
         const metaToken = ((metaAccessTokenInput && metaAccessTokenInput.value) || localStorage.getItem(META_TOKEN_KEY) || '').trim();
         const idItnews = ((metaIgIdItnewsInput && metaIgIdItnewsInput.value) || localStorage.getItem(META_ID_ITNEWS_KEY) || '').trim();
         const idErincon = ((metaIgIdErinconInput && metaIgIdErinconInput.value) || localStorage.getItem(META_ID_ERINCON_KEY) || '').trim();
 
-        if (!metaToken || (!idItnews && !idErincon)) {
+        if (!webhookUrl && (!metaToken || (!idItnews && !idErincon))) {
           if (!isSilentAuto) {
             socialWebhookConfigBox.style.display = 'block';
-            if (metaAccessTokenInput) metaAccessTokenInput.focus();
-            alert('Para publicar por API directa sin abrir otra pestaña, ingresa tu Token de Meta en "Configurar API Directa de Meta".\n\nO usa el botón azul/rosa de arriba ("📲 1-Clic: Copiar Resumen + Descargar Foto Grande + Abrir Meta Business Suite") que no requiere ningún Token.');
+            if (socialWebhookUrlInput) socialWebhookUrlInput.focus();
+            alert('Para publicar en automático, pega tu URL de Webhook (Activepieces) o tu Token de Meta en el recuadro de configuración.');
           }
           return;
         }
@@ -4416,14 +4426,8 @@ ${currentBody.slice(0, 7000)}`;
 
         const imageUrl = getBestLargeSocialImageUrl();
         const captionText = socialCaptionTextarea.value.trim();
-        const targets = [];
-        if (socialAccItnews.checked && idItnews) targets.push({ name: '@itnewslat', id: idItnews });
-        if (socialAccErincon.checked && idErincon) targets.push({ name: '@erinconm', id: idErincon });
-
-        if (targets.length === 0) {
-          if (!isSilentAuto) alert('Falta el ID numérico de la cuenta de Instagram seleccionada. Usa el botón "Auto-Detectar IDs".');
-          return;
-        }
+        const fileName = forcedFileName || getFileName();
+        const postUrl = buildPublicPostUrl(fileName);
 
         const origBtnHtml = btnSendSocialNow.innerHTML;
         btnSendSocialNow.disabled = true;
@@ -4431,59 +4435,113 @@ ${currentBody.slice(0, 7000)}`;
 
         try {
           const publishedNames = [];
-          for (const target of targets) {
-            // Paso 1: Crear contenedor de media en Instagram Graph API
-            const createRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media`, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-              body: new URLSearchParams({
-                image_url: imageUrl,
-                caption: captionText,
-                access_token: metaToken
-              }).toString()
-            });
-            const createData = await createRes.json();
-            if (createData.error || !createData.id) {
-              throw new Error(`${target.name}: ${(createData.error && createData.error.message) || 'No se pudo crear contenedor'}`);
+          if (webhookUrl) {
+            const accounts = [];
+            if (socialAccItnews.checked) accounts.push('@itnewslat');
+            if (socialAccErincon.checked) accounts.push('@erinconm');
+            const payload = {
+              title: postTitle.value.trim() || 'Noticia ITNEWS.LAT',
+              caption: captionText,
+              image_url: imageUrl,
+              post_url: postUrl,
+              mentions: socialMentionsInput.value.trim(),
+              post_to_itnewslat: socialAccItnews.checked,
+              post_to_erinconm: socialAccErincon.checked,
+              country: (getSelectedCountries()[0] || 'Latinoamérica'),
+              category: getSelectedTag(),
+              timestamp: new Date().toISOString()
+            };
+            try {
+              const res = await fetch(webhookUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+              });
+              if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            } catch (_) {
+              await fetch(webhookUrl, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+                body: JSON.stringify(payload)
+              });
+            }
+            publishedNames.push(...accounts);
+          } else {
+            const targets = [];
+            if (socialAccItnews.checked && idItnews) targets.push({ name: '@itnewslat', id: idItnews });
+            if (socialAccErincon.checked && idErincon) targets.push({ name: '@erinconm', id: idErincon });
+
+            if (targets.length === 0) {
+              throw new Error('Falta el ID numérico de la cuenta de Instagram seleccionada.');
             }
 
-            // Paso 2: Publicar el contenedor en el feed de Instagram
-            const pubRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media_publish`, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-              body: new URLSearchParams({
-                creation_id: createData.id,
-                access_token: metaToken
-              }).toString()
-            });
-            const pubData = await pubRes.json();
-            if (pubData.error) {
-              throw new Error(`${target.name}: ${pubData.error.message}`);
+            for (const target of targets) {
+              const createRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({
+                  image_url: imageUrl,
+                  caption: captionText,
+                  access_token: metaToken
+                }).toString()
+              });
+              const createData = await createRes.json();
+              if (createData.error || !createData.id) {
+                throw new Error(`${target.name}: ${(createData.error && createData.error.message) || 'No se pudo crear contenedor'}`);
+              }
+
+              const pubRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media_publish`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({
+                  creation_id: createData.id,
+                  access_token: metaToken
+                }).toString()
+              });
+              const pubData = await pubRes.json();
+              if (pubData.error) {
+                throw new Error(`${target.name}: ${pubData.error.message}`);
+              }
+              publishedNames.push(target.name);
             }
-            publishedNames.push(target.name);
           }
 
           socialSendFeedback.style.display = 'block';
           socialSendFeedback.style.background = 'rgba(16, 185, 129, 0.14)';
           socialSendFeedback.style.border = '1px solid rgba(16, 185, 129, 0.4)';
           socialSendFeedback.style.color = '#6ee7b7';
-          socialSendFeedback.innerHTML = `<i class="ri-checkbox-circle-fill"></i> <strong>¡Publicado en vivo en Instagram!</strong> Salida completada en <code>${publishedNames.join(' y ')}</code> con imagen grande (<code>${imageUrl.split('/').pop()}</code>).`;
-          showToast(`¡Publicado en vivo en ${publishedNames.join(' y ')}!`, 'success');
+          socialSendFeedback.innerHTML = `<i class="ri-checkbox-circle-fill"></i> <strong>¡Enviado con éxito a Instagram!</strong> Salida en <code>${publishedNames.join(' y ')}</code> con imagen grande (<code>${imageUrl.split('/').pop()}</code>).`;
+          showToast(`¡Enviado a ${publishedNames.join(' y ')}!`, 'success');
         } catch (err) {
           console.error(err);
           socialSendFeedback.style.display = 'block';
           socialSendFeedback.style.background = 'rgba(239, 68, 68, 0.14)';
           socialSendFeedback.style.border = '1px solid rgba(239, 68, 68, 0.4)';
           socialSendFeedback.style.color = '#fca5a5';
-          socialSendFeedback.innerHTML = `<i class="ri-error-warning-fill"></i> Error de API Meta: ${err.message}`;
+          socialSendFeedback.innerHTML = `<i class="ri-error-warning-fill"></i> Error: ${err.message}`;
           if (!isSilentAuto) {
-            showToast(`Error API Meta: ${err.message}`, 'error');
+            showToast(`Error: ${err.message}`, 'error');
           }
         } finally {
           btnSendSocialNow.disabled = false;
           btnSendSocialNow.innerHTML = origBtnHtml;
         }
       };
+
+      const btnTestWebhookEl = document.getElementById('btnTestWebhook');
+      if (btnTestWebhookEl) {
+        btnTestWebhookEl.addEventListener('click', () => {
+          const url = socialWebhookUrlInput.value.trim();
+          if (!url) {
+            alert('Pega primero la URL del Webhook.');
+            socialWebhookUrlInput.focus();
+            return;
+          }
+          localStorage.setItem(SOCIAL_WEBHOOK_STORAGE_KEY, url);
+          window.sendSocialWebhookNow(false);
+        });
+      }
 
       if (btnSendSocialNow) {
         btnSendSocialNow.addEventListener('click', () => window.sendSocialWebhookNow(false));
