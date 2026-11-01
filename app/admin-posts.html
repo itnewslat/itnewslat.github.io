@@ -452,6 +452,17 @@
       color: #fff;
     }
 
+    .btn-mini-action.delete-btn {
+      border-color: rgba(239, 68, 68, 0.4);
+      color: #fca5a5;
+    }
+
+    .btn-mini-action.delete-btn:hover {
+      background: rgba(239, 68, 68, 0.22);
+      border-color: #ef4444;
+      color: #fff;
+    }
+
     /* Edit Mode Banner */
     .edit-mode-banner {
       background: rgba(245, 158, 11, 0.14);
@@ -1281,9 +1292,14 @@
           <div style="font-size: 11.5px; color: #fde68a; opacity: 0.9;">Al presionar "Guardar Cambios en Nota", se actualizará este mismo archivo en GitHub sin duplicarlo.</div>
         </div>
       </div>
-      <button type="button" id="btnExitEditMode" class="nav-btn" style="border-color: rgba(245, 158, 11, 0.5); color: #fff; background: rgba(0,0,0,0.25);">
-        <i class="ri-close-circle-line"></i> Salir de Edición (Crear Nueva)
-      </button>
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <button type="button" id="btnDeleteCurrentEditPost" class="nav-btn" style="border-color: rgba(239, 68, 68, 0.5); color: #fca5a5; background: rgba(239, 68, 68, 0.16);" title="Eliminar definitivamente esta nota de GitHub">
+          <i class="ri-delete-bin-line"></i> Eliminar esta Nota
+        </button>
+        <button type="button" id="btnExitEditMode" class="nav-btn" style="border-color: rgba(245, 158, 11, 0.5); color: #fff; background: rgba(0,0,0,0.25);">
+          <i class="ri-close-circle-line"></i> Salir de Edición (Crear Nueva)
+        </button>
+      </div>
     </div>
 
     <!-- Main Grid Form -->
@@ -3077,6 +3093,9 @@ ${currentBody.slice(0, 7000)}`;
               <button type="button" class="btn-mini-action" data-copy-file="${filename}" title="Copiar ruta de archivo">
                 <i class="ri-file-copy-line"></i> Ruta
               </button>
+              <button type="button" class="btn-mini-action delete-btn" data-delete-file="${filename}" title="Eliminar definitivamente esta nota de ITNEWS.LAT">
+                <i class="ri-delete-bin-line"></i> Borrar
+              </button>
             </div>
           `;
 
@@ -3087,6 +3106,7 @@ ${currentBody.slice(0, 7000)}`;
             btn.innerHTML = '<i class="ri-check-line"></i> Copiado';
             setTimeout(() => { btn.innerHTML = '<i class="ri-file-copy-line"></i> Ruta'; }, 1800);
           });
+          row.querySelector('[data-delete-file]').addEventListener('click', () => deletePostFromGitHub(filename));
 
           recentPostsList.appendChild(row);
         });
@@ -3242,6 +3262,82 @@ ${currentBody.slice(0, 7000)}`;
       btnExitEditMode.addEventListener('click', () => {
         resetForm();
       });
+
+      const btnDeleteCurrentEditPost = document.getElementById('btnDeleteCurrentEditPost');
+      if (btnDeleteCurrentEditPost) {
+        btnDeleteCurrentEditPost.addEventListener('click', () => {
+          if (editingExistingFileName) {
+            deletePostFromGitHub(editingExistingFileName);
+          }
+        });
+      }
+
+      async function deletePostFromGitHub(filename) {
+        const token = getActiveGhToken();
+        if (!token) {
+          alert('Debes ingresar tu Personal Access Token (PAT) de GitHub en la barra superior para poder eliminar notas.');
+          ghTokenInput.focus();
+          return;
+        }
+
+        const baseFile = filename.split('/').pop();
+        const confirmMsg = `¿Confirmas que deseas ELIMINAR permanentemente esta nota de ITNEWS.LAT?\n\nArchivo: _posts/${filename}\n\nEsta acción borrará el archivo de GitHub y retirará la nota de la web.`;
+        if (!confirm(confirmMsg)) return;
+
+        showToast(`Eliminando _posts/${filename}...`, 'success');
+
+        try {
+          const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/_posts/${filename}`;
+          const headers = {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github.v3+json'
+          };
+
+          const checkRes = await fetch(apiUrl, { headers });
+          if (!checkRes.ok) {
+            throw new Error(`No se pudo localizar el archivo en GitHub (HTTP ${checkRes.status})`);
+          }
+          const fileData = await checkRes.json();
+          const sha = fileData.sha;
+
+          const delRes = await fetch(apiUrl, {
+            method: 'DELETE',
+            headers: {
+              ...headers,
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              message: `Eliminar nota: ${baseFile} vía Panel de Redacción ITNEWS`,
+              sha: sha,
+              branch: REPO_BRANCH
+            })
+          });
+
+          if (!delRes.ok) {
+            let errMsg = `Error HTTP ${delRes.status}`;
+            try {
+              const errJson = await delRes.json();
+              errMsg = errJson.message || errMsg;
+            } catch (_) {}
+            throw new Error(errMsg);
+          }
+
+          if (editingExistingFileName === filename) {
+            resetForm();
+          }
+
+          allRepoPostFiles = allRepoPostFiles.filter(f => f !== filename);
+          cachedRecentPosts = cachedRecentPosts.filter(f => f !== filename);
+          applyYearFilterToRecentPosts();
+
+          showToast(`¡Nota eliminada con éxito de ITNEWS.LAT!`, 'success');
+          alert(`La nota _posts/${filename} ha sido eliminada con éxito de GitHub.\n\nGitHub Pages actualizará el portal automáticamente.`);
+        } catch (err) {
+          console.error(err);
+          showToast(`Error al eliminar: ${err.message}`, 'error');
+          alert(`No se pudo eliminar el archivo:\n${err.message}`);
+        }
+      }
 
       // 8. Generador de Documento Markdown / Frontmatter (Sin duplicado de week)
       function generatePostContent() {
