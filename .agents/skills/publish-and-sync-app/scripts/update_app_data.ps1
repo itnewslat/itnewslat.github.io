@@ -20,7 +20,8 @@ if (-not (Test-Path $appDir)) {
 
 Write-Host "Iniciando regeneracion del catalogo de /app..." -ForegroundColor Cyan
 
-$files = Get-ChildItem -Path $postsDir -Filter "*.md"
+# Optimizar: los archivos inician con YYYY-MM-DD-, ordenamos descendente para tomar los más recientes rápidamente
+$files = Get-ChildItem -Path $postsDir -Filter "*.md" | Sort-Object Name -Descending | Select-Object -First ($Limit + 50)
 $allParsed = @()
 
 foreach ($f in $files) {
