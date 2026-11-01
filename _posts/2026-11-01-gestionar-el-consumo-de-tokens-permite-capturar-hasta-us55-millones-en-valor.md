@@ -6,15 +6,25 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: "Gestionar el consumo de tokens permite capturar hasta US$55 millones en valor"
+title: "Esta falta de visibilidad obedece a un cambio estructural en los modelos"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/gestionar-el-consumo-de-tokens-permite-capturar-p.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/gestionar-el-consumo-de-tokens-permite-capturar-g.jpg
 categories:
+    - Argentina
+    - Chile
+    - Colombia
+    - Ecuador
+    - México
+    - Mexico
+    - Panamá
+    - Panama
+    - Perú
+    - Peru
     - Venezuela
 tags:
-  - Actualidad
+  - Economía Digital
 week: '44'
 takeaways:
   - "Esta falta de visibilidad obedece a un cambio estructural en los modelos de negocio: la inteligencia artificial ya no se administra mediante licencias de software fijas, sino por consumo de tokens."
@@ -22,8 +32,6 @@ takeaways:
   - "Frente a este punto, García destaca que “actualmente, menos del 20% del gasto en tokens puede vincularse a un resultado económico cuantificable."
 mentions: "@accenture"
 ---
--Gestionar el consumo de tokens permite capturar hasta US$55 millones en valor por cada US$100 millones invertidos en IA.
-
 A pesar de que el 78% de las organizaciones proyecta un aumento significativo en su consumo de inteligencia artificial durante los próximos dos años, apenas el 35% tiene la capacidad de calcular cuánto le cuesta generar un resultado real de negocio con esta tecnología. Así lo reveló un nuevo estudio de Accenture, que advierte que el 59% de las compañías trabaja únicamente con estimaciones generales o indicativas, abriendo una brecha de control financiero que ha puesto las inversiones en IA bajo la lupa de la alta dirección.
 
 Esta falta de visibilidad obedece a un cambio estructural en los modelos de negocio: la inteligencia artificial ya no se administra mediante licencias de software fijas, sino por consumo de tokens. Los tokens son las unidades de datos que procesan los modelos en cada interacción, donde cada instrucción, búsqueda de información o respuesta de un agente genera un costo económico directo. En este escenario toma relevancia la tokenomía, entendida como la disciplina financiera y estratégica encargada de conectar lo que la inteligencia artificial consume con el valor medible que devuelve a la organización.
