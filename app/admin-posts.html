@@ -1425,12 +1425,12 @@
 Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PDF o correo para limpiar saltos de línea y dar formato en 1 clic."></textarea>
         </div>
 
-        <!-- Central de Redes Sociales (@itnewslat & @erinconm) -->
+        <!-- Central de Redes Sociales (@itnewslat, @erinconm, LinkedIn & X) -->
         <div class="panel-card" style="border: 1px solid rgba(236, 72, 153, 0.35); background: linear-gradient(180deg, rgba(24, 24, 38, 0.95) 0%, rgba(17, 23, 34, 0.98) 100%);">
           <div class="panel-title" style="border-bottom-color: rgba(236, 72, 153, 0.2);">
             <span style="display:flex; align-items:center; gap:8px;">
-              <i class="ri-instagram-line" style="color:#f472b6; font-size:20px;"></i>
-              <span>Central de Redes Sociales (Instagram <code>@itnewslat</code> &amp; <code>@erinconm</code>)</span>
+              <i class="ri-share-forward-box-fill" style="color:#f472b6; font-size:20px;"></i>
+              <span>Central de Redes Sociales (<code>@itnewslat</code>, <code>@erinconm</code>, LinkedIn &amp; X)</span>
             </span>
             <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
               <span id="metaTokenExpiryBadge" style="font-size:11px; padding:3px 9px; border-radius:20px; background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.4); color:#6ee7b7; font-family:'JetBrains Mono', monospace;">
@@ -1488,20 +1488,28 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
 
           <!-- Selector de Cuentas Destino y Control de Salida -->
           <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; padding:10px 14px; background:rgba(0,0,0,0.28); border-radius:10px; margin-bottom:14px;">
-            <div style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+            <div style="display:flex; align-items:center; gap:15px; flex-wrap:wrap;">
               <span style="font-size:12px; font-weight:700; color:#f9a8d4;"><i class="ri-user-follow-line"></i> Publicar en:</span>
               <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:12.5px; font-weight:600; color:#fff;">
                 <input type="checkbox" id="socialAccItnews" checked style="accent-color:#ec4899; width:15px; height:15px;">
-                <span>Instagram <code>@itnewslat</code></span>
+                <span>IG <code>@itnewslat</code></span>
               </label>
               <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:12.5px; font-weight:600; color:#fff;">
                 <input type="checkbox" id="socialAccErincon" checked style="accent-color:#ec4899; width:15px; height:15px;">
-                <span>Instagram <code>@erinconm</code></span>
+                <span>IG <code>@erinconm</code></span>
+              </label>
+              <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:12.5px; font-weight:600; color:#38bdf8;">
+                <input type="checkbox" id="socialAccLinkedin" checked style="accent-color:#0ea5e9; width:15px; height:15px;">
+                <span><i class="ri-linkedin-box-fill"></i> LinkedIn</span>
+              </label>
+              <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:12.5px; font-weight:600; color:#e2e8f0;">
+                <input type="checkbox" id="socialAccTwitter" checked style="accent-color:#38bdf8; width:15px; height:15px;">
+                <span><i class="ri-twitter-x-line"></i> X (Twitter)</span>
               </label>
             </div>
-            <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:11.5px; color:#cbd5e1;" title="Si está activo, enviará la nota al Webhook automáticamente apenas publiques la nota en la web">
+            <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:11.5px; color:#cbd5e1;" title="Si está activo, enviará la nota a las redes marcadas apenas publiques la nota en la web">
               <input type="checkbox" id="socialAutoSendOnPublish" style="accent-color:#10b981;">
-              <span>Disparar automáticamente al publicar nota web</span>
+              <span>Disparar al publicar nota web</span>
             </label>
           </div>
 
@@ -1563,19 +1571,25 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
 
           <!-- Botones de Acción Inmediata en Redes -->
           <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:8px;">
-            <button type="button" id="btnOpenMetaSuite" class="nav-btn" style="flex:2; justify-content:center; background:linear-gradient(135deg, #2563eb 0%, #db2777 100%); color:#fff; border:none; padding:12px 16px; font-weight:700; font-size:13.5px;" title="Copia el resumen con @cuentas, descarga la foto grande (1024x680 o 1080x1080) y abre Meta Business Suite para publicar en @itnewslat y @erinconm">
-              <i class="ri-share-box-line"></i> 📲 1-Clic: Copiar Resumen + Descargar Foto Grande + Abrir Meta Business Suite
+            <button type="button" id="btnSendSocialNow" class="nav-btn" style="flex:2; justify-content:center; background:linear-gradient(135deg, #10b981 0%, #059669 100%); color:#fff; border:none; padding:12px 16px; font-weight:700; font-size:13.5px;">
+              <i class="ri-send-plane-2-fill"></i> 🚀 Publicar Ahora en Redes Seleccionadas (IG API + LinkedIn + X)
             </button>
-            <button type="button" id="btnCopySocialCaption" class="nav-btn" style="flex:1; justify-content:center; padding:11px 14px; font-weight:600; font-size:12.5px;">
-              <i class="ri-file-copy-2-line"></i> Solo Copiar Texto
+            <button type="button" id="btnPublishLinkedinOnly" class="nav-btn" style="background:rgba(14, 165, 233, 0.16); color:#38bdf8; border-color:rgba(14, 165, 233, 0.45); padding:11px 14px; font-weight:700; font-size:12.5px;" title="Abre LinkedIn con el resumen ejecutivo, @menciones y enlace con foto grande ya escritos">
+              <i class="ri-linkedin-box-fill"></i> LinkedIn (1-Clic)
+            </button>
+            <button type="button" id="btnPublishTwitterOnly" class="nav-btn" style="background:rgba(255, 255, 255, 0.08); color:#f8fafc; border-color:rgba(255, 255, 255, 0.28); padding:11px 14px; font-weight:700; font-size:12.5px;" title="Abre X (Twitter) con el titular, resumen corto, @menciones y tarjeta de foto grande ya escritos">
+              <i class="ri-twitter-x-line"></i> X / Twitter (1-Clic)
             </button>
           </div>
           <div style="display:flex; gap:10px; flex-wrap:wrap;">
             <button type="button" id="btnDownloadSocialImg" class="nav-btn" style="flex:1; justify-content:center; padding:9px 14px; font-weight:600; font-size:12px; border-color:rgba(56,189,248,0.35); color:var(--accent);">
               <i class="ri-download-2-line"></i> Descargar Imagen Grande / 1080x1080
             </button>
-            <button type="button" id="btnSendSocialNow" class="nav-btn" style="flex:1; justify-content:center; background:rgba(16, 185, 129, 0.16); color:#34d399; border-color:rgba(16, 185, 129, 0.4); padding:9px 14px; font-weight:700; font-size:12px;">
-              <i class="ri-send-plane-2-fill"></i> 🚀 Publicar Directo por API Meta (@itnewslat / @erinconm)
+            <button type="button" id="btnCopySocialCaption" class="nav-btn" style="flex:1; justify-content:center; padding:9px 14px; font-weight:600; font-size:12px;">
+              <i class="ri-file-copy-2-line"></i> Copiar Texto Resumen + @Cuentas
+            </button>
+            <button type="button" id="btnOpenMetaSuite" class="nav-btn" style="flex:1; justify-content:center; padding:9px 14px; font-weight:600; font-size:12px; color:#f9a8d4; border-color:rgba(244,114,182,0.35);">
+              <i class="ri-share-box-line"></i> Abrir Meta Suite
             </button>
           </div>
           <div id="socialSendFeedback" style="display:none; margin-top:10px; font-size:12px; padding:8px 12px; border-radius:8px;"></div>
@@ -4483,28 +4497,99 @@ ${currentBody.slice(0, 7000)}`;
         });
       }
 
+      const socialAccLinkedin = document.getElementById('socialAccLinkedin');
+      const socialAccTwitter = document.getElementById('socialAccTwitter');
+      const btnPublishLinkedinOnly = document.getElementById('btnPublishLinkedinOnly');
+      const btnPublishTwitterOnly = document.getElementById('btnPublishTwitterOnly');
+
+      function openLinkedinComposer(forcedFileName = null) {
+        if (!socialCaptionTextarea.value.trim()) {
+          buildAndPopulateSocialCopy(true);
+        }
+        const captionText = socialCaptionTextarea.value.trim();
+        navigator.clipboard.writeText(captionText).catch(() => {});
+        const linkedinUrl = `https://www.linkedin.com/feed/?shareActive=true&text=${encodeURIComponent(captionText)}`;
+        window.open(linkedinUrl, '_blank', 'noopener,width=720,height=740');
+      }
+
+      function openTwitterComposer(forcedFileName = null) {
+        if (!socialCaptionTextarea.value.trim()) {
+          buildAndPopulateSocialCopy(true);
+        }
+        const headline = postTitle.value.trim() || 'Actualidad Tecnológica en Latinoamérica';
+        const firstTakeaway = (lastSeoResult && Array.isArray(lastSeoResult.takeaways) && lastSeoResult.takeaways[0])
+          ? String(lastSeoResult.takeaways[0]).trim()
+          : '';
+        const mentions = socialMentionsInput.value.trim();
+        const tag = '#' + getSelectedTag().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '');
+        const country = '#' + ((getSelectedCountries()[0] || 'Latinoamerica').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ''));
+        const postUrl = buildPublicPostUrl(forcedFileName || getFileName());
+
+        let tweetBody = `🚨 ${headline}`;
+        if (firstTakeaway && (tweetBody.length + firstTakeaway.length) < 185) {
+          tweetBody += `\n\n📌 ${firstTakeaway}`;
+        }
+        if (mentions && (tweetBody.length + mentions.length) < 215) {
+          tweetBody += `\n🏢 ${mentions}`;
+        }
+        tweetBody += `\n${tag} ${country} @ITNEWSLAT`;
+
+        const xIntentUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetBody)}&url=${encodeURIComponent(postUrl)}`;
+        window.open(xIntentUrl, '_blank', 'noopener,width=680,height=640');
+      }
+
+      if (btnPublishLinkedinOnly) {
+        btnPublishLinkedinOnly.addEventListener('click', () => {
+          openLinkedinComposer();
+          showToast('Abriendo LinkedIn con el resumen ejecutivo y enlace ya cargados...', 'success');
+        });
+      }
+
+      if (btnPublishTwitterOnly) {
+        btnPublishTwitterOnly.addEventListener('click', () => {
+          openTwitterComposer();
+          showToast('Abriendo X (Twitter) con el titular, @menciones y tarjeta grande listos...', 'success');
+        });
+      }
+
       window.sendSocialWebhookNow = async function(isSilentAuto = false, forcedFileName = null) {
         const webhookUrl = ((socialWebhookUrlInput && socialWebhookUrlInput.value) || localStorage.getItem(SOCIAL_WEBHOOK_STORAGE_KEY) || '').trim();
         const metaToken = ((metaAccessTokenInput && metaAccessTokenInput.value) || localStorage.getItem(META_TOKEN_KEY) || '').trim();
         const idItnews = ((metaIgIdItnewsInput && metaIgIdItnewsInput.value) || localStorage.getItem(META_ID_ITNEWS_KEY) || '').trim();
         const idErincon = ((metaIgIdErinconInput && metaIgIdErinconInput.value) || localStorage.getItem(META_ID_ERINCON_KEY) || '').trim();
 
-        if (!webhookUrl && (!metaToken || (!idItnews && !idErincon))) {
-          if (!isSilentAuto) {
-            socialWebhookConfigBox.style.display = 'block';
-            if (socialWebhookUrlInput) socialWebhookUrlInput.focus();
-            alert('Para publicar en automático, pega tu URL de Webhook (Activepieces) o tu Token de Meta en el recuadro de configuración.');
-          }
-          return;
-        }
+        const wantIg = Boolean((socialAccItnews && socialAccItnews.checked) || (socialAccErincon && socialAccErincon.checked));
+        const wantLi = Boolean(socialAccLinkedin && socialAccLinkedin.checked);
+        const wantTw = Boolean(socialAccTwitter && socialAccTwitter.checked);
 
-        if (!socialAccItnews.checked && !socialAccErincon.checked) {
-          if (!isSilentAuto) alert('Selecciona al menos una cuenta de destino (@itnewslat o @erinconm).');
+        if (!wantIg && !wantLi && !wantTw) {
+          if (!isSilentAuto) alert('Selecciona al menos una red social (@itnewslat, @erinconm, LinkedIn o X).');
           return;
         }
 
         if (!socialCaptionTextarea.value.trim()) {
           buildAndPopulateSocialCopy(true);
+        }
+
+        // Si el usuario marcó LinkedIn y/o X, abrimos sus compositores pre-llenados
+        if (wantLi) {
+          openLinkedinComposer(forcedFileName);
+        }
+        if (wantTw) {
+          openTwitterComposer(forcedFileName);
+        }
+
+        if (!wantIg) {
+          return;
+        }
+
+        if (!webhookUrl && (!metaToken || (!idItnews && !idErincon))) {
+          if (!isSilentAuto) {
+            socialWebhookConfigBox.style.display = 'block';
+            if (socialWebhookUrlInput) socialWebhookUrlInput.focus();
+            alert('Para publicar en automático en Instagram, pega tu Token de Meta en el recuadro de configuración.');
+          }
+          return;
         }
 
         const imageUrl = getBestLargeSocialImageUrl();
