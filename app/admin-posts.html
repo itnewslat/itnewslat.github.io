@@ -1432,10 +1432,28 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
               <i class="ri-instagram-line" style="color:#f472b6; font-size:20px;"></i>
               <span>Central de Redes Sociales (Instagram <code>@itnewslat</code> &amp; <code>@erinconm</code>)</span>
             </span>
-            <div style="display:flex; align-items:center; gap:8px;">
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <span id="metaTokenExpiryBadge" style="font-size:11px; padding:3px 9px; border-radius:20px; background:rgba(16,185,129,0.15); border:1px solid rgba(16,185,129,0.4); color:#6ee7b7; font-family:'JetBrains Mono', monospace;">
+                🟢 Token Activo
+              </span>
               <button type="button" id="btnToggleWebhookConfig" class="nav-btn" style="padding:4px 10px; font-size:11.5px; border-color:rgba(244,114,182,0.4); color:#f9a8d4;">
-                <i class="ri-settings-4-line"></i> Configurar API Directa de Meta (Opcional)
+                <i class="ri-settings-4-line"></i> Configurar / Renovar Token Meta
               </button>
+            </div>
+          </div>
+
+          <!-- Alerta Automática de Próximo Vencimiento de Token (Se enciende sola 7 días antes de vencer) -->
+          <div id="metaTokenExpiryAlertBox" style="display:none; margin-bottom:14px; padding:12px 14px; background:rgba(245, 158, 11, 0.16); border:1px solid rgba(245, 158, 11, 0.55); border-radius:10px; font-size:12px; color:#fde68a; line-height:1.55;">
+            <div style="font-weight:700; font-size:13px; color:#fbbf24; margin-bottom:4px;">
+              <i class="ri-alarm-warning-fill"></i> <span id="metaTokenExpiryAlertTitle">Aviso: Tu Token de Instagram vence pronto</span>
+            </div>
+            <div>
+              Renueva tu Token por otros 60 días en 30 segundos (sin pedir SMS ni crear otra app):
+              <ol style="margin:6px 0 0 18px; color:#fef3c7;">
+                <li>Abre <a href="https://developers.facebook.com/tools/explorer/1832657361350227/" target="_blank" style="color:#38bdf8; font-weight:700;">Paso 1: Explorador de tu App Meta</a> &rarr; haz clic en el botón azul <strong>Generate Access Token</strong> y copia el código.</li>
+                <li>Abre <a href="https://developers.facebook.com/tools/debug/accesstoken/" target="_blank" style="color:#38bdf8; font-weight:700;">Paso 2: Ampliador de 60 días</a> &rarr; pega el código, dale a <strong>Depurar</strong> y abajo del todo haz clic en <strong>Ampliar identificador de acceso (Extend Access Token)</strong>.</li>
+                <li>Copia ese nuevo código de 60 días, pégalo aquí abajo en <strong>Configurar / Renovar Token Meta</strong> y dale a <strong>Guardar Configuración</strong>.</li>
+              </ol>
             </div>
           </div>
 
@@ -3895,6 +3913,59 @@ ${currentBody.slice(0, 7000)}`;
       const META_TOKEN_KEY = 'itnews_meta_graph_access_token';
       const META_ID_ITNEWS_KEY = 'itnews_meta_ig_id_itnewslat';
       const META_ID_ERINCON_KEY = 'itnews_meta_ig_id_erinconm';
+      const META_TOKEN_EXPIRY_KEY = 'itnews_meta_token_expiry_ts';
+      const metaTokenExpiryBadge = document.getElementById('metaTokenExpiryBadge');
+      const metaTokenExpiryAlertBox = document.getElementById('metaTokenExpiryAlertBox');
+      const metaTokenExpiryAlertTitle = document.getElementById('metaTokenExpiryAlertTitle');
+
+      function updateMetaTokenExpiryUI() {
+        if (!metaTokenExpiryBadge) return;
+        const savedToken = localStorage.getItem(META_TOKEN_KEY) || '';
+        let expiryTs = Number(localStorage.getItem(META_TOKEN_EXPIRY_KEY) || 0);
+        // Si ya tiene token guardado y aún no tenía fecha registrada, fijar 31 de diciembre de 2026 (60 días)
+        if (savedToken && !expiryTs) {
+          expiryTs = new Date('2026-12-31T23:59:59').getTime();
+          localStorage.setItem(META_TOKEN_EXPIRY_KEY, String(expiryTs));
+        }
+        if (!savedToken || !expiryTs) {
+          metaTokenExpiryBadge.textContent = '⚪ Sin Token Meta';
+          metaTokenExpiryBadge.style.background = 'rgba(148,163,184,0.15)';
+          metaTokenExpiryBadge.style.borderColor = 'rgba(148,163,184,0.3)';
+          metaTokenExpiryBadge.style.color = '#94a3b8';
+          if (metaTokenExpiryAlertBox) metaTokenExpiryAlertBox.style.display = 'none';
+          return;
+        }
+        const now = Date.now();
+        const daysLeft = Math.ceil((expiryTs - now) / 86400000);
+        const expDateStr = new Date(expiryTs).toLocaleDateString('es-ES', { day: '2-digit', month: 'short', year: 'numeric' });
+
+        if (daysLeft <= 0) {
+          metaTokenExpiryBadge.textContent = `🔴 Token Vencido (${expDateStr})`;
+          metaTokenExpiryBadge.style.background = 'rgba(239,68,68,0.2)';
+          metaTokenExpiryBadge.style.borderColor = 'rgba(239,68,68,0.5)';
+          metaTokenExpiryBadge.style.color = '#fca5a5';
+          if (metaTokenExpiryAlertBox) {
+            metaTokenExpiryAlertBox.style.display = 'block';
+            metaTokenExpiryAlertTitle.textContent = `¡Tu Token de Instagram venció el ${expDateStr}! Renuévalo en 30 segundos:`;
+          }
+          socialWebhookConfigBox.style.display = 'block';
+        } else if (daysLeft <= 7) {
+          metaTokenExpiryBadge.textContent = `🟡 Vence en ${daysLeft} día(s) (${expDateStr})`;
+          metaTokenExpiryBadge.style.background = 'rgba(245,158,11,0.2)';
+          metaTokenExpiryBadge.style.borderColor = 'rgba(245,158,11,0.5)';
+          metaTokenExpiryBadge.style.color = '#fde68a';
+          if (metaTokenExpiryAlertBox) {
+            metaTokenExpiryAlertBox.style.display = 'block';
+            metaTokenExpiryAlertTitle.textContent = `Aviso Preventivo: Tu Token de Instagram vence en ${daysLeft} día(s) (${expDateStr})`;
+          }
+        } else {
+          metaTokenExpiryBadge.textContent = `🟢 Token Activo · Vence ${expDateStr} (${daysLeft}d)`;
+          metaTokenExpiryBadge.style.background = 'rgba(16,185,129,0.15)';
+          metaTokenExpiryBadge.style.borderColor = 'rgba(16,185,129,0.4)';
+          metaTokenExpiryBadge.style.color = '#6ee7b7';
+          if (metaTokenExpiryAlertBox) metaTokenExpiryAlertBox.style.display = 'none';
+        }
+      }
 
       function getCustomCompanyHandles() {
         try {
@@ -3930,22 +4001,34 @@ ${currentBody.slice(0, 7000)}`;
         }
         updateCompanyBadgeCount();
         updateSocialImageStatus();
+        updateMetaTokenExpiryUI();
       }
 
       if (btnToggleWebhookConfig) {
         btnToggleWebhookConfig.addEventListener('click', () => {
           const isHidden = socialWebhookConfigBox.style.display === 'none';
           socialWebhookConfigBox.style.display = isHidden ? 'block' : 'none';
+          if (metaTokenExpiryAlertBox) {
+            metaTokenExpiryAlertBox.style.display = isHidden ? 'block' : 'none';
+          }
         });
       }
 
       if (btnSaveWebhookUrl) {
         btnSaveWebhookUrl.addEventListener('click', () => {
+          const prevToken = localStorage.getItem(META_TOKEN_KEY) || '';
+          const newToken = metaAccessTokenInput ? metaAccessTokenInput.value.trim() : '';
           if (socialWebhookUrlInput) localStorage.setItem(SOCIAL_WEBHOOK_STORAGE_KEY, socialWebhookUrlInput.value.trim());
-          if (metaAccessTokenInput) localStorage.setItem(META_TOKEN_KEY, metaAccessTokenInput.value.trim());
+          if (metaAccessTokenInput) localStorage.setItem(META_TOKEN_KEY, newToken);
           if (metaIgIdItnewsInput) localStorage.setItem(META_ID_ITNEWS_KEY, metaIgIdItnewsInput.value.trim());
           if (metaIgIdErinconInput) localStorage.setItem(META_ID_ERINCON_KEY, metaIgIdErinconInput.value.trim());
-          showToast('Configuración automática guardada en tu navegador', 'success');
+          if (newToken && newToken !== prevToken) {
+            // Registrar nueva vigencia de 60 días automáticamente al guardar un token nuevo
+            const sixtyDaysFromNow = Date.now() + (60 * 86400000);
+            localStorage.setItem(META_TOKEN_EXPIRY_KEY, String(sixtyDaysFromNow));
+          }
+          updateMetaTokenExpiryUI();
+          showToast('Credenciales guardadas (Vigencia de 60 días actualizada)', 'success');
         });
       }
 
