@@ -1434,43 +1434,33 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
             </span>
             <div style="display:flex; align-items:center; gap:8px;">
               <button type="button" id="btnToggleWebhookConfig" class="nav-btn" style="padding:4px 10px; font-size:11.5px; border-color:rgba(244,114,182,0.4); color:#f9a8d4;">
-                <i class="ri-links-line"></i> Configurar Disparo Instantáneo (IFTTT Webhook)
+                <i class="ri-settings-4-line"></i> Configurar API Directa de Meta (Opcional)
               </button>
             </div>
           </div>
 
-          <!-- Configuración de Webhook Instantáneo (IFTTT sin bloqueo en Venezuela) -->
+          <!-- Configuración de API Directa de Meta (graph.facebook.com - Gratis y sin bloqueos en Venezuela) -->
           <div id="socialWebhookConfigBox" style="display:none; margin-bottom:16px; padding:14px; background:rgba(15, 23, 42, 0.85); border:1px dashed rgba(244, 114, 182, 0.45); border-radius:10px;">
             <div style="font-size:12.5px; font-weight:700; color:#f9a8d4; margin-bottom:6px;">
-              <i class="ri-flashlight-fill"></i> Disparo Instantáneo con tu misma cuenta de IFTTT (Sin bloqueos en Venezuela — Salida en 2 segundos)
+              <i class="ri-Meta-fill"></i> Conexión Directa a la API Oficial de Instagram (<code>graph.facebook.com</code> — 100% Gratis, Sin IFTTT ni Buffer)
             </div>
             <p style="font-size:11.5px; color:var(--text-muted); margin-bottom:10px; line-height:1.5;">
-              En lugar de usar el lector RSS lento de IFTTT (que tarda hasta 1 día), usa el conector <strong>Webhooks de IFTTT</strong>. Solo pega aquí tu <strong>URL o Clave de IFTTT Webhooks</strong> (la obtienes en <a href="https://ifttt.com/maker_webhooks/settings" target="_blank" style="color:var(--accent);">ifttt.com/maker_webhooks/settings</a>):
+              Si deseas que el panel publique solo sin siquiera abrir Meta Business Suite, pega tu <strong>Access Token de Meta</strong> (desde <a href="https://developers.facebook.com/tools/explorer/" target="_blank" style="color:var(--accent);">Graph API Explorer</a> con permisos <code>instagram_basic</code> e <code>instagram_content_publish</code>) y haz clic en <strong>"Auto-Detectar IDs"</strong>:
             </p>
             <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
-              <input type="text" id="socialWebhookUrlInput" class="input-text" placeholder="Pega tu clave de IFTTT Webhook o la URL https://maker.ifttt.com/use/TU_CLAVE" style="flex:1; min-width:260px; font-size:12px; font-family:'JetBrains Mono', monospace;">
-              <button type="button" id="btnSaveWebhookUrl" class="btn-token-save" style="background:#db2777; border-color:#db2777;">
-                <i class="ri-save-line"></i> Guardar Clave IFTTT
-              </button>
-              <button type="button" id="btnTestWebhook" class="btn-token-save" title="Envía una señal de prueba inmediata a IFTTT">
-                <i class="ri-flask-line"></i> Enviar Prueba
+              <input type="password" id="metaAccessTokenInput" class="input-text" placeholder="Token de Acceso de Meta (EAAB...)" style="flex:2; min-width:240px; font-size:12px; font-family:'JetBrains Mono', monospace;">
+              <button type="button" id="btnAutoDetectIgIds" class="btn-token-save" style="background:rgba(56, 189, 248, 0.18); border-color:rgba(56, 189, 248, 0.45); color:var(--accent);">
+                <i class="ri-search-eye-line"></i> 🔍 Auto-Detectar IDs de @itnewslat y @erinconm
               </button>
             </div>
-            <details style="font-size:11.5px; color:#cbd5e1; cursor:pointer;" open>
-              <summary style="color:#f9a8d4; font-weight:600;">📖 Cómo cambiar tu Applet en IFTTT de "RSS lento" a "Botón Instantáneo" (2 minutos)</summary>
-              <ol style="margin:8px 0 0 18px; line-height:1.65; color:var(--text-muted);">
-                <li>Entra en tu cuenta de IFTTT y abre <a href="https://ifttt.com/maker_webhooks" target="_blank" style="color:var(--accent);">ifttt.com/maker_webhooks</a> &rarr; haz clic en <strong>Documentation</strong> (arriba a la derecha). Ahí verás tu clave (<code>Your key is: ...</code>). Cópiala y pégala arriba.</li>
-                <li>En IFTTT haz clic en <strong>Create</strong> (Crear Applet):
-                  <ul style="margin-top:4px;">
-                    <li><strong>If This (Disparador):</strong> Busca <strong>Webhooks</strong> &rarr; elige <em>Receive a web request</em> &rarr; en <strong>Event Name</strong> escribe <code>itnewslat</code> (para la cuenta @itnewslat) o <code>erinconm</code> (si creas un 2do Applet para @erinconm).</li>
-                    <li><strong>Then That (Acción):</strong> Elige <strong>Instagram</strong> &rarr; <em>Create a photo post</em>:
-                      <br>&bull; En <strong>Photo URL</strong> pon: <code>{{Value1}}</code> <em>(el panel envía ahí siempre la Imagen Grande 1024x680 o 1080x1080)</em>.
-                      <br>&bull; En <strong>Caption</strong> pon: <code>{{Value2}}</code> <em>(el panel envía ahí el Titular Llamativo + Resumen Corto + @cuentas de empresas + #hashtags)</em>.
-                    </li>
-                  </ul>
-                </li>
-              </ol>
-            </details>
+            <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
+              <input type="text" id="metaIgIdItnewsInput" class="input-text" placeholder="ID numérico de @itnewslat (ej. 1784140...)" style="flex:1; min-width:180px; font-size:12px; font-family:'JetBrains Mono', monospace;">
+              <input type="text" id="metaIgIdErinconInput" class="input-text" placeholder="ID numérico de @erinconm (ej. 1784140...)" style="flex:1; min-width:180px; font-size:12px; font-family:'JetBrains Mono', monospace;">
+              <button type="button" id="btnSaveWebhookUrl" class="btn-token-save" style="background:#db2777; border-color:#db2777;">
+                <i class="ri-save-line"></i> Guardar Credenciales Meta
+              </button>
+            </div>
+            <input type="hidden" id="socialWebhookUrlInput" value="">
           </div>
 
           <!-- Selector de Cuentas Destino y Control de Salida -->
@@ -1549,12 +1539,20 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
           </div>
 
           <!-- Botones de Acción Inmediata en Redes -->
-          <div style="display:flex; gap:10px; flex-wrap:wrap;">
-            <button type="button" id="btnSendSocialNow" class="nav-btn" style="flex:2; justify-content:center; background:linear-gradient(135deg, #10b981 0%, #059669 100%); color:#fff; border:none; padding:11px 16px; font-weight:700; font-size:13.5px;">
-              <i class="ri-send-plane-2-fill"></i> 🚀 Publicar Ahora en Instagram (@itnewslat / @erinconm)
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:8px;">
+            <button type="button" id="btnOpenMetaSuite" class="nav-btn" style="flex:2; justify-content:center; background:linear-gradient(135deg, #2563eb 0%, #db2777 100%); color:#fff; border:none; padding:12px 16px; font-weight:700; font-size:13.5px;" title="Copia el resumen con @cuentas, descarga la foto grande (1024x680 o 1080x1080) y abre Meta Business Suite para publicar en @itnewslat y @erinconm">
+              <i class="ri-share-box-line"></i> 📲 1-Clic: Copiar Resumen + Descargar Foto Grande + Abrir Meta Business Suite
             </button>
             <button type="button" id="btnCopySocialCaption" class="nav-btn" style="flex:1; justify-content:center; padding:11px 14px; font-weight:600; font-size:12.5px;">
-              <i class="ri-file-copy-2-line"></i> Copiar Resumen + @Cuentas
+              <i class="ri-file-copy-2-line"></i> Solo Copiar Texto
+            </button>
+          </div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <button type="button" id="btnDownloadSocialImg" class="nav-btn" style="flex:1; justify-content:center; padding:9px 14px; font-weight:600; font-size:12px; border-color:rgba(56,189,248,0.35); color:var(--accent);">
+              <i class="ri-download-2-line"></i> Descargar Imagen Grande / 1080x1080
+            </button>
+            <button type="button" id="btnSendSocialNow" class="nav-btn" style="flex:1; justify-content:center; background:rgba(16, 185, 129, 0.16); color:#34d399; border-color:rgba(16, 185, 129, 0.4); padding:9px 14px; font-weight:700; font-size:12px;">
+              <i class="ri-send-plane-2-fill"></i> 🚀 Publicar Directo por API Meta (@itnewslat / @erinconm)
             </button>
           </div>
           <div id="socialSendFeedback" style="display:none; margin-top:10px; font-size:12px; padding:8px 12px; border-radius:8px;"></div>
@@ -3882,6 +3880,17 @@ ${currentBody.slice(0, 7000)}`;
       const btnCopySocialCaption = document.getElementById('btnCopySocialCaption');
       const socialSendFeedback = document.getElementById('socialSendFeedback');
 
+      const metaAccessTokenInput = document.getElementById('metaAccessTokenInput');
+      const metaIgIdItnewsInput = document.getElementById('metaIgIdItnewsInput');
+      const metaIgIdErinconInput = document.getElementById('metaIgIdErinconInput');
+      const btnAutoDetectIgIds = document.getElementById('btnAutoDetectIgIds');
+      const btnOpenMetaSuite = document.getElementById('btnOpenMetaSuite');
+      const btnDownloadSocialImg = document.getElementById('btnDownloadSocialImg');
+
+      const META_TOKEN_KEY = 'itnews_meta_graph_access_token';
+      const META_ID_ITNEWS_KEY = 'itnews_meta_ig_id_itnewslat';
+      const META_ID_ERINCON_KEY = 'itnews_meta_ig_id_erinconm';
+
       function getCustomCompanyHandles() {
         try {
           const raw = localStorage.getItem(CUSTOM_COMPANY_HANDLES_KEY);
@@ -3902,8 +3911,14 @@ ${currentBody.slice(0, 7000)}`;
       }
 
       function initSocialConfig() {
-        if (socialWebhookUrlInput) {
-          socialWebhookUrlInput.value = localStorage.getItem(SOCIAL_WEBHOOK_STORAGE_KEY) || '';
+        if (metaAccessTokenInput) {
+          metaAccessTokenInput.value = localStorage.getItem(META_TOKEN_KEY) || '';
+        }
+        if (metaIgIdItnewsInput) {
+          metaIgIdItnewsInput.value = localStorage.getItem(META_ID_ITNEWS_KEY) || '';
+        }
+        if (metaIgIdErinconInput) {
+          metaIgIdErinconInput.value = localStorage.getItem(META_ID_ERINCON_KEY) || '';
         }
         updateCompanyBadgeCount();
         updateSocialImageStatus();
@@ -3918,9 +3933,61 @@ ${currentBody.slice(0, 7000)}`;
 
       if (btnSaveWebhookUrl) {
         btnSaveWebhookUrl.addEventListener('click', () => {
-          const url = socialWebhookUrlInput.value.trim();
-          localStorage.setItem(SOCIAL_WEBHOOK_STORAGE_KEY, url);
-          showToast('Webhook de Make.com guardado en tu navegador', 'success');
+          if (metaAccessTokenInput) localStorage.setItem(META_TOKEN_KEY, metaAccessTokenInput.value.trim());
+          if (metaIgIdItnewsInput) localStorage.setItem(META_ID_ITNEWS_KEY, metaIgIdItnewsInput.value.trim());
+          if (metaIgIdErinconInput) localStorage.setItem(META_ID_ERINCON_KEY, metaIgIdErinconInput.value.trim());
+          showToast('Credenciales de API Meta guardadas en tu navegador', 'success');
+        });
+      }
+
+      if (btnAutoDetectIgIds) {
+        btnAutoDetectIgIds.addEventListener('click', async () => {
+          const token = (metaAccessTokenInput && metaAccessTokenInput.value.trim()) || localStorage.getItem(META_TOKEN_KEY) || '';
+          if (!token) {
+            alert('Pega primero tu Access Token de Meta en el campo de la izquierda.');
+            if (metaAccessTokenInput) metaAccessTokenInput.focus();
+            return;
+          }
+          localStorage.setItem(META_TOKEN_KEY, token);
+          const origHtml = btnAutoDetectIgIds.innerHTML;
+          btnAutoDetectIgIds.disabled = true;
+          btnAutoDetectIgIds.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Buscando cuentas...';
+          try {
+            const res = await fetch(`https://graph.facebook.com/v21.0/me/accounts?fields=name,instagram_business_account{id,username}&access_token=${encodeURIComponent(token)}`);
+            const data = await res.json();
+            if (data.error) throw new Error(data.error.message);
+            const pages = data.data || [];
+            let foundCount = 0;
+            pages.forEach(p => {
+              const ig = p.instagram_business_account;
+              if (ig && ig.id) {
+                const uname = (ig.username || '').toLowerCase();
+                if (uname.includes('itnews')) {
+                  metaIgIdItnewsInput.value = ig.id;
+                  localStorage.setItem(META_ID_ITNEWS_KEY, ig.id);
+                  foundCount++;
+                } else if (uname.includes('rincon')) {
+                  metaIgIdErinconInput.value = ig.id;
+                  localStorage.setItem(META_ID_ERINCON_KEY, ig.id);
+                  foundCount++;
+                } else if (!metaIgIdItnewsInput.value) {
+                  metaIgIdItnewsInput.value = ig.id;
+                  localStorage.setItem(META_ID_ITNEWS_KEY, ig.id);
+                  foundCount++;
+                }
+              }
+            });
+            if (foundCount > 0) {
+              showToast(`¡${foundCount} cuenta(s) de Instagram detectada(s) y guardada(s)!`, 'success');
+            } else {
+              alert('El token es válido pero no devolvió cuentas de Instagram vinculadas. Asegúrate de marcar los permisos instagram_basic y pages_show_list al generar el token.');
+            }
+          } catch (err) {
+            alert(`No se pudieron detectar los IDs: ${err.message}`);
+          } finally {
+            btnAutoDetectIgIds.disabled = false;
+            btnAutoDetectIgIds.innerHTML = origHtml;
+          }
         });
       }
 
@@ -4282,13 +4349,58 @@ ${currentBody.slice(0, 7000)}`;
         });
       }
 
-      window.sendSocialWebhookNow = async function(isSilentAuto = false, forcedFileName = null) {
-        const rawInput = (localStorage.getItem(SOCIAL_WEBHOOK_STORAGE_KEY) || (socialWebhookUrlInput && socialWebhookUrlInput.value) || '').trim();
-        if (!rawInput) {
+      async function downloadBestSocialImageToDisk() {
+        const imgUrl = getBestLargeSocialImageUrl();
+        const fileNameBase = sanitizeSlug(postTitle.value.trim() || 'itnews-social').slice(0, 45) || 'itnews-social';
+        try {
+          const response = await fetch(imgUrl);
+          const blob = await response.blob();
+          const blobUrl = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = blobUrl;
+          a.download = `${fileNameBase}-instagram.jpg`;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          setTimeout(() => URL.revokeObjectURL(blobUrl), 3000);
+          return true;
+        } catch (_) {
+          window.open(imgUrl, '_blank');
+          return false;
+        }
+      }
+
+      if (btnDownloadSocialImg) {
+        btnDownloadSocialImg.addEventListener('click', async () => {
+          await downloadBestSocialImageToDisk();
+          showToast('Imagen grande descargada a tu carpeta de Descargas', 'success');
+        });
+      }
+
+      if (btnOpenMetaSuite) {
+        btnOpenMetaSuite.addEventListener('click', async () => {
+          if (!socialCaptionTextarea.value.trim()) {
+            buildAndPopulateSocialCopy(true);
+          }
+          if (socialCaptionTextarea.value.trim()) {
+            await navigator.clipboard.writeText(socialCaptionTextarea.value.trim());
+          }
+          await downloadBestSocialImageToDisk();
+          showToast('¡Resumen copiado y Foto Grande descargada! Abriendo Meta Business Suite...', 'success');
+          window.open('https://business.facebook.com/latest/composer', '_blank', 'noopener');
+        });
+      }
+
+      window.sendSocialWebhookNow = async function(isSilentAuto = false) {
+        const metaToken = ((metaAccessTokenInput && metaAccessTokenInput.value) || localStorage.getItem(META_TOKEN_KEY) || '').trim();
+        const idItnews = ((metaIgIdItnewsInput && metaIgIdItnewsInput.value) || localStorage.getItem(META_ID_ITNEWS_KEY) || '').trim();
+        const idErincon = ((metaIgIdErinconInput && metaIgIdErinconInput.value) || localStorage.getItem(META_ID_ERINCON_KEY) || '').trim();
+
+        if (!metaToken || (!idItnews && !idErincon)) {
           if (!isSilentAuto) {
             socialWebhookConfigBox.style.display = 'block';
-            socialWebhookUrlInput.focus();
-            alert('Para publicar directo en segundos sin RSS, pega primero tu Clave de IFTTT Webhooks en el recuadro "Configurar Disparo Instantáneo (IFTTT Webhook)".');
+            if (metaAccessTokenInput) metaAccessTokenInput.focus();
+            alert('Para publicar por API directa sin abrir otra pestaña, ingresa tu Token de Meta en "Configurar API Directa de Meta".\n\nO usa el botón azul/rosa de arriba ("📲 1-Clic: Copiar Resumen + Descargar Foto Grande + Abrir Meta Business Suite") que no requiere ningún Token.');
           }
           return;
         }
@@ -4303,87 +4415,69 @@ ${currentBody.slice(0, 7000)}`;
         }
 
         const imageUrl = getBestLargeSocialImageUrl();
-        const fileName = forcedFileName || getFileName();
-        const postUrl = buildPublicPostUrl(fileName);
         const captionText = socialCaptionTextarea.value.trim();
-        const accounts = [];
-        if (socialAccItnews.checked) accounts.push('itnewslat');
-        if (socialAccErincon.checked) accounts.push('erinconm');
+        const targets = [];
+        if (socialAccItnews.checked && idItnews) targets.push({ name: '@itnewslat', id: idItnews });
+        if (socialAccErincon.checked && idErincon) targets.push({ name: '@erinconm', id: idErincon });
+
+        if (targets.length === 0) {
+          if (!isSilentAuto) alert('Falta el ID numérico de la cuenta de Instagram seleccionada. Usa el botón "Auto-Detectar IDs".');
+          return;
+        }
 
         const origBtnHtml = btnSendSocialNow.innerHTML;
         btnSendSocialNow.disabled = true;
-        btnSendSocialNow.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Enviando a Instagram...';
+        btnSendSocialNow.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Publicando en Instagram...';
 
         try {
-          // Detectar si es Clave/URL de IFTTT Webhooks o un Webhook genérico
-          const isGenericHttp = /^https?:\/\//i.test(rawInput) && !rawInput.includes('ifttt.com');
-
-          if (!isGenericHttp) {
-            // Extraer clave limpia de IFTTT (acepta la clave sola, /use/KEY o /with/key/KEY)
-            let iftttKey = rawInput;
-            const mUse = rawInput.match(/\/use\/([a-zA-Z0-9_-]+)/);
-            const mKey = rawInput.match(/\/with\/key\/([a-zA-Z0-9_-]+)/);
-            if (mUse) iftttKey = mUse[1];
-            else if (mKey) iftttKey = mKey[1];
-
-            // Si el usuario pegó una URL completa con un evento específico (/trigger/MI_EVENTO/with/key/KEY), también disparamos ese evento
-            const mExplicitEvent = rawInput.match(/\/trigger\/([a-zA-Z0-9_-]+)\/with\/key\//);
-            const eventsToTrigger = mExplicitEvent ? [mExplicitEvent[1]] : accounts;
-
-            const formBody = new URLSearchParams();
-            formBody.append('value1', imageUrl);
-            formBody.append('value2', captionText);
-            formBody.append('value3', postUrl);
-
-            for (const eventName of eventsToTrigger) {
-              const targetIftttUrl = `https://maker.ifttt.com/trigger/${encodeURIComponent(eventName)}/with/key/${encodeURIComponent(iftttKey)}`;
-              await fetch(targetIftttUrl, {
-                method: 'POST',
-                mode: 'no-cors',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
-                body: formBody.toString()
-              });
-            }
-          } else {
-            const payload = {
-              value1: imageUrl,
-              value2: captionText,
-              value3: postUrl,
-              title: postTitle.value.trim() || 'Noticia ITNEWS.LAT',
-              caption: captionText,
-              image_url: imageUrl,
-              post_url: postUrl,
-              mentions: socialMentionsInput.value.trim(),
-              accounts: accounts.join(','),
-              post_to_itnewslat: socialAccItnews.checked,
-              post_to_erinconm: socialAccErincon.checked,
-              country: (getSelectedCountries()[0] || 'Latinoamérica'),
-              category: getSelectedTag(),
-              timestamp: new Date().toISOString()
-            };
-            await fetch(rawInput, {
+          const publishedNames = [];
+          for (const target of targets) {
+            // Paso 1: Crear contenedor de media en Instagram Graph API
+            const createRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media`, {
               method: 'POST',
-              mode: 'no-cors',
-              headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
-              body: JSON.stringify(payload)
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: new URLSearchParams({
+                image_url: imageUrl,
+                caption: captionText,
+                access_token: metaToken
+              }).toString()
             });
+            const createData = await createRes.json();
+            if (createData.error || !createData.id) {
+              throw new Error(`${target.name}: ${(createData.error && createData.error.message) || 'No se pudo crear contenedor'}`);
+            }
+
+            // Paso 2: Publicar el contenedor en el feed de Instagram
+            const pubRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media_publish`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: new URLSearchParams({
+                creation_id: createData.id,
+                access_token: metaToken
+              }).toString()
+            });
+            const pubData = await pubRes.json();
+            if (pubData.error) {
+              throw new Error(`${target.name}: ${pubData.error.message}`);
+            }
+            publishedNames.push(target.name);
           }
 
           socialSendFeedback.style.display = 'block';
           socialSendFeedback.style.background = 'rgba(16, 185, 129, 0.14)';
           socialSendFeedback.style.border = '1px solid rgba(16, 185, 129, 0.4)';
           socialSendFeedback.style.color = '#6ee7b7';
-          socialSendFeedback.innerHTML = `<i class="ri-checkbox-circle-fill"></i> <strong>¡Disparo enviado en tiempo real!</strong> Orden enviada hacia <code>${accounts.map(a => '@' + a).join(' y ')}</code> con imagen grande (<code>${imageUrl.split('/').pop()}</code>).`;
-          showToast(`¡Publicación disparada al instante a ${accounts.map(a => '@' + a).join(' y ')}!`, 'success');
+          socialSendFeedback.innerHTML = `<i class="ri-checkbox-circle-fill"></i> <strong>¡Publicado en vivo en Instagram!</strong> Salida completada en <code>${publishedNames.join(' y ')}</code> con imagen grande (<code>${imageUrl.split('/').pop()}</code>).`;
+          showToast(`¡Publicado en vivo en ${publishedNames.join(' y ')}!`, 'success');
         } catch (err) {
           console.error(err);
           socialSendFeedback.style.display = 'block';
           socialSendFeedback.style.background = 'rgba(239, 68, 68, 0.14)';
           socialSendFeedback.style.border = '1px solid rgba(239, 68, 68, 0.4)';
           socialSendFeedback.style.color = '#fca5a5';
-          socialSendFeedback.innerHTML = `<i class="ri-error-warning-fill"></i> No se pudo enviar la señal (${err.message}). Verifica tu clave de IFTTT Webhooks.`;
+          socialSendFeedback.innerHTML = `<i class="ri-error-warning-fill"></i> Error de API Meta: ${err.message}`;
           if (!isSilentAuto) {
-            showToast(`Error al disparar Webhook: ${err.message}`, 'error');
+            showToast(`Error API Meta: ${err.message}`, 'error');
           }
         } finally {
           btnSendSocialNow.disabled = false;
@@ -4393,22 +4487,6 @@ ${currentBody.slice(0, 7000)}`;
 
       if (btnSendSocialNow) {
         btnSendSocialNow.addEventListener('click', () => window.sendSocialWebhookNow(false));
-      }
-
-      if (btnTestWebhook) {
-        btnTestWebhook.addEventListener('click', () => {
-          const url = socialWebhookUrlInput.value.trim();
-          if (!url) {
-            alert('Pega primero la URL del Webhook de Make.com.');
-            socialWebhookUrlInput.focus();
-            return;
-          }
-          localStorage.setItem(SOCIAL_WEBHOOK_STORAGE_KEY, url);
-          if (!postTitle.value.trim()) {
-            postTitle.value = 'Prueba de conexión instantánea desde el panel de ITNEWS.LAT';
-          }
-          window.sendSocialWebhookNow(false);
-        });
       }
 
       // Inicialización
