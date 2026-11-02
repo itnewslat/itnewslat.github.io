@@ -4741,6 +4741,7 @@ ${currentBody.slice(0, 7000)}`;
             }
 
             for (const target of targets) {
+              btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Subiendo imagen a ${target.name}...`;
               const createRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -4755,11 +4756,41 @@ ${currentBody.slice(0, 7000)}`;
                 throw new Error(`${target.name}: ${(createData.error && createData.error.message) || 'No se pudo crear contenedor'}`);
               }
 
+              const containerId = createData.id;
+
+              // Polling oficial de Meta: esperar a que el contenedor estÃ© en estado FINISHED
+              let isReady = false;
+              let attempts = 0;
+              const maxAttempts = 15; // Hasta ~30 segundos de espera prudencial
+
+              while (!isReady && attempts < maxAttempts) {
+                attempts++;
+                btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Procesando en Meta (${target.name} ${attempts}/${maxAttempts})...`;
+                await new Promise(r => setTimeout(r, 2000));
+
+                try {
+                  const statusRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(containerId)}?fields=status_code,status&access_token=${encodeURIComponent(metaToken)}`);
+                  if (statusRes.ok) {
+                    const statusData = await statusRes.json();
+                    const sc = statusData.status_code;
+                    if (sc === 'FINISHED') {
+                      isReady = true;
+                      break;
+                    } else if (sc === 'ERROR' || sc === 'EXPIRED') {
+                      throw new Error(`Meta reportÃ³ error procesando la imagen (${sc})`);
+                    }
+                  }
+                } catch (pollErr) {
+                  console.warn(`[Meta Polling ${target.name}]`, pollErr);
+                }
+              }
+
+              btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Publicando en ${target.name}...`;
               const pubRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media_publish`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: new URLSearchParams({
-                  creation_id: createData.id,
+                  creation_id: containerId,
                   access_token: metaToken
                 }).toString()
               });
