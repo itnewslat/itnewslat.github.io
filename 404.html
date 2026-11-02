@@ -1,0 +1,499 @@
+---
+layout: null
+permalink: /404.html
+title: "Página no encontrada (404)"
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Nota o página no encontrada (404) | ITNEWS.LAT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://itnews.lat/404.html">
+
+  <!-- Bootstrap 4 & Tema ITNEWS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="/assets/css/theme-style.min.css" rel="stylesheet">
+  <link href="/assets/css/colour-red-dark.min.css" rel="stylesheet">
+  <link href="/assets/css/custom-style.css?v=20261102_404" rel="stylesheet">
+
+  <!-- Iconos y Tipografía -->
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+
+  <style>
+    :root {
+      --itn-red: #c9182b;
+      --itn-red-dark: #9e1220;
+      --itn-bg-dark: #0b0f19;
+      --itn-card-bg: rgba(255, 255, 255, 0.04);
+      --itn-border: rgba(255, 255, 255, 0.1);
+      --itn-text-muted: #94a3b8;
+    }
+
+    body.page-404 {
+      background-color: var(--itn-bg-dark);
+      color: #e2e8f0;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Ambient background glow */
+    body.page-404::before {
+      content: "";
+      position: absolute;
+      top: -150px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 650px;
+      height: 450px;
+      background: radial-gradient(circle, rgba(201, 24, 43, 0.22) 0%, rgba(158, 18, 32, 0.05) 50%, transparent 70%);
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .error-wrapper {
+      position: relative;
+      z-index: 1;
+      padding: 40px 0 60px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Top mini brand bar */
+    .brand-nav-bar {
+      border-bottom: 1px solid var(--itn-border);
+      background: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand-nav-bar .logo-img {
+      height: 38px;
+      width: auto;
+    }
+
+    /* 404 Hero Section */
+    .error-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: rgba(201, 24, 43, 0.15);
+      border: 1px solid rgba(201, 24, 43, 0.35);
+      border-radius: 999px;
+      color: #ff6b7a;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .error-code {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(80px, 14vw, 130px);
+      font-weight: 800;
+      line-height: 0.95;
+      background: linear-gradient(135deg, #ffffff 30%, #ff4b5c 70%, #c9182b 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 15px;
+      letter-spacing: -2px;
+    }
+
+    .error-title {
+      font-size: clamp(22px, 3.5vw, 32px);
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 12px;
+    }
+
+    .error-lead {
+      color: var(--itn-text-muted);
+      font-size: 15.5px;
+      max-width: 620px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    /* Live Search Box */
+    .search-card {
+      background: rgba(18, 24, 38, 0.7);
+      border: 1px solid var(--itn-border);
+      border-radius: 16px;
+      padding: 24px;
+      max-width: 620px;
+      margin: 0 auto 32px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    .search-input-group {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-input-group i.search-icon {
+      position: absolute;
+      left: 16px;
+      color: #64748b;
+      font-size: 18px;
+      pointer-events: none;
+    }
+
+    .search-input-group input {
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      color: #ffffff;
+      padding: 13px 16px 13px 46px;
+      font-size: 15px;
+      outline: none;
+      transition: all 0.25s ease;
+    }
+
+    .search-input-group input:focus {
+      border-color: #ef4444;
+      box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.25);
+    }
+
+    .search-results-box {
+      list-style: none;
+      padding: 0;
+      margin: 12px 0 0;
+      text-align: left;
+      max-height: 240px;
+      overflow-y: auto;
+      display: none;
+    }
+
+    .search-results-box li {
+      margin-bottom: 6px;
+    }
+
+    .search-results-box a {
+      display: block;
+      padding: 9px 14px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 8px;
+      color: #cbd5e1;
+      font-size: 13.5px;
+      text-decoration: none;
+      transition: all 0.2s;
+      border: 1px solid transparent;
+    }
+
+    .search-results-box a:hover {
+      background: rgba(201, 24, 43, 0.15);
+      border-color: rgba(201, 24, 43, 0.35);
+      color: #ffffff;
+    }
+
+    /* Action Buttons */
+    .action-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-bottom: 48px;
+    }
+
+    .btn-itn-primary {
+      background: linear-gradient(135deg, #c9182b 0%, #9e1220 100%);
+      color: #ffffff !important;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 12px 24px;
+      border-radius: 10px;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none !important;
+      box-shadow: 0 6px 16px rgba(201, 24, 43, 0.35);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-itn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 22px rgba(201, 24, 43, 0.45);
+    }
+
+    .btn-itn-secondary {
+      background: rgba(255, 255, 255, 0.06);
+      color: #e2e8f0 !important;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 12px 22px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none !important;
+      transition: all 0.2s;
+    }
+
+    .btn-itn-secondary:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.3);
+      color: #ffffff !important;
+      transform: translateY(-2px);
+    }
+
+    /* Suggested Latest News Grid */
+    .suggested-section {
+      border-top: 1px solid var(--itn-border);
+      padding-top: 36px;
+      max-width: 1080px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .suggested-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 22px;
+      text-align: left;
+    }
+
+    .suggested-header h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #f1f5f9;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .suggested-header a {
+      color: #ff6b7a;
+      font-size: 13.5px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .suggested-header a:hover {
+      text-decoration: underline;
+    }
+
+    .suggested-card {
+      background: rgba(18, 24, 38, 0.6);
+      border: 1px solid var(--itn-border);
+      border-radius: 12px;
+      overflow: hidden;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.25s, border-color 0.25s;
+      text-decoration: none !important;
+    }
+
+    .suggested-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(201, 24, 43, 0.4);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .suggested-card-img-wrap {
+      width: 100%;
+      height: 145px;
+      overflow: hidden;
+      background: #0f172a;
+    }
+
+    .suggested-card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .suggested-card:hover .suggested-card-img {
+      transform: scale(1.05);
+    }
+
+    .suggested-card-body {
+      padding: 14px 16px 18px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      text-align: left;
+    }
+
+    .suggested-card-meta {
+      font-size: 11px;
+      font-weight: 700;
+      color: #ff6b7a;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    .suggested-card-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.45;
+      color: #e2e8f0;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* Footer mini */
+    .mini-footer {
+      border-top: 1px solid var(--itn-border);
+      padding: 18px 0;
+      font-size: 12.5px;
+      color: #64748b;
+      background: rgba(11, 15, 25, 0.95);
+      position: relative;
+      z-index: 10;
+    }
+  </style>
+</head>
+
+<body class="page-404">
+
+  <!-- Top Brand Bar -->
+  <header class="brand-nav-bar py-2">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="/index.html" title="ITNEWS.LAT Portada">
+        <img src="https://itnews.lat/assets/imagenes/logo_large_red.png" alt="ITNEWS.LAT" class="logo-img">
+      </a>
+      <div class="d-flex align-items-center gap-2">
+        <a href="/app/" class="btn-itn-secondary py-1 px-3" style="font-size:12.5px;">
+          <i class="ri-smartphone-line"></i> Abrir APP
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Error & Search Section -->
+  <main class="error-wrapper">
+    <div class="container text-center">
+
+      <div class="error-badge">
+        <i class="ri-error-warning-line"></i> Error 404
+      </div>
+
+      <h1 class="error-code">404</h1>
+      <h2 class="error-title">Nota o página no encontrada</h2>
+      <p class="error-lead">
+        Lo sentimos, el artículo o recurso que buscas no está disponible. Es posible que el titular haya sido actualizado, el enlace esté desactualizado o haya cambiado de dirección.
+      </p>
+
+      <!-- Buscador en Vivo de Noticias -->
+      <div class="search-card">
+        <div class="search-input-group">
+          <i class="ri-search-2-line search-icon"></i>
+          <input type="text" id="liveSearchInput" placeholder="Busca por tema, empresa o palabra clave..." autocomplete="off">
+        </div>
+        <ul id="liveResultsContainer" class="search-results-box"></ul>
+      </div>
+
+      <!-- Botones de Navegación Rápida -->
+      <div class="action-buttons">
+        <a href="/index.html" class="btn-itn-primary">
+          <i class="ri-home-4-line"></i> Ir a la Portada
+        </a>
+        <a href="/app/" class="btn-itn-secondary">
+          <i class="ri-apps-2-line"></i> Abrir en la APP Móvil
+        </a>
+        <button type="button" onclick="history.back()" class="btn-itn-secondary" style="cursor:pointer;">
+          <i class="ri-arrow-left-line"></i> Volver atrás
+        </button>
+      </div>
+
+      <!-- Últimas Noticias Sugeridas -->
+      <div class="suggested-section">
+        <div class="suggested-header">
+          <h3><i class="ri-flashlight-line text-danger"></i> Últimas Noticias Publicadas</h3>
+          <a href="/index.html">Ver todas las noticias <i class="ri-arrow-right-line"></i></a>
+        </div>
+
+        <div class="row">
+          {% for post in site.posts limit:3 %}
+          {% assign postImg = post.image | default: post.detail-image | default: 'https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg' %}
+          <div class="col-12 col-md-4 mb-3 mb-md-0">
+            <a href="{{ post.url }}" class="suggested-card">
+              <div class="suggested-card-img-wrap">
+                <img src="{{ postImg }}" alt="{{ post.title | escape }}" class="suggested-card-img" loading="lazy" onerror="this.src='https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/itnewslat-p.jpg'">
+              </div>
+              <div class="suggested-card-body">
+                <span class="suggested-card-meta">
+                  {{ post.categories.first | default: 'Tecnología' }} &middot; {{ post.date | date: "%d/%m/%Y" }}
+                </span>
+                <h4 class="suggested-card-title">{{ post.title }}</h4>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Mini Footer -->
+  <footer class="mini-footer text-center">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <span>&copy; {{ site.time | date: "%Y" }} ITNEWS.LAT &middot; Todos los derechos reservados</span>
+      <div class="d-flex gap-3">
+        <a href="https://twitter.com/ITNEWSLAT" target="_blank" rel="noopener" class="text-secondary mx-2"><i class="fab fa-twitter"></i> Twitter/X</a>
+        <a href="https://instagram.com/ITNEWSLAT" target="_blank" rel="noopener" class="text-secondary mx-2"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://www.linkedin.com/company/itnewslat" target="_blank" rel="noopener" class="text-secondary mx-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Simple Search Engine Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.10.0/simple-jekyll-search.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var sInput = document.getElementById('liveSearchInput');
+      var rBox = document.getElementById('liveResultsContainer');
+
+      if (sInput && rBox) {
+        SimpleJekyllSearch({
+          searchInput: sInput,
+          resultsContainer: rBox,
+          json: '/search.json',
+          searchResultTemplate: '<li><a href="{url}"><i class="ri-file-text-line mr-1 text-danger"></i> {title}</a></li>',
+          noResultsText: '<li style="padding:10px; color:#94a3b8; font-size:13px;">No se encontraron noticias coincidentes</li>',
+          fuzzy: false
+        });
+
+        sInput.addEventListener('input', function() {
+          if (sInput.value.trim().length > 0) {
+            rBox.style.display = 'block';
+          } else {
+            rBox.style.display = 'none';
+          }
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>
