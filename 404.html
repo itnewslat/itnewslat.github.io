@@ -104,16 +104,25 @@ title: "Página no encontrada (404)"
       margin-bottom: 18px;
     }
 
-    .error-code {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: clamp(80px, 14vw, 130px);
-      font-weight: 800;
-      line-height: 0.95;
-      background: linear-gradient(135deg, #ffffff 30%, #ff4b5c 70%, #c9182b 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 15px;
-      letter-spacing: -2px;
+    .error-image-wrap {
+      max-width: 320px;
+      margin: 0 auto 20px;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--itn-border);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+      position: relative;
+    }
+
+    .error-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .error-image-wrap:hover .error-img {
+      transform: scale(1.03);
     }
 
     .error-title {
@@ -397,7 +406,9 @@ title: "Página no encontrada (404)"
         <i class="ri-error-warning-line"></i> Error 404
       </div>
 
-      <h1 class="error-code">404</h1>
+      <div class="error-image-wrap">
+        <img src="/assets/imagenes/404-error.jpg" alt="Página o nota no encontrada" class="error-img">
+      </div>
       <h2 class="error-title">Nota o página no encontrada</h2>
       <p class="error-lead">
         Lo sentimos, el artículo o recurso que buscas no está disponible. Es posible que el titular haya sido actualizado, el enlace esté desactualizado o haya cambiado de dirección.
@@ -497,3 +508,4 @@ title: "Página no encontrada (404)"
 
 </body>
 </html>
+
