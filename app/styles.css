@@ -1301,8 +1301,12 @@ body {
   display: block;
 }
 
-[data-theme="dark"] .brand-logo-img, [data-theme="dark"] .reader-brand-logo {
-  content: url('/assets/imagenes/logo_large_white.png');
+/* Logo theme switcher */
+.logo-dark { display: none !important; }
+.logo-light { display: block !important; }
+[data-theme="dark"] .logo-dark { display: block !important; }
+[data-theme="dark"] .logo-light { display: none !important; }
+
 }
 
 .reader-brand-divider {
