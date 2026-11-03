@@ -88,15 +88,27 @@
     'Argentina': '#74ACDF'
   };
 
+  // Init Theme - Dynamic Logo switcher based on light/dark mode
+  function updateThemeLogos(theme) {
+    const isDark = theme === 'dark';
+    const logoSrc = isDark ? '/assets/imagenes/logo_large_white.png' : 'https://itnews.lat/assets/imagenes/logo_large_red.png';
+    const brandLogo = document.querySelector('.brand-logo-img');
+    const readerLogo = document.querySelector('.reader-brand-logo');
+    if (brandLogo) brandLogo.src = logoSrc;
+    if (readerLogo) readerLogo.src = logoSrc;
+  }
+
   // Init Theme - Default to light theme
   const savedTheme = localStorage.getItem('itnews_theme') || 'light';
   document.documentElement.setAttribute('data-theme', savedTheme);
+  updateThemeLogos(savedTheme);
 
   themeToggleBtn.addEventListener('click', () => {
     const current = document.documentElement.getAttribute('data-theme');
     const next = current === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
     localStorage.setItem('itnews_theme', next);
+    updateThemeLogos(next);
   });
 
   // Known Latin American country names for category mapping (Orden alfabético)
