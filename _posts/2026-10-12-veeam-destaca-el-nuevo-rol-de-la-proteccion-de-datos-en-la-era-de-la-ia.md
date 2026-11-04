@@ -6,23 +6,31 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: "Veeam destaca el nuevo rol de la protección de datos en la era de la IA"
+title: "Dos décadas después, el panorama es completamente distinto"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Mauricio-Gonzalez-g.jpg
 detail-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/Mauricio-Gonzalez-g.jpg
 categories:
-    - Venezuela
-    - Colombia
-    - México
-    - Panamá
-    - Chile
     - Argentina
-    - Perú
+    - Chile
+    - Colombia
     - Ecuador
+    - México
+    - Mexico
+    - Panamá
+    - Panama
+    - Perú
+    - Peru
+    - Venezuela
 tags:
   - Canales
 week: '42'
+takeaways:
+  - "La inteligencia artificial representa un nuevo punto de inflexión."
+  - "En esta nueva era, marcada por la automatización y los agentes de IA, la confianza en los datos será una condición indispensable para innovar con seguridad."
+  - "De acuerdo con Veeam, los próximos años estarán definidos por la inteligencia artificial, la automatización y la necesidad de confianza continua en los datos."
+mentions: "@veeam"
 ---
 ### La compañía destaca cómo la protección de datos pasó de ser una función técnica de backup a convertirse en un pilar estratégico para la resiliencia, la ciberseguridad y la confianza en datos e IA
 
