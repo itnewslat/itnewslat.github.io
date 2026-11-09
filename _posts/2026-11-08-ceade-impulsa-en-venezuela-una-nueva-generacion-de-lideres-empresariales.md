@@ -21,6 +21,8 @@ takeaways:
   - "El objetivo es trasladar el aprendizaje más allá de los conceptos teóricos, promoviendo la discusión, el pensamiento crítico y la construcción colectiva de soluciones aplicables a la realidad de las organizaciones."
   - "Contaremos con profesores de estas instituciones para facilitar nuestros casos de estudio, además de tener a nuestra disposición más de 70 años de experiencia acumulada."
 mentions: "@monteavila @idademanagementschool"
+social-image: >-
+  https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/ceade-impulsa-en-venezuela-una-nueva-generacion-ig.jpg
 ---
 CEADE impulsa en Venezuela una nueva generación de líderes empresariales con formación internacional en alta dirección
 
