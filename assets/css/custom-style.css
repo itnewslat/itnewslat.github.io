@@ -699,4 +699,101 @@ body.country-argentina .article-byline-bar {
   border-left-color: #74ACDF !important;
 }
 
+/* ==========================================================================
+   Estilos Tipográficos y Formato Editorial para el Cuerpo de las Notas
+   ========================================================================== */
+.blog-article-body {
+  font-size: 16.5px;
+  line-height: 1.8;
+  color: #2b3340;
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin-top: 18px;
+  margin-bottom: 28px;
+  word-break: normal;
+}
+
+.blog-article-body p {
+  margin-bottom: 1.4rem;
+  line-height: 1.8;
+}
+
+/* Subtítulos H2 elegantes con distintivo */
+.blog-article-body h2 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 32px;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e2e8f0;
+  line-height: 1.35;
+  text-align: left;
+}
+
+/* Subtítulos H3 */
+.blog-article-body h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* Subtítulos H4 */
+.blog-article-body h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #334155;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+/* Citas y declaraciones destacadas (Blockquotes) */
+.blog-article-body blockquote {
+  margin: 24px 0;
+  padding: 16px 22px;
+  background: #f8fafc;
+  border-left: 4px solid var(--primary, #c92c2c);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #334155;
+  font-size: 16px;
+  line-height: 1.65;
+  text-align: left;
+}
+
+.blog-article-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Listas con viñetas y ordenadas */
+.blog-article-body ul,
+.blog-article-body ol {
+  margin-bottom: 1.4rem;
+  padding-left: 28px;
+  text-align: left;
+}
+
+.blog-article-body li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* Imágenes dentro de la nota */
+.blog-article-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 18px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+
 
