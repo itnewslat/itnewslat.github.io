@@ -1534,6 +1534,9 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
             <button type="button" id="btnBuildSocialCopy" class="nav-btn" style="flex:1; justify-content:center; background:linear-gradient(135deg, #db2777 0%, #9333ea 100%); color:#fff; border:none; padding:10px 14px; font-weight:700; font-size:13px;">
               <i class="ri-sparkling-2-fill"></i> ⚡ Generar Titular Llamativo + Resumen Corto + Detectar @Empresas
             </button>
+            <button type="button" id="btnRefreshSocialUrl" class="nav-btn" style="background:rgba(52, 211, 153, 0.14); color:#34d399; border-color:rgba(52, 211, 153, 0.4); padding:10px 14px; font-weight:700; font-size:12.5px;" title="Actualiza automáticamente la URL de la nota en el texto de redes según el titular actual">
+              <i class="ri-refresh-line"></i> 🔄 Actualizar Enlace URL
+            </button>
             <button type="button" id="btnGenerateIgCard" class="nav-btn" style="background:rgba(56, 189, 248, 0.14); color:var(--accent); border-color:rgba(56, 189, 248, 0.4); padding:10px 14px; font-weight:700; font-size:12.5px;" title="Crea y sube a GitHub una imagen cuadrada 1080x1080 con la foto grande, el titular y el logo de ITNEWS.LAT ideal para Instagram">
               <i class="ri-image-edit-line"></i> 🖼️ Crear Portada 1080x1080 con Titular
             </button>
@@ -2085,6 +2088,23 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
         }
       }
 
+      function syncSocialUrlWithCurrentSlug() {
+        if (!socialCaptionTextarea) return;
+        const currentText = socialCaptionTextarea.value;
+        if (!currentText || !currentText.trim()) return;
+
+        const newPostUrl = buildPublicPostUrl(getFileName());
+        const urlRegex = /https:\/\/itnews\.lat\/[^\s\n]+/i;
+
+        if (urlRegex.test(currentText)) {
+          const oldUrlMatch = currentText.match(urlRegex);
+          if (oldUrlMatch && oldUrlMatch[0] !== newPostUrl) {
+            socialCaptionTextarea.value = currentText.replace(urlRegex, newPostUrl);
+            updateSocialCaptionCounter();
+          }
+        }
+      }
+
       function updateSlug() {
         const fname = getFileName();
         slugPreview.innerHTML = `<i class="ri-file-text-line"></i> _posts/${fname}`;
@@ -2095,6 +2115,7 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
             quickImageBaseName.value = sanitizeSlug(rawTitle).slice(0, 48).replace(/-+$/, '');
           }
         }
+        syncSocialUrlWithCurrentSlug();
       }
 
       postTitle.addEventListener('input', updateSlug);
@@ -4398,6 +4419,19 @@ ${currentBody.slice(0, 7000)}`;
         btnBuildSocialCopy.addEventListener('click', () => {
           buildAndPopulateSocialCopy(true);
           showToast('¡Titular llamativo, resumen corto y @cuentas de empresas generados!', 'success');
+        });
+      }
+
+      const btnRefreshSocialUrl = document.getElementById('btnRefreshSocialUrl');
+      if (btnRefreshSocialUrl) {
+        btnRefreshSocialUrl.addEventListener('click', () => {
+          if (!socialCaptionTextarea.value.trim()) {
+            buildAndPopulateSocialCopy(true);
+            showToast('Resumen y enlace de redes generados con el nuevo titular', 'success');
+          } else {
+            syncSocialUrlWithCurrentSlug();
+            showToast('Enlace de la nota actualizado al nuevo titular en redes', 'success');
+          }
         });
       }
 
