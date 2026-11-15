@@ -3285,6 +3285,16 @@ ${currentBody.slice(0, 7000)}`;
 
           updateSlug();
           updateImagePreview();
+
+          // Resetear cualquier imagen previa de Historias o portada personalizada para no arrastrar la nota anterior
+          lastUploadedStoryCardUrl = '';
+          lastUploadedSourceFile = null;
+          if (socialCustomCardUrl) socialCustomCardUrl.value = '';
+          if (socialCaptionTextarea) {
+            socialCaptionTextarea.value = '';
+            buildAndPopulateSocialCopy(true);
+          }
+
           window.scrollTo({ top: editModeBanner.offsetTop - 90, behavior: 'smooth' });
           showToast('Nota cargada en modo edición. Realiza tus ajustes y presiona Guardar Cambios.', 'success');
         } catch (err) {
@@ -4500,7 +4510,10 @@ ${currentBody.slice(0, 7000)}`;
               reader.onload = (ev) => { im.src = ev.target.result; };
               reader.readAsDataURL(lastUploadedSourceFile);
             } else {
-              im.src = sourceUrl;
+              // Si la URL es de GitHub o externa, agregamos un timestamp anticache para asegurar que cargue la foto de la nota actual
+              const cleanUrl = sourceUrl.trim();
+              const sep = cleanUrl.includes('?') ? '&' : '?';
+              im.src = `${cleanUrl}${sep}_t=${Date.now()}`;
             }
           });
 
@@ -4636,7 +4649,10 @@ ${currentBody.slice(0, 7000)}`;
               reader.onload = (ev) => { im.src = ev.target.result; };
               reader.readAsDataURL(lastUploadedSourceFile);
             } else {
-              im.src = sourceUrl;
+              // Si la URL es de GitHub o externa, agregamos un timestamp anticache para asegurar que cargue la foto de la nota actual
+              const cleanUrl = sourceUrl.trim();
+              const sep = cleanUrl.includes('?') ? '&' : '?';
+              im.src = `${cleanUrl}${sep}_t=${Date.now()}`;
             }
           });
 
@@ -4788,8 +4804,9 @@ ${currentBody.slice(0, 7000)}`;
 
           const dataUrl = canvas.toDataURL('image/jpeg', 0.94);
           const base64 = dataUrl.split(',')[1];
-          const baseName = (quickImageBaseName.value.trim() || sanitizeSlug(headline).slice(0, 45) || `story-${Date.now()}`).replace(/-+$/, '');
-          const uploadedStoryUrl = await uploadAssetToGithub(`img/1024x680/${baseName}-story.jpg`, base64, token);
+          const baseName = (sanitizeSlug(headline).slice(0, 42) || `story-${Date.now()}`).replace(/-+$/, '');
+          const timestamp = Date.now();
+          const uploadedStoryUrl = await uploadAssetToGithub(`img/1024x680/${baseName}-story-${timestamp}.jpg`, base64, token);
 
           lastUploadedStoryCardUrl = uploadedStoryUrl;
           showToast('¡Portada vertical 9:16 para Historias creada y subida a GitHub!', 'success');
