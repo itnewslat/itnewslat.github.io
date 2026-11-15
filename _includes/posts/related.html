@@ -1,0 +1,75 @@
+<!-- Seccion: Te puede interesar (Noticias Relacionadas) -->
+{% assign currentTag = page.tags.first %}
+{% assign relatedCount = 0 %}
+
+<section class="itnews-related-posts" aria-label="Noticias Relacionadas">
+  <div class="itnews-related-header">
+    <div class="itnews-related-title-wrap">
+      <span class="itnews-related-icon"><i class="fas fa-newspaper"></i></span>
+      <h3 class="itnews-related-title">Te puede interesar</h3>
+    </div>
+    {% if currentTag %}
+    <span class="itnews-related-badge">{{ currentTag }}</span>
+    {% endif %}
+  </div>
+
+  <div class="itnews-related-grid">
+    {% comment %} 1. Buscar notas con la misma etiqueta temática {% endcomment %}
+    {% if currentTag and currentTag != "" %}
+      {% for post in site.posts %}
+        {% if post.url != page.url and post.tags contains currentTag %}
+          {% assign postImg = post.detail-image | default: post.image %}
+          {% assign postCat = post.categories.first | default: currentTag %}
+          <article class="itnews-related-card">
+            <a href="{{ post.url }}" class="itnews-related-thumb-link" tabindex="-1" aria-hidden="true">
+              <div class="itnews-related-thumb-wrap">
+                <img src="{{ postImg }}" alt="{{ post.title }}" loading="lazy" class="itnews-related-thumb" />
+                <span class="itnews-related-card-tag">{{ postCat }}</span>
+              </div>
+            </a>
+            <div class="itnews-related-content">
+              <div class="itnews-related-date">
+                <i class="far fa-calendar-alt"></i> {{ post.date | date: "%d/%m/%Y" }}
+              </div>
+              <h4 class="itnews-related-card-title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h4>
+            </div>
+          </article>
+          {% assign relatedCount = relatedCount | plus: 1 %}
+          {% if relatedCount >= 3 %}{% break %}{% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% comment %} 2. Respaldo: si hay menos de 3 notas con la misma etiqueta, rellenar con las más recientes {% endcomment %}
+    {% if relatedCount < 3 %}
+      {% for post in site.posts %}
+        {% if post.url != page.url %}
+          {% unless post.tags contains currentTag %}
+            {% assign postImg = post.detail-image | default: post.image %}
+            {% assign postCat = post.tags.first | default: post.categories.first | default: "Tecnología" %}
+            <article class="itnews-related-card">
+              <a href="{{ post.url }}" class="itnews-related-thumb-link" tabindex="-1" aria-hidden="true">
+                <div class="itnews-related-thumb-wrap">
+                  <img src="{{ postImg }}" alt="{{ post.title }}" loading="lazy" class="itnews-related-thumb" />
+                  <span class="itnews-related-card-tag">{{ postCat }}</span>
+                </div>
+              </a>
+              <div class="itnews-related-content">
+                <div class="itnews-related-date">
+                  <i class="far fa-calendar-alt"></i> {{ post.date | date: "%d/%m/%Y" }}
+                </div>
+                <h4 class="itnews-related-card-title">
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </h4>
+              </div>
+            </article>
+            {% assign relatedCount = relatedCount | plus: 1 %}
+            {% if relatedCount >= 3 %}{% break %}{% endif %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</section>
