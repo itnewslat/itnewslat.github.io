@@ -796,24 +796,24 @@ body.country-argentina .article-byline-bar {
 }
 
 /* ==========================================================================
-   Sección: Te puede interesar (Noticias Relacionadas)
+   Sección: Te puede interesar (Noticias Relacionadas en Horizontal)
    ========================================================================== */
 .itnews-related-posts {
   margin-top: 36px;
-  margin-bottom: 32px;
-  padding: 24px;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
+  margin-bottom: 28px;
+  padding: 20px 22px;
+  background: #fbfcfd;
+  border: 1px solid #edf1f5;
+  border-radius: 10px;
 }
 
 .itnews-related-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
-  padding-bottom: 12px;
-  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #edf1f5;
   flex-wrap: wrap;
   gap: 8px;
 }
@@ -821,123 +821,128 @@ body.country-argentina .article-byline-bar {
 .itnews-related-title-wrap {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .itnews-related-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
   background: var(--primary, #c92c2c);
   color: #ffffff;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .itnews-related-title {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #0f172a;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.2px;
 }
 
 .itnews-related-badge {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 700;
   color: var(--primary, #c92c2c);
   background: rgba(201, 44, 44, 0.08);
   border: 1px solid rgba(201, 44, 44, 0.2);
-  padding: 4px 10px;
-  border-radius: 20px;
+  padding: 3px 9px;
+  border-radius: 14px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
 }
 
-.itnews-related-grid {
+/* Fila horizontal con 3 columnas iguales */
+.itnews-related-grid-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
+  gap: 16px;
 }
 
-.itnews-related-card {
+/* Tarjeta individual con imagen reducida a la izquierda y texto a la derecha (estilo subitem del Home) */
+.itnews-related-item-h {
   display: flex;
-  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
   background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  border: 1px solid #eef2f6;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.2s ease;
 }
 
-.itnews-related-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.08);
+.itnews-related-item-h:hover {
+  background: #ffffff;
   border-color: #cbd5e1;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+  transform: translateY(-2px);
 }
 
 .itnews-related-thumb-link {
+  flex-shrink: 0;
   display: block;
-  text-decoration: none;
 }
 
+/* Miniatura reducida */
 .itnews-related-thumb-wrap {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  background: #0f172a;
+  width: 78px;
+  height: 60px;
+  border-radius: 6px;
   overflow: hidden;
+  background: #0f172a;
 }
 
 .itnews-related-thumb {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
   display: block;
+  transition: transform 0.25s ease;
 }
 
-.itnews-related-card:hover .itnews-related-thumb {
-  transform: scale(1.05);
-}
-
-.itnews-related-card-tag {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  background: rgba(15, 23, 42, 0.85);
-  backdrop-filter: blur(4px);
-  color: #ffffff;
-  font-size: 10.5px;
-  font-weight: 600;
-  padding: 3px 8px;
-  border-radius: 4px;
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
+.itnews-related-item-h:hover .itnews-related-thumb {
+  transform: scale(1.08);
 }
 
 .itnews-related-content {
   display: flex;
   flex-direction: column;
-  padding: 14px 14px 16px;
+  min-width: 0;
   flex: 1;
 }
 
-.itnews-related-date {
-  font-size: 11.5px;
+.itnews-related-meta {
+  font-size: 10.5px;
+  text-transform: uppercase;
+  font-weight: 700;
   color: #64748b;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
+}
+
+.itnews-related-tag-text {
+  color: var(--primary, #c92c2c);
+}
+
+.itnews-related-meta-sep {
+  color: #cbd5e1;
+}
+
+.itnews-related-date {
+  color: #94a3b8;
+  font-weight: 500;
 }
 
 .itnews-related-card-title {
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.35;
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -956,22 +961,18 @@ body.country-argentina .article-byline-bar {
   text-decoration: none;
 }
 
-/* Adaptación responsive */
+/* Responsividad */
 @media (max-width: 991px) {
-  .itnews-related-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .itnews-related-grid-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .itnews-related-thumb-wrap {
+    width: 86px;
+    height: 64px;
   }
 }
 
-@media (max-width: 575px) {
-  .itnews-related-posts {
-    padding: 16px;
-  }
-  .itnews-related-grid {
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-}
 
 
 

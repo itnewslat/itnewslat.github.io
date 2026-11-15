@@ -1,4 +1,4 @@
-<!-- Seccion: Te puede interesar (Noticias Relacionadas) -->
+<!-- Seccion: Te puede interesar (Noticias Relacionadas en Horizontal) -->
 {% assign currentTag = page.tags.first %}
 {% assign relatedCount = 0 %}
 
@@ -13,23 +13,24 @@
     {% endif %}
   </div>
 
-  <div class="itnews-related-grid">
+  <div class="itnews-related-grid-row">
     {% comment %} 1. Buscar notas con la misma etiqueta temática {% endcomment %}
     {% if currentTag and currentTag != "" %}
       {% for post in site.posts %}
         {% if post.url != page.url and post.tags contains currentTag %}
-          {% assign postImg = post.detail-image | default: post.image %}
+          {% assign postImg = post.image | default: post.detail-image %}
           {% assign postCat = post.categories.first | default: currentTag %}
-          <article class="itnews-related-card">
-            <a href="{{ post.url }}" class="itnews-related-thumb-link" tabindex="-1" aria-hidden="true">
+          <article class="itnews-related-item-h">
+            <a href="{{ post.url }}" class="itnews-related-thumb-link" aria-hidden="true" tabindex="-1">
               <div class="itnews-related-thumb-wrap">
                 <img src="{{ postImg }}" alt="{{ post.title }}" loading="lazy" class="itnews-related-thumb" />
-                <span class="itnews-related-card-tag">{{ postCat }}</span>
               </div>
             </a>
             <div class="itnews-related-content">
-              <div class="itnews-related-date">
-                <i class="far fa-calendar-alt"></i> {{ post.date | date: "%d/%m/%Y" }}
+              <div class="itnews-related-meta">
+                <span class="itnews-related-tag-text">{{ postCat }}</span>
+                <span class="itnews-related-meta-sep">/</span>
+                <span class="itnews-related-date"><i class="fa fa-clock-o"></i> {{ post.date | date: "%d/%m/%Y" }}</span>
               </div>
               <h4 class="itnews-related-card-title">
                 <a href="{{ post.url }}">{{ post.title }}</a>
@@ -47,18 +48,19 @@
       {% for post in site.posts %}
         {% if post.url != page.url %}
           {% unless post.tags contains currentTag %}
-            {% assign postImg = post.detail-image | default: post.image %}
+            {% assign postImg = post.image | default: post.detail-image %}
             {% assign postCat = post.tags.first | default: post.categories.first | default: "Tecnología" %}
-            <article class="itnews-related-card">
-              <a href="{{ post.url }}" class="itnews-related-thumb-link" tabindex="-1" aria-hidden="true">
+            <article class="itnews-related-item-h">
+              <a href="{{ post.url }}" class="itnews-related-thumb-link" aria-hidden="true" tabindex="-1">
                 <div class="itnews-related-thumb-wrap">
                   <img src="{{ postImg }}" alt="{{ post.title }}" loading="lazy" class="itnews-related-thumb" />
-                  <span class="itnews-related-card-tag">{{ postCat }}</span>
                 </div>
               </a>
               <div class="itnews-related-content">
-                <div class="itnews-related-date">
-                  <i class="far fa-calendar-alt"></i> {{ post.date | date: "%d/%m/%Y" }}
+                <div class="itnews-related-meta">
+                  <span class="itnews-related-tag-text">{{ postCat }}</span>
+                  <span class="itnews-related-meta-sep">/</span>
+                  <span class="itnews-related-date"><i class="fa fa-clock-o"></i> {{ post.date | date: "%d/%m/%Y" }}</span>
                 </div>
                 <h4 class="itnews-related-card-title">
                   <a href="{{ post.url }}">{{ post.title }}</a>
