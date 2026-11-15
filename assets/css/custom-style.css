@@ -796,24 +796,24 @@ body.country-argentina .article-byline-bar {
 }
 
 /* ==========================================================================
-   Sección: Te puede interesar (Noticias Relacionadas en Horizontal)
+   Sección: Te puede interesar (Tarjetas idénticas al Home)
    ========================================================================== */
 .itnews-related-posts {
   margin-top: 36px;
   margin-bottom: 28px;
-  padding: 20px 22px;
-  background: #fbfcfd;
-  border: 1px solid #edf1f5;
-  border-radius: 10px;
+  padding: 22px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
 }
 
 .itnews-related-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 16px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #edf1f5;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e2e8f0;
   flex-wrap: wrap;
   gap: 8px;
 }
@@ -856,120 +856,184 @@ body.country-argentina .article-byline-bar {
   letter-spacing: 0.4px;
 }
 
-/* Fila horizontal con 3 columnas iguales */
-.itnews-related-grid-row {
+/* Fila de 3 tarjetas en horizontal */
+.itnews-related-cards-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
-/* Tarjeta individual con imagen reducida a la izquierda y texto a la derecha (estilo subitem del Home) */
-.itnews-related-item-h {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
+/* Estilo exacto de la tarjeta de país del Home */
+.itnews-home-card {
   background: #ffffff;
-  border: 1px solid #eef2f6;
-  border-radius: 8px;
-  padding: 10px;
-  transition: all 0.2s ease;
-}
-
-.itnews-related-item-h:hover {
-  background: #ffffff;
-  border-color: #cbd5e1;
-  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
-  transform: translateY(-2px);
-}
-
-.itnews-related-thumb-link {
-  flex-shrink: 0;
-  display: block;
-}
-
-/* Miniatura reducida */
-.itnews-related-thumb-wrap {
-  width: 78px;
-  height: 60px;
-  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  border-top: 4px solid var(--primary, #c92c2c);
+  border-radius: 14px;
   overflow: hidden;
-  background: #0f172a;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.itnews-related-thumb {
+.itnews-home-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.09);
+  border-color: #94a3b8;
+}
+
+/* Cabecera de la tarjeta con nombre y badge */
+.itnews-home-card-header {
+  padding: 10px 14px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itnews-home-card-country-name {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: 0.2px;
+}
+
+.itnews-home-card-badge {
+  font-size: 10.5px;
+  font-weight: 600;
+  background: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #bfdbfe;
+  padding: 2px 7px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Imagen con altura controlada similar al Home */
+.itnews-home-card-thumb-link {
+  display: block;
+  text-decoration: none;
+}
+
+.itnews-home-card-thumb {
+  position: relative;
+  width: 100%;
+  height: 135px;
+  background: #0f172a;
+  overflow: hidden;
+}
+
+.itnews-home-card-thumb img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.25s ease;
+  transition: transform 0.4s ease;
 }
 
-.itnews-related-item-h:hover .itnews-related-thumb {
-  transform: scale(1.08);
+.itnews-home-card:hover .itnews-home-card-thumb img {
+  transform: scale(1.06);
 }
 
-.itnews-related-content {
+/* Etiqueta de fecha flotante */
+.itnews-home-card-date {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(4px);
+  padding: 2px 7px;
+  border-radius: 5px;
+  font-size: 10.5px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+}
+
+/* Cuerpo de la tarjeta */
+.itnews-home-card-body {
+  padding: 12px 14px 14px;
   display: flex;
   flex-direction: column;
-  min-width: 0;
   flex: 1;
 }
 
-.itnews-related-meta {
-  font-size: 10.5px;
-  text-transform: uppercase;
+.itnews-home-card-label {
+  font-size: 10px;
   font-weight: 700;
-  color: #64748b;
-  margin-bottom: 4px;
+  text-transform: uppercase;
+  color: #c91f28;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
   display: flex;
   align-items: center;
   gap: 4px;
 }
 
-.itnews-related-tag-text {
-  color: var(--primary, #c92c2c);
-}
-
-.itnews-related-meta-sep {
-  color: #cbd5e1;
-}
-
-.itnews-related-date {
-  color: #94a3b8;
-  font-weight: 500;
-}
-
-.itnews-related-card-title {
-  font-size: 12.5px;
+.itnews-home-card-title {
+  font-size: 13px;
   font-weight: 700;
-  line-height: 1.35;
-  margin: 0;
+  line-height: 1.4;
+  margin: 0 0 12px 0;
+  flex: 1;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.itnews-related-card-title a {
-  color: #1e293b;
+.itnews-home-card-title a {
+  color: #0f172a;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.itnews-related-card-title a:hover {
-  color: var(--primary, #c92c2c);
+.itnews-home-card-title a:hover {
+  color: #c91f28;
   text-decoration: none;
 }
 
-/* Responsividad */
+/* Botón CTA inferior */
+.itnews-home-card-cta {
+  margin-top: auto;
+}
+
+.itnews-home-card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.itnews-home-card-btn:hover {
+  background: #c91f28;
+  color: #ffffff;
+  border-color: #c91f28;
+  text-decoration: none;
+}
+
+/* Adaptación a dispositivos móviles */
 @media (max-width: 991px) {
-  .itnews-related-grid-row {
+  .itnews-related-cards-row {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 14px;
   }
-  .itnews-related-thumb-wrap {
-    width: 86px;
-    height: 64px;
+  .itnews-home-card-thumb {
+    height: 160px;
   }
 }
 
