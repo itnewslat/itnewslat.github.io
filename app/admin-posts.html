@@ -1530,6 +1530,22 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
             </label>
           </div>
 
+          <!-- Selector de Formato Instagram: Feed vs Historias (Stories) -->
+          <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; padding:10px 14px; background:rgba(236,72,153,0.12); border:1px solid rgba(236,72,153,0.3); border-radius:10px; margin-bottom:14px;">
+            <div style="display:flex; align-items:center; gap:15px; flex-wrap:wrap;">
+              <span style="font-size:12px; font-weight:700; color:#f472b6;"><i class="ri-instagram-line"></i> Formato Instagram:</span>
+              <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:12.5px; font-weight:600; color:#fff;" title="Publicación permanente en el muro de Instagram con texto, resumen y hashtags">
+                <input type="checkbox" id="socialIgFormatFeed" checked style="accent-color:#ec4899; width:15px; height:15px;">
+                <span>📰 Feed (Permanente)</span>
+              </label>
+              <label style="display:inline-flex; align-items:center; gap:6px; cursor:pointer; font-size:12.5px; font-weight:600; color:#fff;" title="Historia vertical 9:16 (1080x1920) de 24 horas para Instagram">
+                <input type="checkbox" id="socialIgFormatStory" style="accent-color:#f43f5e; width:15px; height:15px;">
+                <span>📱 Historias (Stories 24h)</span>
+              </label>
+            </div>
+            <span style="font-size:11px; color:#fbcfe8;">Elige Feed, Historias o Ambos para cada cuenta</span>
+          </div>
+
           <!-- Botón Generador de Resumen Corto + Detector de @Cuentas -->
           <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px;">
             <button type="button" id="btnBuildSocialCopy" class="nav-btn" style="flex:1; justify-content:center; background:linear-gradient(135deg, #db2777 0%, #9333ea 100%); color:#fff; border:none; padding:10px 14px; font-weight:700; font-size:13px;">
@@ -1538,8 +1554,11 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
             <button type="button" id="btnRefreshSocialUrl" class="nav-btn" style="background:rgba(52, 211, 153, 0.14); color:#34d399; border-color:rgba(52, 211, 153, 0.4); padding:10px 14px; font-weight:700; font-size:12.5px;" title="Actualiza automáticamente la URL de la nota en el texto de redes según el titular actual">
               <i class="ri-refresh-line"></i> 🔄 Actualizar Enlace URL
             </button>
-            <button type="button" id="btnGenerateIgCard" class="nav-btn" style="background:rgba(56, 189, 248, 0.14); color:var(--accent); border-color:rgba(56, 189, 248, 0.4); padding:10px 14px; font-weight:700; font-size:12.5px;" title="Crea y sube a GitHub una imagen cuadrada 1080x1080 con la foto grande, el titular y el logo de ITNEWS.LAT ideal para Instagram">
-              <i class="ri-image-edit-line"></i> 🖼️ Crear Portada 1080x1080 con Titular
+            <button type="button" id="btnGenerateIgCard" class="nav-btn" style="background:rgba(56, 189, 248, 0.14); color:var(--accent); border-color:rgba(56, 189, 248, 0.4); padding:10px 14px; font-weight:700; font-size:12.5px;" title="Crea y sube a GitHub una imagen cuadrada 1080x1080 con la foto grande, el titular y el logo de ITNEWS.LAT ideal para Instagram Feed">
+              <i class="ri-image-edit-line"></i> 🖼️ Portada Feed (1080x1080)
+            </button>
+            <button type="button" id="btnGenerateIgStoryCard" class="nav-btn" style="background:rgba(244, 63, 94, 0.14); color:#fb7185; border-color:rgba(244, 63, 94, 0.4); padding:10px 14px; font-weight:700; font-size:12.5px;" title="Crea y sube a GitHub una imagen vertical 9:16 (1080x1920) lista para Historias de Instagram">
+              <i class="ri-smartphone-line"></i> 📱 Portada Story (1080x1920)
             </button>
           </div>
 
@@ -4576,6 +4595,222 @@ ${currentBody.slice(0, 7000)}`;
         btnGenerateIgCard.addEventListener('click', generateAndUploadInstagramCard);
       }
 
+      // Generador de Portada Vertical 9:16 (1080x1920) para Historias de Instagram
+      let lastUploadedStoryCardUrl = '';
+      async function generateAndUploadInstagramStoryCard() {
+        const token = getActiveGhToken();
+        if (!token) {
+          alert('Ingresa primero tu GitHub Personal Access Token (PAT) arriba para subir la portada de Historias.');
+          ghTokenInput.focus();
+          return;
+        }
+
+        const headline = postTitle.value.trim();
+        if (!headline) {
+          alert('Ingresa primero el título de la nota para estamparlo en la portada de Historias.');
+          postTitle.focus();
+          return;
+        }
+
+        const sourceUrl = imgDetail.value.trim() || imgThumbnail.value.trim();
+        if (!lastUploadedSourceFile && !sourceUrl) {
+          alert('Sube primero una imagen o ingresa la URL de la imagen de la nota.');
+          return;
+        }
+
+        const btnStory = document.getElementById('btnGenerateIgStoryCard');
+        const origHtml = btnStory ? btnStory.innerHTML : '';
+        if (btnStory) {
+          btnStory.disabled = true;
+          btnStory.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Creando Story 9:16...';
+        }
+
+        try {
+          const imgObj = await new Promise((resolve, reject) => {
+            const im = new Image();
+            im.crossOrigin = 'anonymous';
+            im.onload = () => resolve(im);
+            im.onerror = () => reject(new Error('No se pudo cargar la imagen base'));
+            if (lastUploadedSourceFile) {
+              const reader = new FileReader();
+              reader.onload = (ev) => { im.src = ev.target.result; };
+              reader.readAsDataURL(lastUploadedSourceFile);
+            } else {
+              im.src = sourceUrl;
+            }
+          });
+
+          const WIDTH = 1080;
+          const HEIGHT = 1920;
+          const canvas = document.createElement('canvas');
+          canvas.width = WIDTH;
+          canvas.height = HEIGHT;
+          const ctx = canvas.getContext('2d');
+
+          // 1. Fondo estilizado con gradiente premium oscuro
+          const bgGrad = ctx.createLinearGradient(0, 0, 0, HEIGHT);
+          bgGrad.addColorStop(0, '#0a0d14');
+          bgGrad.addColorStop(0.4, '#111827');
+          bgGrad.addColorStop(1, '#05070a');
+          ctx.fillStyle = bgGrad;
+          ctx.fillRect(0, 0, WIDTH, HEIGHT);
+
+          // 2. Fondo difuminado sutil con la foto en opacidad baja
+          ctx.save();
+          ctx.globalAlpha = 0.22;
+          const bgScale = Math.max(WIDTH / imgObj.width, HEIGHT / imgObj.height);
+          const bgW = imgObj.width * bgScale;
+          const bgH = imgObj.height * bgScale;
+          ctx.drawImage(imgObj, (WIDTH - bgW) / 2, (HEIGHT - bgH) / 2, bgW, bgH);
+          ctx.restore();
+
+          // Velo oscuro general
+          ctx.fillStyle = 'rgba(10, 13, 20, 0.65)';
+          ctx.fillRect(0, 0, WIDTH, HEIGHT);
+
+          // 3. Cabecera limpia (Espacio superior despejado de 140px para la UI de Instagram)
+          // Marca ITNEWS.LAT
+          ctx.fillStyle = 'rgba(217, 35, 45, 0.96)';
+          ctx.fillRect(70, 150, 240, 52);
+          ctx.fillStyle = '#ffffff';
+          ctx.font = 'bold 26px sans-serif';
+          ctx.fillText('ITNEWS.LAT', 94, 186);
+
+          // Píldora de Edición / Noticia
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.12)';
+          ctx.fillRect(WIDTH - 300, 150, 230, 52);
+          ctx.fillStyle = '#f8fafc';
+          ctx.font = '600 22px sans-serif';
+          ctx.fillText('EDICIÓN DIGITAL', WIDTH - 275, 184);
+
+          // 4. Contenedor de la Imagen Principal (16:9 con sombra y esquinas elegantes)
+          const imgBoxX = 70;
+          const imgBoxY = 260;
+          const imgBoxW = WIDTH - 140; // 940px
+          const imgBoxH = 580;
+
+          // Sombra de la foto
+          ctx.save();
+          ctx.shadowColor = 'rgba(0, 0, 0, 0.55)';
+          ctx.shadowBlur = 30;
+          ctx.shadowOffsetY = 15;
+          ctx.fillStyle = '#0f172a';
+          ctx.fillRect(imgBoxX, imgBoxY, imgBoxW, imgBoxH);
+          ctx.restore();
+
+          // Dibujar la foto centrada en la caja
+          ctx.save();
+          ctx.beginPath();
+          ctx.rect(imgBoxX, imgBoxY, imgBoxW, imgBoxH);
+          ctx.clip();
+          const photoScale = Math.max(imgBoxW / imgObj.width, imgBoxH / imgObj.height);
+          const pW = imgObj.width * photoScale;
+          const pH = imgObj.height * photoScale;
+          ctx.drawImage(imgObj, imgBoxX + (imgBoxW - pW) / 2, imgBoxY + (imgBoxH - pH) / 2, pW, pH);
+          ctx.restore();
+
+          // 5. Etiqueta Temática y Fecha
+          const tag = getSelectedTag().toUpperCase();
+          const country = (getSelectedCountries()[0] || 'LATINOAMÉRICA').toUpperCase();
+          ctx.fillStyle = '#38bdf8';
+          ctx.font = 'bold 28px sans-serif';
+          ctx.fillText(`⚡ ${tag} · ${country}`, 74, 915);
+
+          // 6. Titular de Gran Impacto (mát. 4 líneas de texto blanco brillante)
+          ctx.fillStyle = '#ffffff';
+          ctx.font = 'bold 50px sans-serif';
+          const words = headline.split(/\s+/);
+          const lines = [];
+          let currLine = '';
+          for (const word of words) {
+            const testLine = currLine ? `${currLine} ${word}` : word;
+            if (ctx.measureText(testLine).width > WIDTH - 150) {
+              lines.push(currLine);
+              currLine = word;
+            } else {
+              currLine = testLine;
+            }
+          }
+          if (currLine) lines.push(currLine);
+
+          let yHeadline = 990;
+          lines.slice(0, 4).forEach(line => {
+            ctx.fillText(line, 74, yHeadline);
+            yHeadline += 66;
+          });
+
+          // 7. Puntos Clave o Resumen Ejecutivo destacado
+          const takeaways = (lastSeoResult && Array.isArray(lastSeoResult.takeaways) && lastSeoResult.takeaways.length > 0)
+            ? lastSeoResult.takeaways.slice(0, 2)
+            : [];
+
+          if (takeaways.length > 0) {
+            let yBullet = yHeadline + 30;
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.08)';
+            ctx.fillRect(70, yBullet - 35, WIDTH - 140, 220);
+            ctx.fillStyle = '#f1f5f9';
+            ctx.font = '500 24px sans-serif';
+
+            takeaways.forEach((tk) => {
+              const clean = tk.replace(/^[·•●▪◦‣⁃\-*–—]+\s*/, '').trim();
+              const bWords = clean.split(/\s+/);
+              let bLine = '📌 ';
+              for (const bw of bWords) {
+                if (ctx.measureText(bLine + ' ' + bw).width > WIDTH - 200) {
+                  ctx.fillText(bLine, 95, yBullet);
+                  yBullet += 36;
+                  bLine = '   ' + bw;
+                } else {
+                  bLine += (bLine === '📌 ' ? '' : ' ') + bw;
+                }
+              }
+              if (bLine.trim()) {
+                ctx.fillText(bLine, 95, yBullet);
+                yBullet += 45;
+              }
+            });
+          }
+
+          // 8. Llamada a la acción inferior (CTA)
+          ctx.fillStyle = '#ffffff';
+          ctx.fillRect(70, HEIGHT - 250, WIDTH - 140, 68);
+          ctx.fillStyle = '#0f172a';
+          ctx.font = 'bold 26px sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillText('🔗 ENLACE COMPLETO EN NUESTRA BIO O WEB', WIDTH / 2, HEIGHT - 208);
+          ctx.textAlign = 'left';
+
+          ctx.fillStyle = '#94a3b8';
+          ctx.font = '600 22px sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillText('@itnewslat · @erinconm · itnews.lat', WIDTH / 2, HEIGHT - 145);
+          ctx.textAlign = 'left';
+
+          const dataUrl = canvas.toDataURL('image/jpeg', 0.94);
+          const base64 = dataUrl.split(',')[1];
+          const baseName = (quickImageBaseName.value.trim() || sanitizeSlug(headline).slice(0, 45) || `story-${Date.now()}`).replace(/-+$/, '');
+          const uploadedStoryUrl = await uploadAssetToGithub(`img/1024x680/${baseName}-story.jpg`, base64, token);
+
+          lastUploadedStoryCardUrl = uploadedStoryUrl;
+          showToast('¡Portada vertical 9:16 para Historias creada y subida a GitHub!', 'success');
+          return uploadedStoryUrl;
+        } catch (err) {
+          console.error(err);
+          showToast(`No se pudo crear la historia: ${err.message}`, 'error');
+          return null;
+        } finally {
+          if (btnStory) {
+            btnStory.disabled = false;
+            btnStory.innerHTML = origHtml;
+          }
+        }
+      }
+
+      const btnGenerateIgStoryCardEl = document.getElementById('btnGenerateIgStoryCard');
+      if (btnGenerateIgStoryCardEl) {
+        btnGenerateIgStoryCardEl.addEventListener('click', generateAndUploadInstagramStoryCard);
+      }
+
       if (btnCopySocialCaption) {
         btnCopySocialCaption.addEventListener('click', () => {
           if (!socialCaptionTextarea.value.trim()) {
@@ -4776,64 +5011,143 @@ ${currentBody.slice(0, 7000)}`;
             }
 
             for (const target of targets) {
-              btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Subiendo imagen a ${target.name}...`;
-              const createRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams({
-                  image_url: imageUrl,
-                  caption: captionText,
-                  access_token: metaToken
-                }).toString()
-              });
-              const createData = await createRes.json();
-              if (createData.error || !createData.id) {
-                throw new Error(`${target.name}: ${(createData.error && createData.error.message) || 'No se pudo crear contenedor'}`);
+              const doFeed = Boolean(!socialIgFormatFeed || socialIgFormatFeed.checked);
+              const doStory = Boolean(socialIgFormatStory && socialIgFormatStory.checked);
+
+              if (!doFeed && !doStory) {
+                throw new Error('Selecciona al menos un formato para Instagram (Feed o Historias).');
               }
 
-              const containerId = createData.id;
+              // 1. Publicación en FEED (si está marcado)
+              if (doFeed) {
+                btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Subiendo al Feed de ${target.name}...`;
+                const createRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media`, {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                  body: new URLSearchParams({
+                    image_url: imageUrl,
+                    caption: captionText,
+                    access_token: metaToken
+                  }).toString()
+                });
+                const createData = await createRes.json();
+                if (createData.error || !createData.id) {
+                  throw new Error(`${target.name} (Feed): ${(createData.error && createData.error.message) || 'No se pudo crear contenedor'}`);
+                }
 
-              // Polling oficial de Meta: esperar a que el contenedor estÃ© en estado FINISHED
-              let isReady = false;
-              let attempts = 0;
-              const maxAttempts = 15; // Hasta ~30 segundos de espera prudencial
+                const containerId = createData.id;
+                let isReady = false;
+                let attempts = 0;
+                const maxAttempts = 15;
 
-              while (!isReady && attempts < maxAttempts) {
-                attempts++;
-                btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Procesando en Meta (${target.name} ${attempts}/${maxAttempts})...`;
-                await new Promise(r => setTimeout(r, 2000));
+                while (!isReady && attempts < maxAttempts) {
+                  attempts++;
+                  btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Procesando Feed en Meta (${target.name} ${attempts}/${maxAttempts})...`;
+                  await new Promise(r => setTimeout(r, 2000));
 
-                try {
-                  const statusRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(containerId)}?fields=status_code,status&access_token=${encodeURIComponent(metaToken)}`);
-                  if (statusRes.ok) {
-                    const statusData = await statusRes.json();
-                    const sc = statusData.status_code;
-                    if (sc === 'FINISHED') {
-                      isReady = true;
-                      break;
-                    } else if (sc === 'ERROR' || sc === 'EXPIRED') {
-                      throw new Error(`Meta reportÃ³ error procesando la imagen (${sc})`);
+                  try {
+                    const statusRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(containerId)}?fields=status_code,status&access_token=${encodeURIComponent(metaToken)}`);
+                    if (statusRes.ok) {
+                      const statusData = await statusRes.json();
+                      const sc = statusData.status_code;
+                      if (sc === 'FINISHED') {
+                        isReady = true;
+                        break;
+                      } else if (sc === 'ERROR' || sc === 'EXPIRED') {
+                        throw new Error(`Meta reportó error procesando imagen de Feed (${sc})`);
+                      }
                     }
+                  } catch (pollErr) {
+                    console.warn(`[Meta Polling Feed ${target.name}]`, pollErr);
                   }
-                } catch (pollErr) {
-                  console.warn(`[Meta Polling ${target.name}]`, pollErr);
+                }
+
+                btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Publicando Feed en ${target.name}...`;
+                const pubRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media_publish`, {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                  body: new URLSearchParams({
+                    creation_id: containerId,
+                    access_token: metaToken
+                  }).toString()
+                });
+                const pubData = await pubRes.json();
+                if (pubData.error) {
+                  throw new Error(`${target.name} (Feed): ${pubData.error.message}`);
                 }
               }
 
-              btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Publicando en ${target.name}...`;
-              const pubRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media_publish`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams({
-                  creation_id: containerId,
-                  access_token: metaToken
-                }).toString()
-              });
-              const pubData = await pubRes.json();
-              if (pubData.error) {
-                throw new Error(`${target.name}: ${pubData.error.message}`);
+              // 2. Publicación en HISTORIAS / STORIES (si está marcado)
+              if (doStory) {
+                let storyImgUrl = lastUploadedStoryCardUrl;
+                if (!storyImgUrl) {
+                  btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Generando portada vertical 9:16 para Story...`;
+                  storyImgUrl = await generateAndUploadInstagramStoryCard();
+                }
+
+                if (!storyImgUrl) {
+                  storyImgUrl = imageUrl;
+                }
+
+                btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Subiendo Historia a ${target.name}...`;
+                const storyCreateRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media`, {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                  body: new URLSearchParams({
+                    image_url: storyImgUrl,
+                    media_type: 'STORIES',
+                    access_token: metaToken
+                  }).toString()
+                });
+                const storyCreateData = await storyCreateRes.json();
+                if (storyCreateData.error || !storyCreateData.id) {
+                  throw new Error(`${target.name} (Historia): ${(storyCreateData.error && storyCreateData.error.message) || 'No se pudo crear historia'}`);
+                }
+
+                const storyContainerId = storyCreateData.id;
+                let storyReady = false;
+                let storyAttempts = 0;
+                const maxStoryAttempts = 15;
+
+                while (!storyReady && storyAttempts < maxStoryAttempts) {
+                  storyAttempts++;
+                  btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Procesando Historia en Meta (${target.name} ${storyAttempts}/${maxStoryAttempts})...`;
+                  await new Promise(r => setTimeout(r, 2000));
+
+                  try {
+                    const statusRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(storyContainerId)}?fields=status_code,status&access_token=${encodeURIComponent(metaToken)}`);
+                    if (statusRes.ok) {
+                      const statusData = await statusRes.json();
+                      const sc = statusData.status_code;
+                      if (sc === 'FINISHED') {
+                        storyReady = true;
+                        break;
+                      } else if (sc === 'ERROR' || sc === 'EXPIRED') {
+                        throw new Error(`Meta reportó error en imagen de Historia (${sc})`);
+                      }
+                    }
+                  } catch (pollErr) {
+                    console.warn(`[Meta Polling Story ${target.name}]`, pollErr);
+                  }
+                }
+
+                btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Publicando Historia en ${target.name}...`;
+                const pubStoryRes = await fetch(`https://graph.facebook.com/v21.0/${encodeURIComponent(target.id)}/media_publish`, {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                  body: new URLSearchParams({
+                    creation_id: storyContainerId,
+                    access_token: metaToken
+                  }).toString()
+                });
+                const pubStoryData = await pubStoryRes.json();
+                if (pubStoryData.error) {
+                  throw new Error(`${target.name} (Historia): ${pubStoryData.error.message}`);
+                }
               }
-              publishedNames.push(target.name);
+
+              const formatLabel = (doFeed && doStory) ? 'Feed + Historia' : (doStory ? 'Historia' : 'Feed');
+              publishedNames.push(`${target.name} (${formatLabel})`);
             }
           }
 
