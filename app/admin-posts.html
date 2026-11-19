@@ -4862,13 +4862,18 @@ ${currentBody.slice(0, 7000)}`;
             });
           }
 
-          // 8. Llamada a la acción inferior (CTA)
+          // 8. Llamada a la acción inferior (CTA) con anuncio de la APP
+          ctx.fillStyle = '#38bdf8';
+          ctx.font = '700 23px sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillText('📲 Información en ITNEWS.LAT/APP · ¡Descárgala!', WIDTH / 2, HEIGHT - 272);
+
           ctx.fillStyle = '#ffffff';
-          ctx.fillRect(70, HEIGHT - 250, WIDTH - 140, 68);
+          ctx.fillRect(70, HEIGHT - 245, WIDTH - 140, 68);
           ctx.fillStyle = '#0f172a';
           ctx.font = 'bold 26px sans-serif';
           ctx.textAlign = 'center';
-          ctx.fillText('🔗 ENLACE COMPLETO EN NUESTRA BIO O WEB', WIDTH / 2, HEIGHT - 208);
+          ctx.fillText('🔗 ENLACE COMPLETO EN NUESTRA BIO O WEB', WIDTH / 2, HEIGHT - 203);
           ctx.textAlign = 'left';
 
           ctx.fillStyle = '#94a3b8';
