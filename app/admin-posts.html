@@ -1608,6 +1608,20 @@ Puedes usar el botón '✨ Auto-Formatear Nota' después de pegar desde Word, PD
             <input type="hidden" id="socialCustomCardUrl" value="">
           </div>
 
+          <!-- Previsualización de Portada Vertical 9:16 para Historias -->
+          <div id="socialStoryPreviewBox" style="display:none; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; padding:10px 12px; background:rgba(244, 63, 94, 0.08); border:1px solid rgba(244, 63, 94, 0.35); border-radius:8px; margin-bottom:14px; font-size:12px;">
+            <div style="display:flex; align-items:center; gap:10px; min-width:0; flex:1;">
+              <img id="socialStoryPreviewImg" src="" alt="Story Preview" style="width:42px; height:75px; object-fit:cover; border-radius:4px; border:1px solid rgba(244, 63, 94, 0.5); flex-shrink:0;">
+              <div style="min-width:0;">
+                <div style="color:#fecdd3; font-weight:700;"><i class="ri-smartphone-line"></i> Portada 9:16 Lista para Historias</div>
+                <div id="socialStoryPreviewText" style="color:var(--text-muted); font-size:11px; font-family:'JetBrains Mono', monospace; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"></div>
+              </div>
+            </div>
+            <button type="button" id="btnClearSocialStoryCard" class="btn-mini-action" style="border-color:rgba(244, 63, 94, 0.4); color:#fb7185; padding:4px 8px;" title="Descartar esta historia y regenerarla al publicar">
+              <i class="ri-delete-bin-line"></i> Descartar Story
+            </button>
+          </div>
+
           <!-- Botones de Acción Inmediata en Redes -->
           <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:8px;">
             <button type="button" id="btnSendSocialNow" class="nav-btn" style="flex:2; justify-content:center; background:linear-gradient(135deg, #10b981 0%, #059669 100%); color:#fff; border:none; padding:12px 16px; font-weight:700; font-size:13.5px;">
@@ -3288,7 +3302,9 @@ ${currentBody.slice(0, 7000)}`;
 
           // Resetear cualquier imagen previa de Historias o portada personalizada para no arrastrar la nota anterior
           lastUploadedStoryCardUrl = '';
+          lastUploadedStoryCardTitle = '';
           lastUploadedSourceFile = null;
+          if (typeof updateSocialStoryPreviewUI === 'function') updateSocialStoryPreviewUI();
           if (socialCustomCardUrl) socialCustomCardUrl.value = '';
           if (socialCaptionTextarea) {
             socialCaptionTextarea.value = '';
@@ -3878,6 +3894,9 @@ ${currentBody.slice(0, 7000)}`;
         if (typeof socialMentionsInput !== 'undefined' && socialMentionsInput) socialMentionsInput.value = '';
         if (typeof socialCaptionTextarea !== 'undefined' && socialCaptionTextarea) socialCaptionTextarea.value = '';
         if (typeof socialCustomCardUrl !== 'undefined' && socialCustomCardUrl) socialCustomCardUrl.value = '';
+        lastUploadedStoryCardUrl = '';
+        lastUploadedStoryCardTitle = '';
+        if (typeof updateSocialStoryPreviewUI === 'function') updateSocialStoryPreviewUI();
         if (typeof detectedMentionsChips !== 'undefined' && detectedMentionsChips) detectedMentionsChips.innerHTML = '';
         if (typeof socialSendFeedback !== 'undefined' && socialSendFeedback) socialSendFeedback.style.display = 'none';
         if (typeof updateSocialImageStatus === 'function') updateSocialImageStatus();
@@ -4473,6 +4492,91 @@ ${currentBody.slice(0, 7000)}`;
         });
       }
 
+      // Función auxiliar para cargar imagen en Canvas de manera ultra confiable (evita arrastrar archivos en memoria y problemas de CORS)
+      async function loadImageForCanvas(sourceUrl, preferUrlOverResidualFile = false) {
+        // Si hay una URL explícita de la nota (por ej. al editar una nota anterior), priorizar la URL y no usar archivos residuales de la sesión
+        const fileToUse = (preferUrlOverResidualFile && sourceUrl) ? null : lastUploadedSourceFile;
+
+        if (fileToUse) {
+          return new Promise((resolve, reject) => {
+            const im = new Image();
+            im.onload = () => resolve(im);
+            im.onerror = () => reject(new Error('No se pudo leer el archivo local de imagen'));
+            const reader = new FileReader();
+            reader.onload = (ev) => { im.src = ev.target.result; };
+            reader.onerror = () => reject(new Error('Error al leer FileReader'));
+            reader.readAsDataURL(fileToUse);
+          });
+        }
+
+        if (!sourceUrl) {
+          throw new Error('No hay URL de imagen disponible');
+        }
+
+        const cleanUrl = sourceUrl.trim();
+        const sep = cleanUrl.includes('?') ? '&' : '?';
+        const finalUrl = `${cleanUrl}${sep}_t=${Date.now()}`;
+
+        // Intento 1: Image element estándar con crossOrigin
+        try {
+          return await new Promise((resolve, reject) => {
+            const im = new Image();
+            im.crossOrigin = 'anonymous';
+            im.onload = () => resolve(im);
+            im.onerror = () => reject(new Error('Fallo Image crossOrigin'));
+            im.src = finalUrl;
+          });
+        } catch (e1) {
+          // Intento 2: Fetch Blob fallback (muy efectivo con GitHub raw assets y CDN)
+          try {
+            const res = await fetch(finalUrl, { cache: 'no-store' });
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const blob = await res.blob();
+            const blobUrl = URL.createObjectURL(blob);
+            return await new Promise((resolve, reject) => {
+              const im = new Image();
+              im.onload = () => {
+                URL.revokeObjectURL(blobUrl);
+                resolve(im);
+              };
+              im.onerror = () => {
+                URL.revokeObjectURL(blobUrl);
+                reject(new Error('Fallo al renderizar blob de imagen'));
+              };
+              im.src = blobUrl;
+            });
+          } catch (e2) {
+            throw new Error(`No se pudo cargar la imagen base de la nota: ${e2.message || e1.message}`);
+          }
+        }
+      }
+
+      function updateSocialStoryPreviewUI() {
+        const box = document.getElementById('socialStoryPreviewBox');
+        const img = document.getElementById('socialStoryPreviewImg');
+        const text = document.getElementById('socialStoryPreviewText');
+        if (!box) return;
+        if (lastUploadedStoryCardUrl) {
+          box.style.display = 'flex';
+          if (img) img.src = lastUploadedStoryCardUrl;
+          if (text) text.textContent = lastUploadedStoryCardUrl.split('/').pop() || lastUploadedStoryCardUrl;
+        } else {
+          box.style.display = 'none';
+          if (img) img.src = '';
+          if (text) text.textContent = '';
+        }
+      }
+
+      const btnClearSocialStoryCardEl = document.getElementById('btnClearSocialStoryCard');
+      if (btnClearSocialStoryCardEl) {
+        btnClearSocialStoryCardEl.addEventListener('click', () => {
+          lastUploadedStoryCardUrl = '';
+          lastUploadedStoryCardTitle = '';
+          updateSocialStoryPreviewUI();
+          showToast('Portada de Historia descartada. Se creará una nueva al publicar.', 'info');
+        });
+      }
+
       // Generador de Portada Cuadrada 1080x1080 con Titular y Logo para Instagram
       async function generateAndUploadInstagramCard() {
         const token = getActiveGhToken();
@@ -4500,22 +4604,7 @@ ${currentBody.slice(0, 7000)}`;
         btnGenerateIgCard.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Creando 1080x1080...';
 
         try {
-          const imgObj = await new Promise((resolve, reject) => {
-            const im = new Image();
-            im.crossOrigin = 'anonymous';
-            im.onload = () => resolve(im);
-            im.onerror = () => reject(new Error('No se pudo cargar la imagen base'));
-            if (lastUploadedSourceFile) {
-              const reader = new FileReader();
-              reader.onload = (ev) => { im.src = ev.target.result; };
-              reader.readAsDataURL(lastUploadedSourceFile);
-            } else {
-              // Si la URL es de GitHub o externa, agregamos un timestamp anticache para asegurar que cargue la foto de la nota actual
-              const cleanUrl = sourceUrl.trim();
-              const sep = cleanUrl.includes('?') ? '&' : '?';
-              im.src = `${cleanUrl}${sep}_t=${Date.now()}`;
-            }
-          });
+          const imgObj = await loadImageForCanvas(sourceUrl, true);
 
           const SIZE = 1080;
           const canvas = document.createElement('canvas');
@@ -4610,6 +4699,7 @@ ${currentBody.slice(0, 7000)}`;
 
       // Generador de Portada Vertical 9:16 (1080x1920) para Historias de Instagram
       let lastUploadedStoryCardUrl = '';
+      let lastUploadedStoryCardTitle = '';
       async function generateAndUploadInstagramStoryCard() {
         const token = getActiveGhToken();
         if (!token) {
@@ -4639,22 +4729,7 @@ ${currentBody.slice(0, 7000)}`;
         }
 
         try {
-          const imgObj = await new Promise((resolve, reject) => {
-            const im = new Image();
-            im.crossOrigin = 'anonymous';
-            im.onload = () => resolve(im);
-            im.onerror = () => reject(new Error('No se pudo cargar la imagen base'));
-            if (lastUploadedSourceFile) {
-              const reader = new FileReader();
-              reader.onload = (ev) => { im.src = ev.target.result; };
-              reader.readAsDataURL(lastUploadedSourceFile);
-            } else {
-              // Si la URL es de GitHub o externa, agregamos un timestamp anticache para asegurar que cargue la foto de la nota actual
-              const cleanUrl = sourceUrl.trim();
-              const sep = cleanUrl.includes('?') ? '&' : '?';
-              im.src = `${cleanUrl}${sep}_t=${Date.now()}`;
-            }
-          });
+          const imgObj = await loadImageForCanvas(sourceUrl, true);
 
           const WIDTH = 1080;
           const HEIGHT = 1920;
@@ -4809,6 +4884,8 @@ ${currentBody.slice(0, 7000)}`;
           const uploadedStoryUrl = await uploadAssetToGithub(`img/1024x680/${baseName}-story-${timestamp}.jpg`, base64, token);
 
           lastUploadedStoryCardUrl = uploadedStoryUrl;
+          lastUploadedStoryCardTitle = headline;
+          updateSocialStoryPreviewUI();
           showToast('¡Portada vertical 9:16 para Historias creada y subida a GitHub!', 'success');
           return uploadedStoryUrl;
         } catch (err) {
@@ -5096,8 +5173,11 @@ ${currentBody.slice(0, 7000)}`;
 
               // 2. Publicación en HISTORIAS / STORIES (si está marcado)
               if (doStory) {
+                const currentHeadline = postTitle.value.trim();
                 let storyImgUrl = lastUploadedStoryCardUrl;
-                if (!storyImgUrl) {
+
+                // Si la historia previa en memoria pertenece a otra nota o título, forzar nueva generación
+                if (!storyImgUrl || (lastUploadedStoryCardTitle && lastUploadedStoryCardTitle !== currentHeadline)) {
                   btnSendSocialNow.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Generando portada vertical 9:16 para Story...`;
                   storyImgUrl = await generateAndUploadInstagramStoryCard();
                 }
