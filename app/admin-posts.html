@@ -4862,24 +4862,89 @@ ${currentBody.slice(0, 7000)}`;
             });
           }
 
-          // 8. Llamada a la acción inferior (CTA) con anuncio de la APP
-          ctx.fillStyle = '#38bdf8';
-          ctx.font = '700 23px sans-serif';
-          ctx.textAlign = 'center';
-          ctx.fillText('📲 Información en ITNEWS.LAT/APP · ¡Descárgala!', WIDTH / 2, HEIGHT - 272);
+          // 8. Tarjeta Destacada de Descarga Directa de la APP (Alto Impacto Visual)
+          const cardX = 60;
+          const cardY = HEIGHT - 330;
+          const cardW = WIDTH - 120;
+          const cardH = 175;
+          const radius = 20;
 
+          // Fondo contenedor con gradiente oscuro y borde tecnológico brillante
+          const cardGrad = ctx.createLinearGradient(cardX, cardY, cardX + cardW, cardY + cardH);
+          cardGrad.addColorStop(0, 'rgba(15, 23, 42, 0.94)');
+          cardGrad.addColorStop(1, 'rgba(2, 6, 23, 0.97)');
+
+          ctx.save();
+          // Dibujar tarjeta con esquinas redondeadas
+          ctx.beginPath();
+          ctx.moveTo(cardX + radius, cardY);
+          ctx.lineTo(cardX + cardW - radius, cardY);
+          ctx.quadraticCurveTo(cardX + cardW, cardY, cardX + cardW, cardY + radius);
+          ctx.lineTo(cardX + cardW, cardY + cardH - radius);
+          ctx.quadraticCurveTo(cardX + cardW, cardY + cardH, cardX + cardW - radius, cardY + cardH);
+          ctx.lineTo(cardX + radius, cardY + cardH);
+          ctx.quadraticCurveTo(cardX, cardY + cardH, cardX, cardY + cardH - radius);
+          ctx.lineTo(cardX, cardY + radius);
+          ctx.quadraticCurveTo(cardX, cardY, cardX + radius, cardY);
+          ctx.closePath();
+
+          ctx.fillStyle = cardGrad;
+          ctx.fill();
+          ctx.lineWidth = 2.5;
+          ctx.strokeStyle = 'rgba(56, 189, 248, 0.75)';
+          ctx.stroke();
+
+          // Píldora superior tipo "NOVEDAD / ACCESO DIRECTO"
+          const pillW = 260;
+          const pillH = 32;
+          const pillX = (WIDTH - pillW) / 2;
+          const pillY = cardY + 16;
+          ctx.fillStyle = 'rgba(236, 72, 153, 0.22)';
+          ctx.strokeStyle = 'rgba(244, 114, 182, 0.7)';
+          ctx.lineWidth = 1.5;
+          ctx.beginPath();
+          ctx.roundRect ? ctx.roundRect(pillX, pillY, pillW, pillH, 16) : ctx.rect(pillX, pillY, pillW, pillH);
+          ctx.fill();
+          ctx.stroke();
+
+          ctx.fillStyle = '#f472b6';
+          ctx.font = 'bold 15px sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillText('⚡ LLEVA LAS NOTICIAS CONTIGO', WIDTH / 2, pillY + 21);
+
+          // Titular de alto impacto invitando a la APP
           ctx.fillStyle = '#ffffff';
-          ctx.fillRect(70, HEIGHT - 245, WIDTH - 140, 68);
-          ctx.fillStyle = '#0f172a';
-          ctx.font = 'bold 26px sans-serif';
+          ctx.font = 'bold 31px sans-serif';
           ctx.textAlign = 'center';
-          ctx.fillText('🔗 ENLACE COMPLETO EN NUESTRA BIO O WEB', WIDTH / 2, HEIGHT - 203);
-          ctx.textAlign = 'left';
+          ctx.fillText('📲 Descarga la APP Oficial de ITNEWS.LAT', WIDTH / 2, cardY + 86);
 
-          ctx.fillStyle = '#94a3b8';
-          ctx.font = '600 22px sans-serif';
+          // Barra URL web directa de descarga con fondo contrastado
+          const urlBarW = cardW - 60;
+          const urlBarH = 46;
+          const urlBarX = (WIDTH - urlBarW) / 2;
+          const urlBarY = cardY + 108;
+          ctx.fillStyle = 'rgba(56, 189, 248, 0.16)';
+          ctx.strokeStyle = '#38bdf8';
+          ctx.lineWidth = 1.5;
+          ctx.beginPath();
+          ctx.roundRect ? ctx.roundRect(urlBarX, urlBarY, urlBarW, urlBarH, 10) : ctx.rect(urlBarX, urlBarY, urlBarW, urlBarH);
+          ctx.fill();
+          ctx.stroke();
+
+          ctx.fillStyle = '#38bdf8';
+          ctx.font = 'bold 22px monospace';
+          ctx.fillText('👉  ITNEWS.LAT/APP  👈', WIDTH / 2, urlBarY + 31);
+          ctx.restore();
+
+          // Barra inferior: Enlace en Bio y créditos
+          ctx.fillStyle = '#cbd5e1';
+          ctx.font = '600 21px sans-serif';
           ctx.textAlign = 'center';
-          ctx.fillText('@itnewslat · @erinconm · itnews.lat', WIDTH / 2, HEIGHT - 145);
+          ctx.fillText('🔗 Enlace completo disponible en nuestra BIO o WEB', WIDTH / 2, HEIGHT - 118);
+
+          ctx.fillStyle = '#64748b';
+          ctx.font = '500 18px sans-serif';
+          ctx.fillText('@itnewslat · @erinconm · itnews.lat', WIDTH / 2, HEIGHT - 82);
           ctx.textAlign = 'left';
 
           const dataUrl = canvas.toDataURL('image/jpeg', 0.94);
