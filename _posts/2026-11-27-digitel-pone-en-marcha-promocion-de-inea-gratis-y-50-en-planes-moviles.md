@@ -6,7 +6,7 @@ published: true
 superNews: false
 superArticle: false
 year: '2026'
-title: "Digitel pone en marcha promoción de ínea gratis y 50% en planes móviles"
+title: "Digitel pone en marcha promoción de línea gratis y 50% en planes móviles"
 image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/540x320/esta-navidad-digitel-pone-en-marcha-una-promocio-p.jpg
 detail-image: >-
