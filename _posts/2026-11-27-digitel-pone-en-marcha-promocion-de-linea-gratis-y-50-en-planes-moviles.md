@@ -24,7 +24,7 @@ mentions: "@digitel412"
 social-image: >-
   https://raw.githubusercontent.com/itnewslat/assets/refs/heads/master/img/1024x680/digitel-pone-en-marcha-promocion-de-inea-gratis-ig.jpg
 ---
-## Digitel ofrece línea gratis y 50% de descuento en planes móviles durante la temporada navideña.
+## Digitel ofrece línea gratis y 50% de descuento en planes móviles durante la temporada navideña
 
 La operadora presenta una promoción especial para que los usuarios disfruten el contenido completo de su plan pagando solo la mitad de la renta durante el primer mes.
 
